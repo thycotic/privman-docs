@@ -11,7 +11,7 @@
 - name: Privilege Manager User Guide
   items:
   - name: Local Security
-  - href: /guides/user/local_security.md
+    href: /guides/user/local_security.md
 - name: Integration Articles
   href: /integration/intro.md
   items:

@@ -1,0 +1,6 @@
+- name: Guides
+  href: guides/intro.md
+- name: KB Articles
+  href: kb_articles/intro.md
+- name: Privilege Manager API
+  href: pmapi/intro.md

@@ -1,0 +1,58 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+          ],
+          "cwd": "../",
+          "exclude": [
+            "**/obj/**",
+            "**/docs_PM/**",
+            "**/bin/**"]
+        }
+      ]
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "pmapi/**.md",
+          "kb_articles/**.md",
+          "guides/**.md",
+          "guides/**/**.md",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          "images/**/**"
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "files": [],
+        "exclude": [
+          "obj/**"
+        ]
+      }
+    ],
+    "dest": "docs_PM",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "template/thycotic"
+    ],
+    "postProcessors": [],
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false
+  }
+}

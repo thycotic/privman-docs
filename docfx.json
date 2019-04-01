@@ -19,7 +19,7 @@
       {
         "files": [
           "pmapi/**.md",
-          "kb_articles/**.md",
+          "integration/**.md",
           "guides/**.md",
           "guides/**/**.md",
           "toc.yml",

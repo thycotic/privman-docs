@@ -1,7 +1,7 @@
 ---
-uid: PM-Setting-Up-Azure-Active-Directory-Sync
-url: PM-Setting-Up-Azure-Active-Directory-Sync
-title: Setting Up Azure Active Directory Sync in Privilege Manager
+uid: set-up-privilege-manager-azure-ad-integration
+sf_url: PM-Setting-Up-Azure-Active-Directory-Sync
+title: Setting Up Azure Active Directory Integration in Privilege Manager
 description: This article guides the user through the set-up of Azure AD synchronization with Privilege Manager.
 author: NO VALUE SET
 date: 3/22/2019

@@ -1,6 +1,63 @@
-- name: Guides
-  href: guides/intro.md
-- name: KB Articles
-  href: kb_articles/intro.md
+- name: Privilege Manager User Documentation
+  href: /guides/intro.md
+- name: Feature Overview
+  href: /guides/feature_overview.md
+- name: Getting Started
+  items:
+  - name: System Requirements
+    href: /guides/getting_started/sysreq.md
+  - name: Installation
+    href: /guides/getting_started/installation.md
+- name: Privilege Manager User Guide
+  items:
+  - name: Local Security
+  - href: /guides/user/local_security.md
+- name: Integration Articles
+  href: /integration/intro.md
+  items:
+  - name: Setting Up Azure Active Directory Integration in Privilege Manager
+    href: /integration/set-up-privilege-manager-azure-ad-integration.md
 - name: Privilege Manager API
-  href: pmapi/intro.md
+  href: /api/intro.md
+  items:
+  - name: Agent Services
+    href: /api/agent_services.md
+  - name: Console and Internal Services
+    items:
+    - name: AgentTrustServices
+      href: /api/cis_agenttrust.md
+    - name: AssociationService
+      href: /api/cis_association.md
+    - name: ClassManagementService
+      href: /api/cis_classmanagement.md
+    - name: CollectionService
+      href: /api/cis_collection.md
+    - name: ConfigurationService
+      href: /api/cis_configuration.md
+    - name: DataClassService
+      href: /api/cis_dataclass.md
+    - name: DataSourceService
+      href: /api/cis_datasource.md
+    - name: EventAckService
+      href: /api/cis_eventack.md
+    - name: FileUploadService
+      href: /api/cis_fileupload.md
+    - name: GaugeService
+      href: /api/cis_gauge.md
+    - name: ItemManagementService
+      href: /api/cis_itemmanagement.md
+    - name: ItemsListService
+      href: /api/cis_itemslist.md
+    - name: LicensingService
+      href: /api/cis_licensing.md
+    - name: PresentationService
+      href: /api/cis_presentation.md
+    - name: ResourceService
+      href: /api/cis_resource.md
+    - name: SecurityManagementService
+      href: /api/cis_securitymanagement.md
+    - name: TaskService
+      href: /api/cis_task.md
+    - name: WorkerService
+      href: /api/cis_worker.md
+  homepage: index.md

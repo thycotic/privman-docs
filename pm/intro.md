@@ -1,11 +1,11 @@
----
+<!---
 uid: PM-Introduction
 url: PM-Introduction
 title: Privilege Manager Introduction
 description: This is an introduction article for Privilege Manager.
 author: NO VALUE SET
 date: 3/27/2019
----
+--->
 # Introduction to Privilege Manager
 
 Privilege Manager is an endpoint least privilege and application control solution for Windows and Macs. Using Privilege Manager, administrators can automatically discover local administrator privileges and enforce the principle of least privilege through policy-driven actions. Those policy-driven actions include
@@ -25,18 +25,18 @@ It is useful (although not necessary) for Privilege Manager Administrators to be
 
 ## Architecture Overview
 
-![PM Implementation Overview](../images/pm_estate.png)
+![PM Implementation Overview](../pm/ug/images/pm_estate.png)
 
 <!--
 ### General Architecture
 
-![PM General Architecture](../images/pm_arch.png)
+![PM General Architecture](../pm/ug/images/pm_arch.png)
 
 ### Cloud Architecture for Azure and Amazon AWS Hosted Environments
 
-![PM Cloud Architecture](../images/pm_arch_cloud.png)
+![PM Cloud Architecture](../pm/ug/images/pm_arch_cloud.png)
 
 ### Proxy or Azure Bus Architecture for Environments without Internet Access
 
-![PM No Internet](../images/pm_arch_nowww.png)
+![PM No Internet](../pm/ug/images/pm_arch_nowww.png)
 -->

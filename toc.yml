@@ -1,63 +1,62 @@
 - name: Privilege Manager User Documentation
-  href: /guides/intro.md
+  href: /pm/intro.md
 - name: Feature Overview
-  href: /guides/feature_overview.md
+  href: /pm/feature_overview.md
 - name: Getting Started
   items:
   - name: System Requirements
-    href: /guides/getting_started/sysreq.md
+    href: /pm/getting_started/sysreq.md
   - name: Installation
-    href: /guides/getting_started/installation.md
+    href: /pm/getting_started/installation.md
 - name: Privilege Manager User Guide
   items:
   - name: Local Security
-    href: /guides/user/local_security.md
+    href: /pm/ug/local_security.md
 - name: Integration Articles
-  href: /integration/intro.md
   items:
   - name: Setting Up Azure Active Directory Integration in Privilege Manager
-    href: /integration/set-up-privilege-manager-azure-ad-integration.md
+    href: /pm/integration/set-up-privilege-manager-azure-ad-integration.md
 - name: Privilege Manager API
-  href: /api/intro.md
+  href: /pmapi/intro.md
   items:
   - name: Agent Services
-    href: /api/agent_services.md
+    href: /pmapi/agent_services.md
   - name: Console and Internal Services
     items:
     - name: AgentTrustServices
-      href: /api/cis_agenttrust.md
+      href: /pmapi/cis_agenttrust.md
     - name: AssociationService
-      href: /api/cis_association.md
+      href: /pmapi/cis_association.md
     - name: ClassManagementService
-      href: /api/cis_classmanagement.md
+      href: /pmapi/cis_classmanagement.md
     - name: CollectionService
-      href: /api/cis_collection.md
+      href: /pmapi/cis_collection.md
     - name: ConfigurationService
-      href: /api/cis_configuration.md
+      href: /pmapi/cis_configuration.md
     - name: DataClassService
-      href: /api/cis_dataclass.md
+      href: /pmapi/cis_dataclass.md
     - name: DataSourceService
-      href: /api/cis_datasource.md
+      href: /pmapi/cis_datasource.md
     - name: EventAckService
-      href: /api/cis_eventack.md
+      href: /pmapi/cis_eventack.md
     - name: FileUploadService
-      href: /api/cis_fileupload.md
+      href: /pmapi/cis_fileupload.md
     - name: GaugeService
-      href: /api/cis_gauge.md
+      href: /pmapi/cis_gauge.md
     - name: ItemManagementService
-      href: /api/cis_itemmanagement.md
+      href: /pmapi/cis_itemmanagement.md
     - name: ItemsListService
-      href: /api/cis_itemslist.md
+      href: /pmapi/cis_itemslist.md
     - name: LicensingService
-      href: /api/cis_licensing.md
+      href: /pmapi/cis_licensing.md
     - name: PresentationService
-      href: /api/cis_presentation.md
+      href: /pmapi/cis_presentation.md
     - name: ResourceService
-      href: /api/cis_resource.md
+      href: /pmapi/cis_resource.md
     - name: SecurityManagementService
-      href: /api/cis_securitymanagement.md
+      href: /pmapi/cis_securitymanagement.md
     - name: TaskService
-      href: /api/cis_task.md
+      href: /pmapi/cis_task.md
     - name: WorkerService
-      href: /api/cis_worker.md
+      href: /pmapi/cis_worker.md
   homepage: index.md

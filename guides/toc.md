@@ -1,7 +1,0 @@
-#[Introduction to Privilege Manager](intro.md)
-#[Feature Overview](feature_overview.md)
-#[Getting Started]()
-##[System Requirements](getting_started/sysreq.md)
-##[Product Installation](getting_started/installation.md)
-#[Administrator's Guide]()
-#[User Guide]()

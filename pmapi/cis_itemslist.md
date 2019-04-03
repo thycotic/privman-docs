@@ -1,3 +1,6 @@
+[title]: # (Item List Service)
+[tags]: # (Console and Internal Services)
+[priority]: # (100) (edited) 
 # ItemsListService
 
 ## Path

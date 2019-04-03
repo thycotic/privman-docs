@@ -1,11 +1,6 @@
----
-uid: PM-Feature-Overview
-url: PM-Feature-Overview
-title: Privilege Manager Feature Overview
-description: This is a feature overview article for Privilege Manager.
-author: NO VALUE SET
-date: 3/27/2019
----
+[title]: # (Feature Overview)
+[tags]: # (Features, Overview)
+[priority]: # (100) (edited) 
 # Feature Overview
 
 ## Active Directory (On-premises; Azure AD coming with 10.6)

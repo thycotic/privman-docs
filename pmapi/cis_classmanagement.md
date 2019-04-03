@@ -1,3 +1,6 @@
+[title]: # (Class Management Service)
+[tags]: # (Console and Internal Services)
+[priority]: # (100) (edited) 
 # ClassManagementService
 
 ## Path

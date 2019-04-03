@@ -1,3 +1,6 @@
+[title]: # (Event Acknowledge Service)
+[tags]: # (Console and Internal Services)
+[priority]: # (100) (edited) 
 # EventAckService
 
 ## Path

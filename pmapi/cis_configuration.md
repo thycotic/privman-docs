@@ -1,3 +1,6 @@
+[title]: # (Configuration Service)
+[tags]: # (Console and Internal Services)
+[priority]: # (100) (edited) 
 # ConfigurationService
 
 ## Path

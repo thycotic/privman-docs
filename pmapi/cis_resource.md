@@ -1,3 +1,6 @@
+[title]: # (Resource Service)
+[tags]: # (Console and Internal Services)
+[priority]: # (100) (edited) 
 # ResourceService
 
 ## Path

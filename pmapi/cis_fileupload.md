@@ -1,3 +1,6 @@
+[title]: # (File Upload Service)
+[tags]: # (Console and Internal Services)
+[priority]: # (100) (edited) 
 # FileUploadService
 
 ## Path

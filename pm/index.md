@@ -1,6 +1,6 @@
 [title]: # (Introduction to Privilege Manager)
 [tags]: # (Privilege Manager,Intro,)
-[priority]: # (100) 
+[priority]: # (1) 
 # Introduction to Privilege Manager
 
 Privilege Manager is an endpoint least privilege and application control solution for Windows and Macs. Using Privilege Manager, administrators can automatically discover local administrator privileges and enforce the principle of least privilege through policy-driven actions. Those policy-driven actions include

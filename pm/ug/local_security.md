@@ -130,4 +130,4 @@ The Groups tab for a Local Account tells you how many groups and computers the a
 ### Statistics Tab
 
 The Statistics’ tab for a local user account highlights some quick visual statistics and links you to relevant reports based on key factors like how many computers from your network have this user account and whether there have been changes made to the User’s Membership within the specified period. Click on these graphs to drill down into more details.
-User-added image
+<User-added image>

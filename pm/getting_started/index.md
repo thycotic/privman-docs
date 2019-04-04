@@ -1,3 +1,3 @@
 [title]: # (Getting Started)
 [tags]: # (System, Installation)
-[priority]: # (100) 
+[priority]: # (50) 

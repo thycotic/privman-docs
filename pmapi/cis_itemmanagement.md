@@ -1,6 +1,6 @@
 [title]: # (Item Management Service)
 [tags]: # (Console and Internal Services)
-[priority]: # (100) (edited) 
+[priority]: # (100) 
 # ItemManagementService
 
 ## Path

@@ -1,6 +1,6 @@
 [title]: # (Task Service)
 [tags]: # (Console and Internal Services)
-[priority]: # (100) (edited) 
+[priority]: # (100) 
 # TaskService
 
 ## Path

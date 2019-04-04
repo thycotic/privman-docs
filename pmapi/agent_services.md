@@ -1,6 +1,6 @@
 [title]: # (Agent Services)
 [tags]: # (API,Agent,Services)
-[priority]: # (100) (edited) 
+[priority]: # (100) 
 # Agent Services
 
 ## AgentRegistrationV3

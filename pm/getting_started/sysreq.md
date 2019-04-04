@@ -1,11 +1,6 @@
----
-uid: PM-System-Requirements
-url: PM-System-Requirements
-title: Privilege Manager System Requirements
-description: This article provides information about system requirements for Privilege Manager.
-author: NO VALUE SET
-date: 3/22/2019
----
+[title]: # (Privilege Manager System Requirements)
+[tags]: # (System Requirements,Privilege Manager)
+[priority]: # (100)
 # Privilege Manager System Requirements
 
 ## Minimum Requirements

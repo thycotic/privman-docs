@@ -1,6 +1,6 @@
 [title]: # (Agent Trust Service)
 [tags]: # (Console and Internal Services)
-[priority]: # (100) (edited) 
+[priority]: # (100) 
 # AgentTrustService
 
 ## Path

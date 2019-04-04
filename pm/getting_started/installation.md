@@ -1,11 +1,6 @@
-<!---
-uid: PM-Installation
-url: PM-Installation
-title: Privilege Manager Basic Installation
-description: This article provides basic installation instructions for Privilege Manager.
-author: NO VALUE SET
-date: 3/22/2019
---->
+[title]: # (Privilege Manager Installation)
+[tags]: # (Installation,basic,Privilege Manager)
+[priority]: # (100)
 # Basic PM Product Installation
 
 ## Prerequisites

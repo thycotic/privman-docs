@@ -1,10 +1,11 @@
 [title]: # (Local Security)
 [tags]: # (Local Security,overview)
-[priority]: # (101)
+[priority]: # (300)
 # Local Security Overview
 
 From Privilege Manager’s Home screen, click the left-hand section called Local Security to enter the Local Security Home. From Local Security’s navigation panel you can click into existing Computer Groups to view all local groups and user accounts across these endpoint. The Local Security Home dashboard will give you a bird’s eye view of the Computer Groups that already exist in your system.
-<User-added image>
+
+![Local Security](../local-security/images/local_sec.png)
 
 ## Computer Groups
 

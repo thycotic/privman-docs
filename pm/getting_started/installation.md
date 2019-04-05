@@ -1,6 +1,6 @@
 [title]: # (Privilege Manager Installation)
 [tags]: # (Installation,basic,Privilege Manager)
-[priority]: # (100)
+[priority]: # (205)
 # Basic PM Product Installation
 
 ## Prerequisites

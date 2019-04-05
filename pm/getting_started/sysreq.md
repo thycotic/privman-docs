@@ -1,6 +1,6 @@
 [title]: # (Privilege Manager System Requirements)
-[tags]: # (System Requirements,Privilege Manager)
-[priority]: # (100)
+[tags]: # (System Requirements,Ports)
+[priority]: # (201)
 # Privilege Manager System Requirements
 
 ## Minimum Requirements
@@ -37,11 +37,6 @@
   Thycotic performs validation on the latest Windows OS that is available via the Microsoft Insider Program to ensure any required changes are made prior to a new OS version release.
 * MacOS 10.11 (El Capitan) or newer (See a complete list of Mac OS versions here)
 
-## Port/Access Information
-
-* Inbound access port 5593 only: if you block this port, agents will pull updates from server according to a set schedule
-* Default outbound access port 443 (HTTPS) for agent > server communications. Outbound port is configurable
-
 ## Details
 
 * System Requirements apply to both physical and virtual machines
@@ -51,3 +46,9 @@
 * If SQL is not already installed on a database server, the Thycotic Installer can setup SQL Express on the web server, however SQL Express is intended for Trials and Sandbox environments ONLY. Though Thycotic will support SQL Express, users will likely experience performance issues due to the memory and product limitations. If experiencing performance issues while using SQL Express, it is highly recommended to upgrade to SQL Server prior to contacting Thycotic Support.
 * A link to Microsoft documentation on the use and limitations of SQL Express can be found at: https://docs.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-2017
 * Web Servers that are NOT supported: Small Business Server (SBS), The Essentials Edition, Domain Controllers, Sharepoint Servers
+
+## Ports/Agent Access Information
+
+* Outbound (port 443 - HTTPS): This is the default access port through which the agent connects to the server. You may specify a different port based on your environment.
+* Inbound (port 5593): The is the default and only port that the agent listens on. This port is not required and you can block port 5593. If you block the port, the agents pull updates from the server based on a set schedule.
+* SQL (port 1433): This is the default SQL DB port. The SQL port can be customized.

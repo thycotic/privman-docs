@@ -1,6 +1,6 @@
 [title]: # (Learning Mode Policies - Send Policy Feedback)
 [tags]: # (Application Control,Event Discovery,Learning Mode,Policy Feedback)
-[priority]: # (113)
+[priority]: # (213)
 # Learning Mode Policies – Send Policy Feedback
 
 At the most basic level, a Learning Mode Policy is a policy that takes no action, it exists only to gather data and you can use the data it gathers for audits or for assigning actions to application events retrospectively. For trials and Proof of Concept (PoC) environments these can be pointed at specific endpoints in order to learn about events that are already happening, or in order to test-run specific applications that you want to quickly introduce into Privilege Manager.

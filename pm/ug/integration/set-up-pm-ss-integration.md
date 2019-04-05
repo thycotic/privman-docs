@@ -1,6 +1,6 @@
 [title]: # (Set Up Secret Server Integration in Privilege Manager)
 [tags]: # (Secret Server,integration,Privilege Manager)
-[priority]: # (100)
+[priority]: # (1000)
 # Setting up Secret Server Integration in Privilege Manager
 
 ## Verify Web Services are Enabled in Secret Server

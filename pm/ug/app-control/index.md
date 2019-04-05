@@ -1,6 +1,6 @@
 [title]: # (Application Control)
 [tags]: # (Application Control,overview)
-[priority]: # (110)
+[priority]: # (200)
 # Application Control Overview
 
 ## Dashboard

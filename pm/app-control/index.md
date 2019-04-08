@@ -2,7 +2,7 @@
 [tags]: # (Application Control,overview)
 [priority]: # (400)
 # Application Control Overview
-
+<!-- TODO: Add Overview paragraph -->
 ![Application Control Overview](../app-control/images/app_con.png)
 
 ## Dashboard

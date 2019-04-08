@@ -26,3 +26,7 @@ When your agents are installed, you can verify the status of your Agents’ heal
 The Agent Health dials describe how many Managed Operating Systems you have as well as your Agent(s) Registration State and Policy State. If you click on the Agent Registration State dial, you will see a report on a list of machines (the “MonitoredResource” column) where each registered agent is installed.
 
 Clicking the Agent Policy State dial from the Home dashboard brings you to a report that links all of your agent-registered machines with the Number of Policies Missing from each agent. This page will become invaluable once you have multiple policies running over different computer groups in your network.
+
+## Diagnostics
+
+Navigate to the __ADMIN | Diagnostics__ page to view more comprehensive agent details. The Diagnostics page also is the go-to stop for full system health. Go here to find Server Console Logs and other system level warnings or tips.

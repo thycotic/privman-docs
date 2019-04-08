@@ -14,6 +14,7 @@ The lightweight Privilege Manager agent is a critical component of Thycotic’s 
 ## Application Discovery for Administrative or Root Privileges
 
 The most powerful applications installed on endpoints are those that require administrator credentials or root privileges to run. Privilege Manager discovers all applications that run on endpoints through its Learning Mode, giving you a precise snapshot of how these applications are used before you implement any changes. You can set up Discovery policies to target any new application action that requires administrator or root access, so no privileged action goes unnoticed.
+
 Non-Domain Endpoint Support - Privilege Manager provides management and application control support for endpoints even if they are not associated with your organizational network. Because it utilizes a lightweight agent it can manage endpoints outside the network – such as those used by vendors, contractors, and partners—with the same dexterity and precision control as those within the network.
 
 ## Automated Local Account Password Rotation

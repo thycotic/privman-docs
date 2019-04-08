@@ -1,0 +1,28 @@
+[title]: # (Agent Installation)
+[tags]: # (Endpoint,Agent Installation)
+[priority]: # (230)
+# Agent Installation
+
+Download agent installers for each of your endpoints <!-- TODO add download location https://thycotic.force.com/support/s/article/Software-Download --> and follow steps for installing agents here. 
+
+## Privilege Manager Agent Downloads & Descriptions
+
+Agents are required on endpoint machines to carry out policies created in Privilege Manager. This page offers direct downloads and descriptions for all available agents.
+
+Agents are required on endpoint machines to implement Privilege Manager policies. Thycotic Agents can be deployed in various ways: software management systems, GPO, cloned (gold) images, and manually. Instructions and links for agent installers are provided in this article, grouped as follows:
+
+* Bundled Agent Installer (Windows)
+* Individual Agent Installers for Privilege Manager:
+  * 64-bit Windows Operating Systems
+  * 32-bit Windows Operating Systems
+* Mac OS X Installer (10.11 or Newer)
+
+For details about Thycotic Agent System Requirements, see our Privilege Manager System Requirements Guide here.
+
+## Post Agent Installation
+
+When your agents are installed, you can verify the status of your Agents’ health in terms of Registration State and Policy State from the Home page. You also can navigate to Admin | Agents for more information about installed agents.
+
+The Agent Health dials describe how many Managed Operating Systems you have as well as your Agent(s) Registration State and Policy State. If you click on the Agent Registration State dial, you will see a report on a list of machines (the “MonitoredResource” column) where each registered agent is installed.
+
+Clicking the Agent Policy State dial from the Home dashboard brings you to a report that links all of your agent-registered machines with the Number of Policies Missing from each agent. This page will become invaluable once you have multiple policies running over different computer groups in your network.

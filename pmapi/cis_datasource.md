@@ -1,6 +1,6 @@
 [title]: # (Data Source Service)
 [tags]: # (Console and Internal Services)
-[priority]: # (100) (edited) 
+[priority]: # (100) 
 # DataSourceService
 
 ## Path

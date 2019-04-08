@@ -19,3 +19,16 @@ Privilege Manager does not require Secret Server or any other Thycotic product t
 The typical Privilege Manager user is part of an IT team that is tasked with implementing and overseeing a company's security business requirements and framework. In the Privilege Manager product this role is known as the Privilege Manager Administrator. Although there are a few other kinds of Privilege Manager user roles (to be described further on) who may use Privilege Manager now and then for minor tasks, the Privilege Manager Administrator is the main user of Privilege Manager.
 
 It is useful (although not necessary) for Privilege Manager Administrators to be familiar with the basics of IT administration, such as the Group Policy feature from Microsoft.
+
+## Cloud 10.6 Specific
+
+The following features and options are __not__ available in Privilege Manager Cloud 10.6:
+
+* Local Active Directory synchronization and functionality related to local AD sync are not supported in a cloud environment. This includes Secret Server integration for authentication and vaulting of local account credentials.
+* All license key management is done via Thycotic and license keys are not visible on the licensing page. There are no options for customers to add additional licenses directly.
+* No access to the Security Manager console (Silverlight version).
+* Personas are not available.
+* Server-side Powershell scripts not signed by Thycotic are not allowed.
+* The setup is managed by Thycotic and installations, upgrades, and repairs are unavailable to the customer directly. Upgrade notices and banners are removed with upgrades being handled by Thycotic during maintenance periods.
+
+All other features and functionality of Privilege Manager On-premises and Cloud are the same unless otherwise specified.

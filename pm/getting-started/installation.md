@@ -34,7 +34,7 @@ The latest version of Privilege Manager is available for download. By clicking t
 
 1. Verify that the Privilege Manager and Secret Server boxes are checked.
 
-   >[!Note]
+   >**Note**:
    >Although, installing Secret Server is optional, if you choose NOT to install Secret Server, you will not be able to create custom roles in Privilege Manager. Privilege Manager as a standalone product comes with three roles Administrator, Basic User, and Help Desk User roles.
 
 1. Click Next to proceed to the License tab.
@@ -42,7 +42,7 @@ The latest version of Privilege Manager is available for download. By clicking t
 1. Click Accept License to proceed to the Database tab.
 1. On the __Database__ tab you can choose to either install SQL Express or connect to an existing SQL Server. SQL Express requires a internet access for the installer to download the installation package for SQL Express.
 
-   >[!Note]
+   >**Note**:
    >For production environments Thycotic recommends installing a licensed edition of SQL before installing Thycotic products. The Express edition is only recommended for trial and sandbox environments.
 
    * If Internet access is not available a link to download SQL Server Express will be presented to the user. At that point, they are expected to install SQL Server Express and then restart the installer.

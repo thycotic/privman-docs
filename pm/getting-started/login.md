@@ -25,10 +25,10 @@ When you initially login the Getting Started Banner displays with help tips next
 
 You can choose to not show the Getting Started Banner on subsequent logins.
 
-![Home screen](../getting-started/images/getting-started-banner.png)
+![Home screen](https://app01-dev01-homer-east-us.azurewebsites.net/privman/0.1.1-dgran/pm/getting-started/images/getting-started-banner.png)
 
 ## Home
 
 The Home screen of Privilege Manager can be found by clicking Home in the top banner of any page inside of Privilege Manager. From this dashboard you can jump into either Application Control or Local Security, depending on what you want to do. You also will be given different snapshots of various important information about your environment. Once you have agents installed and policies setup, you’ll have a lot going on from the Home Dashboard:
 
-![Home screen](../getting-started/images/home_20190408.png)
+![Home screen](https://app01-dev01-homer-east-us.azurewebsites.net/privman/0.1.1-dgran/pm/getting-started/images/home_20190408.png)

@@ -123,4 +123,4 @@ Or, to register an agent immediately after updating the Privilege Manager server
 sudo /usr/local/thycotic/agent/agentUtil.sh register
 ```
 
-   ![Agent Registration via Terminal Command](../getting-started/images/agent/mac-man-reg.png)
+   ![Agent Registration via Terminal Command](https://app01-dev01-homer-east-us.azurewebsites.net/privman/0.1.1-dgran/pm/getting-started/images/agent/mac-man-reg.png)

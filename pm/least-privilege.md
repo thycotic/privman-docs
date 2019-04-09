@@ -1,6 +1,6 @@
 [title]: # (Least Privilege Overview)
 [tags]: # (Least Privilege, Overview)
-[priority]: # (100)
+[priority]: # (4)
 # Least Privilege Explained
 
 Least Privilege is a security-driven management philosophy that models a system where all employees are given the minimum level of access rights necessary to carry out their job functions on endpoint machines. This is to protect each machine from malicious applications, rogue employees, or attackers. Privileged local admin or root accounts on endpoints give unfettered access to the entire endpoint and can potentially be used to access other computers, domain resources, and critical servers unless a least privilege security model is implemented.  But implementing Least Privilege can be difficult for IT teams to enforce because there are plenty of daily, trusted activities that employees must perform that require access to privileged credentials.

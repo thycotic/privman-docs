@@ -1,9 +1,9 @@
 [title]: # (Architecture Overview)
 [tags]: # (Architecture,Overview)
 [priority]: # (2) 
-# Privilege Manager Architecture Overview
+# Privilege Manager Overview
 
-![PM Implementation Overview](https://app01-dev01-homer-east-us.azurewebsites.net/privman/0.1.1-dgran/pm/images/pm_estate.png)
+![PM Implementation Overview](/images/pm_estate.png)
 
 <!--
 ### General Architecture

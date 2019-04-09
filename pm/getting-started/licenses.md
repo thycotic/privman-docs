@@ -20,14 +20,14 @@ To install licenses without Secret Server:
 
 1. Navigate to __Admin | Licenses__ or __click__ the Product Licenses Installed link in the top banner.
 
-   ![Navigate to Licensing Page](https://app01-dev01-homer-east-us.azurewebsites.net/privman/0.1.1-dgran/pm/getting-started/images/license/nav-to-licensing.png)
+   ![Navigate to Licensing Page](/images/license/nav-to-licensing.png)
 
 1. On the Privilege Manager Licenses page, click __Add License__, then 
    1. enter your License Name(s) and 
    1. Key(s) one at a time, 
    1. select Add License to finish.
 
-   ![Enter licenses and keys](https://app01-dev01-homer-east-us.azurewebsites.net/privman/0.1.1-dgran/pm/getting-started/images/license/enter-lic.png)
+   ![Enter licenses and keys](/images/license/enter-lic.png)
 
 ### Steps for Combined Secret Server + Privilege Manager Installation
 

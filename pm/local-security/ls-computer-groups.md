@@ -15,11 +15,11 @@ If you have “Computer Groups” (also called Resource Targets) already configu
 ## Create New Computer Group
 To add new computer groups tailored to your organization’s environment, click the Create Computer Group button from the Local Security Home screen. Enter a Name for your new group, a Description, and select the Operating System (Windows vs Mac) used by these computers from the dropdown.
 
-![Add New Computer Group](../local-security/images/add-new-computer-group-20190408.png)
+![Add New Computer Group](/images/add-new-computer-group-20190408.png)
 
 To select the machines you want to include within this group, you must create a Filter that will target the appropriate machines on your organization’s network.
 
-![Filter Setup](../local-security/images/add-new-computer-group-filter-20190408.png)
+![Filter Setup](/images/add-new-computer-group-filter-20190408.png)
 
 The default filter will begin with a rule that targets computers within the main OS Computer Group that was selected when you created the group, meaning it will target either all Windows or all Mac computers with registered agents.
 

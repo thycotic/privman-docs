@@ -39,4 +39,4 @@ Setting up a local user account with password rotation means that the account is
 From Privilege Manager’s Home page, click the left-hand section called Local Security to enter the Local Security Home.
 From Local Security’s navigation panel you can click into existing Computer Groups to view all local groups and user accounts across these endpoint. The Local Security Home dashboard will give you a bird’s eye view of the Computer Groups that already exist in your system.
 
-![Local Security](../local-security/images/local-sec-home-20190408.png)
+![Local Security](/images/local-sec-home-20190408.png)

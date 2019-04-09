@@ -123,4 +123,4 @@ Or, to register an agent immediately after updating the Privilege Manager server
 sudo /usr/local/thycotic/agent/agentUtil.sh register
 ```
 
-   ![Agent Registration via Terminal Command](/images/agent/mac-man-reg.png)
+   ![Agent Registration via Terminal Command](images/agent/mac-man-reg.png)

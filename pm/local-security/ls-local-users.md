@@ -25,7 +25,7 @@ The most important part of managing a user is setting a one-time password for th
 
 To set a password for this account, enter a new password twice to confirm, then click Save Password. For advanced options, click Show Advanced. To save your changes click Save Changes.
 
->[!Note]
+>**Note**:
 >Settings for Account is Disabled, User Must Change Password At Next Logon, User Cannot Change Password, and Password Never Expires are all specific to Windows endpoints and will not be displayed for Mac OS based Computer Groups.
 
 <User-added image>

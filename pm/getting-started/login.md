@@ -10,7 +10,7 @@ Using the credentials either,
 
 validate that you can login to Privilege Manager and view the home screen.
 
->[!Note]
+>**Note**:
 >You may initially be logged in through Secret Server. If this is the case, you can find Privilege Manager by navigating to __Tools | Privilege Manager__.
 
 ## Getting Started Banner

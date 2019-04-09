@@ -17,7 +17,7 @@
 
 ## Recommended Requirements
 
->[!Note]
+>**Note**:
 >Environments with over 25,000 Endpoints require a scoping call with a Thycotic engineer.
 
 | Web Server | Database Server |

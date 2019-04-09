@@ -7,7 +7,7 @@ At the most basic level, a Learning Mode Policy is a policy that takes no action
 
 Any Learning Mode Policy will have the Send Policy Feedback check-box checked under the Policy’s Actions tab.
 
->[!Note]
+>**Note**:
 >Send Policy Feedback is generally disabled in production environments outside of specific auditing or data-collecting initiatives due to the large amount of data these policies can gather.
 
 <User-added image>
@@ -55,7 +55,7 @@ At the beginning of your policy creation process you will see many new events la
 1. Click one of your New Loaded Resource files.
 1. Click Discover Now. This process may take a few minutes. If the file is not discovered, check to make sure your endpoint target resource is running. 
 
->[!Note]
+>**Note**:
 >Files may not be discovered if they have already been deleted in your system.
 
 <User-added image>

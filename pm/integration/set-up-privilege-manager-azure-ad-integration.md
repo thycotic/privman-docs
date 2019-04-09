@@ -18,7 +18,7 @@ Setting up Azure AD Integration in Privilege Manager requires these components i
 * Executing a Privilege Manager Task (Import Users and Groups)
 * Creating a Scheduled Task to synchronize the users and groups on a regular basis
 
->[!Note]
+>**Note**:
 >You do not need to have an active directory domain before you can sync with an Azure Active Directory. However, there are benefits for synchronizing on-premises Active Directory to Azure AD, which is useful in support of: <!-- TODO-->
 
 * TBD
@@ -38,7 +38,7 @@ Setting up Azure AD Integration in Privilege Manager requires these components i
    1. select __Supported account types__ based on your business requirements
    1. specify a Redirect URI as the URI of your Privilege Manager server, for example: https://myserver.example.com/TMS/
 
-    >[!Note]
+    >**Note**:
     >This URI Does not need to be a publicly visible address. It is only used in redirecting the browser back to the Privilege Manager web application after authentication.
     >For Privilege Manager Cloud subscriptions, the URI should be pointed to the URI that was set up for you, for example: https://myassignedname.privilegemanagercloud.com/TMS/ 
 

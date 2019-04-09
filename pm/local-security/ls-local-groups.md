@@ -11,7 +11,7 @@ To see more details about the Windows Computers Group, either click on Windows C
 
 This Computer Group’s page will give you pointers on what can be done with the users and local groups within this set of computers, and provide a high-level overview of the selected computer group based on Local Users, Local Groups, and the number of computers in the group.
 
->[!Note]
+>**Note**:
 >When an agent registers, Local Security will automatically discover the local groups that exist on each machine.
 
 ## Create New Local Group
@@ -51,7 +51,7 @@ When managing a group, existing members and any that have been added to the poli
 ## Statistics Tab
 The Statistics’ tab for a local group highlights some quick visual statistics and links you to relevant reports based on key factors like how many computers from your network are included in this group and whether there have been changes made to the Group’s Membership within the specified period. Click on these graphs to drill down into more details.
 
->[!Note]
+>**Note**:
 >The reports in the “Related Reports” sections are scoped to only include endpoints in the current computer group. To view reports across all computers, go to the Reports section of the product.
 
 <User-added image>

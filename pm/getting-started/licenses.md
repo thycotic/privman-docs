@@ -40,7 +40,7 @@ To install licenses with Secret Server on the same server as Privilege Manager, 
 1. Navigate back to the Privilege Manager License page to verify under:
    __Tools | Privilege Manager | Admin | Privilege Manager–Licenses__.
 
->[!Note]
+>**Note**:
 >If your license keys do not appear or you have too many keys listed, click the import task link and then Run Task to reset.
 
 ## Converting from Trial Licenses

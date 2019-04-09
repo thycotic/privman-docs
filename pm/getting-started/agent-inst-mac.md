@@ -22,7 +22,7 @@ To install the Thycotic agents on a single testing machine, follow these steps:
    1. enter the base URL and
    1. the Install Code when prompted.​
 
->[!Note]
+>**Note**:
 >The Install Code field can be left blank when using versions lower than 10.5.
 
 <User-added image>
@@ -42,7 +42,7 @@ Open the file and add the "installCode" parameter after the "tmsBaseUrl" to that
 }
 ```
 
->[!Note]
+>**Note**:
 >The Install Code can be left blank when using versions lower than 10.5
 
 There are two methods for deploying your remaining mac agents in an unattended fashion:
@@ -68,7 +68,7 @@ For more instructions on how to deploy in bulk using Microsoft Software System C
 
 If the Mac already has an existing agentconfig.json file, it will NOT be overwritten because creating a file only occurs if the computer didn’t already have an agentconfig.json installed. This means you can use the same distribution package for upgrades and new installs.
 
->[!Note]
+>**Note**:
 >It will take 15-30 minutes for newly installed agents to register in Privilege Manager, and policies will update according to a scheduled task in Privilege Manager. To check the schedule on this task, go to Admin | Resources | [Select Mac Machine Name] | "Update Agent Commands (Mac OS)" Policy | Triggers tab. 
 >To register agents immediately, see instructions in the Terminal Commands section.
 

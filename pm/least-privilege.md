@@ -21,5 +21,5 @@ That’s why Thycotic recommends a phased roll-out between the two sides of this
 1. Application Control: Continue to tailor policies according to employee roles. Create a “Request Access” system for any unknown applications. (Creating Policies | Example: Application Execution Requires Approval (Workflow))
 1. Local Security: Once a workflow has been established between employees and the Privilege Manager Helpdesk, begin managing all local privileged accounts (ex: local admins) on endpoints. (Local Security | Details Tab) 
 
->[!Note]
+>**Note**:
 >Every implementation looks different when configuring Privilege Manager to work best for your organization. The key is to know your goal and be smart about getting there. The User Guide will walk you through beginning configurations for both Local Security and Application Control. Use it as a tutorial, reference, and guide for setting up a new environment until you get the hang of things, and always feel free to flip around.

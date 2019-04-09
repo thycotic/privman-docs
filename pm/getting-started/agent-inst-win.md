@@ -24,7 +24,7 @@ Individual Windows agents are available in MSI format for easier bulk-rollout th
 
 #### Installation Command Lines
 
->[!Note]
+>**Note**:
 >The Install Code field can be left blank when using versions lower than 10.5
 
 * __Core Thycotic Agent__
@@ -53,7 +53,7 @@ Individual Windows agents are available in MSI format for easier bulk-rollout th
 
 #### Installation Command Lines:
 
->[!Note]
+>**Note**:
 >The Install Code field can be left blank when using versions lower than 10.5
 
 * Core Thycotic Agent

@@ -1,3 +1,3 @@
 [title]: # (Configuration Feeds)
 [tags]: # (Feeds,Config)
-[priority]: # (850)
+[priority]: # (8500)

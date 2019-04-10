@@ -24,7 +24,9 @@ pm
     app-control                     4000                        Application Control
     listing-policies                5000                        Listing Policies
     personas                        6000                        Personas
+    foreign-sys                     6500                        Foreign Systems
     reports                         7000                        Reports
     tasks                           8000                        Tasks
+    config-feeds                    8500                        Configuration Feeds
     hd-approvals                    8900                        Help Desk and Approvals
 pmapi                               9000                        Privilege Manager API

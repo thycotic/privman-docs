@@ -18,7 +18,7 @@ Setting up Azure AD Integration in Privilege Manager requires these components i
 * Executing a Privilege Manager Task (Import Users and Groups)
 * Creating a Scheduled Task to synchronize the users and groups on a regular basis
 
->[!Note]
+>**Note**:
 >You do not need to have an active directory domain before you can sync with an Azure Active Directory. However, there are benefits for synchronizing on-premises Active Directory to Azure AD, which is useful in support of: <!-- TODO-->
 
 * TBD
@@ -31,21 +31,21 @@ Setting up Azure AD Integration in Privilege Manager requires these components i
 1. In your Azure portal, navigate to and open Azure Active Directory.
 1. Verify you are in the right tenant or use the filter to switch.
 1. Select App registrations (Preview).<br/>
-   ![AzAD_Portal_20190321.png](../integration/images/kb_ad_sync/AzAD_Portal_20190321.png)
+   ![AzAD_Portal_20190321.png](images/kb_ad_sync/AzAD_Portal_20190321.png)
 1. Select __+ New registration__.
 1. Under Register an application, enter
    1. an application __Name__.
    1. select __Supported account types__ based on your business requirements
    1. specify a Redirect URI as the URI of your Privilege Manager server, for example: https://myserver.example.com/TMS/
 
-    >[!Note]
+    >**Note**:
     >This URI Does not need to be a publicly visible address. It is only used in redirecting the browser back to the Privilege Manager web application after authentication.
     >For Privilege Manager Cloud subscriptions, the URI should be pointed to the URI that was set up for you, for example: https://myassignedname.privilegemanagercloud.com/TMS/ 
 
    1. Click the __Register__ button.
 1. Navigate to your newly created application registration.
 1. Select the __Certificates & secrets__ option.<br/>
-   ![AzAD_NewClient_Secret_20190321.png](../integration/images/kb_ad_sync/AzAD_NewClient_Secret_20190321.png)  
+   ![AzAD_NewClient_Secret_20190321.png](images/kb_ad_sync/AzAD_NewClient_Secret_20190321.png)  
 1. Click __+ New client secret__.  
 1. Add a __Description__ and chose an __Expires__ setting based on your business requirements.
 1. Click __Add__ to create the secret.
@@ -66,7 +66,7 @@ You will need the Application Id and the Client Secret you copied to the clipboa
 1. Enter the __DNS Name__. This is the DNS name of the Tenant from the Azure Portal identified at the beginning of this document.
 1. Verify the __Sign-on URL__ is correct. This value should match what was specified in the Redirect URI option when setting up the Application Registration.
 1. Enter the __Azure Application (client) ID__. This is the Application ID that was created when registering your application in the Azure Portal.<br/>
-   ![AzAD_AuthHelp_10.6_20190321.png](../integration/images/kb_ad_sync/AzAD_AuthHelp_10.6_20190321.png)
+   ![AzAD_AuthHelp_10.6_20190321.png](images/kb_ad_sync/AzAD_AuthHelp_10.6_20190321.png)
 1. Click __Save Changes__.
 1. Continue to the Azure AD Authentication Provider section and click __Edit__.
 1. Complete the three steps:

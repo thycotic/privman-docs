@@ -1,20 +1,20 @@
-[title]: # (Architecture Overview)
+[title]: # (Privilege Manager Overview)
 [tags]: # (Architecture,Overview)
-[priority]: # (100) 
-# Privilege Manager Architecture Overview
+[priority]: # (11) 
+# Privilege Manager Overview
 
-![PM Implementation Overview](../pm/ug/images/pm_estate.png)
+![PM Implementation Overview](images/pm_estate.png)
 
 <!--
 ### General Architecture
 
-![PM General Architecture](../pm/ug/images/pm_arch.png)
+![PM General Architecture](../pm/ugimages/pm_arch.png)
 
 ### Cloud Architecture for Azure and Amazon AWS Hosted Environments
 
-![PM Cloud Architecture](../pm/ug/images/pm_arch_cloud.png)
+![PM Cloud Architecture](../pm/ugimages/pm_arch_cloud.png)
 
 ### Proxy or Azure Bus Architecture for Environments without Internet Access
 
-![PM No Internet](../pm/ug/images/pm_arch_nowww.png)
+![PM No Internet](../pm/ugimages/pm_arch_nowww.png)
 -->

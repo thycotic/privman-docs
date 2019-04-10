@@ -12,6 +12,7 @@ Licensing for Privilege Manager Cloud customers is managed via Thycotic.
 To install new Privilege Manager licenses, it will depend on whether you chose to
 
 a. perform a standalone install, or
+
 b. install Secret Server in tandem with Privilege Manager.
 
 ### Steps for Standalone Privilege Manager Installation
@@ -20,14 +21,14 @@ To install licenses without Secret Server:
 
 1. Navigate to __Admin | Licenses__ or __click__ the Product Licenses Installed link in the top banner.
 
-   ![Navigate to Licensing Page](../getting-started/images/license/nav-to-licensing.png)
+   ![Navigate to Licensing Page](images/license/nav-to-licensing.png)
 
 1. On the Privilege Manager Licenses page, click __Add License__, then 
    1. enter your License Name(s) and 
    1. Key(s) one at a time, 
    1. select Add License to finish.
 
-   ![Enter licenses and keys](../getting-started/images/license/enter-lic.png)
+   ![Enter licenses and keys](images/license/enter-lic.png)
 
 ### Steps for Combined Secret Server + Privilege Manager Installation
 
@@ -40,7 +41,7 @@ To install licenses with Secret Server on the same server as Privilege Manager, 
 1. Navigate back to the Privilege Manager License page to verify under:
    __Tools | Privilege Manager | Admin | Privilege Manager–Licenses__.
 
->[!Note]
+>**Note**:
 >If your license keys do not appear or you have too many keys listed, click the import task link and then Run Task to reset.
 
 ## Converting from Trial Licenses

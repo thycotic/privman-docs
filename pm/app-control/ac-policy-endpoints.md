@@ -50,7 +50,7 @@ Your results will look something like this:
 
 In this example we see that a new “Blacklist + Quarantine” policy was successfully added to the endpoint machine.
 
->[!Note]
+>**Note**:
 >If your policies are not immediately updated, wait a few minutes and try running the script again.
 
 After you’ve updated your test endpoints, you can try running applications that are targeted by your policies to make sure the policies are configured correctly. You will also see the policy's Deployment tab updated if refreshed.

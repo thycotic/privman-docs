@@ -1,6 +1,6 @@
 [title]: # (The Privilege Manager UI)
 [tags]: # (User Interface,Console,Overview)
-[priority]: # (280)
+[priority]: # (2000)
 # Introduction to the Privilege Manager User Interface (UI)
 
 The Privilege Manager user interface, also referred to as the console, is launched in a browser. The URL has the following form:

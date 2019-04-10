@@ -12,6 +12,7 @@ Licensing for Privilege Manager Cloud customers is managed via Thycotic.
 To install new Privilege Manager licenses, it will depend on whether you chose to
 
 a. perform a standalone install, or
+
 b. install Secret Server in tandem with Privilege Manager.
 
 ### Steps for Standalone Privilege Manager Installation

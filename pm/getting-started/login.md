@@ -15,15 +15,15 @@ validate that you can login to Privilege Manager and view the home screen.
 
 ## Getting Started Banner
 
-When you initially login the Getting Started Banner displays with help tips next steps:
+At initial login the Getting Started Banner displays with help tips and next steps:
 
-* Chose and authentication provider used to sign in to Privilege Manager.
+* Choose an authentication provider that will be used to sign in to Privilege Manager.
 * Setup the SMTP Server.
 * Install Agents.
 * Review the documentation to begin configuring policies.
 * Implement anti-virus exclusions to allow Thycotic to run on the endpoint.
 
-You can choose to not show the Getting Started Banner on subsequent logins.
+You may choose to not show the Getting Started Banner on subsequent logins.
 
 ![Home screen](images/getting-started-banner.png)
 

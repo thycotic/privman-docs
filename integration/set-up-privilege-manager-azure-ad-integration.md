@@ -44,6 +44,21 @@ Setting up Azure AD Integration in Privilege Manager requires these components i
 
    1. Click the __Register__ button.
 1. Navigate to your newly created application registration.
+1. Select the __API Permissions__ option.
+1. Click the __+ Add a permission__ option to add the Microsoft Graph API.<br/>
+   ![Select the Microsoft Graph API](images/kb_ad_sync/AzAD_Select_MS_Graph_API_20190411.png)
+1. Select the __Application permissions__ option for the type of permissions.
+1. Open the __Directory category__ and select the __Directory.Read.All__ permission.<br/>
+   ![Request API](images/kb_ad_sync/AzAD_Request_API_20190411.png)
+1. Click the __Add permissions__ button at the bottom to finish this step.
+1. Click the __+ Add a permission__ option to add the __Azure Active Directory Graph API__.<br/>
+   ![Select the Azure AD Graph API](images/kb_ad_sync/AzAD_Select_AzAD_Graph_API_20190411.png)
+1. Select the __Application permissions__ option for the type of permissions
+1. Open the __Directory category__ and select the __Directory.Read.All__ permission.<br/>
+   ![Select the Azure AD Graph API](images/kb_ad_sync/AzAD_ADGraph_Request_API_20190411.png)
+1. Click the __Add permissions__ button at the bottom to finish this step.
+1. These permissions must be granted by the domain administrator before the application can use this registration. Click the __Grant admin consent for...__ button to ensure these APIs are allowed. Once this is done, these permissions will show a green check box next to them as shown here.<br/>
+   ![Select the Azure AD Graph API](images/kb_ad_sync/AzAD_Grant_Admin_20190411.png)
 1. Select the __Certificates & secrets__ option.<br/>
    ![AzAD_NewClient_Secret_20190321.png](images/kb_ad_sync/AzAD_NewClient_Secret_20190321.png)  
 1. Click __+ New client secret__.  

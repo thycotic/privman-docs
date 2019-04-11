@@ -1,12 +1,13 @@
-[title]: # (Application Control)
-[tags]: # (Application Control,overview)
-[priority]: # (400)
+[title]: # (Application Control Overview)
+[tags]: # (overview)
+[priority]: # (4000)
 # Application Control Overview
+
 <!-- TODO: Add Overview paragraph -->
 ![Application Control Overview](images/app_con.png)
 
 ## Dashboard
-From Privilege Manager’s Home click the righthand Application Control section to enter your Application Control Dashboard. Tiles provide shortcuts to the different components housed within Application Control. You can Pin tiles to the top of your screen to enhance navigation:
+From Privilege Manager’s Home click the right-hand Application Control section to enter your Application Control Dashboard. Tiles provide shortcuts to the different components housed within Application Control. You can Pin tiles to the top of your screen to enhance navigation:
 
 <User-added image>
 

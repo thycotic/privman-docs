@@ -12,13 +12,15 @@ Screen captures are being updated.
 Folder Structure/Priority - reference overview
 
 folder/file.md                      Priority                    Title
-pm-intro/index.md                   1                           Introduction to Privilege Manager
-    estate.md                       11                          Privilege Manager Overview
+index.md                            1                           Introduction to Privilege Manager
+pm-intro
+    index.md                        11                          Privilege Manager Overview
     feature-overview.md             12                          Feature Overview
     least-privilege.md              13                          Least Privilege Overview
     pam.md                          14                          Privileged Access Management
 getting-started                     200                         Getting Started
 ui                                  2000                        The Privilege Manager UI
+integration                         2500                        Integration Procedures
 local-security                      3000                        Local Security
 app-control                         4000                        Application Control
 listing-policies                    5000                        Listing Policies

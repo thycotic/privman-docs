@@ -1,3 +1,3 @@
 [title]: # (Tasks)
 [tags]: # (Tasks)
-[priority]: # (800)
+[priority]: # (8000)

@@ -1,3 +1,4 @@
 [title]: # (Integration Procedures)
-[tags]: # (Integration)
-[priority]: # (1000) 
+[tags]: # (integration)
+[priority]: # (2500) 
+# Integration Procedures

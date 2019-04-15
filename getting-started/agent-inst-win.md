@@ -51,7 +51,7 @@ Individual Windows agents are available in MSI format for easier bulk-rollout th
 * Local Security Solution Agent __(x86)__:
   https://tmsnuget.thycotic.com/Software/Agents/Thycotic_LocalSecurityAgent_x86_10_5_1027.msi
 
-#### Installation Command Lines:
+#### Installation Command Lines
 
 >**Note**:
 >The Install Code field can be left blank when using versions lower than 10.5

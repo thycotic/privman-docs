@@ -15,7 +15,7 @@ The User Interface (UI) seen by all Privilege Manager roles is the same (whether
 
 The screenshot below shows the upper part of the Privilege Manager home page.
 
-<User-added image>
+![Privilege Manager Home](images/home_20190408.png)
 
 The home page includes actionable dashboard elements as well as the gateway to the two major components of Privilege Manager, Local Security and Application Control. These are available from the two tiles in the upper left.
 

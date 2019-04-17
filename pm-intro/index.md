@@ -1,9 +1,9 @@
-[title]: # (Privilege Manager Overview)
-[tags]: # (Architecture,Overview)
+[title]: # (Architecture Overview)
+[tags]: # (architecture)
 [priority]: # (11)
-# Privilege Manager Overview
+# Architecture Overview
 
-![PM Implementation Overview](images/pm_estate.png)
+![PM Implementation Overview](images/privman-arch-20190415.png)
 
 
 <!--

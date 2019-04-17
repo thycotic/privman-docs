@@ -3,19 +3,10 @@
 [priority]: # (11)
 # Architecture Overview
 
+## Privilege Manager Cloud
+
 ![PM Implementation Overview](images/privman-arch-20190415.png)
 
+## Privilege Manager On-premises
 
-<!--
-### General Architecture
-
-![PM General Architecture](../pm/ugimages/pm_arch.png)
-
-### Cloud Architecture for Azure and Amazon AWS Hosted Environments
-
-![PM Cloud Architecture](../pm/ugimages/pm_arch_cloud.png)
-
-### Proxy or Azure Bus Architecture for Environments without Internet Access
-
-![PM No Internet](../pm/ugimages/pm_arch_nowww.png)
--->
+![PM Implementation Overview](images/privman-arch-on-prem-20190415.png)

@@ -13,3 +13,4 @@ This section is a collection of how to articles covering integration procedures,
 ## How to ...
 
 * [Add Thycotic One Users Manually](add-t1-user-manually.md)
+* [Remove RDP Integration](remove-rdp.md)

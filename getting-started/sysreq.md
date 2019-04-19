@@ -1,7 +1,9 @@
 [title]: # (Privilege Manager System Requirements)
-[tags]: # (System Requirements,Ports)
+[tags]: # (ports,on-premises)
 [priority]: # (201)
 # Privilege Manager System Requirements
+
+These are requirement for an on-premises integration.
 
 ## Minimum Requirements
 

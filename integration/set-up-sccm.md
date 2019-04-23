@@ -1,6 +1,6 @@
 [title]: # (Set-up SCCM Integration)
 [tags]: # (integration)
-[priority]: # (7)
+[priority]: # (114)
 # Set-up SCCM Integration
 
 Privilege Manager can import Collections and package data from Microsoft SCCM.  The collections can then be used to target computers in policies, and the package data used to create application filters. This integration allows users to deploy changes in Privilege Manager across large environments quickly and effectively.

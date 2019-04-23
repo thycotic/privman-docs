@@ -1,6 +1,6 @@
 [title]: # (Set-up ServiceNow Integration)
 [tags]: # (integration)
-[priority]: # (6)
+[priority]: # (112)
 # Set-up ServiceNow Integration
 
 1. Verify which ServiceNow User account you will use for your integration with Privilege Manager. If you decide to create a new User account to manage your approval requests, make sure that it includes the roles: Web Service Admin and Approval Admin

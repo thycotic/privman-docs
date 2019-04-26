@@ -29,5 +29,6 @@ foreign-sys                         6500                        Foreign Systems
 reports                             7000                        Reports
 tasks                               8000                        Tasks
 config-feeds                        8500                        Configuration Feeds
-hd-approvals                        8900                        Help Desk and Approvals
-pmapi                               9000                        Privilege Manager API
+hd-approvals                        9000                        Help Desk and Approvals
+troubleshooting                     10000                       Troubleshooting
+pmapi                               20000                       Privilege Manager API

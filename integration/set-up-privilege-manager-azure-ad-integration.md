@@ -109,12 +109,15 @@ This step was performed initially as part of setting up the Azure AD directory. 
 1. Navigate to __Privilege Manager | Admin | Tasks__.
 1. Expand __Jobs and Tasks__.
 1. Expand __Server Tasks__.
+1. Select __Directory Services__.
 1. Click on __Default Import AzureAD Users/Groups__.
 1. Click __Run__, then __Select Resource__.
 1. Select the Azure Active Directory Domain you previously created.
 1. Enable __Import Groups__.
 1. Enable __Import Users__.
 1. Click __Run Task__.
+
+If you only want a subset of the directory to be imported, you may instead run the task called Import Specific Azure AD Users and Groups. This task is located in the same folder and contains parameters for the names of the users and/or groups of interest.
 
 ### Create Scheduled Task for Users/Groups Synchronization
 
@@ -123,8 +126,9 @@ To schedule this operation to happen on a regular schedule:
 1. Navigate to __Privilege Manager | Admin | Tasks__.
 1. Expand __Jobs and Tasks__.
 1. Expand __Server Tasks__.
+1. Select __Directory Services__.
 1. Click on __Default Import AzureAD Users/Groups__.
 1. Click __View__.
 1. In the Schedules tab, click __New Schedule__ to create a new schedule.
-1. On the Schedule tab, define the desired schedule.
-1. On the Parameters tab, select the Azure Active Directory resource that you created earlier and make selections for importing users and groups.
+   a. On the __Schedule__ tab, define the desired schedule.
+   b. On the __Parameters__ tab, select the __Azure Active Directory__ resource that you created earlier and make selections for importing users and groups.

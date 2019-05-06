@@ -30,18 +30,21 @@ Setting up Azure AD Integration in Privilege Manager requires these components i
 1. Navigate to your https://portal.azure.com
 1. In your Azure portal, navigate to and open Azure Active Directory.
 1. Verify you are in the right tenant or use the filter to switch.
-1. Select App registrations (Preview).<br/>
+1. Select App registrations.<br/>
    ![AzAD_Portal_20190321.png](images/kb_ad_sync/AzAD_Portal_20190321.png)
 1. Select __+ New registration__.
 1. Under Register an application, enter
    1. an application __Name__.
    1. select __Supported account types__ based on your business requirements
-   1. specify a Redirect URI as the URI of your Privilege Manager server, for example: https://myserver.example.com/TMS/
+   1. specify the following Redirect URI values using the URI of your Privilege Manager server:
+      https://myserver.example.com/TMS/
+      https://myserver.example.com/TMS/Account/Signout/
+      https://myserver.example.com/TMS/Account/SignoutCallback/ 
 
-    >**Note**:
-    >This URI Does not need to be a publicly visible address. It is only used in redirecting the browser back to the Privilege Manager web application after authentication.
-    >For Privilege Manager Cloud subscriptions, the URI should be pointed to the URI that was set up for you, for example: https://myassignedname.privilegemanagercloud.com/TMS/ 
-
+      >**Note**:
+      >This URI Does not need to be a publicly visible address. It is only used in redirecting the browser back to the Privilege Manager web application after authentication.
+      >For Privilege Manager Cloud subscriptions, the URI should be pointed to the URI that was set up for you, for example: https://myassignedname.privilegemanagercloud.com/TMS/
+    
    1. Click the __Register__ button.
 1. Navigate to your newly created application registration.
 1. Select the __API Permissions__ option.

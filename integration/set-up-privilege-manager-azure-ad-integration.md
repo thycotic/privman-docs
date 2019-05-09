@@ -40,15 +40,18 @@ Setting up Azure AD Integration in Privilege Manager requires these components i
    1. select __Supported account types__ based on your business requirements
    1. specify the following Redirect URI values using the URI of your Privilege Manager server:
       https://myserver.example.com/TMS/
-      https://myserver.example.com/TMS/Account/Signout/
-      https://myserver.example.com/TMS/Account/SignoutCallback/ 
 
       >**Note**:
-      >This URI Does not need to be a publicly visible address. It is only used in redirecting the browser back to the Privilege Manager web application after authentication.
+      >This URI does not need to be a publicly visible address. It is only used in redirecting the browser back to the Privilege Manager web application after authentication.
       >For Privilege Manager Cloud subscriptions, the URI should be pointed to the URI that was set up for you, for example: https://myassignedname.privilegemanagercloud.com/TMS/
     
    1. Click the __Register__ button.
 1. Navigate to your newly created application registration.
+1. Select the __Authentication__ option.
+   1. Enter these additional URIs in the Redirect URI field:
+      * https://myserver.example.com/TMS/Account/Signout/ 
+      * https://myserver.example.com/TMS/Account/SignoutCallback/
+   1. In the Advanced Settings area, check the box labeled __ID tokens__.
 1. Select the __API Permissions__ option.
 1. Click the __+ Add a permission__ option to add the Microsoft Graph API.<br/>
    ![Select the Microsoft Graph API](images/kb_ad_sync/AzAD_Select_MS_Graph_API_20190411.png)

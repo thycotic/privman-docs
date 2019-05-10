@@ -3,7 +3,7 @@
 [priority]: # (4100)
 # Allow Copy/Install of Applications
 
-With the 10.6 Privilege Manager release the install helper for application installations on a Mac OS system is not required anymore. A policy can be created to allow or deny standard users to install specific applications by copying/pulling the application into the Applications folder. Follow this example to create a policy that will enable this functionality for your Mac OS user.
+A policy can be created to allow or deny standard users to install specific applications by copying/pulling the application into the Applications folder. Follow this example to create a policy that will enable this functionality for your Mac OS user.
 
 1. Navigate to __Admin | Policies__ and click the __Add New Policy__ button.
 1. From the Platform drop-down select __Mac OS__.
@@ -11,7 +11,7 @@ With the 10.6 Privilege Manager release the install helper for application insta
 1. From the Template Type drop-down select __Other: Empty Policy__.
 1. Enter a name and description for the new policy and click __Create__.
 1. Once the policy is created, specify the Conditions and Filters:
-   1. Click __+ Add Application Target__ to specify an application bundles and/or application packages filter for Mac OS applications.
+   1. Click __+ Add Application Target__ to specify an application bundles filter for Mac OS applications.
    1. Click __+ Add Inclusion Filter__ to specify the Copy Install Application filter.
    1. Click __Save__.
 

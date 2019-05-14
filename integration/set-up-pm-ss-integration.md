@@ -20,6 +20,7 @@ As a prerequisite, you need to make sure that your Secret Server instance has We
 
    The account needs to have a role with ALL of the following permissions:
 
+   * Administer Configuration and Administer Licenses
    * Create Root Folders
    * Assign Secret Policy
    * Administer Folders
@@ -37,7 +38,7 @@ As a prerequisite, you need to make sure that your Secret Server instance has We
 1. In the Name column click on __Default Secret Server__.
 1. The Secret Server Foreign System page loads, click the __Edit__ button.
 1. Under Settings, update the following:
-   1. __Credential__: This is a Secret Server user (preferably an application account) that has at least the Administer Configuration and Administer Licenses permissions in Secret Server.
+   1. __Credential__: This is a Secret Server user (preferably an application account). Refer to required permissions above.
    1. __Secret Server Url__: This is the url that end users use to access Secret Server. __HTTPS__ is required. Also the validation on this field will reach out to Secret Server using the url provided. If it can’t be reached, or if the Secret Server version is lower than 10.6, there will be a 404 not found validation error. The URL needs to be fully qualified ending with a /.
    1. __TMS Url__: This is the url to access TMS itself. It is the url that end users use to access Privilege Manager, minus the PrivilegeManager/ part at the end of the path. This URL also needs to be well formed and fully qualified ending with a /.
 1. Click the __Save__ button.

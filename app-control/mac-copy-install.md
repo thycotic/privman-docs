@@ -16,8 +16,11 @@ A policy can be created to allow or deny standard users to install specific appl
    1. Click __Save__.
 
    ![Example allow copy/drag application to applications folder](images/mac/allow_copy_conditions_20190510.png)
+
 1. Navigate to the __General__ tab.
 1. Click __Edit__.
 1. Select the __Enabled__ checkbox to enable the policy.
+
    ![Enable the Copy Install Application policy](images/mac/allow_copy_enable_20190510.png)
+
 1. Click __Save__.

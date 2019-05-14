@@ -3,7 +3,7 @@
 [priority]: # (1)
 # Setting up Integration between Privilege Manager and Secret Server
 
-Privilege Manger has the ability to use Secret Server as its storage container for credentials. This includes credentials for connecting to integrated systems such as Service Now, as well as credentials for local accounts that are managed by Local Security in Privilege Manager.  
+Privilege Manger has the ability to use Secret Server as its storage container for credentials. This includes credentials for connecting to integrated systems such as Service Now, as well as credentials for local accounts that are managed by Local Security in Privilege Manager. Customers can choose to integrate with Secret Server only (no )Vault setup) or Secret Server and Vault. Either option requires Authentication Data setup for Foreign Systems in Privilege Manager.
 
 In Secret Server, Privilege Manager credentials are stored as Secrets, and Privilege Manager uses the Secret Server REST API to communicate with Secret Server.
 
@@ -29,21 +29,7 @@ As a prerequisite, you need to make sure that your Secret Server instance has We
    * Add Secret
    * Delete Secret
 
-## Setup in Privilege Manager
-
-1. In Privilege Manager on the home page select the __Local Security__ tile to go to Local Security page.
-1. On the top of the Local Security page, click on the suggestion stating __Privilege Manager can store credentials in Secret Server, would you like to configure this now?__. For reference, the relative URL for this page is *TMS/PrivilegeManager/#/lss/vault*<br/>
-   ![Verify Enable Webservices](images/PM_conf_for_SS_20190412.png)
-1. The Password Vault Settings configuration page opens. Select __Edit__, then
-   1. check the box __Use Secret Server__ in order to use Secret Server’s vault to store credentials.
-   1. Enter the username and password for the account that will be used to access Secret Server.
-
-   >**Note**:
-   >These are the same credentials that will be stored as the Secret Server Default Credential (located at the Admin | Configuration | User Credentials tab). If a user already has been entered here, the same account will be auto populated into the configuration page.
-
-1. Back on the __Password Vault Settings__ configuration page, click __Save Changes__.
-
-### Setup Authentication Data in Privilege Manager
+## Setup Authentication Data in Privilege Manager
 
 1. Navigate to __Admin | Configuration__.
 1. Click the __Foreign Systems__ tab.
@@ -60,6 +46,20 @@ After these steps the Secret Server Foreign System is ready for use. If you need
 
 <!-- TODO: Name/describe list of features and why a user would want to enable/disable them. Add screen captures. -->
   
+## Setup in Privilege Manager
+
+1. In Privilege Manager on the home page select the __Local Security__ tile to go to Local Security page.
+1. On the top of the Local Security page, click on the suggestion stating __Privilege Manager can store credentials in Secret Server, would you like to configure this now?__. For reference, the relative URL for this page is *TMS/PrivilegeManager/#/lss/vault*<br/>
+   ![Verify Enable Webservices](images/PM_conf_for_SS_20190412.png)
+1. The Password Vault Settings configuration page opens. Select __Edit__, then
+   1. check the box __Use Secret Server__ in order to use Secret Server’s vault to store credentials.
+   1. Enter the username and password for the account that will be used to access Secret Server.
+
+   >**Note**:
+   >These are the same credentials that will be stored as the Secret Server Default Credential (located at the Admin | Configuration | User Credentials tab). If a user already has been entered here, the same account will be auto populated into the configuration page.
+
+1. Back on the __Password Vault Settings__ configuration page, click __Save Changes__.
+
 ## Password Migration
 
 After the vault and authentication set-up, all passwords are migrated from Privilege Manager to Secret Server. This migration process may take time.

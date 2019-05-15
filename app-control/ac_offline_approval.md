@@ -1,5 +1,5 @@
-[title]: # (Sending Policies to Endpoints)
-[tags]: # (Application Control,Policy,Endpoints)
+[title]: # (Offline Approvals)
+[tags]: # (workflows)
 [priority]: # (4003)
 # Offline Approvals
 

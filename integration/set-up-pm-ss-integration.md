@@ -3,7 +3,7 @@
 [priority]: # (1)
 # Setting up Integration between Privilege Manager and Secret Server
 
-Privilege Manger has the ability to use Secret Server as its storage container for credentials. This includes credentials for connecting to integrated systems such as Service Now, as well as credentials for local accounts that are managed by Local Security in Privilege Manager. Customers can choose to integrate with Secret Server only (no )Vault setup) or Secret Server and Vault. Either option requires Authentication Data setup for Foreign Systems in Privilege Manager.
+Privilege Manger has the ability to use Secret Server as its storage container for credentials. This includes credentials for connecting to integrated systems such as Service Now, as well as credentials for local accounts that are managed by Local Security in Privilege Manager. Customers can choose to integrate with Secret Server only (no Vault setup) or Secret Server and Vault. Either option requires Authentication Data setup for Foreign Systems in Privilege Manager.
 
 In Secret Server, Privilege Manager credentials are stored as Secrets, and Privilege Manager uses the Secret Server REST API to communicate with Secret Server.
 
@@ -37,11 +37,17 @@ As a prerequisite, you need to make sure that your Secret Server instance has We
 1. Select __Secret Server__ from the list.
 1. In the Name column click on __Default Secret Server__.
 1. The Secret Server Foreign System page loads, click the __Edit__ button.
+
+   ![Secret Server Foreign System](images/auth/secretserver_fs.png)
 1. Under Settings, update the following:
    1. __Credential__: This is a Secret Server user (preferably an application account). Refer to required permissions above.
    1. __Secret Server Url__: This is the url that end users use to access Secret Server. __HTTPS__ is required. Also the validation on this field will reach out to Secret Server using the url provided. If it can’t be reached, or if the Secret Server version is lower than 10.6, there will be a 404 not found validation error. The URL needs to be fully qualified ending with a /.
    1. __TMS Url__: This is the url to access TMS itself. It is the url that end users use to access Privilege Manager, minus the PrivilegeManager/ part at the end of the path. This URL also needs to be well formed and fully qualified ending with a /.
-1. Click the __Save__ button.
+1. Click __Save__.
+1. Navigate to the Authentication tab and enable Secret Server as the authentication provider by selecting Secret Server from the drop-down list.
+
+   ![Select the Authentication Provider](images/auth/pm_ss_authprovider.png)
+1. Click __Save__.
 
 After these steps the Secret Server Foreign System is ready for use. If you need to enable or disable features for this integration, the Integration Feature list is below the Settings area on the page. Follow any of the links to turn features on and off.
 

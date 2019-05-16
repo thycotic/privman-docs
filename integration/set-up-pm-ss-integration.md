@@ -53,7 +53,7 @@ After these steps the Secret Server Foreign System is ready for use. If you need
 
 <!-- TODO: Name/describe list of features and why a user would want to enable/disable them. Add screen captures. -->
   
-## Setup in Privilege Manager
+## Configure Privilege Manager Credential Vault (optional)
 
 1. In Privilege Manager on the home page select the __Local Security__ tile to go to Local Security page.
 1. On the top of the Local Security page, click on the suggestion stating __Privilege Manager can store credentials in Secret Server, would you like to configure this now?__. For reference, the relative URL for this page is *TMS/PrivilegeManager/#/lss/vault*<br/>

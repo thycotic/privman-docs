@@ -21,6 +21,8 @@ In Application Control, layered Policies create the backbone, or parameters, tha
 
 During the creation of a Policy you will specify Actions and Targets, but Filters are created separately and then assigned to Policies.
 
+![Diagram of Policy Overview](images/policies.png)
+
 ## Overview of the Configuration Process
 
 This Setup Guide will walk you through the specific steps you can take to configure a few popular example policies in Privilege Manager. While there are many different types of policies, the setup process must follow these basic steps:

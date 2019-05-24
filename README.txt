@@ -22,8 +22,9 @@ getting-started                     200                         Getting Started
 ui                                  2000                        The Privilege Manager UI
 integration                         2500                        Integration Procedures
 local-security                      3000                        Local Security
-app-control                         4000                        Application Control
-listing-policies                    5000                        Listing Policies
+app-control                         4000                        Application Control (& Policies)
+  - actions                         5000                          - Actions
+  - filters                                                       - Filters
 personas                            6000                        Personas
 foreign-sys                         6500                        Foreign Systems
 reports                             7000                        Reports

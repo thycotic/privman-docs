@@ -24,11 +24,12 @@ It is useful (although not necessary) for Privilege Manager Administrators to be
 
 The following features and options are __not__ available in Privilege Manager Cloud 10.6:
 
-* Local Active Directory synchronization and functionality related to local AD sync are not supported in a cloud environment. This includes Secret Server integration for authentication and vaulting of local account credentials.
-* All license key management is done via Thycotic and license keys are not visible on the licensing page. There are no options for customers to add additional licenses directly.
-* No access to the Security Manager console (Silverlight version).
+* The Local Active Directory features exists, but requires a direct connection to the domain controller, which is often not permissible due to firewall configurations.
+* Secret Server integration for authentication and vaulting of local account credentials is not presently available.
+* All license key management is done via Thycotic and license keys are not visible on the licensing page. There are not presently options for customers to add additional licenses directly.
+* Access to the Security Manager console (Silverlight version) is not available.
 * Personas are not available.
-* Server-side Powershell scripts not signed by Thycotic are not allowed.
-* The setup is managed by Thycotic and installations, upgrades, and repairs are unavailable to the customer directly. Upgrade notices and banners are removed with upgrades being handled by Thycotic during maintenance periods.
+* Server-side Powershell scripts not signed by Thycotic are not allowed. Custom server-side work can be done via Professional Services engagements.
+* The setup is managed by Thycotic and installations, upgrades, and repairs are unavailable to the customer directly, this includes setup, add/remove feature options, and connection option to existing Secret Server. Upgrade notices and banners are removed with upgrades being handled by Thycotic during maintenance periods.
 
 All other features and functionality of Privilege Manager On-premises and Cloud are the same unless otherwise specified.

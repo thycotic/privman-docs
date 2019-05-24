@@ -4,14 +4,15 @@
 # Application Control Overview
 
 <!-- TODO: Add Overview paragraph -->
-![Application Control Overview](images/app_con.png)
+![Automated Application Control](images/app_con.png)
 
 ## Dashboard
 From Privilege Manager’s Home click the right-hand Application Control section to enter your Application Control Dashboard. Tiles provide shortcuts to the different components housed within Application Control. You can Pin tiles to the top of your screen to enhance navigation:
 
-<User-added image>
+![Application Control page](images/ac/ac_home.png)
 
 ## What is a Policy?
+
 In Application Control, layered Policies create the backbone, or parameters, that dictate precisely how privileges are accessed across your network. They define what a user can run, and where. A policy is made up of customizable filters that apply an action to specific Computer Groups. In other words, each policy is defined by:
 
 * Filters:     What criteria needs to be met to apply this policy?
@@ -19,6 +20,8 @@ In Application Control, layered Policies create the backbone, or parameters, tha
 * Actions:     What should happen to the applications this policy applies to? (i.e. blocked, allowed, etc.)
 
 During the creation of a Policy you will specify Actions and Targets, but Filters are created separately and then assigned to Policies.
+
+![Diagram of Policy Overview](images/policies.png)
 
 ## Overview of the Configuration Process
 

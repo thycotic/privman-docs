@@ -1,6 +1,6 @@
 [title]: # (Sending Policies to Endpoints)
 [tags]: # (Application Control,Policy,Endpoints)
-[priority]: # (211)
+[priority]: # (4002)
 # Sending Policies to Endpoints
 
 After setting up your first policies, keep in mind that even after you enable them, new policies are not immediately sent to target endpoints. Instead, policies are updated on endpoints via the schedule defined by the Update Applicable Policies task.

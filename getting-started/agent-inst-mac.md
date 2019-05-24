@@ -9,7 +9,7 @@ The Bundled Mac Agent DMG + PKG installer is available for Mac machines. You can
 
 ### Privilege Manager Mac Agent
 <!-- TODO: Version update -->
-https://tmsnuget.thycotic.com/Software/Agents/ThycoticManagementAgent-10.5.12.dmg
+https://tmsnuget.thycotic.com/Software/Agents/ThycoticManagementAgent-10.6.1.dmg
 
 ### Installating Mac Agent Directly
 
@@ -25,7 +25,7 @@ To install the Thycotic agents on a single testing machine, follow these steps:
 >**Note**:
 >The Install Code field can be left blank when using versions lower than 10.5.
 
-<User-added image>
+![Mac Agent Install Code field](images/mac/install_code.png)
 
 ### Deploying Agents using an Unattended Install Method
 

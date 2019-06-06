@@ -1,7 +1,7 @@
-[title]: # (Types of Actions)
-[tags]: # (description,out-of-box actions)
+[title]: # (List of Actions)
+[tags]: # (overview,out-of-box)
 [priority]: # (5000)
-# Types of Actions
+# List of Actions
 
 Described here are the out-of-the-box actions that are available in Privilege Manager and can be used to make your policy configuration process easy. 
 When creating new actions in Privilege Manager, these are the list of category
@@ -65,7 +65,7 @@ options you may use:
 
 ## Actions Catalog  
 
-Here is the complete list of Actions that come with Privilege Manager Out-of-the-Box, according to category type:  
+Here is the complete list of Actions that come with Privilege Manager out-of-the-box, according to category type:  
   
 ### Adjust Effective Process Rights Action
 

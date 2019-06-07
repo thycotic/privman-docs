@@ -11,7 +11,7 @@ The following topics provide a guided path through the initial sign-in steps of 
 
 ## On-premises
 
-This following topics provide a guided path through the on-premises installation and setup steps that are part of the initial stand-up of an on-premises Privilege Manager integration.
+The following topics provide a guided path through the on-premises installation and setup steps that are part of the initial stand-up of an on-premises Privilege Manager integration.
 
 In this section you find:
 

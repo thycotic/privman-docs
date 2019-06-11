@@ -18,6 +18,8 @@ To configure SysLog messages in Privilege Manager:
 
    ![Edit Syslog Server](images/syslog/edit_syslog_server.png)
 
+## Setting up Syslog Server Tasks
+
 1. After adding a new Syslog connection, to manually send logs to your Syslog Server go to __Admin | More…__ and select __Tasks__.
 1. Expand the Server Tasks folder, then Foreign Systems, select SysLog and click __Add New__.
 1. From the Template drop-down, select __Send SysLog Application Events__.
@@ -27,7 +29,7 @@ To configure SysLog messages in Privilege Manager:
 
    ![Create Task](images/syslog/create_syslog_task.png)
 
-1. Click Create.
+1. Click __Create__.
 
 Once created, you’ll be taken to the new Scheduled Task's page where you can run the task on demand and/or specify how often you want events received by Privilege Manager (i.e. all events viewed in Admin | Event Discovery) to be pushed out to the SysLog server. The schedule can be hourly, every 30 minutes, daily, or whatever time period is preferred.
 

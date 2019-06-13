@@ -1,4 +1,4 @@
-[title]: # (Set-up Syslog Connection)
+[title]: # (Set-up SysLog Connection)
 [tags]: # (integration)
 [priority]: # (115)
 # Set-up Syslog Connection
@@ -17,6 +17,8 @@ To configure SysLog messages in Privilege Manager:
 1. Once the server is created, you can use __Edit__ to change any of the configuration settings.
 
    ![Edit Syslog Server](images/syslog/edit_syslog_server.png)
+
+   The protocol drop-down options are UDP, TCP, and HTTPS. HTTPS supports integrations with DEVO.
 
 ## Setting up Syslog Server Tasks
 

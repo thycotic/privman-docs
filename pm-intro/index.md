@@ -7,6 +7,8 @@
 
 ![PM Implementation Overview](images/privman-arch-20190415.png)
 
+![PM Cloud Architecture](images/privman-cloud.png)
+
 ## Privilege Manager On-premises
 
 ![PM Implementation Overview](images/privman-arch-on-prem-20190415.png)

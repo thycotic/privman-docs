@@ -15,7 +15,7 @@ Remember: when an agent registers, Local Security will automatically discover th
 
 To create a new Group, select the Groups line item listed under the name of the intended Computer Group. At the right side of the page, click the Create Group button.
 
-![Local Group](images/ls-home-lg.png)
+![Local Group](images/ls-home-cg.png)
 
 Enter a Group Name, click __Add Group__.
 

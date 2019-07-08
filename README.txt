@@ -13,6 +13,7 @@ Folder Structure/Priority - reference overview
 
 folder/file.md                      Priority                    Title
 index.md                            1                           Introduction to Privilege Manager
+release-notes                       1                           Collection of Release Notes
 pm-intro
     index.md                        11                          Privilege Manager Overview
     feature-overview.md             12                          Feature Overview

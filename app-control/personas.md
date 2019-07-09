@@ -1,6 +1,6 @@
 [title]: # (Personas)
 [tags]: # (overview)
-[priority]: # (5900)
+[priority]: # (4900)
 # Personas
 
 In Privilege Manager, Personas are collections of privileges for specific roles at an organization. You can assign Personas to users on a specific Computer Group to elevate their identity to perform specific tasks.

@@ -25,7 +25,7 @@ local-security                      3000                        Local Security
 app-control                         4000                        Application Control (& Policies)
   - actions                         5000                          - Actions
   - filters                                                       - Filters
-  - personas.md                     5900
+  - personas.md                     4900                          - Personas
 tasks                               6000                        Tasks
 reports                             7000                        Reports
 config-feeds                        8000                        Configuration Feeds

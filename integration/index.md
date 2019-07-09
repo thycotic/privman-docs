@@ -1,6 +1,6 @@
 [title]: # (Foreign Systems)
 [tags]: # (integration)
-[priority]: # (2500)
+[priority]: # (9000)
 # Foreign Systems
 
 Foreign Systems in Privilege Manager are any systems for which a connections or an integration has to be set-up, providing a system URL (network address) and authentication information. Foreign Systems can be Thycotic or third-party products and their basic integration set-up in Privilege Manager is alike.

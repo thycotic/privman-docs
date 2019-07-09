@@ -5,4 +5,4 @@
 
 This section contains mind maps to provide functional overview maps of Privilege Manager.
 
-![Privilege Manager Overview map](images/Privilege Manager Overview.pdf)
+![Privilege Manager Overview map](images/Top Level Map PM.jpg)

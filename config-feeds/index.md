@@ -1,4 +1,4 @@
 [title]: # (Configuration Feeds)
-[tags]: # (Feeds,Config)
-[priority]: # (8500)
+[tags]: # (overview)
+[priority]: # (8000)
 # Configuration Feeds

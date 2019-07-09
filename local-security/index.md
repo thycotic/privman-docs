@@ -1,7 +1,7 @@
 [title]: # (Local Security)
-[tags]: # (Local Security,overview)
-[priority]: # (300)
-# Local Security Overview
+[tags]: # (overview)
+[priority]: # (3000)
+# Local Security
 
 Local Security in Privilege Manager allows customers to
 

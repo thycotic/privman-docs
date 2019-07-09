@@ -1,6 +1,6 @@
 [title]: # (Tasks)
-[tags]: # (Tasks)
-[priority]: # (8000)
+[tags]: # (overview)
+[priority]: # (6000)
 # Tasks
 
 TODO

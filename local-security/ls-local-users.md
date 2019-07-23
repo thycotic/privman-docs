@@ -3,11 +3,11 @@
 [priority]: # (303)
 # Local Users
 
-The Users’ page listed under your Computer Group shows a list of local users that exist within this Computer Group. The information highlighted by this table includes 
+The Users page listed under your Computer Group shows a list of local users that exist within this Computer Group. The information highlighted by this table includes
 
-1. how many groups each user account is a member of, 
+1. how many groups each user account is a member of,
 1. whether the user account was built-in or user-defined, and
-1. whether or not the account itself is “Managed.”  
+1. whether or not the account itself is managed.  
 
 Managing local users in Local Security means that you are setting a password for the account and can rotate the password as desired.
 
@@ -19,7 +19,7 @@ To create a new local user, click the Create User button on the Users page, then
 
 ![New Managed User](images/ls-new-lu.png)
 
-In Local Security, the most important thing to know about your user accounts is whether or not each is being managed. Managing a local user account means that you are able to rotate the account’s password from Local Security’s console in Privilege Manager.
+In Local Security, the most important thing to know about your user accounts is whether or not each is being managed. Managing a local user account means that you are able to rotate the account's password from Local Security's console in Privilege Manager.
 
 ## Manage Local Users
 
@@ -32,7 +32,7 @@ The most important part of managing a user is setting a one-time password for th
 
 To set a password for this account, enter a new password twice to confirm, then click Save Password. For advanced options, click Show Advanced. To save your changes click Save Changes.
 
->**Note**: 
+>**Note**:
 >The following settings are all specific to Windows endpoints and will not be displayed for macOS based Computer Groups:
 >
 >* Account is Disabled
@@ -50,4 +50,4 @@ If the password is being managed, the Update Schedule will determine when the ne
 
 The __Groups tab__ for a Local Account tells you how many groups and computers the account is on. Clicking on a Group Name from this page will direct you back to the Details tab for that local group.
 
-The __Statistics’ tab__ for a local user account highlights some quick visual statistics and links you to relevant reports based on key factors like how many computers from your network have this user account and whether there have been changes made to the User’s Membership within the specified period. Click on the graphs to drill down into more details.
+The __Statistics tab__ for a local user account highlights some quick visual statistics and links you to relevant reports based on key factors like how many computers from your network have this user account and whether there have been changes made to the User’s Membership within the specified period. Click on the graphs to drill down into more details.

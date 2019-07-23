@@ -4,9 +4,9 @@
 ## Overview of Filters
 In Privilege Manager, using a robust filtering system is the key to creating accurate and effective Policies.
 
-A "filter" is made up of specific criteria that Privilege Manager uses to target important file data (or Events*) that occur across your environment. You can think of Filters as the core identifiers in your Privilege Manager system. They are used to identify various levels of activity across your organization's computers, including processes (applications) that are launched on computers, who is executing an application, or the state of the computer that the process is being executed on.
+A filter is made up of specific criteria that Privilege Manager uses to target important file data (or Events*) that occur across your environment. You can think of Filters as the core identifiers in your Privilege Manager system. They are used to identify various levels of activity across your organization's computers, including processes (applications) that are launched on computers, who is executing an application, or the state of the computer that the process is being executed on.
 
-*An "Event" in Privilege Manager is any piece of file data or executable on a computer that is targeted by a policy.
+*An Event in Privilege Manager is any piece of file data or executable on a computer that is targeted by a policy.
 
 There are different methods for Filter-creation and usage, but if you take the time to familiarize yourself with our out-of-the-box filters they can help make your policy-creation process easy. This article will provide details and descriptions for Windows Filters in Privilege Manager and how you can begin using out-of-the-box Filters, or create your own.
 
@@ -17,7 +17,7 @@ You can search your full list of available filters by navigating to Admin | Filt
 
 ## Creating New Filters using Event Discovery
 
-One way to begin creating new Filters that identify specific files or applications on your network is to set up a Learning Mode Policy and use the events pulled in by Privilege Manager from actions performed on a test machine. See our User Guide's section on "Event Discovery" for more information on setting up a Learning Mode Policy.
+One way to begin creating new Filters that identify specific files or applications on your network is to set up a Learning Mode Policy and use the events pulled in by Privilege Manager from actions performed on a test machine. See our User Guide's section on Event Discovery for more information on setting up a Learning Mode Policy.
 
 In Privilege Manager, navigate to Admin | Event Discovery | Files. Under a recognized event, clicking Create Filter should bring you to an Add New Filter page* with the known identifiers needed for targeting this event auto-populated.
 
@@ -33,7 +33,7 @@ This Add New Filter page reveals the available list of building blocks, attribut
 * Product Name
 * Product Version
 * Company Name
-* File Signature ("File must be signed by")
+* File Signature (File must be signed by)
 
 <User-added image>
 

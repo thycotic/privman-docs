@@ -70,6 +70,7 @@ The Privilege Manager mobile app for iOS and Android lets you  manage endpoints,
 Privilege Manager integrates with reputation checking software like VirusTotal to provide application analysis in real time. This unique feature allows for reputation analysis of any unknown applications in order to mitigate risk of endpoint attacks from ransomware, zero-day attacks, drive-by downloads, and other unknown malicious software. With Privilege Manager, all applications that meet a general condition (i.e. executed from a specific directory or directories, file names, types, or any applications that are disassociated with existing policies) can be sent to VirusTotal for a reputation check and analysis.
 
 ## Responsive & Actionable Reporting Dashboard
+
 Successful application control demands that you have a complete, real-time understanding of the status and activity of all endpoints. Privilege Manager provides a unified reporting dashboard so you can quickly evaluate the status of endpoints, review activity logs and event data, and access a broad library of reports. Responsive and fully configurable, Privilege Manager’s dashboard reporting enables you to quickly drill down into reports across any dimension (time, geo-region, OS, status…) to evaluate activities and trends. From the dashboard you can also set up automated alerts to stay informed of potential problems.
 
 ## Reverse Proxying
@@ -86,7 +87,7 @@ Many organizations leverage ticketing systems to streamline their support workfl
 
 ## Symantec Enterprise Platform (SEP)
 
-For those organizations utilizing the Symantec Endpoint Protection or Symantec Endpoint Protection Cloud solution for whitelisting and reputation, Privilege Manager can utilize the SEP whitelist and reputation engine to inform and prescribe its provision of application control capabilities across endpoints.   
+For those organizations utilizing the Symantec Endpoint Protection or Symantec Endpoint Protection Cloud solution for whitelisting and reputation, Privilege Manager can utilize the SEP whitelist and reputation engine to inform and prescribe its provision of application control capabilities across endpoints.
 
 ## SysLog / SIEM
 
@@ -94,7 +95,7 @@ You can integrate your least privilege and application control program with a SI
 
 ## System Center Configuration Manager (SCCM)
 
-Privilege Manager can integrate with Microsoft System Center Configuration Manager and scan SCCM software delivery “packages” for applications that can be whitelisted by Privilege Manager. 
+Privilege Manager can integrate with Microsoft System Center Configuration Manager and scan SCCM software delivery “packages” for applications that can be whitelisted by Privilege Manager.
 
 ## Tailored Whitelist, Blacklist, Elevation, and Greylisting Policies
 

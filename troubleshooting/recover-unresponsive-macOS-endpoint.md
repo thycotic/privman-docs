@@ -34,5 +34,3 @@ In case a macOS endpoint ever becomes unresponsive due to conflicting policy con
    sudo mv ThycoticACS.kext.org ThycoticACS.kext
    exit
    ```
-
-The system automatically restarts and enters the normal boot process.

@@ -3,10 +3,14 @@
 [priority]: # (11)
 # Architecture Overview
 
-## Privilege Manager Cloud
+## Privilege Manager Cloud - Layered Diagram
 
 ![PM Implementation Overview](images/privman-arch-20190415.png)
 
-## Privilege Manager On-premises
+### Network Diagram
+
+![PM Cloud Architecture](images/privman-cloud.png)
+
+## Privilege Manager On-premises - Layered Diagram
 
 ![PM Implementation Overview](images/privman-arch-on-prem-20190415.png)

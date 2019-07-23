@@ -1,6 +1,6 @@
 [title]: # (Remove RDP Monitoring from Privilege Manager)
 [tags]: # (rdp,remove)
-[priority]: # (101)
+[priority]: # (9400)
 # Remove RDP Monitoring from Privilege Manager
 
 The Privilege Manager feature to support RDP session monitoring is being discontinued (with version 10.6 of the product).

@@ -1,6 +1,6 @@
 [title]: # (Offline Approvals)
 [tags]: # (workflows)
-[priority]: # (4003)
+[priority]: # (4010)
 # Offline Approvals
 
 Approval workflows usually require an endpoint to be online to send out the approval request and then receive an approval for an application to continue to run or execute. If an endpoint is offline, an end user needs a way to also request an approval for an application to continue to execute, for such a

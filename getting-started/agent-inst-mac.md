@@ -58,7 +58,7 @@ The PKG will first look for an agentconfig.json file located in the same folder.
 
 #### Distribution Tool
 
-Using a Deployment Tool like Jamf or SCCM, include both the PKG installer and the agentconfig.json files in the distribution package together, then deploy the package onto your endpoint macs by running a script using a tool or remotely by using ssh to install the PKG (eg. ```sudo installer -pkg ThycoticManagementAgent.10.4.14.pkg -target /```).  
+Using a Deployment Tool like Jamf or SCCM, include both the PKG installer and the agentconfig.json files in the distribution package together, then deploy the package onto your endpoint macs by running a script using a tool or remotely by using ssh to install the PKG (eg. ```sudo installer -pkg ThycoticManagementAgent.10.6.20.pkg -target /```).  
 
 As in the example using a Network Share, the PKG will first look for an agentconfig.json file located in the same folder. When it finds this file, it will copy agentconfig.json into the /Library/Application Support/Thycotic/Agent folder during the unattended install on the endpoint Mac where the installer is running.
 

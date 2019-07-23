@@ -37,7 +37,7 @@ This Add New Filter page reveals the available list of building blocks, attribut
 
 <User-added image>
 
-You can choose which criteria to use by checking or unchecking any of the filter line-items listed above. If you are new to the filter creation process, we recommend experimenting with these different identifiers in your test environment to ensure that you are using a comprehensive list of identifiers in your filter--enough to target the application or file intended but not too specific that variations to your target will fall through the filter's criteria hooks.
+You can choose which criteria to use by selecting or deselecting any of the filter line-items listed above. If you are new to the filter creation process, we recommend experimenting with these different identifiers in your test environment to ensure that you are using a comprehensive list of identifiers in your filter--enough to target the application or file intended but not too specific that variations to your target will fall through the filter's criteria hooks.
 
 ## Creating a New Filter Manually
 
@@ -47,7 +47,7 @@ Editing options for this new filter will depend on the type of filter selected.
 
 ## Create A Copy - How to Use Filter Templates
 
-Out-of-the-Box filters are designed to be used as templates, meaning when you open these filters you will see a Create A Copy button rather than the option to immediately Edit. These filter templates are protected to provide a jumping off point whenever creating new filters. They are formed by specific criteria that you can tailor according to your specific use case after copying.   
+Out-of-the-Box filters are designed to be used as templates, meaning when you open these filters you will see a Create A Copy button rather than the option to immediately Edit. These filter templates are protected to provide a jumping off point whenever creating new filters. They are formed by specific criteria that you can tailor according to your specific use case after copying.
 
 Keep in mind that every filter in Privilege Manager—whether or not it is a template—can be leveraged by the Copying feature.
 

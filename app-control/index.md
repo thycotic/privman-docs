@@ -1,7 +1,7 @@
-[title]: # (Application Control Overview)
+[title]: # (Application Control)
 [tags]: # (overview)
 [priority]: # (4000)
-# Application Control Overview
+# Application Control
 
 <!-- TODO: Add Overview paragraph -->
 ![Automated Application Control](images/app_con.png)

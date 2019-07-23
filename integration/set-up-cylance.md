@@ -1,6 +1,6 @@
 [title]: # (Set-up Cylance Integration)
 [tags]: # (integration)
-[priority]: # (111)
+[priority]: # (9100)
 # Set-up Cylance Integration
 
 Cylance is an Artificial Intelligence Based Advanced Threat Prevention Solution for enterprise environments. Privilege Manager (v10.5+) integrates with Cylance to help you proactively act on any unknown applications that run in your environment to prevent potential malware attacks. The steps below walk through how to setup a Cylance Integration in Privilege Manager and then create an example policy to begin using Cylance intelligence in action across your environment.

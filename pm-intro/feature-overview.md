@@ -9,13 +9,13 @@ For those organizations leveraging Active Directory (AD) as their identity authe
 
 ## Agent & OS Reports
 
-The lightweight Privilege Manager agent is a critical component of Thycotic’s application control, giving you the ability to evaluate the health and status of agents in real time.  Privilege Manager provides pre-configured and fully customizable reporting on the status of agents and endpoint operating systems. In the Privilege Manager reporting dashboard, you can drill into reports based on any dimension and easily export report data to other reporting applications or Excel.
+The lightweight Privilege Manager agent is a critical component of Thycotic's application control, giving you the ability to evaluate the health and status of agents in real time.  Privilege Manager provides pre-configured and fully customizable reporting on the status of agents and endpoint operating systems. In the Privilege Manager reporting dashboard, you can drill into reports based on any dimension and easily export report data to other reporting applications or Excel.
 
 ## Application Discovery for Administrative or Root Privileges
 
 The most powerful applications installed on endpoints are those that require administrator credentials or root privileges to run. Privilege Manager discovers all applications that run on endpoints through its Learning Mode, giving you a precise snapshot of how these applications are used before you implement any changes. You can set up Discovery policies to target any new application action that requires administrator or root access, so no privileged action goes unnoticed.
 
-Non-Domain Endpoint Support - Privilege Manager provides management and application control support for endpoints even if they are not associated with your organizational network. Because it utilizes a lightweight agent it can manage endpoints outside the network – such as those used by vendors, contractors, and partners—with the same dexterity and precision control as those within the network.
+Non-Domain Endpoint Support - Privilege Manager provides management and application control support for endpoints even if they are not associated with your organizational network. Because it utilizes a lightweight agent it can manage endpoints outside the network – such as those used by vendors, contractors, and partners - with the same dexterity and precision control as those within the network.
 
 ## Automated Local Account Password Rotation
 
@@ -27,11 +27,11 @@ Privilege Manager can record all executable events on managed endpoints so you c
 
 ## Child Process Control
 
-Child processes are those that execute from within a file such as a PDF and are frequently how malware executes on an endpoint. Privilege Manager allows you to prohibit execution of Child Process to ensure unknown executables are restricted on your organization’s network.
+Child processes are those that execute from within a file such as a PDF and are frequently how malware executes on an endpoint. Privilege Manager allows you to prohibit execution of Child Process to ensure unknown executables are restricted on your organization's network.
 
 ## Custom & Scheduled Reports
 
-Privilege Manager’s ability to quickly generate fully customized reports and schedule the execution and delivery of these reports is essential to maintaining a real-time understanding of every aspect of your least privilege program.
+Privilege Manager's ability to quickly generate fully customized reports and schedule the execution and delivery of these reports is essential to maintaining a real-time understanding of every aspect of your least privilege program.
 
 ## Define Local Group Membership
 
@@ -71,7 +71,7 @@ Privilege Manager integrates with reputation checking software like VirusTotal t
 
 ## Responsive & Actionable Reporting Dashboard
 
-Successful application control demands that you have a complete, real-time understanding of the status and activity of all endpoints. Privilege Manager provides a unified reporting dashboard so you can quickly evaluate the status of endpoints, review activity logs and event data, and access a broad library of reports. Responsive and fully configurable, Privilege Manager’s dashboard reporting enables you to quickly drill down into reports across any dimension (time, geo-region, OS, status…) to evaluate activities and trends. From the dashboard you can also set up automated alerts to stay informed of potential problems.
+Successful application control demands that you have a complete, real-time understanding of the status and activity of all endpoints. Privilege Manager provides a unified reporting dashboard so you can quickly evaluate the status of endpoints, review activity logs and event data, and access a broad library of reports. Responsive and fully configurable, Privilege Manager's dashboard reporting enables you to quickly drill down into reports across any dimension (time, geo-region, OS, status…) to evaluate activities and trends. From the dashboard you can also set up automated alerts to stay informed of potential problems.
 
 ## Reverse Proxying
 
@@ -103,7 +103,7 @@ Privilege Manager supports whitelisting to ensure that known, trusted applicatio
 
 ## User Account Control (UAC) Override
 
-By only elevating application privileges based upon specific policies and criteria, Privilege Manager ensures people don't use Microsoft’s UAC capabilities to grant a dangerous or unknown application administrative rights under any circumstance.
+By only elevating application privileges based upon specific policies and criteria, Privilege Manager ensures people don't use Microsoft's UAC capabilities to grant a dangerous or unknown application administrative rights under any circumstance.
 
 ## VirusTotal
 

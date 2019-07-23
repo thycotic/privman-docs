@@ -1,6 +1,6 @@
 [title]: # (How to...)
 [tags]: # (create,set-up)
-[priority]: # (9000)
+[priority]: # (9500)
 # How to...
 
 This section is a collection of articles covering "How to..." procedures for different tasks.

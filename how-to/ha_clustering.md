@@ -1,6 +1,6 @@
 [title]: # (High Availability Setup)
 [tags]: # (clustering)
-[priority]: # (9002)
+[priority]: # (9600)
 # Privilege Manager High Availability Setup
 
 This topic explains the steps involved to set up Thycotic Privilege Manager High

@@ -1,6 +1,7 @@
-[title] - # (Application Control)
-[tags] - # (overview)
-[priority] - # (4000)
+[title]: # (Application Control)
+[tags]: # (overview)
+[priority]: # (4000)
+
 # Application Control
 
 Application Control in Privilege Manager allows administrators to manage all application activity on endpoints. Applications requiring admin rights or root access can be automatically elevated if trusted, allowed applications can be whitelisted, and malicious applications can be blocked.

@@ -51,7 +51,7 @@ These are tasks that pertain to either core functions  or to components and subc
 | | | Update Data Feed - Updates the Privilege Manager Configuration Feed List|
 | | | Update TMS Configuration List Data Feed - Updates the Privilege Manager Configuration Feed List. |
 | Directory Services | Active Directory Merge Computers | Merges computers created by Directory Services. |
-| | Active Directory Merge Single Computer | Merges a single computer during agent registration. Needed if AD Sync has occured before agent registration. |
+| | Active Directory Merge Single Computer | Merges a single computer during agent registration. Needed if AD Sync has occurred before agent registration. |
 | | Import Secret Server Domains | A scheduled import of AD domains from Secret Server. |
 | | OU Directory Scope Collection Update | This task updates the membership of Directory Services OU scope collections. |
 | | Promote Windows Domains | Promotes any Windows domains to Active Directory domains. |

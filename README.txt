@@ -32,4 +32,4 @@ config-feeds                        8000                        Configuration Fe
 integration                         9000                        Integration of Foreign Systems
 How to ...                          9500                        How to procedures various
 troubleshooting                     10000                       Troubleshooting
-pmapi                               20000                       Privilege Manager API
+pmapi                               30000                       Privilege Manager API

@@ -8,13 +8,13 @@ Here is the complete list of policies that come with Privilege Manager out-of-th
 ## Process Hardening
 
 | Policy | Description | Type | Priority | Enabled |
-|---|---|---|---|---|
+| ----- | ----- | ----- | ----- | ----- |
 |Remove Advanced Privileges for Interactive Users|Removes advanced privileges for users interacting with a system via Desktop|n/a|50|n|
 
 ## System Options
 
 | Policy | Description | Type | Priority | Enabled |
-|---|---|---|---|---|
+| ----- | ----- | ----- | ----- | ----- |
 |Client Option - Elevate Adding Printers via Control Panel|Elevates privileges of users to allow printer drivers to be installed through the Control Panel|Elevate|60|n|
 |Client Option - Elevate Adding Printers via PrintUI.exe|Elevates privileges of users to allow printer drivers to be installed by the PrintUI Utility|Elevate|60|n|
 |Client Option - Elevate Changing Time and Date|Elevates privileges of users to allow them to change the system time and date|Elevate|60|n|
@@ -29,7 +29,7 @@ Here is the complete list of policies that come with Privilege Manager out-of-th
 ## Privilege Management
 
 | Policy | Description | Type | Priority | Enabled |
-|---|---|---|---|---|
+| ----- | ----- | ----- | ----- | ----- |
 |Limit Internet Browser and Mail Clients Process Rights|This policy implements the fundamental security principle of least privilege by restricting the process rights for standard Internet browsers and mail clients. Running these applications with administrative rights can present significant security problems. This policy reduces the risk of an exploit infecting a computer from within these applications.|Reduce|50|n|
 |Limit Popular Instant Messaging Application Process Rights|This policy implements the fundamental security principle of least privilege by restricting the process rights for instant messaging applications. Running these applications with administrative rights can present significant security problems. This policy reduces the risk of an exploit infecting a computer from within these applications.|Reduce|50|n|
 |Limit Popular Media Player Process Rights|This policy implements the fundamental security principle of least privilege by restricting the process rights for media player applications. Running these applications with administrative rights can present significant security problems. This policy reduces the risk of an exploit infecting a computer from within these applications.|Reduce|50|n|
@@ -40,7 +40,7 @@ Here is the complete list of policies that come with Privilege Manager out-of-th
 ## Application Analysis
 
 | Policy | Description | Type | Priority | Enabled |
-|---|---|---|---|---|
+| ----- | ----- | ----- | ----- | ----- |
 |Administrative Rights Required Detection Policy (Application Compatibility)|This policy detects applications that are deemed to require Administrative rights by Windows.|Elevate|45|n|
 |Administrative Rights Required Detection Policy (Security Manifest)|This policy detects applications that contain a security manifest that specifies administrative rights are required.|Elevate|45|n|
 |Event Discovery Audit Elevated Privileges Policy|This policy will detect all applications that are run with Administrator Rights on endpoints with the agent. This policy can be configured on the Event Discovery Configuration page.| |45|n|
@@ -49,13 +49,13 @@ Here is the complete list of policies that come with Privilege Manager out-of-th
 ## Windows Policies
 
 | Policy | Description | Type | Priority | Enabled |
-|---|---|---|---|---|
+| ----- | ----- | ----- | ----- | ----- |
 |Event Discovery Testing Computers Audit Policy (Windows)|This policy is enabled through the Event Discovery configuration by enabling the option to log all activity from the test group.| 97|n|
 
 ## macOS Policies
 
 | Policy | Description | Type | Priority | Enabled |
-| ----- | ----- | ----- | ----- | ----- |
+| ----- |  ----- |  ----- |  ----- |  ----- |
 | Event Discovery Testing Computers Audit Policy (MacOS) | This policy is enabled through the Event Discovery configuration by enabling the option to log all activity from the test group. | | 97 | n |
 
 ## Automatic Elevation via Windows Client System Settings
@@ -63,7 +63,7 @@ Here is the complete list of policies that come with Privilege Manager out-of-th
 Common Windows client settings can be deployed to endpoint agents the same way as any policy. These settings target __All__ Windows Computers with Application Control Agent Installed (Target)" as the default resource target. Once a setting is selected from the list, the resource target can be modified to include specific computer or other existing resource targets can be assigned on screen.
 
 | Policy | Description |
-| ----- | ----- |
+|  ----- |  ----- |
 | Add Devices | Allow users to add drivers, installing drivers as necessary. |
 | Add Printers | Allow users to add printers, installing drivers as necessary. |
 | Backup the System | Allow users to perform system backup operations. |
@@ -92,7 +92,7 @@ When defining the Firewall Policy an Application Classification must be set. An 
 The policies available on the General tab are covering the basic Privilege Manager functionality and are enabled by default. Most of these policies are fulfilling utility functions otherwise also considered tasks.
 
 | Policy | Description |
-| ----- | ----- |
+|  ----- |  ----- |
 | Basic Inventory (Initial, Mac OS) | This scheduled task triggers the Agent to send Mac OS basic inventory. This policy takes an inventory as soon at the agent and the initial policies are deployed and should be removed from the machines afterwards. |
 | Basic Inventory (Initial, Windows) | Instructs computers to report the Win32_ComputerSystem, Win32_ComputerSystemProduct and Win32_OperatingSystem WMI classes to the server. This policy takes an inventory as soon at the agent and the initial policies are deployed and should be removed from the machines afterwards. |
 | Basic Inventory (Mac OS) | This scheduled task triggers the Agent to send Mac OS basic inventory. |
@@ -126,7 +126,7 @@ The policies available on the General tab are covering the basic Privilege Manag
 ### Not Enabled
 
 | Policy | Description |
-| ----- | ----- |
+|  ----- |  ----- |
 | COM Inventory Policy | The purpose of this policy is to inventory COM+ and DCOM packages installed on the client. |
 | Disable Local Guest Accounts | Provisioning policy to disable local Guest accounts on Windows computers. |
 | Randomize Administrator Password | |

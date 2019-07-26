@@ -98,8 +98,8 @@ Here is a list of Privilege Manager out-of-the-box filters and descriptions, acc
 
 | Filter | Description |
 | ----- | ----- |
-| __MS OIS__ | Filter used to identify the Office Picture Manager Image Viewer |
 | __Add Hardware Utility (hdwwwiz.exe)__ | Filter used to identify the Device Pairing Wizard that appears when you click Add Device in Windows Vista and Windows 7 |
+| __AOL Instant Messenger__ | Filter used to detect AOL Messenger |
 | __AppCmd for App Pool Recycling (appcmd.exe)__ | Filter used to identify the AppCmd executable|
 | __Backup and Restore Utility (sdcit.exe)__  | Filter used to identify the Windows Backup and Restore utility |
 | __Chrome__ | Filter used to detect Google Chrome web browsers |
@@ -125,7 +125,7 @@ Here is a list of Privilege Manager out-of-the-box filters and descriptions, acc
 | __MS FrontPage__  | Filter used to detect Microsoft FrontPage  |
 | __MS InfoPath__ | Filter used to detect Microsoft InfoPath |
 | __MS Lync__ | Filter used to detect Microsoft Lync |
-| __AOL Instant Messenger__ | Filter used to detect AOL Messenger |
+| __MS OIS__ | Filter used to identify the Office Picture Manager Image Viewer |
 | __MS Outlook__| Filter used to detect Microsoft Outlook|
 | __MS Powerpoint__ | Filter used to detect Microsoft PowerPoint |
 | __MS PPTVIEW__| Filter used to detect Microsoft PowerPoint Viewer |
@@ -162,8 +162,8 @@ Here is a list of Privilege Manager out-of-the-box filters and descriptions, acc
 
 | Filter | Description |
 | ----- | ----- |
-| __Napclfcfg.msc Commandline Filter for MMC Snap-in__  | Filter used to detect NAP Client Configuration |
 | __Add Printer Commandline Arguments__| Filter used to identify the Add Printer UI applet  |
+| __Azman.msc Commandline Filter for MMC Snap-in__ | Filter used to detect Windows Authorization Manager |
 | __Backup and Restore Commandline Arguments__| Filter used to identify the Backup and Restore component, used as a commandline argument to a process |
 | __Certmgr.msc Commandline Filter for MMC Snap-in__| Filter used to detect Windows Certificate Manager  |
 | __Ciadv.msc Commandline Filter for MMC Snap-in__ | Filter used to detect Indexing Service Management  |
@@ -179,7 +179,7 @@ Here is a list of Privilege Manager out-of-the-box filters and descriptions, acc
 | __Gpedit.msc Commandline Filter for MMC Snap-in__| Filter used to detect Group Policy Editor |
 | __Hardware Wizard Applet__  | Filter used to identify a commandline argument referring to the Control Panel applet used to add new hardware|
 | __Lusrmgr.msc Commandline Filter for MMC Snap-in__| Filter used to detect Local User and Group Management |
-| __Azman.msc Commandline Filter for MMC Snap-in__ | Filter used to detect Windows Authorization Manager |
+| __Napclfcfg.msc Commandline Filter for MMC Snap-in__  | Filter used to detect NAP Client Configuration |
 | __Network Adapter Elevate Attempt__ | Filter used to detect when a user right-clicks on a network adapter and selects Properties |
 | __Ntmsmgr.msc Commandline Filter for MMC Snap-in__| Filter used to detect Removable Storage Manager|
 | __Performance Monitor Component (perfmon.msc)__ | Filter used to detect Performance Monitor |
@@ -285,8 +285,8 @@ VirusTotal Filters based on configuring VirusTotal integration in Privilege Mana
 
 | Filter | Description |
 | ----- | ----- |
-| __Removable Drive Filter__  | Filters files present on removable drives such as Floppy Drives and USB devices |
 | __Any Package (MacOS)__| Target .pkg and .mpkg files |
+| __App Store Preference Pane (MacOS)__| Filter used to detect App Store Preference Pane in Mac |
 | __Common Executable Folders__| Filter used to detect files in common executable directories, such as C:\Windows, C:\Program Files, and C:\Program Files(x86) |
 | __Date and Time Preference Pane (MacOS)__ | Date and Time Preference Pane (MacOS) |
 | __Default App Bundles File Specification Filter__| The default filter for discovering app bundles on MacOS|
@@ -307,7 +307,7 @@ VirusTotal Filters based on configuring VirusTotal integration in Privilege Mana
 | __Program Files__ | Filter used to detect files in the C:\Program Files\ directory |
 | __Program Files (x64 on Win32)__ | Filter used to detect files in the C:\Program Files\ directory |
 | __Program Files (x86)__| Filter used to detect files in the C:\Program Files(x86)\ directory |
-| __App Store Preference Pane (MacOS)__| Filter used to detect App Store Preference Pane in Mac |
+| __Removable Drive Filter__  | Filters files present on removable drives such as Floppy Drives and USB devices |
 | __Security and Privacy Preference Pane (MacOS)__ | Filter used to detect Security and Privacy Preference Pane in Mac  |
 | __Sharing Preference Pane (MacOS)__ | Filter used to detect the Sharing Preference Pane in Mac |
 | __System Catalog Folder__ | Filter used to detect files in the CatRoot directory  |
@@ -351,28 +351,28 @@ VirusTotal Filters based on configuring VirusTotal integration in Privilege Mana
 
 | Filter | Description |
 | ----- | ----- |
-| __Native Executables__| Filter used to detect files with the executable header set |
-| __Windows CE Executables__  | Filter used to detect files with the Windows CE Subtype header set|
 | __32-bit Executables__| Filter used to detect files with the 32-bit executable machine type header set |
 | __All Executable Types__| This filter includes all executable types|
-| __Program File Executables__ | Filter used to detect files with the executable or DLL header set |
-| __GUI Executables__  | Filter used to detect files with the GUI header set |
-| __X64 Executables__  | Filter used to detect files with x64 machine type header set |
 | __Commandline Executables__ | Filter used to detect files with the Windows console subsystem header set |
+| __GUI Executables__  | Filter used to detect files with the GUI header set |
+| __Native Executables__| Filter used to detect files with the executable header set |
+| __Windows CE Executables__  | Filter used to detect files with the Windows CE Subtype header set|
+| __Program File Executables__ | Filter used to detect files with the executable or DLL header set |
 | __Posix Executables__ | Filter used to detect files with the POSIX header set|
+| __X64 Executables__  | Filter used to detect files with x64 machine type header set |
 
 ### File Parameter Collections
 
 | Filter | Description |
 | ----- | ----- |
+| __All Blacklist Security Rated Applications__ | This collection contains all applications that have been blacklisted by applying a security rating |
+| __All Executables Discovered in Last 2 Weeks__ | Filter used to detect files that have been discovered by the server in the past 2 weeks|
 | __All Executables Discovered in Last Day__| Filter used to detect files that have been discovered by the server in the past day  |
 | __All Executables Discovered in Last Week__ | Filter used to detect files that have been discovered by the server in the past week |
 | __All Executables Discovered in Last Month__  | Filter used to detect files that have been discovered by the server in the past month |
 | __All Greylist Security Rated Applications__  | This collection contains all applications that have been greylisted |
-| __All Executables Discovered in Last 2 Weeks__ | Filter used to detect files that have been discovered by the server in the past 2 weeks|
-| __All Blacklist Security Rated Applications__ | This collection contains all applications that have been blacklisted by applying a security rating |
-| __All Whitelist Security Rated Applications__ | This collection contains all applications that have been whitelisted by applying a security rating |
 | __All Unclassified Applications__ | This collection contains all applications that have not been classified by a security rating|
+| __All Whitelist Security Rated Applications__ | This collection contains all applications that have been whitelisted by applying a security rating |
 
 ### Mach-O Header Filters
 

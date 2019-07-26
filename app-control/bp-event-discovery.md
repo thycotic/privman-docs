@@ -1,6 +1,6 @@
 [title]: # (Best Practices)
 [tags]: # (event discovery, notifications)
-[priority]: # (4002)
+[priority]: # (4001)
 # Best Practices
 
 In Privilege Manager the option to Send Policy Feedback is the main notification mechanism about application installation and execution on user endpoints. Using Send Policy Feedback is recommended while systems are in Event Discovery and Learning Mode. This helps administrators to gather data, analyze patterns, and then assign actions to application events retrospectively. 

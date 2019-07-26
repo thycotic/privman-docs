@@ -1,6 +1,6 @@
 [title]: # (High Availability Setup)
 [tags]: # (clustering)
-[priority]: # (9002)
+[priority]: # (9600)
 # Privilege Manager High Availability Setup
 
 This topic explains the steps involved to set up Thycotic Privilege Manager High
@@ -73,9 +73,9 @@ In this procedure you will first copy the web application files from the primary
 1. Open **Internet Information Services Manager** (inetmgr).
 1. Under your local server, right-click **Application Pools** and select **Add Application Pool...**
 1. **Add** three new application pools.
-   a. **TMS**
-   b. **TMSAgent**
-   c. **TMSWorker**. 
+   1. **TMS**
+   1. **TMSAgent**
+   1. **TMSWorker**. 
 
       ![Application Pools](images/ha/7719260dd522441949d6669a2b560071.png)
 1. For each of the 3 app pools (TMS, TMSAgent, and TMSWorker),
@@ -175,21 +175,21 @@ In this procedure you will first copy the web application files from the primary
 
 ### Permission to Certificate Private Key (prior to 10.6 only)
 
->**Note**: 
+>**Note**:
 >This is only required for Privilege Manager prior to release 10.6.
 
 TMS requires **Read** access to the private key of the certificate being used for the HTTPS binding. To set this:
 
 1. Open **mmc.exe** as an administrator.
-1. Add the certificate manager snap-in choosing to manage certificates for the computer account (**File \> Add/Remove Snap-in… \>**
+1. Add the certificate manager snap-in choosing to manage certificates for the computer account (**File | Add/Remove Snap-in…**)
 1. Click **Certificates**,
-1. then **Add\> Computer account \> Next \> Local computer \> Finish \> OK**.
-1. Find the certificate that the HTTPS binding for your site is using
-1. Right-click on the certificate and select **All Tasks \> Manage Private Keys\***
-1. Grant **Read** access to the identity account for your application pools
+1. then **Add | Computer account | Next | Local computer | Finish | OK**.
+1. Find the certificate that the HTTPS binding for your site is using.
+1. Right-click on the certificate and select **All Tasks | Manage Private Keys**.
+1. Grant **Read** access to the identity account for your application pools.
 
-If the “Manage Private Keys” option is not available, you can set this permission in PowerShell. 
-[This KB](https://thycotic.force.com/support/s/article/PM-Adv-Setting-Read-Access-to-the-Private-Key-of-your-Certificate-in-Powershell)
+If the “Manage Private Keys” option is not available, you can set this permission in PowerShell.
+[This article ](https://thycotic.force.com/support/s/article/PM-Adv-Setting-Read-Access-to-the-Private-Key-of-your-Certificate-in-Powershell)
 has the script.
 
 ### Verify Login on Secondary Node

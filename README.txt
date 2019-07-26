@@ -23,13 +23,13 @@ getting-started                     200                         Getting Started
 ui                                  2000                        The Privilege Manager UI
 local-security                      3000                        Local Security
 app-control                         4000                        Application Control (& Policies)
-  - actions                         5000                          - Actions
-  - filters                                                       - Filters
-  - personas.md                     4900                          - Personas
+  - actions                         5700                          - Actions
+  - filters                         5800                          - Filters
+  - personas.md                     5900                          - Personas
 tasks                               6000                        Tasks
 reports                             7000                        Reports
 config-feeds                        8000                        Configuration Feeds
 integration                         9000                        Integration of Foreign Systems
 How to ...                          9500                        How to procedures various
 troubleshooting                     10000                       Troubleshooting
-pmapi                               20000                       Privilege Manager API
+pmapi                               30000                       Privilege Manager API

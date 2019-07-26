@@ -1,6 +1,6 @@
 [title]: # (Add Thycotic One Users Manually)
 [tags]: # (user,add)
-[priority]: # (9001)
+[priority]: # (9510)
 # Add Thycotic One Users Manually
 
 To manually add users to your Privilege Manager cloud instance, follow these steps:

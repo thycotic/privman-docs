@@ -1,5 +1,5 @@
 [title]: # (Creating Policies for Applications Triggering File Execution)
-[tags]: # (policy, deny, allow)
+[tags]: # (policy, deny, allow, secondary file filters)
 [priority]: # (4100)
 # Creating Policies for Applications Triggering File Execution
 

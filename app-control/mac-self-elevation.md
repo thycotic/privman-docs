@@ -1,6 +1,6 @@
 [title]: # (macOS Application Self-elevation)
 [tags]: # (standard user, policy)
-[priority]: # (4102)
+[priority]: # (5103)
 # macOS Application Self-elevation
 
 Finder Sync Extensions allow application control on macOS endpoints. Just as on Windows endpoints, users can request application self-elevation via right-click mouse action. The application control is policy based and the macOS system with the endpoint agent must have been online at least once to request its policies from the Privilege Manager server.

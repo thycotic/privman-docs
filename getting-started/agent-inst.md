@@ -3,10 +3,6 @@
 [priority]: # (230)
 # Agent Installation
 
-Download agent installers for each of your endpoints <!-- TODO add download location https://thycotic.force.com/support/s/article/Software-Download --> and follow steps for installing agents here. 
-
-## Privilege Manager Agent Downloads & Descriptions
-
 Agents are required on endpoint machines to carry out policies created in Privilege Manager. This page offers direct downloads and descriptions for all available agents.
 
 Agents are required on endpoint machines to implement Privilege Manager policies. Thycotic Agents can be deployed in various ways: software management systems, GPO, cloned (gold) images, and manually. Instructions and links for agent installers are provided in this article, grouped as follows:
@@ -15,7 +11,7 @@ Agents are required on endpoint machines to implement Privilege Manager policies
 * Individual Agent Installers for Privilege Manager:
   * 64-bit Windows Operating Systems
   * 32-bit Windows Operating Systems
-* Mac OS X Installer (10.11 or Newer)
+* macOS X Installer (10.11 or Newer)
 
 For details about Thycotic Agent System Requirements, see our Privilege Manager System Requirements Guide here.
 

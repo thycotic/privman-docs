@@ -1,19 +1,21 @@
-[title]: # (Agent Installation Mac)
-[tags]: # (Endpoint,Agent Installation,Registration,Mac)
+[title]: # (macOS Agents)
+[tags]: # (endpoint,installation,registration)
 [priority]: # (232)
 # Agent Installation Mac OSx Systems
+
+Use the links below to download the agents installation software for macOS based entpoints.
 
 ## Mac OS X Installer (10.11 or Newer)
 
 The Bundled Mac Agent DMG + PKG installer is available for Mac machines. You can use this installer directly on individual endpoints for testing or for production environments.
 
 ### Privilege Manager Mac Agent
-<!-- TODO: Version update -->
-https://tmsnuget.thycotic.com/Software/Agents/ThycoticManagementAgent-10.6.1.dmg
+
+https://tmsnuget.thycotic.com/Software/Agents/ThycoticManagementAgent-10.6.20.dmg
 
 ### Installating Mac Agent Directly
 
-The Bundled Mac Agent is a DMG + PKG file. You can use this Mac agent installer directly on individual endpoints for testing or production environments.
+The Bundled macOS Agent is a DMG + PKG file. You can use this Mac agent installer directly on individual endpoints for testing or production environments.
 
 To install the Thycotic agents on a single testing machine, follow these steps:
 1. Go to Agent Downloads and download the Privilege Manager Mac Agent.
@@ -52,21 +54,31 @@ There are two methods for deploying your remaining mac agents in an unattended f
 
 #### Network File Share
 
-If you want to use administrators to deploy agents onto individual mac endpoints, save the PKG installer side-by-side with the agentconfig.json file in a network share folder. Users/Administrators can then run the installation (PKG) from that folder onto each endpoint.  
+If you want administrators to deploy agents onto individual macOS endpoints, save the PKG installer from the DMG side-by-side with the __agentconfig.json__ file in a network share folder.
 
-The PKG will first look for an agentconfig.json file located in the same folder. When it finds this file, it will copy agentconfig.json into the /Library/Application Support/Thycotic/Agent folder during the unattended install on the Mac endpoint where the installer is running.
+Due to new macOS security enhancements, users cannot run a PKG installer from a network share anymore. The administrator must then run the installer command-line tool from __Terminal.app__ after mounting and cd'ing to the directory containing the PKG installer and __agentconfig.json__ file:
+
+```
+cd /Volumes/<network share>/<path to PKG installer> sudo installer -pkg ThycoticManagementAgent-10.6.20.pkg -target /
+```
+
+The PKG will first look for an __agentconfig.json__ file located in the same folder. When it finds this file, it will copy __agentconfig.json__ into the _/Library/Application Support/Thycotic/Agent_ folder during the unattended install on the Mac endpoint where the installer is running.
 
 #### Distribution Tool
 
-Using a Deployment Tool like Jamf or SCCM, include both the PKG installer and the agentconfig.json files in the distribution package together, then deploy the package onto your endpoint macs by running a script using a tool or remotely by using ssh to install the PKG (eg. ```sudo installer -pkg ThycoticManagementAgent.10.6.20.pkg -target /```).  
+Using a Deployment Tool like Jamf or SCCM, include both the PKG installer and the __agentconfig.json__ files in the distribution package together, then deploy the package onto your endpoint macs by running a script using a tool or remotely by using ssh to install the PKG, for example:
 
-As in the example using a Network Share, the PKG will first look for an agentconfig.json file located in the same folder. When it finds this file, it will copy agentconfig.json into the /Library/Application Support/Thycotic/Agent folder during the unattended install on the endpoint Mac where the installer is running.
+```
+sudo installer -pkg ThycoticManagementAgent.10.6.20.pkg -target /
+```  
 
-For more instructions on how to deploy in bulk using Microsoft Software System Center Configuration Manager (SCCM), Microsoft instructions for Macs are described here. 
+As in the example using a Network Share, the PKG will first look for an __agentconfig.json__ file located in the same folder. When it finds this file, it will copy __agentconfig.json__ into the _/Library/Application Support/Thycotic/Agent_ folder during the unattended install on the endpoint Mac where the installer is running.
+
+For more instructions on how to deploy in bulk using Microsoft Software System Center Configuration Manager (SCCM), Microsoft instructions for Macs are described [here](https://technet.microsoft.com/en-us/library/jj687950.aspx).
 
 ## After Initial Deployment
 
-If the Mac already has an existing agentconfig.json file, it will NOT be overwritten because creating a file only occurs if the computer didn’t already have an agentconfig.json installed. This means you can use the same distribution package for upgrades and new installs.
+If the Mac already has an existing __agentconfig.json__ file, it will NOT be overwritten because creating a file only occurs if the computer didn’t already have an __agentconfig.json__ installed. This means you can use the same distribution package for upgrades and new installs.
 
 >**Note**:
 >It will take 15-30 minutes for newly installed agents to register in Privilege Manager, and policies will update according to a scheduled task in Privilege Manager. To check the schedule on this task, go to Admin | Resources | [Select Mac Machine Name] | "Update Agent Commands (Mac OS)" Policy | Triggers tab. 
@@ -81,11 +93,12 @@ For troubleshooting your Mac agent, logs are found in the Console application. T
 
 ### Terminal Commands
 
-In the Mac Terminal application you can perform the following commands directly to your Thycotic Mac agent. Find this list by entering: 
+In the Mac Terminal application you can perform the following commands directly to your Thycotic macOS agent. Find this list by entering the following into Terminal:
 
 ```shell
 sudo /usr/local/thycotic/agent/agentUtil.sh
 ```
+These are the commands returned for the utility:
 
 ```shell
 runschedule -scheduleId {id}

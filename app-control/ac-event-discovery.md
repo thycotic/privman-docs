@@ -26,7 +26,7 @@ The most influential applications are those that require administrator credentia
 
 ## Discover All Events on Test Endpoints
 
-Another type of Learning Mode Policy will discover all events on targeted machines regardless of whether the application requires Administrator Rights. This policy is used in test environments to quickly target policies at untrusted/unwanted applications, but is not recommended for production settings.
+Another type of Learning Mode Policy will discover all events on targeted macOShines regardless of whether the application requires Administrator Rights. This policy is used in test environments to quickly target policies at untrusted/unwanted applications, but is not recommended for production settings.
 
 1. From the __Event Discovery | Configuration__ screen select __Edit__.
 1. Select the checkboxes for Log all Windows/MacOS activity from Application Compatibility Testing Computers.

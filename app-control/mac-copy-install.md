@@ -1,5 +1,5 @@
-[title]: # (Mac OS Copy Install Application)
-[tags]: # (standard user, policy)
+[title]: # (Allow Copy/Install of Applications)
+[tags]: # (standard user, policy, macOS)
 [priority]: # (5100)
 # Allow Copy/Install of Applications
 

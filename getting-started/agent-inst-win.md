@@ -1,7 +1,7 @@
 [title]: # (Windows Agents)
 [tags]: # (endpoint,installation)
 [priority]: # (231)
-# Agent for Windows Systems
+# Windows Agents
 
 Use the links below to download the agent installation software for Windows based endpoints.
 

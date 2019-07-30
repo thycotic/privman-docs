@@ -1,7 +1,7 @@
 [title]: # (macOS Agents)
 [tags]: # (endpoint,installation,registration)
 [priority]: # (232)
-# Agent Installation Mac OSx Systems
+# macOS Agents
 
 Use the links below to download the agents installation software for macOS based entpoints.
 

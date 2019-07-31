@@ -1,6 +1,6 @@
 [title]: # (Active Directory Synchronization)
 [tags]: # (setup)
-[priority]: # (9501)
+[priority]: # (304)
 # Active Directory Synchronization
 
 The following procedures show the steps necessary to set-up Active Directory synchronization in Privilege Manager.

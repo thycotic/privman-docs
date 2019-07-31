@@ -1,6 +1,6 @@
-[title]: # (List of Actions)
+[title]: # (    List of Actions)
 [tags]: # (overview,out-of-box)
-[priority]: # (5701)
+[priority]: # (4022)
 # List of Actions
 
 This topic describes the out-of-the-box actions that are available in Privilege Manager and can be used to make your policy configuration process easy.

@@ -1,7 +1,7 @@
-[title]: # (Allow Copy/Install of Applications)
+[title]: # (    Allow Copy to Install Applications)
 [tags]: # (standard user, policy, macOS)
-[priority]: # (5100)
-# Allow Copy/Install of Applications
+[priority]: # (5101)
+# Allow Copy to Install Applications
 
 A policy can be created to allow or deny standard users to install specific applications by copying/pulling the application into the Applications folder. Follow this example to create a policy that will enable this functionality for your Mac OS user.
 

@@ -1,9 +1,9 @@
-[title]: # (Creating Policies for Applications Triggering File Execution)
-[tags]: # (policy, deny, allow, secondary file filters)
-[priority]: # (4100)
-# Creating Policies for Applications Triggering File Execution
+[title]: # (Using Secondary File Filters)
+[tags]: # (policy, deny, allow, best practice)
+[priority]: # (4013)
+# Using Secondary File Filters
 
-Implementing a policy to filter on a file type that is used by another executable is done by setting a **Secondary File Filter**.
+This topic explains how to create policies for applications that trigger file executions. Implementing a policy to filter on a file type, which is used by another executable, is done by setting a **Secondary File Filter**.
 
 This article shows the steps used to create filters and policies that enforce actions on  endpoints when batch files, PowerShell scripts, or Microsoft Installer files execute. Any type of executer can be specified and policed this way.
 

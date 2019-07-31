@@ -1,6 +1,6 @@
 [title]: # (Help Desk Approvals)
 [tags]: # (elevation request)
-[priority]: # (4011)
+[priority]: # (4210)
 # Help Desk Approvals
 
 # Elevation Requests
@@ -23,7 +23,7 @@ To enable elevation requests in ACS, do the following steps:
 
 After you save the policy and the agent receives the update, the new message looks like this:
 
-<image>
+TODO update image
 
 Users will enter their written request in the Reason (required) field and then send the request to the AMS.
 

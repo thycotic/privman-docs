@@ -1,17 +1,17 @@
 [title]: # (Sending Policies to Endpoints)
 [tags]: # (Application Control,Policy,Endpoints)
-[priority]: # (4005)
+[priority]: # (4003)
 # Sending Policies to Endpoints
 
 After setting up your first policies, keep in mind that even after you enable them, new policies are not immediately sent to target endpoints. Instead, policies are updated on endpoints via the schedule defined by the Update Applicable Policies task.
 
 1. Go to __Admin | Policies | General Tab__ and search for the Update Applicable Policies task from your list of Scheduled tasks:
 
-<User-added image>
+TODO - update <User-added image>
 
 1. To edit the time scheduled that sets off this task, Click into the task, under the Triggers tab click the Default: Daily setting, then choose the Show Advanced link to adjust how often this task will be repeated.
 
-<User-added image>
+TODO - update <User-added image>
 
 In production environments having a delayed deployment schedule prevents performance issues when adjusting policies and rolling them out across a large number of agents on your network. However, when setting up new policies you may want to immediately activate them on testing endpoints and verify your configurations are working correctly. 
 
@@ -21,7 +21,7 @@ Remember to Save any changes you make to activate this schedule.
 
 Within a Policy’s Detail View, Navigate to the Deployment tab. This will tell you how many computers the policy is already deployed on:
 
-<User-added image>
+TODO - update <User-added image>
 
 ## Update Policies on an Endpoint using Powershell
 
@@ -42,11 +42,11 @@ The fastest way to deploy or update your policies on a specific testing endpoint
 
 1. Hit enter.
 
-<User-added image>
+TODO - update <User-added image>
 
 Your results will look something like this:
 
-<User-added image>
+TODO - update <User-added image>
 
 In this example we see that a new “Blacklist + Quarantine” policy was successfully added to the endpoint machine.
 
@@ -60,6 +60,6 @@ Another helpful place to look when setting up new policies is your Agent’s Eve
 
 Scroll all the way to the top of the page to see the most recent activity from your Thycotic Agent. Uncheck the Information box on the upper righthand corner to narrow search results for any Errors and Warning messages that may be occurring. You can also double-click any line item for more detailed information about each event.
 
-<User-added image>
+TODO - update <User-added image>
 
 Now that you know how to update your endpoints and check to make sure your policies are working, it’s time to start building new policies!

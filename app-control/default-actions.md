@@ -1,5 +1,5 @@
-[title]: # (    List of Actions)
-[tags]: # (overview,out-of-box)
+[title]: # (List of Actions)
+[tags]: # (default,out-of-box)
 [priority]: # (4022)
 # List of Actions
 

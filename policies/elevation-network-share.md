@@ -19,7 +19,7 @@ There are different options to elevate rights to launch applications from a netw
 1. On the New Filter page, select the platform. This can be either __Both Windows / Mac OS__, __Windows__, or __Mac OS__. For this example, select __Windows__.
 1. From the Filter Type drop*down select __File Specification Filter__. This also allows you to link in hashes or signatures.
 
-   ![File Specification Filter](images/sff/file_spec_filter.png)
+   ![File Specification Filter](../filters/images/sff/file_spec_filter.png)
 1. Enter the name and a description for the filter, for example "network share" and "filter to elevate applications installed from network share".
 1. Click __Create__.
 1. The page for the new filter opens, click __Edit__.

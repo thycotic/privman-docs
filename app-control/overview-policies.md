@@ -11,9 +11,15 @@ In Application Control, layered Policies create the backbone or parameters, that
 
 During the creation of a Policy you will specify Actions and Targets, but Filters are created separately and then assigned to Policies.
 
+## Using Policy Templates
+
+Privilege Manager ships with most commonly used policy templates. These can be created new based on a selected template or copied and then customized. These policies are quickly accessed via __Admin | Policies__.
+
+Thycotic also provided templates that do not ship with the product, but that can be downloaded via Config Feeds from within the Privilege Manager Console. Once downloaded and installed, customers can access those policy templates via __Admin | More__ and clicking on the Folders link. Here a new policy can be created based on a template from a drop-down list. This policy will have associated targets, filters, and actions set, which can be further customized to cover an organization's specific needs.
+
 ## Overview of the Configuration Process
 
-This Setup Guide will walk you through the specific steps you can take to configure a few popular example policies in Privilege Manager. While there are many different types of policies, the setup process must follow these basic steps:
+While there are many different types of policies, the setup process must follow these basic steps:
 
 1. Collect File Data - This enables Privilege Manager to recognize specific files and file types in your environment. The file data that you want to target with policies are called Events. All imported files can be viewed in the Event Discovery | Files page.
 1. Create Filters - This step sorts important file data (Events) according to different criteria.

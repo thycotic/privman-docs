@@ -1,6 +1,6 @@
 [title]: # (Adjust Process Rights Actions)
 [tags]: # (unrestricted token)
-[priority]: # (4022)
+[priority]: # (4021)
 # Adjust Process Rights Actions
 
 This topic explains the Adjust Process Rights Actions and Unrestricted Tokens in Privilege Manager.
@@ -28,10 +28,10 @@ The application action elevates or restricts the permissions and/or privileges h
 
 The four main areas to customize are:
 
-* Selecting an **Action Type**, which can either Elevate Rights or Restrict Rights. When the adjustment is a rights restriction, there is an advanced feature that allows you to apply restricted Security Identifiers (SIDs), which further restricts access to securable objects. More about this under the [What is a Restricted SID](#what-is-a-restricted-sid) topic.
-* Adding or Removing **Windows Privileges**, these come prepopulated with a set of default recommendations for each out of the box Action. To learn more about these Windows Privileges visit [Microsoft’s Documentation about User Rights Assignment](https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/user-rights-assignment).
-* Adding or Removing **Build-in Roles**, these are the roles that provide file level access to a system and they are based on group membership.
-* Adding or Removing **Well-known Accounts**, these are specifying the integrity levels at which processes can run. Also refer to [Microsoft’s Documentation about Mandatory Integrity Control](https://docs.microsoft.com/en-us/windows/win32/secauthz/mandatory-integrity-control).
+* Selecting an __Action Type__, which can either Elevate Rights or Restrict Rights. When the adjustment is a rights restriction, there is an advanced feature that allows you to apply restricted Security Identifiers (SIDs), which further restricts access to securable objects. More about this under the [What is a Restricted SID](#what-is-a-restricted-sid) topic.
+* Adding or Removing __Windows Privileges__, these come prepopulated with a set of default recommendations for each out of the box Action. To learn more about these Windows Privileges visit [Microsoft’s Documentation about User Rights Assignment](https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/user-rights-assignment).
+* Adding or Removing __Build-in Roles__, these are the roles that provide file level access to a system and they are based on group membership.
+* Adding or Removing __Well-known Accounts__, these are specifying the integrity levels at which processes can run. Also refer to [Microsoft’s Documentation about Mandatory Integrity Control](https://docs.microsoft.com/en-us/windows/win32/secauthz/mandatory-integrity-control).
 
 ### What is a Restricted SID?
 
@@ -91,11 +91,11 @@ In Privilege Manager we can use these Well-known Accounts to set or remove level
 For example, Adobe applications are generally part of elevation policies in an organization. As mentioned before an elevation policy defaults to a high integrity level. Due to Adobe interoperability requirements within their product
 suites and with processes launched by standard users, it requires medium integrity levels for all Adobe products.
 
-Any elevation policy pertaining to Adobe products, needs an **Adjust Process Rights Action** that sets the **Well-known Accounts** setting to **Medium Integrity Level**.
+Any elevation policy pertaining to Adobe products, needs an __Adjust Process Rights Action__ that sets the __Well-known Accounts__ setting to __Medium Integrity Level__.
 
 ## Additional Options Explained
 
-Under Additional Options customers can select to **Use User’s Unrestricted Token** and **Disallow changes to the process rights after applying changes**.
+Under Additional Options customers can select to __Use User’s Unrestricted Token__ and __Disallow changes to the process rights after applying changes__.
 
 The use of the unrestricted token option is another level of available customization beyond what can be enabled or disabled via the Adjust Process Rights Settings. Enabling this token presents the user with extra levels of
 access rights over the process. If changes to the process rights are disallowed, the user’s unrestricted token is valid as long as the pertaining process is running.
@@ -106,9 +106,9 @@ For example if you have a standard user policy for a certain process to run at m
 
 To set the unrestricted token, follow these steps:
 
-1. Select the action of type **Adjust Process Rights Action** that best fits your specific business need.
+1. Select the action of type __Adjust Process Rights Action__ that best fits your specific business need.
 2. Create a copy of that action.
-3. Select the **Use User's Unrestricted Token** checkbox on the copied action and save the action with a new name (for example "Unrestricted Token - Add Admin Rights").
+3. Select the __Use User's Unrestricted Token__ checkbox on the copied action and save the action with a new name (for example "Unrestricted Token - Add Admin Rights").
 4. Add the new action to new policies or change existing policies and remove the old action.
 5. Add the new action and save the changes.
 6. Then update the agent client policies.

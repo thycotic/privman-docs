@@ -1,5 +1,5 @@
 [title]: # (Blacklisting Policies)
-[tags]: # (elevate)
+[tags]: # (deny)
 [priority]: # (4220)
 # Blacklisting Policies
 

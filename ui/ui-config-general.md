@@ -1,4 +1,4 @@
-[title]: # (    General Tab)
+[title]: # (- General Tab)
 [tags]: # (admin,configuration)
 [priority]: # (2101)
 # General Tab

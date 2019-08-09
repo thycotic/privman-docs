@@ -1,4 +1,4 @@
-[title]: # (History Tab)
+[title]: # (- History Tab)
 [tags]: # (user interface,console,overview)
 [priority]: # (2110)
 # History Tab

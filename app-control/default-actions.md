@@ -1,4 +1,4 @@
-[title]: # (List of Default Actions)
+[title]: # (- List of Default Actions)
 [tags]: # (default,out-of-box)
 [priority]: # (4022)
 # List of Default Actions

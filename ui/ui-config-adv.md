@@ -1,4 +1,4 @@
-[title]: # (    Advanced Tab)
+[title]: # (- Advanced Tab)
 [tags]: # (user interface,console,overview)
 [priority]: # (2108)
 # Advanced Tab

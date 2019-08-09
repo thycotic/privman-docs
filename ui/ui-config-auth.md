@@ -1,4 +1,4 @@
-[title]: # (    Authentication Tab)
+[title]: # (- Authentication Tab)
 [tags]: # (user interface,console,overview)
 [priority]: # (2109)
 # Authentication Tab

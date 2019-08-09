@@ -1,4 +1,4 @@
-[title]: # (    Credentials Tab)
+[title]: # (- Credentials Tab)
 [tags]: # (admin,configuration)
 [priority]: # (2105)
 # Credentials Tab

@@ -1,4 +1,4 @@
-[title]: # (    Reputation Tab)
+[title]: # (- Reputation Tab)
 [tags]: # (admin,configuration)
 [priority]: # (2103)
 # Reputation Tab

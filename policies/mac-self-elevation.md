@@ -1,4 +1,4 @@
-[title]: # (Application Self-elevation)
+[title]: # (- Application Self-elevation)
 [tags]: # (macOS, standard user, policy)
 [priority]: # (4803)
 # Application Self-elevation

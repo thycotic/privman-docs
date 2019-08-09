@@ -1,4 +1,4 @@
-[title]: # (MS Security Catalog)
+[title]: # (- MS Security Catalog)
 [tags]: # (whitelist)
 [priority]: # (4301)
 # MS Security Catalog

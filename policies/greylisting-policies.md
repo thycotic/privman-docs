@@ -1,5 +1,5 @@
 [title]: # (Greylisitng Policies)
-[tags]: # (elevate)
+[tags]: # (discovery)
 [priority]: # (4500)
 # Greylisting Policies
 

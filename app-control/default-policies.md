@@ -1,4 +1,4 @@
-[title]: # (List of Default Policies)
+[title]: # (- List of Default Policies)
 [tags]: # (overview,out-of-box)
 [priority]: # (4002)
 # List of Default Policies

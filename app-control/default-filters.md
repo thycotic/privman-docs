@@ -1,4 +1,4 @@
-[title]: # (List of Default Filters)
+[title]: # (- List of Default Filters)
 [tags]: # (overview,out-of-box)
 [priority]: # (4012)
 # List of Default Filters

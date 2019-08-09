@@ -1,4 +1,4 @@
-[title]: # (    Discovery Tab)
+[title]: # (- Discovery Tab)
 [tags]: # (admin,configuration)
 [priority]: # (2102)
 # Discovery Tab

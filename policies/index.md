@@ -16,16 +16,21 @@ These following topics are available:
   * [HelpDesk Approvals](helpdesk.md)
 
 * [Whitelisting Policies](ac-whitelisting.md)
-  * 
+  * [Google Application with File Upload](wl-g-app-file-up.md)
+  * [Microsoft Security Catalog](wl-ms-sec-cat.md)
 
 * [Elevation Policies](elevation-policies.md)
   * [Elevate - Network Share Applications](elevation-network-share.md)
+  * [User Justification Required](elevation-user-just.md)
+  * [Application Execution Requires Approval](elevation-app-req-app.md)
 
 * [Greylisting Policies](greylisting.md)
-  * 
+  * [Using a Catch All Policy](gl-catch-all.md)
+  * [Reputation Checking Policies](gl-reputation.md)
 
 * [Blacklisting Policies](ac-blacklisting.md)
-  * 
+  * [iTunes with File Upload](bl-iTunes-file-up.md)
+  * [Quarantine Malware](bl-quarantine.md)
 
 * [macOS Specific Policies](macOS.md)
   * [Allow Copy to Install Applications](mac-copy-install.md)

@@ -1,4 +1,4 @@
-[title]: # (Allow Copy to Install Applications)
+[title]: # (- Allow Copy to Install Applications)
 [tags]: # (standard user, policy, macOS)
 [priority]: # (4801)
 # Allow Copy to Install Applications

@@ -1,4 +1,4 @@
-[title]: # (App Execution Requires Approval)
+[title]: # (- App Execution Requires Approval)
 [tags]: # (elevate)
 [priority]: # (4403)
 # App Execution Requires Approval

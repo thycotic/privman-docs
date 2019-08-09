@@ -1,4 +1,4 @@
-[title]: # (Request Application Installation)
+[title]: # (- Request Application Installation)
 [tags]: # (standard user, policy)
 [priority]: # (4802)
 # Request Application Installation

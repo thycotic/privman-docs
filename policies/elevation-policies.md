@@ -7,6 +7,6 @@ Distinct from Whitelisting policies where applications are simply allowed to run
 
 Topics in this section:
 
-* [Network Share Policy](elevation-network-share.md)
-* [Application Execution Requires Approval](elevation-app-req-app.md)
-* [User Justification Required](elevation-user-just.md)
+* [Elevate Applications launched from Network Share Policy](elevation-network-share.md)
+* [Elevate Applications whose Execution Requires Approval](elevation-app-req-app.md)
+* [Elevate Applications that Require User Justification](elevation-user-just.md)

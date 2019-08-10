@@ -1,4 +1,4 @@
-[title]: # (Release Notes - Privilege Manger)
+[title]: # (Release Notes - Privilege Manager)
 [tags]: # (read me)
 [priority]: # (2)
 # Release Notes - Privilege Manager

@@ -1,5 +1,5 @@
 [title]: # (Priority)
-[tags]: # (policies)
+[tags]: # (policy)
 [priority]: # (4104)
 # Priority
 

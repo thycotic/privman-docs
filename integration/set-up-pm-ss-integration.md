@@ -3,7 +3,7 @@
 [priority]: # (9001)
 # Setting up Integration between Privilege Manager and Secret Server
 
-Privilege Manger has the ability to use Secret Server as its storage container for credentials. This includes credentials for connecting to integrated systems such as Service Now, as well as credentials for local accounts that are managed by Local Security in Privilege Manager. Customers can choose to integrate with Secret Server only (no Vault setup) or Secret Server and Vault. Either option requires Authentication Data setup for Foreign Systems in Privilege Manager.
+Privilege Manager has the ability to use Secret Server as its storage container for credentials. This includes credentials for connecting to integrated systems such as Service Now, as well as credentials for local accounts that are managed by Local Security in Privilege Manager. Customers can choose to integrate with Secret Server only (no Vault setup) or Secret Server and Vault. Either option requires Authentication Data setup for Foreign Systems in Privilege Manager.
 
 In Secret Server, Privilege Manager credentials are stored as Secrets, and Privilege Manager uses the Secret Server REST API to communicate with Secret Server.
 
@@ -98,4 +98,4 @@ There are two Templates that Privilege Manager uses to store Secrets in Secret S
   Do NOT mark any other fields in that template as required!
 
 >**Note**:
->To troubleshoot or remove the integrated configuration, navigate to the Admin | Configuration | Advanced tab in Privilege Manager and click Edit at the bottom of the page. Locate the “System Secret Vault” setting and click the Select Resource link. Here, a user can manually add and remove the Secret Server vault. If you choose to remove the Secret Server vault, a migration of passwords from Secret Server’s vault to Privilege Manger automatically happens.
+>To troubleshoot or remove the integrated configuration, navigate to the Admin | Configuration | Advanced tab in Privilege Manager and click Edit at the bottom of the page. Locate the “System Secret Vault” setting and click the Select Resource link. Here, a user can manually add and remove the Secret Server vault. If you choose to remove the Secret Server vault, a migration of passwords from Secret Server’s vault to Privilege Manager automatically happens.

@@ -3,7 +3,7 @@
 [priority]: # (30000)
 # Release Notes - Privilege Manager
 
-This section includes the most recent Privilege Manger Release Notes.
+This section includes the most recent Privilege Manager Release Notes.
 
 ## Link to Legacy Versions
 

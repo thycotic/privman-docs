@@ -1,7 +1,7 @@
-[title]: # (- Determine sudo Requirement)
-[tags]: # (macOS, admin, policy)
+[title]: # (- Determine Admin Requirement)
+[tags]: # (macOS,policy)
 [priority]: # (4810)
-# Determine sudo Requirement
+# Determine Admin Requirement
 
 Use discovery with event notification to determine if an application requires administrative privileges to run on a macOS endpoint.
 

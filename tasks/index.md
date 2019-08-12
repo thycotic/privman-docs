@@ -26,7 +26,7 @@ By default this folder is empty. Administrators can use it to copy tasks for Hel
 
 ## Infrastructure Scheduled Activities
 
-These are tasks that pertain to either core functions  or to components and subcomponents of Privilege Manager. 
+These are tasks that pertain to either core functions  or to components and subcomponents of Privilege Manager.
 
 | Component | Task | Description |
 | ----- | ----- | ----- |
@@ -118,7 +118,3 @@ These are tasks that pertain to either core functions  or to components and subc
 | | Update Security Ratings for Resource | Run this task to update the security ratings (used in filters) for the given resources using the given rating system. |
 | Utility | Delete Item | This task will delete an item, and optionally dependent children. |
 | | Update Server Gauge State | This task will update the state of a server gauge. |
-
-
-
-

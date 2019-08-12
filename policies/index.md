@@ -36,3 +36,4 @@ These following topics are available:
   * [Allow Copy to Install Applications](mac-copy-install.md)
   * [Request Application Installation](mac-app-install-approval-request.md)
   * [Application Self-elevation](mac-self-elevation.md)
+  * [Use Discovery to Determine if an Application Requires Admin Privileges](mac-determ-admin.md)

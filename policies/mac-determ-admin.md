@@ -9,7 +9,6 @@ Use discovery with event notification to determine if an application requires ad
    1. Create a copy of Codesign Entitle Elevated Application Filter:
 
       ![Codesign Entitled Elevated Application Filter](images/mac/sudo_req_1.png)
-
 1. Use/Create a __Executable Declared as Privileged Filter__. This filter creates events for application bundles that list a privileged helper in their info.plist files.
 
    ![Executable Declared as Privileged Filter](images/mac/sudo_req_2.png)
@@ -22,7 +21,6 @@ Use discovery with event notification to determine if an application requires ad
    1. Name your policy and add a description.
 
       ![New Policy](images/mac/sudo_req_3.png)
-
    1. Click Create.
    1. Click Edit on the newly created policy page.
    1. Under status select __Enabled__.
@@ -32,12 +30,10 @@ Use discovery with event notification to determine if an application requires ad
       * The default of the Executable Declared as Privileged Filter
 
       ![Application Targets](images/mac/sudo_req_4.png)
-
    1. Navigate to the Action tab.
    1. Select the Send Policy Feedback option.
 
       ![Send Policy Feedback](images/mac/sudo_req_5.png)
-
    1. Click __Save__.
 1. Navigate to the Deployment tab.
 1. Click the __Run Policy Targeting Update__.

@@ -14,3 +14,7 @@
 ## Privilege Manager On-premises - Layered Diagram
 
 ![PM Implementation Overview](images/privman-arch-on-prem-20190415.png)
+
+### Network Diagram
+
+![PM On-Premises Architecture](images/privman-on-prem.png)

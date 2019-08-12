@@ -46,7 +46,7 @@ There are different options to elevate rights to launch applications from a netw
 
 ## Using the UNC Elevation Policy Template
 
-Use the UNC Elevation Policy Template to create a customized policy that lets you scan a network share and automatically elevate launches of MSI and EXE files from that share.
+Use the UNC Elevation Policy Template to create a customized policy that lets you scan a network share and automatically elevates launches of MSI and EXE files from that share.
 
 1. Navigate to __Admin | More__, select __Config Feeds__.
 1. Find __Privilege Manager Product Configuration Feeds__, click __Select Items__.

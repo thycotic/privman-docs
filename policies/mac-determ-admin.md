@@ -39,4 +39,4 @@ Use discovery with event notification to determine if an application requires ad
 1. Click the __Run Policy Targeting Update__.
 
 >**Note**:
->There is currently no option to determine if command-line tools require sudo.
+>There is currently no option to determine if command-line tools require admin privileges.

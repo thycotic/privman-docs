@@ -29,8 +29,10 @@ These following topics are available:
   * [Reputation Checking Policies](gl-reputation.md)
 
 * [Blacklisting Policies](ac-blacklisting.md)
+  * [Blacklisting Specific Applications](bl-spec-app.md)
   * [iTunes with File Upload](bl-iTunes-file-up.md)
-  * [Quarantine Malware](bl-quarantine.md)
+  * [Quarantine Specific Malware](bl-quarantine.md)
+  * [Catch-all Blacklist Policy](bl-catch-all.md)
 
 * [macOS Specific Policies](macOS.md)
   * [Allow Copy to Install Applications](mac-copy-install.md)

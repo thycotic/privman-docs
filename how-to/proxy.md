@@ -43,7 +43,7 @@ In this setup, only the endpoint agent needs to be accessible via HTTPS. It is 
 1. In the Edit Inbound Rule window, do the following steps:
 
    1. Under __Match URL__ from the __Requested URL__ menu, choose __Matches the Pattern__.
-   1. From the__ Using__ menu, choose __Wildcards__.
+   1. From the __Using__ menu, choose __Wildcards__.
    1. From the __Pattern__ menu, choose __Tms/Agent/*__.
    1. Select __Ignore case__.
 

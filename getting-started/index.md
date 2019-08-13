@@ -16,11 +16,13 @@ The following topics provide a guided path through the on-premises installation 
 In this section you find:
 
 * [System Requirements](sysreq.md)
+* [Recommended Anti Virus Exclusions](antivirus-exclusions.md)
 * [Installation](installation.md)
 * [Login](login.md)
 * [User Credentials](user-cred.md)
 * [Licenses](licenses.md)
 * [Agent Installation](agent-inst.md)
+  * [Windows Bundled Agent Install](agent-inst-win-bundel.md)
   * [Windows](agent-inst-win.md)
   * [Mac OSx](agent-inst-mac.md)
 * [Upgrades](upgrades.md)

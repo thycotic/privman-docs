@@ -9,6 +9,7 @@ These following topics are available:
 
 * [Sending Policies to Endpoints](ac-policy-endpoints.md)
 * [Learning Mode Policies](ac-event-discovery.md)
+* [Application Control Events](ac-events.md)
 * [Best Practices](bp-event-discovery.md)
 
 * [Approval Policies]()

@@ -1,6 +1,6 @@
 [title]: # (User Context Filters)
 [tags]: # (sid)
-[priority]: # (4015)
+[priority]: # (5015)
 # Using User Context Filters
 
 User Context Filters are used in a policy as either an
@@ -33,4 +33,6 @@ For Privilege Manager cloud the __User Context Filter via SID__ can be used if (
 * Group SID , and
 * Group Name, to name the group if it does not exist.
 
-![Create User Context Filter via SID](images-user_context_2.png)
+![Create User Context Filter via SID](images/user_context_2.png)
+
+![Edit User Context Filter via SID](images/user_context_sid_edit.png)

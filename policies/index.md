@@ -11,6 +11,7 @@ These following topics are available:
 * [Learning Mode Policies](ac-event-discovery.md)
 * [Application Control Events](ac-events.md)
 * [Best Practices](bp-event-discovery.md)
+* [Policy Priority](priority.md)
 
 * [Approval Policies]()
   * [Offline Approvals](ac_offline_approval.md)

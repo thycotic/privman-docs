@@ -41,6 +41,7 @@ We recommend taking the old database offline.
 
 Your site is now pointing to the new database.
 
-If also migrating to new web servers or doing a reinstallation, copy the tmsEncryption.config file(s) to the new web servers(s). The file is located on the web server at the root of the TMS web site and should be copied to the same place on the destination server(s): `\inetpub\wwwroot\TMS` (https://thycotic.force.com/support/s/article/PM-Sec-Item-Encryption) This file is only applicable if current servers are on version 10.5 or higher.
+If also migrating to new web servers or doing a reinstallation, copy the tmsEncryption.config file(s) to the new web servers(s). The file is located on the web server at the root of the TMS web site and should be copied to the same place on the destination server(s): `\inetpub\wwwroot\TMS` 
+This file is only applicable if current servers are on version 10.5 or higher. (refer to [Item Encryption](../getting-started/item-encryption.md))
 
 To roll back changes and restore the original database, simply start back at Step 1 and move the database back to the original database server.

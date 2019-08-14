@@ -7,6 +7,10 @@ This section contains a collection of troubleshooting articles to help with prob
 
 The following troubleshooting topics are available:
 
+* [User Interface and Ports](ts-ui.md)
+* [Where are My Server Logs?](ts-server-logs.md)
+* [Where are My Agent Logs?](ts-agent-logs.md)
+* [Common Errors](ts-common.md)
 * [Endpoint Troubleshooting](endpoint-issues.md)
 * [Using Process Hacker for Troubleshooting](process-hacker.md)
 * [How to Recover an Unresponsive macOS Endpoint](recover-unresponsive-macOS-endpoint.md)

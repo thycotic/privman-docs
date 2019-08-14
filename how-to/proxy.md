@@ -8,7 +8,7 @@
 
 Many organizations choose to protect their Privilege Manager web server by restricting it from direct outbound internet access. To secure your environment according to best practices, it is not enough to simply set your server offline because Privilege Manager still will communicate directly to agents across your network that DO have direct internet access, therefore attackers can potentially use the connection between your endpoint Agent and Privilege Manager to breach your web server.
 
-To prevent this direct connection between agent endpoints and your Privilege Manager web server you can set up a Reverse Proxy machine with limited permissions. A properly configured Reverse Proxy will act as a buffer between Privilege Manager agents and the Privilege Manager server to limit server exposure.
+To prevent this direct connection between agent endpoints and your Privilege Manager web server you can set up a __Reverse Proxy__ machine with limited permissions. A properly configured Reverse Proxy will act as a buffer between Privilege Manager agents and the Privilege Manager server to limit server exposure.
 
 You can use nginx, F5, or Windows Application Request Routing 3.0 and URL Rewrite in IIS on a DMZ Server. The steps below walk through a reverse proxy using IIS and Windows Application Request Routing.
 

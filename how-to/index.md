@@ -9,3 +9,5 @@ This topic is a collection of articles covering "How to..." procedures for diffe
 * [Setup Active Directory Synchronization](../local-security/ad_sync.md)
 * [Setup High Availability/Clustering](ha_clustering.md)
 * [Proxy Setup](proxy.md)
+* [Connecting Agents to the Privilege Manager Server](connect-agents.md)
+* [Moving MS SQL Server Database for Privilege Manager and Secret Server Combined Installation](moving-comb-db.md)

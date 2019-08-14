@@ -26,3 +26,4 @@ In this section you find:
   * [Windows](agent-inst-win.md)
   * [Mac OSx](agent-inst-mac.md)
 * [Upgrades](upgrades.md)
+* [Item Encryption](item-encryption.md)

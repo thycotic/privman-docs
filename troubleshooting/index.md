@@ -7,6 +7,7 @@ This section contains a collection of troubleshooting articles to help with prob
 
 The following troubleshooting topics are available:
 
+* [Troubleshooting Installation Issues](ts-install.md)
 * [User Interface and Ports](ts-ui.md)
 * [Where are My Server Logs?](ts-server-logs.md)
 * [Where are My Agent Logs?](ts-agent-logs.md)

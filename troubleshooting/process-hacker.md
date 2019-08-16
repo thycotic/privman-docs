@@ -1,6 +1,6 @@
 [title]: # (Using Process Hacker for Troubleshooting)
 [tags]: # (process hacker)
-[priority]: # (10002)
+[priority]: # (10005)
 # Using Process Hacker for Troubleshooting
 
 Process Hacker is a third-party tool that can be useful for troubleshooting as well.  Please note that since this is a third-party tool, Thycotic is not responsible for any part of the application and has no control over it.

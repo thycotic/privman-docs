@@ -1,5 +1,5 @@
 [title]: # (Privilege Manager User Credentials)
-[tags]: # (User Credentials,establish)
+[tags]: # (establish)
 [priority]: # (210)
 # Establishing User Credentials for the Privilege Manager Admin
 

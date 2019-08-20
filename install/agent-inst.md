@@ -1,6 +1,6 @@
 [title]: # (Agent Installation)
 [tags]: # (Endpoint,Agent Installation)
-[priority]: # (230)
+[priority]: # (600)
 # Agent Installation
 
 Agents are required on endpoint machines to carry out policies created in Privilege Manager. This page offers direct downloads and descriptions for all available agents.

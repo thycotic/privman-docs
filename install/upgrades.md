@@ -1,6 +1,6 @@
 [title]: # (Product Upgrades)
 [tags]: # (new version)
-[priority]: # (250)
+[priority]: # (700)
 # Product Upgrades
 
 <!-- TODO add missing information
@@ -16,7 +16,7 @@ Follow these steps to perform an offline upgrade for Privilege Manager and Secre
 1. Download the zip files for your offline upgrade [here](http://updates.thycotic.net/secretserver/getlatestversion.aspx?alwayslatest=true). Copy/paste this zip file on your Privilege Manager Web server
 1. Make a backup of the Secret Server and TMS web folders (Default path is `C:\inetpub\wwwroot> SecretServer + TMS` folders, copy/paste these into a backup folder)
 1. Make a backup of the Database (In Secret Server navigate to Admin | Backup | Backup Now button)
-1. On the web server, navigate to `C:\ProgramData\NugetCache` and delete all the files in the folder (*ProgramData folder may be hidden: View > check the Hidden items box to reveal)
+1. On the web server, navigate to `C:\ProgramData\NugetCache\` and delete all the files in the folder (*ProgramData folder may be hidden: View > check the Hidden items box to reveal)
 1. Open Secret Server and navigate to: `https://<YourSecretServerURL>/Setup/Upgrade`
 1. On the Secret Server Update page:
    1. Select "Advanced (not required)" to open the advanced options
@@ -40,7 +40,7 @@ Note: The TMS setup page requires authentication with a Windows account that is 
 1. IMPORTANT: Do not ignore this step, even if you see the list of products:
    1. Open the web.config file in the TMS web folder (`C:>inetpub>wwwroot>TMS>`"Web" or "Web.config"), right click and open with Notepad, Run as Administrator
    1. Delete the line that says: `<add key="nuget:source:SolutionCentre" value="http://tmsnuget.thycotic.com/nuget/" />`
-   1. Replace with your offline nugetCache directory file path. (For example: `<add key="nuget:source:SolutionCentre" value="C:\Users\administrator.YOURSERVERNAME\FolderName\Version_##_#_######\nugetCache")`
+   1. Replace with your offline nugetCache directory file path. (For example: `<add key="nuget:source:SolutionCentre" value="C:\ProgramData\NugetCache\")`
    1. Save the web.config file
 1. Refresh the page at `https://<webserver>/TMS/Setup/ProductOptions/ShowProducts`
 1. Click the Install/Upgrade Products button.

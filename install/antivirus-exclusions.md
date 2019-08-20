@@ -1,6 +1,6 @@
 [title]: # (Anti Virus Exclusions)
 [tags]: # (recommendation)
-[priority]: # (202)
+[priority]: # (502)
 # Anti Virus Exclusions
 
 For Privilege Manager users we recommend several antivirus exclusions to maintain application performance and integrity. These guidelines apply to both real time and on-demand antivirus scanning.

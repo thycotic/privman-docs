@@ -1,6 +1,6 @@
 [title]: # (Item Encryption)
 [tags]: # (10.5+ new behavior)
-[priority]: # (299)
+[priority]: # (599)
 # Item Encryption
 
 With version 10.5+, Encryption of items no longer requires app pool permissions on the machine's certificate store.

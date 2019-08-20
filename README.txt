@@ -19,7 +19,8 @@ pm-intro
     feature-overview.md             12                          Feature Overview
     least-privilege.md              13                          Least Privilege Overview
     pam.md                          14                          Privileged Access Management
-getting-started                     200                         Getting Started
+install                             500                         Installation and Upgrades
+getting-started                     1500                        Getting Started
 ui                                  2000                        The Privilege Manager UI
 local-security                      3000                        Local Security
   - personas.md                     3900                          - Personas

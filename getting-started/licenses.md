@@ -1,6 +1,6 @@
 [title]: # (Licensing)
 [tags]: # (Licensing,On-premises,Cloud)
-[priority]: # (220)
+[priority]: # (1503)
 # Licensing
 
 ## Cloud Licenses

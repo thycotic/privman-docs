@@ -1,6 +1,6 @@
 [title]: # (- Bundled Install)
 [tags]: # (agent,endpoint,installation)
-[priority]: # (231)
+[priority]: # (601)
 # Bundled Install
 
 >**Important**:

@@ -1,7 +1,7 @@
-[title]: # (~ PM User Credentials)
+[title]: # (. User Credentials)
 [tags]: # (establish)
 [priority]: # (2107)
-# Establishing User Credentials
+# User Credentials
 
 As described for under the Roles Tab, Privilege Manager comes with a set of default user roles. Those roles can be edited or new ones can be added to the system.
 

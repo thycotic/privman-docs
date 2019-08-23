@@ -34,7 +34,8 @@ To view the report as an XML object, change the URL from:
 `[Your_TMS_URL]/PrivilegeManager/#/item/__view__/9ba09fa5-ea7e-4352-8400-8eb58b8e41f9`
 
 to:
-`[Your_TMS_URL]/PrivilegeManager/\#/item/__xml__/9ba09fa5-ea7e-4352-8400-8eb58b8e41f9`
+
+`[Your_TMS_URL]/PrivilegeManager/#/item/__xml__/9ba09fa5-ea7e-4352-8400-8eb58b8e41f9`
 
 ![XML view of report](images/reports/e51fd84c2e57e1ac7b0d5e2d0fb34856.png)
 

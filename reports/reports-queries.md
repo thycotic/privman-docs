@@ -41,13 +41,13 @@ to:
 
 Viewing an item as XML helps in determining what folder it is located in (which will be explained in more detail below). Viewing a report as XML also reveals the XML object for the SQL query.
 
-Use your mouse to hover over the guids in the XML to reveal the name of each guid's object. Within the section for ChildAssociations, there will an association for the Report's DataSource. Hovering over the guid for the AssociatedItemId before the Report's Datasource will reveal the report's query.
+Use your mouse to hover over the GUIDs in the XML to reveal the name of each GUID's object. Within the section for ChildAssociations, there will an association for the Report's DataSource. Hovering over the GUID for the AssociatedItemId before the Report's Datasource will reveal the report's query.
 
-In the screenshot below, hovering over the guid is 9a3d82a3-c7be-47cc-aa1c-48acc7964620 identified that item as the __Application Justification Summary Details Report Query__.
+In the screenshot below, hovering over the GUID is 9a3d82a3-c7be-47cc-aa1c-48acc7964620 identified that item as the __Application Justification Summary Details Report Query__.
 
 ![GUID hover example](images/reports/f3d961ec9ab5548a433b2feb94f3e3f2.png)
 
-Clicking on this guid will open the XML for the query object in another tab on this same screen:
+Clicking on this GUID will open the XML for the query object in another tab on this same screen:
 
 ![Open XML of query object](images/reports/579dda448f0d3b2bc9424ab0454c888b.png)
 
@@ -55,7 +55,7 @@ The XML object for the query includes the direct SQL query that the application 
 
 ## View the SQL Query in Privilege Manager
 
-The SQL queries can be viewed in Privilege Manager under __ADMIN | Folders__, but it will be helpful to know the folder in which a specific query is located. In the XML object for query, hover over and click on the guid for the FolderId.
+The SQL queries can be viewed in Privilege Manager under __ADMIN | Folders__, but it will be helpful to know the folder in which a specific query is located. In the XML object for query, hover over and click on the GUID for the FolderId.
 
 ![FolderId look up](images/reports/ef0945fb3ccf591adfebc852a04fb3d2.png)
 

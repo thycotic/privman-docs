@@ -9,16 +9,18 @@ As part of the audit the following information is recorded:
 
 * User account initiating the change.
 * Date/Time of the change.
-* Description of the change made. 
+* Description of the change made.
+
 The following changes are reported:
-* All logons to the administrative console
-* Configuration settings (new tab on Configuration page)
+
+* Configuration settings to Advanced, Discovery, and Reputation items (new tab on Configuration page)
+* Changes to items, like
   * User and Group changes inside Roles
   * Credentials added or existing credentials updated
   * Foreign system added or existing updated
   * Any setting in the Advanced tab
-  * Authentication provider changed
-  * Changes to conditions of Resource Targets
+<!--  * Authentication provider changed -->
+  * Changes to conditions of user editable resources.
 * Policy, actions, filters, resource target changes, and additions (new tab on policy, actions, filters, resource target pages)
 * Editing of task schedules (parameters and schedule of a task) - any change made to the schedule and parameters (New tab on task schedule page for each individual task)
 * Imports and Saves of XML - differentiate between import and save

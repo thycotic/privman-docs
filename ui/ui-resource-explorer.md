@@ -1,7 +1,9 @@
-[title]: # (- Resource Explorer)
+[title]: # (. Resource Explorer)
 [tags]: # (details)
 [priority]: # (2110)
 # Resource Explorer
+
+_TODO: NEW SCREEN CAPTURES_
 
 When you are looking at change history for any item and click the view user link, you access the __Resource Explorer__.
 Which defaults to showing __Summary__ information pertaining to that specific user resource:

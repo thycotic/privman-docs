@@ -3,6 +3,16 @@
 [priority]: # (700)
 # Product Upgrades
 
+Once Privilege Manager is installed on a server, updates can be performed by pointing the web.config file to the product NuGet source.
+
+1. Navigate to `C:\inetpub\wwwroot\TMS\` and right-click the web.config file.
+1. Select Edit from the drop-down.
+1. Verify the following line with correct NuGet source is present:
+
+   ```xml
+   <add key="nuget:source:SolutionCentre" value="http://tmsnuget.thycotic.com/nuget/" />`
+   ```
+
 <!-- TODO add missing information
 * reference correct SecretServer version for combined installs
 * update all version references
@@ -38,7 +48,7 @@ Follow these steps to perform an offline upgrade for Privilege Manager and Secre
 Note: The TMS setup page requires authentication with a Windows account that is a Local Administrator of the Web Server
 1. You may see a page that looks like the image below.  If so, click the Use Local (Cached) Product Options Button
 1. IMPORTANT: Do not ignore this step, even if you see the list of products:
-   1. Open the web.config file in the TMS web folder (`C:>inetpub>wwwroot>TMS>`"Web" or "Web.config"), right click and open with Notepad, Run as Administrator
+   1. Open the web.config file in the TMS web folder (`C:\inetpub\wwwroot\TMS\`"Web" or "Web.config"), right click and open with Notepad, Run as Administrator
    1. Delete the line that says: `<add key="nuget:source:SolutionCentre" value="http://tmsnuget.thycotic.com/nuget/" />`
    1. Replace with your offline nugetCache directory file path. (For example: `<add key="nuget:source:SolutionCentre" value="C:\ProgramData\NugetCache\")`
    1. Save the web.config file

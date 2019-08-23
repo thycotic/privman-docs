@@ -9,13 +9,21 @@ First create the iTunes filter by using downloaded iTunes files:
 
 1. On the Application Control dashboard home page, select the __Upload File__ tile.
 1. Browse to select file (i.e. the iTunes installer), click __Upload File__.
+
+   ![Upload a File](images/block/file_upload.png)
 1. When the file successfully uploads, choose __Go to File Details__.
-1. Click __Add New Filter__. Check the Filter criteria you want to block like the File Name, the Original File Name, and the Product Name.
+
+   ![File uploaded successfully](images/block/file_upload_2.png)
+1. Click __Add New Filter__. 
+
+   ![Add the new Filter](images/block/file_upload_3.png)
+1. Check, modify, and/or enter the Filter criteria you want to block like the File Name, the Original File Name, and the Product Name.
 1. Click __Create__.
 
 Next create the iTunes Blacklist Policy:
 
 1. Click on the __Deny (Blacklist) Applications__ tile on the Application Control dashboard.
+1. Click __Create a New Policy__.
 1. Select a __Platform__, then __Blacklist: Deny Specific Applications__.
 1. Add Name and Description, click __Create__.
 1. In the __Advanced Policy View__ under the __Conditions__ tab, select __Edit__.

@@ -15,7 +15,7 @@ There are three agents available for Windows endpoints:
 
 This bundled EXE installer is recommended when installing Privilege Manager on machines one at a time, for deployments through software delivery see the next section. This installer includes all Privilege Manager Agents for Windows machines (Core, ACS, LSS). You can use this installer directly on individual endpoints for testing or for production environments in either 32-bit or 64-bit environments:
 
-* Bundled Agent Installer: https://tmsnuget.thycotic.com/Software/Agents/ThycoticAgentsInstaller_x86_10_6_1080.exe
+* Bundled Agent Installer: https://tmsnuget.thycotic.com/software/Agents/ThycoticAgentsInstaller_x86_10_6_1080.exe
 
 ## Individual Agent Installers for Privilege Manager
 
@@ -24,11 +24,11 @@ This bundled EXE installer is recommended when installing Privilege Manager on m
 Individual Windows agents are available in MSI format for easier bulk-rollout through software delivery tools. For installing individual agents, begin with the Core Thycotic Agent:
 
 * __Core Thycotic Agent (x64)__:
-  https://tmsnuget.thycotic.com/Software/Agents/ThycoticAgent_x64_10_6_1080.msi
+  https://tmsnuget.thycotic.com/software/Agents/ThycoticAgent_x64_10_6_1080.msi
 * __Application Control Agent (x64)__:
-  https://tmsnuget.thycotic.com/Software/Agents/Thycotic_ApplicationControlAgent_x64_10_5_1080.msi
+  https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x64_10_5_1080.msi
 * __Local Security Solution Agent (x64)__:
-  https://tmsnuget.thycotic.com/Software/Agents/Thycotic_LocalSecurityAgent_x64_10_6_1025.msi
+  https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x64_10_6_1025.msi
 
 #### Installation Command Lines
 
@@ -53,11 +53,11 @@ Individual Windows agents are available in MSI format for easier bulk-rollout th
 Individual Windows agents are available in MSI format for easier bulk-rollout through software delivery tools. For installing individual agents, begin with the Core Thycotic Agent:
 
 * Core Thycotic Agent __(x86)__:
-  https://tmsnuget.thycotic.com/Software/Agents/ThycoticAgent_x86_10_6_1080.msi
+  https://tmsnuget.thycotic.com/software/Agents/ThycoticAgent_x86_10_6_1080.msi
 * Application Control Agent __(x86)__:
-  https://tmsnuget.thycotic.com/Software/Agents/Thycotic_ApplicationControlAgent_x86_10_6_1080.msi
+  https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x86_10_6_1080.msi
 * Local Security Solution Agent __(x86)__:
-  https://tmsnuget.thycotic.com/Software/Agents/Thycotic_LocalSecurityAgent_x86_10_6_1025.msi
+  https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x86_10_6_1025.msi
 
 #### Installation Command Lines
 

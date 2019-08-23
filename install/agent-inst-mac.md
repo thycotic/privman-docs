@@ -11,7 +11,7 @@ The Bundled Mac Agent DMG + PKG installer is available for Mac machines. You can
 
 ### Privilege Manager Mac Agent
 
-https://tmsnuget.thycotic.com/Software/Agents/ThycoticManagementAgent-10.6.20.dmg
+https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.6.20.dmg
 
 ### Installating Mac Agent Directly
 

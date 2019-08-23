@@ -5,6 +5,9 @@
 
 The following Privilege Manager roles are available by default and it is possible to add to or remove members from these roles. Privilege Manager also allows the creation of new roles, if a customer environment requires more role support.
 
+>**Note**:
+>Privilege Manager manages the roles of users accessing the console, unless Privilege Manager is connected to Secret Server. When connected to Secret Server, role membership is controlled by Secret Server.
+
 All these roles are considered application role permissions.
 
 ## Privilege Manager Administrators

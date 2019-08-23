@@ -1,4 +1,4 @@
-[title]: # (- History Tab)
+[title]: # (> History Tab)
 [tags]: # (user interface,console,overview)
 [priority]: # (2110)
 # History Tab
@@ -7,12 +7,12 @@ The Change History tab is accessible via:
 
 * __Admin | Configuration__ – listing all changes made to Advanced, Discovery, and Reputation item configuration settings.
 * __Admin | Policies__ – listing all changes made to policies.
-* Admin | More and then
-  * __Filters__ – listing all changes made to filters.
-  * __Actions__ – listing all changes made to actions.
-  * __Resources__ – listing all changes made to resources.
-  * __Tasks__ – listing all changes made to tasks.
-* __Tools | File Upload__ – listing all file uploads.
+* Admin | More and then (for the default menu, might differ if customized)
+  * __Filters__ – listing all changes made to a specific filter.
+  * __Actions__ – listing all changes made to a specific action.
+  * __Resources__ – listing all changes made to a specific user editable resource. Meaning resources that are not user editable, like a file extension, do not have a history change tab.
+  * __Tasks__ – listing all changes made to a specific task.
+<!--  * __Tools | File Upload__ – listing all file uploads. -->
 
 Once the tab is selected, it opens a two-column page. On the left all recorded changes are listed with the newest record on top. This left column data provides a summary of the changes:
 
@@ -23,73 +23,42 @@ Once the tab is selected, it opens a two-column page. On the left all recorded c
 
 ## Looking at Details
 
-The following image shows an example of the change history for a foreign system entry. The change shows that the foreign system was pointed at another URL.
+The following image shows an example of the change history for a foreign system entry. The change shows that the foreign system was initially pointed at the local host URL, with a Credential and Client Secret pertaining to that localhost instance. An update was made to configure a real Secret Server instance URL with accompanying changes of Client Secret and Credential to be able to authenticate against that new URL.
 
 ![Change History for Foreign Systems](images/config-history/change-hi-tab-fs-2.png)
 
 ### Drilling Down
 
-To look at details of any given change, select one of the change entries in the left column. Our example shows changes made to an action. Also,
+To look at details of any given change, select one of the change entries in the left column. For the example we created a policy to deny the installation of iTunes on Windows endpoints. 
 
-![](images/config-history/change-hi-tab-details.png)
+![Details on the Change History](images/config-history/change-policy-1.png)
 
-Looking at the first entry at 1:26 PM, we see that a change occurred. Selecting
-the entry provides a summary in the right column providing a further link for
-more details.
+What we see:
 
-![](images/config-history/change-hi-tab-det1.png)
+1. Information about the system and user initiating the change, here WIN-...\TestAdmin and information about the type of change, here Created from template.
+1. The name of the item that was created from template, the date and time when the change ocurred.
+1. Details on the summary information from the left, such as a link to view the user details and what change was done to which item.
 
-Using the link, opens the __Resource Explorer__, which defaults to showing
-__Summary__ information:
+The next screen shows a state change due to the policy being saved. The State\ResourceTargetIds are being saved for the first time for this policy.
 
-* Name – this is the user account that made the change.
-* Created – indicates when the item was created.
-* Modified – indicates when the item was last modified.
+![Change History on item save](images/config-history/change-policy-2.png)
 
-![](images/config-history/change-hi-tab-det2.png)
+The last entry in the Change History list provides all the details about the change to the policy after initial creation and save.
 
-For this example, we conclude from this change history, that the Action __QA
-Deny File Access Action__ is newly created. The down pointing arrows next to
-Known Data, Events, and Associations can be expanded to gain more insight into
-any given change.
+![Change History on item save](images/config-history/change-policy-3.png)
 
-Back at the Change History tab for this action, we select the latest recorded
-change from the left column. The change details indicate that DenyWrite and
-DenyRead for the action where changed from False to True and we see the
-FilePath.
+What we see:
 
-![](images/config-history/change-hi-tab-det3.png)
-
-We click the link to access the Resource Explorer. Under __Known Data__ we can
-explore the information for __Security Management | Global Account Details__.
-
-![](images/config-history/change-hi-tab-det4.png)
-
-Users can select the View from the drop-down and see information on
-
-* AccountDomain – identifies the domain for the user account.
-* Description
-* IsBuiltin – can be true false to indicate if the account in built-in or not.
-* Name – Name associated with the user account.
-* Rid
-* SID
-
-Selecting the Global Windows Users information shows Name, Domain, and UserId.
-
-Under __Events__, we can see __Infrastructure | Resource Discovery__
-information:
-
-![](images/config-history/change-hi-tab-det5.png)
-
-Under __Associations__ we can see __Group Membership__:
-
-![](images/config-history/change-hi-tab-det6.png)
+1. The left-hand summary indicates that Application targets were set to iTunes and three other changes were made.
+1. Application targets (+) iTunes indicates that iTunes was added as an Application target. A (-) would indicate a removal of an application target.
+1. ApplyToResourcesSettings\AllowedTargetRoleTypeId indicated that the previous zero value Id was changed to a value of Computer.
+1. The State\ResourceTargetIds field was populated with the value All Windows Computer with Application Control Agent Installed (Target).
+1. The last change was setting the policy Enabled state to True.
 
 ## Item Change History Report
 
-The __Item Change History Report__ is part of the __Diagnostic__ group on the
-Reports page. You can also search for “change history” and the report will be
-listed on the search results page. Click the link to access the report.
+_TODO: NEW SCREEN CAPTURE of working report with real data._
+The __Item Change History Report__ is part of the __Diagnostic__ group on the Reports page. You can also search for “change history” and the report will be listed on the search results page. Click the link to access the report.
 
 The report lists the history of item changes.
 

@@ -1,5 +1,5 @@
-[title]: # (Using Process Hacker for Troubleshooting)
-[tags]: # (process hacker)
+[title]: # (Using Process Hacker)
+[tags]: # (troubleshooting)
 [priority]: # (10005)
 # Using Process Hacker for Troubleshooting
 

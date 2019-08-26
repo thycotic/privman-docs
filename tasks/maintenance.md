@@ -1,6 +1,6 @@
 [title]: # (Maintenance)
-[tags]: # (overview)
-[priority]: # (6001)
+[tags]: # (admin)
+[priority]: # (6002)
 # Maintenance
 
 Privilege Manager has many tasks that can be run to ensure that the data in the database is up-to-date and to purge old or unwanted information. This section provides an overview of the maintenance tasks and other schedulable tasks in Privilege Manager.
@@ -108,13 +108,3 @@ Remove old computers and gauge data for old computers.
 ### Purge Old Unmanaged AD Computers
 
 This task will delete unmanaged computers imported from Active Directory that have not been updated in X days.
-
-## OTHER TASKS TO SCHEDULE
-
-In addition to maintenance tasks, there are other tasks that should be scheduled to run regularly by Privilege Manager administrators. It’s recommended to run these tasks to determine how long they take to complete in each environment, then schedule appropriately to cover task completion and needs.
-
-### AD Import and Synchronization Tasks
-
-Import Active Directory users and groups on demand and based on a set schedule.
-
-__Notes__: Depending on AD structure and size, the tasks should be planned to avoid bulk imports and synchronization of too large of a number of accounts.

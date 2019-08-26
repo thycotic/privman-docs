@@ -7,14 +7,14 @@ As we've seen, there are multiple ways to introduce a new application into Privi
   
 First create the iTunes filter by using downloaded iTunes files:
 
-1. On the Application Control dashboard home page, select the __Upload File__ tile.
+1. On the Application Control dashboard home page, select the __Upload File__ tile or navigate to __TOOLS | File Upload__.
 1. Browse to select file (i.e. the iTunes installer), click __Upload File__.
 
    ![Upload a File](images/block/file_upload.png)
 1. When the file successfully uploads, choose __Go to File Details__.
 
    ![File uploaded successfully](images/block/file_upload_2.png)
-1. Click __Add New Filter__. 
+1. The Resource Explorer opens for the uploaded file. Click __Add New Filter__.
 
    ![Add the new Filter](images/block/file_upload_3.png)
 1. Check, modify, and/or enter the Filter criteria you want to block like the File Name, the Original File Name, and the Product Name.

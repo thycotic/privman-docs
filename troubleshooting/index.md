@@ -13,5 +13,6 @@ The following troubleshooting topics are available:
 * [Where are My Agent Logs?](ts-agent-logs.md)
 * [Common Errors](ts-common.md)
 * [Endpoint Troubleshooting](endpoint-issues.md)
+* [Agent Registration Error Following an OS Upgrade](agent-not-registering.md)
 * [Using Process Hacker for Troubleshooting](process-hacker.md)
 * [How to Recover an Unresponsive macOS Endpoint](recover-unresponsive-macOS-endpoint.md)

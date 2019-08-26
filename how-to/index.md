@@ -11,3 +11,4 @@ This topic is a collection of articles covering "How to..." procedures for diffe
 * [Proxy Setup](proxy.md)
 * [Connecting Agents to the Privilege Manager Server](connect-agents.md)
 * [Moving MS SQL Server Database for Privilege Manager and Secret Server Combined Installation](moving-comb-db.md)
+* [Uninstalling an Agent with Script](agent-uninstall-script.md)

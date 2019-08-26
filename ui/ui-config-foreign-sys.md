@@ -1,4 +1,4 @@
-[title]: # (- Foreign Systems Tab)
+[title]: # (> Foreign Systems Tab)
 [tags]: # (admin,configuration)
 [priority]: # (2106)
 # Foreign Systems Tab

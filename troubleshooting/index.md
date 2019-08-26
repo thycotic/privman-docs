@@ -15,4 +15,5 @@ The following troubleshooting topics are available:
 * [Endpoint Troubleshooting](endpoint-issues.md)
 * [Agent Registration Error Following an OS Upgrade](agent-not-registering.md)
 * [Using Process Hacker for Troubleshooting](process-hacker.md)
+* [Troubleshooting a Policy with Process Explorer](process-explorer.md)
 * [How to Recover an Unresponsive macOS Endpoint](recover-unresponsive-macOS-endpoint.md)

@@ -10,3 +10,4 @@ Topics in this section:
 * [Elevate Applications launched from Network Share Policy](elevation-network-share.md)
 * [Elevate Applications whose Execution Requires Approval](elevation-app-req-app.md)
 * [Elevate Applications that Require User Justification](elevation-user-just.md)
+* [Enable Users to Delete Desktop Application Shortcuts](elevation-delete-shortcut.md)

@@ -51,6 +51,6 @@ In the example below the policy allows resource monitor to run but the applicati
 1. Click __+ Add Action__ and search for the new action (you may have to select the refresh icon next to the search box in case the new action doesn't appear).
 1. Select the new action and click __Add__.
 1. Click __Save__.
-1. Navigate to the Deployment tab and send to the endpoint for an update.
+1. Navigate to the Deployment tab and trigger a policy update on the endpoints.
 
 Once the agent has received the updated policy, the additional Windows Privileges will be applied to the application next time it is launched.

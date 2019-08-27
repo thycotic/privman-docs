@@ -8,3 +8,4 @@ This sections is a collection of Privilege Manager White Papers and Reports.
 The following papers are available:
 
 * [PM Cloud - Security White Paper](pm-cloud-security.md)
+* [How to meet FISMA Compliance in 9 Steps](fisma.md)

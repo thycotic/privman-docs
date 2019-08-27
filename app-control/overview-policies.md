@@ -34,3 +34,20 @@ Before Privilege Manager can do anything else for Application Control, it must b
 * Event Discovery - Discover active applications on your network by setting up Learning Mode Policies
 * File Upload - Directly upload a specific file that you want to target
 * Remote File Inventory Task (Windows/macOS) - Scans endpoints directly and imports all file data (both active and inactive files) that exist on the targeted machine(s).
+
+## Points to Consider
+
+If you configure Privilege Manager policies incorrectly they could prevent services or programs from starting or running with the proper rights.
+
+Policies are evaluated in order based on the Policy Priority value on the Policy. If a blacklist policy that denies applications is too broad and is set with too high a priority that can prevent other applications from running or letting the user request approval to run.
+
+You can avoid conflicts resulting from incorrectly configured Privilege Manager policies by using the following best practices:
+
+* Always test policies on machines which mirror the production environment before rolling out to production.
+* Assign policies that allow processes a lower policy priority number than policies that deny processes.
+* Make sure your other policy enforcement settings check boxes are selected or cleared, depending on the aims of your policy.
+* Policies that deny processes always exclude the following Application filters:
+
+  * LocalSystem and Service
+  * Signed Security Catalog
+* You should (almost) never use wildcards in deny policies–they should be considered only after performing extensive testing.

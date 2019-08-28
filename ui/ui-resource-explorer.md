@@ -3,8 +3,6 @@
 [priority]: # (2110)
 # Resource Explorer
 
-_TODO: NEW SCREEN CAPTURES_
-
 When you are looking at change history for any item and click the view user link, you access the __Resource Explorer__.
 Which defaults to showing __Summary__ information pertaining to that specific user resource:
 
@@ -14,11 +12,11 @@ Which defaults to showing __Summary__ information pertaining to that specific us
 
 The resource explorer is providing information about the current state of a resource.
 
-![](images/config-history/change-hi-tab-det2.png)
+![Resource Explorer Summary](images/resource-explorer/summary.png)
 
 Under __Known Data__ we can explore the information for __Security Management | Global Account Details__.
 
-![Known Data](images/config-history/change-hi-tab-det4.png)
+![Known Data](images/resource-explorer/known-data.png)
 
 Users can select the View from the drop-down and see information on the type of the resource. The type of known data can be different based on resource type, or based on events discovered on endpoints, for example:
 
@@ -31,11 +29,12 @@ Users can select the View from the drop-down and see information on the type of 
 
 Selecting the Global Windows Users information shows Name, Domain, and UserId.
 
-Under __Events__, we can see __Infrastructure | Resource Discovery__
+Under __Events__, you can view __Infrastructure | Resource Discovery__
 information:
 
-![Events](images/config-history/change-hi-tab-det5.png)
+![Events](images/resource-explorer/events.png)
 
-Under __Associations__ we can see related items, such as __Group Membership__, which is based on the users credentials:
+Under __Associations__ you can see related items, such as __Group Membership__, which is based on the users credentials.
 
-![Associations](images/config-history/change-hi-tab-det6.png)
+>**Note**:
+>Only use Delete when you are absolutely sure that you want to delete that resource. Clicking on Delete will delete the current resource record you are viewing.

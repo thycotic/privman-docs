@@ -25,6 +25,6 @@ The following changes are reported:
 * Editing of task schedules (parameters and schedule of a task) - any change made to the schedule and parameters (New tab on task schedule page for each individual task)
 * Imports and Saves of XML - differentiate between import and save
 
-The reporting of any of these changes cannot be turned off and the results can be filtered by categories like Policy, Filter, Action, Configuration, and Logons.
+The reporting of any of these changes cannot be turned off and the results can be filtered by categories like Policy, Filter, Action, and Configuration.
 
 Each save creates or adds to the revision history of items. The Change History Report cannot be used to revert to a previous state.

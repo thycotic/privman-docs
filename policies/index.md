@@ -16,6 +16,7 @@ These following topics are available:
 * [Approval Policies]()
   * [Offline Approvals](ac_offline_approval.md)
   * [HelpDesk Approvals](helpdesk.md)
+  * [Setup a Policy to use Google Authenticator](google-authentication.md)
 
 * [Whitelisting Policies](ac-whitelisting.md)
   * [Google Application with File Upload](wl-g-app-file-up.md)

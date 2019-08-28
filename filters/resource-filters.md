@@ -27,8 +27,8 @@ If you already have user defined targets (having created them previously), you w
 
 To create a new target, click the Add New button on the right, enter a name and description and then click the Create button.
 
-|**Note**:
-|A Computer Group, like a Resource Target, is also a specified set of computers; you can think of it as another way to refer to Resource Targets. A computer group can be viewed, created, and modified from the Local Security home page. If you create a computer group in Local Security, you will see it listed in the User Defined Targets node of the Resource Filters tree. However, in this article we are not referring to the Local Security interface for defining Resource Targets since the focus here is to define targets for policies, which is a feature related to Application Control.
+>**Note**:
+>A Computer Group, like a Resource Target, is also a specified set of computers; you can think of it as another way to refer to Resource Targets. A computer group can be viewed, created, and modified from the Local Security home page. If you create a computer group in Local Security, you will see it listed in the User Defined Targets node of the Resource Filters tree. However, in this article we are not referring to the Local Security interface for defining Resource Targets since the focus here is to define targets for policies, which is a feature related to Application Control.
 
 ## Target Definition
 After you have clicked the Create button, you will be on the target page (a page that provides an interface for defining the target). On the target page, click Edit and make sure you are on the Filter Rules tab.
@@ -65,8 +65,8 @@ After you have created an Active Directory (AD) instance in Privilege Manager, y
 
 ![AD](images/resources/ad.png)
 
-|**Note**:
-|Default Import Directory Computers will import computers and also import the Organizational Units (OU) to which they belong. Default Import Directory will import only organization structure and security-related information like users.
+>**Note**:
+>Default Import Directory Computers will import computers and also import the Organizational Units (OU) to which they belong. Default Import Directory will import only organization structure and security-related information like users.
 
 After the task completes, go to Admin | More, then select Resources, then Resource tab, then in the tree Organizational Views | Active Directory Domains | (your AD name).  You should be able to see your OUs and computers.
 

@@ -10,7 +10,7 @@ Which defaults to showing __Summary__ information pertaining to that specific us
 * Created – indicates when the item was created.
 * Modified – indicates when the item was last modified.
 
-The resource explorer is providing information about the current state of a resource.
+The resource explorer is providing information about the current state of that resource.
 
 ![Resource Explorer Summary](images/resource-explorer/summary.png)
 
@@ -38,3 +38,9 @@ Under __Associations__ you can see related items, such as __Group Membership__, 
 
 >**Note**:
 >Only use Delete when you are absolutely sure that you want to delete that resource. Clicking on Delete will delete the current resource record you are viewing.
+
+## Error Message after Deleting a Resource
+
+In case a resource was deleted, an error message like the following will be shown the next the resource view link is accessed.
+
+![Invalid Item Id Exception message](images/resource-explorer/invalidItemIdException.png)

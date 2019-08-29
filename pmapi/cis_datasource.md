@@ -9,7 +9,7 @@
 
 ## Description
 
-Datasources in Privilege Manger are items which control access to the database and contain SQL queries and parameters.  These methods allow us to query data sources and return their value
+Datasources in Privilege Manager are items which control access to the database and contain SQL queries and parameters.  These methods allow us to query data sources and return their value
 
 ## Methods
 

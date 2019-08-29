@@ -44,7 +44,6 @@ Setting up Azure AD Integration in Privilege Manager requires these components i
       >**Note**:
       >This URI does not need to be a publicly visible address. It is only used in redirecting the browser back to the Privilege Manager web application after authentication.
       >For Privilege Manager Cloud subscriptions, the URI should be pointed to the URI that was set up for you, for example: https://myassignedname.privilegemanagercloud.com/TMS/
-    
    1. Click the __Register__ button.
 1. Navigate to your newly created application registration.
 1. Select the __Authentication__ option.

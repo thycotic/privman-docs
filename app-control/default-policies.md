@@ -1,6 +1,6 @@
-[title]: # (List of Default Policies)
+[title]: # (- List of Default Policies)
 [tags]: # (overview,out-of-box)
-[priority]: # (5600)
+[priority]: # (4002)
 # List of Default Policies
 
 Here is the complete list of policies that come with Privilege Manager out-of-the-box, grouped by folder type. Once you create custom policies they are listed along the default policies under the tab respective to the template used, as the template associates the folder type.

@@ -1,7 +1,7 @@
-[title]: # (Mind Maps)
+[title]: # (Mind Maps - Test Area)
 [tags]: # (overview)
-[priority]: # (30000)
-# Mind Maps
+[priority]: # (90000)
+# Mind Maps - Test Area
 
 This section contains mind maps to provide functional overview maps of Privilege Manager.
 

@@ -1,9 +1,9 @@
-[title]: # (Release Notes - Privilege Manger)
+[title]: # (Release Notes - Privilege Manager)
 [tags]: # (read me)
-[priority]: # (2)
+[priority]: # (30000)
 # Release Notes - Privilege Manager
 
-This section includes the most recent Privilege Manger Release Notes.
+This section includes the most recent Privilege Manager Release Notes.
 
 ## Link to Legacy Versions
 

@@ -1,6 +1,6 @@
 [title]: # (Filters)
 [tags]: # (overview)
-[priority]: # (5800)
+[priority]: # (4011)
 # Filters
 
 In Privilege Manager, using a robust filtering system is the key to creating accurate and effective Policies.
@@ -16,6 +16,8 @@ There are different methods for Filter-creation and usage, but if you take the t
 We recommend leveraging Privilege Manager's out-of-the-box filters to get your policies up and running fast! For a complete list of out-of-the-box filters according to category type, review our Filters' Catalog for Privilege Manager here.
 
 You can search your full list of available filters by navigating to Admin | Filters in Privilege Manager. If you already know what you want to target, simply try typing keywords in the search bar to check whether a filter exists that fits your target goal.
+
+![Diagram of Policy Overview](images/policies.png)
 
 ### Creating New Filters using Event Discovery
 

@@ -1,6 +1,6 @@
 [title]: # (Feature Overview)
-[tags]: # (Features, Overview)
-[priority]: # (12) 
+[tags]: # (intro)
+[priority]: # (98)
 # Feature Overview
 
 ## Active Directory (On-premises; Azure AD coming with 10.6)

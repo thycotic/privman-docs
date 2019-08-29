@@ -1,6 +1,6 @@
 [title]: # (Getting Started)
-[tags]: # (System, Installation)
-[priority]: # (200)
+[tags]: # (initial login)
+[priority]: # (1500)
 # Getting Started Overview
 
 ## Cloud
@@ -15,12 +15,6 @@ The following topics provide a guided path through the on-premises installation 
 
 In this section you find:
 
-* [System Requirements](sysreq.md)
-* [Installation](installation.md)
 * [Login](login.md)
 * [User Credentials](user-cred.md)
 * [Licenses](licenses.md)
-* [Agent Installation](agent-inst.md)
-  * [Windows](agent-inst-win.md)
-  * [Mac OSx](agent-inst-mac.md)
-* [Upgrades](upgrades.md)

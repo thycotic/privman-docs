@@ -1,7 +1,7 @@
 [title]: # (The Privilege Manager UI)
-[tags]: # (User Interface,Console,Overview)
+[tags]: # (user interface,console,overview)
 [priority]: # (2000)
-# Introduction to the Privilege Manager User Interface (UI)
+# The Privilege Manager UI
 
 The Privilege Manager user interface, also referred to as the console, is launched in a browser. The URL has the following form:
 
@@ -22,6 +22,8 @@ The screenshot below shows the upper part of the Privilege Manager home page.
 
 The home page includes actionable dashboard elements as well as the gateway to the two major components of Privilege Manager, Local Security and Application Control. These are available from their respective tiles.
 
-Much of the text and other content on the page is clickable. The link under it will help you drill down to more detail. (Although some links, here and on other UI pages, are shown in blue, you should not assume that the absence of blue font implies there is no link. The best way to discover links is to hover over the content to find out if it is clickable.) The set of three little vertical dots, in the upper right corner of each tile, provide options to manipulate the tile. <!-- TODO: revisit this paragraph -->
+Much of the text and other content on the page is clickable. The link under it will help you drill down to more detail. (Although some links, here and on other UI pages, are shown in blue, you should not assume that the absence of blue font implies there is no link. The best way to discover links is to hover over the content to find out if it is clickable.) 
+
+The set of three little vertical dots, in the upper right corner of each tile, provide options to manipulate the tile. 
 
 The __?__ seen near the right corner of the main menu bar, is used throughout the UI to provide help messages or other access to guidance.

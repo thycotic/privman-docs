@@ -1,5 +1,5 @@
 [title]: # (Introduction to Privilege Manager)
-[tags]: # (Privilege Manager,intro)
+[tags]: # (Privilege Manager,Introduction)
 [priority]: # (1)
 # Introduction to Privilege Manager
 

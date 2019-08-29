@@ -1,6 +1,6 @@
 [title]: # (Least Privilege Overview)
 [tags]: # (Least Privilege, Overview)
-[priority]: # (13)
+[priority]: # (12)
 # Least Privilege Explained
 
 Least Privilege is a security-driven management philosophy that models a system where all employees are given the minimum level of access rights necessary to carry out their job functions on endpoint machines. This is to protect each machine from malicious applications, rogue employees, or attackers. Privileged local admin or root accounts on endpoints give unfettered access to the entire endpoint and can potentially be used to access other computers, domain resources, and critical servers unless a least privilege security model is implemented.  But implementing Least Privilege can be difficult for IT teams to enforce because there are plenty of daily, trusted activities that employees must perform that require access to privileged credentials.
@@ -22,4 +22,4 @@ That's why Thycotic recommends a phased roll-out between the two sides of this e
 1. Local Security: Once a workflow has been established between employees and the Privilege Manager Helpdesk, begin managing all local privileged accounts (ex: local admins) on endpoints. (Local Security | Details Tab)
 
 >**Note**:
->Every implementation looks different when configuring Privilege Manager to work best for your organization. The key is to know your goal and be smart about getting there. The User Guide will walk you through beginning configurations for both Local Security and Application Control. Use it as a tutorial, reference, and guide for setting up a new environment until you get the hang of things, and always feel free to flip around.
+>Every implementation looks different when configuring Privilege Manager to work best for your organization. The key is to know your goal and be smart about getting there. The User Guide will walk you through beginning configurations for both Local Security and Application Control. 

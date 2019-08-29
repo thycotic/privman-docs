@@ -1,6 +1,6 @@
 [title]: # (High Availability Setup)
 [tags]: # (clustering)
-[priority]: # (9600)
+[priority]: # (9510)
 # Privilege Manager High Availability Setup
 
 This topic explains the steps involved to set up Thycotic Privilege Manager High
@@ -97,7 +97,7 @@ In this procedure you will first copy the web application files from the primary
 1. Select an alias for your Privilege Manager. The alias is what will be
  appended to the website. For instance, “TMS” in <http://myserver/TMS>.
 
-1. Next, enter the physical directory where you unzipped Privilege Manager (i.e., **C:\\inetpub\\wwwroot\\TMS\\**).
+1. Next, enter the physical directory where you unzipped Privilege Manager (i.e., 'C:\inetpub\wwwroot\TMS\').
 
    ![Physical directory](images/ha/99cad4d58625898087e964ac0b66b720.png)
 1. Click **OK**.
@@ -141,7 +141,7 @@ In this procedure you will first copy the web application files from the primary
 ### Folder Permissions to C:\Windows\Temp
 
 1. Navigate to the **C:\Windows\TEMP** folder.
-2. Right-click the folder and select Properties \| Security \| Advanced.
+2. Right-click the folder and select Properties | Security | Advanced.
 3. Click **Add** and **Select a principal**.
 4. Ensure the domain machine is listed as the **Location** and type the service account into the **Enter the object name to select** field.
 5. Click **Check Names** and **Enter network credentials** for accessing your domain machine.
@@ -170,7 +170,7 @@ In this procedure you will first copy the web application files from the primary
 8. Verify your service account has **Modify**, **Read & execute**, **List folder contents**, **Read**, and **Write** permissions for the **C:\Windows\TEMP** folder.
 9. Click **OK**, then **Apply**.
 
->**Note:** 
+>**Note:**
 >The application folder only needs **Write** and **Modify** permissions during the installation or during an upgrade. You can remove these once the installation process is complete.
 
 ### Permission to Certificate Private Key (prior to 10.6 only)
@@ -188,8 +188,7 @@ TMS requires **Read** access to the private key of the certificate being used fo
 1. Right-click on the certificate and select **All Tasks | Manage Private Keys**.
 1. Grant **Read** access to the identity account for your application pools.
 
-If the “Manage Private Keys” option is not available, you can set this permission in PowerShell.
-[This article ](https://thycotic.force.com/support/s/article/PM-Adv-Setting-Read-Access-to-the-Private-Key-of-your-Certificate-in-Powershell)
+If the “Manage Private Keys” option is not available, you can set this permission in PowerShell. [This article ](https://thycotic.force.com/support/s/article/PM-Adv-Setting-Read-Access-to-the-Private-Key-of-your-Certificate-in-Powershell)
 has the script.
 
 ### Verify Login on Secondary Node

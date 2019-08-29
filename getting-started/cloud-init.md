@@ -1,6 +1,6 @@
 [title]: # (Privilege Manager Cloud)
 [tags]: # (cloud instance)
-[priority]: # (201)
+[priority]: # (1501)
 # Privilege Manager Cloud
 
 ## Privilege Manager Cloud Login

@@ -1,7 +1,7 @@
-[title]: # (List of Filters)
+[title]: # (- List of Default Filters)
 [tags]: # (overview,out-of-box)
-[priority]: # (5801)
-# List of Filters
+[priority]: # (4012)
+# List of Default Filters
 
 This topic provides a catalog of the out-of-the-box filters that are baked into Privilege Manager and can be used to make your policy configuration process easy.
 

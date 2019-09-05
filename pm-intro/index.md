@@ -1,7 +1,9 @@
-[title]: # (Architecture Overview)
+[title]: # (Product Overview)
 [tags]: # (architecture)
 [priority]: # (11)
-# Architecture Overview
+# Product Overview
+
+The following diagram provide an architectural overview of Privilege Manager, its components, and available integrations.
 
 ## Privilege Manager Cloud - Layered Diagram
 

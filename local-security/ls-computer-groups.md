@@ -1,6 +1,6 @@
 [title]: # (Computer Groups)
 [tags]: # (Local Security,Computer Groups)
-[priority]: # (301)
+[priority]: # (3001)
 # Computer Groups
 
 If you have agents already installed and registered, you will see numbers automatically listed in Local Security Home, divided by Privilege Manager’s two out-of-the-box computer groups that are listed as:

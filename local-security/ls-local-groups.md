@@ -1,6 +1,6 @@
 [title]: # (Local Groups)
 [tags]: # (Local Security,Groups)
-[priority]: # (302)
+[priority]: # (3002)
 # Local Groups
 
 Every Computer Group is divided into Groups and Users. Both **Groups** and **Users** in this context refer to local accounts on the machines that are included in the Computer Group.

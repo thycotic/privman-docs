@@ -8,10 +8,16 @@ situation an Offline Approval process has been implemented.
 
 During an offline approval process a prompt is triggered for a 6-digit numeric pin also called request code. The end user then calls the Help Desk and provides system information to the Help Desk representative. The Help Desk representative generates and provides a 12-character alphanumeric response code for the deployed policy residing on the offline endpoint. Once the end user enters the response code the application execution continues and other actions can be performed, for example adding administrative rights.
 
-## Creating an Offline Approval Policy 
+The message actions used in the Offline Approval policy are OS specific. Use the action:
 
-For offline approvals to work, a message action supporting offline fallback
-needs to be configured.
+* Application Approval Request (with Offline Fallback) Message Action for macOS policies.
+* Approval Request (with Offline Fallback) Form Action for Windows policies.
+
+![Search for offline message actions](images/offline/offline-appr-actions.png)
+
+## Creating an Offline Approval Policy
+
+For offline approvals to work, a message action supporting offline fallback needs to be configured. This example uses the macOS based message action.
 
 1. Create an Offline Approval Policy, by specifying the specific message action:
    1. Navigate to Actions and click + Add Action.

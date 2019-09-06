@@ -17,6 +17,20 @@ Resources can be deleted from the Resource Explorer page.
 >**Note**:
 >Only use Delete when you are absolutely sure that you want to delete that resource. Clicking on Delete will delete the current resource record you are viewing.
 
+The Resource Explorer is accessible by either navigating to
+
+* __Admin | More__, selecting the __Resources__ link and expanding the Resources tree drilling down to a named resource to further explore and/or edit.
+
+  ![Opening Resource Explorer via items in Resources tree](images/resource-explorer/resources-tree.png)
+
+* __Change History__ tab of a named resource.
+
+  ![Opening Resource Explorer via the Change History tab](images/config-history/change-hi-tab-details.png)
+
+* any named item, such as a report, in the Privilege Manager console and selecting a named resource.
+
+  ![Opening Resource Explorer via other console areas](images/resource-explorer/named-resource.png)
+
 ## Example for Discovered Files
 
 You enter the Resource Explorer for discovered file through __Admin | Event Discovery__ and then the __Files__ tile. On the Events page, click any of the discovered file links to drill down to the files resources.

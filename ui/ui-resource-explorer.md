@@ -3,14 +3,14 @@
 [priority]: # (2110)
 # Resource Explorer
 
-The Resource Explorer provided information about any type of resource item in Privilege Manager.
+The Resource Explorer provides information about any type of resource item in Privilege Manager.
 
 The Resource Explorer provides:
 
-* a Summary, which contains general information, such as name, description, and modified date for any resource accessed.
-* Known Data, such as any data known that relates to the resource. This data is different from resource type to resource type. For example, a domain has Global Domain Details and no account details, and a file will have all sorts of information pertaining to the file.
-* Events are log-style data entries that are directly related to the resource. For example for discovered files, those are the events that are reported from and endpoint.
-* Associations, are any associated/related items.
+* __Summary__, which contains general information, such as name, description, and modified date for any resource accessed.
+* __Known Data__, such as any data known that relates to the resource. This data is different from resource type to resource type. For example, a domain has Global Domain Details and no account details, and a file will have all sorts of information pertaining to the file.
+* __Events__ are log-style data entries that are directly related to the resource. For example for discovered files, those are the events that are reported from and endpoint.
+* __Associations__, are any associated/related items.
 
 Resources can be deleted from the Resource Explorer page.
 

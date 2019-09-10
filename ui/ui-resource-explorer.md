@@ -76,7 +76,7 @@ The Known Data for a discovered file includes details like the
 Under Events, Infrastructure offers a view into the Resource Discovery events that discovered the file, in this example the File Agent Discoverer and File Agent Discoverer (File Location) events.
 ![Known Data Example - Events](images/resource-explorer/file-disc-events.png)
 
-This discovered file resource has not related items associated and thus the Associations area of the Resource Explorer is empty.
+This discovered file resource has no related items associated and thus the Associations area of the Resource Explorer is empty.
 
 ## Example for User Resource
 

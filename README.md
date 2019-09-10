@@ -1,3 +1,6 @@
+[title]: # (ReadMe - Privilege Manager)
+[tags]: # (metadata info)
+[priority]: # (99999)
 # Privilege Manager Documentation
 
 ## Tycotic.Privman.Docs (GitHub: thycotic/privman-docs)

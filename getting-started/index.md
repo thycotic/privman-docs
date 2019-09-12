@@ -18,3 +18,7 @@ In this section you find:
 * [Login](login.md)
 * [User Credentials](user-cred.md)
 * [Licenses](licenses.md)
+
+## Agent Specific
+
+* [Setting the Server Address for Privilege Manager Agents](agent-set-server-address.md)

@@ -57,8 +57,8 @@ To create a PowerShell Script task to create the registry key:
    1. Paste this script
 
       ```ps1
-      \$AppInfoPath = "HKLM:\\Software\\Policies\\Arellia\\AMS"
-      \$ExclusionList = "xls,xlsx,xlsm,mdb,accdb"
+      $AppInfoPath = "HKLM:\\Software\\Policies\\Arellia\\AMS"
+      $ExclusionList = "xls,xlsx,xlsm,mdb,accdb"
       if((Test-Path \$AppInfoPath))
 
         {
@@ -66,7 +66,7 @@ To create a PowerShell Script task to create the registry key:
         }
       ```
 
-Additional extensions can be added to \$ExclusionList, if needed.
+Additional extensions can be added to __$ExclusionList__, if needed.
 
 To create a Policy to push this script task to desired endpoints:
 

@@ -21,4 +21,4 @@ In this section you find:
 
 ## Agent Specific
 
-* [Setting the Server Address for Privilege Manager Agents](agent-set-server-address.md)
+* [Changing the Server Address for Privilege Manager Agents](agent-set-server-address.md)

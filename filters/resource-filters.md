@@ -1,7 +1,7 @@
-[title]: # (Resource Targets)
+[title]: # (Resource Targets and Collections)
 [tags]: # (filter)
 [priority]: # (5001)
-# Resource Targets/Filters
+# Resource Targets and Collections
 
 A Resource Target in Privilege Manager is a specified set of computers that meet certain criteria (e.g., type of operating system or location of the computers), meant to be used as targets for policies or scheduled tasks. To make a policy apply to a certain set of computers, you need a resource target comprising that set of computers and assign that resource target to the policy (or, to state it differently, assign the policy to the resource target).
 
@@ -15,27 +15,27 @@ Resource targets are not the only kind of targets that can be assigned to polici
 
 Targets are defined by starting with all known computers and then adding filters to narrow down the set (and after an initial narrowing down, if needed, expand it in some way).
 
-You could create unique targets for all your policies, but if you want to create a target to be reused across multiple policies, it will be more practical to follow the guidance in this article.
+You could create unique targets for all your policies, but if you want to create a target to be reused across multiple policies, it will be more practical to follow the steps in this article.
 
 ### Interface to View or Create/Modify User Defined Targets
 
-In the Privilege Manager console, select the Admin menu and click __More...__.  On the Administration page select Resources.  On the Resources page select the Resource Filters tab, then in the tree go to __Resource Filters | Resource Targets | User Defined Targets__, and select either MacOS or Windows.
+In the Privilege Manager console, navigate to __Admin | More...__ and click __Resources__.  On the Resources page select the Resource Filters tab, then in the tree go to __Resource Filters | Resource Targets | User Defined Targets__, and select either MacOS or Windows.
 
-If you already have user defined targets (having created them previously), you will see them listed here and can modify any of them by clicking the name and then editing the definition.
+If you already created user defined targets, you see them listed here and can modify any of them by clicking the name and then editing the definition.
 
 ![Resource Filter](images/resources/res_filter.png)
 
 To create a new target, click the Add New button on the right, enter a name and description and then click the Create button.
 
 >**Note**:
->A Computer Group, like a Resource Target, is also a specified set of computers; you can think of it as another way to refer to Resource Targets. A computer group can be viewed, created, and modified from the Local Security home page. If you create a computer group in Local Security, you will see it listed in the User Defined Targets node of the Resource Filters tree. However, in this article we are not referring to the Local Security interface for defining Resource Targets since the focus here is to define targets for policies, which is a feature related to Application Control.
+>A Computer Group, like a Resource Target, is also a specified set of computers; you can think of it as another way to refer to Resource Targets. A computer group can be viewed, created, and modified from the Local Security home page. If you create a computer group in Local Security, you will see it listed in the User Defined Targets node of the Resource Filters tree. <!-- However, in this article we are not referring to the Local Security interface for defining Resource Targets since the focus here is to define targets for policies, which is a feature related to Application Control. -->
 
 ## Target Definition
 After you have clicked the Create button, you will be on the target page (a page that provides an interface for defining the target). On the target page, click Edit and make sure you are on the Filter Rules tab.
 
 Here you will be able to add rules to define the target, using the drop-down fields in the Operation and List Type columns.
 
-![Target Definition](images/resources/target_def.png)
+![Target Definition accessed via Resources page](images/resources/target_def.png)
 
 ### Operation
 
@@ -54,6 +54,8 @@ The idea here is that you are starting with all computers and applying filters t
 ![List](images/resources/list.png)
 
 You can select "View Parameters" to enter search text to help find a computer.
+
+![Filter showing selected items](images/resources/ou-list.png)
 
 ## Performance Considerations
 

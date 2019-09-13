@@ -1,11 +1,13 @@
-[title]: # (Setting the TMS Server Address)
+[title]: # (Changing the TMS Server Address)
 [tags]: # (agent set-up)
 [priority]: # (1600)
-# Setting the TMS Server Address
+# Changing the TMS Server Address
 
-Agents require a Privilege Manager Server to communicate with. The recommended way to set the URL address is during the installation of the Thycotic Agent by setting the TMSURL parameter. The TMS address can be changed post-install via the registry or PowerShell.
+Agents require a Privilege Manager Server to communicate with. The recommended way to set the URL address is during the installation of the Thycotic Agent by setting the TMSURL parameter. The TMSURL can be pointing directly to your Privilege Manager instance or if an Azure Service Bus or Reverse Proxy is used, it can be created to point at the URL of those components.
 
-## Setting the Privilege Manager Server (TMS) Address via the Registry Editor
+The TMSURL address can be changed post-install via the registry or PowerShell.
+
+## Changing the Privilege Manager Server (TMS) Address via the Registry Editor
 
 1. Open the Registry Editor (regedit)
 1. Navigate to __HKEY_LOCAL_MACHINE | SOFTWARE | Policies | Arellia | AMS__. <!-- TODO: add new screen capture -->
@@ -14,7 +16,7 @@ Agents require a Privilege Manager Server to communicate with. The recommended w
 1. Close the registry.
 1. Restart the Agent service.
 
-## Setting the Privilege Manager Server (TMS) Address via PowerShell
+## Changing the Privilege Manager Server (TMS) Address via PowerShell
 
 To set the TMS address via PowerShell, run this command as Administrator:
 

@@ -13,7 +13,7 @@ Privilege Manager supports Internet connected clients through Microsoft Azure Se
 
 Thycotic requires a Service Bus relay for remote communication. For this a Service Bus Queue needs to be created, follow the procedure as outlined by Microsoft [here in Quickstart: Use Azure portal to create a Service Bus queue](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quickstart-portal).
 
-The Service Bus Queue URL created in Azure needs to be used when setting the URL for Agent communication under the [Configuring Agents to Use the Service Bus](https://dev.homer.thycotic.net/privman/0.1.0-dev/how-to/ms-az-service-bus.md#configuring-agents_to_use_the_service-bus) heading.
+The Service Bus Namespace URL created in Azure needs to be used when setting the URL for Agent communication under the [Configuring Agents to Use the Service Bus](https://dev.homer.thycotic.net/privman/0.1.0-dev/how-to/ms-az-service-bus.md#configuring-agents_to_use_the_service-bus) heading.
 
 ## Setting up the Service Bus Foreign System
 
@@ -36,16 +36,18 @@ The Azure Service Bus requires a Foreign Systems configuration in Privilege Mana
    1. Set the Queue Policy Name to RootManageSharedAccessKey.
    1. Set the Queue Policy Secret to the Shared Access Key as obtained in the Azure Service Bus configuration procedure (also used in step 4 above).
 1. Click Save.
-1. Recycle the TmsWorker application application pool for the new settings to be applied.
+1. Recycle the TmsWorker application pool for the new settings to be applied.
 
 ## Configuring Agents to Use the Service Bus
+
+The following change to the TMS Server URL for the agents is only required for existing installations that need to be pointed at a newly created Service Bus based set-up. 
 
 ### Using regedit
 
 1. Open the Registry Editor (regedit)
 1. Navigate to __HKEY_LOCAL_MACHINE | SOFTWARE | Policies | Arellia | AMS__.
 1. Right click BaseUrl and select Modify.
-1. In the Edit String dialog box, change the BaseURL to your TMS Address based on the __Azure Service Bus Queue__ configuration, for example `https://[your company].servicebus.windows.net/tms[your instance]`, which in our example is `https://testing.servicebus.windows.net/tmstest`
+1. In the Edit String dialog box, change the BaseURL to your TMS Address based on the __Azure Service Bus__ configuration, for example `https://[your company].servicebus.windows.net/tms[your instance]`, which in our example is `https://testing.servicebus.windows.net/tmstest`
 1. Close the registry.
 1. Restart the Agent service.
 
@@ -57,4 +59,4 @@ To modify the TMS address via PowerShell, run this command as Administrator:
 C:\Program Files\Thycotic\Powershell\Arellia.Agent\SetAmsServer.ps1
 ```
 
-The script will then ask you to type in the fully qualified domain name of the server, enter the __Azure Service Bus Queue URL__.
+The script will then ask you to type in the fully qualified domain name of the server, enter the __Azure Service Bus URL__.

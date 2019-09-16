@@ -3,7 +3,7 @@
 [priority]: # (9501)
 # Azure Service Bus Configuration
 
-Privilege Manager supports Internet connected clients through Microsoft Azure Service Bus. The Azure Service Bus is a subscription service that external agents can connect to and use to communicate with an internal Privilege Manager (TMS) instance. This document is broken up in three sections:
+Privilege Manager supports Internet connected clients through Microsoft Azure Service Bus. The Azure Service Bus is a subscription service that external agents can connect to and use to communicate with an internal Privilege Manager Server (TMS) instance. This document is broken up in three sections:
 
 * Azure Services Bus Queue Configuration
 * Setting up the Service Bus as a Foreign System in Privilege Manager
@@ -13,7 +13,7 @@ Privilege Manager supports Internet connected clients through Microsoft Azure Se
 
 Thycotic requires a Service Bus relay for remote communication. For this a Service Bus Queue needs to be created, follow the procedure as outlined by Microsoft [here in Quickstart: Use Azure portal to create a Service Bus queue](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quickstart-portal).
 
-The Service Bus Queue URL created in Azure needs to be used when setting the URL for Agent communication under the [Configuring Agents to Use the Service Bus](https://dev.homer.thycotic.net/privman/0.1.0-dev/how-to/ms-az-service-bus.md#configuring-agents_to_use_the_service-bus) heading.
+The Service Bus Namespace URL created in Azure needs to be used when setting the URL for Agent communication under the [Configuring Agents to Use the Service Bus](https://dev.homer.thycotic.net/privman/0.1.0-dev/how-to/ms-az-service-bus.md#configuring-agents_to_use_the_service-bus) heading.
 
 ## Setting up the Service Bus Foreign System
 

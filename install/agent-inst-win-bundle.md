@@ -10,14 +10,15 @@ To install Thycotic agents __on a single testing machine__, follow these steps:
 
 1. Go to [Agent Downloads](http://thycotic.force.com/support/s/article/Software-Download) and download the __Bundled Agent Installer (Windows)__.
 1. Run the Thycotic Bundled Installer on the computer you want to manage.
-1. During the setup process, enter the Privilege Manager Server URL (or AZ Service Bus Queue URL) and the [Install Code](https://thycotic.force.com/support/s/article/PM-Agent-Install-Codes) when prompted. *Note: The Install Code field can be left blank when using versions lower than 10.5 *  
+1. During the setup process, enter the Privilege Manager Server URL (or AZ Service Bus Queue URL) and the [Install Code](https://thycotic.force.com/support/s/article/PM-Agent-Install-Codes) when prompted. 
+>**Note**: The Install Code field can be left blank when using versions lower than 10.5.
 
    ![](images/bundle/8ee280b41476e06c33e2970d6eaca468.png)
    To install Thycotic agents __on multiple machines__, we recommend the following:
 1. Go to [Agent Downloads](http://thycotic.force.com/support/s/article/Software-Download) and download the standalone MSI files.
 1. Push them out through any software delivery system tool (e.g.: SCCM) using the recommended command lines.
 
-Once your agents are installed, verify that they have registered in Privilege Manager. Navigate to the __ADMIN \| Diagnostics__ page from the Dashboard, or __ADMIN | Agents__ to view your agent details.
+Once your agents are installed, verify that they have registered in Privilege Manager. Navigate to the __ADMIN | Diagnostics__ page from the Dashboard, or __ADMIN | Agents__ to view your agent details.
 
 ![](images/bundle/5f6cc4d7c3797598d0f0d41650e40b24.png)
 
@@ -37,3 +38,6 @@ On the Diagnostics page you will see the quantity of agents registered and what
 ![](images/bundle/13af40fbf8e43016b7a9d422041b4a04.png)
 
 From the __Agent Installation Summary__ report you can click into any of the __target machines__ listed that have a Thycotic agent installed. Pictured above is a view from one of these resource pages where you can check the machine's System Health and configured policies.
+
+>**Note**:
+>If you find that you've entered the wrong Privilege Manager Server address or want to change this settings, refer to the information under [Setting the Privilege Manager Server Address](../getting-started/agent-set-server-address.md).

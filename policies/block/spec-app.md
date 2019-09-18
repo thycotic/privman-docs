@@ -1,6 +1,6 @@
-[title]: # (- Specific Applications)
+[title]: # (Specific Applications)
 [tags]: # (deny,blacklist)
-[priority]: # (4601)
+[priority]: # (2)
 # Specific Applications
 
 To create a new policy that blacklists specific applications, do the following steps:

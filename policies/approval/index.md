@@ -1,6 +1,6 @@
 [title]: # (Approval Policies)
 [tags]: # (workflows)
-[priority]: # (4200)
+[priority]: # (1)
 # Approval Policies
 
 Approval policies require an end-user justification and use an admin approval workflow.
@@ -9,5 +9,6 @@ This policy type requires that people provide a justification for why they need 
 
 The following examples are available:
 
-* [Offline Approvals](ac_offline_approval.md)
+* [Offline Approvals](offline_approval.md)
 * [HelpDesk Approvals](helpdesk.md)
+* [Google Authenticator approval](google-authenticator.md)

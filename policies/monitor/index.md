@@ -7,5 +7,5 @@ Greylisting Policies apply to any unknown applications that will attempt to run 
 
 The following examples are available:
 
-* [Catch-All Policy](gl-catch-all.md)
-* [Reputation Checking](gl-reputation.md)
+* [Catch-All Policy](catch-all.md)
+* [Reputation Checking](reputation.md)

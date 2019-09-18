@@ -1,6 +1,6 @@
-[title]: # (- Catch-All Policy)
+[title]: # (Catch-All Policy)
 [tags]: # (greylist)
-[priority]: # (4501)
+[priority]: # (2)
 # Catch-All Policy
 
 A useful Learning Mode Policy to set up in Production environments is called a Catch-All Policy. This type of policy will gather information on any executables in your environment that are not satisfied by other Privilege Manager policies.
@@ -14,9 +14,9 @@ This policy will catch all processes not caught by any defined policy above it. 
 1. To Enable this policy, you’ll need to set up the Conditions, Actions, Policy Enforcement, and Deployment tabs. One version of a Catch-All Policy’s settings are demonstrated by the following screenshots
 Conditions:
  
-<TODO update screen captures>
+<!--TODO update screen captures -->
 
 Actions:
-<TODO update screen captures>
+<!--TODO update screen captures -->
 Policy Enforcement:
-<TODO update screen captures>
+<!--TODO update screen captures -->

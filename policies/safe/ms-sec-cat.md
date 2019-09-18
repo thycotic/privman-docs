@@ -1,6 +1,6 @@
-[title]: # (- MS Security Catalog)
+[title]: # (MS Security Catalog)
 [tags]: # (whitelist)
-[priority]: # (4301)
+[priority]: # (3)
 # MS Security Catalog
 
 This policy uses a built-in filter to whitelist Microsoft’s Signed Security Catalog. This filter is often used to dynamically whitelist update items from Microsoft.  Whitelisting these executables clears them so they are not effected by any other policy, (i.e. they are allowed to run).

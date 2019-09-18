@@ -1,6 +1,6 @@
-[title]: # (XML Example)
+[title]: # (XML Example Justification)
 [tags]: # (create,set-up)
-[priority]: # (4211)
+[priority]: # (6)
 # XML for Challenge Response Message Action
 
 ```xml

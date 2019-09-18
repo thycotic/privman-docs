@@ -1,6 +1,6 @@
-[title]: # (- Enable Shortcut Delete)
+[title]: # (Enable Shortcut Delete)
 [tags]: # (elevate)
-[priority]: # (4404)
+[priority]: # (5)
 # Enable User to Delete Desktop Shortcuts
 
 This article describes how to enable users to delete shortcuts created when applications are installed from the public desktop.

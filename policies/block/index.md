@@ -1,6 +1,6 @@
 [title]: # (Blacklisting Policies)
 [tags]: # (deny)
-[priority]: # (4600)
+[priority]: # (1)
 # Blacklisting Policies
 
 Blacklisting is a policy that denies applications from running on your endpoints based on application attributes, file hash, location, or certificates. This is a powerful type of policy and it may be used to block specific, known and unwanted applications from running. A blacklist policy can target programs that prevent productivity for your end users or applications that are known malware. If malware, you can also add a quarantine action for your blacklist policy as outlined in the second example below.
@@ -17,7 +17,7 @@ Before you create new polices, keep in mind the following best practices:
 
 The following examples are available:
 
-* [Blacklisting Specific Applications](bl-spec-app.md)
-* [iTunes with File Upload](bl-iTunes-file-up.md)
-* [Quarantine Specific Malware](bl-quarantine.md)
-* [Catch-all Blacklist Policy](bl-catch-all.md)
+* [Blacklisting Specific Applications](spec-app.md)
+* [iTunes with File Upload](iTunes-file-up.md)
+* [Quarantine Specific Malware](quarantine.md)
+* [Catch-all Blacklist Policy](catch-all.md)

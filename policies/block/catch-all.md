@@ -1,6 +1,6 @@
-[title]: # (- Catch-all Blacklist)
+[title]: # (Catch-all Blacklist)
 [tags]: # (deny)
-[priority]: # (4604)
+[priority]: # (5)
 # Catch-all Blacklist
 
 A catch-all blacklist is the last policy executed following the execution of a group of whitelist policies. This enables you to configure your whitelist to allow approved applications, like the Windows directory or other installed applications, and then to deny everything else, like applications downloaded from the internet or a thumb drive.

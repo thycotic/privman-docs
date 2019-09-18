@@ -1,25 +1,7 @@
-[title]: # (Product Upgrades)
+[title]: # (Offline Upgrades - Combined)
 [tags]: # (new version)
-[priority]: # (700)
-# Product Upgrades
-
-Once Privilege Manager is installed on a server, updates can be performed by pointing the web.config file to the product NuGet source.
-
-1. Navigate to `C:\inetpub\wwwroot\TMS\` and right-click the web.config file.
-1. Select Edit from the drop-down.
-1. Verify the following line with correct NuGet source is present:
-
-   ```xml
-   <add key="nuget:source:SolutionCentre" value="http://tmsnuget.thycotic.com/nuget/" />`
-   ```
-
-<!-- TODO add missing information
-* reference correct SecretServer version for combined installs
-* update all version references
-* Add info about new/enhanced features and provide links to respective articles/docs
--->
-
-## Offline Upgrade - Combined
+[priority]: # (711)
+# Offline Upgrades - Combined
 
 Follow these steps to perform an offline upgrade for Privilege Manager and Secret Server. This article is ONLY applicable when upgrading from products that are versions 10.2 and higher.
 

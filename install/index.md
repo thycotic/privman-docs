@@ -16,5 +16,6 @@ The following topic are available:
   * [Windows Bundled Agent Install](agent-inst-win-bundel.md)
   * [Windows](agent-inst-win.md)
   * [Mac OSx](agent-inst-mac.md)
-* [Upgrades](upgrades.md)
-
+* [Upgrades](upgrades/index.md)
+  * [Offline Upgrades Privilege Manager](upgrades/offline-upgrade.md)
+  * [Offline Upgrades - Combined Secret Server and Privilege Manager](upgrades/offline-upgrades-combined.md)

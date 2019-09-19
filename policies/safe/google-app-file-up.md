@@ -1,6 +1,6 @@
 [title]: # (Google App with File Upload)
 [tags]: # (whitelist)
-[priority]: # (2)
+[priority]: # (4601)
 # Google App with File Upload
 
 In evaluation and production installations, proactive introduction of executables into Privilege Manager can be accomplished with a feature called File Upload.  File Upload allows you to quickly introduce a file, then create a Filter and/or a Policy to govern the application. As example, here’s how to introduce the Chrome Installer into Privilege Manager and use the file information to whitelist other Google applications.

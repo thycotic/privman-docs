@@ -1,6 +1,6 @@
 [title]: # (Approval Policies)
 [tags]: # (workflows)
-[priority]: # (1)
+[priority]: # (4200)
 # Approval Policies
 
 Approval policies require an end-user justification and use an admin approval workflow.

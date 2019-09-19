@@ -1,6 +1,6 @@
 [title]: # (Request Application Installation)
 [tags]: # (standard user, policy)
-[priority]: # (3)
+[priority]: # (4801)
 # Request Application Installation
 
 Privilege Manager can allow macOS users to install packages on demand. Do the following to create a policy to allow users to request installation of certain packages. For this to work, your endpoint must be online. If the system is offline, refer to the Offline Approval process documentation.

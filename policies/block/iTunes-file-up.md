@@ -1,6 +1,6 @@
 [title]: # (iTunes with File Upload)
 [tags]: # (deny)
-[priority]: # (3)
+[priority]: # (4301)
 # iTunes with File Upload
 
 As we've seen, there are multiple ways to introduce a new application into Privilege Manager before assigning a policy to it. For this example we will perform a File Upload for the iTunes installer to quickly Blacklist the iTunes program from running on target endpoints.

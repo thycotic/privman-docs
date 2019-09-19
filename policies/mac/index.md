@@ -1,6 +1,6 @@
 [title]: # (macOS Specific Policies)
 [tags]: # ( )
-[priority]: # (1)
+[priority]: # (4800)
 # macOS Specific Policies
 
 The following macOS specific policy examples are available:

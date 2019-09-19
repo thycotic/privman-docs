@@ -1,6 +1,6 @@
 [title]: # (User Justification Required to Run)
 [tags]: # (elevate)
-[priority]: # (4)
+[priority]: # (4401)
 # User Justification Required to Run
 
 This policy type requires a user to provide a justification for why they need to run an application before elevating with administrator privileges.  User Justification refers to the policy action.  Since Conditions and Actions are independent, this action can be applied to any condition.  In this use case, we will simply apply this action to a specific application.

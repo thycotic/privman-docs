@@ -1,6 +1,6 @@
 [title]: # (Catch-All Policy)
 [tags]: # (greylist)
-[priority]: # (2)
+[priority]: # (4501)
 # Catch-All Policy
 
 A useful Learning Mode Policy to set up in Production environments is called a Catch-All Policy. This type of policy will gather information on any executables in your environment that are not satisfied by other Privilege Manager policies.

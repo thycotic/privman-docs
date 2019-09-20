@@ -1,6 +1,6 @@
 [title]: # (Google Authenticator)
 [tags]: # (create,set-up)
-[priority]: # (4)
+[priority]: # (4201)
 # Google Authenticator 
 
 This topic describes how to set up a Privilege Manager policy for enabling two-factor functionality with Google Authenticator.

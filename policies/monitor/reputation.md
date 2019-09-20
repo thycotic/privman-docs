@@ -1,6 +1,6 @@
 [title]: # (Reputation Checking)
 [tags]: # (greylist)
-[priority]: # (2)
+[priority]: # (4502)
 # Reputation Checking
 
 <!-- TODO: Screen captures and cleaning up the procedural steps -->

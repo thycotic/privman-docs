@@ -1,6 +1,6 @@
 [title]: # (Using Policies)
 [tags]: # (application control)
-[priority]: # (4100)
+[priority]: # (4002)
 # Using Policies
 
 This sections contains examples on how to configure and use policies in Privilege Manager.

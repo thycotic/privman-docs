@@ -3,7 +3,7 @@
 [priority]: # (99999)
 # Privilege Manager Documentation
 
-## Tycotic.Privman.Docs (GitHub: thycotic/privman-docs)
+## Thycotic.Privman.Docs (GitHub: thycotic/privman-docs)
 
 This repo is pulling together Privilege Manager documentation and is structured as follows:
 
@@ -18,7 +18,7 @@ This repo is pulling together Privilege Manager documentation and is structured 
 | install | | index.md | 500 | Installation and Upgrades |
 | | | sysreq.md | 501 | Privilege Manager System Requirements |
 | | | antivirus-exclusions.md | 502 | Anti Virus Exclusions |
-| | Privilege Manager Server Installation | installation.md | 503 | Basic Product Installation |
+| | Privilege Manager Server Installation | index.md | 503 | Basic Product Installation |
 | | | installation-adv.md | 504 | Advanced Installation |
 | | | item-encryption.md | 599 | Item Encryption |
 | | Agent Installation | agent-inst.md | 600 | Agent Installation |
@@ -41,26 +41,26 @@ This repo is pulling together Privilege Manager documentation and is structured 
 | | | personas.md | 3900 | Personas |
 | app-control | | index.md | 4000 | Application Control |
 | | | overview-policies.md | 4001 | Policies |
-| | | default-policies.md | 4002 | List of default... |
-| | | overview-filters.md | 4011 | Filters |
-| | | default-filters.md | 4012 | List of default... |
-| | | overview-actions.md | 4021 | Actions |
-| | | default-actions.md | 4022 | List of default... |
-| policies | | index.md | 4100 | Using Policies |
+| | policies | index.md | 4100 | Using Policies |
 | | | ac-policy-endpoints.md | 4101 | Sending Policies to Endpoints |
 | | | ac-event-discovery.md | 4102 | Learning Mode Policies |
 | | | ac-events.md | 4103 | Application Control Events |
 | | | bp-events-discovery.md | 4104 | Best Practices |
 | | | priority.md | 4105 | Policy Priority |
-| | approve | index.md | 4200 | Using Policies |
-| | block | index.md | 4300 | Using Policies |
-| | elevate | index.md | 4400 | Using Policies |
-| | monitor | index.md | 4500 | Using Policies |
-| | safe | index.md | 4600 | Using Policies |
-| | blank | index.md | 4700 | Using Policies |
+| | approve | index.md | 4200 | Approval Policies |
+| | block | index.md | 4300 | Blocking (deny) Policies |
+| | elevate | index.md | 4400 | Elevation Policies |
+| | monitor | index.md | 4500 | Monitoring Policies |
+| | safe | index.md | 4600 | Safelisting Policies |
+| | blank | index.md | 4700 | Custom (no template) Policies |
 | | mac | index.md | 4800 | macOS Specific Policies |
-| filters | | index.md | 5000 | Using Filters |
-| actions | | index.md | 5500 | Using Actions |
+| | | default-policies.md | 4002 | List of default... |
+| | filters | index.md | 5000 | Using Filters |
+| | | overview-filters.md | 4011 | Filters |
+| | | default-filters.md | 4012 | List of default... |
+| | | overview-actions.md | 4021 | Actions |
+| | actions | index.md | 5500 | Using Actions |
+| | | default-actions.md | 4022 | List of default... |
 | tasks | | index.md | 6000 | Tasks |
 | reports | | index.md | 7000 | Reports |
 | config-feeds | | index.md | 8000 | Configuration Feeds |

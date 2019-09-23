@@ -1,6 +1,6 @@
 [title]: # (Application Control Events)
 [tags]: # (event discovery, notifications)
-[priority]: # (4103)
+[priority]: # (4)
 # Application Control Events
 
 This topic is about the maximum number of application control events to be stored in Privilege Manager. It explains what causes these events to be stored, how they can be purged from storage, the default setting for maximum number of events to be stored, and how that setting can be modified.

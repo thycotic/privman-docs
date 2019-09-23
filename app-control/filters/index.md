@@ -1,6 +1,6 @@
 [title]: # (Using Filters)
 [tags]: # (application control, policies)
-[priority]: # (5000)
+[priority]: # (5001)
 # Using Filters
 
 This sections contains examples on how to configure and use filters in Privilege Manager.

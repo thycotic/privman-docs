@@ -1,6 +1,6 @@
 [title]: # (- List of Default Actions)
 [tags]: # (default,out-of-box)
-[priority]: # (4022)
+[priority]: # (5999)
 # List of Default Actions
 
 This topic describes the out-of-the-box actions that are available in Privilege Manager and can be used to make your policy configuration process easy.

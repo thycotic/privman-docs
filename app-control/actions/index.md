@@ -1,6 +1,6 @@
 [title]: # (Using Actions)
 [tags]: # (application control, policies)
-[priority]: # (5500)
+[priority]: # (5501)
 # Using Actions
 
 This sections contains examples on how to configure and use actions in Privilege Manager.

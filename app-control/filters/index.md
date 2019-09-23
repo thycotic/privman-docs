@@ -1,7 +1,7 @@
-[title]: # (Using Filters)
+[title]: # (Example Filters)
 [tags]: # (application control, policies)
 [priority]: # (5001)
-# Using Filters
+# Example Filters
 
 This sections contains examples on how to configure and use filters in Privilege Manager.
 

@@ -11,13 +11,13 @@ When clicking the __?__ to the top right, the Configuration page gives the user 
 
 The configuration page is tabulated and offers configuration or review options under the following tabs:
 
-* [General](config-gen/index.md)
-* [Discovery](config-dis/index.md)
-* [Reputation](config-reputation/index.md)
-* [Users - Visible in Privilege Manager Cloud only](config-users/index.md)
-* [Credentials](config-credentials/index.md)
-* [Foreign Systems](config-foreign-sys/index.md)
-* [Roles](config-roles/index.md)
-* [Advanced](config-adv/index.md)
-* [Authentication](config-auth/index.md)
-* [Change History](config-history/index.md)
+* [General](general/index.md)
+* [Discovery](discovery/index.md)
+* [Reputation](reputation/index.md)
+* [Users - Visible in Privilege Manager Cloud only](users/index.md)
+* [Credentials](credentials/index.md)
+* [Foreign Systems](foreign-systems/index.md)
+* [Roles](roles/index.md)
+* [Advanced](advanced/index.md)
+* [Authentication](authentication/index.md)
+* [Change History](history/index.md)

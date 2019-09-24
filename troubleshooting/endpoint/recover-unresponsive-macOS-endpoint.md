@@ -1,6 +1,6 @@
 [title]: # (How to Recover an Unresponsive macOS Endpoint)
 [tags]: # (system recovery)
-[priority]: # (10010)
+[priority]: # (2)
 # How to Recover an Unresponsive macOS Endpoint
 
 In case a macOS endpoint ever becomes unresponsive due to conflicting policy configurations, the following steps allow user to recover the endpoint without having to restore or rebuild the system.

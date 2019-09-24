@@ -1,6 +1,6 @@
 [title]: # (Using Process Explorer)
 [tags]: # (troubleshooting)
-[priority]: # (10006)
+[priority]: # (3)
 # Using Process Explorer for Troubleshooting a Policy
 
 This topic describes how to troubleshoot a policy with Process Explorer. Process Explorer is used to look at policies that grant administrative privileges, but don't seem to work when

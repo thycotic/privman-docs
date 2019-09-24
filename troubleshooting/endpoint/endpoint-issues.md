@@ -1,7 +1,7 @@
-[title]: # (Endpoint Troubleshooting)
+[title]: # (Endpoint Issues)
 [tags]: # (agents)
-[priority]: # (10004)
-# Endpoint Troubleshooting
+[priority]: # (2)
+# Endpoint Issues
 
 This topc is intended to assist users in troubleshooting issues (such as policies not yielding expected results) from an endpoint machine that has the Thycotic agent installed on it. 
 

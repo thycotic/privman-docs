@@ -1,6 +1,6 @@
 [title]: # (Server Logs)
 [tags]: # (where are)
-[priority]: # (10001)
+[priority]: # (2)
 # Where are My Server Logs
 
 When something goes wrong in any technological platform, the best clues about 'why' are usually buried in log files. In Privilege Manager, it depends on 'what' is happening to know where to look for clues first, but server log files are usually a good are to start.

@@ -1,6 +1,6 @@
 [title]: # (Using Thycotic Monitor)
 [tags]: # (troubleshooting)
-[priority]: # (10005)
+[priority]: # (2)
 # Using  Thycotic Monitor
 
 While using Privilege Manager, you can utilize the Thycotic Monitor to help troubleshoot issues that occur on the web console.

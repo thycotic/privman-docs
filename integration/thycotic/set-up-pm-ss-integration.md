@@ -1,6 +1,6 @@
 [title]: # (Setting up Integration between Privilege Manager and Secret Server)
 [tags]: # (Authentication,Integration)
-[priority]: # (9001)
+[priority]: # (9002)
 # Setting up Integration between Privilege Manager and Secret Server
 
 Privilege Manager has the ability to use Secret Server as its storage container for credentials. This includes credentials for connecting to integrated systems such as Service Now, as well as credentials for local accounts that are managed by Local Security in Privilege Manager. Customers can choose to integrate with Secret Server only (no Vault setup) or Secret Server and Vault. Either option requires Authentication Data setup for Foreign Systems in Privilege Manager.

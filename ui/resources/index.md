@@ -25,7 +25,7 @@ The Resource Explorer is accessible by either navigating to
 
 * __Change History__ tab of a named resource.
 
-  ![Opening Resource Explorer via the Change History tab](images/config-history/change-hi-tab-details.png)
+  ![Opening Resource Explorer via the Change History tab](../config/history/images/config-history/change-hi-tab-details.png)
 
 * any named item, such as a report, in the Privilege Manager console and selecting a named resource.
 

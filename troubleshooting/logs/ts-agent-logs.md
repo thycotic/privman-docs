@@ -1,6 +1,6 @@
 [title]: # (Agent Logs)
 [tags]: # (where are)
-[priority]: # (10002)
+[priority]: # (3)
 # Where are My Agent Logs
 
 If something is going wrong on specific endpoints, another place to look for answers is in your Agent’s Event Log Viewer.

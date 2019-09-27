@@ -22,6 +22,10 @@ The following troubleshooting topics are available:
 * [Where are My Agent Logs?](logs/ts-agent-logs.md)
 * [User Interface and Ports](logs/ts-ui.md)
 
+## [Performance Issues](performance/index.md)
+
+* [Improve Boot-up Performance](performance/boot-up.md)
+
 ## [Errors](errors/index.md)
 
 * [Common Errors](errors/ts-common.md)

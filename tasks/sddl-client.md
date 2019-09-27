@@ -17,7 +17,7 @@ To secure agent access control on the endpoints set up the __Set Sddl for Servic
 1. Navigate to __Admin | More__ and select the __Tasks__ link.
 1. Open the Local Security folder.
 
-   ![Local Security Folder](images/sddl-client.png)
+   ![Local Security Folder](images/sddl-client.png) <!-- TODO: new task name, new screen captures and text updates after implementation. -->
 1. Select __Set Sddl For Service By Account IDs Client Task__ from the list of available Tasks.
 1. Click __Run__.
 
@@ -39,4 +39,4 @@ To secure agent access control on the endpoints set up the __Set Sddl for Servic
 1. Under User Accounts click the __+__ button and use the search field to find the specific user account that has permissions to make changes to the Agent services. 
 1. Click __Run Task__.
 
-Once the task runs the Start and Stop options for the two agent services is disabled for all users that don't have the Agent Administrator role.
+Once the task runs the Start and Stop options for the two agent services is disabled for all users that don't have the Agent Administrator role. Due to the agents pulling any new commands based on schedule or connectivity, the execution of the task at the endpoint might not be immediate.

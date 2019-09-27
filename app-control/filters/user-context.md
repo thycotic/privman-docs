@@ -18,11 +18,12 @@ For Privilege Manager on-premises the __User Context Filter__ can be used after 
 
 * Build-in Accounts,
 * Well-known Accounts, and/or
-* Domain User Groups
+* Domain User Groups, or
+* Specific Users.
 
 to specifically select user context.
 
-Then select if __ALL__ conditions must be met. Leave the box unchecked to match __ANY__. You can also specify, if accounts must be enabled to be targeted.
+Then select if __ALL__ conditions must be met. Leave the box unchecked to match __ANY__. You can also specify, if accounts must be enabled to be targeted. This is an important checkbox to set if specific users have been added.
 
 ![Create User Context Filter](images/user_context_1.png)
 

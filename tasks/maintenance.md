@@ -29,13 +29,23 @@ This task will assign agent event uploads that have been orphaned.
 
 __Parameters__: Max records [default setting = 2500]
 
-### Clear Client Item Cache
+<!-- with 10.7: by default ### Clear Client Item Cache
 
 This server task will clear entries from the Client Item Cache that are older than the time period specified.
 
 __Parameters__: Delete Message History older than [default setting = 30 day(s)]
 
-__Notes__: This is mainly a diagnostics tool and should not need to be scheduled.
+__Notes__: This is mainly a diagnostics tool and should not need to be scheduled. -->
+
+### Delete Old Performance Counter Events
+
+This task will delete internal performance counter events last updated before the specified time.
+
+__Parameters__: Can be set to Seconds, Minutes, Hours, Days, and Weeks. The default is 1 Day.
+
+### Initialize Item Change History
+
+This task is run after installs to ensure items with change tracking enabled have initial history entries.
 
 ### Purge Agent and Gauge Data for Deleted Computers
 
@@ -48,6 +58,12 @@ __Notes__: This can be helpful to run, to remove unwanted data for computers tha
 Remove duplicate computers.
 
 __Notes__: When AD sync occurs, Privilege Manager creates a new object in the database for each computer object. When the agent is installed, it references this same object. If the agent is installed before AD sync occurs, there can be 2 different objects in the database for the same machine. This task merges the duplicate objects and is usually only needed when agents are installed before a computer comes in from AD sync.
+
+### Purge Maintenance - Agent Logs
+
+This server task will remove all Agent Log data that is older than the time period specified.
+
+__Parameters__: Can be set to Seconds, Minutes, Hours, Days, and Weeks. The default is 1 Week.
 
 ### Purge Maintenance - Application Control Events
 

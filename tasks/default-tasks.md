@@ -65,7 +65,6 @@ These are tasks that pertain to either core functions  or to components and subc
 | Local Security | Primary User Update | Updates the primary user for each computer in the given collection. |
 | | User Credentials Data Update | This task ensures that resource credentials match the source user data. |
 | Maintenance Tasks | Assign Orphaned Agent Uploads | This task assigns agent event uploads that have been orphaned. |
-<!-- | | Clear Client Item Cache | This server task clears entries from the Client Item Cache that are older than the time period specified. | -->
 | | Delete Old Performance Counter Events | This task deletes internal performance counter events last updated before the specified time. |
 | | Purge Maintenance - Agent Logs | This server task removes all Agent Log data that is older than the time period specified. |
 | | Purge Maintenance - Application Control Events | Purges the selected Application Control Event types from the database based on the time range specified. |

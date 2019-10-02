@@ -9,7 +9,7 @@ There are different types of filters. When creating a new filter for Windows or
 * File Filters
 * Inventory Filters (__Windows only option__).
 
-These are loose groupings that signify a few different approaches to the filtering method or targets. 
+These are loose groupings that signify a few different approaches to the filtering method or targets.
 
 ### Application Filters
 

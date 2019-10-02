@@ -7,7 +7,7 @@ In Privilege Manager, using a robust filtering system is the key to creating acc
 
 A filter is made up of specific criteria that Privilege Manager uses to target important file data (or Events) that occur across your environment. You can think of Filters as the core identifiers in your Privilege Manager system. They are used to identify various levels of activity across your organization's computers, including processes (applications) that are launched on computers, who is executing an application, or the state of the computer that the process is being executed on. 
 
-An Event in Privilege Manager is any piece of file data or executable on a computer that is targeted by a policy. 
+An Event in Privilege Manager is any piece of file data or executable on a computer that is targeted by a policy.
 
 There are different methods for Filter-creation and usage, but if you take the time to familiarize yourself with our out-of-the-box filters they can help make your policy-creation process easy. This article will provide details and descriptions for Windows Filters in Privilege Manager and how you can begin using out-of-the-box Filters, or create your own.
 
@@ -39,7 +39,7 @@ This Add New Filter page reveals the available list of building blocks, attribut
 * Company Name
 * File Signature (File must be signed by)
 
-You can choose which criteria to use by checking or unchecking any of the filter line-items listed above. If you are new to the filter creation process, we recommend experimenting with these different identifiers in your test environment to ensure that you are using a comprehensive list of identifiers in your filter--enough to target the application or file intended but not too specific that variations to your target will fall through the filter's criteria hooks.
+You can choose which criteria to use by checking or unchecking any of the filter line-items listed above. If you are new to the filter creation process, we recommend experimenting with these different identifiers in your test environment to ensure that you are using a comprehensive list of identifiers in your filter, enough to target the application or file intended but not too specific that variations to your target will fall through the filter's criteria hooks.
 
 ### Creating a New Filter Manually
 
@@ -51,13 +51,3 @@ Editing options for this new filter will depend on the type of filter selected.
 Out-of-the-Box filters are designed to be used as templates, meaning when you open these filters you will see a Create A Copy button rather than the option to immediately Edit. These filter templates are protected to provide a jumping off point whenever creating new filters. They are formed by specific criteria that you can tailor according to your specific use case after copying.
 
 Keep in mind that every filter in Privilege Manager - whether or not it is a template - can be leveraged by the Copying feature.
-
-## Example Filters
-
-This sections contains examples on how to configure and use filters in Privilege Manager.
-
-These following topics are available:
-
-* [User Defined Resource Targets and Collections](resource-filters.md)
-* [Using Secondary File Filters](secondaryfilefilters.md)
-* [Using User Context Filters](user-context.md)

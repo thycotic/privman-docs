@@ -1,6 +1,6 @@
 [title]: # (Secondary File Filters)
 [tags]: # (policy, deny, allow, best practice)
-[priority]: # (5013)
+[priority]: # (2)
 # Using Secondary File Filters
 
 This topic explains how to create policies for applications that trigger file executions. Implementing a policy to filter on a file type, which is used by another executable, is done by setting a **Secondary File Filter**.

@@ -7,6 +7,8 @@ The following Privilege Manager roles are available by default and it is possibl
 
 ![Roles tab to add, edit, and delete roles](images/config-roles.png)
 
+Privilege Manager's Roles logic prevents the removal of a user account with an Administrator Role, if that user account is the last with those Administrator Role privileges. Privilege Manager does not allow current users to delete their own account.
+
 >**Note**:
 >Privilege Manager manages the roles of users accessing the console, unless Privilege Manager is connected to Secret Server. When connected to Secret Server, role membership is controlled by Secret Server.
 

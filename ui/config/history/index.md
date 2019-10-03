@@ -5,7 +5,7 @@
 
 The Change History tab is accessible via:
 
-* __Admin | Configuration__ – listing all changes made to Advanced, Discovery, and Reputation item configuration settings.
+* __Admin | Configuration__ – listing all changes made to Advanced, Authentication Provider, Foreign Systems, Discovery, and Reputation item configuration settings.
 * __Admin | Policies__ – listing all changes made to policies.
 * Admin | More and then (for the default menu, might differ if customized)
   * __Filters__ – listing all changes made to a specific filter.
@@ -16,10 +16,13 @@ The Change History tab is accessible via:
 
 Once the tab is selected, it opens a two-column page. On the left all recorded changes are listed with the newest record on top. This left column data provides a summary of the changes:
 
+* who made the change,
 * what was changed,
 * the type of change,
 * item changed, and
 * date/time of the change.
+
+For any changes made to the Authentication Provider for Foreign Systems, like changing from NTLM to Azure Active Directory for example, the Change History provides details about the active and staged states with true and false indicators.
 
 ## Looking at Details
 
@@ -45,7 +48,7 @@ The next screen shows a state change due to the policy being saved. The State\Re
 
 The last entry in the Change History list provides all the details about the change to the policy after initial creation and save.
 
-![Change History on item save](images/config-history/change-policy-3.png)
+![Change History on item changes](images/config-history/change-policy-3.png)
 
 What we see:
 

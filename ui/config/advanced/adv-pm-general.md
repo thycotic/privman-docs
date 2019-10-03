@@ -25,7 +25,7 @@ This setting specified the Encryption Provider used to encrypt sensitive data.
 
 ## Inactivity Timeout
 
-This settings specifies the maximum allowed time for inactivity when logged into the Privilege Manager console. The default is set to 30 Minutes.
+This settings specifies the maximum allowed time for inactivity when logged into the Privilege Manager console. The default is set to 30 Minutes. The session token remains active and does not need to be renegotiated when the inactivity timeout happens within the specified session timeout window.
 
 ## Max Time Skew
 
@@ -42,6 +42,20 @@ If this setting is selected, the performance counter data will be recorded in th
 ## Session Timeout
 
 This setting specifies the maximum time in __minutes__ for a login session to be active without having to negotiate another token. The default is set to 720 Minutes (12 Hours).
+
+### Session Timeout Warning
+
+Two minutes before the set session timeout window expires, Privilege Manager displays a yellow warning with countdown timer to inform users about the pending session timeout.
+
+![Yellow Session Warning at 2 Minute mark](images/pm/session-timeout-1.png)
+
+One minute before the timeout, the color changes to red.
+
+![Red Session Warning at 1 Minute mark](images/pm/session-timeout-2.png)
+
+Once the session times out, the active user is logged out and retured to the Privilege Manager Server Setup Home page.
+
+![Privilege Manager Server Setup Home page](images/pm/session-timeout-3.png)
 
 ## System Secret Vault
 

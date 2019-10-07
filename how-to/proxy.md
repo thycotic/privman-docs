@@ -1,7 +1,7 @@
-[title]: # (Proxy Setup)
+[title]: # (Reverse Proxy Setup)
 [tags]: # (reverse)
 [priority]: # (9510)
-# Setting up a PM Proxy
+# Setting up a Reverse Proxy
 
 >**Note**:
 >Thycotic Management Server, or “TMS”, is an umbrella term for our base application layer that Privilege Manager runs on top of.  For this guide you only need to recognize that "Tms" is programmed into your Privilege Manager URL string for configuration purposes.

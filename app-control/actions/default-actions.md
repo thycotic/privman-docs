@@ -154,7 +154,7 @@ Here is the complete list of Actions that come with Privilege Manager out-of-the
 
 | Action | Description |
 | ----- | ----- |
-| __Encrypt Microsoft Office Documents__ | This action can be used to automagically encrypt common application documents using Windows EFS |
+| __Encrypt Microsoft Office Documents__ | This action can be used to automatically encrypt common application documents using Windows EFS |
 
 ### Execute Application Action
 

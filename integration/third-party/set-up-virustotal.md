@@ -53,6 +53,13 @@ Next you have to create a Security Rating Filter for VirusTotal. Follow these st
    ![Creating the Security Rating Filter](images/virustotal/filter-ratingsystem.png)
 1. Next to VirusTotal Rating System click __+__.
 1. Click __Create__.
+1. Click __Edit__.
+1. Under __Settings__, change the __Rating Level__ drop-down to specify __Bad__. 
+
+   ![Setting the Rating Level to Bad](images/virustotal/filter-details.png)
+
+   The rating level trigger is supposed to match what you want to accomplish with the policy that will be using this filter. A rating level of Bad should be used for Deny policies, and Clean for applications or files that are part of the safe list. A rating level of Suspect can be used in justification and/or learning/discovery policies.
+1. Click __Save__.
 
 ## Creating User's Downloads Location, Temp Dir, and Collection Filters
 
@@ -76,7 +83,7 @@ Next you have to create a Security Rating Filter for VirusTotal. Follow these st
    1. Type __User’s Temp Directory__ to search for the filter.
    1. Click __User’s Temp Directory File Specification Filter__ from the list to add it (this is a default filter).
 
-      ![Both filters added to the collection filter](images/virustotal/collection-filter.png)]
+      ![Both filters added to the collection filter](images/virustotal/collection-filter.png)
    1. Click __Save__.
 
 ## Creating a Policy

@@ -113,6 +113,12 @@ Here is the complete list of Actions that come with Privilege Manager out-of-the
 | __Justify Application Elevation Action__ | This action will display a justification prompt to the user before continuing to the process controlled by a policy |
 | __Justify Application Message Action__  | This action will display a justification prompt to the user before continuing to the process controlled by a policy |
 
+### De-elevate Child Processes
+
+| Action | Description |
+| ----- | ----- |
+| __De-elevate Child Processes__ | Ensures that all child processes are created without administrator rights. Forces all new processes created by the targeted application to be launched by a de-elevated token. |
+
 ### Deny Actions
 
 | Action | Description |
@@ -156,23 +162,29 @@ Here is the complete list of Actions that come with Privilege Manager out-of-the
 | ----- | ----- |
 | __Immediate File Inventory__ | This action will inventory the file being executed |
 
-### GenericDetourAction
+### Enable UAC Virtualization
 
 | Action | Description |
 | ----- | ----- |
-| __Enable UAC Virtualization__ | This action will turn on UAC virtualization for the target process |
+| __Enable UAC Virtualization__ | This action will turn on UAC virtualization for the target process. It is a GenericDetourAction type. |
 
-## Meter Application Action
+### Meter Application Action
 
 | Action | Description |
 | ----- | ----- |
 | __Meter Application Usage__ | This action meters the usage of the specified applications |
 
-## Quarantine File Action
+### Quarantine File Action
 
 | Action | Description |
 | ----- | ----- |
 | __File Quarantine__ | This action can be used to quarantine a file by moving it to the default agent quarantine path |
+
+### Restrict File Dialogs
+
+| Action | Description |
+| ----- | ----- |
+| __Restrict File Dialogs__ | This action prevents users from abusing the elevated rights of the application via the file open and save dialogs. This is a recommended action that customers should add to their elevation policies. |
 
 ### Set Environment Variable Action
 

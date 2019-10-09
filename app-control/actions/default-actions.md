@@ -166,7 +166,7 @@ Here is the complete list of Actions that come with Privilege Manager out-of-the
 
 | Action | Description |
 | ----- | ----- |
-| __Enable UAC Virtualization__ | This action will turn on UAC virtualization for the target process. It is a GenericDetourAction type. |
+| __Enable UAC Virtualization__ | This action will turn on UAC virtualization for the target process. |
 
 ### Meter Application Action
 

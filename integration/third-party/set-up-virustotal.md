@@ -20,42 +20,98 @@ As a second step VirusTotal needs to be installed in Privilege Manager.
 
 1. Open a browser on your Privilege Manager Web Server.
 1. Browse to https://YourInstanceName/TMS/Setup/.
-1. On the Currently Installed Products screen, choose Install/Upgrade Products. <!-- screen capture-->
-1. Check the Thycotic VirusTotal Reputation Connector, click __Install__. Then __Accept__ the End User License Agreement. You will see your Installation Progress. <!-- screen capture-->
+1. On the Currently Installed Products screen, choose Install/Upgrade Products.
+1. Check the Thycotic VirusTotal Reputation Connector, click __Install__. Then __Accept__ the End User License Agreement. You will see your Installation Progress.
 
    > **Note**: If the installation of VirusTotal initially fails, redirect to https://YourInstanceName/TMS/Setup/ and click the __Repair__ button next to the VirusTotal Product.
 
+   ![Repair button option](images/virustotal/feature-update.png)
+
 1. Navigate to __Thycotic Privilege Manager | Admin | Configuration | Reputation__ tab.
-1. Select __VirusTotal Rating Provider__ from the Select Rating Provider drop down menu, then click __Edit__ and enter the required __Credentials__ and __Settings__ Details. <!-- screen capture-->
-1. Click the __Home__ button. Navigate to __Admin | Configuration | User Credentials__. Click the __+ User Credential__ option, then __VirusTotal API Key__. <!-- screen capture-->
-1. Next, create a Security Rating Filter for VirusTotal:
-   1. Navigate to __Home | Filters__, the click __Add Filter__.
-   1. Select a platform, then __Security Rating Filter__ as a Filter Type.  Name the policy and add a description.
-   1. Next to Security Rating System, select __View Parameters__ and then __VirusTotal as a Resource__, click __Create__. <!-- screen capture-->
-1. Create a Policy for VirusTotal:
-   1. After your Filter is created, Navigate to __Home | Policies__, then click on __Add New Policy__.
-   1. Select Windows as a Platform, __Show All Policies__ as a Policy Type, then __Other: Empty Policy__.
-   1. Name the policy __Deny Applications – VirusTotal Rating__, and add a description _Prevents applications flagged by VirusTotal as bad_, click __Create__. <!-- screen capture-->
-1. Next, select the Actions tab. Select Add Action. In the search field, type Application Denied, and locate Application Denied Message Action.  Select this action and click on Add.
+1. Select __VirusTotal Rating Provider__ from the Select Rating Provider drop down menu.
 
-   This VirusTotal policy requires an additional step of creating a filter to be added as an Inclusion Filter under the Conditions tab.  In this use case, we only want to send applications to VirusTotal for a reputation check that are in the user’s Downloads and Temp directories.
+   ![Select Rating Provider: VirusTotal Rating Provider](images/virustotal/reputation-tab.png)
+1. Click __Edit__ and enter the __VirusTotal API Key__, click Update.
 
-   Open another browser tab and open another Privilege Manager session so you can return to this policy in step 8 below.
+   ![Edit the VirusTotal Rating Provider information](images/virustotal/edit.png)
+1. Enter information under Details and specify settings for Suspect and Bad classifications.
+1. Click __Save__.
 
-1. Start by searching for this policy in the Search Items filed at the top of the console page: User’s Temp Directory File Specification Filter. <!-- screen capture-->
-1. Select the filter Users’ Temp Directory File Specifications Filter, click __Create a Copy__ at the bottom of the page.  Name the new filter User’s Downloads Directory File Specification Filter, click __Create__.
-1. Click on __Edit__, and change the regular expression in the Path filed to the following: (c:\\users\\[^\\]+\\downloads), save your changes. <!-- screen capture-->
+>**Note**:
+>VirusTotal can be used without API Key. If the free version is used, reputation checks are limited to 4 per Minute. Thycotic does not recommend this for a production environment.
+
+For the implementation example below, we are creating two filters, using one default filter, and creating a policy. One filter is the standard Security Rating Filter the other filter controls, that we only send applications to VirusTotal for a reputation check that are in the user’s Downloads and Temp directories.
+
+## Creating Security Rating Filter
+
+Next you have to create a Security Rating Filter for VirusTotal. Follow these steps:
+
+1. Navigate to __Home | Filters__, the click __Add Filter__.
+1. Select a platform, then __Security Rating Filter__ as a Filter Type. Name the policy and add a description.
+1. Next to Security Rating System, select __Application Control Rating System__.
+
+   ![Creating the Security Rating Filter](images/virustotal/filter-ratingsystem.png)
+1. Next to VirusTotal Rating System click __+__.
+1. Click __Create__.
+1. Click __Edit__.
+1. Under __Settings__, change the __Rating Level__ drop-down to specify __Bad__. 
+
+   ![Setting the Rating Level to Bad](images/virustotal/filter-details.png)
+
+   The rating level trigger is supposed to match what you want to accomplish with the policy that will be using this filter. A rating level of Bad should be used for Deny policies, and Clean for applications or files that are part of the safe list. A rating level of Suspect can be used in justification and/or learning/discovery policies.
+1. Click __Save__.
+
+## Creating User's Downloads Location, Temp Dir, and Collection Filters
+
+1. In the Privilege Manager Console search field, enter User’s Temp Directory File Specification Filter.
+
+   ![Filter Search Results](images/virustotal/filter-search.png)
+1. Select the filter __Users’ Temp Directory File Specifications Filter__, click __Create a Copy__.
+1. Name the new filter _User's Download Directory File Specification Filter_, provide a description and click __Create__.
+1. Click on __Edit__.
+1. Change the regular expression in the Path filed to the following: (c:\\users\\[^\\]+\\downloads), save your changes.
+
+   ![RegEx Location Path](images/virustotal/filter-path.png)
 1. Finally, combine the 2 filters into a single filter to target both directories:
-   1. Click Create a Copy at the bottom of this filter’s page, and name the new filter User’s Directory Collection File Specification Filter. Click Create.
-   1. Edit, then Clear the entry in the Path field.
-   1. Click the __Add__ button to the right of the Include only filters near the bottom of the page under Additional Filters (optional). Type User’s to search for the filters identified and created in the previous steps:
-      * User’s Downloads Directory File Specification Filter
-      * User’s Temp Directory File Specification Filter
-   1. Click on __Save__.
-1. Now, add this new filter to the Deny Applications – VirusTotal Rating policy by clicking on the Add Inclusion Filter under the Conditions tab.
-1. Search for and add the filter just created named User’s Directory Collection File Specification Filter. Click on Add. Save changes. <!-- screen capture-->
-1. To adjust this policy to apply to specific users or endpoints, click on the Advanced Policy View in the policy’s General tab, then click the Conditions tab to add Inclusion/Exclusion filters and Resource Targets. <!-- screen capture-->
+   1. Click __Create a Copy__.
+   1. Enter the name for the new filter _User’s Directory Collection File Specification Filter_, click __Create__.
+   1. Click __Edit__.
+   1. Clear the data in the Path field.
+   1. Under Additional Filters, click the __Add__ button to the right of __File filters__.
+   1. Type __User’s Download__ to search for the filter.
+   1. Click __User’s Downloads Directory File Specification Filter__ from the list to add it.
+   1. Type __User’s Temp Directory__ to search for the filter.
+   1. Click __User’s Temp Directory File Specification Filter__ from the list to add it (this is a default filter).
 
-> **Note**: This policy will send any application run from the user’s Downloads or Temp directory to VirusTotal for a reputation check in real-time. If the application is graded with Bad from VirusTotal, the application will be denied.
+      ![Both filters added to the collection filter](images/virustotal/collection-filter.png)
+   1. Click __Save__.
 
-To view a File Security Ratings report, from the main page go to REPORTS | File Security Rating Details Report. To see details of the applications in the report, click on the file name in the File column.
+## Creating a Policy
+
+Next you have to create a Policy and add the filters for VirusTotal:
+
+1. Navigate to __Home | Policies__, then click on __Add New Policy__.
+1. Select Windows as a Platform, __Show All Policies__ as a Policy Type, then __Other: Empty Policy__.
+1. Name the policy __Allow Applications – VirusTotal Rating__, and add a description _Deny applications flagged by VirusTotal as bad_, click __Create__.
+
+   ![Creating the Policy to Deny Applications flagged as bad](images/virustotal/policy.png)
+1. Click __Edit__.
+1. Next, select the __Actions__ tab.
+1. Select __Add Action__.
+1. In the search field, type Application Denied, and locate the __Application Denied Message Action__.
+1. Select the action and click __Add__.
+1. On the Conditions tab, add the filters.
+   1. Under __Application Targets__ add the _VirusTotal Security Rating Filter_.
+   1. Under __Inclusion Filters__ add the _User’s Directory Collection File Specification Filter_.
+
+      ![Conditions tab with filters](images/virustotal/policy-conditions.png)
+1. Click __Save__.
+
+If you want the policy to apply to specific users or endpoints, it can be adjusted by clicking on the Advanced Policy View in the policy’s General tab. Other edits can be done via the Conditions tab, to add Inclusion/Exclusion filters and Resource Targets.
+
+>**Note**:
+>This policy will send any application run from the user’s Downloads or Temp directory to VirusTotal for a reputation check in real-time. If the application is graded with Bad from VirusTotal, the application will be denied.
+
+## Viewing a File Security Ratings Report
+
+To view a File Security Ratings report, from the main page go to __REPORTS | File Security Rating Details Report__. To see details of the applications in the report, click on the file name in the File column.

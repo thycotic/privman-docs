@@ -34,13 +34,15 @@ To access the LSS Migration Readiness Report, follow these steps:
    * Skipped: Is not using a Local Security Command.
    * Skipped: Task has already been migrated.
 
-1. Any item with a state listed as _Ready for migration_ can be selected and the __LSS Migration Readiness Report - Drilldown__ report opens for that specific item.
+1. To learn more about items that are listed as _Ready for migration_ click on the item in the table. This opens up the __LSS Migration Readiness Report - Drilldown__ report.
 
    ![LSS Migration Readiness Report - Drilldown](images/lss-migration/drilldown.png)
 
-   The drilldown report shows the Action to be performed for the item during migration. The drilldown report shows information about the Resource Type, Name, Resource ID (RID), For Computer Group, and From ResourceID.
+   The drilldown report shows the Action to be performed for that particular item during the migration.
 
-   <!-- need details on those columns and what it means: for CG, from RID, etc. What should be done to items that are not ready for migration? What needs to be done if the drilldown shows something the customer doesn't like? -->
+   For example: The data shown in the image above indicates that two items will be created in Privilege Manager's Local Security. One item is a _User_ the other a _Password Randomization_ entry. For the user the item is created with __Resource Name__ of _Administrator_ and the __Resource RID__ will be _500_. It further shows that the action will be done __For Computer Group__ and __From ResourceID__ as indicated.
+
+   During the report creating, Privilege Manager will find and resolve conflicts that might be caused by many policies targeting the same computer group with the same user/group, or multiple password rotation policies for the same user. The LSS migration script resolves these conflicts in a way that respects the logic of the initial policy set-up, and comply with the new model for the data.
 1. If there aren't any conflicts and all items found can be migrated, use the LSS Migration tasks to migrate and then enable to items pertaining to Local Security. This is a two step process, first migrate then enable.
 
    1. Search for LSS Migration Task (1/2): Migrate all items.
@@ -51,4 +53,4 @@ To access the LSS Migration Readiness Report, follow these steps:
 
       ![LSS Migration Task 2 to enable the migrated items](images/lss-migration/task-2.png)
 
-   Either of these tasks can be edited, and have parameters or schedules defined.
+   Either of these tasks can be edited, to have parameters or schedules defined.

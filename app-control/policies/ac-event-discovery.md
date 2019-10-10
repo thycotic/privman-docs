@@ -41,22 +41,25 @@ Another type of Learning Mode Policy will discover all events on targeted machin
 
 To view all feedback, or event, sent from your existing policies with the Send Policy Feedback activity checked, navigate from Dashboard to __Event Discovery | Policy Activity__. Events will be listed in the main section and on the left sidebar you can scope results for certain policies, computers, time frame, etc. You can use this view to assign any events to policies by clicking Assign to Policy under the event listing.
 
-<!-- TODO: New UI based image-->
+![Policy Activity Report page](images/discovery/policy-activity.png)
 
 ## View Files
 You can also quickly glean any new files found by Privilege Manager in the __Event Discovery | Files Screen__. Distinct from the Policy Events screen view, the Files page only shows files rather than displaying all events attached to current policies.
 
-<!-- TODO: New UI based image-->
+![Policy Activity Report page](images/discovery/files-1.png)
 
 ## New Loaded Resource
 
 At the beginning of your policy creation process you will see many new events labeled as __New Loaded Resource__. This is because importing files in Privilege Manager is not the same thing as discovering information about the files. Discovery of file details is done by scheduled tasks by default, but if you want to discover file details immediately, do the following:
 
 1. Navigate to __Event Discovery | Files__.
+1. Select New Loaded Resource.
+
+   ![New Loaded Resource](images/discovery/new-loaded-resources.png)
 1. Click one of your New Loaded Resource files.
 1. Click Discover Now. This process may take a few minutes. If the file is not discovered, check to make sure your endpoint target resource is running.
 
+   ![Resource Explorer - Discover Now button](images/discovery/discover-now.png)
+
 >**Note**:
 >Files may not be discovered if they have already been deleted in your system.
-
-<!-- TODO: New UI based image-->

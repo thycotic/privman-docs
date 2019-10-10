@@ -5,70 +5,102 @@
 
 Privilege Manager can import Collections and package data from Microsoft SCCM.  The collections can then be used to target computers in policies, and the package data used to create application filters. This integration allows users to deploy changes in Privilege Manager across large environments quickly and effectively.
 
-## Connecting to SCCM
-
-Before you can import data from SCCM you need to setup a foreign system connection in Privilege Manager for the SCCM integration.
-
 ## Create a Credential
 
-Privilege Manager needs a username and password to access SCCM.  If you have not already created an appropriate user credential, navigate to Privilege Manager's Legacy Silver Light Console, to the Configuration tab, then to Settings > Foreign Software Systems > User Credentials.  Click New > User Credential, fill out the form and Save.
+Privilege Manager needs a username and password to access SCCM.  If you have not already created an appropriate user credential:
 
-User-added image
+1. Navigate to __Admin | Configuration__ and select the __Credentials__ tab.
+1. Click Add New.
+1. On the New User Credential page under
+   1. Details enter a name and description for the SCCM credential.
+   1. Settings enter the SCCM Account Name, Password, and confirm the password.
 
-## Add the SCCM Instance
+   ![Add SCCM Credentials account](images/sccm/credentials-new.png)
+1. Click __Save__.
 
-Next Privilege Manager needs to know how to connect to SCCM.  Navigate to the Configuration tab, then in the tree to Settings > Foreign Software Systems > System Center Configuration Manager.  Click New > SCCM Instance.  Fill out the required fields and select OK.
+## Connecting to SCCM
 
-User-added image
+Before you can import data from SCCM you need to setup a foreign systems connection in Privilege Manager for the SCCM integration.
 
-Next you need to select the user credential you created for accessing SCCM.  Select your credential, click OK, and then Save to save the SCCM information.
+1. Navigate to __Admin | Configuration__ and select the __Foreign Systems__ tab.
+1. Select __System Centre Configuration Manager__. If this is not listed, make sure the connector is installed by verifying via the Privilege Manager Add/Upgrade Features page.
+1. Click __Add New__.
 
-User-added image
+   ![Add SCCM Foreign System information](images/sccm/sccm-new.png)
+1. Enter the name of the SCCM Server and provide the WMI Namespace (URL).
+1. Click __Create__.
+1. Select the newly created SCCM foreign system and click __Edit__.
+1. Under Settings enter the SCCM user credential that you created in the previous procedure.
+1. Enter the SCCM URL.
+1. Click Save.
 
 ## Import Computers from SCCM
 
-Before you can import collection data from SCCM, Privilege Manager needs to know about computers in your SCCM.  Navigate to the Tasks tab > Jobs and Tasks, then in the tree to Jobs and Tasks > Server Tasks > Foreign Systems > SCCM > Synchronize Computers.  Click Run Now, then click Select to choose your SCCM, click OK, then Run Task.
+Before you can import collection data from SCCM, Privilege Manager needs to know about computers in your SCCM.
 
-User-added image
+1. Navigate to Admin | More and select Tasks.
+1. On the Tasks tab open the folder tree and select Server Tasks | Foreign Systems | SCCM.
 
-> **Note**: You can also right-click on your SCCM from the Foreign Software Systems view and select Synchronize Computers to launch this task.
+   ![SCCM Tasks](images/sccm/sccm-tasks.png)
+1. Click Synchronize Computers.  
 
-Next, verify the computers have been imported.  Navigate to the Resources tab > Resource section, then in the tree to Organizational Views > Default > All Resources > Asset > Network Resource > Computer.  Verify that the required computers have been imported.
+   ![Synchronize Computers Task](images/sccm/sccm-task-run.png)
+1. Click __Run__.
+1. Specify Parameters via the __View Parameters__ link and select your SCCM system via the __Select resource...__ option.
 
-User-added image
+   ![Run customized task](images/sccm/sccm-task-run-select.png)
+1. Click __Run Task__.
+   > **Note**: You can also right-click on your SCCM from the Foreign Software Systems view and select Synchronize Computers to launch this task.
 
-You can also verify that the computer resource you're viewing is connected to SCCM.  In the Computer view, right-click on a computer and select Resource Manager.  In the Resource Manager view, go to the Data tab, then in the tree to Data Classes > Foreign Systems.  You should have Foreign System Id and SCCM Platform Id data.
+## Verify the Computers have been Imported
 
-User-added image
+1. Navigate to __Admin | More__ and select __Resources__.
+1. Open the __Resources__ tab.
+1. In the folder tree open __Organizational Views | Default | All Resources | Asset | Network Resource | Computer__.
+1. Verify that the required computers have been imported.
+
+You can also verify that the computer resource you're viewing is connected to SCCM.
+
+1. In the Computer view, right-click on a computer and select Resource Manager.
+1. In the Resource Manager view select the Data tab.
+1. In the tree under Data Classes | Foreign Systems, you should have the Foreign System Id and SCCM Platform Id data.
 
 ## Create a Collection from SCCM
 
-After computers have been imported, you can create a collection to mirror an SCCM collection.  Navigate to the Resource tab, Resource Filters section, then in the tree Resource Filters > Collections > Thycotic.  Right-click on the Thycotic folder then select New > Filters > SCCM Collection
+After computers have been imported, you can create a collection to mirror an SCCM collection.
 
-User-added image
+1. Navigate to Resources, open the __Resource Filters__ tab.
+1. In the folder tree under __Resource Filters__ open __Collections | Thycotic__.
+1. Click __Add New__
+1. From the __Template__ drop-down select __SCCM Collection__.
 
-Fill out a Name and Description, select your SCCM instance, and select OK to create.
+   ![Select Template](images/sccm/create-collection-1.png)
+1. Enter a Name and Description, Parameters, and specify the SCCM resources to mirror.
 
-User-added image
+   ![Paramters](images/sccm/create-collection-2.png)
 
-Select the SCCM collection you want to mirror and then Save the collection.
+   ![SCCM Resources to mirror](images/sccm/create-collection-3.png)
+1. Click __Create__.
+1. Click __Edit__.
+1. Select the Filter Definition tab and under __Foreign Collection__ select the Collection target.
 
-User-added image
+   ![Associate the Foreign Collection target](images/sccm/target-collection.png)
+1. Click __Save__.
 
 ## Updating an SCCM Collection
 
-Privilege Manager needs to pull the list of computers that are part of a collection from SCCM.  By default it will only do this on demand.  Go to the Tasks tab, Jobs and Tasks section, then in the tree Jobs And Tasks > Server Tasks > Foreign Systems > SCCM > Synchronize SCCM Collection.  Click Run Now, select your collection, and then Run Task to run the task.
+Privilege Manager needs to pull the list of computers that are part of a collection from SCCM. By default it will only do this on demand.
 
-User-added image
+1. Navigate to Tasks, open the folder tree to __Jobs And Tasks | Server Tasks | Foreign Systems | SCCM__.
+1. Select the __Synchronize SCCM Collection__ task.  
 
-> **Note**: You can also run this task by right-clicking the collection in the tree and selecting Synchronize Collection.
->
->If you would like this to run automatically, you can setup a schedule to run by clicking the New Schedule button.  Select the collection, set schedule information, and Save.
+   ![Select collection task](images/sccm/task-collection-1.png)
+1. Click __Run__.
+1. Specify your collection resource and click __Run Task__.
+   > **Note**: You can also run this task by right-clicking the collection in the tree and selecting Synchronize Collection.
+   >If you would like this to run automatically, you can setup a schedule to run by clicking the New Schedule button.  Select the collection, set schedule information, and Save.
+1. Navigate back to your SCCM Collection in Resources.
+1. Click the Update Membership button to view the current members of the collection.
 
-User-added image
-
-Next, navigate back to your SCCM Collection in Resources.  Click the Update Membership button to view the current members of the collection.
-
-User-added image
-
-> **Note**: It is also necessary for the Collection Update task to run, and this task is already scheduled by default for every 15 minutes. Clicking Update Membership will immediately perform the same actions as the Collection Update task.
+>**Note**:
+>It is necessary for the Collection Update task to run, by default the task is scheduled to run every 15 minutes. Clicking Update Membership will immediately perform the same actions as the Collection Update task.

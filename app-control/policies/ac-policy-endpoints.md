@@ -7,13 +7,13 @@ After setting up your first policies, keep in mind that even after you enable th
 
 1. Go to __Admin | Policies | General Tab__ and search for the Update Applicable Policies task from your list of Scheduled tasks:
 
-   ![Remote Scheduled Client Command Task](images/task/update-applicable-policies.png)
+   ![Remote Scheduled Client Command Task](images/tasks/update-applicable-policies.png)
 1. To edit the time scheduled that sets off this task, click the Trigger tab.
 
-   ![Trigger tab information](images/task/trigger.png)
+   ![Trigger tab information](images/tasks/trigger.png)
 1. Clicking on the existing schedule link in edit mode, allows modifications.
 
-   ![Modify the schedule](images/task/trigger-edit.png)
+   ![Modify the schedule](images/tasks/trigger-edit.png)
 
    In production environments having a delayed deployment schedule prevents performance issues when adjusting policies and rolling them out across a large number of agents on your network. However, when setting up new policies you may want to immediately activate them on testing endpoints and verify your configurations are working correctly.
 
@@ -23,7 +23,7 @@ Remember to Save any changes you make to activate this schedule.
 
 Within a Policy’s Detail View, Navigate to the Deployment tab. This will tell you how many computers the policy is already deployed on:
 
-![Deployment Status](images/task/deployment.png)
+![Deployment Status](images/tasks/deployment.png)
 
 ## Update Policies on an Endpoint using Powershell (prior version 10.7)
 

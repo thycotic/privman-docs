@@ -81,6 +81,11 @@ After computers have been imported, you can create a collection to mirror an SCC
 
    ![SCCM Resources to mirror](images/sccm/create-collection-3.png)
 1. Click __Create__.
+1. Click __Edit__.
+1. Select the Filter Definition tab and under __Foreign Collection__ select the Collection target.
+
+   ![Associate the Foreign Collection target](images/sccm/target-collection.png)
+1. Click __Save__.
 
 ## Updating an SCCM Collection
 

@@ -24,6 +24,22 @@ The most influential applications are those that require administrator credentia
 1. Click __Edit__ and check the boxes of the first four Collection Settings: __Administrative Rights Detection__, __Administrative Rights Required Detection__ (Application Compatibility), __Administrative Rights Required Detection__ (Security Manifest), and __Setup Detection__.
 1. Click the “__?__” icons beside these options for explanations of each setting. Each Collection Setting listed here is a Policy that flags any event on endpoints that required a User Account Control (UAC) prompt.
 
+### macOS specific Support 10.7 and up
+
+In Privilege Manager versions prior to 10.7, in order to discover applications requiring root access on macOS endpoints, Privilege Manager requires the creating of a policy using 2 filters:
+
+* Executables Declared as Privileged Filter
+* Codesign Entitled Elevated Application Filter
+
+In 10.7 this policy is created by default with a single check box on the Discovery Configuration page to enable or disable the policy.
+
+To enable this feature:
+
+1. Navigate to Admin | Configuration and open the Discovery tab.
+1. Select the checkbox for __Administrative Rights Required Detection Policy (macOS)__.
+
+   ![macOS Admin Rights Required Detection Policy checkbox](images/discovery/macOS-enable.png)
+
 ## Discover All Events on Test Endpoints
 
 Another type of Learning Mode Policy will discover all events on targeted machines regardless of whether the application requires Administrator Rights. This policy is used in test environments to quickly target policies at untrusted/unwanted applications, but is not recommended for production settings.

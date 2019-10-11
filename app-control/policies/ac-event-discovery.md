@@ -21,7 +21,7 @@ The most influential applications are those that require administrator credentia
 1. Here, you see a list of pre-configured policies:
 
    ![Event Discovery Configuration](images/discovery/cfg_event_collection_settings.png)
-1. Click __Edit__ and check the boxes of the first four Collection Settings: __Administrative Rights Detection__, __Administrative Rights Required Detection__ (Application Compatibility), __Administrative Rights Required Detection__ (Security Manifest), and __Setup Detection__.
+1. Click __Edit__ and check the boxes of the Collection Settings: __Administrative Rights Detection__, __Administrative Rights Required Detection__ (Application Compatibility), __Administrative Rights Required Detection__ (Security Manifest), and __Setup Detection__.
 1. Click the “__?__” icons beside these options for explanations of each setting. Each Collection Setting listed here is a Policy that flags any event on endpoints that required a User Account Control (UAC) prompt.
 
 ### macOS specific Support 10.7 and up
@@ -33,12 +33,12 @@ In Privilege Manager versions prior to 10.7, in order to discover applications r
 
 In 10.7 this policy is created by default with a single check box on the Discovery Configuration page to enable or disable the policy.
 
-To enable this feature:
+To enable this feature in 10.7 and up:
 
-1. Navigate to Admin | Configuration and open the Discovery tab.
+1. Navigate to __Admin | Event Discovery__ and open the __Configuration__ tile.
 1. Select the checkbox for __Administrative Rights Required Detection Policy (macOS)__.
 
-   ![macOS Admin Rights Required Detection Policy checkbox](images/discovery/macOS-enable.png)
+   ![macOS Admin Rights Required Detection Policy checkbox](images/discovery/cfg_event_collection_settings-macOS.png)
 
 ## Discover All Events on Test Endpoints
 

@@ -11,8 +11,6 @@ The feature provides the ability
 
 * to export single policies for specific troubleshooting purposes.
 * to bulk export via policies folders at any given folder level depending on specific needs.
-* to view all objects after an import grouped by policy, with each policy displaying dependent object types, e.g. filter, action, resource target, etc.
-* to view which objects already exist on the destination.
 * to choose to overwrite or leave in place what's already there.
 * to select specific objects or bulk select
 

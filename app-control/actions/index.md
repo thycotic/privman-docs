@@ -30,3 +30,4 @@ This sections contains examples on how to configure and use actions in Privilege
 These following topics are available:
 
 * [Adjust Process Rights Action and use Unrestricted Token](unrestricted-token.md)
+* [Create a Custom Application Denied Notification Action](custom-app-denied-notification.md)

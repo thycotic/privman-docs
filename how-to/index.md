@@ -17,3 +17,4 @@ This topic is a collection of articles covering "How to..." procedures for diffe
 * [Connecting Agents to the Privilege Manager Server](connect-agents.md)
 * [Uninstalling an Agent with Script](agent-uninstall-script.md)
 * [VM Deployments](vm-deployments.md)
+* [Preference Pane Targeting on macOS](prefpane.md)

@@ -52,4 +52,4 @@ On the macOS endpoint,
    sudo /usr/local/thycotic/agent/agentUtil.sh updateclientitems
    ```
 
-The agent updates with new and updated policies and synchronize.
+The agent updates with new and updated policies and synchronizes.

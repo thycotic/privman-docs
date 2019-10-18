@@ -10,7 +10,7 @@ The export and import feature can be used for production environments with multi
 The feature provides the ability
 
 * to export single policies for specific troubleshooting purposes.
-* to bulk export via policies folders at any given folder level depending on specific needs.
+* to bulk export via policies folders at any given folder level, except on folders, depending on specific needs.
 * to choose to overwrite or leave in place what's already there.
 * to select specific objects or bulk select
 
@@ -69,9 +69,24 @@ The items are downloaded in a zip file named after the folder that was selected 
 >**Note**:
 >Prior to importing any data into your environment, Thycotic recommends to create a backup of the current Privilege Manager Database.
 
+Items can be imported in different ways, which are further detailed below.
+
+### Using Import Items
+
+To import items via the Import Items link follow these steps:
+
+1. Navigate to __Admin | More__ and select the __Import Items__ link.
+
+   ![Import Items](images/import/import-items-link.png)
+1. The xml viewer opens and you may copy xml item data here to import.
+
+   ![Import Items XML viewer or Upload Items File option ](images/import/import-items-link-2.png)
+
+   Or use the __Upload Items File__ option as described under [Using Diagnostics Upload Items File](export-import.md#using_diagnostics_upload_items_file) step 2.
+
 ### Using Diagnostics Upload Items File
 
-To import items follow these steps:
+To import items via file upload follow these steps:
 
 1. Navigate to __Admin | Diagnostics__ and select the __Import Items__ button.
 
@@ -81,7 +96,7 @@ To import items follow these steps:
    ![Upload Item File link](images/import/link.png)
 1. The __Import Items__ dialog opens, browse to your file location and select the file containing the data to import.
 
-   ![Import Items dialog box](images/import/modal.png)
+   ![Import Items dialog box](images/import/modal.png) <!-- TODO: new screen once drop-down options are corrected -->
 
    Supported file types for the import are .xslt, .xbl, .xsl, .xml, and .zip.
 1. From the __Merge Mode__ drop-down list, select the merge mode for your data.
@@ -91,6 +106,7 @@ To import items follow these steps:
 
 You can verify the uploaded data by navigating to __Admin | More__ and selecting __Folders__. Depending on your import, the data is listed under Policies, tasks, or Resource Filters.
 
+<!-- Removed functionality - keeping text here if we ever revive the idea
 ### Using the Folders Tree
 
 For imports into a specific folder:
@@ -99,10 +115,11 @@ For imports into a specific folder:
 1. Select a Folder (Folder level) for the import and click __Import__.
 1. The __Import Items__ dialog opens, browse to your file location and select the file containing the data to import.
 
-   ![Import Items dialog box](images/import/modal.png)
+   ![Import Items dialog box](images/import/modal.png) #TODO - screen update
 
    Supported file types for the import are .xslt, .xbl, .xsl, .xml, and .zip.
 1. From the __Merge Mode__ drop-down list, select the merge mode for your data.
 
-   ![Merge Mode drop-down](images/import/modal-select.png) <!-- TODO: new screen once drop-down options are corrected -->
+   ![Merge Mode drop-down](images/import/modal-select.png) #TODO - screen update
 1. Click the __Upload__ button.
+-->

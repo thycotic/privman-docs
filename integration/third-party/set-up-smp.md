@@ -43,7 +43,7 @@ After the foreign system has been setup, create the SMP resources collection.
 1. Click __Edit__.
 1. Select the Filter Definition tab and under __Foreign Collection__ select the Collection target.
 
-   ![Associate the Foreign Collection target](images/smp/filter-smp-collection-2.png)
+   ![Associate the Foreign Collection target](images/smp/filter-smp-collection-3.png)
 1. Click __Save__.
 
 ## Setting Up SMP Synchronize Packages Task

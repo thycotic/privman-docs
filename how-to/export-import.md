@@ -10,7 +10,7 @@ The export and import feature can be used for production environments with multi
 The feature provides the ability
 
 * to export single policies for specific troubleshooting purposes.
-* to bulk export via policies folders at any given folder level, except on folders, depending on specific needs.
+* to bulk export via policies folders at any given folder level, except on root folders, depending on specific needs.
 * to choose to overwrite or leave in place what's already there.
 * to select specific objects or bulk select
 

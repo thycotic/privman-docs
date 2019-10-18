@@ -46,69 +46,46 @@ Default Actions shouldn't be edited directly, however Privilege Manager default 
 1. Click __Create__. Once you click Create, the new action page opens.
 
    ![New action](images/deny/edit-action-5.png)
-1. To upload a custom image file click __Edit__. The default PNG has the following settings.
-
-   ![Default png file settings](images/deny/edit-action-6.png)
-
-   Make sure your custom image has the same dimensions to not impact the xml file numbers.
+1. To upload a custom image file click __Edit__. You can upload a custom logo, the file size should be under 128 KB and the width should be 500 pixels or less.
 1. Click __Choose File__.
 
    ![Image upload](images/deny/edit-action-7.png)
-
 1. Click __Save__.
 
    ![Saved action](images/deny/edit-action-8.png)
 1. Click __View as XML__.
 
    ![XML of action](images/deny/edit-action-9.png)
-1. Right-click inside the XML, click Select All and Copy.
+1. Change the notification text in the XML viewer:
 
-   ![Select all to copy text](images/deny/edit-action-10.png)
-1. __Open__ a code or text editor (with line numbers) and a search capability.
-1. __Paste__ the copied xml contents into a blank file. Depending on your browser choice, the XML lines could be different then shown below. Using Chrome, we have a total of 307 lines in the text editor using the default picture.
+   Line 82 has the following:
 
-   ![XML with default company image in Chrome](images/deny/edit-action-11.png)
-   1. Change the notification text:
+   ```xml
+   <Paragraph><Run>This application is </Run><Bold><Run>not approved</Run></Bold><Run> according to </Run><Hyperlink TargetName="_blank" NavigateUri="http://www.example.com/policy"><Run>corporate policy</Run></Hyperlink><Run>.</Run></Paragraph>
+   ```
 
-      Line 82 has the following:
+   Edit this space with the URL and the name of the Hyperlink you would like for your pop up Window.
 
-      ```xml
-      <Paragraph><Run>This application is </Run><Bold><Run>not approved</Run></Bold><Run> according to </Run><Hyperlink TargetName="_blank" NavigateUri="http://www.example.com/policy"><Run>corporate policy</Run></Hyperlink><Run>.</Run></Paragraph>
-      ```
+   ```xml
+   <Paragraph><Run>This application is </Run><Bold><Run>not approved.</Run></Bold><Run> please click here, </Run><Hyperlink TargetName="_blank" NavigateUri="http://www.thycotic.com/helpdesk"><Run>to request its approval</Run></Hyperlink><Run>.</Run></Paragraph>
+   ```
+1. Change the default timeout:
 
-      Edit this space with the URL and the name of the Hyperlink you would like for your pop up Window.
+   If you wish to change the default time out for how long the Deny Notification stays up (default is 6 seconds), edit Line 299:
 
-      ```xml
-      <Paragraph><Run>This application is </Run><Bold><Run>not approved.</Run></Bold><Run> please click here, </Run><Hyperlink TargetName="_blank" NavigateUri="http://www.thycotic.com/helpdesk"><Run>to request its approval</Run></Hyperlink><Run>.</Run></Paragraph>
-      ```
-   1. Change the default timeout:
+   ```xml
+   <i:Interaction.Triggers>
+   <i:EventTrigger EventName="Loaded">
+   <adx:InvokeCommandWithDelayAction x:Name="CloseAction" Command="{BindingCloseCommand}" Delay="00:00:06" />
+   </i:EventTrigger>
+   </i:Interaction.Triggers>
+   ```
 
-      If you wish to change the default time out for how long the Deny Notification stays up (default is 6 seconds), edit Line 299:
+   To change it to 15 seconds, edit this elements delay parameter to 15:
 
-      ```xml
-      <i:Interaction.Triggers>
-      <i:EventTrigger EventName="Loaded">
-      <adx:InvokeCommandWithDelayAction x:Name="CloseAction" Command="{BindingCloseCommand}" Delay="00:00:06" />
-      </i:EventTrigger>
-      </i:Interaction.Triggers>
-      ```
-
-      To change it to 15 seconds, edit this elements delay parameter to 15:
-
-      ```xml
-      <adx:InvokeCommandWithDelayAction x:Name="CloseAction" Command="{BindingCloseCommand}" Delay="00:00:15" />
-      ```
-
-      Also change the 1 for duration in line 43 to 15:
-
-      ```xml
-      <DoubleAnimation BeginTime="0:0:5" Duration="0:0:15" From="1.0" To="0.0" Storyboard.Target="{Binding ElementName=MainWindow}" Storyboard.TargetProperty="(UIElement.Opacity)"/>
-      ```
-1. After customizing, save your xml file for potential future changes, also select all and copy the contents.
-1. In the Privilege Manager Console, replace all the xml contents for the action by pasting the edited and copied data.
-1. Verify that the ;ine numbers match the line numbers in your code/text editor.
-
-   ![Verify line numbers with source file](images/deny/edit-action-12.png)
+   ```xml
+   <adx:InvokeCommandWithDelayAction x:Name="CloseAction" Command="{BindingCloseCommand}" Delay="00:00:15" />
+   ```
 1. Click __Import__. If you get an error, please address your changes. Errors are indicated with a red dot. Save any edits when resolving errors.
 
 ## Updating the Policy with the new Action

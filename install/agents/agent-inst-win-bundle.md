@@ -15,11 +15,14 @@ To install Thycotic agents __on a single testing machine__, follow these steps:
 
    ![Bundle Installer Setup](images/bundle/setup.png)
 1. After the installation you will be prompted to restart your endpoint.
-   ![System restart prompt after agent installation](images/restart-prompt.png)
+
+   ![System restart prompt after agent installation](images/bundle/restart-prompt.png)
 
 >**Note**:
->It may take 15-30 minutes for agents to receive new policies and register machine details if not restarted. If you need UAC overrides to work immediately, always restart the agent.  
->This is best done by navigating to __Admin | Configuration | General__ and clicking the __Run Policy Targeting Update__ button, then restarting the Thycotic Agent Service on that computer.  
+>It may take 15-30 minutes for agents to receive new policies, to speed this up navigate to __Admin | Configuration | General__ and click __Run Policy Targeting Update__, then open the Agent Utility on the endpoint and click the __Register__ button.
+
+>**Note**:
+>The bundled installer does require a restart in order to ensure the agent is completely ready to use.
 
 ## Rollout to Multiple Systems
 

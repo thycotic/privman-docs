@@ -30,10 +30,6 @@ Individual Windows agents are available in MSI format for easier bulk-rollout th
 * __Local Security Solution Agent (x64)__:
   https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x64_10_6_1025.msi
 
-After the installation you will be prompted to restart your endpoint.
-
-![System restart prompt after agent installation](images/bundle/restart-prompt.png)
-
 #### Installation Command Lines
 
 >**Note**:
@@ -62,10 +58,6 @@ Individual Windows agents are available in MSI format for easier bulk-rollout th
   https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x86_10_6_1080.msi
 * Local Security Solution Agent __(x86)__:
   https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x86_10_6_1025.msi
-
-After the installation you will be prompted to restart your endpoint.
-
-![System restart prompt after agent installation](images/bundle/restart-prompt.png)
 
 #### Installation Command Lines
 

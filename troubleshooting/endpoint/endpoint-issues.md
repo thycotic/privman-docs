@@ -42,9 +42,13 @@ The Update button will communicate back to the web server and update any new app
 
 ### View Cache Button
 
-The View Cache button will show you the Policies, Filters, and Actions the endpoint currently has.
+The View Cache button will open the Agent Cache Viewer in a separate window. It displays the Policies, Filters, and Actions the endpoint has cached currently.
 
-![Privilege Manager Agent Utility register](images/pm_agent_utility_cache.png)
+![Privilege Manager Agent Utility register - version 10.7 and up](images/pm_agent_utility_cache.png)
+
+Starting with Privilege Manager version 10.7 the Client Item Cache is list also searchable. Enter a search term into the search bar and just review items that contain that term.
+
+![Privilege Manager Agent Utility register](images/pm_agent_utility_cache_search.png)
 
 ### View Logs
 

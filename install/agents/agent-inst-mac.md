@@ -1,4 +1,4 @@
-[title]: # (- macOS Agents)
+[title]: # (macOS Agents)
 [tags]: # (endpoint,installation,registration)
 [priority]: # (603)
 # macOS Agents

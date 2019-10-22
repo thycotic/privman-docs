@@ -1,4 +1,4 @@
-[title]: # (- Bundled Install)
+[title]: # (Bundled Install)
 [tags]: # (agent,endpoint,installation)
 [priority]: # (601)
 # Bundled Install
@@ -11,16 +11,26 @@ To install Thycotic agents __on a single testing machine__, follow these steps:
 1. Go to [Agent Downloads](http://thycotic.force.com/support/s/article/Software-Download) and download the __Bundled Agent Installer (Windows)__.
 1. Run the Thycotic Bundled Installer on the computer you want to manage.
 1. During the setup process, enter the Privilege Manager Server URL (or AZ Service Bus Queue URL) and the [Install Code](https://thycotic.force.com/support/s/article/PM-Agent-Install-Codes) when prompted. 
->**Note**: The Install Code field can be left blank when using versions lower than 10.5.
+
+   >**Note**: The Install Code field can be left blank when using versions lower than 10.5.
 
    ![Bundle Installer Setup](images/bundle/setup.png)
-   To install Thycotic agents __on multiple machines__, we recommend the following:
-1. Go to [Agent Downloads](http://thycotic.force.com/support/s/article/Software-Download) and download the standalone MSI files.
-1. Push them out through any software delivery system tool (e.g.: SCCM) using the recommended command lines.
+1. After the installation you will be prompted to restart your endpoint.
+
+   ![System restart prompt after agent installation](images/bundle/restart-prompt.png)
 
 >**Note**:
->It may take 15-30 minutes for new agents to receive policies and register machine details. If you need UAC overrides to work immediately, restart the agent.
->This is best done by navigating to __Admin | Configuration | General__ and clicking the __Run Policy Targeting Update__ button, then restarting the Thycotic Agent Service on that computer.  
+>It may take 15-30 minutes for agents to receive new policies, to speed this up navigate to __Admin | Configuration | General__ and click __Run Policy Targeting Update__, then open the Agent Utility on the endpoint and click the __Register__ button.
+
+>**Note**:
+>The bundled installer does require a restart in order to ensure the agent is completely ready to use.
+
+## Rollout to Multiple Systems
+
+To install Thycotic agents __on multiple machines__, we recommend the following:
+
+1. Go to [Agent Downloads](http://thycotic.force.com/support/s/article/Software-Download) and download the standalone MSI files.
+1. Push them out through any software delivery system tool (e.g.: SCCM) using the recommended command lines.
 
 ## Agent Diagnostics
 

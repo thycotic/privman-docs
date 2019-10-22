@@ -1,4 +1,4 @@
-[title]: # (- Windows Agents)
+[title]: # (Windows Agents)
 [tags]: # (endpoint,installation)
 [priority]: # (602)
 # Windows Agents

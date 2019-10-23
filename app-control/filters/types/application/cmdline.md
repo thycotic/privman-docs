@@ -24,3 +24,5 @@ __Command Line__:
 ## Examples
 
 A commandline filter examines the commandline (excluding the primary executable) and applies a pattern match (Exact, Partial or Regular Expression).
+
+For example allowing /FlushDNS as a command for IPConfig.

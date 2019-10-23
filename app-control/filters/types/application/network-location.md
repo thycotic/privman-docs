@@ -24,10 +24,9 @@ __Results should be:__
 
 ## Examples
 Some examples of this filter can be set to detect:
-* when the computer is not attached to a network,
+* when the computer is not attached to a network
 * when the computer is attached to a network classified as public
 * when the computer 
 * when the computer is attached to a network classified as domain
 
 ![network location filter](images/network-location-filter-2.png)
-

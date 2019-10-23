@@ -5,7 +5,7 @@
 
 Where is a file being downloaded from? This filter allows you to identify specific download sources, and allows the ability to whitelist sources you trust or block sources you don’t. *No out-of-box filters exist in Privilege Manager for this type*.
 
-![download source filter](images/download-source-filter.png)
+![Download Source Filter](images/download-source-filter.png)
 
 ## Parameters
 

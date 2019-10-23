@@ -8,4 +8,5 @@
 * [Set-up a ServiceNow Ticketing Connection](set-up-servicenow.md)
 * [Set-up VirusTotal](set-up-virustotal.md)
 * [Set-up an SCCM Connection](set-up-sccm.md)
+* [Set-up the SMP Integration](set-up-smp.md)
 * [Set-up Syslog](set-up-syslog.md)

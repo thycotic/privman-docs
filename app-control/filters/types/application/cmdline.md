@@ -15,7 +15,7 @@ These filters will perform an exact, partial or regex match on the commandline o
 
    ![Commandline Filter default example](images/command-line-filter.png)
 
-## Create a new Co
+## Create a new Commandline Type Filter
 
 1. Navigate to __Admin | More...__ and select __Filters__.
 1. Click __Add Filter__.

@@ -3,14 +3,14 @@
 [priority]: # (2)
 # Parent Process Filter
 
-This type of filter can identify parent systems of certain executables.
+This type of filter can identify parent processes of certain executables.
 
-![Filter specifications and settings](images/parent_process.png)
+![Parent Process filter](images/parent_process.png)
 
 ## Parameters
 
 * Applications
-* Conditions 
+* Conditions
 * Include only filters
 * Exclude only filters
 

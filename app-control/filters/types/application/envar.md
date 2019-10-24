@@ -3,18 +3,18 @@
 [priority]: # (2)
 # Environment Variable Filter 
 
-This type of filter can target environment variables of the process.
+This type of filter can target environment variables of a process that is started.
 
-![Filter specifications and settings](images/Envar.png)
+![Filter specifications and settings](images/envar.png)
 
 ## Parameters
 
-![Filter specifications and settings](images/Envar_2.png)
+![Filter specifications and settings](images/envar-2.png)
 
-* Name 
-* Value 
+* Name
+* Value
 * Match Type
 
 ## Examples
 
-This type of environment variable filter detects whether a user has right clicked on an application and used Privilege Manager's custom 'Request Run as Administrator' option.
+A environment variable filter type detects whether a user has right clicked on an application and used Privilege Manager's custom _Request Run as Administrator_ option.

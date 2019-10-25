@@ -14,6 +14,14 @@ You can use nginx, F5, or Windows Application Request Routing 3.0 and URL Rewr
 
 In this setup, only the endpoint agent needs to be accessible via HTTPS. It is important to note that the certificate being used for HTTPS communication should be the same certificate that is installed on your Privilege Manager web server.
 
+## System Specifications
+
+These are the minimum system specifications for a server that is used as a reverse proxy:
+
+* 2 Cores
+* 4 GB RAM
+* 40 GB hard drive
+
 ## Server Configuration
 
 1. Setup a new server or modify an existing server to be in the DMZ.

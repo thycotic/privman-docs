@@ -29,7 +29,7 @@ These are tasks that pertain to either core functions  or to components and subc
 
 | Component | Task | Description |
 | ----- | ----- | ----- |
-| Core, no folder at root level | Client Items Update | Updates client items required by agents. |
+| Core, no folder at root level | Client Items Update __OBSOLETE WITH v 10.7 and higher__ | Updates client items required by agents. |
 | | Collection and Resource Targeting Update | Updates collections and resource targets. |
 | | Collection Update | Update collections. |
 | | Import Local Group Policy Definitions | Loads Group Policy Definitions from the local machine. |
@@ -65,7 +65,6 @@ These are tasks that pertain to either core functions  or to components and subc
 | Local Security | Primary User Update | Updates the primary user for each computer in the given collection. |
 | | User Credentials Data Update | This task ensures that resource credentials match the source user data. |
 | Maintenance Tasks | Assign Orphaned Agent Uploads | This task assigns agent event uploads that have been orphaned. |
-| | Clear Client Item Cache | This server task clears entries from the Client Item Cache that are older than the time period specified. |
 | | Delete Old Performance Counter Events | This task deletes internal performance counter events last updated before the specified time. |
 | | Purge Maintenance - Agent Logs | This server task removes all Agent Log data that is older than the time period specified. |
 | | Purge Maintenance - Application Control Events | Purges the selected Application Control Event types from the database based on the time range specified. |
@@ -75,7 +74,7 @@ These are tasks that pertain to either core functions  or to components and subc
 | | Purge Maintenance - Incomplete File Upload Sessions | This task removes incomplete file upload sessions older than the specified time period. |
 | | Purge Maintenance - Message History | This server task removes all Message History data that is older than the number of seconds/minutes/hours/days/weeks specified. Message History data tracks all events received by the Privilege Manager Server and is used for information purposes. |
 | | Purge Old Computers | Remove old computers and gauge data for those old computers. |
-| Monitoring | Check for Available Product Updates | Checks the configured nuget:source:SolutionCentre for available product updates. |
+| Monitoring | Check for Available Product Updates | Checks the configured `nuget:source:SolutionCentre` for available product updates. |
 
 ## Server Tasks
 
@@ -103,7 +102,7 @@ These are tasks that pertain to either core functions  or to components and subc
 | | Inventory Packages Referenced in Whitelists | Run this task to collect detailed information for files contained in packages referenced in one or more whitelists. |
 | | Inventory Uploaded File | This task is used internally to collect detailed information from files uploaded remotely to the server. It is visible only for status information and troubleshooting. |
 | Foreign Systems | Sync users with Thycotic One | Run this task to synchronize PM users with a Thycotic One instance. |
-| | SCCM | Tasks here let you synchonize users, computers, and specific SCCM collection. |
+| | SCCM | Tasks here let you synchronize users, computers, and specific SCCM collection. |
 | | ServiceNow | Creates ServiceNow Approval Request items. |
 | | Symantec Management Platform | Tasks here let you synchronize SMP collections and package(s). |
 | | Syslog | |

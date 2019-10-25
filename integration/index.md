@@ -7,21 +7,21 @@ Foreign Systems in Privilege Manager are any systems for which a connections or 
 
 ## Thycotic Foreign Systems
 
-* [Integration between Privilege Manager and Secret Server](set-up-pm-ss-integration.md)
+* [Integration between Privilege Manager and Secret Server](thycotic/set-up-pm-ss-integration.md)
 
 ## AD Integration
 
-* [Setting Up Azure Active Directory Integration in Privilege Manager](set-up-privilege-manager-azure-ad-integration.md)
+* [Setting Up Azure Active Directory Integration in Privilege Manager](active-directory/set-up-privilege-manager-azure-ad-integration.md)
 
-## Third-Party Foreign Systems
+## Third-Party Foreign Systems Integration
 
-* [Set-up an SMTP Server Connection](set-up-smtp.md)
-* [Set-up a Cylance Connection](set-up-cylance.md)
-* [Set-up a ServiceNow Ticketing Connection](set-up-servicenow.md)
-* [Set-up VirusTotal](set-up-virustotal.md)
-* [Set-up an SCCM Connection](set-up-sccm.md)
-* [Set-up Syslog](set-up-syslog.md)
+* [Set-up an SMTP Server Connection](third-party/set-up-smtp.md)
+* [Set-up a Cylance Connection](third-party/set-up-cylance.md)
+* [Set-up a ServiceNow Ticketing Connection](third-party/set-up-servicenow.md)
+* [Set-up VirusTotal](third-party/set-up-virustotal.md)
+* [Set-up an SCCM Connection](third-party/set-up-sccm.md)
+* [Set-up Syslog](third-party/set-up-syslog.md)
 
 ## How to Remove Integrations
 
-* [Remove RDP Integration](remove-rdp.md)
+* [Remove RDP Integration](misc/remove-rdp.md)

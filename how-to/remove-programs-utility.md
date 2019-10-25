@@ -1,6 +1,6 @@
 [title]: # (Using the Remove Program Utility)
 [tags]: # (create,set-up)
-[priority]: # (9500)
+[priority]: # (9501)
 # Using the Remove Programs Utility
 
 The Remove Programs Utility provides a solution to the following problem:
@@ -15,7 +15,9 @@ Customers can use this utility in any of the following ways:
 
 The utility will list all the same applications as the Remove Programs in the Control Panel, but it can also hide software that end users should not be able to uninstall (such as the Thycotic agents).
 
-The steps to deploy and use the utility are presented in the sections below.
+With Privilege Manager version 10.7 Thycotic is introducing support for Windows 10 __Apps & Features__ and the management of Windows Store apps via the __Remove Programs Helper__. Certain apps designed as a Windows 10 package are registered in __Apps & Features__ but do not appear in the operating systems Add Remove Programs options. Privilege Manager locates those applications and provides management via the enhanced __Remove Programs Utility__.
+
+The steps to deploy and use the utility are detailed below.
 
 ## Download and Install Config Feed
 

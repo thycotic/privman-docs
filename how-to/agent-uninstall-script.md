@@ -1,5 +1,5 @@
 [title]: # (Agent Uninstall Script)
-[tags]: # (scripted uninstallation)
+[tags]: # (scripted uninstall)
 [priority]: # (9600)
 # Agent Uninstall Script
 

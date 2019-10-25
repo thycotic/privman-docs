@@ -9,12 +9,14 @@ The following topic are available:
 
 * [System Requirements](sysreq.md)
 * [Recommended Anti Virus Exclusions](antivirus-exclusions.md)
-* [Installation](installation.md) - recommended installation procedure
-* [Manual/Advanced Installation Instructions](installation-adv.md)
-* [Item Encryption](item-encryption.md)
-* [Agent Installation](agent-inst.md)
-  * [Windows Bundled Agent Install](agent-inst-win-bundel.md)
-  * [Windows](agent-inst-win.md)
-  * [Mac OSx](agent-inst-mac.md)
-* [Upgrades](upgrades.md)
-
+* [Installation](installation/index.md) - recommended installation procedure
+  * [Manual/Advanced Installation Instructions](installation/installation-adv.md)
+  * [Item Encryption](installation/item-encryption.md)
+* [Agent Installation](agents/index.md)
+  * [Windows Bundled Agent Install](agents/agent-inst-win-bundel.md)
+  * [Windows](agents/agent-inst-win.md)
+  * [Mac OSx](agents/agent-inst-mac.md)
+  * [Running the SDDL by Client ID Task to only allow specific users to start/stop agent services](agents/sddl-client.md)
+* [Upgrades](upgrades/index.md)
+  * [Offline Upgrades Privilege Manager](upgrades/offline-upgrade.md)
+  * [Offline Upgrades - Combined Secret Server and Privilege Manager](upgrades/offline-upgrades-combined.md)

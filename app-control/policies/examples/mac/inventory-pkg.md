@@ -24,4 +24,4 @@ In the Resource Explorer an Administrator can now look at all the details from t
   ![Inventory](images/inventory/resource-explorer-application-2.png)
 
 >**Note**:
->Any packages that deviate from the standard configuration and layout might not have their contents inventoried correctly.
+>Any packages that deviate from the standard configuration and layout might not have their contents inventoried correctly. If that is the case, unpack the .pkg and upload each contents file individually for inventory purposes.

@@ -3,40 +3,70 @@
 [priority]: # (9101)
 # Set-up Symantec Management Platform (SMP) Integration
 
-Privilege Manger integrates with the Symantec Management Platform to allow the
+Privilege Manger integrates with the Symantec Management Platform (SMP) to allow the
 
-* import of existing Resource Collections from SMP and use them for Privilege Manager policy targets.
-* scan of SMP Software Packages to use the package contents in Privilege Manager Application Control Policy Whitelists.
-* scan of Computers for the purpose of identifying systems that exist on the network, but don’t have an endpoint agent installed yet.
+* [import of computers](#import-computers) for use in computer groups and identifying systems that exist on the network, but don’t have an endpoint agent installed yet.
+* [import of existing Resource Collections](#create-a-collection) from SMP and use them for Privilege Manager policy targets.
+* [inventory of SMP Software Packages](#inventory-software-packages) to use the package contents in Privilege Manager Application Control policies.
 
-## Creating User Credentials and Adding the SMP Foreign System
+## Create a Credential
 
-For the mentioned purposes above, a user credential and foreign system needs to be set-up before any of the integration tasks can be done. To configure this prerequisite, follow these steps:
+Privilege Manager needs a username and password to access SMP.  If you have not already created an appropriate user credential:
 
 1. Navigate to __Admin | Configuration | User Credentials__.
-1. Click __Add New__, to create user credentials to access the Symantec Management Platform Server.
-1. After entering the user credentials information for SMP, click __Save Changes__.
-1. Navigate to the __Foreign Software Systems__ tab.
 
-   ![Select the Foreign System](images/smp/smp_fs_select.png)
-1. Select __Symantec Management Platform__ from the list.
+1. Click __Add New__, to create user credentials to access SMP.
+
+1. After entering the user credentials information for SMP, click __Save Changes__.
+
+## Connecting to SMP
+
+Before you can import data from SMP you need to setup a foreign systems connection in Privilege Manager for the SMP integration.
+
+1. Navigate to __Admin | Configuration__ and select the __Foreign Systems__ tab.
+1. Select __Symantec Management Platform__. If this is not listed, make sure the connector is installed by verifying via the Privilege Manager Add/Upgrade Features page.
 1. Click __Add New__.
 
    ![Adding the SMP Foreign System](images/smp/smp_fs_new.png)
 1. __Name__ the Symantec Management Platform and provide the __URL of the Altiris console__.
 1. Click __Create__.
+1. Select the newly created SMP foreign system and click __Edit__.
+1. Under Settings select the SMP user credential that you created in the previous procedure.
+1. Click Save.
 
-## Create a Collection from SMP Resources
+## Import Computers
 
-After the foreign system has been setup, create the SMP resources collection.
+Before you can import collection data from SMP, Privilege Manager needs to know about computers in your SMP.
+
+1. Navigate to __Admin | More__ and select __Tasks__.
+1. On the Tasks tab open the folder tree and select __Server Tasks | Foreign Systems | Symantec Management Platform__.
+1. Click __SMP Sync Computers__.
+
+   ![SMP Sync Computers](images/smp/smp-sync-computers.png)
+1. Click __Run__.
+1. Select your SMP system via the __Select resource...__ option.
+
+   ![Run customized task](images/smp/smp-task-run-select.png)
+1. Click __Run Task__. 
+
+### Verify the Computers have been Imported (optional)
+
+1. Navigate to __Admin | More__ and select __Resources__.
+
+1. Open the __Resources__ tab.
+1. In the folder tree open __Organizational Views | Default | All Resources | Asset | Network Resource | Computer__.
+1. Select a computer from that list.
+1. Select the Data tab in the computer resource explorer view.
+1. In the tree under Data Classes | Foreign Systems, you should have the Foreign System Id and SMP Platform Id data.
+
+## Create a Collection
+
+After computers have been imported, you can create a collection to mirror an SMP collection.
 
 1. Navigate to Resources, open the __Resource Filters__ tab.
-1. In the folder tree under __Resource Filters__ open __Collections | Thycotic__.
+1. In the folder tree under __Resource Filters__ open __Collections | Symantec Management Platform__.
 1. Click __Add New__
-1. From the __Template__ drop-down select __SMP Collection__.
-
-   ![Select Template](images/smp/filter-smp-collection.png)
-1. Enter a Name and Description, Parameters, and specify the SMP resources to access. 
+1. Enter a Name and Description, and specify the SMP instance to connect to. 
 
    ![SMP Resources to mirror](images/smp/filter-smp-collection-2.png)
 1. Click __Create__.
@@ -45,91 +75,49 @@ After the foreign system has been setup, create the SMP resources collection.
 
    ![Associate the Foreign Collection target](images/smp/filter-smp-collection-3.png)
 1. Click __Save__.
+1. Click the __Sync Foreign Collection__ to update the membership immediately. The foreign collection update can also be scheduled by following the link in the help tip.
 
-## Setting Up SMP Synchronize Packages Task
+    ![Sync Foreign Collection](images/smp/smp-sync-collection.png)
+1. Select the Membership tab and then click the __Update Membership__ tab to see the current membership of this collection.
+
+## Inventory Software Packages
 
 Once the Foreign System has been created, an on-demand packages synchronization can be run and/or a regular synchronization schedule can be set-up via the following steps:
 
-1. Navigate to __Admin | More__ and select __Tasks__ from the options.
-1. Navigate to Jobs and Tasks.
-1. Expand __Server Tasks | Foreign Systems__ and select Symantec Management Platform
-
-   ![Available SMP tasks](images/smp/smp_tasks.png)
-
-   If the Symantec Management Platform is not listed under Foreign Systems, make sure it is correctly set-up as outline in the *Creating User Credentials and Adding the SMP Foreign System* procedure.
-1. Click __Add New__.
-1. Select the __SMP Synchronise Packages Task__ from the template drop-down list. 
+1. Navigate to __Admin | More__ and select __Tasks__.
+1. On the Tasks tab open the folder tree and select __Server Tasks | Foreign Systems | Symantec Management Platform__.
+1. Click __SMP Sync Packages__.
 
    ![SMP Sync Packages](images/smp/smp_tasks_select_packages.png)
-1. Enter a __Name__ and description, click __Create__.
-1. Once the task is created use __Edit__ to set up the
+1. Click __Run__.
+1. Select your SMP system via the __Select resource...__ option.
 
-   1. Enter the Parameters details:  
-      ![Parameter details](images/smp/smp_new_sync_pkgs_task.png)
+   ![Run customized task](images/smp/smp-task-run-packages-select.png)
+1. Click __Run Task__.
 
-      Once the parameters are set, the task can run on demand.
-   1. Navigate Back and select the Schedule tab.
+Alternatively the __SMP Sync Packages__ task can be scheduled to regularly repeat. When viewing the task, navigate to the Schedules tab an
 
-     ![Schedule setup](images/smp/smp_new_sync_pkgs_task_schedule.png)
-   1. Enter the Schedule details.
-1. Click __Save__.
 
-Privilege Manager will scan the packages on the SMP Server based on the specified parameters and set schedule.
+### Create a SCCM package content filter
 
-After the Package Synchronization completes the SMP Packages can be used in Privilege Manager’s Application Control Package listing policies.
+After the Package Synchronization completes the SMP Packages can be used in application control policies via package content filters.
 
-### Setting Up SMP Synchronise Collections Task
+1. Navigate to __Admin | Filters__
+1. Click the __Add Filter__ button
+1. Select the Windows Platform
+1. Select the __Package Contents Filter__ under Inventory Filters
+1. Set the Name and Description of the filter
+1. Click __Create__
+1. Click __Edit__
+1. Next to Package, click __Select resource...__
+1. Select the package from SMP that will be targeted
+1. Set the Results will be to __Included__
 
-Follow these steps for an on-demand Collection synchronization or the setup of a regular Collection synchronization schedule:
+    ![New Package Content Filter](images/sccm/package-contents-filter.png)
+1. Click __Save__
+1. Navigate to the Membership tab
+1. If no items are listed in the membership table, click the __Sync Package__ button.
 
-1. Navigate to __Admin | More__ and select __Tasks__ from the options.
-1. Navigate to Jobs and Tasks.
-1. Expand __Server Tasks | Foreign Systems__ and select Symantec Management Platform
+    ![Sync Package Contents Filter](images/sccm/package-contents-filter-sync.png)
 
-   ![Available SMP tasks](images/smp/smp_tasks.png)
-
-   If the Symantec Management Platform is not listed under Foreign Systems, make sure it is correctly set-up as outline in the *Creating User Credentials and Adding the SMP Foreign System* procedure.
-1. Click __Add New__.
-1. Select the __SMP Synchronise Collections Task__ from the template drop-down list. 
-
-   ![SMP Sync Packages](images/smp/smp_tasks_collection_sync.png)
-1. Enter a __Name__ and description, click __Create__.
-1. Once the task is created use __Edit__ to set up the
-
-   1. Enter the Parameters details:  
-      ![Parameter details](images/smp/smp_new_sync_collections_task_param.png)
-
-      Once the parameters are set, the task can run on demand.
-   1. Navigate Back and select the Schedule tab.
-
-     ![Schedule setup](images/smp/smp_new_sync_pkgs_task_schedule.png)
-   1. Enter the Schedule details.
-1. Click __Save__.
-
-### Setting Up SMP Synchronise Computers Task
-
-Follow these steps for an on-demand Collection synchronization or the setup of a regular Collection synchronization schedule:
-
-1. Navigate to __Admin | More__ and select __Tasks__ from the options.
-1. Navigate to Jobs and Tasks.
-1. Expand __Server Tasks | Foreign Systems__ and select Symantec Management Platform
-
-   ![Available SMP tasks](images/smp/smp_tasks.png)
-
-   If the Symantec Management Platform is not listed under Foreign Systems, make sure it is correctly set-up as outline in the *Creating User Credentials and Adding the SMP Foreign System* procedure.
-1. Click __Add New__.
-1. Select the __SMP Synchronise Computers Task__ from the template drop-down list. 
-
-   ![SMP Sync Packages](images/smp/smp_comp_task_new.png)
-1. Enter a __Name__ and description, click __Create__.
-1. Once the task is created use __Edit__ to set up the
-
-   1. Enter the Parameters details:  
-      ![Parameter details](images/smp/smp_new_sync_comp_task_param.png)
-
-      Once the parameters are set, the task can run on demand.
-   1. Navigate Back and select the Schedule tab.
-
-     ![Schedule setup](images/smp/smp_new_sync_pkgs_task_schedule.png)
-   1. Enter the Schedule details.
-1. Click __Save__.
+This filter can then be referenced in Application Control policies.

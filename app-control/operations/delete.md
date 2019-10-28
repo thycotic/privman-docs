@@ -10,15 +10,15 @@ Privilege Manager detects dependencies when items are deleted and alerts the use
 * any dependent items, which block the deletion.
 * any child items, which will also be deleted.
 
-When a the Delete button is clicked on a filter, in this example the filter is called __allow notepad++ any version secondary file filter__. A request to confirm the deletion opens.
+When a the __Delete__ button is clicked on a filter, in this example the filter is called __allow notepad++ any version secondary file filter__ and no dependencies are detected, a __Delete Item__ modal opens. The user can proceed by clicking the __Delete Item__ button.
 
 ![Confirm delete](images/ops/confirm-delete-1.png)
 
-Once the delete is confirmed by clicking __Confirm Delete__ the __Item Dependency: Delete Blocked__ modal opens.
+If that filter is part of a policy and the __Delete__ button is clicked, the __Item Dependency: Delete Blocked__ modal opens.
 
 ![Item Dependency modal](images/ops/item-dependency.png)
 
-From the modal the user can see that that the delete is blocked by a dependent item. A tool tip is shown when hovering the mouse pointer over the icons.
+From the modal the user can see that the delete is blocked by a dependent item. A tool tip is shown when hovering the mouse pointer over the icons.
 
 The trash can icon informs about which item was selected to be deleted. The blocked icon informs which items are blocking the deletion.
 

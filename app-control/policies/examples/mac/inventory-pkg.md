@@ -22,3 +22,6 @@ In the Resource Explorer a Administrator can now look at all the details from th
 * Showing the information specified in the macOS bundle:
 
   ![Inventory](images/inventory/resource-explorer-application-2.png)
+
+>**Note**:
+>Any packages that deviate from the standard configuration and layout might not have their contents inventoried correctly.

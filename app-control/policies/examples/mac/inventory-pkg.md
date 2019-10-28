@@ -9,7 +9,7 @@ After uploading a .pkg file select the __Go To File Details__ button.
 
 ![Use Go To File Details button](images/inventory/go-to.png)
 
-In the Resource Explorer a Administrator can now look at all the details from the inventory.
+In the Resource Explorer an Administrator can now look at all the details from the inventory.
 
 * Showing the list of applications:
 

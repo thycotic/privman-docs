@@ -96,15 +96,14 @@ To import items via file upload follow these steps:
    ![Upload Item File link](images/import/link.png)
 1. The __Import Items__ dialog opens, browse to your file location and select the file containing the data to import.
 
-   ![Import Items dialog box](images/import/modal.png) <!-- TODO: new screen once drop-down options are corrected -->
+   ![Import Items dialog box](images/import/modal.png) 
 
    Supported file types for the import are .xslt, .xbl, .xsl, .xml, and .zip.
-1. From the __Merge Mode__ drop-down list, select the merge mode for your data.
 
-   ![Merge Mode drop-down](images/import/modal-select.png) <!-- TODO: new screen once drop-down options are corrected -->
+   By default the __Overwrite Existing Items__ checkbox is selected. If you want to skip items that already exist, un-check the box.
 1. Click the __Upload__ button.
 
-You can verify the uploaded data by navigating to __Admin | More__ and selecting __Folders__. Depending on your import, the data is listed under Policies, tasks, or Resource Filters.
+You can verify the uploaded data by navigating to __Admin | More__ and selecting __Folders__. Depending on your import, the data is listed under Policies, Tasks, or Resource Filters.
 
 <!-- Removed functionality - keeping text here if we ever revive the idea
 ### Using the Folders Tree

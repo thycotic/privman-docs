@@ -1,6 +1,6 @@
 [title]: # (Actions)
 [tags]: # (overview)
-[priority]: # (5500)
+[priority]: # (3)
 # Actions
 
 In Privilege Manager, taking action is the name of the Application Control game.

@@ -45,7 +45,7 @@ Open the file and add the "installCode" parameter after the "tmsBaseUrl" to that
 
 ```json
 {
-                "tmsBaseUrl": "https://servername/Tms/"",
+                "tmsBaseUrl": "https://servername/Tms/",
                 "installCode": "VALUEHERE"
 }
 ```

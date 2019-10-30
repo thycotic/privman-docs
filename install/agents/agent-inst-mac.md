@@ -7,13 +7,13 @@ Use the links below to download the agents installation software for macOS based
 
 ## Mac OS X Installer (10.11 or Newer)
 
-The Bundled Mac Agent DMG + PKG installer is available for Mac machines. You can use this installer directly on individual endpoints for testing or for production environments.
+The Bundled Mac Agent DMG + PKG installer is available for macOS systems. You can use this installer directly on individual endpoints for testing or for production environments.
 
 ### Agents Installation Download Link
 
 https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.6.20.dmg
 
-### Installing the macOS Agents
+### Installing macOS Agents
 
 >**Note**:
 >If you enter the wrong install code or you need to update an install code for whatever reason, rerun the package installer to provide the correct/new install code.
@@ -23,7 +23,7 @@ https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.6.20.dm
 
 The Bundled macOS Agent is a DMG + PKG file. You can use this Mac agent installer directly on individual endpoints for testing or production environments.
 
-To install the Thycotic agents on a single testing machine, follow these steps:
+To install the agent software on a single testing machine, follow these steps:
 
 1. Go to [Agent Downloads](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.6.20.dmg) and download the Privilege Manager Mac Agent.
 1. Run the Bundled Mac Agent DMG + PKG Installer on the computer you want to manage.
@@ -50,7 +50,7 @@ Open the file and add the "installCode" parameter after the "tmsBaseUrl" to that
 }
 ```
 
-There are two methods for deploying your remaining mac agents in an unattended fashion:
+There are two methods for deploying your remaining Mac agents in an unattended fashion:
 
 * Network File Share
 * Distribution Tool  
@@ -70,7 +70,7 @@ The PKG will first look for an __agentconfig.json__ file located in the same fol
 
 ##### Distribution Tool
 
-Using a Deployment Tool like Jamf or SCCM, include both the PKG installer and the __agentconfig.json__ files in the distribution package together, then deploy the package onto your endpoint macs by running a script using a tool or remotely by using ssh to install the PKG, for example:
+Using a Deployment Tool like Jamf or SCCM, include both the PKG installer and the __agentconfig.json__ files in the distribution package together, then deploy the package onto your endpoint Macs by running a script using a tool or remotely by using ssh to install the PKG, for example:
 
 ```shell
 sudo installer -pkg ThycoticManagementAgent.10.6.20.pkg -target /
@@ -85,7 +85,7 @@ For more instructions on how to deploy in bulk using Microsoft Software System C
 If the Mac already has an existing __agentconfig.json__ file, it will NOT be overwritten because creating a file only occurs if the computer didn’t already have an __agentconfig.json__ installed. This means you can use the same distribution package for upgrades and new installs.
 
 >**Note**:
->It will take 15-30 minutes for newly installed agents to register in Privilege Manager. To speed this up navigate to __Admin | Configuration | General__ and click __Run Policy Targeting Update__, then open the Agent Utility on the endpoint and click the __Register__ button. Or see the agent registration information in the [Terminal Commands](https://dev.homer.thycotic.net/privman/0.1.0-dev/install/agents/agent-inst-mac.md#terminal_commands) section.
+>It will take 15-30 minutes for newly installed agents to register in Privilege Manager. See the agent registration information in the [Terminal Commands](https://dev.homer.thycotic.net/privman/0.1.0-dev/install/agents/agent-inst-mac.md#terminal_commands) section to speed the process up.
 
 Agents receive new policies on a schedule which can be modified. To check the schedule, 
 
@@ -104,7 +104,7 @@ For troubleshooting your Mac agent, logs are found in the Console application. T
 
 In the Mac Terminal application you can perform the following commands directly to your Thycotic macOS agent.
 
->**Note**: The `sudo` command require an admin account password verification.
+>**Note**: The `sudo` command may prompt for admin account password verification.
 
 Find this list by entering the following into Terminal:
 
@@ -142,7 +142,7 @@ As one example, if you entered an incorrect server name path in the agent instal
 sudo /usr/local/thycotic/agent/agentUtil.sh settmsserver -serverUri {https://servername.com/Tms/}
 ```
 
-Which is using the correct server name uri to redirect your agent toward the correct server location.
+Which is using the correct server name URI to redirect your agent toward the correct server location.
 
 Or, to register an agent immediately after updating the Privilege Manager server location, type:
 
@@ -161,7 +161,7 @@ macadmin-MacBook-Pro:~ madadmin$
 
 ### Uninstalling an Agent
 
-When you need to uninstall the macOS Agent, use the __uninstall.sh__ shell command:
+When you need to uninstall the macOS Agent, use the __Uninstall.sh__ shell command:
 
 ```shell
 sudo /Volumes/ThycoticManagementAgent-10.6.20/Uninstall.sh

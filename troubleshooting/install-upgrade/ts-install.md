@@ -1,6 +1,6 @@
 [title]: # (Installation Issues)
 [tags]: # (help, overview)
-[priority]: # (10000)
+[priority]: # (2)
 # Installation Issues
 
 This article provided troubleshooting tips to help anyone who hits a snag during an install for Privilege Manager.

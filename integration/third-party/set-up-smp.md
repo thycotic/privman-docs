@@ -56,8 +56,8 @@ Before you can import collection data from SMP, Privilege Manager needs to know 
 1. Open the __Resources__ tab.
 1. In the folder tree open __Organizational Views | Default | All Resources | Asset | Network Resource | Computer__.
 1. Select a computer from that list.
-1. Select the Data tab in the computer resource explorer view.
-1. In the tree under Data Classes | Foreign Systems, you should have the Foreign System Id and SMP Platform Id data.
+1. Select the Known Data tab in the computer resource explorer view.
+1. In the tree under __Foreign Systems__, you should have the Foreign System Id and SMP Platform Id data.
 
 ## Create a Collection
 
@@ -95,10 +95,9 @@ Once the Foreign System has been created, an on-demand packages synchronization 
    ![Run customized task](images/smp/smp-task-run-packages-select.png)
 1. Click __Run Task__.
 
-Alternatively the __SMP Sync Packages__ task can be scheduled to regularly repeat. When viewing the task, navigate to the Schedules tab an
+Alternatively the __SMP Sync Packages__ task can be scheduled to regularly repeat. When viewing the task, navigate to the Schedules tab and create a new schedule.
 
-
-### Create a SCCM package content filter
+### Create a SMP Package Content Filter
 
 After the Package Synchronization completes the SMP Packages can be used in application control policies via package content filters.
 

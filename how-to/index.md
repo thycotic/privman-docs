@@ -34,6 +34,7 @@ This topic is a collection of articles covering "How to..." procedures for diffe
 
   * [Connecting Agents to the Privilege Manager Server](connect-agents.md)
   * [Uninstalling an Agent with Script](agent-uninstall-script.md)
+  * [Configuring for a Test Environment](config-test-env.md)
 
 * Maintenance:
 

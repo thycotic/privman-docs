@@ -1,6 +1,6 @@
 [title]: # (UAC Override Policy)
 [tags]: # (elevate)
-[priority]: # (4402)
+[priority]: # (4)
 # UAC Override Policy
 
 By creating a User Access Control (UAC) Override Policy you can override UAC prompts for end-users. You can create custom messages that require users to submit a reason for requesting administrator rights, which replace UAC prompts for credentials.

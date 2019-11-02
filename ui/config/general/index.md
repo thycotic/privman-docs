@@ -1,6 +1,6 @@
 [title]: # (General Tab)
 [tags]: # (admin,configuration)
-[priority]: # (2100)
+[priority]: # (1)
 # General Tab
 
 The General Tab provides a quick access to Privilege Manager Maintenance tasks and job settings.

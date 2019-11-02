@@ -1,6 +1,6 @@
 [title]: # (Users Tab)
 [tags]: # (admin,configuration)
-[priority]: # (2104)
+[priority]: # (1)
 # Users Tab - Cloud Only
 
 On the cloud only Users tab new users can be added to Privilege Manager. These users are specified as Thycotic One users.

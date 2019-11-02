@@ -9,7 +9,7 @@ In Privilege Manager 10.7 the [Restrict File Dialogs](../../../actions/default-a
 
 Topics in this section:
 
-* [Elevate Applications launched from Network Share Policy](elevation-network-share.md)
-* [Elevate Applications whose Execution Requires Approval](elevation-app-req-app.md)
-* [Elevate Applications that Require User Justification](elevation-user-just.md)
-* [Enable Users to Delete Desktop Application Shortcuts](elevation-delete-shortcut.md)
+* [Elevate Applications launched from Network Share Policy](network-share.md)
+* [Elevate Applications whose Execution Requires Approval](app-req-app.md)
+* [Elevate Applications that Require User Justification](user-just.md)
+* [Enable Users to Delete Desktop Application Shortcuts](delete-shortcut.md)

@@ -25,11 +25,9 @@ After acknowledging the license reset, all licenses are removed from the Privile
    ![Select acknowledgement](images/reset/license-3.png)
 
    The task does not run without that acknowledgement and an error is generated.
-1. Click __Run Task__ or set a schedule when to run this task during a maintenance window.
+1. Click __Run Task__.
 
-   ![Schedule tab](images/reset/license-4.png)
-   1. On the Schedule tab, click __New Schedule__.
-   1. On the New Task Schedule specify when to run the Reset Licensing.
+>**Note**: 
+> Do not use the scheduling functionality on this task. After a license reset, new licenses should be applied ASAP.
 
-      ![Set New Schedule](images/reset/license-5.png)
-   1. Click __Save__.
+To re-apply licenses refer to the information under [Licensing](../getting-started/licenses.md) in the Getting Started section.

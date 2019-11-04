@@ -50,7 +50,7 @@ The Azure Service Bus requires a Foreign Systems configuration in Privilege Mana
 1. Open the Registry Editor (regedit)
 1. Navigate to __HKEY_LOCAL_MACHINE | SOFTWARE | Policies | Arellia | AMS__.
 1. Right click BaseUrl and select Modify.
-1. In the Edit String dialog box, change the BaseURL to your Privilege Manager (TMS) Address based on the __Azure Service Bus Queue__ configuration, for example `https://[your company].servicebus.windows.net/tms[your instance]`, which in our example is `https://testing.servicebus.windows.net/tmstest`
+1. In the Edit String dialog box, change the BaseURL to your Privilege Manager (TMS) Address based on the __Azure Service Bus Queue__ configuration, for example `https://[your company].servicebus.windows.net/`, which in our example is `https://testing.servicebus.windows.net/`
 1. Close the registry.
 1. Restart the Agent service.
 

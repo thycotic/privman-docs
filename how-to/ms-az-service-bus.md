@@ -9,6 +9,8 @@ Privilege Manager supports Internet connected clients through Microsoft Azure Se
 * Setting up the Service Bus as a Foreign System in Privilege Manager
 * Configuring the Agents to use the Service Bus (if this is a new agent installation, the Agents can be pointed directly at the Service Bus namespace URL)
 
+With Privilege Manager 10.7 and up TLS 1.2 is supported.
+
 ## Azure Service Bus Queue Configuration
 
 Thycotic requires a Service Bus relay for remote communication. For this a Service Bus Queue needs to be created, follow the procedure as outlined by Microsoft [here in Quickstart: Use Azure portal to create a Service Bus queue](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quickstart-portal).

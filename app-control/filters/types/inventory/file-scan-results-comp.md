@@ -16,4 +16,4 @@ Once the filter is created the following settings can be edited:
 * Reporting Filter
 * Results will be either excluded (default) or included.
 
-![Editing the File Scan Results filter for Computers](images/scan-results/scan-results-computer-3.png)
+![Editing the File Scan Results filter for Computers](images/scan-results/scan-results-computer-2.png)

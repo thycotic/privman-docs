@@ -1,12 +1,15 @@
+[title]: # (Error: Invalid product identifier: { id = thycoticTmsInternalMaintenance })
+[tags]: # (error, upgrading)
+[priority]: # (2)
 # Error: Invalid product identifier: { id = thycoticTmsInternalMaintenance }
 
 When attempting to upgrade Privilege Manager, you receive the following error:
 
 *Error: Invalid product identifier: { id = thycoticTmsInternalMaintenance }*
 
-![](media/73ee09966f3c1bbef824296246ddaddf.png)
+![](images/invalid-product-identifier/73ee09966f3c1bbef824296246ddaddf.png)
 
-## Resolve:
+## Resolve
 
 1.  Navigate to **https://[YourInstanceName]/TMS/Setup**.
 

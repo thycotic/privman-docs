@@ -35,6 +35,7 @@ This topic is a collection of articles covering "How to..." procedures for diffe
   * [Connecting Agents to the Privilege Manager Server](connect-agents.md)
   * [Uninstalling an Agent with Script](agent-uninstall-script.md)
   * [Configuring for a Test Environment](config-test-env.md)
+  * [How to prevent Backwards Compatibility for Agents v10.4 and earlier](prevent-backwards-compatibility-agents.md) 
 
 * Maintenance:
 

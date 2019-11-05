@@ -5,8 +5,6 @@
 
 With Privilege Manager 10.5 and up, you can revoke an agent trust relationship.
 
-The agent has a certificate that it uses to prove its identity to the server. If the server revokes the agent trust, it deletes the agent certificate thumbprint and the agent can no longer communicate in any way with the server. The only way to re-establish the communication with the server would be to use an Installation Code.
-
 1. Look up a computer in Resource explorer. Example navigate to  Admin | More | Resources | expand Organizational Views | Default | All Resources | Asset | Network  Resource | Computer.
 1. Click one listed; OR search by resource name.
 1. Click __Revoke Agent Trust__.

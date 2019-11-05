@@ -114,9 +114,11 @@ After the Package Synchronization completes the SCCM Packages can be used in app
 
     ![New Package Content Filter](images/sccm/package-contents-filter.png)
 1. Navigate to the __Membership__ tab.
-1. If no items are listed in the membership table, click the __Update Membership__ button.
+1. If no items are listed in the membership table, click the __Sync Package__ button.
 
-    ![Update Membership](images/sccm/update-membership.png)
+    ![Update Membership](images/sccm/package-contents-filter-sync.png)
+
+    Running the sync package task, causes the server to inventory the package referenced in the filter. If you have multiple filters and packages, Thycotic recommends to use the _Inventory Packages Referenced in Whitelists_ task instead.
 1. Click __Save__.
 
 This filter can then be referenced in Application Control policies.

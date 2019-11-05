@@ -21,7 +21,7 @@ To set up this service account correctly you will need to:
 ## Creating a Domain Service Account
 
 1. Open the __Active Directory Users and Computers__ link from Administrative Tools.  
-1. Right-click the directory where you want to assign this account (I.e. testlab.com > Service Accounts).
+1. Right-click the directory where you want to assign this account (i.e. testlab.com > Service Accounts).
 1. Click __New__ and __User__.
 1. Add a name and logon name for the service account.
 1. Click __Next__.
@@ -47,7 +47,7 @@ You must have SQL installed on your database server before completing these step
 1. Ensure Windows Authentication radio button is selected.
 1. On the New Login page click Search…  Ensure that your domain/AD server is selected as the location.
 
-1. In the “Enter the object name to select” box enter the Login name created for your Thycotic service account (ex: “svc_thycotic”). Click Check Names and select the correct account.
+1. In the “Enter the object name to select” box enter the Login name created for your Thycotic service account (e.g., “svc_thycotic”). Click Check Names and select the correct account.
 
 1. Click __OK__.
 
@@ -85,8 +85,7 @@ Following the steps below you will need to give the service account "__Modify__"
 
 ​You must have the Thycotic Product Application Files installed on your web server before completing these steps.
 
-1. Open __C:\Windows__ and right-click the folder you are modifying
-__(ex: TEMP + SecretServer or TMS)__
+1. Open __C:\inetpub\wwwroot\TMS__ and right-click the folder you are modifying.
 1. Click __Properties__ | __Security__ | __Advanced__.
 1. Click __Add__ and then select a principal.
 1. Ensure the domain machine is listed as the Location and type the service account under the “Enter the object name to select” box, click Check Names and Enter network credentials for accessing your domain machine. 
@@ -140,7 +139,7 @@ You can adjust these settings either
 1. Click __OK__, then __Apply__.
 
    ![run-iis-app-pool](images/iis/iis-12.png)
-1. Grant "__Impersonate a client after authentication__" permission to the service account under "User Rights Assignment" the same way "Log on as a batch job" was assigned above.
+1. Grant __Impersonate a client after authentication__ permission to the service account under "User Rights Assignment" the same way "Log on as a batch job" was assigned above.
 
 1. Link your new GPO to the OU where your Thycotic product machine accounts exist (web + database servers).
 
@@ -156,7 +155,7 @@ You can adjust these settings either
 
 1. Do the same to set Impersonate a client after authentication.
 
-   >**Note**: If you get a "__Service Unavailable__" after applying "Log on as a batch job" permissions, try updating your group policy settings:
+   >**Note**: If you get a __Service Unavailable__ after applying "Log on as a batch job" permissions, try updating your group policy settings:
       1. Open the Command Console.
       1. Type in __gpupdate /force__.
       1. Restart the Windows Process Activation Service.

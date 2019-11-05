@@ -7,7 +7,7 @@ To access Alert Notifications, click the icon and select Alert Notifications fro
 
 Notifications are listed by alert categories such as Agents Online, Unacknowledged Events, Install Agents, etc. 
 
-![Alert Notifications overview](alert-4.png)
+![Alert Notifications overview](images/alert-4.png)
 
 ## Endpoint Specific Alerts
 
@@ -18,10 +18,10 @@ Alert Notifications can also be triggered for a specific endpoint agent, if the 
 1. Open the Resource Explorer for the endpoint you wish to monitor by clicking on its name in the list.
 1. Select the __Monitor Resource__ checkbox.
 
-   ![Resource Explorer enable monitoring](alert-3.png)
+   ![Resource Explorer enable monitoring](images/alert-3.png)
 
 Once monitoring is enabled, alert notifications for the agent end point are available via the Alert Notification feature.
 
-![Endpoint specific Alert Notifications](alert-2.png)
+![Endpoint specific Alert Notifications](images/alert-2.png)
 
 These type of alerts inform about the agent registration, resource discovery, and update retrieval times.

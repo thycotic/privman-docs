@@ -1,7 +1,9 @@
+[title]: # (10.5 Azure AD Integration with Privilege Manager)
+[tags]: # (Azure AD,integration,Privilege Manager)
+[priority]: # (2)
 # 10.5 Azure AD Integration with Privilege Manager
 
-Summary
-=======
+## Summary
 
 This article explains how to integrate Azure Active Directory (AD) with
 Privilege Manager 10.5. It is divided into the following sections:
@@ -16,8 +18,7 @@ Privilege Manager 10.5. It is divided into the following sections:
 
 -   Additional Information
 
-Introduction
-============
+## Introduction
 
 As a Privilege Manager user, you might want to do Azure AD integration for one
 or more of the following reasons:
@@ -341,7 +342,7 @@ the three fields:
 
 -   Application type: Select “Web app / API”
 
-![](images/azure-ad-10-5/aab4252690cae68c1fea840c9fe68e36.wmf)
+![](images/azure-ad-10-5/aab4252690cae68c1fea840c9fe68e36.png)
 
 Sign-on URL: Copy this from the Step Three “Sign-On URL” field in Privilege
 Manager
@@ -355,20 +356,20 @@ To get the Sign-on URL:
 
 The screenshot below shows all three fields populated.
 
-![](images/azure-ad-10-5/b26ebbb5adcdef5bdcc8e4c1f312e3ff.wmf)
+![](images/azure-ad-10-5/b26ebbb5adcdef5bdcc8e4c1f312e3ff.png)
 
 After filling each of the three fields, hit Create.
 
 Azure will now provide an Application ID; copy that.
 
-![](images/azure-ad-10-5/9301528b0a8213adb78535f3e7d01215.wmf)
+![](images/azure-ad-10-5/9301528b0a8213adb78535f3e7d01215.png)
 
 Now back in Privilege Manager:
 
 Paste into the Step Three field, the Application ID you copied from Azure. Save
 Changes.
 
-![](images/azure-ad-10-5/26626af94f8b90b25b84a49fc4b27fe5.wmf)
+![](images/azure-ad-10-5/26626af94f8b90b25b84a49fc4b27fe5.png)
 
 Step Four: Set as Authentication Provider
 -----------------------------------------
@@ -379,25 +380,25 @@ Manager.
 The informational message in Step Four tells you which provider you are
 currently using to authentication.
 
-![](images/azure-ad-10-5/e18670ba6c529a268a97bb12d3a15a63.wmf)
+![](images/azure-ad-10-5/e18670ba6c529a268a97bb12d3a15a63.png)
 
 Check the box in front of “Use as Authentication Provider”. Save Changes.
 
-![](images/azure-ad-10-5/84848367b7748031cb4da2d48c3ecb54.wmf)
+![](images/azure-ad-10-5/84848367b7748031cb4da2d48c3ecb54.png)
 
 You will be asked to confirm your changes.
 
-Note that if you do Save, you will then only be able to log back in using the
+>**Note:** If you do Save, you will then only be able to log back in using the
 Azure AD account which you assigned in Step Two.
 
 Click Save.
 
-![](images/azure-ad-10-5/4f0b4a80b42cb4067f9ee7779129d8d8.wmf)
+![](images/azure-ad-10-5/4f0b4a80b42cb4067f9ee7779129d8d8.png)
 
 Privilege Manager will log you out since you now need to login using the Azure
 AD account which you assigned to the Privilege Manager Admin role, in Step Two.
 
-![](images/azure-ad-10-5/f9787689f430cbd94babbe6150d029be.wmf)
+![](images/azure-ad-10-5/f9787689f430cbd94babbe6150d029be.png)
 
 Logging back into Privilege Manager after completion of Step Four
 -----------------------------------------------------------------
@@ -407,7 +408,7 @@ Step Four, “Set as Authentication Provider”.
 
 Privilege Manager will prompt you for Login.
 
-![](images/azure-ad-10-5/ea9eb2bf7f5d998fcae8a9f4a8a6d60d.wmf)
+![](images/azure-ad-10-5/ea9eb2bf7f5d998fcae8a9f4a8a6d60d.png)
 
 You now need to login using the Azure AD account which you assigned to the
 Privilege Manager Admin role, in Step Two. (In our example, we showed this was
@@ -416,7 +417,7 @@ accept the permissions requested – to allow Privilege Manager to sign you in a
 read your profile. Once in Privilege Manager, you will see that you are logged
 in with your Azure AD account name.
 
-![](images/azure-ad-10-5/1ef7e8cc45536119c864c69433923c63.wmf)
+![](images/azure-ad-10-5/1ef7e8cc45536119c864c69433923c63.png)
 
 You have now fulfilled your goal of using Azure AD as an authentication
 provider, to login into Privilege Manager.

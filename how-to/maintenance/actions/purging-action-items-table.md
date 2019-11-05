@@ -12,7 +12,7 @@ below to create a scheduled event to purge old application action events.
 
 2.  Click **ADMIN** \| **Configuration**.
 
-    ![Purge Maintenance - Application Control Events](images/1ffb7168b103b6750c1e604c4e32867d.png)
+    ![Purge Maintenance - Application Control Events](images/9b58d371784cedb5a0eb61834f841409.png)
 
 3.  Click **Purge Maintenance – Application Control Events**.
 

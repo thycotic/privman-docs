@@ -7,4 +7,4 @@ The following topics are available:
 
 * [Troubleshooting Installation Issues](ts-install.md)
 * [10.5 Folder Permission for MachineKeys](10-5-machinekeys.md)
-
+* [Retrieving the COM class factory error](retrieving-the-com-class-factory-for-component-with-clsid.md)

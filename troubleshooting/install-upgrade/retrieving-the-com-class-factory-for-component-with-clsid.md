@@ -1,3 +1,6 @@
+[title]: # (Retrieving the COM class factory error)
+[tags]: # (error, upgrading)
+[priority]: # (2)
 # Retrieving the COM class factory error
 
 While attempting to upgrade Privilege Manager, you receive the error message

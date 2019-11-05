@@ -1,15 +1,15 @@
 [title]: # (Performance Reporting)
-[tags]: # (Reports)
+[tags]: # (reports)
 [priority]: # (2)
 # Performance Reporting
 
-For Privilege Manager 10.5 and later performance reporting is now available.
+Performance Reporting is available for Privilege Manager 10.5 and up.
 Nightly tasks can collect performance information in the following reports:
 
 * Item Processing Performance
 * Processing Performance
 
-## How to setup performance reporting
+## Setting up Performance Reporting
 
 1. Navigate to __Admin__ | __Configuration__.
 1. Select the __Advanced__ tab.

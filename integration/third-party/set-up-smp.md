@@ -101,22 +101,22 @@ Alternatively the __SMP Sync Packages__ task can be scheduled to regularly repea
 
 After the Package Synchronization completes the SMP Packages can be used in application control policies via package content filters.
 
-1. Navigate to __Admin | Filters__
-1. Click the __Add Filter__ button
-1. Select the Windows Platform
-1. Select the __Package Contents Filter__ under Inventory Filters
-1. Set the Name and Description of the filter
-1. Click __Create__
-1. Click __Edit__
-1. Next to Package, click __Select resource...__
-1. Select the package from SMP that will be targeted
-1. Set the Results will be to __Included__
+1. Navigate to __Admin | Filters__.
+1. Click the __Add Filter__ button.
+1. From the Platform drop-down select Windows.
+1. From the Filter Type drop-down scroll to Inventory Filters and select the __Package Contents Filter__.
+1. Set the Name and Description of the filter.
+1. Click __Create__.
+1. Click __Edit__.
+1. Next to Package, click __Select resource...__.
+1. Select the package from SMP that will be targeted.
+1. Set the __Results will be__ to __Included__.
 
     ![New Package Content Filter](images/sccm/package-contents-filter.png)
-1. Click __Save__
-1. Navigate to the Membership tab
-1. If no items are listed in the membership table, click the __Sync Package__ button.
+1. Navigate to the __Membership__ tab.
+1. If no items are listed in the membership table, click the __Update Membership__ button.
 
-    ![Sync Package Contents Filter](images/sccm/package-contents-filter-sync.png)
+    ![Update Membership](images/smp/update-membership.png)
+1. Click __Save__.
 
 This filter can then be referenced in Application Control policies.

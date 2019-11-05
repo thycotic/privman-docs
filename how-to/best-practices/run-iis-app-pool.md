@@ -77,7 +77,7 @@ OR - If you have not yet created the Database, Under Server Roles select db_crea
 
 You must have the Thycotic product application files installed (on your web server) before completing this section.
 
-Following the steps below you will need to give the service account "__Modify__" access to two folders:
+Following the steps below you will need to give the service account __Modify__ access to two folders:
 
 * __C:\Windows\TEMP__
 * The folder where your Thycotic product’s application files are located 

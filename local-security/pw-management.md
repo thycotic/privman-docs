@@ -3,10 +3,16 @@
 [priority]: # (3003)
 # Password Management
 
-The following steps guide you through
+Local Security allows administrators to manage users and also to manage passwords and password rotation. Managing users, passwords, and rotation scheduled often go hand-in-hand, but not every managed user account also requires password rotation. For example, service accounts are managed, but usually do not have password rotation setup.
 
-* provisioning a local user account and
-* randomizing local user account passwords (passwort rotation).
+Password rotation can also be setup for existing users without having to provision user accounts. The documentation procedure guides you through
+
+* provisioning a local user account to be managed and
+* randomizing local user account passwords (password rotation).
+
+Not all steps are required if you just wish to provision a managed account or you already have provisioned users and wish to enable password rotation only.
+
+>**Note**: Password rotation is an option that is not required for all accounts, especially not for service accounts.
 
 1. Navigate to __HOME | Local Security__.
 1. From the left navigation frame select __Windows Computers__.
@@ -20,7 +26,7 @@ The following steps guide you through
 
    ![Set user to managed](images/pw-mgmt/pwd-2.png)
 1. Verify information populated in the User Name and Full Name text fields.
-1. Click the __Set Password__ button to set-up the initial password.
+1. Click the __Set Password__ button to setup the initial password.
 
    ![Set initial password](images/pw-mgmt/pwd-3.png)
 1. Enter the __Initial Password__.
@@ -36,14 +42,14 @@ The following steps guide you through
 1. Confirm that you want to enable password management for the user.
 
    ![Password management confirmation](images/pw-mgmt/pwd-6.png)
-1. Specify the details for the password management and establish a password rotation schedule.
+1. Specify the details for the password management and/or establish a password rotation schedule.
 
    ![Details](images/pw-mgmt/pwd-8.png)
 1. Click Save Changes.
 
-The managed user and password management is now set-up.
+The managed user and password management is now setup.
 
-![Fully set-up user](images/pw-mgmt/pwd-7.png)
+![Fully setup user](images/pw-mgmt/pwd-7.png)
 
 ## Reports Relating to Managed Accounts
 

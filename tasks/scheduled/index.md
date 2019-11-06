@@ -9,4 +9,19 @@ In addition to maintenance tasks, there are other tasks that should be scheduled
 
 Import Active Directory users and groups on demand and based on a set schedule.
 
-__Notes__: Depending on AD structure and size, the tasks should be planned to avoid bulk imports and synchronization of too large of a number of accounts.
+>**Notes**__**: Depending on AD structure and size, the tasks should be planned to avoid bulk imports and synchronization of too large of a number of accounts.
+
+## Task Parameter Conflicts
+
+At a task level, schedule parameters are set to read-only. When a schedule parameter is modified and there are conflicts with the version currently on the server, the Privilege Manager console shows a modal to resolve the existing conflicts before any schedule modifications can be saved.
+
+![Schedule Parameter Conflicts](images/schedule-conflict.png)
+
+The user can review the task that introduced the conflict by clicking the linked item, which is opened in a new browser tab.
+
+The options to resolve are
+
+* Keep all conflicting parameters on the schedule - click the __Keep__ button.
+* Remove all conflicting parameter from the schedule - click the __Remove__ button.
+
+Or cancel if you wish to clean up the conflicts by manually editing task parameters on the conflicting items.

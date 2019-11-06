@@ -1,6 +1,6 @@
 [title]: # (Network Share Apps)
 [tags]: # (elevate)
-[priority]: # (4401)
+[priority]: # (4)
 # Network Share Apps
 
 Many organizations put trusted installers on a network share that employees can use. Those installers can be elevated automatically from the shared network location by assigning an elevation policy to the network share location.

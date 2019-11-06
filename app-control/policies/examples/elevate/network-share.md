@@ -51,12 +51,17 @@ Use the UNC Elevation Policy Template to create a customized policy that lets yo
 1. Navigate to __Admin | More__, select __Config Feeds__.
 1. Find __Privilege Manager Product Configuration Feeds__, click __Select Items__.
 1. Find __Application Control Solution__, click __Select Items__.
-1. Find __Application Control - UNC Elevation Policy Template__, click __Download__. The template is being installed. 
+1. Find __Application Control - UNC Elevation Policy Template__, click __Download__. The template is being installed.
 1. Navigate to __Admin | More__, click __Folders__.
+1. In the folder tree open __Privilege Manager Solutions | Application Control | Policies | Privilege Management__.
+
+   ![Opening the folder tree](images/elevate/folders.png)
 1. Click __Add New__.
 1. From the template drop-down select __UNC Share Elevation Policy__.
 1. Enter a name and description.
 1. Enter the UNC Path to the network share. Use the same UNC path format for both macOS and Windows endpoints.
+
+   ![Entering details before clicking create](images/elevate/folders-2.png)
 1. Click __Create__.
 1. The Policy is created, but needs some attention. Confirm that this is an elevation policy and click __Set as Elevate__.
 

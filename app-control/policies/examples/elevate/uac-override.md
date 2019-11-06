@@ -24,7 +24,7 @@ By creating a User Access Control (UAC) Override Policy you can override UAC pro
 
    ![Advanced Policy View](images/uac/uac-3.png)
 1. To edit this policy, you need to make a copy and assign a different name, to do so click the __Create a Copy__ button.
-1. On the __Conditions__ tab your edit the
+1. On the __Conditions__ tab you edit the
 
    * Application Targets
    * Inclusion Filters
@@ -32,7 +32,7 @@ By creating a User Access Control (UAC) Override Policy you can override UAC pro
    * Resource Targets
 
    ![Conditions tab](images/uac/uac-4.png)
-1. On the __Actions__ tab edit edit
+1. On the __Actions__ tab edit
 
    * if you want to Send Policy Feedback (as a learning mode/monitoring feature)
    * the Justify Application Elevation Action

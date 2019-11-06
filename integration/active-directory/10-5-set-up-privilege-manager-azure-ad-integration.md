@@ -133,7 +133,7 @@ You will see a page with two sections; fill them in as follows:
 
 ![](images/azure-ad-10-5/95b0c5a7af2f1b32612f4230d04b1f28.png)
 
-Hit the Save button.
+Click the __Save__ button.
 
 The name of the service account will now be listed, as a link, in the User
 Credentials tab.
@@ -150,7 +150,7 @@ Domains.
 
 ![](images/azure-ad-10-5/b6858530e012495734f18a0b35efb561.png)
 
-Clicking on Azure Active Directory Domains will take you to a new page. Hit the
+Clicking on Azure Active Directory Domains will take you to a new page. Click the
 “Add New” button.
 
 ![](images/azure-ad-10-5/da54d99b71f0d244e7e8b65b0f08680c.png)
@@ -164,8 +164,6 @@ On the page for adding a new domain, the fields are to be filled in as follows:
     showing these fields).
 
 ![](images/azure-ad-10-5/394d69568cd4c995a09eb8e01497047a.png)
-
-Xxx. Figure below ….
 
 Now you have to go to the Azure portal to obtain the DNS name.
 
@@ -186,7 +184,7 @@ Now back in Privilege Manager, fill in the fields as follows:
 
 DNS Name: Enter the URL obtained from the Azure portal.
 
-Hit the Create button.
+Clickthe Create button.
 
 ![](images/azure-ad-10-5/c2dfc6067c3f8ee87e06c1078444f8af.png)
 
@@ -224,22 +222,6 @@ data:
 >   authentication.
 
 ![](images/azure-ad-10-5/2faf04ed8ed39e94bfd8237732abb5a9.png)
-
-Notes:
-
--   It would be more apt for the “Azure Authentication” page to be titled as
-    “Azure Integration” since authentication is only one of features provided by
-    this page.
-
--   The third section on the page is titled “Azure AD Authentication (Optional)”
-    and includes Steps One to Four. This is misleading. The block of steps
-    labeled as “Azure AD Authentication”, and parenthetically indicating the
-    block as optional, should only encompass Steps Two, Three, and Four; these
-    are the steps which are only needed for Azure AD authentication. Step One
-    can be done even if you are not interested in using Azure AD for
-    authentication. It is needed if you want to use a User Context filter, in
-    the definition of an Application Control policy, to target applications
-    based on ownership by one of the Azure AD imported users.
 
 Details and Setting Sections
 ----------------------------
@@ -287,7 +269,7 @@ you will see that you have a link to do an import in the “Step One” section.
 Step Two: Assign Azure User to Role
 -----------------------------------
 
-To start Step Two, hit the Add button.
+To start Step Two, clickthe Add button.
 
 ![](images/azure-ad-10-5/fec13ce81f2172705e6aa306a1fa48ab.png)
 
@@ -358,7 +340,7 @@ The screenshot below shows all three fields populated.
 
 ![](images/azure-ad-10-5/b26ebbb5adcdef5bdcc8e4c1f312e3ff.png)
 
-After filling each of the three fields, hit Create.
+After filling each of the three fields, clickCreate.
 
 Azure will now provide an Application ID; copy that.
 
@@ -391,7 +373,7 @@ You will be asked to confirm your changes.
 >**Note:** If you do Save, you will then only be able to log back in using the
 Azure AD account which you assigned in Step Two.
 
-Click Save.
+Click __Save__.
 
 ![](images/azure-ad-10-5/4f0b4a80b42cb4067f9ee7779129d8d8.png)
 
@@ -437,7 +419,7 @@ Manager, in the Privilege Manager User role, using their Azure credentials:
 -   Navigate to: Admin | Configuration | Roles | Privilege Manager Users (or
     whichever role you want)
 
--   Click Edit, then Add.
+-   Click __Edit__ | __Add__.
 
 -   Search for and select any Azure AD user to whom you want to give Privilege
     Manager User role access to Privilege Manager.

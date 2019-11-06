@@ -27,8 +27,7 @@ When attempting to log in to Privilege Manager, you are unable to access the app
 1. Click on __Disable__.
 
    ![Unable to access Privilege Manager](images/unable-to-access-privilege-manager/pm-6.png)
-1. Complete an __IIS reset__ by running Windows PowerShell as Administrator.
+1. Open __Powershell__, type `iisreset` and press __Enter__.
 
    ![Unable to access Privilege Manager](images/unable-to-access-privilege-manager/pm-7.png)
 1. Launch Privilege Manager.
-

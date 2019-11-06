@@ -13,7 +13,7 @@ Import Active Directory users and groups on demand and based on a set schedule.
 
 ## Task Parameter Conflicts
 
-At a task level, schedule parameters are set to read-only. When a schedule parameter is modified and there are conflicts with the version currently on the server, the Privilege Manager console shows a modal to resolve the existing conflicts before any schedule modifications can be saved.
+When task parameters are set at the task level, they can't be changed when a schedule is created for that task. However, in some circumstances, if you have already defined parameters at the task schedule level and then go back to the task to set the values, you may end up with task schedule parameter conflicts. When there are conflicts with the version currently on the server, the Privilege Manager console shows a modal to resolve the existing conflicts before any schedule modifications can be saved.
 
 ![Schedule Parameter Conflicts](images/schedule-conflict.png)
 

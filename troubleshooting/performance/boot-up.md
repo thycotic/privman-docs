@@ -1,6 +1,6 @@
 [title]: # (Increase Boot-up Performance)
 [tags]: # (policy analysis)
-[priority]: # (1)
+[priority]: # (2)
 # Increase Boot-up Performance
 
 In environments with policies having many filters, starting policy analysis during boot-up can impact the overall boot performance.

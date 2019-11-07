@@ -25,3 +25,6 @@ The options to resolve are
 * Remove all conflicting parameter from the schedule - click the __Remove__ button.
 
 Or cancel if you wish to clean up the conflicts by manually editing task parameters on the conflicting items.
+However, something indicated as a conflict isn't necessarily a problem. The functionality is implemented so that users have the ability to stop changes on the schedule level by setting something other than default on the task level. If a parameter on the task is a default value, then that parameter will not be in conflict, if it does not match on the schedule.
+
+Whenever there is a deviation from the default value on the task level, even with the parameter on the schedule matching, users are asked to resolve the conflict by keeping the current values.

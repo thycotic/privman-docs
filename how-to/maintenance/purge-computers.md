@@ -1,6 +1,6 @@
 [title]: # (Purge Computers)
 [tags]: # (maintenance)
-[priority]: # (9501)
+[priority]: # (2)
 # How to Purge Computers
 
 After using Privilege Manager for a certain amount of time, you may have computers that haven't communicated with the Privilege Manager server for an extended period of time. This can be done via the Purge Computers task, which can be found under Configuration on the General tab.

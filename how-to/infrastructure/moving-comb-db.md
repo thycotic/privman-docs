@@ -1,6 +1,6 @@
 [title]: # (Moving SQL DB)
 [tags]: # (combined installation)
-[priority]: # (9520)
+[priority]: # (2)
 # Moving SQL DB
 
 If you have a combined installation of Privilege Manager and Secret Server and wish to move/migrate the MS SQL Server databases, follow the steps below for the case that applies to you:

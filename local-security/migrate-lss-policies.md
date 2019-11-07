@@ -1,6 +1,6 @@
 [title]: # (Migrate LSS Policies)
 [tags]: # (silverlight end-of-life)
-[priority]: # (9501)
+[priority]: # (3010)
 # Migrate Local Security Policies
 
 In support of the Silverlight End-of-Life product cycle, Privilege Manager provides a migration path for Local Security implementations that previously utilized Silverlight.

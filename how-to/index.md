@@ -5,39 +5,42 @@
 
 This topic is a collection of articles covering "How to..." procedures for different tasks.
 
+* Best Practices:
+
+  * [Using a Service Account to run the IIS App pool](best-practices/run-iis-app-pool.md)
+
 * Import, Export, and Migration:
 
-  * [Export and Import Items](export-import.md)
-  * [Migrate Local Security Policies](migrate-lss-policies.md)
-  * [Moving MS SQL Server Database for Privilege Manager and Secret Server Combined Installation](moving-comb-db.md)
+  * [Export and Import Items](maintenance/export-import.md)
+  * [Migrate Local Security Policies](../local-security/migrate-lss-policies.md)
 
 * Azure:
 
-  * [Azure Service Bus Configuration](ms-az-service-bus.md)
   * [Add Thycotic One Users Manually](../ui/ui-config-users.md)
-
-* Local:
-
-  * [Setup Active Directory Synchronization](../local-security/ad-sync.md)
-  * [VM Deployments](vm-deployments.md)
 
 * Infrastructure
 
-  * [Setup High Availability/Clustering](ha_clustering.md)
-  * [Setup Reverse Proxy](proxy.md)
+  * [Azure Service Bus Configuration](infrastructure/ms-az-service-bus.md)
+  * [Setup High Availability/Clustering](infrastructure/ha_clustering.md)
+  * [Setup Reverse Proxy](infrastructure/proxy.md)
+  * [Moving MS SQL Server Database for Privilege Manager and Secret Server Combined Installation](infrastructure/moving-comb-db.md)
+  * [VM Deployments](infrastructure/vm-deployments.md)
 
 * macOS:
 
-  * [Preference Pane Targeting on macOS](prefpane.md)
+  * [Preference Pane Targeting on macOS](../ui/macOS/prefpane.md)
 
 * Agents:
 
-  * [Connecting Agents to the Privilege Manager Server](connect-agents.md)
-  * [Uninstalling an Agent with Script](agent-uninstall-script.md)
-  * [Configuring for a Test Environment](config-test-env.md)
-  * [How to prevent Backwards Compatibility for Agents v10.4 and earlier](prevent-backwards-compatibility-agents.md) 
+  * [Connecting Agents to the Privilege Manager Server](agents/connect-agents.md)
+  * [Uninstalling an Agent with Script](agents/agent-uninstall-script.md)
+  * [Agent Trust Revocation](agents/agent-trust-revocation.md)
+  * [Configuring for a Test Environment](agents/config-test-env.md)
+  * [How to prevent Backwards Compatibility for Agents v10.4 and earlier](agents/prevent-backwards-compatibility-agents.md) 
 
 * Maintenance:
 
-  * [How to Purge Computers](purge-computers.md)
-  * [Using the Remove Programs Utility](remove-programs-utility.md)
+  * [Export and Import Items](maintenance/export-import.md)
+  * [How to Purge Computers](maintenance/purge-computers.md)
+  * [How to Purge the Action Items Table](maintenance/purging-action-items-table.md)
+  * [Using the Remove Programs Utility](maintenance/remove-programs-utility.md)

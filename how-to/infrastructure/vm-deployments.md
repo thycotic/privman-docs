@@ -1,6 +1,6 @@
 [title]: # (VM Delopyments)
 [tags]: # (virtual machines)
-[priority]: # (9510)
+[priority]: # (2)
 # VM Deployments
 
 Privilege Manager agents are installed on endpoint machines to implement policies which are defined by the user (the Privilege Manager administrator) in the Privilege Manager console (the user interface of the Privilege Manager Server).

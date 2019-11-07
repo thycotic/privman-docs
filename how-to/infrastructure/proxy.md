@@ -1,6 +1,6 @@
 [title]: # (Reverse Proxy Setup)
 [tags]: # (reverse)
-[priority]: # (9510)
+[priority]: # (2)
 # Setting up a Reverse Proxy
 
 >**Note**:

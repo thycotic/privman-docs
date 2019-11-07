@@ -1,6 +1,6 @@
 [title]: # (Configuration)
 [tags]: # (admin,configuration)
-[priority]: # (2100)
+[priority]: # (1)
 # Configuration
 
 The Configuration area in Privilege Manager allows users with Privilege Manager Administrator roles to setup new or change existing configurations for areas like user credentials, foreign systems integrations, or authentication. It lets administrators specify settings that control Privilege Manager Server and Console behavior via the Advanced tab.

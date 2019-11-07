@@ -56,8 +56,8 @@ Before you can import collection data from SCCM, Privilege Manager needs to know
 1. Open the __Resources__ tab.
 1. In the folder tree open __Organizational Views | Default | All Resources | Asset | Network Resource | Computer__.
 1. Select a computer from that list.
-1. Select the Data tab in the computer resource explorer view.
-1. In the tree under __Data Classes | Foreign Systems__, you should have the Foreign System Id and SCCM Platform Id data.
+1. Select the Known Data tab in the computer resource explorer view.
+1. In the tree under __Foreign Systems__, you should have the Foreign System Id and SCCM Platform Id data.
 
 ## Create a Collection
 
@@ -97,8 +97,7 @@ Once the Foreign System has been created, an on-demand packages synchronization 
 
 Alternatively the __SCCM Sync Packages__ task can be scheduled to regularly repeat. When viewing the task, navigate to the Schedules tab and create a new schedule.
 
-
-### Create a SCCM package content filter
+### Create a SCCM Package Content Filter
 
 After the Package Synchronization completes the SCCM Packages can be used in application control policies via package content filters.
 

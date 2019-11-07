@@ -7,11 +7,11 @@ Agents are required on endpoint machines to carry out policies created in Privil
 
 Agents are required on endpoint machines to implement Privilege Manager policies. Thycotic Agents can be deployed in various ways: software management systems, GPO, cloned (gold) images, and manually. Instructions and links for agent installers are provided in this article, grouped as follows:
 
-* Bundled Agent Installer (Windows)
+* [Bundled Agent Installer - Windows](agent-inst-win-bundle.md)
 * Individual Agent Installers for Privilege Manager:
-  * 64-bit Windows Operating Systems
-  * 32-bit Windows Operating Systems
-* macOS X Installer (10.11 or Newer)
+  * [64-bit Windows Operating Systems](agent-inst-win.md#64_bit_windows_operating_systems)
+  * [32-bit Windows Operating Systems](agent-inst-win.md#32_bit_windows_operating_systems)
+* [macOS X Installer - 10.11 or Newer](agent-inst-mac.md#installing_macos_agents)
 
 For details about Thycotic Agent System Requirements, see our Privilege Manager System Requirements Guide here.
 

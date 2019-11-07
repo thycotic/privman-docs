@@ -11,3 +11,4 @@ The following topics are available:
 * [Maintenance tasks details](maintenance.md)
 * [Other tasks to schedule](schedule.md)
 * [Running the SDDL by Client ID Task to only allow specific users to start/stop agent services](sddl-client.md)
+* [Reset Licensing](reset-license.md)

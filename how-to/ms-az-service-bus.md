@@ -9,6 +9,8 @@ Privilege Manager supports Internet connected clients through Microsoft Azure Se
 * Setting up the Service Bus as a Foreign System in Privilege Manager
 * Configuring the Agents to use the Service Bus (if this is a new agent installation, the Agents can be pointed directly at the Service Bus namespace URL)
 
+With Privilege Manager 10.7 and up TLS 1.2 is supported.
+
 ## Azure Service Bus Queue Configuration
 
 Thycotic requires a Service Bus relay for remote communication. For this a Service Bus Queue needs to be created, follow the procedure as outlined by Microsoft [here in Quickstart: Use Azure portal to create a Service Bus queue](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quickstart-portal).
@@ -48,7 +50,7 @@ The Azure Service Bus requires a Foreign Systems configuration in Privilege Mana
 1. Open the Registry Editor (regedit)
 1. Navigate to __HKEY_LOCAL_MACHINE | SOFTWARE | Policies | Arellia | AMS__.
 1. Right click BaseUrl and select Modify.
-1. In the Edit String dialog box, change the BaseURL to your Privilege Manager (TMS) Address based on the __Azure Service Bus Queue__ configuration, for example `https://[your company].servicebus.windows.net/tms[your instance]`, which in our example is `https://testing.servicebus.windows.net/tmstest`
+1. In the Edit String dialog box, change the BaseURL to your Privilege Manager (TMS) Address based on the __Azure Service Bus Queue__ configuration, for example `https://[your company].servicebus.windows.net/`, which in our example is `https://testing.servicebus.windows.net/`
 1. Close the registry.
 1. Restart the Agent service.
 

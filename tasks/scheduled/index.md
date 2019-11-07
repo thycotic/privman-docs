@@ -1,6 +1,6 @@
 [title]: # (Scheduled Tasks)
 [tags]: # (regular)
-[priority]: # (6003)
+[priority]: # (1)
 # Scheduled Tasks
 
 In addition to maintenance tasks, there are other tasks that should be scheduled to run regularly by Privilege Manager administrators. It’s recommended to run these tasks to determine how long they take to complete in each environment, then schedule appropriately to cover task completion and needs.

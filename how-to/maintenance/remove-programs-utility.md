@@ -1,6 +1,6 @@
 [title]: # (Using the Remove Program Utility)
 [tags]: # (create,set-up)
-[priority]: # (9501)
+[priority]: # (2)
 # Using the Remove Programs Utility
 
 The Remove Programs Utility provides a solution to the following problem:

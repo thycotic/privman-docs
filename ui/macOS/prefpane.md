@@ -1,6 +1,6 @@
 [title]: # (Preference Pane macOS)
 [tags]: # (system preferences)
-[priority]: # (9599)
+[priority]: # (2)
 # Preference Pane macOS
 
 A Preference Pane (abbreviated as prefpane) is a dynamically loaded plugin in Mac OS X. Introduced in Mac OS X v10.0, the purpose of a Preference Pane is to allow the user to set preferences for a specific application or the system by means of a graphical user interface.

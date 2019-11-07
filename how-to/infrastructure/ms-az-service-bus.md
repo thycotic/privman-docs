@@ -1,6 +1,6 @@
 [title]: # (Azure Service Bus Configuration)
 [tags]: # (create,set-up)
-[priority]: # (9501)
+[priority]: # (2)
 # Azure Service Bus Configuration
 
 Privilege Manager supports Internet connected clients through Microsoft Azure Service Bus. The Azure Service Bus is a subscription service that external agents can connect to and use to communicate with an internal Privilege Manager Server (TMS) instance. This document is broken up in three sections:

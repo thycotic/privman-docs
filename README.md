@@ -68,5 +68,4 @@ This repo is pulling together Privilege Manager documentation and is structured 
 | how-to | | index.md | 9500 | How to...  procedures |
 | troubleshooting | | index.md | 10000 | Troubleshooting (by subject)|
 | release-notes | | index.md | 30000 | Release Notes |
-| papers | | index.md | 40000 | White Papers (need to decide if pushing to qa/production) |
 | pmapi | | index.md | 50000 | Privilege Manager API (__internal only__ not pushed to qa or production) |

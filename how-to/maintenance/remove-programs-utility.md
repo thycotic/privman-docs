@@ -19,7 +19,9 @@ With Privilege Manager version 10.7 Thycotic is introducing support for Windows 
 
 With the Privilege Manager 10.7 release the Remove Programs Utility has moved from being delivered via configuration feed to being fully integrated and delivered via the Server and Agent installation packages.
 
-### Setting up the Policy
+To allow standard users to use the utility refer to the [Elevating the Privilege Manager Remove Programs Utility Policy](../../app-control/policies/examples/elevate/pm-remove-prog.md) set-up instructions.
+
+### Configuring the Remove Programs Utility
 
 1. Navigate to __Admin | Policies__ and select to the __General__ tab.
 1. Search for __Configure Privilege Manager Remove Programs__.
@@ -29,7 +31,7 @@ With the Privilege Manager 10.7 release the Remove Programs Utility has moved fr
 
    ![Configure the policy](images/remove-pro/config-1.png)
 
-   The policy is enabled by default. If you need to customize the default policy, Thycotic recommends to create a copy.
+   If you need to customize the default policy, Thycotic recommends to create a copy.
 1. Click __Create a Copy__ and name your policy.
 
    ![Name the copy of the policy](images/remove-pro/config-2.png)
@@ -38,6 +40,8 @@ With the Privilege Manager 10.7 release the Remove Programs Utility has moved fr
    * __General__ tab, enable your policy and verify the command is set to __Configure Remove Programs Application__.
 
      ![General tab](images/remove-pro/config-3.png)
+
+     Set the policy to enabled by checking __Enabled__.
    * __Parameters__ tab, customize the access and functions of the utility. For example, choose whether a shortcut on the start menu or on the control panel should be created. 
 
      ![Parameters tab](images/remove-pro/config-4.png)
@@ -47,18 +51,16 @@ With the Privilege Manager 10.7 release the Remove Programs Utility has moved fr
      * If the "Show Blocked Installers in List" option is unchecked, the products will be hidden.
      * If the "Show Blocked Installers in List" option is checked, the products will just be disabled from being uninstalled.
 
-     If you selected "Create Start Menu Shortcut", the users will see Thycotic Remove Programs on the Start Menu. If you selected "Add to Control Panel", the users will see an addition on the Control Panel such as shown below:
-
-     ![Control Panel icon](images/remove-pro/rpu-7.png)
+     If you selected "Create Start Menu Shortcut", the users will see Privilege Manager Remove Programs on the Start Menu. If you selected "Add to Control Panel", the users will see Privilege Manager Remove Programs in the Control Panel.
    * __Triggers__ tab, customize when to run the utility for inventory purposes. This determines how often you want the policy from the Task Scheduler on the endpoint to check to ensure the settings match.
 
      ![Triggers tab](images/remove-pro/config-5.png)
-   * __Targets__ tab, customize the resource targets (list of managed computers).
+<!--   * __Targets__ tab, customize the resource targets (list of managed computers).
 
      ![Targets tab](images/remove-pro/config-6.png)
    * __Conditions__ tab, customize the conditions under which to run tasks.
 
-     ![Conditions tab](images/remove-pro/config-7.png)
+     ![Conditions tab](images/remove-pro/config-7.png) -->
    * __Advanced__ tab, customize additional conditions that impact running the task, e.g. allowing the utility to be used on demand.
 
      ![Advanced tab](images/remove-pro/config-8.png)
@@ -66,6 +68,8 @@ With the Privilege Manager 10.7 release the Remove Programs Utility has moved fr
 
      ![Deployment tab](images/remove-pro/config-9.png)
 1. Click __Save__ to save all changes you made.
+
+![Utility in Agents folder](images/remove-pro/rpu-7.png)
 
 ## Use the Utility
 

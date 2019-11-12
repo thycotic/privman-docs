@@ -4,64 +4,24 @@
 # List of Default Actions
 
 This topic describes the out-of-the-box actions that are available in Privilege Manager and can be used to make your policy configuration process easy.
-
-When creating new actions in Privilege Manager, these are the list of category options you may use:
-
-* ActiveX Installer
-
-  This type of action is a specific use-case for older Windows systems (Windows XP and Windows Server 2003). The ActiveX installer action allows or denies an application to enable standard users to install approved ActiveX components. If you don’t know what ActiveX means, you won’t need to use this type of action.
-
-* Adjust Process Rights
-
-  This type of action will add or remove administrator rights. You can remove administrator rights from applications like web browsers to increase their locked-down state for both administrators and standard users.
-
-* Application Classification
-
-  This type of action will restrict applications from modifying certain items and will enforce standard Windows ACLs when the targeted application accesses restricted files, folders, registry keys, or services on a computer.
-
-* Apply Application Compatibility Fix Action
-
-  This type of action will allow old applications that must be run via compatibility mode to execute  without manual compatibility adjustments.
-
-* Deny File Access
-
-  As the name suggests, this type of action will prevent applications from reading or writing (or both) to certain directories or to Microsoft Office documents.
-
-* Deny Windows Hooking
-
-  This type of action will limit specified  applications from interacting in malicious ways with other applications.
-
-* Display Advanced Message
-
-  Display messages are paired with another action type. They are customizable and serve to tell the end user what is happening and why. Advanced messages pop up in the middle of the screen, whereas Basic User messages appear as smaller pop-ups directly from the taskbar area.
-
-* Display User Message (Basic)
-
-  Display messages are paired with another action type. They are customizable and serve to tell the end user what is happening and why. Advanced messages pop up in the middle of the screen, whereas Basic User messages appear as smaller pop-ups directly from the taskbar area.
-
-* Encrypt Application Files
-
-  This type of action will force applications to use Microsoft encryption when saving a file.
-
-* Enhanced Mitigation (EMET) Action
+<!--
+## ActiveX Installer
+## Adjust Process Rights
+## Application Classification
+## Apply Application Compatibility Fix Action
+## Deny File Access
+## Deny Windows Hooking
+## Display Advanced Message
+## Display User Message (Basic)
+## Encrypt Application Files
+## Enhanced Mitigation (EMET) Action
 
   This action can be used on Endpoints that have the Enhanced Mitigation Experience Toolkit installed. The action will enforce an EMET on the targeted application(s).
 
-* Execute Application
-
-  This type of action will execute another application and (optionally) wait on that process to complete before the original process can execute.
-
-* Sandbox Action
-
-  This type of action will limit the environments in which certain code can execute. The sandbox runs a process in a job object that limits its ability to interact with other processes, as well as limiting some specific types of interactions with the operating system.
-
-* Set Environment Variable Action
-
-  This type of action sets an environment variable for processes that could change the behavior of an  application, or be caught by an Environment Variable filter in another policy.
-
-* Set Process Security Descriptor Action
-
-  Adjusting Process Security allows a process to be protected from most tampering by users. For example,  adjusting process security can restrict who can stop a process from the task manager.
+## Execute Application
+## Sandbox Action
+## Set Environment Variable Action
+## Set Process Security Descriptor Action -->
 
 ## Actions Catalog  
 

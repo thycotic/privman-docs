@@ -1,6 +1,6 @@
 [title]: # (Create Custom Notifications)
 [tags]: # (action customization)
-[priority]: # (5501)
+[priority]: # (4)
 # Create Custom Notifications
 
 The default Application Denied Notification Action can be edited/replaced by a customized notification action to better suite a specific customer need.

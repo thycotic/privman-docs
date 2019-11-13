@@ -11,5 +11,5 @@ This type of action will execute another application and (optionally) wait on th
 
 The following Execute Application Settings can be specified:
 
-* Comma-separated list of executables.
-* Command Line specific settings.
+* an executable
+* command line arguments

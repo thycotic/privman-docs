@@ -8,7 +8,6 @@ Once you know how to accurately identify events via filters, the next crucial st
 
 The most popular and well-known action categories in Application Control include:
 
-* __Safelisting Actions__ - This means allowing an executable to run on your network with normal user privileges.
 * __Blocking Actions__ - Blocking an application simply means: deny it, or prevent it from running.
 * __Monitoring Actions__ - This is a category of actions that can be applied to unknown applications that attempt to run. Sandboxing is another term often linked to monitoring, because you can create policies that link to reputation checking tools (like VirusTotal) to perform smart actions once an unknown file’s reputation has been verified.
 * __Elevation Actions__ - Allowing an application to run (Whitelisting) is good and well for trusted programs, but many trusted applications also require a higher credential set than your end users normally have access to. The elevation action category will allow an application to run with elevated permissions so any user can, for example, install that trusted HP printer on your network without taking time out of a HelpDesk employee’s day. Implementing elevation policies allow "Least Privilege" to be implemented by your organization, eliminating the need for local users to have full administrator access on their computer.

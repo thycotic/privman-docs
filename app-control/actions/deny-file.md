@@ -3,7 +3,7 @@
 [priority]: # (5)
 # Deny File Access Action
 
-As the name suggests, this type of action will prevent applications from reading or writing (or both) to certain directories or to Microsoft Office documents.
+As the name suggests, this type of action will prevent applications from reading or writing (or both) to certain directories or to certain file types.
 
 ![Deny File Access Action Details](images/deny-file.png)
 

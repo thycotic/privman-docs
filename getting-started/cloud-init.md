@@ -1,9 +1,7 @@
-[title]: # (Privilege Manager Cloud)
+[title]: # (Cloud Login)
 [tags]: # (cloud instance)
-[priority]: # (1501)
-# Privilege Manager Cloud
-
-## Privilege Manager Cloud Login
+[priority]: # (502)
+# Privilege Manager Cloud Login
 
 To login to a Privilege Manager Cloud instance, use the URL and credentials provided to you. The URL is in the format of:
 

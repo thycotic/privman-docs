@@ -1,9 +1,9 @@
-[title]: # (Change History Overview)
+[title]: # (Change History)
 [tags]: # ( )
 [priority]: # (13)
-# Change History
+# Change History Report
 
-Administrators need to be able to look at changes done by other users in Privilege Manager. The need to be able to audit any issue causing changes to configuration settings, policies, filters, and actions. The new Change History Report allows Privilege Manager Administrators to track changes and their impact on endpoints.
+Administrators need to be able to look at changes done by other users in Privilege Manager. The need to be able to audit any issue causing changes to configuration settings, policies, filters, and actions. The new __Change History Report__ allows Privilege Manager Administrators to track changes and their impact on endpoints.
 
 As part of the audit the following information is recorded:
 
@@ -27,4 +27,4 @@ The following changes are reported:
 
 The reporting of any of these changes cannot be turned off and the results can be filtered by categories like Policy, Filter, Action, and Configuration.
 
-Each save creates or adds to the revision history of items. The Change History Report cannot be used to revert to a previous state.
+Each save creates or adds to the revision history of items. The __Change History Report__ cannot be used to revert to a previous state.

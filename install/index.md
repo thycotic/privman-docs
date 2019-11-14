@@ -1,6 +1,6 @@
 [title]: # (Installation and Upgrades)
 [tags]: # (setup)
-[priority]: # (500)
+[priority]: # (1500)
 # Installation and Upgrades
 
 This sections contains all you need to know about installation and upgrading Privilege Manager and all its components.

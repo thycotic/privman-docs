@@ -3,7 +3,7 @@
 [priority]: # (2)
 # Upgrading from Arellia Management Server 8.2 to Privilege Manager 10.4 and up
 
-Upgrading from our 8.2 version to Privilege Manager 10.4 and up and up can’t be done from `https://servername/Ams/Setup/`. To upgrade, we recommend using the same database and removing the old application before installing the new version. This can be done automatically or manually.
+Upgrading from our 8.2 version to Privilege Manager 10.4 and up can’t be done from `https://servername/Ams/Setup/`. To upgrade, we recommend using the same database and removing the old application before installing the new version. This can be done automatically or manually.
 
 ## Automatic Steps
 

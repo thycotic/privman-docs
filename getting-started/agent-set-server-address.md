@@ -1,6 +1,6 @@
 [title]: # (Setting the Privilege Manager Server Address)
 [tags]: # (agent set-up)
-[priority]: # (1600)
+[priority]: # (600)
 # Setting the Privilege Manager Server Address
 
 Agents require a Privilege Manager Server to communicate with. The recommended way to set the URL address is during the [installation of the Thycotic Agent](../install/agents/index.md). If an Azure Service Bus or Reverse Proxy is used, the URL can point at the URL of those components.

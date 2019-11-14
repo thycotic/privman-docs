@@ -1,6 +1,6 @@
 [title]: # (macOS Secure Token)
 [tags]: # (local service accounts)
-[priority]: # (1601)
+[priority]: # (601)
 # macOS Secure Token
 
 Secure Token is a macOS High Sierra or later account attribute, that is required to be added to a user account before that account can be enabled for FileVault on an encrypted Apple File System (APFS) volume. To help make sure that at least one account has a Secure Token attribute associated with it, a Secure Token attribute is automatically added to the first account to log into the OS login window on a particular Mac. Once an account has a Secure Token associated with it, it can create other accounts which will in turn automatically be granted their own Secure Token.

@@ -1,6 +1,6 @@
 [title]: # (Initial Login)
 [tags]: # (Installation,basic,Login)
-[priority]: # (1502)
+[priority]: # (502)
 # Initial Login
 
 Using the credentials either,

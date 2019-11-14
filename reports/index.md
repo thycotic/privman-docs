@@ -14,3 +14,5 @@ The Select Report Options button lets users customize which of the default repor
 The following topics are available:
 
 * [Reports and SQL Queries in Privilege Manager](reports-queries.md)
+* [Change History Report](change-history.md)
+* [Performance Reporting](performance-reporting.md)

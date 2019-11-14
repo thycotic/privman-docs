@@ -7,7 +7,7 @@ Privilege Manager is an endpoint least privilege and application control solutio
 
 Using Privilege Manager, administrators can automatically discover local administrator privileges and enforce the principle of least privilege through policy-driven actions. Those policy-driven actions include
 
-* white-, black-, and gray-listing,
+* blocking, elevating, monitoring, allowing
 * application quarantine, sandbox, and isolation,
 * application privilege elevation, and
 * endpoint monitoring

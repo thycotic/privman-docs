@@ -13,5 +13,4 @@ Topics in this section:
 * [Elevate Applications launched from Network Share Policy](network-share.md)
 * [Elevate Applications whose Execution Requires Approval](app-req-app.md)
 * [Elevate Applications that Require User Justification](user-just.md)
-* [Enable Users to Delete Desktop Application Shortcuts](delete-shortcut.md)
 * [MS Visual Studio Installations](ms-visual-studio.md)

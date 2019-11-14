@@ -26,7 +26,6 @@ These following topics are available:
   * [Elevate - Network Share Applications](elevate/network-share.md)
   * [User Justification Required](elevate/user-just.md)
   * [Application Execution Requires Approval](elevate/app-req-app.md)
-  * [Enable Users to Delete Desktop Application Shortcuts](elevate/delete-shortcut.md)
 
 * [Greylisting Policies](monitor/index.md)
   * [Using a Catch All Policy](catch-all.md)

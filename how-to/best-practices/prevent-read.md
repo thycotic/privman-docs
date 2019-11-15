@@ -5,15 +5,14 @@
 
 You can restrict access to specific file types or locations using Privilege Manager. To prevent read / write access to file types or locations, do the following steps:
 * Create a Deny File Access Action
-* Create an Application Control Policy to which you will add the 
-* Deny File Access Action
+* Create an Application Control Policy to which you will add the Deny File Access Action
 * Test the privilege reduction you've just created
 
 In the following scenario you will create a Microsoft Word document and save it on your machine to:
 
 `c:\company invoices\invoice 101.doc`
 
-## Create a deny file access action
+## Create a Deny File Access Action
 
 1. Navigate to __ADMIN | Actions__.
 1. Under Filter Type enter __Deny File Access Action__.
@@ -30,7 +29,7 @@ In the following scenario you will create a Microsoft Word document and save it 
    ![Edit new action](images/prevent-read/pr-3.png)
 1. Click __Save__.
 
-## Create an application control policy
+## Create an Application Control Policy
 
 1. Navigate to __ADMIN | Policies__.
 1. Click __New Policy__.
@@ -66,4 +65,3 @@ Verify that the restricted access you set up was successful by applying the foll
 * Create a new document and attempt to save it to `c:\company invoices\`. You will be unable to open it and will receive a File Permission error.
 * Verify that you can create or modify a Word document in a different directory.
 * In Microsoft Excel, save a spreadsheet to `c:\company invoices\invoice 101.doc`. The permissions are limited to Microsoft Word.
- 

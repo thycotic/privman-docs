@@ -73,3 +73,7 @@ The Server will stop accepting data sent from agents that are in violation of th
 * No password changes will occur, etc.
 * Policies will run on the endpoint, but the server will completely discard the data, and it won’t be stored.
 * Tasks will not run – all automation will stop and event Discovery will not inventory users or applications, new endpoints won’t be discoverable.
+
+## 10.7 and up Reset Licensing
+
+If you need to reset licenses for your Privilege Manager instance refer to the [Reset Licensing](../tasks/reset-license.md) topic.

@@ -1,6 +1,6 @@
 [title]: # (Password Management)
 [tags]: # (managed users)
-[priority]: # (3003)
+[priority]: # (3004)
 # Password Management
 
 Local Security allows administrators to manage users and also to manage passwords and password rotation. Managing users, passwords, and rotation scheduled often go hand-in-hand, but not every managed user account also requires password rotation. For example, service accounts are managed, but usually do not have password rotation setup.

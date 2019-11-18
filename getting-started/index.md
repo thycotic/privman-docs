@@ -47,7 +47,6 @@ Refer to the Local Security documentation pages to learn more about:
 
 Refer to the Application Control documentation pages to learn more about:
 
-
 * [Application Control - Policy & Config Overview / Collecting File Data](../app-control/policies/index.md)
 * [Sending Policies to Endpoints - View Deployment Status / Update Using Powershell / Agent Event Log Viewer](../app-control/policies/ac-policy-endpoints.md)
 * [Event Discovery - Learning Mode Policies & Examples / View Policy Results](../app-control/policies/ac-event-discovery.md)

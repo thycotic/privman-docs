@@ -44,7 +44,7 @@ To set a password for this account, enter a new password twice to confirm, then 
 
 The second box under the User Details tab is called __Password Details__. This option is generally used for privileged accounts that you want fully managed by Privilege Manager. To manage your password this way, select Edit in the Password Details box, then check the Password Management box and edit password length and strength rules. The password on this account will be rotated based on the Update Schedule details (click on the details in blue to edit). Save Changes when complete. The password for the account on each endpoint in the Computer Group will be unique.
 
-![Managed Passward for Local User Account](images/ls-manage-pw-lu.png)
+![Managed Password for Local User Account](images/ls-manage-pw-lu.png)
 
 If the password is being managed, the Update Schedule will determine when the new password will be applied. Note, the Account Details of the user do NOT need to be managed in order to manage the password on a local account.
 

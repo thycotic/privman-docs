@@ -1,6 +1,6 @@
 [title]: # (Performance Reporting)
 [tags]: # (reports)
-[priority]: # (2)
+[priority]: # (7001)
 # Performance Reporting
 
 Performance Reporting is available for Privilege Manager 10.5 and up.

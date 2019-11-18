@@ -16,6 +16,8 @@ Local Security is made up of
 * Local Groups
 * Local Users
 
+Under Reports various Local Security reports and summaries are available.
+
 ## Computer Groups
 
 These so called resource targets (as configured in Application Control) are specified sets of computers that meet certain criteria, that are targeted by certain policies and scheduled tasks.

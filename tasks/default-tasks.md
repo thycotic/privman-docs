@@ -25,7 +25,7 @@ By default this folder is empty. Administrators can use it to copy tasks for Hel
 
 ## Infrastructure Scheduled Activities
 
-These are tasks that pertain to either core functions  or to components and subcomponents of Privilege Manager.
+These are tasks that pertain to either core functions or to components and subcomponents of Privilege Manager.
 
 | Component | Task | Description |
 | ----- | ----- | ----- |

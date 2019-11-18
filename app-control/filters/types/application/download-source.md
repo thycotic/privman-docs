@@ -7,6 +7,8 @@ The filter checks where a file is being downloaded from. This filter allows you 
 
 ![download source filter](images/download_source.png)
 
+This filter is available for both Windows and macOS systems.
+
 ## Parameters
 
 The filter checks for the existence of download source information associated with a file.

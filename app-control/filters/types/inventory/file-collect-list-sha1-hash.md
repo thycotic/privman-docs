@@ -9,6 +9,8 @@ When creating this filter the target hashes need to be entered as a comma-separa
 
 ![New SHA1 Hashes filter](images/sha1/new-sha1.png)
 
+This filter is available for both Windows and macOS systems.
+
 ## Parameters
 
 Once the filter is created, the following settings can be edited:

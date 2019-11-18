@@ -7,6 +7,8 @@ This filter identifies files based on their file path, or location on a computer
 
 ![file specification filter](images/fs_1.png)
 
+This filter is available for both Windows and macOS systems.
+
 ## Examples
 
 1. Navigate to __Admin | More…__ and select __Filters__.

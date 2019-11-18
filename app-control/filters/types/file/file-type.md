@@ -5,6 +5,9 @@
 
 This filter identifies files based on what type of file it is. *No out-of-box filters exist in Privilege Manager for this type*.
 
+![File Type Filter](images/file-type.png)
+
 ## Parameters
 
-## Examples
+* File Extensions
+* MIME Types

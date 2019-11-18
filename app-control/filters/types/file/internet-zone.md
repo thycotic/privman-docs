@@ -5,6 +5,15 @@
 
 This filter identifies what internet zone a computer is connected to on your network, such as Trusted Sites and Local Intranet. *No out-of-box filters exist in Privilege Manager for this type*.
 
+![Internet Zone Filter](images/internet-zone.png)
+
 ## Parameters
 
-## Examples
+* Existence of any zone information
+* Standard zone:
+
+  * Local Intranet
+  * Trusted Sites
+  * Internet
+  * Restricted Sites
+* Custom Zone IDs

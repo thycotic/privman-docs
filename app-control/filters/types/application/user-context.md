@@ -12,6 +12,8 @@ The User Context Filters are part of the Application Filter templates listed for
 
 ![User Context Filter templates](images/user_context.png)
 
+This filter is available for both Windows and macOS systems.
+
 ## On-Premise
 
 For Privilege Manager on-premises the __User Context Filter__ can be used after the Active Directory synchronization completes. When creating and editing the filter, add any 

@@ -5,6 +5,8 @@
 
 These filters will perform an exact, partial or regex match on the commandline of the process. Privilege Manager comes with default commandline filter types, which are all read-only, but can be copied to be customized.
 
+This filter is available for both Windows and macOS systems.
+
 ## Search for Commandline Filters
 
 1. Navigate to __Admin | More...__ and select __Filters__.

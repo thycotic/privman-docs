@@ -7,6 +7,8 @@ This type of filter identifies file inventory based on another computer's file s
 
 ![New File Scan Results filter](images/scan-results/scan-results-computer-1.png)
 
+This filter is available for both Windows and macOS systems.
+
 ## Parameters
 
 Once the filter is created the following settings can be edited:

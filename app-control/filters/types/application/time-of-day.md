@@ -7,6 +7,8 @@ This type of filter exists to create policy parameters for specific time frames.
 
 ![Time of Day Filter](images/time-of-day-filter.png)
 
+This filter is available for both Windows and macOS systems.
+
 ## Parameters
 
 The time of day filter has two different settings to allow you to set time and day allowances.

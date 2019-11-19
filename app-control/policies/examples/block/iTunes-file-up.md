@@ -4,6 +4,8 @@
 # iTunes with File Upload
 
 As we've seen, there are multiple ways to introduce a new application into Privilege Manager before assigning a policy to it. For this example we will perform a File Upload for the iTunes installer to quickly Blacklist the iTunes program from running on target endpoints.
+
+>**Note:** When the iTunes default filter is used to verify the correct Company name is entered to match the application targeted by the policy.
   
 First create the iTunes filter by using downloaded iTunes files:
 

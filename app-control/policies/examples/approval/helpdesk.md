@@ -18,7 +18,7 @@ To enable elevation requests in ACS, do the following steps:
 1. In the file library in the left pane, navigate to Application Control | Policies | Privilege Management | User Requested MSI Elevation Justification Policy.
 1. In the policy settings in the right pane, click the red Off button to enable the policy. Click the Application Actions tab.
 1. Under Applications, select Applications action (the default action is Approval Request Form Action or you can create a new request message for a third-party integration).
-1. Click Apply To and apply the policy to targeted computers. 
+1. Click Apply To and apply the policy to targeted computers.
 1. Click Save.
 
 After you save the policy and the agent receives the update, the new message looks like this:

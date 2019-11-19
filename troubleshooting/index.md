@@ -35,6 +35,7 @@ The following troubleshooting topics are available:
 
 * [Endpoint Troubleshooting](endpoint/endpoint-issues.md)
 * [How to Recover an Unresponsive macOS Endpoint](endpoint/recover-unresponsive-macOS-endpoint.md)
+* [Catalina FileSystemWatcher Issue](endpoint/filesystemwatcher.md)
 
 ## [Troubleshooting Tools](tools/index.md)
 

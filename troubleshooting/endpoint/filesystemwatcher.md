@@ -3,7 +3,7 @@
 [priority]: # (2)
 # Catalina FileSystemWatcher Issue
 
-To prevent application control problems on macOS Catalina based endpoints due the known macOS FileSystemWatcher issue, Thycotic provides the Remote Scheduled Client Command policy __Retry errored TMS Events - Catalina (macOS)__.
+On macOS Catalina there is a known issue, preventing the the agent from receiving notification of events that need to be sent to the server. To workaround this, the __Retry errored TMS Events - Catalina (macOS)__ policy can be enabled to ensure all events get sent to the server.
 
 The defaults for this new Remote Scheduled Client Command are as follows:
 
@@ -13,13 +13,13 @@ The defaults for this new Remote Scheduled Client Command are as follows:
 
 * On the Triggers tab:
 
-  Customize the schedule if necessary to best suits your particular implementation.
+  Customize the schedule if necessary to best suit your particular implementation.
 
   ![Triggers Tab](images/catalina/retry-events-2.png)
 
 * On the Targets tab:
 
-  The default resource targets required is specified by default as __All macOS Catalina Computers with Application Control Agent Installed (Target)__. The results of the computer group include any macOS Catalina computers are that have the agent installed and are properly configured for Application Control.
+  The default resource targets required are specified by default as __All macOS Catalina Computers with Application Control Agent Installed (Target)__. The results of the computer group include any macOS Catalina computers that have the agent installed and are properly configured for Application Control.
 
   ![Targets Tab](images/catalina/retry-events-3.png)
 
@@ -31,4 +31,4 @@ The defaults for this new Remote Scheduled Client Command are as follows:
 
   ![Advanced Tab](images/catalina/retry-events-5.png)
 
-Once the policy is enabled on an endpoint, the agent performs the __Retry errored TMS Client Events (MacOS)__ command and send any files that might be in the /Library/Application Support/Thycotic/Agent/Transfer due to the Catalina FileSystemWatcher bug.
+Once the policy is enabled on an endpoint, the agent will perform the __Retry errored TMS Client Events (MacOS)__ command and send any events that have not been sent.

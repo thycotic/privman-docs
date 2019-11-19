@@ -1,4 +1,4 @@
-[title]: # (How to Recover an Unresponsive macOS Endpoint)
+[title]: # (macOS - Unresponsive Endpoint)
 [tags]: # (system recovery)
 [priority]: # (2)
 # How to Recover an Unresponsive macOS Endpoint

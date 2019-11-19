@@ -3,8 +3,14 @@
 [priority]: # (3)
 # App Bundle Filter
 
-This type of filter identifies app bundles for MacOS machines.
+This type of filter identifies app bundles for macOS systems.
+
+![MacOS application bundle filter](images/app-bundle.png)
 
 ## Parameters
 
-## Examples
+* Bundle Name
+* Bundle Path
+
+  * Include subdirectories
+* List of bundle properties to match, which can be selected.

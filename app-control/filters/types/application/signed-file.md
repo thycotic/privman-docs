@@ -14,6 +14,8 @@ These filters can be used in several of the following ways:
 
 Signed Application filters identify applications based on their digital certificates.
 
+This filter is available for both Windows and macOS systems.
+
 ## Parameters
 
 Under Settings users: 

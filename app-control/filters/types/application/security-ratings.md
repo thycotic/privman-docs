@@ -7,6 +7,8 @@ If you have integrated Privilege Manager with a Reputation Checking provider lik
 
 ![Security ratings filter](images/security-ratings-1.png)
 
+This filter is available for both Windows and macOS systems.
+
 ## Parameters
 
 ![Security ratings filter](images/security-ratings-2.png)

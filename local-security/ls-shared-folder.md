@@ -17,14 +17,3 @@ To inventory shared folders on computers that have the local security agent inst
 1. Click __Save__.
 
    ![Enable](images/Shared-folder/sh-2.png)
-
-## Run a Task
-
-1. Navigate to __ADMIN | Tasks__.
-1. Expand __Client Tasks | Local Security__.
-
-   ![Tasks](images/Shared-folder/sh-3.png)
-1. Click on __Shared Folder Inventory Task__.
-
-   ![Tasks](images/Shared-folder/sh-4.png)
-1. You can run the __Shared Folder Inventory Task__ or set a schedule for the task to run on by navigating to the __Schedules__ tab.

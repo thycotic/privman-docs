@@ -10,8 +10,6 @@ Many organizations as a best practice restrict their privilege manager web serve
 
 To resolve this functional issue while maintaining security Thycotic supports agent connections through a Reverse Proxy which can live in the DMZ. The proxy will filter connection requests and only forward those from the agents allowing communication while signifigantly reducing the potential attack surface. Proxy's can be configured using many different networking tools and in this document we will show how to do so with Windows Application Request Routing in IIS
 
-You can use nginx, F5, or Windows Application Request Routing 3.0 and URL Rewrite in IIS on a DMZ Server. The steps below walk through a reverse proxy using IIS and Windows Application Request Routing.
-
 In this setup, only the endpoint agent needs to be accessible via HTTPS. It is important to note that the certificate being used for HTTPS communication should be the same certificate that is installed on your Privilege Manager web server.
 
 ## System Specifications

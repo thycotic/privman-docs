@@ -25,7 +25,7 @@ How do you target Preference Panes on macOS endpoints? On versions of Privilege 
 ## Catalina Preference Pane Error
 
 The File Specification Filter definition does not work on macOS 10.15 (Catalina) when the File Names field starts with __com.apple.preference__ and/or Path field starts with __/System/Library/PreferencePanes/__.
-Any Policies leveraging these filter definitions is also impacted.
+Any Policies leveraging these filter definitions are also impacted.
 
 Your endpoint will display an error identifying the targeted preference pane:
 

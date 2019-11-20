@@ -53,9 +53,7 @@ If you previously had evaluation licenses and recently purchased, you will need 
 
 ## Expired Licenses
 
-When your Privilege Manager licenses expire or have exceeded the licensed count, Privilege Manager will revert to a “Limited Mode,” meaning that the server will stop accepting data sent from agents. Additionally, new endpoints will register but will not be recorded. This means the endpoint won’t be added to Computer Groups (Resource Targets), can’t collect application or user inventories, no password changes will be able to occur, etc.
-
-Configured policies will continue to run on endpoint machines but will not be able to be updated or edited. Moreover, the server will completely discard the data that agents send to Privilege Manager, and it won’t be stored.
+When your Privilege Manager licenses expire or have exceeded the licensed count, Privilege Manager will stop processing new inventory and application control events. Endpoints will continue to enforce policies.
 
 ## Client vs. Server Licenses
 
@@ -73,3 +71,7 @@ The Server will stop accepting data sent from agents that are in violation of th
 * No password changes will occur, etc.
 * Policies will run on the endpoint, but the server will completely discard the data, and it won’t be stored.
 * Tasks will not run – all automation will stop and event Discovery will not inventory users or applications, new endpoints won’t be discoverable.
+
+## 10.7 and up Reset Licensing
+
+If you need to reset licenses for your Privilege Manager instance refer to the [Reset Licensing](../tasks/reset-license.md) topic.

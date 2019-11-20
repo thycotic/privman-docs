@@ -53,7 +53,7 @@ If you previously had evaluation licenses and recently purchased, you will need 
 
 ## Expired Licenses
 
-When your Privilege Manager licenses expire or have exceeded the licensed count, Privilege Manager will revert to a “Limited Mode. Additionally, new endpoints will register but will not be recorded. This means the endpoint won’t be added to Computer Groups (Resource Targets), can’t collect application or user inventories, no password changes will be able to occur, etc.
+When your Privilege Manager licenses expire or have exceeded the licensed count, Privilege Manager will stop processing new inventory and application control events. Endpoints will continue to enforce policies.
 
 ## Client vs. Server Licenses
 

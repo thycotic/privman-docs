@@ -60,17 +60,17 @@ __Persona__ - Personas manage sets of privileges that are assigned to users on s
 
 __Policy__ – A set of conditions (Filters) that, when met, will apply an action to managed resources (target computers).
 
-* __Blacklisting__ – Blacklisting is a type of policy that will block an application from running based on a determined set of criteria.
-* __Catch-All__ Policy – A Catch-All policy is a type of Learning Mode policy that will gather information about any unknown events that happen in your network. 
+* __Blocking__ – Type of policies that will deny an application from running based on a determined set of criteria.
+* __Catch-All__ Policy – A Catch-All policy is a type of Learning Mode policy that will gather information about any unknown events that happen in your network.
 * __Elevation Policy__ – An Elevation Policy will allow specified applications to run with administrator credentials.
-* __Greylisting__ – Greylisting is a dynamic method of managing applications that might not be included on a whitelist or blacklist. Instead of trying to anticipate every executable users will run, you can apply a flexible policy that includes actions or reputation checking for unknown applications.
-* __Whitelisting__ – Whitelisting is a type of policy that will allow applications to run according to normal user credentials. This is often considered a neutral policy to specify trusted applications.
+* __Monitoring__ – Monitoring is a dynamic method of managing applications that might not be included on a safelist or blocklist. Instead of trying to anticipate every executable users will run, you can apply a flexible policy that includes actions or reputation checking for unknown applications.
+* __Non-Blocking__ – Types of policies that will allow applications to run according to normal user credentials. This is often considered a neutral policy to specify trusted applications.
 
 __Policy Priority__ – Policies are evaluated in a certain order for each application that runs. If one policy blocks an application and ends execution before a second policy that was intended to elevate privileges, then only the block will occur. It is important to have an awareness of all policies that are defined and the order in which they are called by the agent. 
 
 __RDP Monitor__ – Discontinued with version 10.6. The RDP Monitor is used to configure the Enhanced Session Monitoring feature in Secret Server.  It is found in Privilege Manage because this feature uses the agent architecture defined by Privilege Manager, however this feature typically is not used in a Privilege Manager PoC.
 
-__Reputation Engine__ – Privilege Manager can call upon a reputation engine (e.g. VirusTotal) in real-time to check an application’s public reputation.  One can create a reputation checking policy in Privilege Manager through Greylisting policies.  This type of policy can take application information and send it to the engine in real-time and act on the application based on the returned reputation. For example, if the reputation engine returns a BAD grade, the application can be denied. It is recommended to apply this type of policy to specific directories where new or unknown applications might reside – like the Downloads, TEMP, or Desktop directory. 
+__Reputation Engine__ – Privilege Manager can call upon a reputation engine (e.g. VirusTotal) in real-time to check an application’s public reputation.  One can create a reputation checking policy in Privilege Manager through Monitoring policies.  This type of policy can take application information and send it to the engine in real-time and act on the application based on the returned reputation. For example, if the reputation engine returns a BAD grade, the application can be denied. It is recommended to apply this type of policy to specific directories where new or unknown applications might reside – like the Downloads, TEMP, or Desktop directory. 
 
 __Resource Targets__ – (also called Computer Groups) Specified sets of computers that meet certain criteria (e.g. type of operating system, location of the computer, etc) that are targeted by certain policies and scheduled tasks. 
 

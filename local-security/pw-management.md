@@ -55,4 +55,4 @@ The managed user and password management is now setup.
 
 * __All Computers with Managed Passwords__: Lists all computers that have at least one local user with a managed password.
 * __Password Disclosure History__: Lists all local and provisioned user's passwords that have been disclosed in a given time frame.
-* __Disclosure Summary (Local User)__: List all local users whose managed password has been disclosed in the given timeframe.
+* __Disclosure Summary (Local User)__: Lists all local users whose managed password has been disclosed in the given time frame.

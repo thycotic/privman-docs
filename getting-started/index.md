@@ -1,22 +1,13 @@
 [title]: # (Getting Started)
 [tags]: # (initial login)
 [priority]: # (500)
-# Getting Started Overview
+# Getting Started Overview - On-premises
 
-## Cloud
-
-The following topics provide a guided path through the instance setup and subsequent initial sign-in steps of a cloud Privilege Manager instance.
-
-* [Cloud Quickstart Guide](cloud-quickstart.md)
-* [Cloud Login](cloud-init.md)
-
-## On-premises
-
-The following topics provide a guided path through the on-premises installation and setup steps that are part of the initial stand-up of an on-premises Privilege Manager integration.
+The following topics provide a guided path through the on-premises installation and setup steps that are part of the initial stand-up of an on-premises Privilege Manager deployment. For cloud specific getting started instructions refer to [Getting Started Overview - Cloud](cloud/index.md).
 
 ### Preliminary Configuration
 
-Refer to these documentation pages to learn more about about the initial installation and setup steps:
+Refer to these topics to learn more about the initial installation and setup steps:
 
 1. [System Requirements](../install/sysreq.md)
 1. [Antivirus Exclusions](../install/antivirus-exclusions.md)
@@ -27,7 +18,7 @@ Refer to these documentation pages to learn more about about the initial install
 1. [Login](login.md)
 1. [Licenses](licenses.md)
 
-#### Rollout Recommendation
+## Rollout Recommendation
 
 Familiarize yourself with the [Least Privilege](../pm-intro/least-privilege.md) concept. Thycotic recommends a phased roll-out between the Application Control and Local Security, for example:
 

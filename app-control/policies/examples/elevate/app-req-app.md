@@ -1,7 +1,7 @@
-[title]: # (App Execution Requires Approval)
+[title]: # (Execution Requires Approval)
 [tags]: # (elevate)
 [priority]: # (10)
-# App Execution Requires Approval
+# Application Execution Requires Approval
 
 This policy type requires a user to provide a justification reason as to why they need to run a process (installer or executable). Then, the reason is submitted to specified managers via Privilege Manager __Tools | Manage Approvals__ for approval. It also depends on whether or not the Manual Approval process is used. For instance, if you have configured Service Now as your approval process handler, these approval requests won't appear in the __Tools | Manage Approvals__ area. There are several pieces to the Actions in this policy. Because Conditions and Actions are independent, these actions for approval can be applied to any condition.  In this use case, we will apply this action to the LICEcap gif creator.  
 First create a filter that will identify the process/executable on which Privilege Manager will act.

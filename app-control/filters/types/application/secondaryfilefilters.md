@@ -1,4 +1,4 @@
-[title]: # (Secondary File Filters)
+[title]: # (Secondary File)
 [tags]: # (policy, deny, allow, best practice)
 [priority]: # (2)
 # Using Secondary File Filters

@@ -1,4 +1,4 @@
-[title]: # (App Bundle Filter)
+[title]: # (App Bundle)
 [tags]: # (filter types)
 [priority]: # (3)
 # App Bundle Filter

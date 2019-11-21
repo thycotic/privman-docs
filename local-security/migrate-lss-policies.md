@@ -3,7 +3,7 @@
 [priority]: # (3010)
 # Migrate Local Security Policies
 
-In support of the Silverlight End-of-Life product cycle, Privilege Manager provides a migration path for Local Security implementations that previously utilized Silverlight.
+The migration path to the latest Local Security implementation provides an analysis report of issues like missing account credentials, or accounts that are not unique across targets, which can then be remediated before the migration.
 
 >**Note**:
 >Thycotic recommends to use a Professional Services engagement when migrating local security to Privilege Manager 10.7 or newer.

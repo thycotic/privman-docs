@@ -1,4 +1,4 @@
-[title]: # (File Type Filter)
+[title]: # (File Type)
 [tags]: # (filter types)
 [priority]: # (2)
 # File Type Filter

@@ -1,6 +1,6 @@
-[title]: # (Require Justification - FireFox)
+[title]: # (Justification - FireFox)
 [tags]: # (standard user, policy, macOS)
-[priority]: # (4802)
+[priority]: # (7)
 # Require Justification - FireFox
 
 The following example provides information on setting up a justification required policy for FireFox on a macOS endpoint.

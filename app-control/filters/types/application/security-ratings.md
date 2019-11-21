@@ -1,4 +1,4 @@
-[title]: # (Security Ratings Filter)
+[title]: # (Security Ratings)
 [tags]: # (filter types)
 [priority]: # (2)
 # Security Rating Filter

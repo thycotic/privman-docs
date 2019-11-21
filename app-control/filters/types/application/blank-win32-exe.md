@@ -1,4 +1,4 @@
-[title]: # (Blank Win32 Executable Filter)
+[title]: # (Blank Win32 Executable)
 [tags]: # (filter types)
 [priority]: # (2)
 # Blank Win32 Executable Filter

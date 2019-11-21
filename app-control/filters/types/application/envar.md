@@ -1,4 +1,4 @@
-[title]: # (Environment Variable Filter)
+[title]: # (Environment Variable)
 [tags]: # (filter types)
 [priority]: # (2)
 # Environment Variable Filter 

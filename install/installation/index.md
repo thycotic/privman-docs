@@ -1,7 +1,7 @@
-[title]: # (Privilege Manager Installation)
-[tags]: # (Installation,basic,Privilege Manager)
+[title]: # (Installation)
+[tags]: # (installation,basic)
 [priority]: # (1503)
-# Basic Product Installation
+# Product Installation - Basic
 
 ## Prerequisites
 
@@ -82,5 +82,3 @@ The latest version of Privilege Manager is available for download. By clicking t
 1. On the __Finish__ tab, when the install has successfully completed, click the provided Privilege Manager URL to navigate directly to your setup landing page or open a browser and navigate to where your Privilege Manager is located, for example: http://localhost/TMS/PrivilegeManager.
 
    ![Finish dialog](images/install/inst_finish_20190327.png)
-
-   For more information about using Privilege Manager see the resources listed in the support portal <a href="https://thycotic.force.com/support/s/privilege-manager">here</a>.

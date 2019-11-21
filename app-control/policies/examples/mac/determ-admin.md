@@ -1,6 +1,6 @@
 [title]: # (Determine Admin Requirement)
 [tags]: # (macOS,policy)
-[priority]: # (4801)
+[priority]: # (7)
 # Determine Admin Requirement
 
 Use discovery with event notification to determine if an application requests or requires administrative privileges to perform tasks or run on a macOS endpoint.

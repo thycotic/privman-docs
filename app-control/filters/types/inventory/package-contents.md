@@ -1,4 +1,4 @@
-[title]: # (Package Contents Filter)
+[title]: # (Package Contents)
 [tags]: # (filter types)
 [priority]: # (2)
 # Package Contents Filter

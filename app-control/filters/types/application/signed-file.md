@@ -1,4 +1,4 @@
-[title]: # (Signed File Filter)
+[title]: # (Signed File)
 [tags]: # (filter types)
 [priority]: # (2)
 # Signed File Filter

@@ -10,6 +10,7 @@ In Privilege Manager 10.7 the [Restrict File Dialogs](../../../actions/default-a
 Topics in this section:
 
 * [UAC Override Policy](uac-override.md)
+* [Elevating the Privilege Manager Remove Programs Utility Policy](pm-remove-prog.md)
 * [Elevate Applications launched from Network Share Policy](network-share.md)
 * [Elevate Applications whose Execution Requires Approval](app-req-app.md)
 * [Elevate Applications that Require User Justification](user-just.md)

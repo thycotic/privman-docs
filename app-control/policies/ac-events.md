@@ -7,15 +7,19 @@ This topic is about the maximum number of application control events to be store
 
 ## Events
 
-Application control events (which we will henceforth refer to just as "events") are created if you choose to have one or more policies send feedback (from the endpoint to the server) each time the policy is triggered.
+Application control events (which going forward are referred to as "events") are created if you choose to have one or more policies send feedback (from the endpoint to the server) each time the policy is triggered.
 
-To view or set the option to request this policy feedback, navigate to:
+To view or set the option to request this policy feedback, 
 
-* Admin | Policies | [policy name in list of policies] | Actions tab
+1. Navigate to __Admin | Policies | [policy name in list of policies]__.
+1. Click __Edit__.
+1. Select the __Actions__ tab.
 
-  ![Send Policy Feedback check](images/events/send_policy.png)
+   ![Send Policy Feedback check](images/events/send_policy.png)
 
-The help tip (shown in the blue message box in the screenshot) for the "Send policy feedback" option explains how events are generated to be stored: "Enabling send policy feedback means that any time this policy is triggered an event will be sent to the server."
+   The help tip (shown in the blue message box in the screenshot) for the "Send policy feedback" option explains how events are generated to be stored: "Enabling send policy feedback means that any time this policy is triggered an event will be sent to the server."
+1. Select the __Send Policy Feedback__ checkbox.
+1. Click __Save__.
 
 ## Storage and Manual Purging of Events
 
@@ -23,7 +27,7 @@ In Privilege Manager versions prior to 10.6, all events continued to be stored u
 
 ### Manually Purge Events
 
-1. Navigate to __Admin | Configuration | General__ tab
+1. Navigate to __Admin | Configuration__ and select the __General__ tab
 
   ![Purge Maintenance - Application Control Events](images/events/purge_maint.png)
 1. In the "Maintenance Settings" section of this page, click on "Purge Maintenance - Application Control Events".
@@ -43,7 +47,7 @@ Privilege Manager version 10.6 includes an option to specify the maximum number 
 
 ### Maximum Event Count: Basics
 
-1. Navigate to __Admin | Configuration | Advanced__ tab.
+1. Navigate to __Admin | Configuration__ and select the __Advanced__ tab.
 
   ![Maximum Event Count](images/events/max_events.png)
 

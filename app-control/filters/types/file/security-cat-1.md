@@ -1,4 +1,4 @@
-[title]: # (Security Catalog Filter)
+[title]: # (Security Catalog)
 [tags]: # (filter types)
 [priority]: # (2)
 # Security Catalog Filter

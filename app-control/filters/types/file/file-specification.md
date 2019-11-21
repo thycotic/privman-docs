@@ -1,4 +1,4 @@
-[title]: # (File Specification Filter)
+[title]: # (File Specification)
 [tags]: # (filter types)
 [priority]: # (2)
 # File Specification Filter

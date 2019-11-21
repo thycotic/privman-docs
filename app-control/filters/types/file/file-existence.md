@@ -1,4 +1,4 @@
-[title]: # (File Existence Filter)
+[title]: # (File Existence)
 [tags]: # (filter types)
 [priority]: # (2)
 # File Existence Filter

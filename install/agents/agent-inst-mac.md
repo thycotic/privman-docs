@@ -1,6 +1,6 @@
 [title]: # (macOS Agents)
 [tags]: # (endpoint,installation,registration)
-[priority]: # (603)
+[priority]: # (1603)
 # macOS Agents
 
 Use the links below to download the agents installation software for macOS based endpoints.
@@ -85,7 +85,7 @@ For more instructions on how to deploy in bulk using Microsoft Software System C
 If the Mac already has an existing __agentconfig.json__ file, it will NOT be overwritten because creating a file only occurs if the computer didn’t already have an __agentconfig.json__ installed. This means you can use the same distribution package for upgrades and new installs.
 
 >**Note**:
->It will take 15-30 minutes for newly installed agents to register in Privilege Manager. See the agent registration information in the [Terminal Commands](https://dev.homer.thycotic.net/privman/0.1.0-dev/install/agents/agent-inst-mac.md#terminal_commands) section to speed the process up.
+>It will take 15-30 minutes for newly installed agents to register in Privilege Manager. See the agent registration information in the [Terminal Commands](agent-inst-mac.md#terminal_commands) topic to speed the process up.
 
 Agents receive new policies on a schedule which can be modified. To check the schedule, 
 
@@ -100,7 +100,7 @@ For troubleshooting your Mac agent, logs are found in the Console application. T
 * First, you can filter your machine's logs by clicking your machine's name under Devices and typing "Thycotic" into the top search bar.
 * Second, Thycotic-specific logs are recorded in a Console folder that is titled thycotic (found in the left side bar: Reports | /var/log | thycotic).
 
-### Terminal Commands
+## Terminal Commands
 
 In the Mac Terminal application you can perform the following commands directly to your Thycotic macOS agent.
 
@@ -128,7 +128,7 @@ enableverboselogging
 disableverboselogging
 ```
 
-#### Command Usage
+### Command Usage
 
 To perform a command, insert the name of the above command that you need to perform into this command string:  
 
@@ -159,7 +159,7 @@ Initiated registration.
 macadmin-MacBook-Pro:~ madadmin$
 ```
 
-### Uninstalling an Agent
+## Uninstalling an Agent
 
 When you need to uninstall the macOS Agent, use the __Uninstall.sh__ shell command:
 

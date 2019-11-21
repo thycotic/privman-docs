@@ -1,4 +1,4 @@
-[title]: # (Internet Zone Filter)
+[title]: # (Internet Zone)
 [tags]: # (filter types)
 [priority]: # (2)
 # Internet Zone Filter

@@ -1,4 +1,4 @@
-[title]: # (Preference Pane macOS)
+[title]: # (Preference Pane)
 [tags]: # (system preferences)
 [priority]: # (2)
 # Preference Pane macOS

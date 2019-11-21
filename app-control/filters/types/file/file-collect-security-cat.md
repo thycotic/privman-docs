@@ -1,4 +1,4 @@
-[title]: # (File Collection Security Catalog Filter)
+[title]: # (File Collection Security Catalog)
 [tags]: # (filter types)
 [priority]: # (2)
 # File Collection Security Catalog Filter

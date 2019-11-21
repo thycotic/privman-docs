@@ -1,4 +1,4 @@
-[title]: # (Virtual Disk Package Contents Filter)
+[title]: # (Virtual Disk Package Contents)
 [tags]: # (filter types)
 [priority]: # (2)
 # Virtual Disk Package Contents Filter

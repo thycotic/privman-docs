@@ -1,4 +1,4 @@
-[title]: # (Time of Day Filter)
+[title]: # (Time of Day)
 [tags]: # (filter types)
 [priority]: # (2)
 # Time of Day Filter

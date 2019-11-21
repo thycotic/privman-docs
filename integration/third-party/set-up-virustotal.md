@@ -1,4 +1,4 @@
-[title]: # (Set-up VirusTotal)
+[title]: # (VirusTotal)
 [tags]: # (integration)
 [priority]: # (9105)
 # Set-up VirusTotal Connection

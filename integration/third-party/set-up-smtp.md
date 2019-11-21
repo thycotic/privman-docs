@@ -1,4 +1,4 @@
-[title]: # (Set-up SMTP Connection)
+[title]: # (SMTP)
 [tags]: # (email server)
 [priority]: # (9103)
 # Set-up SMTP Connection

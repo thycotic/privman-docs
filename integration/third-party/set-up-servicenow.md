@@ -1,4 +1,4 @@
-[title]: # (Set-up ServiceNow Integration)
+[title]: # (ServiceNow)
 [tags]: # (integration)
 [priority]: # (9102)
 # Set-up ServiceNow Integration

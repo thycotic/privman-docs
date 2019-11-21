@@ -1,4 +1,4 @@
-[title]: # (How to prevent Backwards Compatibility for Agents v10.4 and earlier)
+[title]: # (Prevent Backwards Compatibility)
 [tags]: # (agent)
 [priority]: # (2)
 # How to prevent Backwards Compatibility for Agents v10.4 and earlier

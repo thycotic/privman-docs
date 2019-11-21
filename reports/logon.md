@@ -1,6 +1,6 @@
 [title]: # (Logon Session Summary Report)
 [tags]: # (logon)
-[priority]: # (7001)
+[priority]: # (7010)
 # Logon Session Summary Report
 
 The Summary report for recent Logon Sessions.

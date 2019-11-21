@@ -1,4 +1,4 @@
-[title]: # (Reverse Proxy Setup)
+[title]: # (Reverse Proxy)
 [tags]: # (reverse)
 [priority]: # (2)
 # Setting up a Reverse Proxy

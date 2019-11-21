@@ -1,7 +1,7 @@
-[title]: # (Exclude File Extension during File Hash)
+[title]: # (File Hash Exclusions)
 [tags]: # (secondary file filters)
 [priority]: # (8001)
-# Exclude File Extensions during File Hash
+# Exclude File Extensions during File Hashing
 
 The Thycotic Application Control Agent collects the file hash of a new process and also the hashes of the child processes it runs. Sometimes non-executable file types cause execution issues during the hashing process. Via the downloadable Configuration Feeds, Thycotic offers a policy template that provides the ability to exclude certain file extensions from the hash process.
 

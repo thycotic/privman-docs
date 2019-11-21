@@ -1,22 +1,21 @@
-[title]: # (Retrieving the COM class factory error)
+[title]: # (Retrieving COM Class Factory)
 [tags]: # (error, upgrading)
 [priority]: # (2)
-# Retrieving the COM class factory error
+# Retrieving the COM Class Factory Error
 
-While attempting to upgrade Privilege Manager, you receive the error message
-below when accessing
+While attempting to upgrade Privilege Manager, you receive an error message  when accessing
 [https://[YourInstanceName]/TMS/Setup](https://[YourInstanceName]/TMS/Setup).
+
 The window is unable to load with the following error message:
 
-*“Server Error in '/Tms/Setup' Application.*
+```error
+“Server Error in '/Tms/Setup' Application.
 
-*Retrieving the COM class factory for component with CLSID
-{228FB8F7-FB53-4FD5-8C7B-FF59DE606C5B} failed due to the following error:
-800703fa Illegal operation attempted on a registry key that has been marked for
-deletion. (Exception from HRESULT: 0x800703FA).”*
+Retrieving the COM class factory for component with CLSID {228FB8F7-FB53-4FD5-8C7B-FF59DE606C5B} failed due to the following error:
+800703fa Illegal operation attempted on a registry key that has been marked for deletion. (Exception from HRESULT: 0x800703FA).”
+```
 
-Resolve
--------
+## Resolve
 
 1.  Close the browser window.
 

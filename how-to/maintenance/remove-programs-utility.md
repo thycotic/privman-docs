@@ -1,4 +1,4 @@
-[title]: # (Using the Remove Program Utility)
+[title]: # (Remove Program Utility)
 [tags]: # (create,set-up)
 [priority]: # (2)
 # Using the Remove Programs Utility

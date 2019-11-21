@@ -15,6 +15,7 @@ The following troubleshooting topics are available:
 
 * [Agent Registration Error Following an OS Upgrade](agents/agent-not-registering.md)
 * [Running updateclientitems.ps1 on an Agent triggers an error](agents/agent-ps1-update.md)
+* [Client Item List Downloads](agents/failed-downloading-windows-group-policies-client-item-list.md)
 
 ## [Privilege Manager Logs](logs/index.md)
 
@@ -25,11 +26,16 @@ The following troubleshooting topics are available:
 ## [Performance Issues](performance/index.md)
 
 * [Improve Boot-up Performance](performance/boot-up.md)
+* [Unable to access Privilege Manager](performance/unable-to-access-privilege-manager.md)
 
 ## [Errors](errors/index.md)
 
 * [Common Errors](errors/ts-common.md)
 * [Error: Could not allocate space for object](errors/error-allocation.md)
+* [UI Storage Error Message](errors/storage-operation.md)
+* [Notify User Justification failed](errors/notify-user.md)
+* [Invalid Product Identifier](errors/invalid-product-identifier.md)
+* [Installation Hangs with Error: Worker Role Monitor received exception during ping](errors/worker-role-monitor-received-exception-during-ping.md)
 
 ## [Endpoint Troubleshooting](endpoint/index.md)
 

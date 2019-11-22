@@ -3,7 +3,7 @@
 [priority]: # (1599)
 # Item Encryption
 
-With version 10.5 and up, Encryption of items no longer requires app pool permissions on the machine's certificate store.
+With version 10.5 and up, encryption of items no longer requires app pool permissions on the machine's certificate store.
 
 ## What this means for Privilege Manager
 

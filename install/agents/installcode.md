@@ -30,4 +30,8 @@ If installing via a bundled installer, the install code is placed in the __Enter
 
 You can install the agent without an install code, but it will be unable to register with the server. To add an install code after the install, either run the bundled installer again or use the __SetAmsServer.ps1__ script in `c:\program files\thycotic\powershell\arellia.agent`.
 
-The __SetAmsServer.ps1__ script will ask for the server and a new install code.
+The __SetAmsServer.ps1__ script will ask for the server and a valid install code.
+
+If older agents are used, the __Prevent Legacy Agent Registration (10.4 and older)__ option might be checked under ADMIN | Configuration and the Advanced tab, which prevents older agents without install code from registering.
+
+If an agent was previously installed and never revoked, the endpoint will still have a valid certificate and a new agent can be installed with post-install registration.

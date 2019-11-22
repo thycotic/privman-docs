@@ -14,6 +14,7 @@ The following topic are available:
   * [Manual/Advanced Installation Instructions](installation/installation-adv.md)
   * [Item Encryption](installation/item-encryption.md)
 * [Agent Installation](agents/index.md)
+  * [Agent System Requirements](agents/agent-sysreq.md)
   * [Install Codes](agents/installcode.md)
   * [Windows Bundled Agent Install](agents/agent-inst-win-bundel.md)
   * [Windows](agents/agent-inst-win.md)

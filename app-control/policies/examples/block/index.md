@@ -7,8 +7,6 @@ Blocking is a policy that denies applications from running on your endpoints bas
 
 Thycotic Privilege Manager controls any application on a machine. When you configure Privilege Manager correctly, targeted applications can be elevated, whitelisted, or blocked. But if you create new policies without careful consideration then you can potentially block core system processes.
 
-When you install Privilege Manager, a block policy is enabled by default that targets "All block Security Rated Applications." However, this default policy does not contain any applications until you add them, so you can leave it enabled without any effect on the environment.
-
 Before you create new polices, keep in mind the following best practices:
 
 * Do not enable policies until after you have configured them. As a safety precaution, all newly-created application control policies are turned off until you enable them.

@@ -24,7 +24,7 @@ Throughout the installation process, you will be required to be an administrator
 
 ## Download the Latest Version of PM Installer
 
-The latest version of Privilege Manager is available for download. By clicking the “Automated” Installer link, a setup.exe file will be downloaded to your machine. It is recommended to run the setup.exe file as an administrator.
+The latest version of Privilege Manager is available for download under the [Software Downloads topic](../sw-downloads.md). By clicking the “Automated” Installer link, a setup.exe file will be downloaded to your machine. It is recommended to run the setup.exe file as an administrator.
 
 ## Running the Installer
 

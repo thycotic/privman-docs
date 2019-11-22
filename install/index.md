@@ -9,6 +9,7 @@ The following topic are available:
 
 * [System Requirements](sysreq.md)
 * [Recommended Anti Virus Exclusions](antivirus-exclusions.md)
+* [Software Downloads](sw-downloads.md)
 * [Installation](installation/index.md) - recommended installation procedure
   * [Manual/Advanced Installation Instructions](installation/installation-adv.md)
   * [Item Encryption](installation/item-encryption.md)

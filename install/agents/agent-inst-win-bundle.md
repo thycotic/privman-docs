@@ -8,7 +8,7 @@
 
 To install Thycotic agents __on a single testing machine__, follow these steps:
 
-1. Go to [Agent Downloads](https://tmsnuget.thycotic.com/software/Agents/ThycoticAgentsInstaller_x86_10_6_1080.exe) and download the __Bundled Agent Installer (Windows)__.
+1. Download the [Bundled Agent Installer - Windows](https://tmsnuget.thycotic.com/software/Agents/ThycoticAgentsInstaller_x86_10_6_1080.exe).
 1. Run the Thycotic Bundled Installer on the computer you want to manage.
 1. During the setup process, enter the Privilege Manager Server URL (or AZ Service Bus Queue URL) and the [Install Code](installcode.md) when prompted. 
 

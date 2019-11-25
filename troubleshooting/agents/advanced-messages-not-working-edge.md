@@ -3,7 +3,7 @@
 [priority]: # (2)
 # Advanced Messages not Working for Child Processes of Microsoft Edge
 
-when opting to Run an application from Microsoft Edge on Windows 10 version 1803, Advanced Messages for application justification or approval are not honored.
+When opting to Run an application from Microsoft Edge on Windows 10 version 1803, Advanced Messages for application justification or approval are not honored.
 
 ## Detailed Information
 

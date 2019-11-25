@@ -1,4 +1,4 @@
-[title]: # (File Scan Results Filter (Policy))
+[title]: # (File Scan Results Filter - Policy)
 [tags]: # (filter types)
 [priority]: # (2)
 # File Scan Results Filter (Policy)

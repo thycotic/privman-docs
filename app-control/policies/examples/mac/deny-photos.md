@@ -1,7 +1,7 @@
-[title]: # (Require Justification - FireFox)
+[title]: # (Deny Photos)
 [tags]: # (standard user, policy, macOS)
-[priority]: # (4802)
-# Deny Photos
+[priority]: # (7)
+# Deny Photos Application
 
 With your Learning Mode policy properly set up, anything you do on your Mac test machine will be discovered by Privilege Manager. For this example we will create a policy that blocks the Photos application as well as the PhotoBooth application.
 

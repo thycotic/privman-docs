@@ -1,4 +1,4 @@
-[title]: # (Network Location Filter)
+[title]: # (Network Location)
 [tags]: # (filter types)
 [priority]: # (2)
 # Network Location Filter 

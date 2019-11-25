@@ -1,4 +1,4 @@
-[title]: # (Unable to Access Cortana and Search for Windows 10)
+[title]: # (Unlocking via Security Catalog)
 [tags]: # (filter types)
 [priority]: # (2)
 # Unable to Access Cortana and Search for Windows 10
@@ -26,13 +26,10 @@ This issue might be due to the __Present in Signed Security Catalog__ not being 
    ![Deployment tab](images/sc-6.png)
 1. Click __Cache Policy__ | __Run Policy Targeting Update__.
 
->**Note**: Once the agents check back into the web console which by default occurs every 30 minutes, the machines will get the new policy changes. However
-if you would like to test the policy update on a specific machine, please continue to step 11.
-
-11. Go to the Machine(s) where you want to update the policy and open the Agent Utility. 
+   >**Note**: Once the agents check back into the web console which by default occurs every 30 minutes, the machines will get the new policy changes. However if you would like to test the policy update on a specific machine, please continue to step 11.
+1. Go to the Machine(s) where you want to update the policy and open the Agent Utility.
 
     e.g., `C:\Program Files\Thycotic\Agents\Agent`
-
-12. Click __Update__.
+1. Click __Update__.
 
     ![Cortana and Search](images/sc-7.png)

@@ -1,4 +1,4 @@
-[title]: # (File Scan Results Filter (Computer))
+[title]: # (File Scan Results Filter - Computer)
 [tags]: # (filter types)
 [priority]: # (2)
 # File Scan Results Filter (Computer)

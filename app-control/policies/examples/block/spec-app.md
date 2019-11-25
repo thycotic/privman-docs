@@ -3,7 +3,7 @@
 [priority]: # (4301)
 # Specific Applications
 
-To create a new policy that blacklists specific applications, do the following steps:
+To create a new policy that blocks specific applications, do the following steps:
 
 1. Begin by selecting Deny (Blacklist) Applications from the Privilege Manager Dashboard.
 2. Select Block Application by Name and click Next.

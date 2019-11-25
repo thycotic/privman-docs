@@ -1,7 +1,7 @@
 [title]: # (Reports and Queries)
 [tags]: # (overview)
 [priority]: # (7001)
-# Introduction
+# Reports and Queries
 
 Each report in Privilege Manager runs a SQL query to return the results. The application does a great job opening the existing queries it uses and generating resolved queries to be used for testing.
 

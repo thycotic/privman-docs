@@ -1,4 +1,4 @@
-[title]: # (Using Thycotic Monitor)
+[title]: # (Thycotic Monitor)
 [tags]: # (troubleshooting)
 [priority]: # (2)
 # Using  Thycotic Monitor

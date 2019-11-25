@@ -1,6 +1,6 @@
 [title]: # (Primary User)
 [tags]: # (primary)
-[priority]: # (7001)
+[priority]: # (7010)
 # Primary User
 
 The primary user is calculated by the data reported from the Logon Session inventory policy.  The primary user is considered to be the user with the most minutes on the machine.

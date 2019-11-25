@@ -1,4 +1,4 @@
-[title]: # (Set-up SCCM Integration)
+[title]: # (SCCM)
 [tags]: # (integration)
 [priority]: # (9101)
 # Set-up Microsoft System Center Configuration Manager (SCCM) Integration

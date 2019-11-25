@@ -1,4 +1,4 @@
-[title]: # (Commandline Filter)
+[title]: # (Commandline)
 [tags]: # (filter types)
 [priority]: # (2)
 # Commandline Filter

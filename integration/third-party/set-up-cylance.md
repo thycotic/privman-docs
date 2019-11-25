@@ -1,4 +1,4 @@
-[title]: # (Set-up Cylance Integration)
+[title]: # (Cylance)
 [tags]: # (integration)
 [priority]: # (9100)
 # Set-up Cylance Integration

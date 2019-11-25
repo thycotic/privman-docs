@@ -1,4 +1,4 @@
-[title]: # (Privilege Manager System Requirements)
+[title]: # (System Requirements)
 [tags]: # (ports,on-premises)
 [priority]: # (1501)
 # Privilege Manager System Requirements

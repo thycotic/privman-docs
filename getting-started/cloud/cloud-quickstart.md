@@ -1,6 +1,6 @@
 [title]: # (Quickstart)
 [tags]: # (cloud instance)
-[priority]: # (501)
+[priority]: # (2)
 # Cloud Quickstart Guide
 
 Privilege Manager Cloud is a scalable cloud platform, where all backend services, databases, and redundancy are securely managed by Thycotic and hosted on the Microsoft Azure platform. Customers do not have direct access to the databases or application file system.

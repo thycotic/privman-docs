@@ -8,7 +8,7 @@ The General Tab provides a quick access to Privilege Manager Maintenance tasks a
 
 ## Policy Targeting
 
-The Policy Targeting Update automatically caches the list of policies applicable to each agent by updating the collections and resource targets. 
+The Policy Targeting Update automatically caches the list of policies applicable to each agent by updating the collections and resource targets.
 
 ## Approval Types
 
@@ -19,7 +19,7 @@ For approval types can be specified as policy or file specific, a Security Ratin
 
 ## Approval Processes
 
-These are read-only items and by default Administrators are always allowed to approve any requests and an optionally an activity can be started as part of the approval.
+These are read-only items and by default Administrators are always allowed to approve any requests and an optionally activity can be started as part of the approval.
 
 * Default Manual Approval Process
 * Default Offline Approval Process

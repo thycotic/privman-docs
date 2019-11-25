@@ -30,10 +30,13 @@ The following actions are supported by macOS agents:
 * Quarantine Message
 * Run as Root (Elevate)
 
-The following macOS specific policy examples are available:
+## Available Topics
 
 * [Allow Copy/Install of Applications](copy-install.md)
 * [Request Application Installation](app-install-approval-request.md)
 * [Application Self-elevation](self-elevation.md)
 * [Use Discovery to Determine if an Application Requires Admin Privileges](determ-admin.md)
 * [Require Justification for Firefox](justification-firefox.md)
+* [Deny Photos Application](deny-photos.md)
+* [Adding macOS Agents to a Computer Testing Group](app-testing-group.md)
+* [Inventoring .pkg Files](inventory-pkg.md)

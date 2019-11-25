@@ -1,6 +1,6 @@
 [title]: # (Domain Users in Admin Group)
 [tags]: # (local security reports)
-[priority]: # (7003)
+[priority]: # (7010)
 # Domain Users in Administrator Group
 
 You can get instant reports by clicking the Reports tab. To see which domain users are members of the administrators group, view the domain users as local administrators report.

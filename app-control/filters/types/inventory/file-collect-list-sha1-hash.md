@@ -1,4 +1,4 @@
-[title]: # (File Collection from List of Sha1 Hashes Filter)
+[title]: # (File Collection from List of Sha1 Hashes)
 [tags]: # (filter types)
 [priority]: # (2)
 # File Collection from List of Sha1 Hashes Filter

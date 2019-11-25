@@ -1,4 +1,4 @@
-[title]: # (Set-up SysLog Connection)
+[title]: # (SysLog)
 [tags]: # (integration)
 [priority]: # (9104)
 # Set-up Syslog Connection

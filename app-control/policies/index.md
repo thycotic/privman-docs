@@ -47,7 +47,6 @@ You can avoid conflicts resulting from incorrectly configured Privilege Manager 
 * Assign policies that allow processes a lower policy priority number than policies that deny processes.
 * Make sure your other policy enforcement settings check boxes are selected or cleared, depending on the aims of your policy.
 * Policies that deny processes always exclude the following Application filters:
-
   * LocalSystem and Service
   * Signed Security Catalog
 * You should (almost) never use wildcards in deny policies–they should be considered only after performing extensive testing.

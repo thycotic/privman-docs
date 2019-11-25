@@ -1,7 +1,7 @@
-[title]: # (Unable to access Privilege Manager)
+[title]: # (Unable to Access)
 [tags]: # (sign in)
 [priority]: # (2)
-# Unable to access Privilege Manager
+# Unable to Access Privilege Manager
 
 When attempting to log in to Privilege Manager, you are unable to access the application window and see the following screen.
 

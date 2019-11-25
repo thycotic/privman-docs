@@ -1,7 +1,7 @@
-[title]: # (Release Notes - Privilege Manager)
+[title]: # (Release Notes)
 [tags]: # (read me)
 [priority]: # (30000)
-# Release Notes - Privilege Manager
+# Release Notes
 
 This section includes the most recent Privilege Manager Release Notes.
 

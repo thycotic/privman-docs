@@ -1,4 +1,4 @@
-[title]: # (Using Process Hacker)
+[title]: # (Process Hacker)
 [tags]: # (troubleshooting)
 [priority]: # (3)
 # Using Process Hacker for Troubleshooting

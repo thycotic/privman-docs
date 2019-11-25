@@ -12,6 +12,8 @@ Privilege Manager's Roles logic prevents the removal of a user account with an A
 >**Note**:
 >Privilege Manager manages the roles of users accessing the console, unless Privilege Manager is connected to Secret Server. When connected to Secret Server, role membership is controlled by Secret Server.
 
+Also refer to the following topic: [User Credentials and Roles](../credentials/ui-config-roles-user-credentials.md).
+
 All these roles are considered application role permissions.
 
 ## Privilege Manager Administrators

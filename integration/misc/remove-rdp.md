@@ -1,4 +1,4 @@
-[title]: # (Remove RDP Monitoring from Privilege Manager)
+[title]: # (Remove RDP Monitoring)
 [tags]: # (rdp,remove)
 [priority]: # (9400)
 # Remove RDP Monitoring from Privilege Manager

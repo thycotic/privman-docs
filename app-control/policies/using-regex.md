@@ -1,4 +1,4 @@
-[title]: # (Using RegEx in Policies)
+[title]: # (Using RegEx)
 [tags]: # (policy)
 [priority]: # (7)
 # Using RegEx in Policies and Filters

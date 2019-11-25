@@ -11,7 +11,8 @@ Application Control Solution (ACS) enables end users to request elevation and th
 * Microsoft SharePoint
 * ServiceNow
 
-## Enable elevation requests
+## Enable Elevation Requests
+
 To enable elevation requests in ACS, do the following steps:
 
 1. In the Thycotic Security Manager, click the Policies tab.
@@ -51,18 +52,18 @@ To access the Thycotic Help Desk Console, type the following URL into your web b
 
 The Help Desk Console is an area where employees who do not have full access to the Security Manager Console can perform their job functions, such as viewing and disclosing passwords, and responding to various requests.
 
-For details about giving specific users access to the Help Desk see Giving Help Desk Users Access to Arellia. <!-- shouldn't this be changed to Privilege Manager for all instances on this page? -->
+For details about giving specific users access to the Help Desk see Giving Help Desk Users Access to Privilege Manager. 
 
-The Help Desk Console includes the following tabs, which appear along the top of the screen:
+The Help Desk Console includes the tabs as described in the following topics.
 
 ### Disclose Passwords
 
-If the Arellia Local Security Solution is installed, then the Disclose Passwords tab will appear. In this area you can select a computer, view its managed passwords, and disclose those passwords. To see the process for viewing a password in the Help Desk Console, go to Disclosing Randomized Passwords via the Help Desk View.
+If the Privilege Manager Local Security Solution is installed, then the Disclose Passwords tab will appear. In this area you can select a computer, view its managed passwords, and disclose those passwords. To see the process for viewing a password in the Help Desk Console, go to Disclosing Randomized Passwords via the Help Desk View.
 
 ### Approve Requests
 
-In the Approve Requests tab you can approve or deny various requests. This tab is available with the default console configuration, but the available options will vary depending on which Arellia solutions are installed. Different Thycotic solutions have different request types. To learn more about responding to requests, go to Request Elevation.
+In the Approve Requests tab you can approve or deny various requests. This tab is available with the default console configuration, but the available options will vary depending on which solutions are installed. Different Thycotic solutions have different request types. To learn more about responding to requests, go to Request Elevation.
 
 ### Reports
 
-The Reports tab will be empty until reports are added to the Helpdesk Reports folder in the Security Manager Console. In this way, Administrators can make specific reports available to employees who do not have full access to all reporting.
+The Reports tab will be empty until reports are added to the Helpdesk Reports folder. This way, Administrators can make specific reports available to employees who do not have full access to all reporting.

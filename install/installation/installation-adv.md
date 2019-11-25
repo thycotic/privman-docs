@@ -1,7 +1,7 @@
 [title]: # (Advanced Installation)
 [tags]: # (manual)
-[priority]: # (504)
-# Advanced Installation
+[priority]: # (1504)
+# Installation - Advanced
 
 If you need to manually install Privilege Manager on a system and you already have an existing server installation, refer to the installation instructions described under the [High Availability Set-up for Privilege Manager](../how-to/ha_clustering.md). Thycotic recommends to always use the setup.exe installer to verify that your system meets the pre-requisites.
 

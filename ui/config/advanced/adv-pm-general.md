@@ -1,4 +1,4 @@
-[title]: # (General System Settings)
+[title]: # (System Settings)
 [tags]: # (general configuration)
 [priority]: # (3)
 # General System Settings

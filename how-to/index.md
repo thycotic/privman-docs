@@ -8,6 +8,7 @@ This topic is a collection of articles covering "How to..." procedures for diffe
 * Best Practices:
 
   * [Using a Service Account to run the IIS App pool](best-practices/run-iis-app-pool.md)
+  * [Prevent Read and Write Access to File Types or Locations](best-practices/prevent-read.md)
 
 * Import, Export, and Migration:
 

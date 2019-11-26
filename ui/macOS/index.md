@@ -5,4 +5,4 @@
 
 This section contains macOS specific user interface topics.
 
-[macOS Preference Pane](prefpane.md)
+* [macOS Preference Pane](prefpane.md)

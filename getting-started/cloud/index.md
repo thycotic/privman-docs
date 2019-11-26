@@ -1,4 +1,4 @@
-[title]: # (Getting Started)
+[title]: # (Cloud)
 [tags]: # (initial login)
 [priority]: # (1)
 # Getting Started Overview - Cloud

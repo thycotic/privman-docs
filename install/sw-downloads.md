@@ -17,4 +17,3 @@ This page provided direct downloads links to Thycotic Privilege Manager product 
 | | [Local Security Solution Agent (x64)](https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x64_10_6_1025.msi) |
 | | [Local Security Solution Agent (x86)](https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x86_10_6_1025.msi) |
 | | [Privilege Manager macOS Agent](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.6.20.dmg) |
-

@@ -19,11 +19,9 @@ Setting up Azure AD Integration in Privilege Manager requires these components i
 * Creating a Scheduled Task to synchronize the users and groups on a regular basis
 
 >**Note**:
->You do not need to have an active directory domain before you can sync with an Azure Active Directory. However, there are benefits for synchronizing on-premises Active Directory to Azure AD. 
+>You do not need to have an active directory domain before you can sync with an Azure Active Directory. However, there are benefits for synchronizing on-premises Active Directory to Azure AD.
 
-<!-- TODO, which is useful in support of: 
-* TBD
--->
+<!-- TODO, "which is useful in support of:" -->
 
 ## Setting up Azure AD with Privilege Manager
 

@@ -14,7 +14,7 @@ If you're trying to uninstall an old agent in order to install a newer version o
 1. Run the following command:
 
    ```
-   msiexec.exe /uninstall <path to the msi installer>\ ThycoticAgent_x64_10_5_1029.msi
+   msiexec.exe /x ThycoticAgent_x64_VERSION.msi /qn
    ```
-   ![Uninstall Command](images/agents/ps1-1.png)
+   ![Uninstall Command](images/agent/ps1-1.png)
 1. On the prompt, click __Yes__.

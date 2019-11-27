@@ -1,6 +1,6 @@
 [title]: # (macOS Agents)
 [tags]: # (endpoint,installation,registration)
-[priority]: # (1603)
+[priority]: # (1604)
 # macOS Agents
 
 Use the links below to download the agents installation software for macOS based endpoints.

@@ -35,25 +35,24 @@ These are requirement for an on-premises integration.
 ## Client Requirements
 
 * RAM, CPU, and Disk Space - negligible
-* Windows XP SP 3 or newer (See a complete list of Windows OS versions here)
-  Thycotic performs validation on the latest Windows OS that is available via the Microsoft Insider Program to ensure any required changes are made prior to a new OS version release.
-* MacOS 10.11 (El Capitan) or newer (See a complete list of Mac OS versions here)
+* Windows XP SP 3 or newer. Thycotic performs validation on the latest Windows OS that is available via the Microsoft Insider Program to ensure any required changes are made prior to a new OS version release.
+* MacOS 10.11 (El Capitan) or newer.
 
 ## Details
 
-* System Requirements apply to both physical and virtual machines
-* For best performance, we recommend using dedicated (clean) servers for Thycotic products
-* PowerShell must be allowed to execute and cannot be blocked on the server or the endpoint by other products
-* If .NET and/or IIS features are not already installed on the web server, the Thycotic Installer will add and configure them automatically
+* System Requirements apply to both physical and virtual machines.
+* For best performance, we recommend using dedicated (clean) servers for Thycotic products.
+* PowerShell must be allowed to execute and cannot be blocked on the server or the endpoint by other products.
+* If .NET and/or IIS features are not already installed on the web server, the Thycotic Installer will add and configure them automatically.
 * If SQL is not already installed on a database server, the Thycotic Installer can setup SQL Express on the web server, however SQL Express is intended for Trials and Sandbox environments ONLY. Though Thycotic will support SQL Express, users will likely experience performance issues due to the memory and product limitations. If experiencing performance issues while using SQL Express, it is highly recommended to upgrade to SQL Server prior to contacting Thycotic Support.
 * A link to Microsoft documentation on the use and limitations of SQL Express can be found at: https://docs.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-2017
-* Web Servers that are NOT supported: Small Business Server (SBS), The Essentials Edition, Domain Controllers, Sharepoint Servers
+* Web Servers that are NOT supported: Small Business Server (SBS), The Essentials Edition, Domain Controllers, Sharepoint Servers.
 
 ## Ports/Agent Access Information
 
-* Outbound (port 443 - HTTPS): This is the default access port through which the agent connects to the server. You may specify a different port based on your environment.
-* Inbound (port 5593): The is the default and only port that the agent listens on. This port is not required and you can block port 5593. If you block the port, the agents pull updates from the server based on a set schedule.
-* SQL (port 1433): This is the default SQL DB port. The SQL port can be customized.
+* __Outbound (port 443 - HTTPS)__: This is the default access port through which the agent connects to the server. You may specify a different port based on your environment.
+* __Inbound (port 5593)__: The is the default and only port that the agent listens on. This port is not required and you can block port 5593. If you block the port, the agents pull updates from the server based on a set schedule.
+* __SQL (port 1433)__: This is the default SQL DB port. The SQL port can be customized.
 
 <!--
 For trial and POC environments (or production environments with less than 500 endpoints)	

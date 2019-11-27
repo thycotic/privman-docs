@@ -1,4 +1,4 @@
-[title]: # (Version 8.2 to 10.4+ Upgrades)
+[title]: # (8.2 to 10.4+ Upgrades)
 [tags]: # (new version)
 [priority]: # (2)
 # Upgrading from Arellia Management Server 8.2 to Privilege Manager 10.4 and up

@@ -1,5 +1,5 @@
 [title]: # (Licensing)
-[tags]: # (Licensing,On-premises,Cloud)
+[tags]: # (on-premises)
 [priority]: # (503)
 # Licensing
 

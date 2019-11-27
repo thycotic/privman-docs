@@ -10,17 +10,21 @@ The following troubleshooting topics are available:
 ## [Installation and Upgrade Issues](install-upgrades/index.md)
 
 * [Troubleshooting Installation Issues](install-upgrade/ts-install.md)
+* [10.5 Folder Permission for MachineKeys](install-upgrade/10-5-machinekeys.md)
+* [Retrieving the COM class factory error](install-upgrade/retrieving-the-com-class-factory-for-component-with-clsid.md)
 
 ## [Agents Troubleshooting](agents/index.md)
 
 * [Agent Registration Error Following an OS Upgrade](agents/agent-not-registering.md)
 * [Running updateclientitems.ps1 on an Agent triggers an error](agents/agent-ps1-update.md)
 * [Client Item List Downloads](agents/failed-downloading-windows-group-policies-client-item-list.md)
+* [Advanced Messages not working for child processes of Microsoft Edge](agents/advanced-messages-not-working-edge.md)
 
 ## [Privilege Manager Logs](logs/index.md)
 
 * [Where are My Server Logs?](logs/ts-server-logs.md)
 * [Where are My Agent Logs?](logs/ts-agent-logs.md)
+* [SQL Server Transaction Log](log/sql-server-txn.md)
 * [User Interface and Ports](logs/ts-ui.md)
 
 ## [Performance Issues](performance/index.md)

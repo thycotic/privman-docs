@@ -9,8 +9,8 @@ The configuration details required are different for the two rating providers as
 
 ## Cylance Rating Provider
 
-![Cylance configurationd details](images/config-rep/cylance.png)
+![Cylance configuration details](images/config-rep/cylance.png)
 
 ## VirusTotal Rating Provider
 
-![VirusTotal configurationd details](images/config-rep/virustotal.png)
+![VirusTotal configuration details](images/config-rep/virustotal.png)

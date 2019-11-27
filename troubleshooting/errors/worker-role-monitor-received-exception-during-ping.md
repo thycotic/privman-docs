@@ -1,9 +1,9 @@
-[title]: # (Installation hangs with error: Worker Role Monitor received exception during ping)
+[title]: # (Installation Hangs)
 [tags]: # (troubleshooting)
-[priority]: # (2)
-# Installation hangs with error: Worker Role Monitor received exception during ping
+[priority]: # (3)
+# Installation Hangs with Error: Worker Role Monitor received exception during ping
 
-During the installation of Privilege Manager the install hangs and is unable to procced to the next step of the installation.
+During the installation of Privilege Manager the install hangs and is unable to proceed to the next step of the installation.
 
 After checking the Thycotic Monitor, you see the below error in the log viewer:
 
@@ -13,10 +13,9 @@ header received from the server was 'Negotiate,NTLM'*
 
 ![](images/worker-role-monitor-received-exception-during-ping/7bd0223405f1fc912d58c7c9720e9a2a.png)
 
-**Note:** This error is due to a host name in the binding within IIS.
+>**Note**: This error is due to a host name in the binding within IIS.
 
-Resolve
--------
+## Resolve
 
 1.  Open **Internet Information Services (IIS) Manager**.
 

@@ -1,4 +1,4 @@
-[title]: # (Security Ratings Filter)
+[title]: # (Security Ratings)
 [tags]: # (filter types)
 [priority]: # (2)
 # Security Rating Filter
@@ -6,6 +6,8 @@
 If you have integrated Privilege Manager with a Reputation Checking provider like VirusTotal, these filters allow you to look up a rating for a file or application (is it good, bad, suspect/suspicious, or unknown).
 
 ![Security ratings filter](images/security-ratings-1.png)
+
+This filter is available for both Windows and macOS systems.
 
 ## Parameters
 

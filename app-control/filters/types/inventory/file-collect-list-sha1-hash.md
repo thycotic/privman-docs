@@ -1,4 +1,4 @@
-[title]: # (File Collection from List of Sha1 Hashes Filter)
+[title]: # (File Collection from List of Sha1 Hashes)
 [tags]: # (filter types)
 [priority]: # (2)
 # File Collection from List of Sha1 Hashes Filter
@@ -8,6 +8,8 @@ This type of filter identifies file inventory based on Secure Hash Algorithms. 
 When creating this filter the target hashes need to be entered as a comma-separated list:
 
 ![New SHA1 Hashes filter](images/sha1/new-sha1.png)
+
+This filter is available for both Windows and macOS systems.
 
 ## Parameters
 

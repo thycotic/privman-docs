@@ -1,11 +1,11 @@
-[title]: # (Catch-all Blacklist)
+[title]: # (Catch-all Deny)
 [tags]: # (deny)
 [priority]: # (4301)
-# Catch-all Blacklist
+# Catch-all Deny
 
-A catch-all blacklist is the last policy executed following the execution of a group of whitelist policies. This enables you to configure your whitelist to allow approved applications, like the Windows directory or other installed applications, and then to deny everything else, like applications downloaded from the internet or a thumb drive.
+A catch-all deny policy is the last policy executed following the execution of a group of whitelist policies. This enables you to configure your whitelist to allow approved applications, like the Windows directory or other installed applications, and then to deny everything else, like applications downloaded from the internet or a thumb drive.
 
-To create a catch-all blacklist policy, do the following steps:
+To create a catch-all deny policy, do the following steps:
 
 1. Begin by selecting Policies from the Privilege Manager Dashboard.
 2. Next, click Add New Policy.
@@ -17,4 +17,4 @@ To create a catch-all blacklist policy, do the following steps:
 8. Click the Actions tab, click Add Action, search for "Deny Execute", select Deny Execute, and click Add.
 9. Click the Policy Enforcement tab, ensure only Stage 2 processing is checked, and click Save.
 
-If you are creating a new catch-all policy to be used in conjunction with whitelist policies, please verify that the whitelist is catching all system applications and that the new blacklist is the last policy executed. For additional safety you can define the exclude any parameter to exclude system and service applications.
+If you are creating a new catch-all policy to be used in conjunction with whitelist policies, please verify that the whitelist is catching all system applications and that the new deny policy is the last policy executed. For additional safety you can define the exclude any parameter to exclude system and service applications.

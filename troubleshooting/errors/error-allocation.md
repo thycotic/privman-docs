@@ -1,6 +1,6 @@
 [title]: # (Error: Space Allocation)
 [tags]: # (database object)
-[priority]: # (2)
+[priority]: # (3)
 # Error: Space Allocation
 
 This topic describes the following error while working with Privilege Manager:

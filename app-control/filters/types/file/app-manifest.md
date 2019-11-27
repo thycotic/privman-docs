@@ -1,4 +1,4 @@
-[title]: # (Application Manifest Filter)
+[title]: # (Application Manifest)
 [tags]: # (filter types)
 [priority]: # (2)
 # Application Manifest Filter (“Manifest Filter”)

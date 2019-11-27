@@ -1,4 +1,4 @@
-[title]: # (User Context Filters)
+[title]: # (User Context)
 [tags]: # (sid)
 [priority]: # (2)
 # Using User Context Filters
@@ -11,6 +11,8 @@ User Context Filters are used in a policy as either an
 The User Context Filters are part of the Application Filter templates listed for Windows:
 
 ![User Context Filter templates](images/user_context.png)
+
+This filter is available for both Windows and macOS systems.
 
 ## On-Premise
 

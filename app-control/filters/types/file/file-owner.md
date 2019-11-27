@@ -1,4 +1,4 @@
-[title]: # (File Owner Filter)
+[title]: # (File Owner)
 [tags]: # (filter types)
 [priority]: # (2)
 # File Owner Filter
@@ -6,6 +6,8 @@
 This filter identifies files based on ownership.
 
 ![file owner filter](images/fo_1.png)
+
+This filter is available for both Windows and macOS systems.
 
 ## Examples
 

@@ -51,6 +51,7 @@ Here is the complete list of policies that come with Privilege Manager out-of-th
 | Policy | Description | Type | Priority | Enabled |
 | ----- | ----- | ----- | ----- | ----- |
 |Event Discovery Testing Computers Audit Policy (Windows)|This policy is enabled through the Event Discovery configuration by enabling the option to log all activity from the test group.| 97|n|
+|Elevate Privilege Manager Remove Programs Utility Policy|This policy needs to be enabled if users are supposed to be able to remove programs and apps via the Remove Programs Utility.| 2|n|
 
 ## macOS Policies
 

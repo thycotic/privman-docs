@@ -1,4 +1,4 @@
-[title]: # (Collection of Miscellaneous Topics)
+[title]: # (Miscellaneous Integration)
 [tags]: # (rdp,remove)
 [priority]: # (9400)
 # Collection of Miscellaneous Integration Related Topics

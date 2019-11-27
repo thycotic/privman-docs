@@ -1,4 +1,4 @@
-[title]: # (MSI File Contents Filter)
+[title]: # (MSI File Contents)
 [tags]: # (filter types)
 [priority]: # (2)
 # MSI File Contents Filter

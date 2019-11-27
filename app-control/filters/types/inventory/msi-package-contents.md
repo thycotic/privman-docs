@@ -1,4 +1,4 @@
-[title]: # (MSI Package Contents Filter)
+[title]: # (MSI Package Contents)
 [tags]: # (filter types)
 [priority]: # (2)
 # MSI Package Contents Filter

@@ -1,7 +1,7 @@
-[title]: # (Privilege Manager Installation)
-[tags]: # (Installation,basic,Privilege Manager)
-[priority]: # (503)
-# Basic Product Installation
+[title]: # (Installation)
+[tags]: # (installation,basic)
+[priority]: # (1503)
+# Product Installation - Basic
 
 ## Prerequisites
 
@@ -24,7 +24,7 @@ Throughout the installation process, you will be required to be an administrator
 
 ## Download the Latest Version of PM Installer
 
-The latest version of Privilege Manager is available for download. By clicking the “Automated” Installer link, a setup.exe file will be downloaded to your machine. It is recommended to run the setup.exe file as an administrator.
+The latest version of Privilege Manager is available for download under the [Software Downloads topic](../sw-downloads.md). By clicking the “Automated” Installer link, a setup.exe file will be downloaded to your machine. It is recommended to run the setup.exe file as an administrator.
 
 ## Running the Installer
 
@@ -82,5 +82,3 @@ The latest version of Privilege Manager is available for download. By clicking t
 1. On the __Finish__ tab, when the install has successfully completed, click the provided Privilege Manager URL to navigate directly to your setup landing page or open a browser and navigate to where your Privilege Manager is located, for example: http://localhost/TMS/PrivilegeManager.
 
    ![Finish dialog](images/install/inst_finish_20190327.png)
-
-   For more information about using Privilege Manager see the resources listed in the support portal <a href="https://thycotic.force.com/support/s/privilege-manager">here</a>.

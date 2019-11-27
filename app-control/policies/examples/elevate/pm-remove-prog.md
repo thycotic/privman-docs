@@ -1,4 +1,4 @@
-[title]: # (Elevating the Remove Programs Utility)
+[title]: # (Remove Programs Utility)
 [tags]: # (elevate)
 [priority]: # (5)
 # Elevating the Privilege Manager Remove Programs Utility Policy

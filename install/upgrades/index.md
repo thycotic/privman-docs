@@ -1,6 +1,6 @@
 [title]: # (Upgrades)
 [tags]: # (new version)
-[priority]: # (701)
+[priority]: # (1701)
 # Upgrades
 
 Privilege Manager software updates are made available via NuGet server packages. The upgrade process can be performed via Add/Upgrade Features link in the Privilege Manager Setup page.

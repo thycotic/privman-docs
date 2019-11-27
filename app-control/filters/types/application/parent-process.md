@@ -1,4 +1,4 @@
-[title]: # (Parent Process Filter)
+[title]: # (Parent Process)
 [tags]: # (filter types)
 [priority]: # (2)
 # Parent Process Filter
@@ -6,6 +6,8 @@
 This type of filter can identify parent processes of certain executables.
 
 ![Parent Process filter](images/parent_process.png)
+
+This filter is available for both Windows and macOS systems.
 
 ## Parameters
 

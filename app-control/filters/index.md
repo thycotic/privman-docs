@@ -17,6 +17,10 @@ We recommend leveraging Privilege Manager's out-of-the-box filters to get your p
 
 You can search your full list of available filters by navigating to Admin | Filters in Privilege Manager. If you already know what you want to target, simply try typing keywords in the search bar to check whether a filter exists that fits your target goal.
 
+>**Note:** If using the default filters provided with Privilege Manager, always verify existing targeting information.
+
+Review the [Filters Catalog for Privilege Manager](default-filters.md) for details about all out-of-the-box filters shipped with the product.
+
 ![Overview Diagram of Filter Types](images/policies.png)
 
 ### Creating New Filters using Event Discovery

@@ -1,4 +1,4 @@
-[title]: # (Increase Boot-up Performance)
+[title]: # (Boot-up Performance)
 [tags]: # (policy analysis)
 [priority]: # (2)
 # Increase Boot-up Performance

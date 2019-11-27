@@ -1,6 +1,6 @@
 [title]: # (UI Storage Error)
 [tags]: # (browser cache)
-[priority]: # (2)
+[priority]: # (3)
 # UI Storage Error
 
 You might have to clear your browser cache if you get the following error in the Privilege Manager console:

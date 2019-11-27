@@ -1,16 +1,16 @@
 [title]: # (Bundled Install)
-[tags]: # (agent,endpoint,installation)
-[priority]: # (601)
+[tags]: # (agent,endpoint)
+[priority]: # (1601)
 # Bundled Install
 
 >**Important**:
->To ensure you have installed all prerequisite software on your managed computers __before__ you install the Thycotic agents, please see our [System Requirements for Privilege Manager](https://thycotic.force.com/support/s/article/System-Requirements-Privilege-Manager)
+>To ensure you have installed all prerequisite software on your managed computers __before__ you install the Thycotic agents, please see our [System Requirements for Privilege Manager](../sysreq.md)
 
 To install Thycotic agents __on a single testing machine__, follow these steps:
 
-1. Go to [Agent Downloads](http://thycotic.force.com/support/s/article/Software-Download) and download the __Bundled Agent Installer (Windows)__.
+1. Download the [Bundled Agent Installer - Windows](https://tmsnuget.thycotic.com/software/Agents/ThycoticAgentsInstaller_x86_10_6_1080.exe).
 1. Run the Thycotic Bundled Installer on the computer you want to manage.
-1. During the setup process, enter the Privilege Manager Server URL (or AZ Service Bus Queue URL) and the [Install Code](https://thycotic.force.com/support/s/article/PM-Agent-Install-Codes) when prompted. 
+1. During the setup process, enter the Privilege Manager Server URL (or AZ Service Bus Queue URL) and the [Install Code](installcode.md) when prompted. 
 
    >**Note**: The Install Code field can be left blank when using versions lower than 10.5.
 
@@ -29,7 +29,7 @@ To install Thycotic agents __on a single testing machine__, follow these steps:
 
 To install Thycotic agents __on multiple machines__, we recommend the following:
 
-1. Go to [Agent Downloads](http://thycotic.force.com/support/s/article/Software-Download) and download the standalone MSI files.
+1. Download the [Agent standalone MSI](agent-inst-win.md) files based on specific systems.
 1. Push them out through any software delivery system tool (e.g.: SCCM) using the recommended command lines.
 
 ## Agent Diagnostics
@@ -51,4 +51,4 @@ On the Diagnostics page you will see the quantity of agents registered and what
 From the __Agent Installation Summary__ report you can click into any of the __target machines__ listed that have a Thycotic agent installed. Pictured above is a view from one of these resource pages where you can check the machine's System Health and configured policies.
 
 >**Note**:
->If you find that you've entered the wrong Privilege Manager Server address or want to change this settings, refer to the information under [Setting the Privilege Manager Server Address](../getting-started/agent-set-server-address.md).
+>If you find that you've entered the wrong Privilege Manager Server address or want to change this settings, refer to the information under [Setting the Privilege Manager Server Address](agent-set-server-address.md).

@@ -1,4 +1,4 @@
-[title]: # (Time of Day Filter)
+[title]: # (Time of Day)
 [tags]: # (filter types)
 [priority]: # (2)
 # Time of Day Filter
@@ -6,6 +6,8 @@
 This type of filter exists to create policy parameters for specific time frames.
 
 ![Time of Day Filter](images/time-of-day-filter.png)
+
+This filter is available for both Windows and macOS systems.
 
 ## Parameters
 

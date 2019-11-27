@@ -1,5 +1,5 @@
-[title]: # (Setting up Integration between Privilege Manager and Secret Server)
-[tags]: # (Authentication,Integration)
+[title]: # (Privilege Manager and Secret Server)
+[tags]: # (authentication,Integration)
 [priority]: # (9002)
 # Setting up Integration between Privilege Manager and Secret Server
 
@@ -14,7 +14,8 @@ For this the proper license types need to be set-up, as Secret Server Express (f
 As a prerequisite, you need to make sure that your Secret Server instance has Web Services Enabled.
 
 1. Navigate to __Admin | Configuration | Application Settings__.
-1. Verify that under View Webservices the __Enable Webservices__ option is reflecting __Yes__.<br/>
+1. Verify that under View Webservices the __Enable Webservices__ option is reflecting __Yes__.
+
    ![Verify Enable Webservices](images/SS_enable_WebServices_20190412.png)
 1. Enter credentials for "Secret Server Default Credential" located at __Admin | Configuration | User Credentials__ tab. Edit this account to choose which account will be used by Privilege Manager to connect to Secret Server. This can be a regular Secret Server user or a Secret Server Application account.
 

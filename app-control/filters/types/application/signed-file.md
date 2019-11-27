@@ -1,4 +1,4 @@
-[title]: # (Signed File Filter)
+[title]: # (Signed File)
 [tags]: # (filter types)
 [priority]: # (2)
 # Signed File Filter
@@ -13,6 +13,8 @@ These filters can be used in several of the following ways:
 * A parameter to prevent spoofing
 
 Signed Application filters identify applications based on their digital certificates.
+
+This filter is available for both Windows and macOS systems.
 
 ## Parameters
 

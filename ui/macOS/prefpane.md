@@ -1,12 +1,13 @@
-[title]: # (Preference Pane macOS)
+[title]: # (Preference Pane)
 [tags]: # (system preferences)
 [priority]: # (2)
 # Preference Pane macOS
 
 A Preference Pane (abbreviated as prefpane) is a dynamically loaded plugin in Mac OS X. Introduced in Mac OS X v10.0, the purpose of a Preference Pane is to allow the user to set preferences for a specific application or the system by means of a graphical user interface.
 
-How do you target Preference Panes on macOS endpoints? On versions of Privilege Manager 10.3 and lower, you need to specify Preference Pane actions via filepath or file name. A chart is listed below for reference to some of the most common
-Preference Pane targets:
+## Targeting Preference Panes
+
+How do you target Preference Panes on macOS endpoints? On versions of Privilege Manager (10.3 and lower)<!-- is this true? Or should there be no version mentioned here?-->, you need to specify Preference Pane actions via filepath or file name. A chart is listed below for reference to some of the most common Preference Pane targets:
 
 | Preference Pane  | File Name | File Path |
 | ----- | ----- | ----- |
@@ -20,3 +21,12 @@ Preference Pane targets:
 | Sharing | com.apple.preferences.sharing.remoteservice | /System/Library/PreferencePanes/SharingPref.prefPane/Contents/XPCServices/com.apple.preferences.sharing.remoteservice.xpc/Contents/MacOS/ |
 | Time Machine | com.apple.prefs.backup.remoteservice | /System/Library/PreferencePanes/TimeMachine.prefPane/Contents/XPCServices/com.apple.prefs.backup.remoteservice.xpc/Contents/MacOS/ |
 | User & Groups | com.apple.preferences.users.remoteservice | /System/Library/PreferencePanes/Accounts.prefPane/Contents/XPCServices/com.apple.preferences.users.remoteservice.xpc/Contents/MacOS/ |
+
+## Catalina Preference Pane Error
+
+The File Specification Filter definition does not work on macOS 10.15 (Catalina) when the File Names field starts with __com.apple.preference__ and/or Path field starts with __/System/Library/PreferencePanes/__.
+Any Policies leveraging these filter definitions are also impacted.
+
+Your endpoint will display an error identifying the targeted preference pane:
+
+![Prefpane error](images/prefpane-error.png)

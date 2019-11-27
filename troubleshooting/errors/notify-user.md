@@ -1,6 +1,6 @@
 [title]: # (Notify User Justification failed)
 [tags]: # (database object)
-[priority]: # (2)
+[priority]: # (3)
 # Notify User Justification failed
 
 You receive the following error when users attempt to run a program with a policy that uses the action for Notify User justification.

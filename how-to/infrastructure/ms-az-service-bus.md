@@ -1,4 +1,4 @@
-[title]: # (Azure Service Bus Configuration)
+[title]: # (Azure Service Bus)
 [tags]: # (create,set-up)
 [priority]: # (2)
 # Azure Service Bus Configuration

@@ -1,4 +1,4 @@
-[title]: # (Set-up SMP Integration)
+[title]: # (SMP)
 [tags]: # (integration)
 [priority]: # (9101)
 # Set-up Symantec Management Platform (SMP) Integration

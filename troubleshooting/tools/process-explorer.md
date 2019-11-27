@@ -1,4 +1,4 @@
-[title]: # (Using Process Explorer)
+[title]: # (Process Explorer)
 [tags]: # (troubleshooting)
 [priority]: # (3)
 # Using Process Explorer for Troubleshooting a Policy

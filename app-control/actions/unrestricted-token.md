@@ -1,9 +1,9 @@
-[title]: # (Adjust Process Rights Actions)
-[tags]: # (unrestricted token)
-[priority]: # (5510)
-# Adjust Process Rights Actions
+[title]: # (Adjust Process Rights)
+[tags]: # (action,unrestricted token)
+[priority]: # (4)
+# Adjust Process Rights Action
 
-This topic explains the Adjust Process Rights Actions and Unrestricted Tokens in Privilege Manager.
+This topic explains the Adjust Process Rights Action and Unrestricted Tokens in Privilege Manager.
 
 When elevating process rights with Application Control Solution (ACS) on Windows, there are times when the rights given by ACS appear to be insufficient. The process still doesn't work as it does when the user is logged in as Administrator, accepts the UAC box, or the process is run with the right-click Run As Administrator option. Sometimes an error is eturned stating insufficient rights to access.
 

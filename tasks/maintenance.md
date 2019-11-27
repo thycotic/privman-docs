@@ -17,10 +17,10 @@ The primary maintenance tasks that will need to be scheduled to ensure Privilege
 
 ## Maintenance Tasks
 
-These maintenance tasks can be found at 
+These maintenance tasks can be found at
 
-* __ADMIN | Configuration | General (tab)__ or 
-* __ADMIN | Tasks | Jobs__ and 
+* __ADMIN | Configuration | General (tab)__ or
+* __ADMIN | Tasks | Jobs__ and
 * __Tasks | Infrastructure Scheduled Activities | Maintenance Tasks__.
 
 ### Assign Orphaned Agent Uploads

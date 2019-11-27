@@ -4,6 +4,8 @@
 # iTunes with File Upload
 
 As we've seen, there are multiple ways to introduce a new application into Privilege Manager before assigning a policy to it. For this example we will perform a File Upload for the iTunes installer to quickly Blacklist the iTunes program from running on target endpoints.
+
+>**Note:** When the iTunes default filter is used to verify the correct Company name is entered to match the application targeted by the policy.
   
 First create the iTunes filter by using downloaded iTunes files:
 
@@ -20,7 +22,7 @@ First create the iTunes filter by using downloaded iTunes files:
 1. Check, modify, and/or enter the Filter criteria you want to block like the File Name, the Original File Name, and the Product Name.
 1. Click __Create__.
 
-Next create the iTunes Blacklist Policy:
+Next create the iTunes Deny Policy:
 
 1. Click on the __Deny (Blacklist) Applications__ tile on the Application Control dashboard.
 1. Click __Create a New Policy__.

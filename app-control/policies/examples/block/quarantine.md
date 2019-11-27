@@ -1,4 +1,4 @@
-[title]: # (Quarantine Specific Malware)
+[title]: # (Quarantine Malware)
 [tags]: # (deny)
 [priority]: # (4301)
 # Quarantine Specified Malware

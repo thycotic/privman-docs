@@ -1,4 +1,4 @@
-[title]: # (VM Delopyments)
+[title]: # (VM Deployments)
 [tags]: # (virtual machines)
 [priority]: # (2)
 # VM Deployments
@@ -12,18 +12,19 @@ Installing the Privilege Manager agent is supported as part of a VDI image build
 ## Identifying Agents to The Console
 
 The pertinent question here is: Do you (the user) plan to use (or are using) persistent virtual machines (VMs) or dynamic VMs? There are different implications for each of these, discussed below.
- 
+
 ### Persistent VMs 
 In a persistent VM, machines images are created, spun up, and then persist indefinitely. This case is fairly simple.  We can treat these machines the same as we would physical machines except for concerns around the universally unique identifier (UUID), which will be discussed further on (in the section, “Multiple VMs Collapsed to a Single Resource”).
- 
+
 ### Dynamic VMs
 In a dynamic VM, a golden image is spun up each time a user requests it with their profile and it is then applied on top. This case is more complicated.
- 
+
 The major concern is agent spamming, which would happen as follows: the Privilege Manager console sees each new image as a new computer and rapidly runs through the customer’s licenses, leaving a large number of orphan machines. There are a few different ways to deal with this situation, discussed in the sub-sections below.
- 
+
 ### Multiple VMs Collapsed to a Single Resource
 
 The easiest way to support dynamic VMs is for you to collapse all of your VMs to a single computer resource on the console.  This can be accomplished as follows:
+
 1. Add a registry entry in HKLM\Software\Arellia\Agent called “AgentIdOverride.”
 1. Install the agent on a physical computer and allow it to register.
 1. Next, in the Privilege Manager console:

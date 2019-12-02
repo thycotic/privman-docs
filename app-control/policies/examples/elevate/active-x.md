@@ -9,7 +9,7 @@ Setting up ActiveX Policies – this is to allow add-ins to be installed over at
 
 1. Create a policy for the list of websites.
 1. Create a task to send the policies to the endpoints (this is for Resource Targeting).
-1. Test the plicy.
+1. Test the policy.
 
 ## Creating the Policy
 
@@ -26,13 +26,13 @@ the URL (protocols included).
 
 Other options to consider:
 
-* IGNORE INVALID CERTIFICATE DATE
+* Ignore Invalid Certificate Date
 
-* IGNORE INVALID CERTIFICATE NAME (CN)
+* Ignore Invalid Certificate Name (CN)
 
-* IGNORE UNKNOWN CERTIFICATION AUTHORITY (CA)
+* Ignore Unknown Certification Authority (CA)
 
-* IGNORE WRONG CERTIFICATE USAGE
+* Ignore Wrong Certificate Usage
 
 ## Task and Resource Targeting
 

@@ -3,29 +3,21 @@
 [priority]: # (1604)
 # macOS Agents
 
-Use the links below to download the agents installation software for macOS based endpoints.
-
-## Mac OS X Installer (10.11 or Newer)
-
 The Bundled Mac Agent DMG + PKG installer is available for macOS systems. You can use this installer directly on individual endpoints for testing or for production environments.
 
-### Agents Installation Download Link
-
-https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.6.20.dmg
-
-### Installing macOS Agents
+## Installing macOS Agents
 
 >**Note**:
 >If you enter the wrong install code or you need to update an install code for whatever reason, rerun the package installer to provide the correct/new install code.
 >The Install Code field can be left blank when using versions lower than 10.5.
 
-#### Directly
+### Directly
 
 The Bundled macOS Agent is a DMG + PKG file. You can use this Mac agent installer directly on individual endpoints for testing or production environments.
 
 To install the agent software on a single testing machine, follow these steps:
 
-1. Go to [Agent Downloads](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.6.20.dmg) and download the Privilege Manager Mac Agent.
+1. Go to [Agent Downloads](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.7.11.dmg) and download the Privilege Manager Mac Agent.
 1. Run the Bundled Mac Agent DMG + PKG Installer on the computer you want to manage.
 1. During the setup process,
    1. enter the base URL and
@@ -35,7 +27,7 @@ To install the agent software on a single testing machine, follow these steps:
 
 >**Note**: The bundled installer does require a restart in order to ensure the agent is ready to use.
 
-#### Using an Unattended Install Method
+### Using an Unattended Install Method
 
 Begin by downloading the DMG + PKG package (See link for Privilege Manager Mac Agent listed above) on one of your Mac endpoints. Run the installer by double clicking the PKG file.  
 
@@ -55,7 +47,7 @@ There are two methods for deploying your remaining Mac agents in an unattended f
 * Network File Share
 * Distribution Tool  
 
-##### Network File Share
+#### Network File Share
 
 If you want administrators to deploy agents onto individual macOS endpoints, save the PKG installer from the DMG side-by-side with the __agentconfig.json__ file in a network share folder.
 
@@ -68,7 +60,7 @@ sudo installer -pkg ThycoticManagementAgent-10.6.20.pkg -target /
 
 The PKG will first look for an __agentconfig.json__ file located in the same folder. When it finds this file, it will copy __agentconfig.json__ into the _/Library/Application Support/Thycotic/Agent_ folder during the unattended install on the Mac endpoint where the installer is running.
 
-##### Distribution Tool
+#### Distribution Tool
 
 Using a Deployment Tool like Jamf or SCCM, include both the PKG installer and the __agentconfig.json__ files in the distribution package together, then deploy the package onto your endpoint Macs by running a script using a tool or remotely by using ssh to install the PKG, for example:
 

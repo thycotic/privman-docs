@@ -15,3 +15,9 @@ The following Deny File Access Settings can be specified:
 * Path and possibly subdirectory locations.
 * Specific file extensions.
 * MIME types.
+
+## Deny Files Read and Write Access Message
+
+This action displays a message to the user informing that an application will be restricted from certain file access. The Deny Read/Write Access to Microsoft Office Document Files Action needs to be used with this message.
+
+![Default Files Read and Write Access Message](images/deny-rw-msg.png "Default Files Read and Write Access Message")

@@ -1,15 +1,15 @@
 [title]: # (Create Custom Notifications)
 [tags]: # (action customization)
-[priority]: # (4)
+[priority]: # (5)
 # Create Custom Notifications
 
 The default Application Denied Notification Action can be edited/replaced by a customized notification action to better suite a specific customer need.
 
-Default Notification:
+Example of Default Notification:
 
 ![Default notification](images/deny/default.png)
 
-Custom Notification:
+Example of Custom Notification:
 
 ![Custom notification](images/deny/custom.png)
 
@@ -25,7 +25,7 @@ To edit the message text the __View as XML__ button has to be enabled in your co
    ![Verify Show 'View as XML' Button checkbox is enabled](images/deny/enable-2.png)
 1. Select the checkbox and click __Save__.
 
-## Editing the Application Denied Notification Action
+## Customizing the Application Denied Notification Action
 
 Default Actions shouldn't be edited directly, however Privilege Manager default items can be copied for customization purposes.
 
@@ -40,19 +40,33 @@ Default Actions shouldn't be edited directly, however Privilege Manager default 
 
    ![Create a Copy of the default action](images/deny/edit-action-3.png)
 1. Click __Create a Copy__.
-1. Enter a customized and meaningful name for the action.
+1. Enter a customized and meaningful name for the action. It is recommended to use standard naming conventions with your custom items. Beginning custom names with your company name is a great way to differentiate between the default items and your custom items.
 
    ![Name the customized action](images/deny/edit-action-4.png)
 1. Click __Create__. Once you click Create, the new action page opens.
-
-   ![New action](images/deny/edit-action-5.png)
-1. To upload a custom image file click __Edit__. You can upload a custom logo, the file size should be under 128 KB and the width should be 500 pixels or less.
-1. Click __Choose File__.
+1. Click __Edit__.
+1. To upload a custom image file click __Choose File__. You can upload a custom logo, the file size should be under 128 KB and the width should be 500 pixels or less with a maximum hight of 34 pixels.
 
    ![Image upload](images/deny/edit-action-7.png)
+
+   The logo that is uploaded should NOT be a high-resolution image. This image will be delivered to every endpoint with every message in which it’s used. The smaller the image, the better, for sending the message to the endpoints and for the endpoint to load the message.
 1. Click __Save__.
 
-   ![Saved action](images/deny/edit-action-8.png)
+## Editing the Text in the UI
+
+Privilege Manager makes it very easy to edit the text of a message. The fields are listed in alphabetical order on the item’s view page. Compare each field to this overview image:
+
+![Custom notification](images/deny/overview.png "Overview of customization options")
+
+Most of the lines do not include individualized stylings per line. Editing the text in the UI will simply edit the text as required. The __Information Section__ field includes html formatting for the hyperlink to the corporate policy. That hyperlink will be removed if the text is edited on the message’s edit page.
+
+![Editing in UI](images/deny/edit-ui.png "Using the UI settings to edit")
+
+>**Note**: It is NOT recommended to edit the Information Section directly on the message’s edit page. Instead, editing the Information Section via XML retains the html formatting for this line.
+If no changes are made to the Information Section, the html formatting is retained. All other fields can be changed except the Information Section and the html formatting for the Information Section is retained.
+
+## Editing the Text via XML
+
 1. Click __View as XML__.
 
    ![XML of action](images/deny/edit-action-9.png)
@@ -67,7 +81,7 @@ Default Actions shouldn't be edited directly, however Privilege Manager default 
    Edit this space with the URL and the name of the Hyperlink you would like for your pop up Window.
 
    ```xml
-   <Paragraph><Run>This application is </Run><Bold><Run>not approved.</Run></Bold><Run> please click here, </Run><Hyperlink TargetName="_blank" NavigateUri="http://www.thycotic.com/helpdesk"><Run>to request its approval</Run></Hyperlink><Run>.</Run></Paragraph>
+   <Paragraph><Run>This application HAS NOT BEEN APPROVED according to </Run><Hyperlink TargetName="_blank" NavigateUri="http://www.example.com/policy"><Run>corporate policy.</Run><Run>Click here, </Run><Hyperlink TargetName="_blank" NavigateUri="http://www.thycotic.com/helpdesk"><Run>to open a support ticket for review this application for approval.</Run></Hyperlink><Run>.</Run></Paragraph>
    ```
 1. Change the default timeout:
 

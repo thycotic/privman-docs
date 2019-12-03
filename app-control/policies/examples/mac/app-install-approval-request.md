@@ -8,7 +8,7 @@ Privilege Manager can allow macOS users to install packages on demand. Do the fo
 1. Navigate to __Admin | Policies__ and select __Add Policy__.
 1. Choose the Mac OS Platform and select __Show All Templates__ and then __Other: Approve Installer Packages__.
 
-   ![New Approve Installer Packages Policy](images/mac/appr_inst_pkgs)
+   ![New Approve Installer Packages Policy](images/mac/appr_inst_pkgs.png)
 1. Customize the Name and Description and click __Create__.
 1. Enable the policy after it has been created and update policies at the endpoint.
 

@@ -5,7 +5,7 @@
 
 This topic explains the Adjust Process Rights Action and Unrestricted Tokens in Privilege Manager.
 
-When elevating process rights with Application Control Solution (ACS) on Windows, there are times when the rights given by ACS appear to be insufficient. The process still doesn't work as it does when the user is logged in as Administrator, accepts the UAC box, or the process is run with the right-click Run As Administrator option. Sometimes an error is eturned stating insufficient rights to access.
+When elevating process rights with Application Control Solution (ACS) on Windows, there are times when the rights given by ACS appear to be insufficient. The process still doesn't work as it does when the user is logged in as Administrator, accepts the UAC box, or the process is run with the right-click Run As Administrator option. Sometimes an error is returned stating insufficient rights to access.
 
 Microsoft with the release of Windows Vista introduced changes to security which included creating two tokens for users when they log in. For more information refer to the [Microsoft Documentation on Restricted Tokes](https://docs.microsoft.com/en-us/windows/win32/secauthz/restricted-tokens).
 
@@ -21,6 +21,20 @@ necessary can be created for a custom implementation:
 * Remove Advanced Privileges Action
 
 Each of those actions has by default Related Items associated, which need to be considered when customizing an action.
+
+## Associated Message Actions
+
+### Limit Process Rights for New Applications Message
+
+This action displays a message to the user informing that an application has had its rights reduced. The Remove Administrator Rights or Remove Advanced Privileges Action needs to be used with this message.
+
+![Default Limit Process Rights for New Applications Message](msgs/images/rights-reduced.png "Default Limit Process Rights for New Applications Message")
+
+### Remove Rights Message
+
+This action displays a message to the user informing them of an associated action. The Remove Administrative Rights Action or Remove Advanced Privileges Action should be used with this message.
+
+![Default Remove Rights Message](msgs/images/rights-removed.png "Default Remove Rights Message")
 
 ## Adjust Process Rights Action Settings Explained
 

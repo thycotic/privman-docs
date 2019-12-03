@@ -22,20 +22,6 @@ necessary can be created for a custom implementation:
 
 Each of those actions has by default Related Items associated, which need to be considered when customizing an action.
 
-## Associated Message Actions
-
-### Limit Process Rights for New Applications Message
-
-This action displays a message to the user informing that an application has had its rights reduced. The Remove Administrator Rights or Remove Advanced Privileges Action needs to be used with this message.
-
-![Default Limit Process Rights for New Applications Message](msgs/images/rights-reduced.png "Default Limit Process Rights for New Applications Message")
-
-### Remove Rights Message
-
-This action displays a message to the user informing them of an associated action. The Remove Administrative Rights Action or Remove Advanced Privileges Action should be used with this message.
-
-![Default Remove Rights Message](msgs/images/rights-removed.png "Default Remove Rights Message")
-
 ## Adjust Process Rights Action Settings Explained
 
 The application action elevates or restricts the permissions and/or privileges held by a process security token. By default, each process inherits the user's security token.

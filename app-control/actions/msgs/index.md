@@ -103,3 +103,53 @@ This action will display a notification to the user that the process has been de
 This action will display a warning to the user before allowing the application to run.
 
 ![Application Warning Message Action dialog](images/no-input-3.png "Application Warning Message Action example")
+
+## Types of Basic Messages
+
+### Deny Execute Message
+
+This action displays a message to the user informing that an application has been denied execution. The Deny Execute Action needs to be used with this message.
+
+![Default Deny Execute Message](images/deny-exe-msg.png "Default Deny Execute Message")
+
+### Deny Files Read and Write Access Message
+
+This action displays a message to the user informing that an application will be restricted from certain file access. The Deny Read/Write Access to Microsoft Office Document Files Action needs to be used with this message.
+
+![Default Files Read and Write Access Message](images/deny-rw-msg.png "Default Files Read and Write Access Message")
+
+### Windows Hooking Message
+
+The action displays a message to the user informing them that an application will be stopped from interacting with other applications. The Deny Windows Hooking Action should be used with this message.
+
+![Default Windows Hooking Message](images/win-hook.png "Default Windows Hooking Message")
+
+### Limit Process Rights for New Applications Message
+
+This action displays a message to the user informing that an application has had its rights reduced. The Remove Administrator Rights or Remove Advanced Privileges Action needs to be used with this message.
+
+![Default Limit Process Rights for New Applications Message](images/rights-reduced.png "Default Limit Process Rights for New Applications Message")
+
+### Remove Rights Message
+
+This action displays a message to the user informing them of an associated action. The Remove Administrative Rights Action or Remove Advanced Privileges Action should be used with this message.
+
+![Default Remove Rights Message](images/rights-removed.png "Default Remove Rights Message")
+<!--
+### SWV Global Layer User Message
+
+This action displays a message to the user informing that an application has been placed in SWV global layer.
+
+![Default SWV Global Layer User Message](msgs/images/layer.png "Default SWV Global Layer User Message")
+
+### SWV Isolation Layer User Message
+
+This action displays a message to the user informing them that an application has been placed in SWV isolation layer.
+
+![Default SWV Isolation Layer User Message](msgs/images/isolation.png "Default SWV Isolation Layer User Message")-->
+
+### Quarantine Message
+
+This action displays a message to the user informing that an application has been quarantined. The File Quarantine Action should be used with this message.
+
+![Default Quarantine Message](images/quarantine.png "Default Quarantine Message")

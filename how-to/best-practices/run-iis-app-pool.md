@@ -1,4 +1,4 @@
-[title]: # (Using a Service Account to run the IIS App pool)
+[title]: # (IIS App Pool Service Account)
 [tags]: # (database object)
 [priority]: # (2)
 # Using a Service Account to run the IIS App pool

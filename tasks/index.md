@@ -8,7 +8,7 @@ In Privilege Manager tasks are activities that can be run on demand or regularly
 The following topics are available:
 
 * [List of default tasks](default-tasks.md)
-* [Agent Hardening](agent-hardening.md)
+* [Agent Hardening](../install/agents/agent-hardening.md)
 * [Maintenance tasks details](maintenance.md)
 * [Other tasks to schedule](scheduled/index.md)
   * [Emailing Reports](scheduled/email-reports.md)

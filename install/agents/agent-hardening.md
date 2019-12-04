@@ -9,7 +9,7 @@ To make sure that local Administrators do not tamper with Thycotic agents runnin
 
 A user or group needs to be available in Privilege Manager to be selected while setting up the task. This user or group will have rights to start and stop agent services running on endpoints.
 
-## How to Edit an existing Remote Scheduled Client Command - Agent Service Start / Stop Control (Windows)
+## Editing the Agent Service Start / Stop Control (Windows) Policy
 
 1. Navigate to __ADMIN | Policies__.
 1. Click on the __General__ Tab.

@@ -7,3 +7,4 @@ The following topics are available:
 
 * [Using a Service Account to run the IIS App pool](run-iis-app-pool.md)
 * [Prevent Read and Write Access to File Types or Locations](prevent-read.md)
+* [Setting Read Access to Private Key of your Certificate](read-privkey.md)

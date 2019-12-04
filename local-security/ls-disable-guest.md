@@ -23,5 +23,5 @@ The Disable Local Guest Accounts policy uses the Local Security task Disable Gue
 1. On the Tasks tab open the folder tree to __Client Tasks | Local Security__.
 1. Select the __Disable Guest Account__ task.
 
-   ![Disable Guest Account task](images/disable-guest/disable-guest_2.png)
+   ![Disable Guest Account task](images/disable-guest/disable-guest-2.png)
 1. Click __Run__.

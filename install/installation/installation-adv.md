@@ -80,13 +80,6 @@ Add three new application pools. Name one TMS, name another TMSAgent, and name t
 
    ![Adding new application pools](images/install-adv/install_adv_5.png)
 1. When creating your connection string, if you selected Integrated Security=True in step 6, change the Identity for your application pools to a service account that has DBOwner rights on the SQL database & make sure that the Identity for the three app pools have Modify rights to the folder that you put the Privilege Manager files into. To setup the service account correctly and set folder permissions and the Identities for these app pools, follow all of the steps in [Using a Service Account to run the IIS App pool](../../how-to/best-practices/run-iis-app-pool.md) now.
-1. TMS requires Read access to the private key of the certificate being used for the HTTPS binding. To set this:
-
-   1. Open mmc.exe as an administrator
-   1. Add the certificate manager snap-in choosing to manage certificates for the computer account (File | Add/Remove Snap-in… | Click Certificates, then Add| Computer account | Next | Local computer | Finish | OK)
-   1. Find the certificate that the HTTPS binding for your site is using
-   1. Right-click on the certificate and select All Tasks | Manage Private Keys. If the "Manage Private Keys" option is not available, you can set this permission in powershell. Refer to the How-to [Setting Read Access to Private Key of your Certificate](../../how-to/best-practices/read-privkey.md) topic.
-   1. Grant Read access to the identity account for your application pools
 1. Right-click Default Web Site in IIS and select Add Virtual Directory…
 
    ![Adding the Virtual Directory](images/install-adv/install_adv_6.png)

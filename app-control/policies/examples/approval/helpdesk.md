@@ -17,20 +17,25 @@ To enable elevation requests:
 1. In Policy Name search field enter __User Requested Elevation Justification Policy__.
 
     ![Policy](images/help-desk/hd-2.png)
-1. Click the Enable box at the bottom of the window.
 
-   ![Enable](images/help-desk/hd-3.png)
+    ![Enable](images/help-desk/hd-3.png)
 1. Click __Create a Copy__.
+1. To further customize the policy, click __Edit__.
 1. Enter a name and description for your new policy.
 1. Select either Elevate or Standard User.
-1. To further customize the policy, click __Edit__.
+1. Navigate to the __Conditions__ tab.
+1. Click on the __+__ to add an Application Target.
+1. Search for the msiexec that will target the application and select the filter.
+1. Click __Add__.
 1. Navigate to the __Actions__ tab. The default actions are __Restrict File Dialogs, Justify Application Elevation Action and Add Administrative Rights__. You can also create a new request message for a third-party integration.
 
    ![Actions](images/help-desk/hd-4.png)
 1. Navigate to the __Deployment__ tab and click on __Run Policy Targeting Update__.
-After you are done customizing the policy, enable and save it. Once the agent receives the update, the new....
+
    ![helpdesk](images/help-desk/hd-5.png)
-After you are done customizing the policy, enable and save it. Once the agent receives the update, the new message looks like this:
+After you are done customizing the policy, enable and save it.
+
+Once the agent receives the update, the new message looks like this:
 
    ![Message](images/help-desk/hd-1.png)
 

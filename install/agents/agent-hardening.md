@@ -9,4 +9,20 @@ To make sure that local Administrators do not tamper with Thycotic agents runnin
 
 A user or group needs to be available in Privilege Manager to be selected while setting up the task. This user or group will have rights to start and stop agent services running on endpoints.
 
-Refer to the topic on [Setting up the SDDL for Services by Account IDs Client Task](../../tasks/sddl-client.md).
+## How to Edit an existing Remote Scheduled Client Command - Agent Service Start / Stop Control (Windows)
+
+1. Navigate to __ADMIN | Policies__.
+1. Click on the __General__ Tab.
+1. In the Name field enter __Agent Service Start / Stop Control__.
+
+   ![Search](images/agent-har/a-1.png)
+1. Click on the __Agent Service Start / Stop Control (Windows)__ policy.
+
+   ![Policy](images/agent-har/a-2.png)
+1. To customize the Agent Hardening policy navigate to the __Parameters tab__.
+1. Click __Edit__.
+
+   ![Parameters](images/agent-har/a-3.png)
+1. Under __User Services__ click the __+__ button and use the search field to select the Services to be targeted by the task
+1. Under __User Accounts__ click the __+__ button and use the search field to find the specific user account that has permissions to make changes to the Agent services.
+1. Click __Save__.

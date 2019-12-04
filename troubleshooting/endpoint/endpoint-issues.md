@@ -3,17 +3,15 @@
 [priority]: # (2)
 # Endpoint Issues
 
-This topc is intended to assist users in troubleshooting issues (such as policies not yielding expected results) from an endpoint machine that has the Thycotic agent installed on it. 
+This topc is intended to assist users in troubleshooting issues (such as policies not yielding expected results) from an endpoint machine that has the Thycotic agent installed on it.
 
 ## Agent Install Codes
 
-Privilege Manager version 10.5 and above will require an installation code when installing the latest agent on an endpoint. This is a code for only one-time use and is removed from the endpoint after the agent is installed. More information regarding the agent install codes can be found at the link below:
+Privilege Manager version 10.5 and above will require an installation code when installing the latest agent on an endpoint. This is a code for only one-time use and is removed from the endpoint after the agent is installed. Refer to the [Agent Install Codes](../../install/agents/installcode.md) topic for further details.
 
-https://thycotic.force.com/support/s/article/PM-Agent-Install-Codes
+If it becomes necessary to set the install code after the agent is installed, an install code can be set using a PowerShell script that must be run as an Administrator. This script, along with other useful agent scripts, will be located in the `C:\Program Files\Thycotic\Powershell\Arellia.Agent` folder on any machine with the Thycotic agent installed and is called __SetAMSServer.ps1__. The script will request parameters, as follows:
 
-If it becomes necessary to set the install code after the agent is installed, an install code can be set using a PowerShell script that must be run as an Administrator. This script, along with other useful agent scripts, will be located in the _C:\Progam Files\Thycotic\Powershell\Arellia.Agent_ folder on any machine with the Thycotic agent installed and is called __SetAMSServer.ps1__. The script will request parameters, as follows:
-
-* The first parameter the script will request is the URL of the server you wish to connect to; its value should be https://PrivilegeManagerURL/TMS/.
+* The first parameter the script will request is the URL of the server you wish to connect to; its value should be `https://PrivilegeManagerURL/TMS/`.
 * The second parameter it will ask for is the install code.
 
 ## Agent Utility

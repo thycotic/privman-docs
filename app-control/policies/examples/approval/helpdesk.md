@@ -13,22 +13,30 @@ Application Control Solution (ACS) enables end users to request elevation and th
 
 ## Enable Elevation Requests
 
-To enable elevation requests in ACS, do the following steps:
+To enable elevation requests:
 
-1. In the Thycotic Security Manager, click the Policies tab.
-1. In the file library in the left pane, navigate to Application Control | Policies | Privilege Management | User Requested MSI Elevation Justification Policy.
-1. In the policy settings in the right pane, click the red Off button to enable the policy. Click the Application Actions tab.
-1. Under Applications, select Applications action (the default action is Approval Request Form Action or you can create a new request message for a third-party integration).
-1. Click Apply To and apply the policy to targeted computers.
-1. Click Save.
+1. Navigate to __ADMIN | Policies__.
+1. In Policy Name search field enter __User Requested MSI Elevation Justification Policy__.
+
+    ![Policy](images/help-desk/hd-2.png)
+1. Click the Enable box at the bottom of the window.
+
+   ![Enable](images/help-desk/hd-3.png)
+1. Navigate to the __Actions__ tab. The default actions are __Restrict File Dialogs, Justify Application Elevation Action and Add Administrative Rights__. You can also create a new request message for a third-party integration.
+
+   ![Actions](images/help-desk/hd-4.png)
+1. Navigate to the __Deployment__ tab and click on __Run Policy Targeting Update__.
+
+   ![Deployment](images/help-desk/hd-5.png)
+After you save the policy and the agent receives the update, the new message looks like this:
+Users will enter their written request in the Reason (required) field and then send the request to the AMS.
+
 
 After you save the policy and the agent receives the update, the new message looks like this:
 
-<!-- TODO update image -->
+   ![Message](images/help-desk/hd-1.png)
 
 Users will enter their written request in the Reason (required) field and then send the request to the AMS.
-
-For the default manual approval process you can use the Security Manager Console and Help Desk Console to approve or deny requests. For more complex approval options see Approval Requests.
 
 ## End users
 When end users try to open a restricted application, they must enter a reason for needing the application and send it for approval:

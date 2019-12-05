@@ -14,7 +14,7 @@ Privilege Manager enables end users to request elevation and then have their req
 1. Name the policy, in our example we changed New to Helpdesk.
 1. From the Action drop-down select __Require Approval__.
 
-   ![Add new policy](images\help-desk\helpdesk-1.png) "Create new Helpdesk approval policy")
+   ![Add new policy](images\help-desk\helpdesk-1.png "Create new Helpdesk approval policy")
 1. Click __Create__.
 
    ![Helpdesk policy](images\help-desk\helpdesk-2.png "Helpdesk policy general tab")

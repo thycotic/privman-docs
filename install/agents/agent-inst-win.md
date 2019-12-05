@@ -26,7 +26,7 @@ Individual Windows agents are available in MSI format for easier bulk-rollout th
 * __Core Thycotic Agent (x64)__:
   https://tmsnuget.thycotic.com/software/Agents/ThycoticAgent_x64_10_7_2178.msi
 * __Application Control Agent (x64)__:
-  https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x64_10_7_2203.msi
+  https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x64_10_7_2206.msi
 * __Local Security Solution Agent (x64)__:
   https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x64_10_7_2178.msi
 
@@ -55,7 +55,7 @@ Individual Windows agents are available in MSI format for easier bulk-rollout th
 * Core Thycotic Agent __(x86)__:
   https://tmsnuget.thycotic.com/software/Agents/ThycoticAgent_x86_10_7_2178.msi
 * Application Control Agent __(x86)__:
-  https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x86_10_7_2203.msi
+  https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x86_10_7_2206.msi
 * Local Security Solution Agent __(x86)__:
   https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x86_10_7_2178.msi
 

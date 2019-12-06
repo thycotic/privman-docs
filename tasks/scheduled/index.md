@@ -9,7 +9,7 @@ In addition to maintenance tasks, there are other tasks that should be scheduled
 
 Import Active Directory users and groups on demand and based on a set schedule.
 
->**Notes**__**: Depending on AD structure and size, the tasks should be planned to avoid bulk imports and synchronization of too large of a number of accounts.
+>**Note**: Depending on AD structure and size, the tasks should be planned to avoid bulk imports and synchronization of too large of a number of accounts.
 
 ## Task Parameter Conflicts
 

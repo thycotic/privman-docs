@@ -8,6 +8,7 @@ This topic is a collection of articles covering "How to..." procedures for diffe
 * Best Practices:
 
   * [Using a Service Account to run the IIS App pool](best-practices/run-iis-app-pool.md)
+  * [Prevent Read and Write Access to File Types or Locations](best-practices/prevent-read.md)
 
 * Import, Export, and Migration:
 
@@ -16,7 +17,7 @@ This topic is a collection of articles covering "How to..." procedures for diffe
 
 * Azure:
 
-  * [Add Thycotic One Users Manually](../ui/ui-config-users.md)
+  * [Add Thycotic One Users Manually](../ui/config/users/index.md#how_to_add_thycotic_one_users_manually)
 
 * Infrastructure
 
@@ -36,7 +37,7 @@ This topic is a collection of articles covering "How to..." procedures for diffe
   * [Uninstalling an Agent with Script](agents/agent-uninstall-script.md)
   * [Agent Trust Revocation](agents/agent-trust-revocation.md)
   * [Configuring for a Test Environment](agents/config-test-env.md)
-  * [How to prevent Backwards Compatibility for Agents v10.4 and earlier](agents/prevent-backwards-compatibility-agents.md) 
+  * [How to prevent Backwards Compatibility for Agents v10.4 and earlier](agents/prevent-backwards-compatibility-agents.md)
 
 * Maintenance:
 

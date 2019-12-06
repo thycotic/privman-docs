@@ -15,7 +15,7 @@ During the creation of a Policy you will specify Actions and Targets, but Filter
 
 Privilege Manager ships with most commonly used policy templates. These can be created new based on a selected template or copied and then customized. These policies are quickly accessed via __Admin | Policies__.
 
-Thycotic also provided templates that do not ship with the product, but that can be downloaded via Config Feeds from within the Privilege Manager Console. Once downloaded and installed, customers can access those policy templates via __Admin | More__ and clicking on the Folders link. Here a new policy can be created based on a template from a drop-down list. This policy will have associated targets, filters, and actions set, which can be further customized to cover an organization's specific needs. Also refer to [Configuration Feeds](../config-feeds/index.md).
+Thycotic also provides templates that do not ship with the product, but that can be downloaded via __Config Feeds__ from within the Privilege Manager Console. Once downloaded and installed, customers can access those policy templates via __Admin | More__ and clicking on the Folders link. Here a new policy can be created based on a template from a drop-down list. This policy will have associated targets, filters, and actions set, which can be further customized to cover an organization's specific needs. Also refer to [Configuration Feeds](../../config-feeds/index.md).
 
 ## Overview of the Configuration Process
 

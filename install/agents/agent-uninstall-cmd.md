@@ -1,4 +1,4 @@
-[title]: # (Agent Uninstall via Command Line)
+[title]: # (Agent Uninstall)
 [tags]: # (software removal)
 [priority]: # (1610)
 # Agent Uninstall via Command Line

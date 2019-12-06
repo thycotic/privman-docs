@@ -21,7 +21,8 @@ The following topic are available:
   * [Mac OSx](agents/agent-inst-mac.md)
   * [Uninstall via Command Line](agents/agent-uninstall-cmd.md)
   * [Agent Hardening](agents/agent-hardening.md)
-    * [Running the SDDL by Client ID Task to only allow specific users to start/stop agent services](../../tasks/sddl-client.md)
+
 * [Upgrades](upgrades/index.md)
+  * [Upgrading from 8.2 to Privilege Manager 10.4 and up](upgrades/upgrades-version-8.md)
   * [Offline Upgrades Privilege Manager](upgrades/offline-upgrade.md)
   * [Offline Upgrades - Combined Secret Server and Privilege Manager](upgrades/offline-upgrades-combined.md)

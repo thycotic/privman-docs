@@ -7,7 +7,7 @@ This is a special collection of files to whitelist or blacklist. This filter typ
 
 You can use these filters to target executables found in security catalogs. The built-in filter targets the Signed Security Catalog (\Windows\System32\catroot\) and is typically used to automatically whitelist applications from Microsoft.
 
-![File Collection Security Catalog Filter](images/file-cole-sec-cat.png)
+![File Collection Security Catalog Filter](images/file-col-sec-cat.png)
 
 ## Parameters
 

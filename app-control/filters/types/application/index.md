@@ -17,5 +17,4 @@ The following Application Filter type filter topics are available:
 * [Security Rating Filter](security-ratings.md)
 * [Signed File Filter](signed-file.md)
 * [Time Of Day Filter](time-of-day.md)
-* [User Context Filter](user-context.md)
-* [User Context Filter via SID](user-context.md)
+* [User Context Filter / User Context Filter via SID](user-context.md)

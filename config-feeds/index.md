@@ -17,7 +17,7 @@ The main product areas covered are:
 | ----- | ----- | ----- |
 | Application Control Solution | AP - EMET Example Policies | Contains sample Enhanced Mitigation Experience Toolkit (EMET) Application Control policies for common applications. |
 | | AP - Remove Programs Helper | Contains the policies for the Remove Programs Helper Utility. **Note**: This only pertains to Privilege Manager versions prior to 10.7. In 10.7 and up, the [utility is automatically installed](../how-to/maintenance/remove-programs-utility.md) and can be [enabled via policy](../app-control/policies/examples/elevate/pm-remove-prog.md).|
-| | [AP - UNC Elevation Policy Template](../policies/elevation-network-share.md) | Contains the UNC Share Elevation Policy Template to scan a network share and automatically elevate MSI and EXE files. |
+| | [AP - UNC Elevation Policy Template](../app-control/policies/examples/elevate/network-share.md) | Contains the UNC Share Elevation Policy Template to scan a network share and automatically elevate MSI and EXE files. |
 | | AP - UNC Whitelist Policy Template | Contains the UNC Share Whitelist Policy Template to scan a network share and automatically whitelist files in MSI, ISO, ZIP files. |
 | | Browser Lockdown | Contains Configurable Browser Lockdown Settings. |
 | | [Secondary File Hash Exclusion Policy](exclude-from-file-hash.md) | Policy template to exclude non-executable files from the hash process. |

@@ -38,5 +38,5 @@ The following actions are supported by macOS agents:
 * [Use Discovery to Determine if an Application Requires Admin Privileges](determ-admin.md)
 * [Require Justification for Firefox](justification-firefox.md)
 * [Deny Photos Application](deny-photos.md)
-* [Adding macOS Agents to a Computer Testing Group](app-testing-group.md)
+* [Adding macOS Agents to a Computer Testing Group](add-testing-group.md)
 * [Inventoring .pkg Files](inventory-pkg.md)

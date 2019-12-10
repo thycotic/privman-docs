@@ -7,5 +7,5 @@ Whitelisting is a type of policy that allows applications to run on your endpoin
 
 The following examples are available:
 
-* [Whitelist MS Security Catalog](wl-ms-sec-cat.md)
-* [Whitelist Google Application with File Upload](wl-g-app-file-up.md)
+* [Whitelist MS Security Catalog](ms-sec-cat.md)
+* [Whitelist Google Application with File Upload](google-app-file-up.md)

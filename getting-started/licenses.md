@@ -1,6 +1,6 @@
 [title]: # (Licensing)
-[tags]: # (Licensing,On-premises,Cloud)
-[priority]: # (220)
+[tags]: # (on-premises)
+[priority]: # (503)
 # Licensing
 
 ## Cloud Licenses
@@ -14,6 +14,9 @@ To install new Privilege Manager licenses, it will depend on whether you chose t
 a. perform a standalone install, or
 
 b. install Secret Server in tandem with Privilege Manager.
+
+>**Note**:
+>Online activation is not required for Privilege Manager licenses.
 
 ### Steps for Standalone Privilege Manager Installation
 
@@ -50,6 +53,25 @@ If you previously had evaluation licenses and recently purchased, you will need 
 
 ## Expired Licenses
 
-When your Privilege Manager licenses expire or have exceeded the licensed count, Privilege Manager will revert to a “Limited Mode,” meaning that the server will stop accepting data sent from agents. Additionally, new endpoints will register but will not be recorded. This means the endpoint won’t be added to Computer Groups (Resource Targets), can’t collect application or user inventories, no password changes will be able to occur, etc.
+When your Privilege Manager licenses expire or have exceeded the licensed count, Privilege Manager will stop processing new inventory and application control events. Endpoints will continue to enforce policies.
 
-Configured policies will continue to run on endpoint machines but will not be able to be updated or edited. Moreover, the server will completely discard the data that agents send to Privilege Manager, and it won’t be stored.
+## Client vs. Server Licenses
+
+* __Client License__: This license provides coverage for endpoints that are workstations, such as Windows 10, windows 7, etc.
+* __Server License__: This license provides coverage for endpoints that are server machines, Windows Server 2019, Windows 2016, etc.
+* __Support License__: Without having a support license you will not be able to complete upgrades and will not be able to receive support or maintenance.
+
+![Product Licenses](images/license/licenses.png)
+
+### When a license has expired or have exceeded the license count
+
+The Server will stop accepting data sent from agents that are in violation of the licensing. New endpoints will register, but will not be recorded, which means the endpoint:
+
+* Will not get added to the resource targets and will not collect application or user inventories
+* No password changes will occur, etc.
+* Policies will run on the endpoint, but the server will completely discard the data, and it won’t be stored.
+* Tasks will not run – all automation will stop and event Discovery will not inventory users or applications, new endpoints won’t be discoverable.
+
+## 10.7 and up Reset Licensing
+
+If you need to reset licenses for your Privilege Manager instance refer to the [Reset Licensing](../tasks/reset-license.md) topic.

@@ -1,10 +1,11 @@
-[title]: # (Release Notes - Privilege Manger)
+[title]: # (Release Notes)
 [tags]: # (read me)
-[priority]: # (2)
-# Release Notes - Privilege Manager
+[priority]: # (30000)
+# Release Notes
 
-This section includes the most recent Privilege Manger Release Notes.
+This section includes the most recent Privilege Manager Release Notes.
 
-## Link to Legacy Versions
-
-For legacy versions of the release notes follow this link: https://thycotic.force.com/support/s/article/PM-Release-Notes
+* [10.7 Release Notes - On-prem](10.7-on-prem.md)
+* [10.6 Release Notes - On-prem](10.6-on-prem.md)
+* [10.6 Release Notes - Cloud](10.6-cloud.md)
+* [10.5 and previous releases Release Notes](10.5-prior.md)

@@ -7,15 +7,9 @@ Use the links below to download the agent installation software for Windows base
 
 There are three agents available for Windows endpoints:
 
-* Thycotic Agent: The core agent is responsible for all reporting and monitoring communication on the endpoint. It can be considered the managing agent, while the Application Control and Local Security Agents are the worker agents.
-* Application Control Agent (ACS): This agent is responsible for monitoring processes executing the Privilege Manager Application Control Functions on the endpoint.
-* Local Security Agent (LSS): This agent is responsible for monitoring and executing Local Security functions.
-
-## Bundled Privilege Manager Agent Installer
-
-This bundled EXE installer is recommended when installing Privilege Manager on machines one at a time, for deployments through software delivery see the next section. This installer includes all Privilege Manager Agents for Windows machines (Core, ACS, LSS). You can use this installer directly on individual endpoints for testing or for production environments in either 32-bit or 64-bit environments:
-
-* Bundled Agent Installer: https://tmsnuget.thycotic.com/software/Agents/ThycoticAgentsInstaller_x86_10_6_1080.exe
+* __Thycotic Agent__: The core agent is responsible for all reporting and monitoring communication on the endpoint. It can be considered the managing agent, while the Application Control and Local Security Agents are the worker agents.
+* __Application Control Agent__ (ACS): This agent is responsible for monitoring processes executing the Privilege Manager Application Control Functions on the endpoint.
+* __Local Security Agent__ (LSS): This agent is responsible for monitoring and executing Local Security functions.
 
 ## Individual Agent Installers for Privilege Manager
 

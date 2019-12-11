@@ -47,7 +47,7 @@ These following topics are available:
   * [Use Discovery to Determine if an Application Requires Admin Privileges](mac/determ-admin.md)
   * [Require Justification for Firefox](mac/justification-firefox.md)
   * [Deny Photos Application](mac/deny-photos.md)
-  * [Adding macOS Agents to a Computer Testing Group](mac/app-testing-group.md)
+  * [Adding macOS Agents to a Computer Testing Group](mac/add-testing-group.md)
   * [Inventoring .pkg Files](mac/inventory-pkg.md)
   
 

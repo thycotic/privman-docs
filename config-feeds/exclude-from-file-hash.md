@@ -56,7 +56,7 @@ To create manual secondary extension exceptions to file hash collection, add a r
 1. Restart the Thycotic services on this machine.
 
 Open a file matching an extension from your inclusion list and test if it works on this endpoint. If it works, create a Policy to push this registry key creation to all desired endpoints.
-<!-- TODO: The following sub topic will only be available in the dev publication environment, it will be commented out for QA and Production.-->
+<!-- TODO: The following sub topic will only be available in the dev publication environment, it will be commented out for QA and Production.
 ## Create Policy to Push Registry Change to Endpoints (internal)
 
 First create a PowerShell Script task that can create the registry key, then create a Policy to push that task to the desired endpoints.

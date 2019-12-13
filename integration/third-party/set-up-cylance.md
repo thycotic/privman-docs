@@ -7,7 +7,7 @@ Cylance is an Artificial Intelligence Based Advanced Threat Prevention Solution 
 
 Keep in mind that while the Cylance integration provides insight into threat analysis, ultimately you can use Privilege Manager policies to act or react in whatever way makes most sense to your organization.
 
-## Cylance Connector Installation Steps (On=prem only)
+## Cylance Connector Installation Steps (On-prem only)
 
 1. Open a browser on your Privilege Manager Web Server, browse to https://[YourInstanceName]/TMS/Setup/
 1. On the Currently Installed Products screen, choose Install/Upgrade Products.

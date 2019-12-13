@@ -31,15 +31,15 @@ Individual Windows agents are available in MSI format for easier bulk-rollout th
 
 * __Core Thycotic Agent__
   ```
-  msiexec.exe /i "ThycoticAgent_x64_10_6_1080.msi" /norestart AMSURL=https://SERVERNAME/TMS/ INSTALLCODE=XXXX1234ABCD REBOOT=ReallySuppress /qn
+  msiexec.exe /i "ThycoticAgent_x64_10_7_2178.msi" /norestart AMSURL=https://SERVERNAME/TMS/ INSTALLCODE=XXXX1234ABCD REBOOT=ReallySuppress /qn
   ```
 * __Application Control Agent__
   ```
-  msiexec.exe /i "Thycotic_ApplicationControlAgent_x64_10_6_1080.msi" /norestart REBOOT=ReallySuppress /qn
+  msiexec.exe /i "Thycotic_ApplicationControlAgent_x64_10_7_2206.msi" /norestart REBOOT=ReallySuppress /qn
   ```
 * __Local Security Agent__
   ```
-  msiexec.exe /i "Thycotic_LocalSecurityAgent_x64_10_6_1025.msi" /norestart REBOOT=ReallySuppress /qn
+  msiexec.exe /i "Thycotic_LocalSecurityAgent_x64_10_7_2178.msi" /norestart REBOOT=ReallySuppress /qn
   ```
 
 ### 32-bit Windows Operating Systems
@@ -60,13 +60,13 @@ Individual Windows agents are available in MSI format for easier bulk-rollout th
 
 * Core Thycotic Agent
   ```
-  msiexec.exe /i "ThycoticAgent_x86_10_6_1080.msi" /norestart AMSURL=https://SERVERNAME/TMS/ INSTALLCODE=XXXX1234ABCD REBOOT=ReallySuppress /qn
+  msiexec.exe /i "ThycoticAgent_x86_10_7_2178.msi" /norestart AMSURL=https://SERVERNAME/TMS/ INSTALLCODE=XXXX1234ABCD REBOOT=ReallySuppress /qn
   ```
 * Application Control Agent
   ```
-  msiexec.exe /i "Thycotic_ApplicationControlAgent_x86_10_6_1080.msi" /norestart REBOOT=ReallySuppress /qn
+  msiexec.exe /i "Thycotic_ApplicationControlAgent_x86_10_7_2206.msi" /norestart REBOOT=ReallySuppress /qn
   ```
 * Local Security Agent
   ```
-  msiexec.exe /i "Thycotic_LocalSecurityAgent_x86_10_6_1025.msi" /norestart REBOOT=ReallySuppress /qn
+  msiexec.exe /i "Thycotic_LocalSecurityAgent_x86_10_7_2178.msi" /norestart REBOOT=ReallySuppress /qn
   ```

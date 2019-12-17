@@ -7,53 +7,72 @@ Cylance is an Artificial Intelligence Based Advanced Threat Prevention Solution 
 
 Keep in mind that while the Cylance integration provides insight into threat analysis, ultimately you can use Privilege Manager policies to act or react in whatever way makes most sense to your organization.
 
-## Configuration Steps
+## Cylance Connector Installation Steps (On-prem only)
 
 1. Open a browser on your Privilege Manager Web Server, browse to https://[YourInstanceName]/TMS/Setup/
 1. On the Currently Installed Products screen, choose Install/Upgrade Products.
-
-​​   User-added image
-
-1. Select option Thycotic Cylance Reputation Connector. Click on Install and Accept the End User License Agreement. You will see your Installation Progress. Click on “Show install Logs” link to check for any errors
+1. Select option Thycotic Cylance Reputation Connector.
+1. Click on __Install__ and Accept the End User License Agreement. You will see your Installation Progress. Click on “Show install Logs” link to check for any errors
 
    > **Note**: If the installation of Cylance initially fails, redirect to https://[YourInstanceName]/TMS/Setup/ and click the Repair button next to the Cylance Product.
 
-1. Once Installation is successful, click on the Home button.
-1. Navigate to Thycotic Privilege Manager | Admin | Configuration | Reputation tab.
-1. Select Cylance Rating Provider from the Select Rating Provider drop down menu, then click Edit
+1. Once the Installation is successful, click on the __Home__ button.
 
-​​User-added image
+## Configuring the Cylance Connector
 
-1. Enter the required Credentials and Settings Details. These details can be found in your Cylance account (login at protect.cylance.com) under Integrations | Custom Applications as shown below:
+1. Navigate to __ADMIN | Configuration__ and select the __Reputation__ tab.
+1. From the Select Rating Provider drop-down, select __Cylance Rating Provider__.
 
-User-added image
+   ![Cylance set-up](images/cylance/cylance-1.png "Cylance Selection")
+1. Click __Edit__.
+1. Enter the required __Credentials__ and __Settings__ details. These details can be found in your Cylance account (login at protect.cylance.com) under __Integrations | Custom Applications__, refer to the Cylance interface:
 
-1. When required details are entered, click Save.
-
-​​User-added image
+   ![protect.cylance.com](images/cylance/cylance-2.png "Cylance Custom Application")
+1. Once the Cylance details are entered in Privilege Manger, click __Save__.
 
 ## Create a Cylance Security Rating Filter
 
-1. Next, in Privilege Manager navigate to Admin | More | Filters, then click Add Filter.
-1. Select a platform, then Security Rating Filter as a Filter Type. Name the policy and add a Description.
-   ​​User-added image
-1. Next to Security Rating System, Click Application Control Rating system, then select Cylance Rating System from available options, click __Create__.
-​​​​​   User-added image
-1. After the filter is created, click Edit and select the Rating Level type as per the requirement, then click Save.
-​​   User-added image
+1. Navigate to __ADMIN | More__ and select __Filters__
+1. Click __Add Filter__.
+1. From the __Platform__ drop-down select either Windows or macOS.
+1. From the __Filter Type__ drop-down select __Security Rating Filter__. 
+1. Name the policy and add a Description.
+1. Next to __Security Rating System__, click __Application Control Rating System__.
+
+   ![creating filter](images/cylance/cylance-3.png "Creating filter and selecting the Application Control Rating System")
+1. Click the __+__ next to Cylance Rating System to add the system.
+
+   ![add app control rating](images/cylance/cylance-4.png "Adding the Application Control Rating System")
+1. Click __Create__.
+1. Click __Edit__ to select the __Rating Level__ you wish to apply, the options are:
+
+   * Unclassified
+   * Whitelist
+   * Greylist
+   * Blacklist
+
+   You can also specify a Timeout value and Error Handling conditions on timeout and/or on failure, the options are:
+
+   * Matched
+   * Not Matched
+1. Click __Save__.
 
 ## Create a Cylance Policy
 
-1. After your Filter is created, Navigate to Admin | Policies | Add New Policy.
-1. Select Windows as a Platform. Enter required details and click Create.
+After your Filter is created, 
 
-   User-added image
+1. Navigate to __ADMIN | Policies__ and click __Add New Policy__.
+1. If you created a Windows filter, as we did in the example above, select Windows from the __Platform__ drop-down. 1. From the __Policy Type__ drop-down select a template that matches what you are trying to do, for example deny an application execution based on a bad security rating. Here we select Deny Application Execution.
+1. Enter a name and description.
+   ![policy](images/cylance/cylance-5.png "Creating a Policy")
+1. Click __Create__.
+1. Click __Edit__.
+1. On the General tab, select the __Enabled__ checkbox. And adjust any other settings like the priority. Deny policies should have low priorities.
+1. Select the __Conditions__ tab, then select __Add Application Target__.
+1. Search for the Cylance filter created earlier. Select that filter and click __Add__.
 
-1. Click Edit and check the Enabled box. Select the Conditions tab, then select Add Application Target.
-1. Search for the Cylance filter created in the previous steps. Select that filter and click Add.
+   ![condition](images/cylance/cylance-6.png "Adding a target")
+1. On the Actions tab, add an appropriate Action to be taken.
 
-User-added image
-
-1. Next, select the Actions tab. Add an appropriate Action to be taken. Click the Save button to save the policy.
-
-   User-added image
+   ![action](images/cylance/cylance-6.png "Adding an action")
+1. Click __Save__.

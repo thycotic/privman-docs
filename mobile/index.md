@@ -10,10 +10,8 @@ For the mobile app to work you must install the Privilege Manager Mobile Console
 To get started installing and using the Privilege Manager Mobile Console, do the following steps:
 
 * [Review the Mobile Console requirements](sysreq.md)
-* Install the Privilege Manager Mobile Console Solution
-* Install the Privilege Manager Mobile Console Solution license
-* Configure the Service Bus Relay
+* [Configure the Service Bus Relay](../how-to/infrastructure/ms-az-service-bus.md)
 * [Configure the Microsoft Azure Active Directory](cfg-azure-ad.md)
-* [Install the Privilege Manager Mobile Console on the Privilege Manager Server](cfg-console.md)
+* [Install and Configure the Privilege Manager Mobile Console Solution on the Privilege Manager Server](cfg-console.md)
 * [Install the Privilege Manager Mobile App](install.md)
-* [Learn how to Use the mobile app](use-mobile.md)
+* [Learn how to use the mobile app](use-mobile.md)

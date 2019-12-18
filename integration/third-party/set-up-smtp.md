@@ -7,7 +7,7 @@ Simple Mail Transfer Protocol (SMTP) is the Internet standard for email transmis
 
 ## SMTP in Cloud Environments
 
-Starting with the Privilege Manager 10.7.1 Cloud release, the SMTP foreign system is automatically configured, if the email server information was provided during the cloud instance set-up. The information can be added/changed following the initial set-up.
+Starting with version 10.7.1 of Privilege Manager Cloud, the SMTP foreign system is automatically configured with the email server information as provided during the cloud instance set-up. The information can be added/changed following the initial set-up.
 
 ## Configuring the SMTP Connection
 

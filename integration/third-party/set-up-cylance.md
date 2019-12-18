@@ -25,17 +25,19 @@ Keep in mind that while the Cylance integration provides insight into threat ana
 
    ![Cylance set-up](images/cylance/cylance-1.png "Cylance Selection")
 1. Click __Edit__.
-1. Enter the required __Credentials__ and __Settings__ details. These details can be found in your Cylance account (login at protect.cylance.com) under __Integrations | Custom Applications__, refer to the Cylance interface:
-
-   ![protect.cylance.com](images/cylance/cylance-2.png "Cylance Custom Application")
+1. Enter the required __Credentials__ and __Settings__ details. These details can be found in your Cylance account (login at protect.cylance.com).
+   1. In our Cylance account, navigate to __Settings__ and select __Integrations__. You find the __Tenant Id__ on the right side of the Custom Applications area.
+      ![protect.cylance.com](images/cylance/cylance-2-tenant.png "Cylance Settings overview")
+   1. Select your Privilege Manager integration from the Custom Application list. You find the required __Application ID__  and __Application Secret__ on the left side of the page.
+      ![Custom App](images/cylance/cylance-2.png "Cylance Custom Application")
 1. Once the Cylance details are entered in Privilege Manger, click __Save__.
 
 ## Create a Cylance Security Rating Filter
 
-1. Navigate to __ADMIN | More__ and select __Filters__
+1. Navigate to __ADMIN | More__ and select __Filters__.
 1. Click __Add Filter__.
 1. From the __Platform__ drop-down select either Windows or macOS.
-1. From the __Filter Type__ drop-down select __Security Rating Filter__. 
+1. From the __Filter Type__ drop-down select __Security Rating Filter__.
 1. Name the policy and add a Description.
 1. Next to __Security Rating System__, click __Application Control Rating System__.
 

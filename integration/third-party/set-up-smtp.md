@@ -5,6 +5,10 @@
 
 Simple Mail Transfer Protocol (SMTP) is the Internet standard for email transmission. Often organizations use an SMTP Server — or a server that is specifically dedicated to transmitting email messages via TCP Port 25 — and in order to send email alerts with Privilege Manager policies, you must ensure that your email server is connected to Privilege Manager.
 
+## SMTP in Cloud Environments
+
+Starting with the Privilege Manager 10.7.1 Cloud release, the SMTP foreign system is automatically configured, if the email server information was provided during the cloud instance set-up. The information can be added/changed following the initial set-up.
+
 ## Configuring the SMTP Connection
 
 To set up the connection, follow these steps:

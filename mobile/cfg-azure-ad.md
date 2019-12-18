@@ -15,7 +15,7 @@ As a prerequisite for running the Privilege Manager Mobile Console, you must con
 1. Choose the __Native Client Application__ option.
 
    ![Configure](images/config-2.png "Configure")
-1. Set the Redirect URI to `http://PrivilegeManagerMobileClient`.
+1. Set the Redirect URI to `http://ArelliaMobileClient`.
 1. After you create the Application, click the __Configuration__ tab.
 1. Make note of the __Client ID__.
 

@@ -17,9 +17,9 @@ To set up the connection, follow these steps:
 1. Click SMTP Server, then __Add New__.
 1. Add the Name of your SMTP Server and the base Uri (ex: smtp://[hostname];[port]), then __Create__.
 
-Next, in order to begin email alert notifications for a policy, you will need to assign a Task for the job. Steps for setting up Email Alerts which is listed below is just one examples of the tasks that can be configured for automated email notifications.
+Next, in order to begin email alert notifications for a policy, you will need to assign a Task for the job. The __Setting Up Email Alerts__ information below is just one example of tasks that can be configured for automated email notifications.
 
-   >**Note:**  For cloud environments the SMTP server settings are pulled for an existing configuration and can't be edited via the parameters tab.
+>**Note:**  For cloud environments the SMTP server settings are pulled from an existing configuration and can't be edited via the parameters tab.
 
 ## Setting up Email Alerts
 

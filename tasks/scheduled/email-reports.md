@@ -31,7 +31,8 @@ To set this up, create a new Server task to send emails.
 1. Go to the Paramters tab.
 
    ![Parameters tab](images/send/email-2.png)
-   >**Note:** From cloud environments the SMTP server settings are pulled for an existing configuration and can't be edited via the parameters tab.
+
+>**Note:** For cloud environments the SMTP server settings are pulled from an existing configuration and can't be edited via the parameters tab.
 
 1. In the __Report to Run__ field enter/search for the report you wish to send.
 1. In the __From Address__ field enter the sender information you wish to be provided.

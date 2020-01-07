@@ -3,7 +3,7 @@
 [priority]: # (2)
 # Setting up ActiveX Policies
 
-Setting up ActiveX Policies – this is to allow add-ins to be installed over at a browser (in this example Internet Explorer). To test if ActiveX can be installed without prompting UAC, we can do a test run at <http://pcpitstop.com/>; ActiveX installation is in turn provided at <https://pcpitstop.com/testax.asp>.
+Setting up ActiveX Policies – this is to allow add-ins to be installed over at a browser (in this example Internet Explorer). To test if ActiveX can be installed without prompting UAC, we can do a test run at <http://pcpitstop.com/>; ActiveX installation is in turn provided at <https://pcpitstop.com/testax.asp>. Refer to the Local Security topic, specifically [Manage Local Groups](../../../../local-security/ls-local-groups.md).
 
 >**Note:** You will need to import local group policy definitions before editing your Active-X Group Policy Settings.
 

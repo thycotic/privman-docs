@@ -5,8 +5,6 @@
 
 Here is the complete list of policies that come with Privilege Manager out-of-the-box, grouped by folder type. Once you create custom policies they are listed along the default policies under the tab respective to the template used, as the template associates the folder type.
 
->**Note:** You will need to import local group policy definitions before editing your Active-X Group Policy Settings.
-
 ## Process Hardening
 
 | Policy | Description | Type | Priority | Enabled |
@@ -81,6 +79,8 @@ Common Windows client settings can be deployed to endpoint agents the same way a
 ActiveX Setting define which sites can run ActiveX controls for standard users.
 
 To create an ActiveX setting, a new policy must be created based on the ActiveX policy type template.
+
+>**Note:** You will need to import local group policy definitions before editing your Active-X Group Policy Settings.
 
 ## Firewall
 

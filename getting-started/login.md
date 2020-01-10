@@ -1,17 +1,22 @@
 [title]: # (Initial Login)
-[tags]: # (Installation,basic,Login)
+[tags]: # (on-prem)
 [priority]: # (502)
 # Initial Login
 
-Using the credentials either,
+Using the credentials configured in the Create User section of the on-premises installation, validate that you can login to Privilege Manager and view the home screen.
 
-* provided for the cloud login or
-* configured in the Create User section of the on-premises installation,
+The login URL for an on-premises Privilege Manager instance has this form:
 
-validate that you can login to Privilege Manager and view the home screen.
+`https://[server-domain]/TMS/PrivilegeManager`
 
 >**Note**:
->You may initially be logged in through Secret Server. If this is the case, you can find Privilege Manager by navigating to __Tools | Privilege Manager__.
+>On combined Secret Server/Privilege Manager installations you are initially logged in through Secret Server. If this is the case, you can find Privilege Manager by navigating to __Tools | Privilege Manager__.
+
+![Login](images/login-on-prem.png "On-premises login page")
+
+Use the Privilege Manager link to login to the product. If you need to add or update product features, such as connectors for foreign systems, use the Add / Update Product Features link.
+
+The __Setup a Secret Server Foreign System__ link can be used to set-up an integration with Secret Server. This will also allow you to use Secret Server as an authentication provider. Also refer to [Setting up Integration between Privilege Manager and Secret Server](../integration/thycotic/set-up-pm-ss-integration.md)
 
 ## Getting Started Banner
 
@@ -25,10 +30,10 @@ At initial login the Getting Started Banner displays with help tips and next ste
 
 You may choose to not show the Getting Started Banner on subsequent logins.
 
-![Home screen](images/getting-started-banner.png)
+![Home screen](images/getting-started-banner.png "Getting Started Banner with references")
 
 ## Home
 
 The Home screen of Privilege Manager can be found by clicking Home in the top banner of any page inside of Privilege Manager. From this dashboard you can jump into either Application Control or Local Security, depending on what you want to do. You also will be given different snapshots of various important information about your environment. Once you have agents installed and policies setup, you’ll have a lot going on from the Home Dashboard:
 
-![Home screen](images/home_20190408.png)
+![Home screen](images/home-new-install.png "Home page new installations")

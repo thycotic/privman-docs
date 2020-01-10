@@ -5,6 +5,8 @@
 
 Privilege Manager can push out SysLog formatted messages on a set schedule. Note that this does not happen immediately upon events occurring. Listed below are steps for configuration and task creation for scheduling the action of sending Discovery Event logs to a SysLog server.
 
+>**Note**: The Send policy feedback option needs to be enabled on all policies that are supposed to send SysLog formatted events.
+
 ## Configuring SysLog Connection
 
 To configure SysLog messages in Privilege Manager:
@@ -43,8 +45,8 @@ The following template options are available:
 
 ![Send SysLog templates](images/syslog/templates.png "Sent SysLog Events template options")
 
-* __Send SysLog Application Action Events__ - Use this template to send application action events to your SysLog system. For example, if a newly installed application sets a new environment variable.
-* __Send SysLog Application Justification Events__ - Use this template to send application justification events to your SysLog system. For example, if a user runs an application requiring a justification workflow. This template uses the Application Control Justification Events data source (7d6bdbf0-8f2a-4e9c-9c7e-fa6b75803c45).
+* __Send SysLog Application Action Events__ - Use this template to send application action events to your SysLog system. Application Action Events contain generic information about the application that run, which policy was triggered, the date/time stamp, computer, and user for example.
+* __Send SysLog Application Justification Events__ - Use this template to send application justification events to your SysLog system. For example, if a user runs an application requiring a justification workflow.
 * __Send SysLog Bad Rated Application Action Events__ - Use this template to send an event to your SysLog system, when an application is being installed or executed, that is identified with a bad security rating.
 * __Send SysLog Events__ - Use this template to send all SysLog events to your SysLog system. These events are based on the different options you selected on the SysLog server during setup.
 * __Send SysLog Newly Discovered File Events__ - Use this template to send newly discovered file events to your SysLog system. For this to produce any events the Default File Inventory Policy needs to be enabled and resource discovery schedules need to be customized.

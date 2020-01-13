@@ -61,24 +61,14 @@ The latest version of Privilege Manager is available for download under the [Sof
 
    1. If you choose SQL Server Authentication, next the Account tab will prompt for the server location where your SQL database is currently installed. Provide the Server Name or IP address for your Database server and Authenticate with Administrator SQL credentials. If your Secret Server database does not yet exist when you click "Test Connection" the Installer will create it. When the connection has been tested successfully, click Next.
 
-1. The __Create User__ tab is where you enter information for the initial Privilege Manager/Secret Server Administrator user. Please remember these credentials as they are necessary to login to the web application after you complete installation.
-
-   ![Create User dialog](images/install/inst_createuser_20190327.png)
-
 1. The __Email Server__ tab opens, here the connection information for the email server can be entered. This is also optional and can be skipped to be configured later in the application by clicking Skip Email. This page will configure email for both Secret Server and/or Privilege Manager.
 
    ![Email Server dialog](images/install/inst_email_20190327.png)
 
 1. On the __Review__ tab, most settings are defaulted for a user and they can choose to modify settings at this step. Certain validations will occur on these settings before the install can begin. Click Install to proceed.
 
-   ![Review dialog](images/install/inst_review_20190327.png)
-
 1. The Install page will show the status from log files as Secret Server and/or Privilege Manager are installed. Installs vary depending on your environment, most installs last between 20-60 minutes.
 
 1. The __Log Files__ tab is available after the applications are installed. The installer provides the link to open a web browser to the product login page. At this point, everything is installed and ready for you to begin using your new Thycotic product. If the installation failed or you wish you view the logs from the installation you can click the View Log Files button.
 
-   ![Log Files dialog](images/install/inst_log_20190327.png)
-
 1. On the __Finish__ tab, when the install has successfully completed, click the provided Privilege Manager URL to navigate directly to your setup landing page or open a browser and navigate to where your Privilege Manager is located, for example: http://localhost/TMS/PrivilegeManager.
-
-   ![Finish dialog](images/install/inst_finish_20190327.png)

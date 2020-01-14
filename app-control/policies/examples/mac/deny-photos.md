@@ -56,6 +56,7 @@ Once the resources have been fully discovered, the fastest way to either create 
    ![Existing Policy](images/deny/discovery-nlr-9.png "Add to existing policy")
 1. Click __Create__.
 
+>**Note**: Policies are not automatically enabled. For any further customization or to enable a policy, navigate to ADMIN | Policies and search for and edit the newly created policy.
 
 ## Policy Verification
 

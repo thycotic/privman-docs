@@ -30,7 +30,7 @@ The latest version of Privilege Manager is available for download under the [Sof
 
 1. Double-click the downloaded setup.exe to run the installer. The installer opens on the __Welcome__ tab:
 
-   ![Installation Welcome dialog](images\pm-install\install-1.png)
+   ![Installation Welcome dialog](images/pm-install/install-1.png)
 
 1. Verify that the Privilege Manager box is checked.
 
@@ -38,7 +38,7 @@ The latest version of Privilege Manager is available for download under the [Sof
 
 1. On the __Database__ tab you can choose to either install SQL Express or connect to an existing SQL Server. SQL Express requires a internet access for the installer to download the installation package for SQL Express.
 
-   ![Installation Welcome dialog](images\pm-install\install-2.png)
+   ![Database](images/pm-install/install-2.png)
 
    >**Note**:
    >For production environments Thycotic recommends installing a licensed edition of SQL before installing Thycotic products. The Express edition is only recommended for trial and sandbox environments.
@@ -49,13 +49,13 @@ The latest version of Privilege Manager is available for download under the [Sof
 
 1. The __Pre-Requisites__ tab makes sure everything that is required to install Privilege Manager is setup correctly. Everything on this page can be installed outside of the installer, but if not, the installer will install and configure them for the user. Think of this page as the non-Thycotic configuration. If there are issues with this page it is very likely that the Internet will be able to help as these are not installation features that are specific to Thycotic. Click Fix Issues to automatically install the necessary pre-requisites. When Successful, click Next.
 
-   ![Installation Welcome dialog](images\pm-install\install-3.png)
+   ![Pre-Requisites](images/pm-install/install-3.png)
 
 1. If you chose the “Connect to an existing SQL Server” option on the Database page, the __Database Connection__ tab will now prompt you for the connection information that Privilege Manager will use. The Test Connection button must be run successfully before installation can continue. Once connection is established, click Next.
 
-   ![Installation Welcome dialog](images\pm-install\install-5.png)
+   ![Database Connection](images/pm-install/install-5.png)
 
-   ![Installation Welcome dialog](images\pm-install\install-6.png)
+   ![Database Connection](images/pm-install/install-6.png)
 
    1. If you choose SQL Server Authentication, next the Account tab will prompt for the server location where your SQL database is currently installed. Provide the Server Name or IP address for your Database server and Authenticate with Administrator SQL credentials. If your Secret Server database does not yet exist when you click "Test Connection" the Installer will create it. When the connection has been tested successfully, click Next.
 
@@ -66,13 +66,13 @@ The latest version of Privilege Manager is available for download under the [Sof
 
 1. On the __Review__ tab, most settings are defaulted for a user and they can choose to modify settings at this step. Certain validations will occur on these settings before the install can begin. Click Install to proceed.
 
-   ![Installation Welcome dialog](images\pm-install\install-7.png)
+   ![Review](images/pm-install/install-7.png)
 1. The Install page will show the status from log files as Secret Server and/or Privilege Manager are installed. Installs vary depending on your environment, most installs last between 20-60 minutes.
 
-   ![Installation Welcome dialog](images\pm-install\install-8.png)
+   ![Installation](images/pm-install/install-8.png)
 1. The __Log Files__ tab is available after the applications are installed. The installer provides the link to open a web browser to the product login page. At this point, everything is installed and ready for you to begin using your new Thycotic product. If the installation failed or you wish you view the logs from the installation you can click the View Log Files button.
 
-   ![Installation Welcome dialog](images\pm-install\install-10.png)
+   ![Log Files](images/pm-install/install-10.png)
 1. On the __Finish__ tab, when the install has successfully completed, click the provided Privilege Manager URL to navigate directly to your setup landing page or open a browser and navigate to where your Privilege Manager is located, for example: http://localhost/TMS/PrivilegeManager.
 
-   ![Installation Welcome dialog](images\pm-install\install-9.png)
+   ![Finish](images/pm-install/install-9.png)

@@ -66,7 +66,7 @@ The latest version of Privilege Manager is available for download under the [Sof
 
 1. On the __Review__ tab, most settings are defaulted for a user and they can choose to modify settings at this step. Certain validations will occur on these settings before the install can begin. Click Install to proceed.
 
-   ![Review](images/pm-install/install-7.png)
+   ![Review](images/pm-install/install-7-1.png)
 1. The Install page will show the status from log files as Secret Server and/or Privilege Manager are installed. Installs vary depending on your environment, most installs last between 20-60 minutes.
 
    ![Installation](images/pm-install/install-8.png)
@@ -75,4 +75,4 @@ The latest version of Privilege Manager is available for download under the [Sof
    ![Log Files](images/pm-install/install-10.png)
 1. On the __Finish__ tab, when the install has successfully completed, click the provided Privilege Manager URL to navigate directly to your setup landing page or open a browser and navigate to where your Privilege Manager is located, for example: http://localhost/TMS/PrivilegeManager.
 
-   ![Finish](images/pm-install/install-9.png)
+   ![Finish](images/pm-install/install-9-1.png)

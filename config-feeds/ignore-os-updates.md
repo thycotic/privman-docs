@@ -3,7 +3,7 @@
 [priority]: # (8002)
 # Ignoring macOS Updates
 
-MacOS has a command-line utility that can be used to ignore specific software updates in the Software Update preference pane. To provide a way in Privilege Manager to ignore or reset ignored OS updates, the following policieswith commands are available via configuration feeds.
+MacOS has a command-line utility that can be used to ignore specific software updates in the Software Update preference pane. To provide a way in Privilege Manager to ignore or reset ignored OS updates, the following policies are available via configuration feeds.
 
  ![Config feed](images/ignore/config.png)
 

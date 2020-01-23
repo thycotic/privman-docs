@@ -9,9 +9,9 @@ This is the default drop-down list when adding a new filter for macOS:
 
 ![macOS default filters](images/macOS-filters.png)
 
-## List of MacOS Filters
+## List of MacOS Filters by Types
 
-Application Filter Types:
+### Application Filter Types
 
 * [Commandline Filter](../application/cmdline.md)
 * [Download Source Filter](../application/download-source.md)
@@ -22,7 +22,7 @@ Application Filter Types:
 * [Time Of Day Filter](../application/time-of-day.md)
 * [User Context Filter](../application/user-context.md)
 
-File Filter Types:
+### File Filter Types
 
 * [Application Bundle Filter](app-bundle.md)
 * [File Collection from List of SHA1 Hashes Filter](../inventory/file-collect-list-sha1-hash.md)
@@ -30,3 +30,9 @@ File Filter Types:
 * [File Owner Filter](../file/file-owner.md)
 * [File Scan Results Filter - Computer](../inventory/file-scan-results-comp.md)
 * [File Specification Filter](../file/file-specification.md)
+
+## Available Preference Pane Filters
+
+* [Date and Time Preference Pane filter](prefpane/date-time.md)
+* [Energy Saver Preference Pane filter](prefpane/eng-saver.md)
+* [Network Preference Pane filter](prefpane/network.md)

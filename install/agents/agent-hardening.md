@@ -26,3 +26,5 @@ A user or group needs to be available in Privilege Manager to be selected while 
 1. Under __User Services__ click the __+__ button and use the search field to select the Services to be targeted by the task
 1. Under __User Accounts__ click the __+__ button and use the search field to find the specific user account that has permissions to make changes to the Agent services.
 1. Click __Save__.
+
+>**Note**: If you require a rollback of the agent hardening due to upgrade issues, use the manual [Restore Default Agent Permissions](agent-hardening-rollback.md) procedure.

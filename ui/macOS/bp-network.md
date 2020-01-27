@@ -8,7 +8,7 @@
 For standard users when Network is not managed by a policy,
 
 * all controls except for Location and Advanced are disabled and the padlock icon is closed.
-* Clicking the Advanced… button opens a sheet depending on the network interface selected. Based on the selected interface, some elements maybe enabled.
+* Clicking the Advanced… button opens a sheet depending on the network interface selected. Based on the selected interface, some elements may be enabled.
 * Clicking on the padlock icon results in a prompt, asking for administrator credentials.
 
 ![Network](images/network-1.png "Network Standard User not managed")

@@ -5,7 +5,7 @@
 
 The Network Preference Pane Filter is a read-only filter. If you need to customize the filter, create a copy and edit Settings and/or add Additional Filters.
 
-![Network Preference Pane filter](images/netowrk-1.png "Network Preference Pane description")
+![Network Preference Pane filter](images/network-1.png "Network Preference Pane description")
 
 ![Network Preference Pane filter](images/bottom.png "Filter settings and additional filter parameters")
 

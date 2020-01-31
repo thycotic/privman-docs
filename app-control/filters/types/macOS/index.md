@@ -9,11 +9,11 @@ This is the default drop-down list when adding a new filter for macOS:
 
 ![macOS default filters](images/macOS-filters.png)
 
-## List of MacOS Filters (template drop-down)
+## List of MacOS Filters
 
 The following filters are available based on type from a quick select drop-down menu, after choosing macOS as the platform.
 
-Application Filter Types:
+### Application Filter Types
 
 * [Commandline Filter](../application/cmdline.md)
 * [Download Source Filter](../application/download-source.md)
@@ -24,7 +24,7 @@ Application Filter Types:
 * [Time Of Day Filter](../application/time-of-day.md)
 * [User Context Filter](../application/user-context.md)
 
-File Filter Types:
+### File Filter Types
 
 * [Application Bundle Filter](app-bundle.md)
 * [File Collection from List of SHA1 Hashes Filter](../inventory/file-collect-list-sha1-hash.md)
@@ -45,3 +45,8 @@ The following filters are the default filters used during inventory event discov
 
   * [Default Application Bundles Filter (macOS)](def-app-bundle.md)
   * [System Application Bundles Filter (macOS)](sys-app-bundle.md)
+## Available Preference Pane Filters
+
+* [Date and Time Preference Pane filter](prefpane/date-time.md)
+* [Energy Saver Preference Pane filter](prefpane/eng-saver.md)
+* [Network Preference Pane filter](prefpane/network.md)

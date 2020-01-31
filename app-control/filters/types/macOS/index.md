@@ -9,7 +9,9 @@ This is the default drop-down list when adding a new filter for macOS:
 
 ![macOS default filters](images/macOS-filters.png)
 
-## List of MacOS Filters
+## List of MacOS Filters (template drop-down)
+
+The following filters are available based on type from a quick select drop-down menu, after choosing macOS as the platform.
 
 Application Filter Types:
 
@@ -30,3 +32,16 @@ File Filter Types:
 * [File Owner Filter](../file/file-owner.md)
 * [File Scan Results Filter - Computer](../inventory/file-scan-results-comp.md)
 * [File Specification Filter](../file/file-specification.md)
+
+## List of Default Filters for Event Discovery
+
+The following filters are the default filters used during inventory event discovery on macOS endpoints:
+
+* [Default File Specification (macOS)](file-specification.md)
+  
+  * [Default Application Folder (macOS)](def-app-folder.md)
+  * [System Application Folder (macOS)](sys-app-folder.md)
+* [Default App Bundles File Specification Filter (MacOS)](def-app-bundle-fs.md)
+
+  * [Default Application Bundles Filter (macOS)](def-app-bundle.md)
+  * [System Application Bundles Filter (macOS)](sys-app-bundle.md)

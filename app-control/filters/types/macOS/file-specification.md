@@ -13,8 +13,8 @@ By default this is a read-only filter which uses the following Additional Filter
 
 * File filters:
 
-  * [System Application Folder (MacOS)](sys-app-folder.md)
-  * [Default Application Folder (MacOS)](def-app-folder.md)
+  * [System Applications Folder (MacOS)](sys-app-folder.md)
+  * [Default Applications Folder (MacOS)](def-app-folder.md)
 
 * Include only filters:
 

@@ -23,7 +23,7 @@ Review the [Filters Catalog for Privilege Manager](default-filters.md) for detai
 
 ![Overview Diagram of Filter Types](images/policies.png)
 
-### Creating New Filters using Event Discovery
+## Creating New Filters using Event Discovery
 
 One way to begin creating new Filters that identify specific files or applications on your network is to set up a Learning Mode Policy and use the events pulled in by Privilege Manager from actions performed on a test machine. See our User Guide's section on Event Discovery for more information on setting up a Learning Mode Policy.
 
@@ -43,13 +43,26 @@ This Add New Filter page reveals the available list of building blocks, attribut
 * Company Name
 * File Signature (File must be signed by)
 
-You can choose which criteria to use by checking or unchecking any of the filter line-items listed above. If you are new to the filter creation process, we recommend experimenting with these different identifiers in your test environment to ensure that you are using a comprehensive list of identifiers in your filter, enough to target the application or file intended but not too specific that variations to your target will fall through the filter's criteria hooks.
+You can choose which criteria to use by checking or un-checking any of the filter line-items listed above. If you are new to the filter creation process, we recommend experimenting with these different identifiers in your test environment to ensure that you are using a comprehensive list of identifiers in your filter, enough to target the application or file intended but not too specific that variations to your target will fall through the filter's criteria hooks.
 
 ### Creating a New Filter Manually
 
-Navigate to Admin | Filters in Privilege Manager and click Add Filter. Under Filter Details, select a platform type and then choose a Filter Type from the dropdown (see our Filters’ Catalog for descriptions of filter types). Name your new filter and type a Description, then click Create.
+Navigate to __Admin | Filters__ in Privilege Manager and click __Add Filter__. Under Filter Details, select a platform type and then choose a Filter Type from the dropdown (see our Filters’ Catalog for descriptions of filter types). Name your new filter and type a Description, then click Create.
 
 Editing options for this new filter will depend on the type of filter selected.
+
+#### Creating macOS Filters Manually
+
+Usually when you navigate to the Files Event Discovery View page (__Admin | Event Discovery | Files__) and click __Create Filter__, you are directed to an __Add New Filter__ screen. If this does not happen, insufficient information is available. In cases when Privilege Manager does not have enough information from the discovery process, filters have to be created manually.
+
+To manually find granular information required for targeting applications in Privilege Manager on a macOS endpoint,
+
+1. Right-click the target application and select __Show Package Contents__.
+1. Navigate to __Contents | Info.plist__, this gives you a coded list of items that you can match into the details page of your Filter.  
+  
+For example, the highlighted section below can be entered into the __Bundled Identifier__ line item when creating a Firefox filter.  
+
+![Example info.plist file contents](types/macOS/images/info-plist.png)
 
 ### Create A Copy - How to Use Filter Templates
 Out-of-the-Box filters are designed to be used as templates, meaning when you open these filters you will see a Create A Copy button rather than the option to immediately Edit. These filter templates are protected to provide a jumping off point whenever creating new filters. They are formed by specific criteria that you can tailor according to your specific use case after copying.

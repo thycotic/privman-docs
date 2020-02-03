@@ -11,8 +11,8 @@ By default this is a read-only filter which uses the following Additional Filter
 
 * File filters:
 
-  * [Default Application Bundles Filter - MacOS](def-app-bundle.md)
-  * [System Application Bundles Filter MacOS](sys-app-bundle.md)
+  * [Default Application Bundles Filter (MacOS)](def-app-bundle.md)
+  * [System Application Bundles Filter (MacOS)](sys-app-bundle.md)
 
 The option to include subdirectories is enabled by default.
 
@@ -21,8 +21,8 @@ The option to include subdirectories is enabled by default.
 1. Navigate to __Admin | More…__ and select __Filters__.
 1. In the search field for the __Name__ column, search for default.
 
-   ![App Bundles filter](images/default.png "Locate the Default App Bundles File Specification Filter (MacOS)")
-1. Select the __Default App Bundles File Specification Filter (MacOS)__ filter to view its details and/or create a copy to customize the filter.
+   ![App Bundles filter](images/default.png "Locate the Default App Bundles File Specification Filter")
+1. Select the __Default App Bundles File Specification Filter__ filter to view its details and/or create a copy to customize the filter.
 1. Click __Edit__.
 1. Set the needed parameters.
 

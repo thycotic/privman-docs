@@ -3,7 +3,7 @@
 [priority]: # (6)
 # Default Applications Folder (MacOS)
 
-The default filter for discovering executable files in /Applications on MacOS.
+The default filter for discovering executable files in /Applications on macOS.
 
 ![default apps](images/dflt-app-folder-1.png "Default Applications Folder (MacOS)")
 

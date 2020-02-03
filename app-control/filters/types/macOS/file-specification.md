@@ -1,7 +1,7 @@
 [title]: # (Default File Specification)
 [tags]: # (filter types)
 [priority]: # (4)
-# Default File Specification (macOS)
+# Default File Specification (MacOS)
 
 This filter identifies files based on their file path or location on a computer.
 
@@ -13,8 +13,8 @@ By default this is a read-only filter which uses the following Additional Filter
 
 * File filters:
 
-  * [System Application Folder - MacOS](sys-app-folder.md)
-  * [Default Application Folder - MacOS](def-app-folder.md)
+  * [System Application Folder (MacOS)](sys-app-folder.md)
+  * [Default Application Folder (MacOS)](def-app-folder.md)
 
 * Include only filters:
 

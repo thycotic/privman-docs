@@ -19,12 +19,14 @@ Users can set the amount of data entries to display per page. The default is 10 
 
 Privilege Manager reports can be exported via __CSV__ and __PDF__ export option buttons.
 
-![export options](images/report-export-1.png "Exporting reports via CSV or PDF button")
+![export format](images/report-export-1.png "Exporting reports via CSV or PDF button")
 
 Once the __CSV__ or __PDF__ button is clicked, users can choose to
 
 * export the current page or
 * export all pages.
+
+![export options](images/report-export-2.png "Exporting current page or all records modal")
 
 >**Note**: Selecting all pages might take some time to complete, depending on the overall size of the data records to export.
 

@@ -22,6 +22,39 @@ To select the machines you want to include within this group, you must create a 
 
 The default filter will begin with a rule that targets computers within the main OS Computer Group that was selected when you created the group, meaning it will target either all Windows or all Mac computers with registered agents.
 
-To narrow your group, click Add Rule then in the List Type column select Computer List. Click any specific computers from the provided list of registered machines, then click Save. You may collapse the computer list view by clicking the button that says Select Computers under the Selected Items column.
+To narrow your group, click __Add Rule__ then in the List Type column select from the following options:
 
-![Add Rule for Computer Group](images/ls-add-rule-cg.png)
+* Computer List
+* Collection
+* OU (Organizational Unit)
+* Security Group
+
+![comp-group-1](images/comp-group-1.png "Resource targeting for computer groups")
+
+Multiple rules can be added per computer group. To change already established Computer Groups use the Edit button to add more rules or change the resources targeted.
+
+### Computer List
+
+![comp-group-2](images/comp-group-2.png "Targeting computers based on lists")
+
+Click any specific computers from the provided list of registered machines, then click Save. You may collapse the computer list view by clicking the button that says Select Computers under the Selected Items column.
+
+![Add Rule for Computer Group](images/ls-add-rule-cg.png "Adding Rules")
+
+### Collection
+
+![comp-group-3](images/comp-group-3.png "Targeting computers based on collections")
+
+Enter a collection name, for examples collections can be "All Windows Computers" or "All Managed Computers".
+
+### OU (Organization Unit)
+
+![comp-group-4](images/comp-group-4.png "Targeting computers based on membership in organization units")
+
+Select the OU from the populated domain tree.
+
+### Security Group
+
+![comp-group-5](images/comp-group-5.png "Targeting computers based on security group")
+
+Search for and select a security group filter.

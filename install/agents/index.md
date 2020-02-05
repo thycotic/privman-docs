@@ -29,6 +29,6 @@ Navigate to the __ADMIN | Diagnostics__ page to view more comprehensive agent de
 
 ## Agent Encryption
 
-The Agent traffic is encrypted with a 2048-bit SSL key.
+The agent traffic is secured via SSL/TLS.
 
 <!-- Post 10.7.1 release create a general agent section in the TOC to cover more general information and conceptual write-up. Remove this heading here and create more contents in that new agent section. -->

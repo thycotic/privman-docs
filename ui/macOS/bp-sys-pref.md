@@ -17,6 +17,8 @@ The following rules apply for policy managed preference panes:
 * A preference pane's default authorization is restored when a policy for it is disabled/deleted.
 * Managed preference pane defaults are restored on an uninstall.
 
+>**Note**: For preference panes that display the padlock icon, if you click the padlock to closed it, you are required to enter admin credentials to unlock it again. A standard user can use the policy evaluation by completely closing and then reopening the System Preferences again.
+
 ## Error Behavior of Preference Panes
 
 When a particular preference pane is opened in the System Preferences application, XPC bundles for that particular preference pane are opened. These XPC bundles remain open until the System Preferences application is completely closed.
@@ -43,7 +45,7 @@ With an active policy, depending on its action, the following happens for:
 The following preference panes require admin credentials to make changes and should not be managed with a run as root policy that triggers a user dialog for justification or approvals:
 
 * Parental Controls,
-* Printers & Scanners,
+* [Printers & Scanners](bp-printers.md),
 * Security & Privacy,
 * Sharing,
 * Time Machine, and

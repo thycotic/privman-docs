@@ -80,6 +80,8 @@ ActiveX Setting define which sites can run ActiveX controls for standard users.
 
 To create an ActiveX setting, a new policy must be created based on the ActiveX policy type template.
 
+>**Note:** You will need to import local group policy definitions before editing your Active-X Group Policy Settings.
+
 ## Firewall
 
 An Application Firewall Policy policy type allows for firewall rules to be applied as an Action in an Application Control Policy.

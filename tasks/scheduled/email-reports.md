@@ -21,6 +21,7 @@ To set this up, create a new Server task to send emails.
    * Maximum rows returned (default 10000).
 
     >**Note**: This requires a SMTP Server Foreign System set-up.
+
 1. Click __Search__.
 1. Click __Select resource...__ and select a server from the search results.
 
@@ -30,6 +31,9 @@ To set this up, create a new Server task to send emails.
 1. Go to the Paramters tab.
 
    ![Parameters tab](images/send/email-2.png)
+
+>**Note:** For cloud environments the SMTP server settings are pulled from an existing configuration and can't be edited via the parameters tab.
+
 1. In the __Report to Run__ field enter/search for the report you wish to send.
 1. In the __From Address__ field enter the sender information you wish to be provided.
 1. In the __To Address__ field specify the recipient(s) (this can be a comma-separated list of addresses).

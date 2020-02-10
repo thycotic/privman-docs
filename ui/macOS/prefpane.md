@@ -1,6 +1,6 @@
 [title]: # (Preference Pane)
 [tags]: # (system preferences)
-[priority]: # (2)
+[priority]: # (10)
 # Preference Pane macOS
 
 A Preference Pane (abbreviated as prefpane) is a dynamically loaded plugin in Mac OS X. Introduced in Mac OS X v10.0, the purpose of a Preference Pane is to allow the user to set preferences for a specific application or the system by means of a graphical user interface.
@@ -22,11 +22,14 @@ How do you target Preference Panes on macOS endpoints? On versions of Privilege 
 | Time Machine | com.apple.prefs.backup.remoteservice | /System/Library/PreferencePanes/TimeMachine.prefPane/Contents/XPCServices/com.apple.prefs.backup.remoteservice.xpc/Contents/MacOS/ |
 | User & Groups | com.apple.preferences.users.remoteservice | /System/Library/PreferencePanes/Accounts.prefPane/Contents/XPCServices/com.apple.preferences.users.remoteservice.xpc/Contents/MacOS/ |
 
-## Catalina Preference Pane Error
+## Catalina Preference Pane Behavior
 
+Refer to [Best Practices System Preferences](bp-sys-pref.md) for details.
+<!--
 The File Specification Filter definition does not work on macOS 10.15 (Catalina) when the File Names field starts with __com.apple.preference__ and/or Path field starts with __/System/Library/PreferencePanes/__.
 Any Policies leveraging these filter definitions are also impacted.
 
 Your endpoint will display an error identifying the targeted preference pane:
 
 ![Prefpane error](images/prefpane-error.png)
+-->

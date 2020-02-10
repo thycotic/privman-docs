@@ -1,6 +1,6 @@
 [title]: # (Network)
 [tags]: # (system preferences)
-[priority]: # (3)
+[priority]: # (4)
 # Network Preference Pane
 
 ## Standard User - System Defaults

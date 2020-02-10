@@ -5,6 +5,8 @@
 
 Privilege Manager has the ability to use Secret Server as its storage container for credentials. This includes credentials for connecting to integrated systems such as Service Now, as well as credentials for local accounts that are managed by Local Security in Privilege Manager. Customers can choose to integrate with Secret Server only (no Vault setup) or Secret Server and Vault. Either option requires Authentication Data setup for Foreign Systems in Privilege Manager.
 
+The Secret Server Vault integration for 10.7.1 and newer does not require Secret Server to be setup as the authentication provider. Any supported authentication provider can be used, independent from using Secret Server as a Password Vault.
+
 In Secret Server, Privilege Manager credentials are stored as Secrets, and Privilege Manager uses the Secret Server REST API to communicate with Secret Server.
 
 For this the proper license types need to be set-up, as Secret Server Express (free) does not support the integration with Privilege Manager.
@@ -59,12 +61,21 @@ After these steps the Secret Server Foreign System is ready for use. If you need
 1. In Privilege Manager on the home page select the __Local Security__ tile to go to Local Security page.
 1. On the top of the Local Security page, click on the suggestion stating __Privilege Manager can store credentials in Secret Server, would you like to configure this now?__. For reference, the relative URL for this page is *TMS/PrivilegeManager/#/lss/vault*<br/>
    ![Verify Enable Webservices](images/PM_conf_for_SS_20190412.png)
-1. The Password Vault Settings configuration page opens. Select __Edit__, then
-   1. check the box __Use Secret Server__ in order to use Secret Server’s vault to store credentials.
+
+   The Password Vault Settings configuration page opens.
+ 
+   ![conf-vault-1](images/auth/conf-vault-1.png "Password Vault Settings page")
+1. Select __Edit__.
+
+   1. Check the box __Use Secret Server__ in order to use Secret Server’s vault to store credentials.
+
+      ![conf-vault-2](images/auth/conf-vault-2.png "Select checkbox for Vault integration page")
    1. Enter the username and password for the account that will be used to access Secret Server.
 
+      ![conf-vault-3](images/auth/conf-vault-3.png "Secret Server Foreign System page")
+
    >**Note**:
-   >These are the same credentials that will be stored as the Secret Server Default Credential (located at the Admin | Configuration | User Credentials tab). If a user already has been entered here, the same account will be auto populated into the configuration page.
+   >These are the same credentials that will be stored as the Secret Server Default Credential (located at the __Admin | Configuration | User Credentials__ tab). If a user already has been entered here, the same account will be auto populated into the configuration page.
 
 1. Back on the __Password Vault Settings__ configuration page, click __Save Changes__.
 

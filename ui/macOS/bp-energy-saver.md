@@ -1,6 +1,6 @@
 [title]: # (Energy Saver)
 [tags]: # (system preferences)
-[priority]: # (3)
+[priority]: # (4)
 # Energy Saver Preference Pane
 
 ## Standard User - System Defaults

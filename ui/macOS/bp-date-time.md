@@ -1,6 +1,6 @@
 [title]: # (Date & Time)
 [tags]: # (system preferences)
-[priority]: # (3)
+[priority]: # (4)
 # Date & Time Preference Pane
 
 ## Standard User - System Defaults

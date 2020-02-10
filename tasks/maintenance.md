@@ -43,9 +43,15 @@ This task will delete internal performance counter events last updated before th
 
 __Parameters__: Can be set to Seconds, Minutes, Hours, Days, and Weeks. The default is 1 Day.
 
+This maintenance task should be used if [Save Performance Counters](../ui/config/advanced/adv-pm-general.md#save_performance_counters) is enabled in the general section of the advanced configuration settings.
+
 ### Initialize Item Change History
 
-This task is run after installs to ensure items with change tracking enabled have initial history entries.
+This task is run after installs to ensure items with change tracking enabled have initial history entries. This is an automated task to populate initial states of items across updates.
+
+### LSS Migration Tasks
+
+For information on the LSS Migration tasks refer to [Migrate Local Security Policies](../local-security/migrate-lss-policies.md).
 
 ### Purge Agent and Gauge Data for Deleted Computers
 
@@ -67,9 +73,12 @@ __Parameters__: Can be set to Seconds, Minutes, Hours, Days, and Weeks. The defa
 
 ### Purge Maintenance - Application Control Events
 
-Purges the selected Application Control Event types from the database based upon the time range specified. 
+Purges the selected Application Control Event types from the database either
 
-__Parameters__: Event Types to Purge (Application Action Events, Application Justification Events, Application Metering Events, Application Verifier Events).
+* manually based on a specified range of time, or
+* automatically after reaching a set threshold. Refer to [Maximum Application Event Count](../ui/config/advanced/adv-pm-general.md#maximum_application_event_count) time range specified.
+
+__Parameters__: Event Types to Purge (Application Action Events, Application Justification Events, Application Metering Events, Application Verifier Events). All of these Application Control Events are populated in the various Application Action reports.
 
 __Notes__: Only Purge Events that belong to specific policies
 
@@ -83,7 +92,7 @@ This task will remove audit event records older than the specified time period.
 
 __Parameters__: Purge events older than [default setting = 30 day(s)]
 
-__Notes__: The Audit events mainly pertain to a feature that is only accessible in the Silverlight console. There are a few Security Audit events which may be gathered by Privilege Manager. However, in most Privilege Manager instances, this task should not need to be scheduled.
+__Notes__: The Audit events mainly pertain to and are used in Change History tracking. This task should not need to be scheduled.
 
 ### Purge Maintenance - Completed File Upload Sessions
 
@@ -91,7 +100,7 @@ This task will remove completed file upload sessions older than the specified ti
 
 __Parameters__: Purge completed sessions older than [default setting = 1 day(s)]
 
-__Notes__: For versions 10.5 or later, the need to run this task should be significantly reduced since they are now cleaned up as file uploads complete.
+__Notes__: For versions 10.5 and later, the need to run this task should be significantly reduced since they are now cleaned up as file uploads complete.
 
 ### Purge Maintenance - Files Undiscovered
 
@@ -99,7 +108,7 @@ Run this task to delete file resources which have not been discovered by File In
 
 __Parameters__: Delete Files that have been undiscoverable for longer than [default setting = 1 week(s)]
 
-__Notes__: This task clear up files with the name "New Loaded Resource" that are older than X days. This can be a helpful task to schedule to remove undiscoverable files from the Event Discovery results (for example, temp files that an installer creates and then deletes).
+__Notes__: This task clears up files with the name "New Loaded Resource" that are older than X days. This can be a helpful task to schedule to remove undiscoverable files from the Event Discovery results (for example, temp files that an installer creates and then deletes).
 
 ### Purge Maintenance - Incomplete File Upload Sessions
 
@@ -107,7 +116,7 @@ This task will remove incomplete file upload sessions older than the specified t
 
 __Parameters__: Purge incomplete sessions older than [default setting = 2 day(s)]
 
-__Notes__: For versions 10.5 or later, the need to run this task should be significantly reduced since they are now cleaned up as file uploads complete.
+__Notes__: For versions 10.5 and later, the need to run this task should be significantly reduced since they are now cleaned up as file uploads complete.
 
 ### Purge Maintenance - Message History
 
@@ -117,10 +126,10 @@ __Parameters__: Delete Message History older than [default setting = 30 day(s)]
 
 __Notes__: This task clears the `[Ams.Resource].[MessageHistory]` table. Use this task to purge that table, if it is excessively large.
 
+### Purge Maintenance - Orphaned Local Users and Groups
+
+This task will delete local users and groups that reference a computer as their parent domain (which will block deletes), but are not part of that computers users and groups.
+
 ### Purge Old Computers
 
-Remove old computers and gauge data for old computers.
-
-### Purge Old Unmanaged AD Computers
-
-This task will delete unmanaged computers imported from Active Directory that have not been updated in X days.
+Remove old computers and gauge data for old computers. Remove any agents that have not communicated with the server in a set number of days (default 90), resulting in a critical Agent state.

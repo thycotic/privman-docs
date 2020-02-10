@@ -13,7 +13,7 @@ This is a checkbox that when selected allows agents to communicate with the serv
 
 ## Maximum Application Event Count
 
-This settings specifies the Maximum number of application action events that will be kept in the database. The default setting is 1,000,000.
+This settings specifies the Maximum number of application action events that will be kept in the database. The default setting is 1,000,000. Also refer to [Purge Maintenance - Application Control Events](../../../tasks/maintenance.md#purge_maintenance___application_control_events).
 
 ## Command Timeout
 
@@ -37,7 +37,7 @@ Enabling this setting prevents older agents (prior to 10.5) from registering, al
 
 ## Save Performance Counters
 
-If this setting is selected, the performance counter data will be recorded in the database.
+If this setting is selected, the performance counter data will be recorded in the database. Also refer to [Delete Old Performance Counter Events](../../../tasks/maintenance.md#delete_old_performance_counter_events).
 
 ## Session Timeout
 
@@ -53,7 +53,7 @@ One minute before the timeout, the color changes to red.
 
 ![Red Session Warning at 1 Minute mark](images/pm/session-timeout-2.png)
 
-Once the session times out, the active user is logged out and retured to the Privilege Manager Server Setup Home page.
+Once the session times out, the active user is logged out and returned to the Privilege Manager Server Setup Home page.
 
 ![Privilege Manager Server Setup Home page](images/pm/session-timeout-3.png)
 

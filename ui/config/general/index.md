@@ -23,6 +23,7 @@ These are read-only items and by default Administrators are always allowed to ap
 
 * Default Manual Approval Process
 * Default Offline Approval Process
+* Mobile Message Approval Process
 
 ## [Maintenance Settings](../../../tasks/maintenance.md)
 

@@ -2,6 +2,7 @@
 [tags]: # (filter types)
 [priority]: # (3)
 # App Bundle Filter
+
 This type of filter identifies app bundles for macOS systems.
 
    ![MacOS application bundle filter](images/app-bundle.png)

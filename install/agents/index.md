@@ -13,7 +13,7 @@ Agents are required on endpoint machines to implement Privilege Manager policies
   * [32-bit Windows Operating Systems](agent-inst-win.md#32_bit_windows_operating_systems)
 * [macOS X Installer - 10.11 or Newer](agent-inst-mac.md#installing_macos_agents)
 
-For details about Thycotic Agent System Requirements, see our Privilege Manager System Requirements Guide here.
+For details about Thycotic Agent System Requirements, see our [Agent System Requirements](agent-sysreq.md).
 
 ## Post Agent Installation
 
@@ -26,3 +26,9 @@ Clicking the Agent Policy State dial from the Home dashboard brings you to a rep
 ## Diagnostics
 
 Navigate to the __ADMIN | Diagnostics__ page to view more comprehensive agent details. The Diagnostics page also is the go-to stop for full system health. Go here to find Server Console Logs and other system level warnings or tips.
+
+## Agent Encryption
+
+The agent traffic is secured via SSL/TLS.
+
+<!-- Post 10.7.1 release create a general agent section in the TOC to cover more general information and conceptual write-up. Remove this heading here and create more contents in that new agent section. -->

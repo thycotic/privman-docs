@@ -25,11 +25,11 @@ Here are the steps to integrate Workflow between your ServiceNow Ticketing Syste
 
    `https://[InstanceName].service-now.com/`, click __Create__.
 1. Select your ServiceNow instance, click __Edit__.
-1. Assign the credentials you created to link them to your instance. 
+1. Assign the credentials you created to link them to your instance.
 
    ![Linking the credentials](images/servicenow/fs_link_credentials.png)
 1. Next, in __Search__ at the top of your Privilege Manager console, search for _Create ServiceNow Approval Request Items_.
-1. In your search results, __click on this task__ and then the __Run Task__ button. 
+1. In your search results, __click on this task__ and then the __Run Task__ button.
 
    ![Run task](images/servicenow/task_appr_request_item.png)
 1. Under Task Settings, click Select resource and add the ServiceNow Server that you created as a Foreign System in step 10.
@@ -37,7 +37,7 @@ Here are the steps to integrate Workflow between your ServiceNow Ticketing Syste
 
    >**Note**:
    >Clients with robust ServiceNow installations are welcome (and in fact encouraged) to alter their ServiceNow scripted web services for use with their own ServiceNow items and workflow rather than relying on this importing task.
- 
+
    The task you just ran creates several new items in your ServiceNow dashboard.
 
 ## ServiceNow Steps
@@ -75,7 +75,7 @@ You need to create an action and attach it to a policy to manage what events you
 1. Now navigate to __Admin | Actions__.
 1. Search and select __Approval Request (with ServiceNow Request ItemNumber) Form Action__. 
 
-   ![Approval Request (with ServiceNow Request ItemNumber) Form Action](images/new_req_from_action.png)
+   ![Approval Request (with ServiceNow Request ItemNumber) Form Action](images/servicenow/new_req_form_action.png)
 1. Click __Create a Copy__.
 1. Name your new action and click __Create__.
 1. Click __Edit__.
@@ -104,7 +104,7 @@ Now that you have a policy attached to your ServiceNow integrated Action, the re
 ## Create Approval Request Items Task
 
 Privilege Manager integrates with ServiceNow to manage approvals for user-requested application execution and elevation.  For this integration to work there are several items that must be created in your ServiceNow instance.  You can create these items manually or run the Create ServiceNow Approval Request Items task in Privilege Manager to create them automatically.
- 
+
 Most of the items created automatically by the Create ServiceNow Approval Request Items task are generic, and you are encouraged to replace these items with their own, and use your own workflows, forms, etc.  This document describes what default items this task creates, and what is required for the integration to work so that you can adjust according to your own ServiceNow system.
 
 ## How to create ServiceNow Approval Request Items Task
@@ -117,68 +117,75 @@ The task creates a service catalog category named “Thycotic” within your Ser
 
 __Execute Application Request__:
 
-The task creates a service catalog item named “Execute Application Request” and associates it with the Thycotic service catalog category. 
+The task creates a service catalog item named “Execute Application Request” and associates it with the Thycotic service catalog category.
 
 ## Variables
-| Variables |   |
-|---|---|
-|PMApprovalId|The Privilege Manager internal identifier for the approval request|
-|__PMInitiatorId__|The Privilege Manager internal identifier for the user that initiated the request|
-|__PMInitiatorName__|The name of the user that initiated the request|
-|__PMPolicyId__|The Privilege Manager internal identifier for the policy associated with the approval request|
-|__PMPolicyName__|The name of the policy associated with the approval request|
-|__PMAgentId__|The Privilege Manager internal identifier for the endpoint on which the request was initiated|
-|__PMAgentName__|The name of the endpoint on which the request was initiated|
-|__PMProcessId__|The Privilege Manager internal identifier for the process configuration item associated with the approval request|
-|__PMProcessName__|The name of the process configuration item associated with the approval request|
-|__PMFilePath__|The path to the application the user is attempting to run|
-|__PMUserReason__|The reason given by the user requesting the approval|
 
-__CreateExecuteAppApprovalRequest__:
+| Variables | Description  |
+| ----- | ----- |
+| PMApprovalId | The Privilege Manager internal identifier for the approval request |
+| PMInitiatorId | The Privilege Manager internal identifier for the user that initiated the request |
+| PMInitiatorName | The name of the user that initiated the request |
+| PMPolicyId | The Privilege Manager internal identifier for the policy associated with the approval request |
+| PMPolicyName | The name of the policy associated with the approval request |
+| PMAgentId | The Privilege Manager internal identifier for the endpoint on which the request was initiated |
+| PMAgentName | The name of the endpoint on which the request was initiated |
+| PMProcessId | The Privilege Manager internal identifier for the process configuration item associated with the approval request |
+| PMProcessName | The name of the process configuration item associated with the approval request |
+| PMFilePath | The path to the application the user is attempting to run |
+| PMUserReason | The reason given by the user requesting the approval |
+
+### CreateExecuteAppApprovalRequest
 
 The task creates a scripted SOAP service named “CreateExecuteAppApprovalRequest.” When a user initiates an approval request, Privilege Manager will call this service with input data about the request.  The default script will create a new Execute Application Request service catalog item, fill out the variable data from the inputs, and submit the item. The service returns the ID of the item to Privilege Manager so that it can periodically check or update the status of the item.
 
-__Script Input__: The task creates inputs with the same names as the Variables in Execute Application Request listed above
+### Script Input
 
-__Script Output__: The task creates an output named “PMRequestId.”  Privilege Manager looks for this output by name and records it so can be used in future service calls to check or update the request status.
+The task creates inputs with the same names as the Variables in Execute Application Request listed above
 
-__GetExecuteAppApprovalRequestStatus__:
+### Script Output
+
+The task creates an output named “PMRequestId.”  Privilege Manager looks for this output by name and records it so can be used in future service calls to check or update the request status.
+
+### GetExecuteAppApprovalRequestStatus
 
 The task creates scripted SOAP service named “GetExecuteAppApprovalRequestStatus.”  When an approval is in progress, Privilege Manager will periodically call this service to determine if the request has been approved or rejected.
 
-__Script Input__: The task creates an input named “PMGetRequestId.”  Privilege Manager supplies this input using the value from PMRequestId that was output from the CreateExecuteAppApprovalRequest service.
+### Script Input
 
-__Script Output__:
+The task creates an input named “PMGetRequestId.”  Privilege Manager supplies this input using the value from PMRequestId that was output from the CreateExecuteAppApprovalRequest service.
 
-| Script Output| |
-|---|---|
-| __PMApprovalStatus__ | Privilege Manager expects this service to return PMApprovalStatus with one of the following values:|
+### Script Output
+
+| Script Output | Description |
+| ----- | ----- |
+| PMApprovalStatus | Privilege Manager expects this service to return PMApprovalStatus with one of the following values:|
 |   | approved: The request has been approved |
 |   | rejected: The request has been rejected |
 |   | pending: The request is still pending approval or rejection |
 |   | invalid: PMGetRequestId is not a valid ID, or the approval request is in an otherwise invalid state and will be rejected by Privilege Manager.
-| __PMComment__ | If there is a comment by the worker that approved or rejected the request, it can optionally be returned in the output named PMComment.  If this output is present Privilege Manager will record it with the status of the request in its database |
+| PMComment | If there is a comment by the worker that approved or rejected the request, it can optionally be returned in the output named PMComment.  If this output is present Privilege Manager will record it with the status of the request in its database |
 
-__CancelExecuteAppApprovalRequest__ 
+### CancelExecuteAppApprovalRequest
 
 The task creates a scripted SOAP service named “CancelExecuteAppApprovalRequest.”  If a request is canceled or times out from within Privilege Manager, Privilege Manger will call this service to cancel the corresponding item in ServiceNow.
 
 >**NOTE**: Privilege Manager expects this service to be defined in ServiceNow, but the default script associated with the service does nothing.
 
-__Inputs__:
+### Inputs
 
-| Inputs |   |
-|---|---|
-| __PMCancelRequestId__ |  Privilege Manager call this service with PMCancelRequestId set to the value from PMRequestId returned from the CreateExecuteAppApprovalRequest service. |
-| __PMCancelComment__ | Privilege Manager calls this service with PMCancelComment set to a comment about why the request is being canceled. |
+| Inputs | |
+| ----- | ----- |
+| PMCancelRequestId |  Privilege Manager call this service with PMCancelRequestId set to the value from PMRequestId returned from the CreateExecuteAppApprovalRequest service. |
+| PMCancelComment | Privilege Manager calls this service with PMCancelComment set to a comment about why the request is being canceled. |
 
-__Outputs__: 
+### Outputs
 
 The task creates the output named __TmsCancelResult__.  Privilege Manager expects an output with this name, but currently ignores the value.
 
-__Required Integration Points :__
+## Required Integration Points
 
-__What Can Change vs. What Must Remain__
+### What Can Change vs. What Must Remain
 
 Most of the ServiceNow back end can be changed to accommodate your own items and workflows.  Privilege Manager only requires the three scripted SOAP web services described above.  You are welcome to change the script within the services to do whatever is necessary for your environment.  
 

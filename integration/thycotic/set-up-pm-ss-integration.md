@@ -21,17 +21,20 @@ As a prerequisite, you need to make sure that your Secret Server instance has We
    ![Verify Enable Webservices](images/SS_enable_WebServices_20190412.png)
 1. Enter credentials for "Secret Server Default Credential" located at __Admin | Configuration | User Credentials__ tab. Edit this account to choose which account will be used by Privilege Manager to connect to Secret Server. This can be a regular Secret Server user or a Secret Server Application account.
 
-   The account needs to have a role with ALL of the following permissions:
+>**Note**: The account needs to have a role with ALL of the following permissions.
 
-   * Administer Configuration and Administer Licenses
-   * Create Root Folders
-   * Assign Secret Policy
-   * Administer Folders
-   * Own Secret
-   * Edit Secret
-   * View Secret
-   * Add Secret
-   * Delete Secret
+| Permissions |
+| ----- |
+| Add Secret |
+| Administer Configuration |
+| Administer Folders |
+| Administer Licenses |
+| Assign Secret Policy |
+| Create Root Folders |
+| Delete Secret |
+| Edit Secret |
+| Own Secret |
+| View Secret |
 
 ## Setup Authentication Data in Privilege Manager
 

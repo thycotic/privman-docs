@@ -7,7 +7,7 @@ Most of the Application and File type filters apply to Windows as much as macOS 
 
 This is the default drop-down list when adding a new filter for macOS:
 
-![MacOS default filters](images/MacOS-filters.png)
+![MacOS default filters](images/macOS-filters.png "MacOS filter types drop-down")
 
 ## List of MacOS Filters
 

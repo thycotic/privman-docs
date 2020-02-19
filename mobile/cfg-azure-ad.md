@@ -10,14 +10,14 @@ As a prerequisite for running the Privilege Manager Mobile Console, you must con
 
    ![Azure AD](images/az-ad-1.png "Select Active Directory from the Azure Portal menu")
 1. Select __App registrations__ from the menu.
-1. Click the __Owned application__ tab.
+1. Click the __Owned applications__ tab.
 1. From the list under Display name select your Privilege Manager registration.
 
    ![Client ID](images/az-ad-8.png "Select registered Privilege Manager instance")
 1. Select the __Authentication__ menu.
 
    ![Application](images/az-ad-4.png "Registered application page")
-1. Select __Add platform__.
+1. Select __Add a platform__.
 1. Select __Mobile and desktop applications__.
 
    ![Add platform](images/az-ad-5.png "Add platform select Mobile and desktop apps")

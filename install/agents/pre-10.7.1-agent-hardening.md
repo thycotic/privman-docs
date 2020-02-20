@@ -1,7 +1,31 @@
-[title]: # (Hardening Rollback)
-[tags]: # (endpoint,hardening)
+[title]: # (pre-10.7.1 Agent Hardening)
+[tags]: # (endpoint,pre-10.7.1)
 [priority]: # (1621)
-# Restore Default Agent Permissions
+# Pre-10.7.1 Agent Hardening
+
+Users on Privilege Manager 10.7.1 or up should use the new policy named __Restrict Account Permissions on Agent Services (Windows)__. Refer to [Agent Hardening 10.7.1 and up](agent-hardening.md) for details on the policy used starting with Privilege Manager 10.7.1.
+
+## Editing the Agent Service Start / Stop Control (Windows) Policy
+
+1. Navigate to __ADMIN | Policies__.
+1. Click on the __General__ Tab.
+1. In the Name field enter __Agent Service Start / Stop Control__.
+
+   ![Search](images/agent-har/a-1.png)
+1. Click on the __Agent Service Start / Stop Control (Windows)__ policy.
+
+   ![Policy](images/agent-har/a-2.png)
+1. To customize the Agent Hardening policy navigate to the __Parameters tab__.
+1. Click __Edit__.
+
+   ![Parameters](images/agent-har/a-3.png)
+1. Under __User Services__ click the __+__ button and use the search field to select the Services to be targeted by the task
+1. Under __User Accounts__ click the __+__ button and use the search field to find the specific user account that has permissions to make changes to the Agent services.
+1. Click __Save__.
+
+>**Note**: If you require a rollback of the agent hardening due to upgrade issues, use the manual [Restore Default Agent Permissions](agent-hardening-rollback.md) procedure.
+
+## Restore Default Agent Permissions
 
 If you need to rollback agent hardening on your endpoints, follow these steps to restore the default agent permissions:
 
@@ -30,34 +54,3 @@ If you need to rollback agent hardening on your endpoints, follow these steps to
    1. On the Triggers tab specify when to run and/or what events will trigger the policy to run.
 1. Click __Save__.
 
-<!-- no go
-1. Navigate to __ADMIN | More...__ and select __Folders__.
-1. In the Policies folder tree open __General | Windows__.
-
-   ![Rollback 1](images/agent-har/h-rollback-1.png "Policies Folders showing General | Windows node")
-1. Click __Add New__.
-1. From the __Template__ drop-down select __Local Security Scheduled Client Task__.
-1. Name your policy _Restore Agent Security Permissions_.
-1. As a command enter __Local Security Set Service Security Script__.
-1. Click __Create__.
-
-   ![Rollback 2](images/agent-har/h-rollback-2.png "Remote Schedule Client Command")
-1. Click __Edit__.
-1. Select the __Parameters__ tab.
-1. For __Service__ add the __ArelliaAgent__ service.
-1. For __Security Descriptor__ add the __Standard Service Security Descriptor__.
-1. Click __Save__.
-
-   ![Rollback 3](images/agent-har/h-rollback-3.png "ArelliaAgent Service and Security Descriptor")
-1. Click __Create a Copy__.
-1. Name the copy _Restore ACSAgent Security Permissions_.
-1. Click __Create__.
-1. Click __Edit__.
-1. Select the __Parameters__ tab.
-1. For __Service__ add the __ArelliaACScv__ service.
-
-   ![Rollback 4](images/agent-har/h-rollback-3.png "ArelliaACSvc Service")
-1. Click __Save__.
-
-Add the Remote Scheduled Client Commands to a policy to have the agents pick up the rollback.
--->

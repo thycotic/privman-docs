@@ -13,6 +13,19 @@ There are three agents available for Windows endpoints:
 
 ## Individual Agent Installers for Privilege Manager
 
+### Hardened Agents
+
+If agent hardening was applied to user endpoints, the hardened agents need to be deleted via the `sc delete {agent name}` commandline command. This needs to be done under the context of the domain user prior to running the msi-based agent installation commands. When the agent is deleted successfully, a success message will be returned, for example:
+
+```cmd
+C:\sc delete arelliaagent
+[SC] DeleteService SUCCESS
+C:\sc delete arelliaacsvc
+[SC] DeleteService SUCCESS
+```
+
+>**Note**: If the hardened agents are being deleted via software delivery script, the script needs to be delivered under the context of the domain user.
+
 ### 64-bit Windows Operating Systems
 
 Individual Windows agents are available in MSI format for easier bulk-rollout through software delivery tools. For installing individual agents, begin with the Core Thycotic Agent:

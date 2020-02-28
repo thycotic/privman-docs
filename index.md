@@ -1,5 +1,5 @@
 [title]: # (Introduction to Privilege Manager)
-[tags]: # (Privilege Manager,Introduction)
+[tags]: # (introduction,cloud specifics)
 [priority]: # (1)
 # Introduction to Privilege Manager
 
@@ -20,16 +20,20 @@ The typical Privilege Manager user is part of an IT team that is tasked with imp
 
 It is useful (although not necessary) for Privilege Manager Administrators to be familiar with the basics of IT administration, such as the Group Policy feature from Microsoft.
 
-## Cloud 10.6 Specific
+## 10.7.1 Cloud Specific
 
-The following features and options are __not__ available in Privilege Manager Cloud 10.6:
+The following features and options are different from On-premises or previous Privilege Manager Cloud releases:
+
+* The ServiceNow connector is automatically installed for all new cloud instances.
+* The SMTP server is automatically configured during the cloud instance setup.
+* The setup is managed by Thycotic and installations, upgrades, and repairs are unavailable to the customer directly, this includes setup, add/remove feature options, and connection option to existing Secret Server. Upgrade notices and banners are removed with upgrades being handled by Thycotic during maintenance periods.
+* All license key management is done via Thycotic and license keys are not visible on the licensing page. There are presently no options for customers to add additional licenses directly.
+
+The following features and options are __not__ available in Privilege Manager Cloud:
 
 * The Local Active Directory features exists, but requires a direct connection to the domain controller, which is often not permissible due to firewall configurations.
-* Secret Server integration for authentication and vaulting of local account credentials is not presently available.
-* All license key management is done via Thycotic and license keys are not visible on the licensing page. There are not presently options for customers to add additional licenses directly.
 * Access to the Security Manager console (Silverlight version) is not available.
 * Personas are not available.
 * Server-side Powershell scripts not signed by Thycotic are not allowed. Custom server-side work can be done via Professional Services engagements.
-* The setup is managed by Thycotic and installations, upgrades, and repairs are unavailable to the customer directly, this includes setup, add/remove feature options, and connection option to existing Secret Server. Upgrade notices and banners are removed with upgrades being handled by Thycotic during maintenance periods.
 
 All other features and functionality of Privilege Manager On-premises and Cloud are the same unless otherwise specified.

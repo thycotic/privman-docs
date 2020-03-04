@@ -23,7 +23,7 @@ Users on Privilege Manager 10.7.1 or up should use the new policy named __Restri
 1. Under __User Accounts__ click the __+__ button and use the search field to find the specific user account that has permissions to make changes to the Agent services.
 1. Click __Save__.
 
->**Note**: If you require a rollback of the agent hardening due to upgrade issues, use the manual [Restore Default Agent Permissions](agent-hardening-rollback.md) procedure.
+>**Note**: If you require a rollback of the agent hardening due to upgrade issues, use the manual Restore Default Agent Permissions procedure following below.
 
 ## Restore Default Agent Permissions
 

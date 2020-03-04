@@ -13,16 +13,29 @@ There are three agents available for Windows endpoints:
 
 ## Individual Agent Installers for Privilege Manager
 
+### Hardened Agents
+
+If agent hardening was applied to user endpoints, the hardened agents need to be deleted via the `sc delete {agent name}` commandline command. This needs to be done under the context of the domain user prior to running the msi-based agent installation commands. When the agent is deleted successfully, a success message will be returned, for example:
+
+```cmd
+C:\sc delete arelliaagent
+[SC] DeleteService SUCCESS
+C:\sc delete arelliaacsvc
+[SC] DeleteService SUCCESS
+```
+
+>**Note**: If the hardened agents are being deleted via software delivery script, the script needs to be delivered under the context of the domain user.
+
 ### 64-bit Windows Operating Systems
 
 Individual Windows agents are available in MSI format for easier bulk-rollout through software delivery tools. For installing individual agents, begin with the Core Thycotic Agent:
 
 * __Core Thycotic Agent (x64)__:
-  https://tmsnuget.thycotic.com/software/Agents/ThycoticAgent_x64_10_7_2178.msi
+  https://tmsnuget.thycotic.com/software/Agents/ThycoticAgent_x64_10_7_2219.msi
 * __Application Control Agent (x64)__:
-  https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x64_10_7_2206.msi
+  https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x64_10_7_2239.msi
 * __Local Security Solution Agent (x64)__:
-  https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x64_10_7_2178.msi
+  https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x64_10_7_2219.msi
 
 #### Installation Command Lines
 
@@ -31,15 +44,15 @@ Individual Windows agents are available in MSI format for easier bulk-rollout th
 
 * __Core Thycotic Agent__
   ```
-  msiexec.exe /i "ThycoticAgent_x64_10_7_2178.msi" /norestart AMSURL=https://SERVERNAME/TMS/ INSTALLCODE=XXXX1234ABCD REBOOT=ReallySuppress /qn
+  msiexec.exe /i "ThycoticAgent_x64_10_7_2219.msi" /norestart AMSURL=https://SERVERNAME/TMS/ INSTALLCODE=XXXX1234ABCD REBOOT=ReallySuppress /qn
   ```
 * __Application Control Agent__
   ```
-  msiexec.exe /i "Thycotic_ApplicationControlAgent_x64_10_7_2206.msi" /norestart REBOOT=ReallySuppress /qn
+  msiexec.exe /i "Thycotic_ApplicationControlAgent_x64_10_7_2239.msi" /norestart REBOOT=ReallySuppress /qn
   ```
 * __Local Security Agent__
   ```
-  msiexec.exe /i "Thycotic_LocalSecurityAgent_x64_10_7_2178.msi" /norestart REBOOT=ReallySuppress /qn
+  msiexec.exe /i "Thycotic_LocalSecurityAgent_x64_10_7_2219.msi" /norestart REBOOT=ReallySuppress /qn
   ```
 
 ### 32-bit Windows Operating Systems
@@ -47,11 +60,11 @@ Individual Windows agents are available in MSI format for easier bulk-rollout th
 Individual Windows agents are available in MSI format for easier bulk-rollout through software delivery tools. For installing individual agents, begin with the Core Thycotic Agent:
 
 * Core Thycotic Agent __(x86)__:
-  https://tmsnuget.thycotic.com/software/Agents/ThycoticAgent_x86_10_7_2178.msi
+  https://tmsnuget.thycotic.com/software/Agents/ThycoticAgent_x86_10_7_2219.msi
 * Application Control Agent __(x86)__:
-  https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x86_10_7_2206.msi
+  https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x86_10_7_2239.msi
 * Local Security Solution Agent __(x86)__:
-  https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x86_10_7_2178.msi
+  https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x86_10_7_2219.msi
 
 #### Installation Command Lines
 
@@ -60,13 +73,13 @@ Individual Windows agents are available in MSI format for easier bulk-rollout th
 
 * Core Thycotic Agent
   ```
-  msiexec.exe /i "ThycoticAgent_x86_10_7_2178.msi" /norestart AMSURL=https://SERVERNAME/TMS/ INSTALLCODE=XXXX1234ABCD REBOOT=ReallySuppress /qn
+  msiexec.exe /i "ThycoticAgent_x86_10_7_2219.msi" /norestart AMSURL=https://SERVERNAME/TMS/ INSTALLCODE=XXXX1234ABCD REBOOT=ReallySuppress /qn
   ```
 * Application Control Agent
   ```
-  msiexec.exe /i "Thycotic_ApplicationControlAgent_x86_10_7_2206.msi" /norestart REBOOT=ReallySuppress /qn
+  msiexec.exe /i "Thycotic_ApplicationControlAgent_x86_10_7_2239.msi" /norestart REBOOT=ReallySuppress /qn
   ```
 * Local Security Agent
   ```
-  msiexec.exe /i "Thycotic_LocalSecurityAgent_x86_10_7_2178.msi" /norestart REBOOT=ReallySuppress /qn
+  msiexec.exe /i "Thycotic_LocalSecurityAgent_x86_10_7_2219.msi" /norestart REBOOT=ReallySuppress /qn
   ```

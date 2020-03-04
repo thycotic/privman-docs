@@ -11,7 +11,7 @@ The following topic are available:
 * [Recommended Anti Virus Exclusions](antivirus-exclusions.md)
 * [Software Downloads](sw-downloads.md)
 * [Installation](installation/index.md) - recommended installation procedure
-  * [Manual/Advanced Installation Instructions](installation/installation-adv.md)
+  * [Manual Installation Instructions](installation/installation-adv.md)
   * [Item Encryption](installation/item-encryption.md)
 * [Agent Installation](agents/index.md)
   * [Agent System Requirements](agents/agent-sysreq.md)

@@ -5,6 +5,8 @@
 
 These are requirement for an on-premises integration.
 
+>**Note**: Verify that the .NET version between the Privilege Manager and Database Server in use are matching, especially if installed on different Windows Server versions.
+
 ## Minimum Requirements
 
 | Web Server | Database Server |
@@ -12,7 +14,7 @@ These are requirement for an on-premises integration.
 | 4 CPU Cores | 4 CPU Cores |
 | 8 GB RAM | 16 GB RAM |
 | 40 GB Disk Space | 150 GB Disk Space |
-| Windows Server 2008 R2 SP1 or newer | Windows Server 2008 R2 SP1 or newer |
+| Windows Server 2012 R2 or newer | Windows Server 2012 R2 or newer |
 | IIS 7 or newer | SQL Server 2012 or newer |
 | .NET 4.6.1 or newer |  |
 | Powershell 3.0 or newer |   |
@@ -27,7 +29,7 @@ These are requirement for an on-premises integration.
 | 8 CPU Cores | 8 CPU Cores |
 | 32 GB RAM | 64 GB RAM |
 | 40 GB Disk Space | 500 GB Disk Space |
-| Windows Server 2012 or newer | Windows Server 2012 or newer |
+| Windows Server 2016 or newer | Windows Server 2016 or newer |
 | IIS 7 or newer | SQL Server 2012 or newer |
 | .NET 4.6.1 or newer | |  
 | Powershell 5.0 or newer | |  

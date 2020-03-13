@@ -3,7 +3,7 @@
 [priority]: # (6001)
 # Tasks Launching Executables
 
-When a task is used to launch an executables, but the task does not have an associated user context, the appropriate user token cannot be assigned.
+When a task is used to launch executables, but the task does not have an associated user context, the appropriate user token cannot be assigned.
 
 ## Example Scenario
 

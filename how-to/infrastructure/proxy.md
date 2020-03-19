@@ -8,7 +8,7 @@
 
 Many organizations as a best practice restrict their privilege manager web server from inbound and outbound internet traffic. However this can cause a functional issue as agents not connected to the corporate network would not be able to reach the server to receive policy updates or submit event feedback.
 
-To resolve this functional issue while maintaining security Thycotic supports agent connections through a Reverse Proxy which can live in the DMZ. The proxy will filter connection requests and only forward those from the agents allowing communication while significantly reducing the potential attack surface. Proxy's can be configured using many different networking tools and in this document we will show how to do so with Windows Application Request Routing in IIS
+To resolve this functional issue while maintaining security Thycotic supports agent connections through a Reverse Proxy which can live in the DMZ. The proxy will filter connection requests and only forward those from the agents allowing communication while significantly reducing the potential attack surface. Proxies can be configured using many different networking tools and in this document we will show how to do so with Windows Application Request Routing in IIS
 
 In this setup, only the endpoint agent needs to be accessible via HTTPS. It is important to note that the certificate being used for HTTPS communication should be the same certificate that is installed on your Privilege Manager web server.
 
@@ -33,7 +33,7 @@ These are the minimum system specifications for a server that is used as a rever
 
    ![Web Platform Installer](images/proxy/pr-1.png)
 1. Open IIS Manager and right-click __Sites__ and select __Add Web Site__.
-1. Name the site __privProxy__ and set the __Physical Path__to the folder under C:\\inetpub\\ named __privProxy__.
+1. Name the site __privProxy__ and set the __Physical Path__ to the folder under `C:\inetpub\` named __privProxy__.
 1. Change the binding to __HTTPS__.
 1. Use the default port of 443.
    >**Note**:
@@ -41,7 +41,7 @@ These are the minimum system specifications for a server that is used as a rever
 1. Select a certificate for the binding to use and Click __OK__. The certificate being used for HTTPS communication should be the same certificate that is installed on your Privilege Manager web server. Follow [these instructions](https://thycotic.force.com/support/s/article/Trusting-an-SSL-Certificate-on-a-Client-Machine) to install a certificate on your Reverse Proxy server.
 
    ![Certificate](images/proxy/35629e862fbc4c513a98ba891874e52e.png)
-1. Select the server node in the left hand navigation pane in IIS Manager.
+1. In the IIS Manager's left hand navigation pane select the server node.
 1. Open __Application Request Routing__ from the middle pane.
 1. Select __Server Proxy Settings__ in the right hand actions pane
 1. In the __Application Request Routing__ pane, select __Enable Proxy__ and deselect __Enable disk cache__. 
@@ -86,6 +86,8 @@ To test registered agent URLs use the following, based on Privilege Manager vers
 
 For example using `https://PrivilegeManagerAppServerName.DomainName/TMS/Agent/agentregistration4.svc` at the agent agent point, should successfully return xml like the following:
 
+![xml returned](images/proxy/xml.png "Successfully returned xml output examples")
+<!--
 ```xml
 <wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:i0="http://tempuri.org/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://arellia.com/services/Agent/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" name="Thycotic.Tms.Services.Agent.AgentRegistration4" targetNamespace="http://arellia.com/services/Agent/">
 <wsdl:import namespace="http://tempuri.org/" location="https://localhost/TMS/Agent/AgentRegistration4.svc?wsdl=wsdl1"/>
@@ -108,6 +110,7 @@ http://test-system/TMS/Agent/AgentRegistration4.svc
 </wsdl:service>
 </wsdl:definitions>
 ```
+-->
 
 >**Note**:
 >Make sure that the server acting as the reverse proxy trusts and matches the certificate that the Privilege Manager web server is using for its HTTPS binding. If the certificate is not trusted, the proxy will return a 500.21 Gateway error.

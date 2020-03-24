@@ -39,7 +39,7 @@ Privilege Manger can be installed in a few different ways, as a:
    ![Copy to...](images/install-adv/install_adv_2.png)
 
    ![Path information](images/install-adv/install_adv_3.png)
-1. In `C:\inetpub\wwwroot\TMS\` where you have extracted the TMS Site files, create a new file (right-click | New | Text Document) called `connectionstrings.config`
+1. In `C:\inetpub\wwwroot\TMS\` where you have extracted the TMS Site files, create a new file right-click __New | Text Document__ called `connectionstrings.config`
 
    ![Create the connectionstring.config file](images/install-adv/install_adv_4.png)
 
@@ -85,7 +85,7 @@ Add three new application pools. Name one TMS, name another TMSAgent, and name t
 1. Right-click Default Web Site in IIS and select Add Virtual Directory…
 
    ![Adding the Virtual Directory](images/install-adv/install_adv_6.png)
-1. Select an alias for your Privilege Manager. The alias is what will be appended to the website. For instance, "TMS" in http://myserver/TMS. 
+1. Select an alias for your Privilege Manager. The alias is what will be appended to the website. For instance, "TMS" in `http://myserver/TMS`.
 1. Next, enter the physical directory where you unzipped Privilege Manager `C:\inetpub\wwwroot\TMS\`.
 1. Click __OK__.
 
@@ -110,10 +110,10 @@ Add three new application pools. Name one TMS, name another TMSAgent, and name t
 
    ![Verify the Authentication setting](images/install-adv/install_adv_11.png)
 1. Select the Worker, double click __Authentication__ in the features pane and make sure that Anonymous Authentication and Windows Authentication are both set to __Enabled__ and everything else is disabled.
-1. In Regedit.exe, Create a new Registry key (HKEY_LOCAL-MACHINE\ right-click on __Software | New | Key__, name the new key Thycotic. Next right-click on Thycotic | New | Key, name the new key TMS.
+1. In __Regedit.exe__, create a new Registry key (HKEY_LOCAL-MACHINE\ right-click on __Software | New | Key__, name the new key Thycotic. Next right-click on __Thycotic | New | Key__, name the new key TMS.
 
    ![Create the TMS Registry Key](images/install-adv/install_adv_12.png)
-   1. Create a new string value in the TMS folder (right-click __TMS | New | String Valu__e) with a name of webapp and a value of TMS (double click to assign value)
+   1. Create a new string value in the TMS folder right-click __TMS | New | String Value__ with a name of webapp and a value of TMS (double click to assign value)
 
       ![Create the TMS Registry Key](images/install-adv/install_adv_13.png)
    1. Create a 2nd new string value with a name of website and a value of the url to the root of the site you will be using (ex: "testlab" for a website of `https://testlab/TMS`)
@@ -152,7 +152,7 @@ The site will detect that is does not have the proper database configuration and
 
 After this initial step you will be presented with a list of Privilege Manager features you can choose to install.  
 1. Select __Add/Remove Product Features​__.
-1. Select Application Control and Privilege Manager.  This will automatically also select any prerequisites they require.
+1. Select Application Control and Privilege Manager. This will automatically also select any prerequisites they require.
 
    Each feature is delivered as a NuGet Package, the package will unzip, add files to the Privilege Manger website, and update the database with its required objects. Installing the database and features may take several minutes.
 1. Click __Show Install Log__​ to reveal installation progress.

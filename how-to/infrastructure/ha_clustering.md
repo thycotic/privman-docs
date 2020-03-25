@@ -3,8 +3,9 @@
 [priority]: # (2)
 # Privilege Manager High Availability Setup
 
-This topic explains the steps involved to set up Thycotic Privilege Manager High
-Availability, also known as clustering.
+This topic explains the steps involved to set up Thycotic Privilege Manager High Availability, also known as clustering.
+
+![ha](images/ha/ha.png "High Availability sample diagram")
 
 ## Pre-Requisites
 

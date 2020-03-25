@@ -159,3 +159,5 @@ After this initial step you will be presented with a list of Privilege Manager f
 
 Once all features have been installed Privilege Manager is ready to use! 
 Refer to the [Getting Started](../../getting-started/index.md) section for setup and configuration advice.
+
+>**Note**: Thycotic recommends to create a back-up copy of the Privilege Manager web application folder after installation or upgrades.

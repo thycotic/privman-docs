@@ -78,6 +78,10 @@ Users can select the row containing the program that they want to uninstall and 
 
 ![Utility in use](images/remove-pro/rpu-8.png)
 
+## Custom Installation Location
+
+If your agents are installed at a customized installation location and your Remove Programs Utility is not installed under the default of: `C:\Program Files\Thycotic\Agents\Agent` make sure to edit the `GUID 905388ae-99aa-4813-8a19-5b7c29f2de49` to match your installation location of: `C:\Program Files\{your company}\Agents\Agent`.
+
 ## 10.6 and earlier: Download and Install via Config Feed
 
 These steps are only required for customers on Privilege Manager versions 10.6 or earlier.

@@ -1,6 +1,6 @@
 [title]: # (Prevent Backwards Compatibility)
 [tags]: # (agent)
-[priority]: # (2)
+[priority]: # (6)
 # How to prevent Backwards Compatibility for Agents v10.4 and earlier
 
 Starting in Privilege Manager version 10.5 and up, due to security updates you can now prevent services from using agents versions 10.4 and earlier from communicating with the Privilege Manager server.

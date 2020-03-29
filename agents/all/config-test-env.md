@@ -1,6 +1,6 @@
 [title]: # (Test Environments)
 [tags]: # (agents)
-[priority]: # (9600)
+[priority]: # (7)
 # Configuring for a Test Environment
 
 You need to set Privilege Manager Agent configuration options to readily test configuration changes in a test environment. The agent configurations outlined in this page allow for accelerated feedback when testing use cases.

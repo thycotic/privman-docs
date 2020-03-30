@@ -1,6 +1,6 @@
 [title]: # (Agents)
 [tags]: # (endpoints)
-[priority]: # (9200)
+[priority]: # (1900)
 # Privilege Manager Agents
 
 The [Privilege Manager Agents](../install/agents/index.md) are a critical component of Thycotic's application control and local security, giving you the ability to evaluate the health and status of endpoints in real time. Agents are required on endpoint machines to implement Privilege Manager policies.

@@ -13,7 +13,7 @@ The majority will run for the first time after system initialization.
 
 | Name | Description | Schedule | Enabled |
 | ----- | ----- | ----- | ----- |
-| Agent Service Start / Stop Control (Windows) | Instructs computers to only allow the specified users to start and stop the Thycotic services. | n/a | N |
+| [Restrict Account Permissions on Agent Services (Windows)](../win/agent-hardening.md) | Instructs computers to only allow the specified users to start and stop the Thycotic services. | n/a | N |
 | [Basic Inventory (Initial, Windows)](../../tasks/client/bi.md) | Instructs computers to report the Win32_ComputerSystem, Win32_ComputerSystemProduct and Win32_OperatingSystem WMI classes to the server. | daily | Y |
 | [Basic Inventory (Windows)](../../tasks/client/bi.md) | Instructs computers to report the Win32_ComputerSystem, Win32_ComputerSystemProduct and Win32_OperatingSystem WMI classes to the server. | daily | Y |
 | [Cleanup Agent Inventory Transfers (Windows)](../../tasks/client/cait.md) | Completes and cleans BITS transfers and temporary files used by the TMS Agent Inventory Helper. | daily  | Y |

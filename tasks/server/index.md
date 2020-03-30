@@ -20,7 +20,7 @@
 | | Synchronize Organizational Unit Server Task | Synchronize Organizational Unit Server Task. |
 | | Update OU Directory Scope Collections Membership | This task updates the membership of Directory Services OU scope collections. |
 | | Update OU Directory Scope Collections Membership 2 | This task updates the membership of Directory Services OU scope collections. |
-| Email Tasks | Send Gauge Summary E-mail Task | Send a specific report on a schedule. |
+| [Email Tasks](../scheduled/email-reports.md) | Send Gauge Summary E-mail Task | Send a specific report on a schedule. |
 | File Inventory | Inventory File | Run this task to collect detailed information on the selected file for reports, filters, etc. |
 | | Inventory File Resource | Run this task to update information on an existing file resource for reports, filters, etc. |
 | | Inventory Package | Run this task to scan the contents of a package and report detailed information on files it contains for reports, filters, etc. |
@@ -28,13 +28,14 @@
 | | Inventory Packages | Run this task to scan the contents of a list of packages and report detailed information on files it contains for reports, filters, etc. |
 | | Inventory Packages Referenced in Whitelists | Run this task to collect detailed information for files contained in packages referenced in one or more whitelists. |
 | | Inventory Uploaded File | This task is used internally to collect detailed information from files uploaded remotely to the server. It is visible only for status information and troubleshooting. |
-| Foreign Systems | Sync users with Thycotic One | Run this task to synchronize PM users with a Thycotic One instance. |
-| | SCCM | Tasks here let you synchronize users, computers, and specific SCCM collection. |
-| | ServiceNow | Creates ServiceNow Approval Request items. |
-| | Symantec Management Platform | Tasks here let you synchronize SMP collections and package(s). |
-| | Syslog | |
+| Foreign Systems | | |
+| | [SCCM](../../integration/third-party/set-up-sccm.md) | Tasks here let you synchronize users, computers, and specific SCCM collection. |
+| | [ServiceNow](../../integration/third-party/set-up-servicenow.md) | Creates ServiceNow Approval Request items. |
+| | [Symantec Management Platform](../../integration/third-party/set-up-smp.md) | Tasks here let you synchronize SMP collections and package(s). |
+| | [Syslog](../../integration/third-party/set-up-syslog.md) | Creates tasks to send events to the configured syslog server based on specific templates.  |
 | Local Security | Update Primary User | Updates the primary user for the given computer resource. |
 | | Update Primary User for Collection | Updates the primary user for each computer in the given collection. |
+| Thycotic One Users | Sync users with Thycotic One | Run this task to synchronize PM users with a Thycotic One instance. |
 | Security | Rebuild Item Security Cache | Run this task to mark all entries in the item security cache as invalid, forcing a rebuild. |
 | | Refresh Agent Secrets | Run this task to refresh the agent secrets that were generated before the given max age. |
 | | Revoke Agent Secrets | Run this task to revoke the secrets from one or more agents. |
@@ -43,4 +44,3 @@
 | | Update Security Ratings for Resource | Run this task to update the security ratings (used in filters) for the given resources using the given rating system. |
 | Utility | Delete Item | This task will delete an item, and optionally dependent children. |
 | | Update Server Gauge State | This task will update the state of a server gauge. |
-

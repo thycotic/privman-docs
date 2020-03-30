@@ -3,7 +3,7 @@
 [priority]: # (1)
 # Pertaining to All Agents
 
-This section of the Privilege Manager documentation covers information and step procedures pertaining to all Privilege Manager agents independent of the endpoint operating system.
+This section of the Privilege Manager documentation covers information and step procedures pertaining to Privilege Manager agents __independent__ of the endpoint operating system.
 
 The following topics are available:
 

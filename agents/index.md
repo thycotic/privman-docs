@@ -17,13 +17,13 @@ endpoint operating systems.
 
 For information about installing agents, refer to [Agent Installation](../install/agents/index.md) to review agent system requirements and the specific agent installation procedures. This section of our document is a general agent information section, containing details about how to use/interact with agents and to provide information about the agent processes.
 
-## Agent Hardening
+## Agent Hardening (Windows)
 
 To make sure that local Administrators do not tamper with Thycotic agents running on their system, Privilege Manager Administrators can define users that can start and stop the Privilege Manager services running on endpoints, such as the Thycotic Agent or Thycotic Application Control. Refer to [Agent Hardening](win/agent-hardening.md).
 
 ## Post Agent Installation
 
-When your agents are installed, you can verify the status of your Agents' health in terms of Registration State and Policy State from the Home page. You also can navigate to Admin | Agents for more information about installed agents.
+When your agents are installed, you can verify the status of your Agents' health in terms of Registration State and Policy State from the Home page. You also can navigate to __Admin | Agents__ for more information about installed agents.
 
 The Agent Health dials describe how many Managed Operating Systems you have as well as your Agent(s) Registration State and Policy State. If you click on the Agent Registration State dial, you will see a report on a list of machines (the "MonitoredResource" column) where each registered agent is installed.
 

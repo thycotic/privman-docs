@@ -3,7 +3,7 @@
 [priority]: # (1)
 # MacOS Specifics & Best Practices
 
-This best practices section pertains to all macOS versions from __El Capitan__ to and including __Catalina__.
+This best practices section pertains to all macOS versions from __El Capitan__ to (and including) __Catalina__.
 
 Thycotic supports elevation without having to enter admin credentials for these preference panes:
 

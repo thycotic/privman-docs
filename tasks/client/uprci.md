@@ -7,7 +7,7 @@
 
 | Parameter | Value |
 | ----- | ----- |
-| Default Active | Y |
+| Default Active | Yes |
 | Command | Force Client Item Update Command |
 | Parameters | Category: Provisioned Resource |
 | Triggers | Daily at 8:00:00 AM starting Sun Apr 07 2013 |
@@ -18,15 +18,15 @@
 | (stop) | Stop the task if it run for longer than 0 minute(s). - not set by default |
 | (retry on failure) | not set by default |
 | Rule | Default (Do not start a new instance) |
-| Agent Sent Size | |
-| Agent Received Size | |
-| Restrictions | |
+| Agent Sent Size | depends on the number of provisioned items |
+| Agent Received Size | n/a |
+| Restrictions | none |
 
 ## Update Provisioned Resource Client Items (MacOS)
 
 | Parameter | Value |
 | ----- | ----- |
-| Default Active | Y |
+| Default Active | Yes |
 | Command | Force Client Item Update Command |
 | Parameters | Category: Provisioned Resource |
 | Triggers | Daily at 8:00:00 AM starting Sun Apr 07 2013 |
@@ -37,6 +37,6 @@
 | (stop) | Stop the task if it run for longer than 0 minute(s). - not set by default |
 | (retry on failure) | not set by default |
 | Rule | Default (Do not start a new instance) |
-| Agent Sent Size | |
-| Agent Received Size | |
-| Restrictions | |
+| Agent Sent Size | depends on the number of provisioned items |
+| Agent Received Size | n/a |
+| Restrictions | none |

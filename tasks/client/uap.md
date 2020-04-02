@@ -9,9 +9,9 @@ Instructs Agent to check with server for policy changes.
 
 | Parameter | Value |
 | ----- | ----- |
-| Default Active | Y |
+| Default Active | Yes |
 | Command | Update Applicable Policies |
-| Triggers | Daily at 12:00:00 AM starting Mon Oct 01 2018 (repeating every 30 minutes for a duration of 24 hours) |
+| Triggers | Daily at 12:00:00 AM (repeating every 30 minutes for a duration of 24 hours) |
 | Targets | All Windows Managed Computers - Internal Network (Target) |
 | Conditions | None specified by default |
 | Advanced | Allow task to be run on demand |
@@ -21,7 +21,7 @@ Instructs Agent to check with server for policy changes.
 | Rule | Default (Do not start a new instance) |
 | Agent Sent Size | |
 | Agent Received Size | |
-| Restrictions | |
+| Restrictions | none |
 
 ## Update Applicable Policies - Internet Clients (Windows)
 
@@ -29,9 +29,9 @@ Instructs Agent to check with server for policy changes less frequently than int
 
 | Parameter | Value |
 | ----- | ----- |
-| Default Active | Y |
+| Default Active | Yes |
 | Command | Update Applicable Policies |
-| Triggers | Daily at 12:00:00 AM starting Mon Oct 01 2018 (repeating every 2 hours for a duration of 24 hours) |
+| Triggers | Daily at 12:00:00 AM (repeating every 2 hours for a duration of 24 hours) |
 | Targets | All Windows Managed Computers - Internet Client (Target) |
 | Conditions | None specified by default |
 | Advanced | Allow task to be run on demand |
@@ -41,7 +41,7 @@ Instructs Agent to check with server for policy changes less frequently than int
 | Rule | Default (Do not start a new instance) |
 | Agent Sent Size | |
 | Agent Received Size | |
-| Restrictions | |
+| Restrictions | none |
 
 ## Update Applicable Policies (Mac OS)
 
@@ -49,9 +49,9 @@ When this policy is triggered the Agent will check the server for updated polici
 
 | Parameter | Value |
 | ----- | ----- |
-| Default Active | Y |
+| Default Active | Yes |
 | Command | Update Applicable Policies |
-| Triggers | Daily at 12:00:00 AM starting Mon Oct 01 2018 (repeating every 30 minutes for a duration of 24 hours) |
+| Triggers | Daily at 12:00:00 AM (repeating every 30 minutes for a duration of 24 hours) |
 | Targets | All MacOS Managed Computers - Internal Network (Target) |
 | Conditions | None specified by default |
 | Advanced | Allow task to be run on demand |
@@ -61,7 +61,7 @@ When this policy is triggered the Agent will check the server for updated polici
 | Rule | Default (Do not start a new instance) |
 | Agent Sent Size | |
 | Agent Received Size | |
-| Restrictions | |
+| Restrictions | none |
 
 ## Update Applicable Policies (Linux)
 
@@ -69,9 +69,9 @@ This remote-scheduled command will update policies applicable to the assigned ag
 
 | Parameter | Value |
 | ----- | ----- |
-| Default Active | Y |
+| Default Active | Yes |
 | Command | Update Applicable Policies |
-| Triggers | Daily at 12:00:00 AM starting Mon Oct 01 2018 (repeating every 2 hours for a duration of 24 hours) |
+| Triggers | Daily at 12:00:00 AM (repeating every 2 hours for a duration of 24 hours) |
 | Targets | Linux Computers |
 | Conditions | None specified by default |
 | Advanced | Allow task to be run on demand |
@@ -81,4 +81,4 @@ This remote-scheduled command will update policies applicable to the assigned ag
 | Rule | Default (Do not start a new instance) |
 | Agent Sent Size | |
 | Agent Received Size | |
-| Restrictions | |
+| Restrictions | none |

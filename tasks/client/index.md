@@ -9,6 +9,8 @@ Client Tasks are used to run or schedule activities at the endpoints, like:
 * Resource Discovery Client Task, which populates agent-side data for any resources that have been discovered but lack detailed information.
 * Update Applicable Policies, which triggers policy updates at the endpoints.
 
+>**Note**: All default enabled client tasks __are read-only items__ and if any customization to the schedule is required, create a copy to add, save, and apply changes. Schedule changes can be added on the Triggers page when clicking the existing schedule and then __Show Advanced__.
+
 Details for each tasks are provided under the following topics:
 
 * [Basic Inventory](bi.md)

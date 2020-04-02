@@ -9,10 +9,10 @@ Scan Agent queue for any events that require retransmission.
 
 | Parameter | Value |
 | ----- | ----- |
-| Default Active | Y |
+| Default Active | Yes |
 | Command | Retry errored TMS Client Events (Windows) |
 | Parameters | Force Resending (incl. transient errors) |
-| Triggers | Daily at 2:00:02 AM starting Mon Oct 01 2018 |
+| Triggers | Daily at 2:00:02 AM |
 | Targets | Windows Computers |
 | Conditions | None specified by default |
 | Advanced | Allow task to be run on demand |
@@ -20,17 +20,17 @@ Scan Agent queue for any events that require retransmission.
 | (stop) | Stop the task if it run for longer than 1 hour(s). |
 | (retry on failure) | not set by default |
 | Rule | Default (Do not start a new instance) |
-| Agent Sent Size | |
-| Agent Received Size | |
-| Restrictions | |
+| Agent Sent Size | depends on number of items that require retransmission |
+| Agent Received Size | n/a |
+| Restrictions | none |
 
 ## Retry errored TMS Events (Mac OS)
 
 | Parameter | Value |
 | ----- | ----- |
-| Default Active | Y |
+| Default Active | Yes |
 | Command | Retry errored TMS Client Events (MacOS) |
-| Triggers | Daily at 2:00:02 AM starting Mon Oct 01 2018 |
+| Triggers | Daily at 2:00:02 AM |
 | Targets | MacOS Computers |
 | Conditions | None specified by default |
 | Advanced | Allow task to be run on demand |
@@ -38,6 +38,6 @@ Scan Agent queue for any events that require retransmission.
 | (stop) | Stop the task if it run for longer than 1 hour(s). |
 | (retry on failure) | not set by default |
 | Rule | Default (Do not start a new instance) |
-| Agent Sent Size | |
-| Agent Received Size | |
-| Restrictions | |
+| Agent Sent Size | depends on number of items that require retransmission |
+| Agent Received Size | n/a |
+| Restrictions | none |

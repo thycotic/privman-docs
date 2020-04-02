@@ -3,16 +3,18 @@
 [priority]: # (5)
 # Update Agent Commands
 
+Task sends up request for hashes of specific client item types. With Privilege Manager version 10.7 and up returned items are filters based on the last time run the task ran.
+
 ## Update Agent Commands (Windows)
 
 Instructs Agent to update any agent commands if required.
 
 | Parameter | Value |
 | ----- | ----- |
-| Default Active | Y |
+| Default Active | Yes |
 | Command | Force Client Item Update Command |
 | Parameters | Category: Agent Command |
-| Triggers | Daily at 12:00:00 AM starting Mon Oct 01 2018 |
+| Triggers | Daily at 12:00:00 AM |
 | Targets | Windows Computers |
 | Conditions | None specified by default |
 | Advanced | Allow task to be run on demand |
@@ -22,7 +24,7 @@ Instructs Agent to update any agent commands if required.
 | Rule | Default (Do not start a new instance) |
 | Agent Sent Size | |
 | Agent Received Size | |
-| Restrictions | |
+| Restrictions | none |
 
 ## Update Agent Commands (Mac OS)
 
@@ -30,10 +32,10 @@ When this policy is triggered the Agent will update agent command items.
 
 | Parameter | Value |
 | ----- | ----- |
-| Default Active | Y |
+| Default Active | Yes |
 | Command | Force Client Item Update Command |
 | Parameters | Category: Agent Command |
-| Triggers | Daily at 12:00:00 AM starting Mon Oct 01 2018 |
+| Triggers | Daily at 12:00:00 AM |
 | Targets | MacOS Computers |
 | Conditions | None specified by default |
 | Advanced | Allow task to be run on demand |
@@ -43,4 +45,4 @@ When this policy is triggered the Agent will update agent command items.
 | Rule | Default (Do not start a new instance) |
 | Agent Sent Size | |
 | Agent Received Size | |
-| Restrictions | |
+| Restrictions | none |

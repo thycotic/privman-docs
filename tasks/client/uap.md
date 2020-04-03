@@ -60,7 +60,7 @@ When this policy is triggered the Agent will check the server for updated polici
 | (retry on failure) | not set by default |
 | Rule | Default (Do not start a new instance) |
 | Agent Sent Size | |
-| Agent Received Size | |
+| Agent Received Size | depends on the number of updated policies |
 | Restrictions | none |
 
 ## Update Applicable Policies (Linux)

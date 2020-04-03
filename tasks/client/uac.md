@@ -44,5 +44,5 @@ When this policy is triggered the Agent will update agent command items.
 | (retry on failure) | not set by default |
 | Rule | Default (Do not start a new instance) |
 | Agent Sent Size | |
-| Agent Received Size | |
+| Agent Received Size | depends on the number of updated commands |
 | Restrictions | none |

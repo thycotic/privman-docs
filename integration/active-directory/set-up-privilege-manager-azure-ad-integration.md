@@ -85,12 +85,18 @@ You will need the Application Id and the Client Secret you copied to the clipboa
 1. Select the newly created Azure AD Domain entry and click __Edit__.  
 1. Enter the __DNS Name__. This is the DNS name of the Tenant from the Azure Portal identified at the beginning of this document.
 1. Verify the __Sign-on URL__ is correct. This value should match what was specified in the Redirect URI option when setting up the Application Registration.
-1. Enter the __Azure Application (client) ID__. This is the Application ID that was created when registering your application in the Azure Portal.<br/>
+1. Enter the __Azure Application (client) ID__. This is the Application ID that was created when registering your application in the Azure Portal.
+
    ![AzAD_AuthHelp_10.6_20190321.png](images/kb_ad_sync/AzAD_AuthHelp_10.6_20190321.png)
 1. Click __Save Changes__.
 1. Continue to the Azure AD Authentication Provider section and click __Edit__.
 1. Complete the three steps:
-   1. Import Users & Groups from Azure AD. This process may take a few minutes to complete, depending on the size of the directory.
+   1. Import Users & Groups from Azure AD. This process may take a few minutes to complete, depending on the size of the directory. Privilege Manager offers two tasks for this import:
+
+      * __Default Import AzureAD Users/Groups__, imports ALL users and groups.
+      * __Import Specific Azure AD Users and Groups__, imports only the specified users and/or groups.
+
+      Refer to setup and scheduling of these tasks under the "Import Users and Groups via Privilege Manager Task" and "Create Scheduled Task for Users/Groups Synchronization" topics below.
    1. Assign Azure user(s) to the Privilege Manager Administrators Role. In order for users to authenticate via Azure AD, they will need to be added as members of various roles. There must be at least one member from this Azure Directory allowed to login via Azure AD before you can continue. We recommend adding yourself to ensure that you can login after the Authentication Provider is configured.
    1. Set as Authentication Provider.
 1. Click __Save Changes__.
@@ -115,14 +121,14 @@ This step was performed initially as part of setting up the Azure AD directory. 
 1. Expand __Jobs and Tasks__.
 1. Expand __Server Tasks__.
 1. Select __Directory Services__.
-1. Click on __Default Import AzureAD Users/Groups__.
+1. Click on __Default Import AzureAD Users/Groups__ or __Import Specific Azure AD Users and Groups__.
 1. Click __Run__, then __Select Resource__.
 1. Select the Azure Active Directory Domain you previously created.
 1. Enable __Import Groups__.
 1. Enable __Import Users__.
 1. Click __Run Task__.
 
-If you only want a subset of the directory to be imported, you may instead run the task called Import Specific Azure AD Users and Groups. This task is located in the same folder and contains parameters for the names of the users and/or groups of interest.
+If you only want a subset of the directory to be imported, you may instead run the task called __Import Specific Azure AD Users and Groups__. This task is located in the same folder and contains parameters for the names of the users and/or groups of interest.
 
 ### Create Scheduled Task for Users/Groups Synchronization
 
@@ -132,7 +138,7 @@ To schedule this operation to happen on a regular schedule:
 1. Expand __Jobs and Tasks__.
 1. Expand __Server Tasks__.
 1. Select __Directory Services__.
-1. Click on __Default Import AzureAD Users/Groups__.
+1. Click on __Default Import AzureAD Users/Groups__ or __Import Specific Azure AD Users and Groups__.
 1. Click __View__.
 1. In the Schedules tab, click __New Schedule__ to create a new schedule.
    a. On the __Schedule__ tab, define the desired schedule.

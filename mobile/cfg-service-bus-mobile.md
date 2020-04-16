@@ -14,8 +14,8 @@ If you already have an existing Service Bus in Azure, you are welcome to use the
 The following steps explain what is required for the Mobile App integration:
 
 1. In the Azure Service Bus portal go to the __Shared access policies__ page.
-1. Find the policy called __RootManageSharedAccessKey__. If you don't have one yey, create one by that name and select the __Manage__ option and save it.
-1. On the __RootManageSharedAccessKey__ policy you can see the __Primary Key__ field. Make note of where this is. We have use it in a step down below.
+1. Find the policy called __RootManageSharedAccessKey__. If you don't have one yet, create one by that name and select the __Manage__ option and save it.
+1. On the __RootManageSharedAccessKey__ policy you can see the __Primary Key__ field. Make note of where this is. We have to use it in a step down below.
 1. Next, navigate to the Queues page and create a new queue.
 1. Do not check any of the options, using the defaults is fine. Take note of the queue name you gave it.
 

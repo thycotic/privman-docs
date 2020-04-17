@@ -121,16 +121,21 @@ This step was performed initially as part of setting up the Azure AD directory. 
 1. Expand __Jobs and Tasks__.
 1. Expand __Server Tasks__.
 1. Select __Directory Services__.
-1. Click on __Default Import AzureAD Users/Groups__ or __Import Specific Azure AD Users and Groups__.
-1. Click __Run__, then __Select Resource__.
+
+   ![import azure ad resources](images/kb_ad_sync/task-import-az-ad.png "Select the Import Azure AD Resources task")
+1. Click on __Import Azure AD Resources__ to import devices, groups, and/or users based on a selected resource.
+1. Click __Run__, then __Select Resource__ and select from the available resources.
+
+   ![select resources](images/kb_ad_sync/task-import-az-ad-resources.png "Select the resources")
 1. Select the Azure Active Directory Domain you previously created.
-1. Enable __Import Groups__.
-1. Enable __Import Users__.
+   1. Enable __Import Devices__.
+   1. Enable __Import Groups__.
+   1. Enable __Import Users__.
 1. Click __Run Task__.
 
-If you only want a subset of the directory to be imported, you may instead run the task called __Import Specific Azure AD Users and Groups__. This task is located in the same folder and contains parameters for the names of the users and/or groups of interest.
+If you only want a subset of the directory to be imported, enable select and enable only the resources you wish to import at this point.
 
-### Create Scheduled Task for Users/Groups Synchronization
+#### Create Scheduled Task for Users/Groups Synchronization
 
 To schedule this operation to happen on a regular schedule:
 
@@ -138,8 +143,9 @@ To schedule this operation to happen on a regular schedule:
 1. Expand __Jobs and Tasks__.
 1. Expand __Server Tasks__.
 1. Select __Directory Services__.
-1. Click on __Default Import AzureAD Users/Groups__ or __Import Specific Azure AD Users and Groups__.
+1. Click on __Import Azure AD Resources__ to import devices, groups, and/or users based on a selected resource.
 1. Click __View__.
 1. In the Schedules tab, click __New Schedule__ to create a new schedule.
-   a. On the __Schedule__ tab, define the desired schedule.
-   b. On the __Parameters__ tab, select the __Azure Active Directory__ resource that you created earlier and make selections for importing users and groups.
+   1. On the __Schedule__ tab, define the desired schedule.
+   1. On the __Parameters__ tab, select the __Azure Active Directory__ resource that you created earlier and make selections for importing devices, users, and groups.
+1. Click __Save__.

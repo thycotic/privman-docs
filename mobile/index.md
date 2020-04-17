@@ -9,14 +9,8 @@ For the mobile app to work you must install the Privilege Manager Mobile Console
 
 The instructions are provided based on the assumptions, that
 
-1. our customer is using Azure AD and has already configured the [Azure Active Directory App Registration](../integration/active-directory\set-up-privilege-manager-azure-ad-integration.md) according to the docs to allow them to authenticate as an Azure AD user.
+1. our customer is using Azure AD and has already configured the [Azure Active Directory App Registration](../integration/active-directory\set-up-privilege-manager-azure-ad-integration.md) according to the docs to allow them to authenticate as an Azure AD user. The mobile application registration must be added to that __same domain__.
 1. our customer has the ability to create an Azure Service Bus service.
-
-## Requirements
-
-* Privilege Manager must be installed on a Windows Server that is attached to a domain (on-prem or cloud).
-* An Azure Service Bus Relay must be configured.
-* Privilege Manager and Azure Active Directory must be setup and the mobile application registration must be added to the __same domain__.
 
 ## Detailed Instruction Topics
 

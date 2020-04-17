@@ -16,7 +16,7 @@ The following steps explain what is required for the Mobile App integration:
 1. In the Azure Service Bus portal go to the __Shared access policies__ page.
 1. Find the policy called __RootManageSharedAccessKey__. If you don't have one yet, create one by that name and select the __Manage__ option and save it.
 1. On the __RootManageSharedAccessKey__ policy you can see the __Primary Key__ field. Make note of where this is. We have to use it in a step down below.
-1. Next, navigate to the Queues page and create a new queue.
+1. Next, navigate to the __Queues__ page and create a new queue.
 1. Do not check any of the options, using the defaults is fine. Take note of the queue name you gave it.
 
 Next you will need to follow the instructions below to create a credential for the Service Bus and add the Service Bus as a foreign system in Privilege Manager.
@@ -54,7 +54,14 @@ The Azure Service Bus requires a Foreign Systems configuration in Privilege Mana
    1. Set the Queue Policy Name to __RootManageSharedAccessKey__.
    1. Set the Queue Policy Secret to the __Primary Key__ as obtained in __step 3__ under "Creating a Service Bus and Queue in the Azure Portal" above.
    1. Click __Save__.
-1. Recycle the the App Pools on the Privilege Manager Instance (for cloud environments this will require the Cloud Manager PIN, etc.). Without the recycle, the new settings won't be applied.
-1. To verify everything is working correctly, open your browser and point it to the ServiceBus worker service: https://yourinstance.privilegemanager.com/Tms/ServiceBus/WorkerService.svc and wait for the page to respond.
+1. Recycle the App Pools on the Privilege Manager Instance following any changes for this integration. Without the recycle, the new settings won't be applied.
+
+   __Cloud__ customers, please contact support for assistance to get these recycled. Unfortunately, this is a "must-contact" situation.
+1. To verify everything is working correctly, open your browser and point it to the ServiceBus worker service:
+
+   * __On-Premises__: `https://yourinstance.privilegemanager.com/Tms/ServiceBus/WorkerService.svc`
+   * __Cloud__: `https://yourinstance.privilegemanagercloud.com/Tms/ServiceBus/WorkerService.svc`
+
+   Wait for the page to respond.
 
 You are now ready to install the Thycotic ACS application on your mobile devices.

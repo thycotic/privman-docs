@@ -16,8 +16,13 @@ After installing and configuring the server components, help desk users can down
 
 If you experience any issues completing those steps, try the following to solve the problem:
 
-1. Verify the you can reach the Service Bus worker service by pointing your browser at the ServiceBus worker service. Enter this URL into your browser navigation bar: https://yourinstance.privilegemanager.com/Tms/ServiceBus/WorkerService.svc and wait for the page to respond.
-1. Verify the Redirect URL setting in your Azure AD application registration matches the configuration values in Privilege Manager.
-1. __Recycle the the App Pools on the Privilege Manager Instance__ following any changes for this integration. Without the recycle, the new settings won't be applied.
+1. Verify that you can reach the Service Bus worker service by pointing your browser at the ServiceBus worker service. Enter the URL into your browser navigation bar:
 
-   __Cloud__ environments require the Cloud Manager PIN, etc., and you might have to contact Cloud Support.
+   * __On-Premises__: `https://yourinstance.privilegemanager.com/Tms/ServiceBus/WorkerService.svc`
+   * __Cloud__: `https://yourinstance.privilegemanagercloud.com/Tms/ServiceBus/WorkerService.svc`
+
+   Wait for the page to respond.
+1. Verify the Redirect URI setting in your Azure AD application registration matches the configuration values in Privilege Manager.
+1. __Recycle the App Pools on the Privilege Manager Instance__ following any changes for this integration. Without the recycle, the new settings won't be applied.
+
+   __Cloud__ customers, please contact support for assistance to get these recycled. Unfortunately, this is a "must-contact" situation.

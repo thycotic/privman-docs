@@ -52,8 +52,15 @@ The Azure Service Bus requires a Foreign Systems configuration in Privilege Mana
    1. Set the Queue Policy Name to __RootManageSharedAccessKey__.
    1. Set the Queue Policy Secret to the __Primary Key__ as obtained in __step 3__ under "Azure Service Bus Queue Configuration" above.
    1. Click __Save__.
-1. Recycle the the App Pools on the Privilege Manager Instance (for cloud environments this will require the Cloud Manager PIN, etc.). Without the recycle, the new settings won't be applied.
-1. To verify everything is working correctly, open your browser and point it to the ServiceBus worker service: https://yourinstance.privilegemanager.com/Tms/ServiceBus/WorkerService.svc and wait for the page to respond.
+1. Recycle the App Pools on the Privilege Manager Instance following any changes for this integration. Without the recycle, the new settings won't be applied.
+
+   __Cloud__ customers, please contact support for assistance to get these recycled. Unfortunately, this is a "must-contact" situation.
+1. To verify everything is working correctly, open your browser and point it to the ServiceBus worker service:
+
+   * __On-Premises__: `https://yourinstance.privilegemanager.com/Tms/ServiceBus/WorkerService.svc`
+   * __Cloud__: `https://yourinstance.privilegemanagercloud.com/Tms/ServiceBus/WorkerService.svc`
+
+   Wait for the page to respond.
 
 ## Configuring Agents to Use the Service Bus
 

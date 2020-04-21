@@ -9,9 +9,9 @@ On-premises Privilege Manager instances need to use an Azure Service Bus for int
 
 With Privilege Manager 10.7 and up TLS 1.2 is supported.
 
-This page is broken up in three sections:
+This page is broken up into three sections:
 
-* Azure Services Bus Queue Configuration
+* Azure Service Bus Queue Configuration
 * Setting up the Service Bus as a Foreign System in Privilege Manager
 * Configuring the Agents to use the Service Bus (if this is a new agent installation, the Agents can be pointed directly at the Service Bus namespace URL)
 

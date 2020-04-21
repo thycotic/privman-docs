@@ -1,7 +1,7 @@
-[title]: # (Use the mobile app)
+[title]: # (Use the Mobile App)
 [tags]: # (mobile)
 [priority]: # (15005)
-# Use the mobile app
+# Use the Mobile Application
 
 ## Approval requests
 
@@ -9,7 +9,7 @@ Approval Requests area provides the ability to approve/deny pending approval req
 
    ![Mobile App](images/app-1.png "Mobile App")
 
-## Password disclosure
+## Password Disclosure
 
 Password Disclosure area provides the ability to disclose managed user passwords that the mobile user has access to.
 

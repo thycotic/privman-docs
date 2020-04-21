@@ -35,3 +35,5 @@ Follow these steps to perform an offline upgrade for Privilege Manager. This art
 >Do NOT select the link to "...switch to the online repository", unless you want to revert the changes made above. Selecting this will edit the web.config back to the original SolutionCentre web path.
 
 An upgrade or repair to the product may rewrite the web.config with default settings. Always double-check that the web.config has the correct SolutionCentre path whenever you perform a manual upgrade.
+
+>**Note**: Thycotic recommends to create a back-up copy of the Privilege Manager web application folder after installation or upgrades.

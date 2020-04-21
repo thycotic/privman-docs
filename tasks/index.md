@@ -11,6 +11,7 @@ The following topics are available:
 * [Agent Hardening](../install/agents/agent-hardening.md)
 * [Maintenance tasks details](maintenance.md)
 * [Other tasks to schedule](scheduled/index.md)
+  
   * [Emailing Reports](scheduled/email-reports.md)
-
 * [Reset Licensing](reset-license.md)
+* [Tasks Launching Executables without User Context](launching-exe.md)

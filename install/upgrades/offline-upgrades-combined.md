@@ -42,3 +42,5 @@ Note: The TMS setup page requires authentication with a Windows account that is 
 >If one of the products fails to install, please repeat steps 11 and 12.  You may encounter an issue with an error of "Version Store out of Memory" - this is transient and re-starting the upgrade will fix it.
 
 If you encounter any additional errors or the error from step 13 persists, please contact Thycotic Technical support for assistance by submitting a case here.
+
+>**Note**: Thycotic recommends to create a back-up copy of the Privilege Manager web application folder after installation or upgrades.

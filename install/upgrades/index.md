@@ -3,7 +3,9 @@
 [priority]: # (1701)
 # Upgrades
 
-Privilege Manager software updates are made available via NuGet server packages. The upgrade process can be performed via Add/Upgrade Features link in the Privilege Manager Setup page.
+Privilege Manager software updates are made available via NuGet server packages. The upgrade process can be performed via __Add/Upgrade Features__ link in the Privilege Manager Setup page.
+
+>**Note**: Thycotic recommends to create a back-up copy of the Privilege Manager web application folder after installation or upgrades.
 
 ## Setting up the NuGet Source
 

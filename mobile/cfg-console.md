@@ -1,7 +1,7 @@
 [title]: # (Configure the Console)
 [tags]: # (mobile)
 [priority]: # (15003)
-# Configure the Mobile Console in Privilege Manager
+# Install and Configure the Mobile Console in Privilege Manager
 
 To configure the Mobile Console in Privilege Manager, you must:
 
@@ -28,12 +28,18 @@ After you have installed the Privilege Manager Mobile Console, set the Client ID
 1. Navigate to __ADMIN | Configuration__.
 1. Select the __Advanced__ tab.
 1. Scroll down and click __Edit__.
-1. In the Thycotic Mobile Console Solution section under General
+1. In the Thycotic Mobile Console Solution section under General enter values for:
 
-   1. In the __Your client id__ field, enter the Client Id that you generated when you configured the Microsoft Azure Active Directory.
-   1. In the __Your tenant id__ field, enter the URL from your Azure Service Bus setup, which usually is your company name, e.g. _MyCompanyName.onmicrosoft.com_.
+   1. __Your client id__: In the __Your client id__ field, enter the Client Id that you generated when you configured the Microsoft Azure Active Directory. In the Azure AD portal, you find this under App Registration. Look for the __Application (client) ID__ value.
 
-   ![Configuration](images/cfg-3.png "Thycotic Mobile Console Solution configuration")
+      ![app client id](images/az-ad-4-2.png "Value for Your client id from the Azure AD app registration page")
+   1. __Your tenant id__, is the DNS name of the Azure Active Directory instance. You find it on the Azure AD Home page, between the friendly name and the Azure Tenant ID, for example __name.myinstance.com__ or __MyCompanyName.onmicrosoft.com__.
+
+      ![dns](images/dns.png "DNS to be entered as a the Your tenant id value in Privilege Manager")
+
+      Enter that DNS in the __Your tenant id__ field.
+
+      ![Configuration](images/cfg-3.png "Thycotic Mobile Console Solution configuration")
 1. Click __Save__.
 
 ## Configure the Notification Settings

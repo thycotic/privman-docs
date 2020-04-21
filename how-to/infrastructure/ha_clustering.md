@@ -3,8 +3,9 @@
 [priority]: # (2)
 # Privilege Manager High Availability Setup
 
-This topic explains the steps involved to set up Thycotic Privilege Manager High
-Availability, also known as clustering.
+This topic explains the steps involved to set up Thycotic Privilege Manager High Availability, also known as clustering.
+
+![ha](images/ha/ha.png "High Availability sample diagram")
 
 ## Pre-Requisites
 
@@ -16,12 +17,9 @@ Except for the Operating System, the following pre-requisites will be installed 
 
 ### System Requirements Overview
 
-1. **Windows 2008 R2 SP1 or newer** operating system (2012 or newer is recommended)
-
+1. **Windows 2012 R2 or newer** operating system (2012 or newer is recommended)
 2. Microsoft **SQL Server 2012 or newer** (Standard edition or higher is recommended)
-
 3. Microsoft **Internet Information Services** (IIS) **7 or newer**
-
 4. Microsoft **.NET Framework 4.6.1 or newer**
 
 >**Note**:
@@ -86,16 +84,16 @@ In this procedure you will first copy the web application files from the primary
 
       ![Navigate to Custom Account](images/ha/a3a94ec5efd8d2d5dc7956c22c8e3e25.png)
    5. Select the **Custom Account** radio button,
-   6. Click **Set**, enter your service account’s name and password.
+   6. Click **Set**, enter your service account's name and password.
 
       ![Set name and password](images/ha/e9ed8c79bc79f55ab89fb76fde807eaf.png)
    7. Click **OK.**
-1. Right-click **Default Web Site** in IIS and select **Add Virtual Directory…** 
+1. Right-click **Default Web Site** in IIS and select **Add Virtual Directory…**.
 
       ![Virtual Directory](images/ha/b132a5c51600c86420a9389160b54a02.png)
 
 1. Select an alias for your Privilege Manager. The alias is what will be
- appended to the website. For instance, “TMS” in <http://myserver/TMS>.
+ appended to the website. For instance, "TMS" in <http://myserver/TMS>.
 
 1. Next, enter the physical directory where you unzipped Privilege Manager (i.e., 'C:\inetpub\wwwroot\TMS\').
 
@@ -188,8 +186,8 @@ TMS requires **Read** access to the private key of the certificate being used fo
 1. Right-click on the certificate and select **All Tasks | Manage Private Keys**.
 1. Grant **Read** access to the identity account for your application pools.
 
-If the “Manage Private Keys” option is not available, you can set this permission in PowerShell. [This article ](https://thycotic.force.com/support/s/article/PM-Adv-Setting-Read-Access-to-the-Private-Key-of-your-Certificate-in-Powershell)
-has the script.
+If the "Manage Private Keys" option is not available, you can set this permission in PowerShell. <!-- [This article ](https://thycotic.force.com/support/s/article/PM-Adv-Setting-Read-Access-to-the-Private-Key-of-your-Certificate-in-Powershell)
+has the script. -->
 
 ### Verify Login on Secondary Node
 
@@ -210,6 +208,6 @@ has the script.
    C:\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet_regiis.exe -pe "connectionStrings" -app "/Tms"
    ```
 
-Privilege Manager has now successfully been clustered. A load balancer, GTM, VIP, etc. can be used to manage the traffic. The settings to configure this will be handled on the side of this infrastructure piece and is beyond the scope of this document. Contact Thycotic’s Professional Services team if additional consultation is required.
+Privilege Manager has now successfully been clustered. A load balancer, GTM, VIP, etc. can be used to manage the traffic. The settings to configure this will be handled on the side of this infrastructure piece and is beyond the scope of this document. Contact Thycotic's Professional Services team if additional consultation is required.
 
 Thycotic requires that **sticky sessions** are enabled on the load balancer to prevent a user from bouncing between servers on each request of a single session.

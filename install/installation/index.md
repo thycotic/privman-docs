@@ -31,7 +31,6 @@ The latest version of Privilege Manager is available for download under the [Sof
 1. Double-click the downloaded setup.exe to run the installer. The installer opens on the __Welcome__ tab:
 
    ![Installation Welcome dialog](images/pm-install/install-1.png)
-
 1. Verify that the Privilege Manager box is checked.
 
    >**Note**: Privilege Manager as a standalone product comes with three roles Administrator, Basic User, and Help Desk User roles. Please refer to [Application Roles.](../../ui/config/roles/app-roles.md)
@@ -50,16 +49,13 @@ The latest version of Privilege Manager is available for download under the [Sof
 1. The __Pre-Requisites__ tab makes sure everything that is required to install Privilege Manager is setup correctly. Everything on this page can be installed outside of the installer, but if not, the installer will install and configure them for the user. Think of this page as the non-Thycotic configuration. If there are issues with this page it is very likely that the Internet will be able to help as these are not installation features that are specific to Thycotic. Click Fix Issues to automatically install the necessary pre-requisites. When Successful, click Next.
 
    ![Pre-Requisites](images/pm-install/install-3.png)
-
-1. If you chose the “Connect to an existing SQL Server” option on the Database page, the __Database Connection__ tab will now prompt you for the connection information that Privilege Manager will use. The Test Connection button must be run successfully before installation can continue. Once connection is established, click Next.
+1. If you chose the "Connect to an existing SQL Server" option on the Database page, the __Database Connection__ tab will now prompt you for the connection information that Privilege Manager will use. The Test Connection button must be run successfully before installation can continue. Once connection is established, click Next.
 
    ![Database Connection](images/pm-install/install-5.png)
 
    ![Database Connection](images/pm-install/install-6.png)
 
    1. If you choose SQL Server Authentication, next the Account tab will prompt for the server location where your SQL database is currently installed. Provide the Server Name or IP address for your Database server and Authenticate with Administrator SQL credentials. If your Secret Server database does not yet exist when you click "Test Connection" the Installer will create it. When the connection has been tested successfully, click Next.
-
-
 1. The __Email Server__ tab opens, here the connection information for the email server can be entered. This is also optional and can be skipped to be configured later in the application by clicking Skip Email. This page will configure email for Privilege Manager.
 
    ![Email Server dialog](images/install/inst_email_20190327.png)
@@ -76,3 +72,5 @@ The latest version of Privilege Manager is available for download under the [Sof
 1. On the __Finish__ tab, when the install has successfully completed, click the provided Privilege Manager URL to navigate directly to your setup landing page or open a browser and navigate to where your Privilege Manager is located, for example: http://localhost/TMS/PrivilegeManager.
 
    ![Finish](images/pm-install/install-9-1.png)
+
+>**Note**: Thycotic recommends to create a back-up copy of the Privilege Manager web application folder after installation or upgrades.

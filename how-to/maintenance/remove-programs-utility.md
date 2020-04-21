@@ -78,6 +78,12 @@ Users can select the row containing the program that they want to uninstall and 
 
 ![Utility in use](images/remove-pro/rpu-8.png)
 
+<!-- removed - config feed not available anymore, customers on pre-10.7 versions can refer to 10.7 docs to learn how to set this up. //March, 30th 2020//
+
+## Custom Installation Location
+
+If your agents are installed at a customized installation location and your Remove Programs Utility is not installed under the default of: `C:\Program Files\Thycotic\Agents\Agent` make sure to edit the `GUID 905388ae-99aa-4813-8a19-5b7c29f2de49` to match your installation location of: `C:\Program Files\{your company}\Agents\Agent`.
+
 ## 10.6 and earlier: Download and Install via Config Feed
 
 These steps are only required for customers on Privilege Manager versions 10.6 or earlier.
@@ -108,4 +114,4 @@ After the config feed has been downloaded and installed, add and customize the p
    ![Parameters view](images/remove-pro/rpu-6.png)
 1. On the Parameters tab customize the function of the utility. Several parameters and attributes are available for customization in the various tabs on the page. Click __Edit__ to customize.
 1. __Enable__ the policy.
-1. Click __Save__ to save all changes you made.
+1. Click __Save__ to save all changes you made. -->

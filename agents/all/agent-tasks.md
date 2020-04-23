@@ -3,7 +3,7 @@
 [priority]: # (8)
 # Agent Specific Tasks
 
-Certain Privilege Manager tasks are directly relating to agent processes and their operational loads.
+Certain Privilege Manager tasks are directly related to agent processes and their operational loads.
 
 Server side tasks, also known as Remote Client Scheduled Commands do not require a policy. Agent tasks require a policy. These types of tasks are with the exception of one, by default enabled and run on a scheduled basis. Most are read-only system tasks, that can be copied, renamed, and then customized.
 

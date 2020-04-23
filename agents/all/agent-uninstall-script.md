@@ -1,6 +1,6 @@
 [title]: # (Agent Uninstall Script)
 [tags]: # (scripted uninstall)
-[priority]: # (9600)
+[priority]: # (5)
 # Agent Uninstall Script
 
 This topic covers uninstalling an agent when the endpoint is not going to be upgraded to a new version of Privilege Manager agents anymore.

@@ -49,7 +49,9 @@ The latest version of Privilege Manager is available for download under the [Sof
 1. The __Pre-Requisites__ tab makes sure everything that is required to install Privilege Manager is setup correctly. Everything on this page can be installed outside of the installer, but if not, the installer will install and configure them for the user. Think of this page as the non-Thycotic configuration. If there are issues with this page it is very likely that the Internet will be able to help as these are not installation features that are specific to Thycotic. Click Fix Issues to automatically install the necessary pre-requisites. When Successful, click Next.
 
    ![Pre-Requisites](images/pm-install/install-3.png)
-1. If you chose the "Connect to an existing SQL Server" option on the Database page, the __Database Connection__ tab will now prompt you for the connection information that Privilege Manager will use. The Test Connection button must be run successfully before installation can continue. Once connection is established, click Next.
+1. If you chose the "Connect to an existing SQL Server" option on the Database page, the __Database Connection__ tab will now prompt you for the connection information that Privilege Manager will use. The Test Connection button must be run successfully before installation can continue. Once connection is established, click __Next__.
+
+   >**Note**: If you are not using a default InstanceName on the SQL Server for the Privilege Manager database, provide the SQLServerName\InstanceName for __ServerName or IP__.
 
    ![Database Connection](images/pm-install/install-5.png)
 

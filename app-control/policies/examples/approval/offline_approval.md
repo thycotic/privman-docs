@@ -15,6 +15,8 @@ The message actions used in the Offline Approval policy are OS specific. Use the
 
 ![Search for offline message actions](images/offline/offline-appr-actions.png)
 
+Notifications for approvals can also be issued to mobile devices. Refer to [Mobile App section - Configure the Notification Settings](../../../../mobile/cfg-console.md#configure_the_notification_settings)
+
 ## Creating an Offline Approval Policy
 
 For offline approvals to work, a message action supporting offline fallback needs to be configured. This example uses the macOS based message action.

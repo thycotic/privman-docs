@@ -1,6 +1,6 @@
 [title]: # (E-mail Reports)
 [tags]: # (scheduled tasks)
-[priority]: # (2)
+[priority]: # (5)
 # E-mail Reports Task
 
 Any report created in Privilege Manager can be sent to a group of recipients based on a scheduled task.

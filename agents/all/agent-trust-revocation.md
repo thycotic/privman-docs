@@ -1,6 +1,6 @@
 [title]: # (Agent Trust Revocation)
 [tags]: # (operations)
-[priority]: # (2)
+[priority]: # (4)
 # Agent Trust Revocation
 
 With Privilege Manager 10.5 and up, you can revoke an agent trust relationship.

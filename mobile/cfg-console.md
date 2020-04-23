@@ -69,6 +69,8 @@ The notification settings for the mobile app are available via general configura
 
 To start sending notifications to phones, select the __Default Execute Application Request Type__ and change the __Approval Process__ from the __Default Manual Approval Process__ to the __Mobile Message Approval Process__ and save the changes.
 
+>**Note**: The approval process change to Mobile Message Approval Process is only for the notification message that an approval was requested. The actual approval has to be followed through via HelpDesk interface. Currently approval requests cannot be approved via the Mobile app.
+
 You can also send notifications based upon report data. These can be used to send alerts for suspicious activity, etc. An example of this can be found under __Tasks | Server Tasks | Mobile Messaging | Mobile Message Alert for Password Disclosures on VIP Systems__.
 
    ![Task 3](images/console-3.png "Mobile Message Alert for Password Disclosures on VIP Systems")

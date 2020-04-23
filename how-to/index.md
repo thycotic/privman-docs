@@ -32,14 +32,6 @@ This topic is a collection of articles covering "How to..." procedures for diffe
 
   * [Preference Pane Targeting on macOS](../ui/macOS/prefpane.md)
 
-* Agents:
-
-  * [Connecting Agents to the Privilege Manager Server](agents/connect-agents.md)
-  * [Uninstalling an Agent with Script](agents/agent-uninstall-script.md)
-  * [Agent Trust Revocation](agents/agent-trust-revocation.md)
-  * [Configuring for a Test Environment](agents/config-test-env.md)
-  * [How to prevent Backwards Compatibility for Agents v10.4 and earlier](agents/prevent-backwards-compatibility-agents.md)
-
 * Maintenance:
 
   * [Export and Import Items](maintenance/export-import.md)

@@ -3,7 +3,7 @@
 [priority]: # (5)
 # Basic Inventory
 
-Basic Inventory (Initial, Windows) and (Initial, Mac OS) is scheduled to run at a clients initial start-up after the agent is installed. The cause of the policy's trigger is the task creation.
+Basic Inventory (Initial, Windows) and (Initial, Mac OS) are scheduled to run at a clients initial start-up after the agent is installed. The cause of the policy's trigger is the task creation.
 
 The common Basic Inventory is scheduled to run daily at 8 am.
 

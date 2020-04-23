@@ -5,7 +5,7 @@
 
 The purpose of this policy is to inventory software programs running on the managed computer.
 
-todo
+These policies use their respective OS based File Specification filters, which in turn have a set of optional additional filters to identify the programs to be inventoried.
 
 ## Default File Inventory Policy (Windows)
 

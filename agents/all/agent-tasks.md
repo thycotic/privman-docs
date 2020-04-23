@@ -50,10 +50,11 @@ The majority will run for the first time after system initialization.
 | [Update Applicable Policies (Mac OS)](../../tasks/client/uap.md) | When this policy is triggered the Agent will check the server for updated policies. | daily | Yes |
 | [Update Provisioned Resource Client Items (MacOS)](../../tasks/client/uprci.md) | | daily | Yes |
 
-## Unix/Linux Remote Client Scheduled Commands
+<!-- ## Unix/Linux Remote Client Scheduled Commands
 
 | Name | Description | Schedule | Enabled |
 | ----- | ----- | ----- | ----- |
 | [Scheduled Check for Pending Tasks (Linux)](../../tasks/client/scfpt.md) | This remote-scheduled task checks for server-scheduled tasks assigned to the agent. | daily | Yes |
 | [Scheduled Registration (Linux)](../../tasks/client/sr.md) | This agent-scheduled task refreshes registration data for the assigned agents. | daily | Yes |
 | [Update Applicable Policies (Linux)](../../tasks/client/uap.md) | This remote-scheduled command will update policies applicable to the assigned agents. | daily | Yes |
+-->

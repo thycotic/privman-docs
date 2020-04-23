@@ -15,7 +15,7 @@ The purpose of this policy is to inventory Windows Services on the client.
 | Conditions | None specified by default |
 | Advanced | Allow task to be run on demand |
 | (missed) | Run task as soon as possible after a scheduled start is missed |
-| (stop) | Stop the task if it run for longer than 0 minute(s). - not set by default |
+| (stop) | Stop the task if it ran for longer than 0 minute(s). - not set by default |
 | (retry on failure) | not set by default |
 | Rule | Default (Do not start a new instance) |
 | Agent Sent Size | depends on number of installed windows services |

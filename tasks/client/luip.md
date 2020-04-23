@@ -5,6 +5,8 @@
 
 The purpose of this policy is to inventory Local User accounts, groups and group membership on the client. This policy can also be used to inventory specific account privileges.
 
+## Local User Inventory Policy
+
 | Parameter | Value |
 | ----- | ----- |
 | Default Active | Yes |

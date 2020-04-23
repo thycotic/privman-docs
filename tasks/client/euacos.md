@@ -5,7 +5,7 @@
 
 Ensures that the UAC Override Registry Key is set.
 
-What happens...
+<!-- TODO: What happens... When to use... Why to use... -->
 
 | Parameter | Value |
 | ----- | ----- |

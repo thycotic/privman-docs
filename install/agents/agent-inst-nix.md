@@ -1,6 +1,9 @@
 [title]: # (Unix/Linux Agents)
 [tags]: # (endpoint,installation,registration)
 [priority]: # (1604)
-# Unix/Linux Agent Installation
+[display]: # (none)
+<!-- # Unix/Linux Agent Installation
 
-Contents coming soon. <!-- TODO -->
+Contents coming soon. 
+
+TODO -->

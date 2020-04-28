@@ -7,5 +7,6 @@ This section of the Privilege Manager documentation covers information and step 
 
 The following topics are available:
 
+* [Windows Agent Utility](utility.md)
 * [Agent Hardening 10.7.1 and up](agent-hardening.md)
 * [Pre-10.7.1 Agent Hardening](pre-10.7.1-agent-hardening.md)

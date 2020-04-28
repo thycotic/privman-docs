@@ -1,6 +1,6 @@
 [title]: # (Agent Logs)
 [tags]: # (macOS)
-[priority]: # (3)
+[priority]: # (5)
 # Finding Logs for Troubleshooting
 
 For troubleshooting your Mac agent, logs are found in the Console application. There are two places to check for logs in Console:

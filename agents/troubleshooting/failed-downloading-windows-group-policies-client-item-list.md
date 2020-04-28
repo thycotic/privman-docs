@@ -1,7 +1,8 @@
 [title]: # (Client Item List Downloads)
 [tags]: # (agents, keyset)
-[priority]: # (2)
+[priority]: # (12)
 # Client Item List Downloads
+
 When you run the UpdateClientItems.ps1 PowerShell script to update policies on a
 machine you see errors below:
 

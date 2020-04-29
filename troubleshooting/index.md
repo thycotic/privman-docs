@@ -13,12 +13,18 @@ The following troubleshooting topics are available:
 * [10.5 Folder Permission for MachineKeys](install-upgrade/10-5-machinekeys.md)
 * [Retrieving the COM class factory error](install-upgrade/retrieving-the-com-class-factory-for-component-with-clsid.md)
 
-## [Agents Troubleshooting](agents/index.md)
+## [Agents Troubleshooting](../agents/troubleshooting/index.md)
 
-* [Agent Registration Error Following an OS Upgrade](agents/agent-not-registering.md)
-* [Running updateclientitems.ps1 on an Agent triggers an error](agents/agent-ps1-update.md)
-* [Client Item List Downloads](agents/failed-downloading-windows-group-policies-client-item-list.md)
-* [Advanced Messages not working for child processes of Microsoft Edge](agents/advanced-messages-not-working-edge.md)
+* [Agent Registration Error Following an OS Upgrade](../agents/troubleshooting/agent-not-registering.md)
+* [Running updateclientitems.ps1 on an Agent triggers an error](../agents/troubleshooting/agent-ps1-update.md)
+* [Client Item List Downloads](../agents/troubleshooting/failed-downloading-windows-group-policies-client-item-list.md)
+* [Advanced Messages not working for child processes of Microsoft Edge](../agents/troubleshooting/advanced-messages-not-working-edge.md)
+
+## [Endpoint Troubleshooting](endpoint/index.md)
+
+* [Endpoint Troubleshooting](../agents/troubleshooting/endpoint-issues.md)
+* [How to Recover an Unresponsive macOS Endpoint](../agents/macOS/recover-unresponsive-macOS-endpoint.md)
+* [Catalina FileSystemWatcher Issue](../agents/troubleshooting/filesystemwatcher.md)
 
 ## [Privilege Manager Logs](logs/index.md)
 
@@ -40,12 +46,6 @@ The following troubleshooting topics are available:
 * [Notify User Justification failed](errors/notify-user.md)
 * [Invalid Product Identifier](errors/invalid-product-identifier.md)
 * [Installation Hangs with Error: Worker Role Monitor received exception during ping](errors/worker-role-monitor-received-exception-during-ping.md)
-
-## [Endpoint Troubleshooting](endpoint/index.md)
-
-* [Endpoint Troubleshooting](endpoint/endpoint-issues.md)
-* [How to Recover an Unresponsive macOS Endpoint](endpoint/recover-unresponsive-macOS-endpoint.md)
-* [Catalina FileSystemWatcher Issue](endpoint/filesystemwatcher.md)
 
 ## [Troubleshooting Tools](tools/index.md)
 

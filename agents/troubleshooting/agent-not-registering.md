@@ -1,6 +1,6 @@
 [title]: # (Agent Registration)
 [tags]: # (agents)
-[priority]: # (2)
+[priority]: # (12)
 # Agent Registration Issue
 
 After upgrading, you encounter the following issue with the Agent utility after selecting "Register".

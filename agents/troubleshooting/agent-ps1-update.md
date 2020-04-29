@@ -1,6 +1,6 @@
 [title]: # (Agent ps1 Error)
 [tags]: # (agents)
-[priority]: # (2)
+[priority]: # (12)
 # Agent updateclientitems.ps1 Error
 
 While running the `updateclientitems.ps1` powershell script on a machine, you receive the following error:

@@ -40,11 +40,28 @@ Standard users can view and edit their own accounts, such as password updates, b
 
    * the user's __email address__
    * an initial/temporary __password__. The user will be prompted to create a new password on initial login. While entering the initial password, the characters will be validated against rules and a red reminder is displayed as long as the entered password does not match those rules.
-   * __roles__ to the user by clicking the __Add roles to a user here__ link. <!-- TODO: Is this working? I only get a list of roles here and now way of doing anything, besides looking at them and creating new roles.
-   ![pm roles](images/roles.png "Add roles to a user")
-   -->
+   * __roles__ to the user by clicking the __Add roles to a user here__ link. You can create users without assigning roles. To go through the steps of assigning roles, refer to the __Add Roles to a User__ topic below.
 1. Click __Save Changes__.
 
 The user is now active in the system and you may edit the user details.
 
 ![active user](images/pm-user-6.png "Active user details page")
+
+## Add Roles to a User
+
+1. On the __User Details__ page, from the __Add roles to user here__ click __here__.
+
+   ![pm roles](images/roles.png "Add roles to a user")
+1. From the roles page select the role you want to add to the user, for example _Privilege Manager Windows Administrators_.
+
+​   ![role edit](images/role-edit.png "Edit link on roles page")
+1. Click __Edit__.
+
+​   ![search user](images/assign-user.png "Enter user display name in search")
+1. Click the __name__ or __Add__ to add the user to the role.
+
+   ![add user](images/added.png "User added to the role click update")
+1. Click __Update__.
+
+   ![save user](images/save.png "Save the changes")
+1. Click __Save Changes__ to save the role update.

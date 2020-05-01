@@ -39,7 +39,7 @@ Standard users can view and edit their own accounts, such as password updates, b
 1. On the newly created User's details page, add
 
    * the user's __email address__
-   * an initial/temporary __password__. The user will be prompted to create a new password on initial login. While entering the initial password, the characters will be validated against rules and a red reminder is displayed as long as the entered password does not match those rules.
+   * a __password__.
    * __roles__ to the user by clicking the __Add roles to a user here__ link. You can create users without assigning roles. To go through the steps of assigning roles, refer to the __Add Roles to a User__ topic below.
 1. Click __Save Changes__.
 

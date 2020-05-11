@@ -15,7 +15,7 @@ To set up the connection, follow these steps:
 
 1. Navigate to __Admin | Configuration | Foreign Systems__ (tab).
 1. Click SMTP Server, then __Add New__.
-1. Add the Name of your SMTP Server and the base Uri (ex: smtp://[hostname];[port]), then __Create__.
+1. Add the Name of your SMTP Server and the base Uri (ex: smtp://[hostname]:[port]), then __Create__.
 
 Next, in order to begin email alert notifications for a policy, you will need to assign a Task for the job. The __Setting Up Email Alerts__ information below is just one example of tasks that can be configured for automated email notifications.
 

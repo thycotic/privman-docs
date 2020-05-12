@@ -12,7 +12,8 @@ Completes and cleans BITS transfers and temporary files used by the TMS Agent In
 | Default Active | Yes |
 | Command | Cleanup Agent Inventory Transfers |
 | Triggers | Daily at 2:00:02 AM |
-| Targets | All Windows Computers with Application Control Agent Installed (Target) |
+| Targets | 10.8: Windows Computers |
+| | Legacy: All Windows Computers with Application Control Agent Installed (Target) |
 | Conditions | None specified by default |
 | Advanced | Allow task to be run on demand |
 | (missed) | Run task as soon as possible after a scheduled start is missed |

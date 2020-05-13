@@ -19,6 +19,6 @@ Instructions and links for agent installers are provided in this article, groupe
   * [64-bit Windows Operating Systems](agent-inst-win.md#64_bit_windows_operating_systems)
   * [32-bit Windows Operating Systems](agent-inst-win.md#32_bit_windows_operating_systems)
 * [macOS X Installer - 10.11 or Newer](agent-inst-mac.md#installing_macos_agents)
-* [Unix/Linux Agent Installer](agent-inst-nix.md)
+<!-- * [Unix/Linux Agent Installer](agent-inst-nix.md)-->
 
 For details about Thycotic Agent System Requirements, see our [Agent System Requirements](agent-sysreq.md).

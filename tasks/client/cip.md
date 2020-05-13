@@ -3,9 +3,9 @@
 [priority]: # (5)
 # COM Inventory Policy
 
-The purpose of this policy is to inventory COM+ and DCOM packages installed on the client.
+The purpose of this policy is to inventory COM+ and DCOM packages installed on the client. The inventory of these package
 
-todo... What are... 
+COM+ (Component Object Model) and DCOM (Distributed Component Object Model) utilize RPC calls for component communication and access to the object's methods and data. Running an inventory on those packages on a client is beneficial, if apps using those packages require elevation or should be denied.
 
 | Parameter | Value |
 | ----- | ----- |

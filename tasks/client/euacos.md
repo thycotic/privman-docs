@@ -5,7 +5,7 @@
 
 Ensures that the UAC Override Registry Key is set.
 
-What happens...
+<!-- TODO: What happens... When to use... Why to use... -->
 
 | Parameter | Value |
 | ----- | ----- |
@@ -14,7 +14,8 @@ What happens...
 | Parameters | Default File Specification (Windows) |
 | Triggers | Daily at 12:00:00 AM |
 | | At startup |
-| Targets | All Windows Computers with Application Control Agent Installed (Target) |
+| Targets | 10.8: Windows Computers |
+| | Legacy: All Windows Computers with Application Control Agent Installed (Target) |
 | Conditions | None specified by default |
 | Advanced | Allow task to be run on demand |
 | (missed) | Run task as soon as possible after a scheduled start is missed |

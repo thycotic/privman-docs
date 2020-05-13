@@ -3,23 +3,23 @@
 [priority]: # (5)
 # Basic Inventory
 
-todo
+Basic Inventory (Initial, Windows) and (Initial, Mac OS) are scheduled to run at a client's initial start-up after the agent is installed. The cause of the policy's trigger is the task creation.
 
-Trigger Advanced schedule
+The common Basic Inventory is scheduled to run daily at 8 am.
 
-## Basic Inventory (Initial, Windows)
-
-Instructs computers to report the following WMI classes to the server at initial start-up:
+For Windows systems the policies instruct the agent on the client system to report the following WMI classes to the server:
 
 * Win32_ComputerSystem,
 * Win32_ComputerSystemProduct
 * Win32_OperatingSystem WMI
 
+## Basic Inventory (Initial, Windows)
+
 | Parameter | Value |
 | ----- | ----- |
 | Default Active | Yes |
 | Command | Perform WMI Basic Inventory (Windows) |
-| Parameters | WMI classes: `ROOT\CIMV2:WIN32_ComputerSystemProduct` `ROOT\CIMV2:Win32_ComputerSystem` `ROOT\CIMV2:Win32_OperatingSystem` |
+| Parameters | WMI classes: `ROOT\CIMV2:WIN32_ComputerSystemProduct`, `ROOT\CIMV2:Win32_ComputerSystem`, `ROOT\CIMV2:Win32_OperatingSystem` |
 | Triggers | Daily at 10:00:00 AM |
 | | Upon task creation/modification |
 | Targets | All Windows Managed Computers - No Basic Inventory (Target) |
@@ -35,17 +35,11 @@ Instructs computers to report the following WMI classes to the server at initial
 
 ## Basic Inventory (Windows)
 
-Instructs computers to report the following WMI classes to the server:
-
-* Win32_ComputerSystem,
-* Win32_ComputerSystemProduct
-* Win32_OperatingSystem WMI
-
 | Parameter | Value |
 | ----- | ----- |
 | Default Active | Yes |
 | Command | Perform WMI Basic Inventory (Windows) |
-| Parameters | WMI classes: ROOT\CIMV2:WIN32_ComputerSystemProduct, ROOT\CIMV2:Win32_ComputerSystem, ROOT\CIMV2:Win32_OperatingSystem |
+| Parameters | WMI classes: `ROOT\CIMV2:WIN32_ComputerSystemProduct`, `ROOT\CIMV2:Win32_ComputerSystem`, `ROOT\CIMV2:Win32_OperatingSystem` |
 | Triggers | Daily at 8:00:00 AM |
 | Targets | Windows Computers |
 | Conditions | None specified by default |
@@ -59,8 +53,6 @@ Instructs computers to report the following WMI classes to the server:
 | Restrictions | |
 
 ## Basic Inventory (Initial, Mac OS)
-
-This scheduled task triggers the Agent to send the initial Mac OS basic inventory.
 
 | Parameter | Value |
 | ----- | ----- |
@@ -80,8 +72,6 @@ This scheduled task triggers the Agent to send the initial Mac OS basic inventor
 | Restrictions | |
 
 ## Basic Inventory (Mac OS)
-
-This scheduled task triggers the Agent to send Mac OS basic inventory.
 
 | Parameter | Value |
 | ----- | ----- |

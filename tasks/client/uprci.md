@@ -3,6 +3,8 @@
 [priority]: # (5)
 # Update Provisioned Resource Client Items
 
+These policies trigger the Agent to force a Client Item Update for provisioned resources on the specific client system.
+
 ## Update Provisioned Resource Client Items (Windows)
 
 | Parameter | Value |

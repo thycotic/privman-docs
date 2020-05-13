@@ -10,7 +10,7 @@ For standard users the utility by default,
 * adds all programs to the Control Panel.
 * hides repair options for all installers.
 * shows the blocked installer list.
-* prevents Thycotic software from being uninstalled. 
+* prevents Thycotic software from being uninstalled.
 
 | Parameter | Value |
 | ----- | ----- |

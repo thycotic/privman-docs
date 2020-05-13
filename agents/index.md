@@ -11,7 +11,7 @@ Privilege Manager supports agents on:
 
 * Windows
 * macOS
-* Unix/Linux
+<!-- * Unix/Linux -->
 
 endpoint operating systems.
 

@@ -1,9 +1,11 @@
 [title]: # (Local User Inventory Policy)
 [tags]: # (task)
 [priority]: # (5)
-# Local User Iventory Policy
+# Local User Inventory Policy
 
 The purpose of this policy is to inventory Local User accounts, groups and group membership on the client. This policy can also be used to inventory specific account privileges.
+
+## Local User Inventory Policy
 
 | Parameter | Value |
 | ----- | ----- |
@@ -39,4 +41,4 @@ The purpose of this policy is to inventory Local User accounts, groups and group
 | Rule | Default (Do not start a new instance) |
 | Agent Sent Size | depends on number of users and groups |
 | Agent Received Size | n/a |
-| Restrictions | GPO - Audit Account Management enabled does not use Security Event Log |
+| Restrictions | none |

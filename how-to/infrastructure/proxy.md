@@ -40,6 +40,8 @@ These are the minimum system specifications for a server that is used as a rever
    >If there are other applications using port 443 on this server, such as Symantec CEM, then set the privProxy to use a different port, such as __45593__. If you use a port other than 443, make sure to add the appropriate firewall rule.
 1. Select a certificate for the binding to use and Click __OK__. The certificate being used for HTTPS communication should be the same certificate that is installed on your Privilege Manager web server. Follow [these instructions](https://thycotic.force.com/support/s/article/Trusting-an-SSL-Certificate-on-a-Client-Machine) to install a certificate on your Reverse Proxy server.
 
+   >**Note**: The certificate used for HTTPS binding on the Web App Server needs to be exported then imported into the Root and Intermediate certificate stores on the Proxy Server.
+
    ![Certificate](images/proxy/35629e862fbc4c513a98ba891874e52e.png)
 1. In the IIS Manager's left hand navigation pane select the server node.
 1. Open __Application Request Routing__ from the middle pane.

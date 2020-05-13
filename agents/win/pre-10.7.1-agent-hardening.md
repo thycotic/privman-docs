@@ -1,6 +1,6 @@
 [title]: # (pre-10.7.1 Agent Hardening)
 [tags]: # (endpoint,pre-10.7.1)
-[priority]: # (1621)
+[priority]: # (21)
 # Pre-10.7.1 Agent Hardening
 
 Users on Privilege Manager 10.7.1 or up should use the new policy named __Restrict Account Permissions on Agent Services (Windows)__. Refer to [Agent Hardening 10.7.1 and up](agent-hardening.md) for details on the policy used starting with Privilege Manager 10.7.1.

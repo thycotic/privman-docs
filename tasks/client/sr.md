@@ -63,7 +63,7 @@ When this policy is triggered the Agent will attempt (or re-attempt) to register
 | Agent Received Size | n/a |
 | Restrictions | none |
 
-## Scheduled Registration (Linux)
+<!-- ## Scheduled Registration (Linux)
 
 This agent-scheduled task refreshes registration data for the assigned agents.
 
@@ -82,3 +82,4 @@ This agent-scheduled task refreshes registration data for the assigned agents.
 | Agent Sent Size | 5 KB |
 | Agent Received Size | n/a |
 | Restrictions | none |
+-->

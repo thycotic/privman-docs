@@ -6,32 +6,33 @@
 ```xml
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!--Thycotic.Data.Contracts.ApplicationControl.ApplicationAction.CustomXamlExecutionActionContract-->
-<CustomXamlExecutionActionContract xmlns="http://schemas.arellia.com/dc/ApplicationControl/ApplicationAction/""" xmlns:i="http://www.w3.org/2001/XMLSchema-instance""" xmlns:d1p5="http://schemas.arellia.com/dc/ApplicationControl/ApplicationActions/""" xmlns:d1p4="http://schemas.arellia.com/dc/ClientItem/""" xmlns:dc="http://schemas.datacontract.org/2004/07/System""" xmlns:mss="http://schemas.microsoft.com/2003/10/Serialization/""" xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays""" xmlns:adc="http://schemas.arellia.com/dc/">;;
-<adc:Description>This action will display a customized message to the user, allowing for a challenge/response authorization before running an application.</adc:Description>
-<adc:FolderId>26bc9625-ed2b-4e45-9377-a3efb4462118</adc:FolderId>
-<adc:ItemId>9ea45416-f3f5-4dac-abcd-6d8ef94c9316</adc:ItemId>
-<adc:Name>Challenge/Response Message Action</adc:Name>
-<adc:ProductId>27bedb8a-db37-4d53-b748-bc6651461fe4</adc:ProductId>
-<AdjustSession>false</AdjustSession>
-<Commandline i:nil="true"/>
-<Executable>.\ArelliaDisplayXamlAction.exe</Executable>
-<TerminateExitCode>100</TerminateExitCode>
-<WaitOnApplication>true</WaitOnApplication>
-<ChildAssociations/>
-<OwnsItemIds/>
-<RequireLogon>false</RequireLogon>
-<UserGroupId i:nil="true"/>
-<Xaml>
-<![CDATA[
-
+<CustomXamlExecutionActionContract xmlns:adc="http://schemas.arellia.com/dc/" xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:mss="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:dc="http://schemas.datacontract.org/2004/07/System" xmlns:d1p4="http://schemas.arellia.com/dc/ClientItem/" xmlns:d1p5="http://schemas.arellia.com/dc/ApplicationControl/ApplicationActions/" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.arellia.com/dc/ApplicationControl/ApplicationAction/">
+    <adc:Description>This action will display a customized message to the user, allowing for a challenge/response authorization before running an application.</adc:Description>
+    <adc:FolderId>26bc9625-ed2b-4e45-9377-a3efb4462118</adc:FolderId>
+    <adc:ItemId>9ea45416-f3f5-4dac-abcd-6d8ef94c9316</adc:ItemId>
+    <adc:Name>Challenge/Response Message Action</adc:Name>
+    <adc:ProductId>27bedb8a-db37-4d53-b748-bc6651461fe4</adc:ProductId>
+    <adc:Strings />
+    <adc:Tags />
+    <AdjustSession>false</AdjustSession>
+    <Commandline i:nil="true" />
+    <Executable>.\ArelliaDisplayXamlAction.exe</Executable>
+    <TerminateExitCode>100</TerminateExitCode>
+    <WaitOnApplication>true</WaitOnApplication>
+    <ChildAssociations />
+    <OfflineApprovalType>OfflineNotAllowed</OfflineApprovalType>
+    <OwnsItemIds />
+    <RequireLogon>false</RequireLogon>
+    <UserGroupId i:nil="true" />
+    <Xaml><![CDATA[
 <Window
-	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"""
-	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"""
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 	xmlns:sys="clr-namespace:System;assembly=mscorlib"
-	xmlns:adx="http://schemas.arellia.com/winfx/2012/arelliadisplayxamlaction"""
-	xmlns:ac="http://schemas.arellia.com/winfx/2010/xaml"""
-	xmlns:acs="http://schemas.arellia.com/silverlight/2012/acs"""
-	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"""
+	xmlns:adx="http://schemas.arellia.com/winfx/2012/arelliadisplayxamlaction"
+	xmlns:ac="http://schemas.arellia.com/winfx/2010/xaml"
+	xmlns:acs="http://schemas.arellia.com/silverlight/2012/acs"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 	mc:Ignorable="ac acs"
 	Icon="Images/thycotic-icon.png"
 	WindowStartupLocation="CenterScreen"
@@ -306,8 +307,6 @@
 		</StackPanel>
 	</StackPanel>
 </Window>
-			 
-]]>
-</Xaml>
+			 ]]></Xaml>
 </CustomXamlExecutionActionContract>
 ```

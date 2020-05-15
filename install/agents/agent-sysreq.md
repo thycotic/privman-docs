@@ -10,15 +10,18 @@ For agents in an environment with a moderate policy configuration, the requireme
   * Thycotic base agent: 10MB
   * Application Control Solution: 9MB
   * Local Security Solution: 3MB
+  * Directory Services Agent: <!--TODO-->
   * Security Analysis Solution: 13 MB
 * Average CPU over a week: 3%
 * Impact to boot time: Negligible
 
 ## Supported Windows Operating Systems (both 32- and 64-bit):
 
-* Desktops: Windows XP, Windows Vista, Windows 7, Windows 8, Windows 8.1, Windows 10
-* Servers: Windows Server 2008 R2 and newer
-* Disable the GPO security option "System cryptography: Use FIPS compliant algorithms for encryption, hashing, and signing."
+* Desktops: <!-- TODO: are we still supporting all these? --> Windows XP, Windows Vista, Windows 7, Windows 8, Windows 8.1, Windows 10
+* Servers: Windows Server 2012 R2 and newer
+* __Disable__ the GPO security option "System cryptography: Use __FIPS__ compliant algorithms for encryption, hashing, and signing."
+
+>**Note**: The Directory Services Agent is available for x64-bit systems only.
 
 ## Windows Management Framework download locations
 

@@ -1,6 +1,6 @@
 [title]: # (10.5 Azure AD Integration with Privilege Manager)
 [tags]: # (Azure AD,integration,Privilege Manager)
-[priority]: # (2)
+[priority]: # (4)
 # 10.5 Azure AD Integration with Privilege Manager
 
 ## Summary

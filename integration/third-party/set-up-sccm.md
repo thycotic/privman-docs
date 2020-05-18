@@ -1,6 +1,6 @@
 [title]: # (SCCM)
 [tags]: # (integration)
-[priority]: # (9101)
+[priority]: # (4)
 # Set-up Microsoft System Center Configuration Manager (SCCM) Integration
 
 Privilege Manger integrates with Microsoft System Center Configuration Manager (SCCM) to allow the

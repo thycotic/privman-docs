@@ -1,6 +1,6 @@
 [title]: # (SysLog)
 [tags]: # (integration)
-[priority]: # (9104)
+[priority]: # (4)
 # Set-up SysLog Connection
 
 Privilege Manager can push out SysLog formatted messages on a set schedule. Note that this does not happen immediately upon events occurring. Listed below are steps for configuration and task creation for scheduling the action of sending Discovery Event logs to a SysLog server.

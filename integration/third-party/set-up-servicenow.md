@@ -1,6 +1,6 @@
 [title]: # (ServiceNow)
 [tags]: # (integration)
-[priority]: # (9102)
+[priority]: # (4)
 # Set-up ServiceNow Integration
 
 Here are the steps to integrate Workflow between your ServiceNow Ticketing System and Privilege Manager.

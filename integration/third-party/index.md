@@ -1,6 +1,6 @@
 [title]: # (Third-party Foreign Systems)
 [tags]: # (integration)
-[priority]: # (9101)
+[priority]: # (3)
 # Third-Party Foreign Systems Integration
 
 * [Set-up an SMTP Server Connection](set-up-smtp.md)

@@ -1,6 +1,6 @@
 [title]: # (Offline Upgrades - Combined)
 [tags]: # (new version)
-[priority]: # (711)
+[priority]: # (1703)
 # Offline Upgrades - Combined
 
 Follow these steps to perform an offline upgrade for Privilege Manager and Secret Server. This article is ONLY applicable when upgrading from products that are versions 10.2 and higher.

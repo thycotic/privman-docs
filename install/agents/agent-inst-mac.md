@@ -17,7 +17,7 @@ The Bundled macOS Agent is a DMG + PKG file. You can use this Mac agent installe
 
 To install the agent software on a single testing machine, follow these steps:
 
-1. Go to [Agent Downloads](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.7.21.dmg) and download the Privilege Manager Mac Agent.
+1. Go to [Agent Downloads](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.7.23.dmg) and download the Privilege Manager Mac Agent.
 1. Run the Bundled Mac Agent DMG + PKG Installer on the computer you want to manage.
 1. During the setup process,
    1. enter the base URL and

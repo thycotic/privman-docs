@@ -1,7 +1,7 @@
 [title]: # (Configure the Console)
 [tags]: # (mobile)
 [priority]: # (15003)
-# Configure the Mobile Console in Privilege Manager
+# Install and Configure the Mobile Console in Privilege Manager
 
 To configure the Mobile Console in Privilege Manager, you must:
 
@@ -28,12 +28,18 @@ After you have installed the Privilege Manager Mobile Console, set the Client ID
 1. Navigate to __ADMIN | Configuration__.
 1. Select the __Advanced__ tab.
 1. Scroll down and click __Edit__.
-1. In the Thycotic Mobile Console Solution section under General
+1. In the Thycotic Mobile Console Solution section under General enter values for:
 
-   1. In the __Your client id__ field, enter the Client Id that you generated when you configured the Microsoft Azure Active Directory.
-   1. In the __Your tenant id__ field, enter the URL from your Azure Service Bus setup, which usually is your company name, e.g. _MyCompanyName.onmicrosoft.com_.
+   1. __Your client id__: In the __Your client id__ field, enter the Client Id that you generated when you configured the Microsoft Azure Active Directory. In the Azure AD portal, you find this under App Registration. Look for the __Application (client) ID__ value.
 
-   ![Configuration](images/cfg-3.png "Thycotic Mobile Console Solution configuration")
+      ![app client id](images/az-ad-4-2.png "Value for Your client id from the Azure AD app registration page")
+   1. __Your tenant id__, is the DNS name of the Azure Active Directory instance. You find it on the Azure AD Home page, between the friendly name and the Azure Tenant ID, for example __name.myinstance.com__ or __MyCompanyName.onmicrosoft.com__.
+
+      ![dns](images/dns.png "DNS to be entered as a the Your tenant id value in Privilege Manager")
+
+      Enter that DNS in the __Your tenant id__ field.
+
+      ![Configuration](images/cfg-3.png "Thycotic Mobile Console Solution configuration")
 1. Click __Save__.
 
 ## Configure the Notification Settings
@@ -62,6 +68,8 @@ The notification settings for the mobile app are available via general configura
 1. Click __Save__.
 
 To start sending notifications to phones, select the __Default Execute Application Request Type__ and change the __Approval Process__ from the __Default Manual Approval Process__ to the __Mobile Message Approval Process__ and save the changes.
+
+>**Note**: The approval process change to Mobile Message Approval Process is only for the notification message that an approval was requested. The actual approval has to be followed through via HelpDesk interface. Currently approval requests cannot be approved via the Mobile app.
 
 You can also send notifications based upon report data. These can be used to send alerts for suspicious activity, etc. An example of this can be found under __Tasks | Server Tasks | Mobile Messaging | Mobile Message Alert for Password Disclosures on VIP Systems__.
 

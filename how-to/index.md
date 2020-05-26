@@ -7,6 +7,7 @@ This topic is a collection of articles covering "How to..." procedures for diffe
 
 * Best Practices:
 
+  * [Disaster Recovery](best-practices/pm-dr/index.md)
   * [Using a Service Account to run the IIS App pool](best-practices/run-iis-app-pool.md)
   * [Prevent Read and Write Access to File Types or Locations](best-practices/prevent-read.md)
 
@@ -30,14 +31,6 @@ This topic is a collection of articles covering "How to..." procedures for diffe
 * macOS:
 
   * [Preference Pane Targeting on macOS](../ui/macOS/prefpane.md)
-
-* Agents:
-
-  * [Connecting Agents to the Privilege Manager Server](agents/connect-agents.md)
-  * [Uninstalling an Agent with Script](agents/agent-uninstall-script.md)
-  * [Agent Trust Revocation](agents/agent-trust-revocation.md)
-  * [Configuring for a Test Environment](agents/config-test-env.md)
-  * [How to prevent Backwards Compatibility for Agents v10.4 and earlier](agents/prevent-backwards-compatibility-agents.md)
 
 * Maintenance:
 

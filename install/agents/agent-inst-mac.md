@@ -17,7 +17,7 @@ The Bundled macOS Agent is a DMG + PKG file. You can use this Mac agent installe
 
 To install the agent software on a single testing machine, follow these steps:
 
-1. Go to [Agent Downloads](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.7.21.dmg) and download the Privilege Manager Mac Agent.
+1. Go to [Agent Downloads](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.7.23.dmg) and download the Privilege Manager Mac Agent.
 1. Run the Bundled Mac Agent DMG + PKG Installer on the computer you want to manage.
 1. During the setup process,
    1. enter the base URL and
@@ -55,7 +55,7 @@ Due to new macOS security enhancements, users cannot run a PKG installer from a 
 
 ```cmd
 cd /Volumes/<network share>/<path to PKG installer>
-sudo installer -pkg ThycoticManagementAgent-10.7.11.pkg -target /
+sudo installer -pkg ThycoticManagementAgent-10.7.21.pkg -target /
 ```
 
 The PKG will first look for an __agentconfig.json__ file located in the same folder. When it finds this file, it will copy __agentconfig.json__ into the _/Library/Application Support/Thycotic/Agent_ folder during the unattended install on the Mac endpoint where the installer is running.
@@ -65,7 +65,7 @@ The PKG will first look for an __agentconfig.json__ file located in the same fol
 Using a Deployment Tool like Jamf or SCCM, include both the PKG installer and the __agentconfig.json__ files in the distribution package together, then deploy the package onto your endpoint Macs by running a script using a tool or remotely by using ssh to install the PKG, for example:
 
 ```shell
-sudo installer -pkg ThycoticManagementAgent.10.7.11.pkg -target /
+sudo installer -pkg ThycoticManagementAgent.10.7.21.pkg -target /
 ```  
 
 As in the example using a Network Share, the PKG will first look for an __agentconfig.json__ file located in the same folder. When it finds this file, it will copy __agentconfig.json__ into the _/Library/Application Support/Thycotic/Agent_ folder during the unattended install on the endpoint Mac where the installer is running.
@@ -79,11 +79,10 @@ If the Mac already has an existing __agentconfig.json__ file, it will NOT be ove
 >**Note**:
 >It will take 15-30 minutes for newly installed agents to register in Privilege Manager. See the agent registration information in the [Terminal Commands](agent-inst-mac.md#terminal_commands) topic to speed the process up.
 
-
 ## Uninstalling an Agent
 
 When you need to uninstall the macOS Agent, use the __Uninstall.sh__ shell command:
 
 ```shell
-sudo /Volumes/ThycoticManagementAgent-10.7.11/Uninstall.sh
+sudo /Volumes/ThycoticManagementAgent-10.7.21/Uninstall.sh
 ```

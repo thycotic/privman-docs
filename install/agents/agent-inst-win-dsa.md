@@ -1,7 +1,15 @@
 [title]: # (Directory Services Agent)
 [tags]: # (endpoint,installation)
 [priority]: # (1604)
-# Directory Services Agent Installation Wizard
+# Directory Services Agent (AD)
+
+This agent supports the Active Directory synchronization between Privilege Manager Cloud instances and local directory services. This agent only needs to be installed on one system to perform the synchronization task. The local agent can be deployed into an AD environment instead of requiring direct connectivity from the server to the domain controllers. You will be able to configure the product in either method (direct or agent-based).
+
+The agent method requires that the Directory Services Agent is installed on one computer connected to a domain controller. Once installed, the agent receives the Active Directory Sync (Agent) scheduled task along with other parameters such as the credential used, which AD objects, etc. to perform a synchronization between a Cloud instance and local AD.
+
+>**Note**: The Directory Services Agent for local AD synchronization with Privilege Manager Cloud instances is available for x64-bit systems only.
+
+## Directory Services Agent Installation Wizard
 
 Download the latest version of the Directory Services Agent via the [Software Downloads](../sw-downloads.md) page.
 

@@ -10,9 +10,6 @@ There are three agents available for Windows endpoints:
 * __Thycotic Agent__: The core agent is responsible for all reporting and monitoring communication on the endpoint. It can be considered the managing agent, while the Application Control and Local Security Agents are the worker agents.
 * __Application Control Agent__ (ACS): This agent is responsible for monitoring processes executing the Privilege Manager Application Control Functions on the endpoint.
 * __Local Security Agent__ (LSS): This agent is responsible for monitoring and executing Local Security functions.
-* __Directory Services Agent__ (AD): This agent supports the Active Directory synchronization between Privilege Manager Cloud instances and local directory services. The local agent can be deployed into an AD environment instead of requiring direct connectivity from the server to the domain controllers. You will be able to configure the product in either method (direct or agent-based). The agent method requires that the Directory Services Agent is installed on a computer connected to a domain controller. Once installed, the agent receives the Active Directory Sync (Agent) scheduled task along with other parameters such as the credential used, which AD objects, etc. to perform a synchronization between Cloud instances and local AD.
-
->**Note**: The Directory Services Agent for local AD synchronization with Privilege Manager Cloud instances is available for x64-bit systems only.
 
 ## Individual Agent Installers for Privilege Manager
 
@@ -39,8 +36,6 @@ Individual Windows agents are available in MSI format for easier bulk-rollout th
   https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x64_10_7_2239.msi
 * __Local Security Solution Agent (x64)__:
   https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x64_10_7_2256.msi
-* __Directory Services Agent (x64)__:
-  https://tmsnuget.thycotic.com/software/Agents/Thycotic_DirectoryServicesAgent_x64_10_8_1067.msi
 
 #### Installation Command Lines
 
@@ -58,10 +53,6 @@ Individual Windows agents are available in MSI format for easier bulk-rollout th
 * __Local Security Agent__
   ```
   msiexec.exe /i "Thycotic_LocalSecurityAgent_x64_10_7_2256.msi" /norestart REBOOT=ReallySuppress /qn
-  ```
-* __Directory Services Agent__
-  ```
-    msiexec.exe /i "Thycotic_DirectoryServicesAgent_x64_10_8_1067.msi" /norestart REBOOT=ReallySuppress /qn
   ```
 
 ### 32-bit Windows Operating Systems

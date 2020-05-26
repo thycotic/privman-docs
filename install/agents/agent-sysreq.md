@@ -10,16 +10,26 @@ For agents in an environment with a moderate policy configuration, the requireme
   * Thycotic base agent: 10MB
   * Application Control Solution: 9MB
   * Local Security Solution: 3MB
-  * Directory Services Agent: <!--TODO-->
   * Security Analysis Solution: 13 MB
 * Average CPU over a week: 3%
 * Impact to boot time: Negligible
 
 ## Supported Windows Operating Systems (both 32- and 64-bit):
 
-* Desktops: <!-- TODO: are we still supporting all these? --> Windows XP, Windows Vista, Windows 7, Windows 8, Windows 8.1, Windows 10
+* Desktops: Windows XP, Windows Vista, Windows 7, Windows 8, Windows 8.1, Windows 10
 * Servers: Windows Server 2012 R2 and newer
 * __Disable__ the GPO security option "System cryptography: Use __FIPS__ compliant algorithms for encryption, hashing, and signing."
+
+## MacOS Agent
+
+* MacOS 10.11 (El Capitan) or newer
+
+## Directory Services Agent
+
+The Directory Services Agent needs to be installed on a well resourced system running either
+
+* Windows 10 or above or
+* Windows Server 2016 or above.
 
 >**Note**: The Directory Services Agent is available for x64-bit systems only.
 
@@ -27,8 +37,8 @@ For agents in an environment with a moderate policy configuration, the requireme
 
 ### Windows Management Framework 2.0 or newer
 
-* Installed on Windows 7 and Windows Server 2008 R2 by default
-* PowerShell 3.0 is installed on Windows 8 and Windows Server 2012 by default
+* Installed on Windows 7 and Windows Server 2012 R2 by default
+* PowerShell 3.0 is installed on Windows 8 and Windows Server 2012 R2 by default
 * Older operating systems require installation
 
 | Operating System | Download Location |
@@ -43,8 +53,6 @@ Windows 8 and newer and Windows Server 2012 and newer have 4.5 installed by defa
 
 To download it, go to http://www.microsoft.com/en-us/download/details.aspx?id=24872.
 
-### .NET 2.0 Framework SP1 
+### .NET 2.0 Framework SP1
 
 The .Net 2.0 SP1 update is required only for Windows XP. To download, go to http://download.microsoft.com/download/c/6/e/c6e88215-0178-4c6c-b5f3-158ff77b1f38/NetFx20SP2_x86.exe.
-
- 

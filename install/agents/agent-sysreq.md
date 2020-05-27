@@ -16,7 +16,7 @@ For agents in an environment with a moderate policy configuration, the requireme
 
 ## Supported Windows Operating Systems (both 32- and 64-bit):
 
-* Desktops: Windows XP, Windows Vista, Windows 7, Windows 8, Windows 8.1, Windows 10
+* Desktops: Windows 7, Windows 8, Windows 8.1, Windows 10
 * Servers: Windows Server 2012 R2 and newer
 * __Disable__ the GPO security option "System cryptography: Use __FIPS__ compliant algorithms for encryption, hashing, and signing."
 

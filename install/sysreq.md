@@ -37,7 +37,7 @@ These are requirement for an on-premises integration.
 ## Client Requirements
 
 * RAM, CPU, and Disk Space - negligible
-* Windows XP SP 3 or newer. Thycotic performs validation on the latest Windows OS that is available via the Microsoft Insider Program to ensure any required changes are made prior to a new OS version release.
+* Windows 7 or newer. Thycotic performs validation on the latest Windows OS that is available via the Microsoft Insider Program to ensure any required changes are made prior to a new OS version release.
 * MacOS 10.11 (El Capitan) or newer.
 
 ## Details

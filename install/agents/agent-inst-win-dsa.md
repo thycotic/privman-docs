@@ -9,7 +9,11 @@ The agent method requires that the Directory Services Agent is installed on one 
 
 >**Note**: The Directory Services Agent for local AD synchronization with Privilege Manager Cloud instances is available for x64-bit systems only.
 
-## Directory Services Agent Installation Wizard
+## Prerequisites
+
+The __Core Thycotic Agent__ needs to be installed on the system that receives the __Directory Services Agent__ installation. The other agents aren't required, but can be installed on the same system without issues.
+
+## Directory Services Agent Installation
 
 Download the latest version of the Directory Services Agent via the [Software Downloads](../sw-downloads.md) page.
 

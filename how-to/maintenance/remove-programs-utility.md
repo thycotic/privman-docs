@@ -78,19 +78,15 @@ Users can select the row containing the program that they want to uninstall and 
 
 ![Utility in use](images/remove-pro/rpu-8.png)
 
-<!-- removed - config feed not available anymore, customers on pre-10.7 versions can refer to 10.7 docs to learn how to set this up. //March, 30th 2020// -->
+<!-- removed - config feed not available anymore, customers on pre-10.7 versions can refer to 10.7 docs to learn how to set this up. //March, 30th 2020//
 
-## Support for 10.6 and Earlier Versioned Agents Connected to 10.7.x Privilege Manager Instances
-
-If you have 10.6 or earlier versioned Agents connected on your 10.7.x based Privilege Manager instance, you need to download and install the Remove Programs Utility via Configuration Feeds.
-
-### Custom Installation Location
+## Custom Installation Location
 
 If your agents are installed at a customized installation location and your Remove Programs Utility is not installed under the default of: `C:\Program Files\Thycotic\Agents\Agent` make sure to edit the `GUID 905388ae-99aa-4813-8a19-5b7c29f2de49` to match your installation location of: `C:\Program Files\{your company}\Agents\Agent`.
 
-### Download and Install via Config Feed
+## 10.6 and earlier: Download and Install via Config Feed
 
-These steps are only required for customers with endpoints running agents versions 10.6 or earlier.
+These steps are only required for customers on Privilege Manager versions 10.6 or earlier.
 
 1. Navigate to __Admin | More... | Config Feeds__.
 1. In the row for "Privilege Manager Product Configuration Feeds", click __Select Items__.
@@ -99,7 +95,7 @@ These steps are only required for customers with endpoints running agents versio
 1. In the row for "Application Control Solution", click __Select Items__.
 
    ![ACS select](images/remove-pro/rpu-2.png)
-1. In the row for "Application Control – Remove Programs Utility", click on __Download__. This downloads and installs the deployment policy and an elevation policy to the server. The elevation policy is included in the Config Feed because the utility needs to run elevated.
+1. In the row for "Application Control – Remove Programs Helper", click on __Download__. This downloads and installs the deployment policy and an elevation policy to the server. The elevation policy is included in the Config Feed because the utility needs to run elevated.
 
    ![ACS Download](images/remove-pro/rpu-3.png)
 1. After the download/installation is complete a "Installed" indicator shows.
@@ -108,9 +104,7 @@ These steps are only required for customers with endpoints running agents versio
 
 ### Add and Customize the Policy
 
-After the config feed has been downloaded and installed, enable the __Configure Privilege Manager Remove Programs__ policy as described above in the __Using the Configure Privilege Manager Remove Programs Policy__ topic.
-
-<!-- add and customize the policy with the following steps in 10.6 and earlier versions of Privilege Manager:
+After the config feed has been downloaded and installed, add and customize the policy with the following steps in 10.6 and earlier versions of Privilege Manager:
 
 1. Navigate to __Admin | Policies__, which defaults to the General tab.
 

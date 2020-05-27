@@ -9,7 +9,7 @@ In 2019, Apple announced the deprecation of kernel extensions (KEXTS) in a futur
 
 You may see this popup:
 
-![popup](images/kexts.png "System notification about extension deprecation")
+![popup](images/kexts.jpg "System notification about extension deprecation")
 
 ## How is this Going to Affect Privilege Manager?
 

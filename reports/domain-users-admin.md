@@ -8,6 +8,7 @@ You can get instant reports by clicking the Reports tab. To see which domain use
 ![Local Security reports](images/lss.png)
 
 Click the Summary of Domain Users as Local Administrators report to view details:
+<!-- TODO: Two new screen captures once I find a system that creates output for this report -->
 
 ![Summary of Domain Users as Local Administrators report](images/lss-2.png)
 

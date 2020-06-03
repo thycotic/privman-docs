@@ -7,13 +7,21 @@ Privilege Manager includes an array of reports. To access reports navigate to th
 
 Click on the name of any of these reports to access details about your system.
 
-![Reports Landing page](images/reports-landing.png)
+![Reports Landing page](images/reports-landing.png "Reports landing page")
 
-The __Select Report Options__ button lets users customize which of the default report options are shown on the landing page.
+The __Select Report Options__ button lets users customize which of the default report options are shown on the Reports landing page.
 
-Users can set the amount of data entries to display per page. The default is 10 rows per report page displayed.
+![select report options](images/reports-options.png "Reports options to be disabled")
+
+By default all reports are listed on the Reports landing page. Use the switch to disable showing any given report.
+
+## Data Records Displayed
+
+Users can adjust the amount of data entries to display per page. When you adjust this number of rows on a page
 
 ![items per page](images/report-ipp.png "Edit items per page displayed")
+
+The default number of data grid rows to display on pages across the Privilege Manager UI is set via [user preferences](../ui/navigation#search__notification__help__user_menus).
 
 ## Export Options
 

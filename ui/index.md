@@ -1,5 +1,5 @@
 [title]: # (The Privilege Manager UI)
-[tags]: # (user interface,console,overview)
+[tags]: # (console,home page)
 [priority]: # (2000)
 # The Privilege Manager UI
 
@@ -16,15 +16,15 @@ Where:
 
 The User Interface (UI) seen by all Privilege Manager roles is the same (whether Administrator or other). However, most of the interface is enabled only when you login in as a Privilege Manager Administrator; the other roles are able to perform very few activities.
 
-The screenshot below shows the upper part of the Privilege Manager home page.
+The screenshot below shows the the Privilege Manager home page, with the main page scrollable.
 
-![Privilege Manager Home](images/home_20190408.png)
+![Privilege Manager Home](images/home-page.png "Privilege Manager Home page")
 
 The home page includes actionable dashboard elements as well as the gateway to the two major components of Privilege Manager, Local Security and Application Control. These are available from their respective tiles.
 
-Much of the text and other content on the page is clickable. The link under it will help you drill down to more detail. (Although some links, here and on other UI pages, are shown in blue, you should not assume that the absence of blue font implies there is no link. The best way to discover links is to hover over the content to find out if it is clickable.) 
+Much of the text and other content on the page is clickable. The link under it will help you drill down to more detail. (Although some links, here and on other UI pages, are shown in blue, you should not assume that the absence of blue font implies there is no link. The best way to discover links is to hover over the content to find out if it is clickable.)
 
-The set of three little vertical dots, in the upper right corner of each tile, provide options to manipulate the tile. 
+The set of three little vertical dots, in the upper right corner of each tile, provide options to manipulate the tile.
 
 The __?__ seen near the right corner of the main menu bar, is used throughout the UI to provide help messages or other access to guidance.
 

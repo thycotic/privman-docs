@@ -1,6 +1,6 @@
 [title]: # (Offline Upgrades)
 [tags]: # (new version)
-[priority]: # (710)
+[priority]: # (1702)
 # Offline Upgrades
 
 Follow these steps to perform an offline upgrade for Privilege Manager. This article is ONLY applicable when upgrading from versions 10.2 and higher.

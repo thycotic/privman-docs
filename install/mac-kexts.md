@@ -16,3 +16,5 @@ You may see this popup:
 Thycotic's Privilege Manager plans to remove any dependency on kernel extension in version 10.8 that will be delivered this summer. In the meantime, Privilege Manager will continue to function normally and no immediate action is required.
 
 You can read more about legacy system extensions on [Apple's website](https://support.apple.com/en-us/HT210999).
+
+Thycotic continues to support System Extensions for the macOS versions that require them. Older versions of macOS will be supported by using the legacy KEXT components.

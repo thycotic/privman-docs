@@ -27,11 +27,15 @@ Once Privilege Manager is installed on a server, updates can be performed by poi
 
 ### Primary Node
 
-1. Navigate to __Admin | Setup...__.
+Privilege Manager provides an __Update Available__ notification banner when updates are available. Users can also use the __Admin | Setup__ menu to enter the check if an update is available.
 
-   ![select setup](images/select-setup.png "Select the Setup menu option under Admin")
+1. Click the link in the banner to trigger the __Add / Upgrade Privilege Manager Features__ modal:
 
-   This starts the process to see if Privilege Manager updates are available.
+   ![update available](images/update-available.png "Modal to enter the Add/Upgrade Privilege Manager Features")
+
+   If you are not a local Administrator on the server, you will not be able to perform the upgrade. Based on your account role membership either click __Continue to Add / Upgrade Privilege Manager Features__ or __Cancel__ if your role permissions don't meet the requirement.
+
+   This starts the process to see if setup updates are available.
 
    ![check setup](images/setup-check.png "Setup is checking if updates are available")
 1. When updates are available, Privilege Manager will provide information about the current and available versions.
@@ -39,10 +43,9 @@ Once Privilege Manager is installed on a server, updates can be performed by poi
    ![start upgrade](images/setup-start.png "Setup provided version information with Start Upgrade option")
 
    Click __Start Upgrade__.
-1. If you are not a local Administrator on the server, you might see a warning that adding or upgrading features requires administrative access. Based on your account role membership either click __Continue to Add / Upgrade Privilege Manager Features__ or __Cancel__ if your role permissions don't meet the requirement.
 1. The Currently Installed Products page displays a table listing all the products by name in alphabetical order.
 
-   ![Installed Products overview](images/package-screen.png)
+   ![Installed Products overview](images/package-screen.png) <!-- TODO: update the image with 10.8 based info -->
 
    Use either of the following ways to upgrade your environment to the latest Privilege Manager version:
    1. Click Upgrade next to individual packages, this will require to come back to the Installed Products page after each separate upgrade for most of the packages, or

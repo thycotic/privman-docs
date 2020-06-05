@@ -79,6 +79,7 @@ If the Mac already has an existing __agentconfig.json__ file, it will NOT be ove
 >**Note**:
 >It will take 15-30 minutes for newly installed agents to register in Privilege Manager. See the agent registration information in the [Terminal Commands](agent-inst-mac.md#terminal_commands) topic to speed the process up.
 
+
 ## Uninstalling an Agent
 
 When you need to uninstall the macOS Agent, use the __Uninstall.sh__ shell command:

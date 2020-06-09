@@ -5,7 +5,7 @@
 
 ## Effect on Privilege Manager Customers by Apple Deprecating Kernel Extensions in macOS
 
-In 2019, Apple announced the deprecation of kernel extensions (KEXTS) in a future OS upgrade and that System Extensions should be used instead. Beginning in macOS 10.15.4, the use of kernel extensions will trigger a notification that the software using this type of extension includes a deprecated API and an alternative should be provided by the vendor.
+In 2019, Apple announced the deprecation of kernel extensions (KEXTS) in a future OS upgrade and that System Extensions should be used instead. Beginning in macOS 10.15.4, the use of kernel extensions will trigger a notification that software using this type of extension includes a deprecated API and an alternative should be provided by the vendor.
 
 You may see this popup:
 
@@ -13,7 +13,7 @@ You may see this popup:
 
 ## How is this Going to Affect Privilege Manager?
 
-Thycotic plans to support Endpoint Security via system extension in Privilege Manager version 10.8 to be delivered this Summer. In the meantime, Privilege Manager will continue to function normally and no immediate action is required.
+Thycotic plans to support Endpoint Security via system extension in Privilege Manager version 10.8 to be delivered this summer. In the meantime, Privilege Manager will continue to function normally and no immediate action is required.
 
 You can read more about legacy system extensions on [Apple's website](https://support.apple.com/en-us/HT210999).
 

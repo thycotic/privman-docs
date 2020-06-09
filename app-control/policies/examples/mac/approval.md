@@ -5,7 +5,7 @@
 
 To accommodate the new macOS Endpoint Security system extensions, the default approval workflow of the macOS agent now terminates any justification or approval process and presents the user with an applicable message action.
 
-The following workflows are affected by this change:
+The following workflows are impacted by this change:
 
 * Application Approval Request Message Action
 * Deny Execute
@@ -13,6 +13,8 @@ The following workflows are affected by this change:
 * Deny Execute + Application Denied Message Action
 * Application Justification Message Action
 * Application Warning Message Action
+
+Refer to the [Actions](../../actions/index.md) specifically the [Message Actions](../../actions/msgs/index.md) topic.
 
 ## Application Approval Request Message Action
 

@@ -14,7 +14,7 @@ The configuration page is tabulated and offers configuration or review options u
 * [General](general/index.md)
 * [Discovery](discovery/index.md)
 * [Reputation](reputation/index.md)
-* [Users - Visible in Privilege Manager Cloud only](users/index.md)
+* [Users](users/index.md)
 * [Credentials](credentials/index.md)
 * [Foreign Systems](foreign-systems/index.md)
 * [Roles](roles/index.md)

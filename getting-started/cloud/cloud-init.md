@@ -9,12 +9,6 @@ To login to a Privilege Manager Cloud instance, use the URL and credentials prov
 
 1. Navigate to your assigned login URL.
 
-   For new instances, the initial login to Privilege Manager happens via the Thycotic One Authentication portal.
-
-   ![T1 option](images/t1-login.png "Privilege Manager login page with Thycotic One login option")
-
-   Once you create users or setup an authentication provider, the Privilege Manager login screen will provide the login option based on that configured provider.
-
    ![Login](../images/new-login.png "Privilege Manager login page")
 
    Depending on the authentication provider setup, users are presented with different login choices.
@@ -29,6 +23,6 @@ The Privilege Manager cloud console home page opens:
 
    ![Privilege Manager home page](images/cloud/pm_cloud_home.png)
 
-> **Note**: To import and synchronize Azure Active Directory Groups and Users, refer to the following topic: [Setting Up Azure Active Directory Integration in Privilege Manager](../../integration/active-directory/set-up-privilege-manager-azure-ad-integration.md).
+>**Note**: To import and synchronize Azure Active Directory Groups and Users, refer to the following topic: [Setting Up Azure Active Directory Integration in Privilege Manager](../../integration/active-directory/set-up-privilege-manager-azure-ad-integration.md).
 
-To add Thycotic One Users manually refer to the following topic: [How to Add Thycotic One Users Manually](../../ui/config/users/index.md).
+To add Thycotic One Users manually refer to the following topic: [How to Add Thycotic One Users Manually](../../ui/config/users/index.md). That topic does also cover how to create Standard and API Client users.

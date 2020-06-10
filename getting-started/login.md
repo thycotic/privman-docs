@@ -18,7 +18,7 @@ Once you create users or setup an authentication provider, the Privilege Manager
 
 After the authentication the Privilege Manager Server Setup Home page opens.
 
-![setup home page](images/default-ntlm.png "Privilege Manager Server Setup Home page")
+![setup home page](images/pm_server_setup_home.png "Privilege Manager Server Setup Home page")
 
 Use the Privilege Manager link to login to the product. If you need to add or update product features, such as connectors for foreign systems, use the Add / Update Product Features link.
 

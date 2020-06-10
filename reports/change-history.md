@@ -3,6 +3,8 @@
 [priority]: # (7010)
 # Change History Report
 
+<!-- TODO: after Jose's sprint 12 work is done -->
+
 Administrators need to be able to look at changes done by other users in Privilege Manager. The need to be able to audit any issue causing changes to configuration settings, policies, filters, and actions. The new __Change History Report__ allows Privilege Manager Administrators to track changes and their impact on endpoints.
 
 As part of the audit the following information is recorded:

@@ -5,6 +5,8 @@
 
 Auditing for user activities like logins and logouts can be viewed via the Application User Activity report. The report is a chronological data collection of user login/logout events and relating data.
 
+To access the report navigate to __Reports__ and locate the __Security__ reports, select __Application User Activity__.
+
 ![app-user-activity.png](images/app-user-activity.png "The Application User Activity Report page")
 
 User activity auditing is by default enabled. The following auditing data is stored and provided via report:

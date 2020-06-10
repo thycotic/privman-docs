@@ -21,28 +21,43 @@ Once Privilege Manager is installed on a server, updates can be performed by poi
 
 ## Updating Privilege Manager
 
->**Important**:
->Always make a backup of the Privilege Manager Database in SQL and the TMS web files before performing upgrades in a production environment. The default location of the web files on the Privilege Manager Server `C:\inetpub\wwwroot\TMS`.
-
-In environments with multiple Privilege Manager Server nodes, stop the TMS application pools on all secondary nodes before starting the upgrade. Restart the applications pools once the upgrade is completed.
+>**Note**: Always make a backup of the Privilege Manager Database in SQL and the TMS web files before performing upgrades in a production environment. The default location of the web files on the Privilege Manager Server `C:\inetpub\wwwroot\TMS`.
+>
+>On systems running Privilege Manager 10.5.1 or older with multiple Privilege Manager Server nodes, __stop__ the TMS application pools on all secondary nodes before starting the upgrade. Restart the applications pools once the upgrade is completed. Newer Privilege Manager versions automatically initiate setup tasks when the primary node is being updated.
 
 ### Primary Node
 
-1. Navigate to __Admin | More...__ and select the __Add / Upgrade Features__ link.
+Privilege Manager provides an __Update Available__ notification banner when updates are available. Users can also use the __Admin | Setup__ menu to enter the check if an update is available.
 
-   ![Selecting the Add / Upgrade Features link](images/add-upgrade-features.png)
-1. If you are not a local Administrator on the server, you might see a warning that adding or upgrading features requires administrative access. Based on your account role membership either click __Continue to Add / Upgrade Privilege Manager Features__ or __Cancel__ if your role permissions don't meet the requirement.
-1. The Currently Installed Products page displays a table listing all the products by name in alphabetical order. 
+1. Click the link in the banner to trigger the __Add / Upgrade Privilege Manager Features__ modal:
 
-   ![Installed Products overview](images/package-screen.png)
+   ![update available](images/update-available.png "Modal to enter the Add/Upgrade Privilege Manager Features")
+
+   If you are not a local Administrator on the server, you will not be able to perform the upgrade. Based on your account role membership either click __Continue to Add / Upgrade Privilege Manager Features__ or __Cancel__ if your role permissions don't meet the requirement.
+
+   This starts the process to see if setup updates are available.
+
+   ![check setup](images/setup-check.png "Setup is checking if updates are available")
+1. When updates are available, Privilege Manager will provide information about the current and available versions.
+
+   ![start upgrade](images/setup-start.png "Setup provided version information with Start Upgrade option")
+
+   Click __Start Upgrade__.
+1. A short _Install Complete_ message is displayed before the setup process navigates to the __Currently Installed Products__ page. The available product updates are listed by product name in alphabetical order.
+
+   ![products overview](images/package-screen.png "Products overview")
 
    Use either of the following ways to upgrade your environment to the latest Privilege Manager version:
-   1. Click Upgrade next to individual packages, this will require to come back to the Installed Products page after each separate upgrade for most of the packages, or
-   1. Click Install/Upgrade Products at the bottom of the page.
+   1. Click Upgrade next to individual packages, this will require to come back to the Installed Products page after each separate upgrade for most of the packages, __or__
+   1. Click __Install/Upgrade Products__ at the bottom of the page.
       1. Select the products you want to install/upgrade.
 
-         ![Select which products to install](images/install-products-select.png)
-      1. Select Install.
+         ![Select which products to install](images/install-products-select.png "Select Products to install")
+
+         By default the products available for upgrade are listed. If you want to see all products currently installed, click __Show installed products__.
+
+         ![Select which products to install](images/install-products-select-all.png "Installed Products page showing all products")
+      1. Click __Install__.
 
 The installation/upgrade process starts and you can view the log while products are being installed.
 

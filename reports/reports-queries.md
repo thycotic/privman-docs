@@ -17,13 +17,13 @@ There are many more reports in the product.
 
 To view all the reports in Privilege Manager, navigate to the __ADMIN | Folders | Reports__ tab to see all the reports in a folder tree structure.
 
-![Reports folder tree](images/reports/532d82df04b131cb36a6ed55be309b90.png)
+![Reports folder tree](images/reports/folder-tree.png "Reports Folder tree")
 
 Expand the folder tree to explore the canned reports.
 
 For example, to access the __Application Justification Summary Details Report__, navigate to __Reports | Resource Reports | Resource List Reports | Application Control | Data Class Reports__ and select the __Application Justification Summary Details Report__.
 
-![Example Application Justification Summary Details Report](images/reports/bf3f6267bea061192caebbe4d8855be5.png)
+![Example Application Justification Summary Details Report](images/reports/select-app-just-sum.png)
 
 ## Determine the SQL Query Object Used by a Report
 
@@ -37,7 +37,7 @@ to:
 
 `[Your_TMS_URL]/PrivilegeManager/#/item/__xml__/9ba09fa5-ea7e-4352-8400-8eb58b8e41f9`
 
-![XML view of report](images/reports/e51fd84c2e57e1ac7b0d5e2d0fb34856.png)
+![XML view of report](images/reports/view-xml.png "View the xml of report")
 
 Viewing an item as XML helps in determining what folder it is located in (which will be explained in more detail below). Viewing a report as XML also reveals the XML object for the SQL query.
 
@@ -45,11 +45,11 @@ Use your mouse to hover over the GUIDs in the XML to reveal the name of each GUI
 
 In the screenshot below, hovering over the GUID is 9a3d82a3-c7be-47cc-aa1c-48acc7964620 identified that item as the __Application Justification Summary Details Report Query__.
 
-![GUID hover example](images/reports/f3d961ec9ab5548a433b2feb94f3e3f2.png)
+![GUID hover example](images/reports/guid-hover.png "GUID hover example")
 
 Clicking on this GUID will open the XML for the query object in another tab on this same screen:
 
-![Open XML of query object](images/reports/579dda448f0d3b2bc9424ab0454c888b.png)
+![Open XML of query object](images/reports/xml-query.png "XML of query object")
 
 The XML object for the query includes the direct SQL query that the application runs. However, viewing the query in Privilege Manager will give better query results to work with.
 
@@ -57,28 +57,46 @@ The XML object for the query includes the direct SQL query that the application 
 
 The SQL queries can be viewed in Privilege Manager under __ADMIN | Folders__, but it will be helpful to know the folder in which a specific query is located. In the XML object for query, hover over and click on the GUID for the FolderId.
 
-![FolderId look up](images/reports/ef0945fb3ccf591adfebc852a04fb3d2.png)
+![FolderId look up](images/reports/folder-id.png "Folder ID look up")
 
-This will open the XML for the folder in which the query is contained. Click on the FolderId to open the XML for its parent folder, and continue until reaching the root folder – which will not have a FolderId attribute. For the SQL queries, the root folder is Queries.
+This will open the XML for the folder in which the query is contained. 
 
-![Root folder](images/reports/b386d777773360a8eb7c44fe3334467f.png)
+![folderId 2](images/reports/folder-id-2.png "Continue selecting FolderId until you reach the root query")
+
+Click on the FolderId to open the XML for its parent folder, and continue until reaching the root folder – which will not have a FolderId attribute. For the SQL queries, the root folder is Queries.
+
+![Root folder](images/reports/root-query.png)
 
 This XML view now shows the full folder location of this specific query: __Queries | Report Queries | Application Control__.
 
-### Access the Query from the Folder View
+### Access and Edit the Query from the Folder View
 
-Navigate to __ADMIN | Folders__ and select the Reports tab. From the View pull-down, select the Queries View. Then navigate the folder structure determined above: __Queries | Report Queries | Application Control__. Select the Application Justification Report Query from the center pane.
+Navigate to __ADMIN | Folders__ and select the Reports tab. From the View pull-down, select the Queries View. Then navigate the folder structure determined above: __Queries | Report Queries | Application Control__. Select the __Application Justification Report Query__ from the center pane.
 
-![Opening the report query from the folder view](images/reports/ccfc56dcd0aa64a25ccb3352c22fce4e.png)
+![Opening the report query from the folder view](images/reports/query.png)
 
 View this query object. The Query tab will show the SQL query that the application runs. This is the same query that appears in the XML of the object.
 
-### Obtain a Resolved Query
+![viewing query](images/reports/view-query.png "View query and edit")
+
+Scroll to the bottom section of the page to edit the query xml.
+
+### Resolved Query
 
 The Resolved Query tab will give queries that can be used directly on the database to return the similar results that the application receives when it runs the query in the object. This makes it easy to run these queries – or customization of them – in SQL Server Reporting Services.
 
 On the Resolved Query tab, checking the box to __Show Output as Executable Anonymous Block__ will assign values to the Parameters the query uses. For the __Value Set__ pull-down, select __Test__ to assign the Parameters with appropriate values to run this query directly on your database.
 
-![Obtaining a resolved query](images/reports/94fd3a8b59bdb60252cd73378f0b33e1.png)
+![resolved query](images/reports/resolved-query.png "Resolved query tab and information")
 
 Click __Copy To Clipboard__ and then paste the resolved query in SSRS, SSMS, or your favorite tool.
+
+### Results
+
+The Results tab provides options to change information of the query.
+
+![results](images/reports/results.png "Results tab")
+
+The parameters can be changed and specific item Ids can be entered.
+
+![param](images/reports/param.png "Results tab parameters")

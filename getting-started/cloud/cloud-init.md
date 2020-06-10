@@ -9,6 +9,12 @@ To login to a Privilege Manager Cloud instance, use the URL and credentials prov
 
 1. Navigate to your assigned login URL.
 
+   For new instances, the initial login to Privilege Manager happens via the Thycotic One Authentication portal.
+
+   ![T1 option](images/t1-login.png "Privilege Manager login page with Thycotic One login option")
+
+   Once you create users or setup an authentication provider, the Privilege Manager login screen will provide the login option based on that configured provider.
+
    ![Login](../images/new-login.png "Privilege Manager login page")
 
    Depending on the authentication provider setup, users are presented with different login choices.

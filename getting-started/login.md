@@ -12,9 +12,9 @@ The login URL for an on-premises Privilege Manager instance has this form:
 >**Note**:
 >On combined Secret Server/Privilege Manager installations you are initially logged in through Secret Server. If this is the case, you can find Privilege Manager by navigating to __Tools | Privilege Manager__.
 
-![Login](images/new-login.png "Privilege Manager login page")
+Once you create users or setup an authentication provider, the Privilege Manager login screen will provide the login option based on that configured provider.
 
-Depending on the authentication provider setup, users are presented with different login choices.
+![Login](images/new-login.png "Privilege Manager login page")
 
 After the authentication the Privilege Manager Server Setup Home page opens.
 

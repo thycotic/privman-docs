@@ -3,9 +3,8 @@
 [priority]: # (1)
 # Authentication Tab
 
-The Authentication tab is used for setting up the Authentication Provider used with Privilege Manager. Different authentication providers can be setup based on configured Foreign Systems. Each configured authentication provided will be available as a login choice to users on the login page.
+The Authentication tab is used for setting up the Authentication Provider used with Privilege Manager. Different authentication providers can be setup based on configured Foreign Systems. The user logs in based on the active authentication provider. Only one authentication provider can be active at any given time.
 
-<!-- TODO: new screen capture once the UI work for this page is done.-->
 ![auth tab](images/config-auth.png "Authentication tab to select the authentication provider")
 
 >**Note**:

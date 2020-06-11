@@ -1,6 +1,6 @@
 [title]: # (SMTP)
 [tags]: # (email server)
-[priority]: # (9103)
+[priority]: # (4)
 # Set-up SMTP Connection
 
 Simple Mail Transfer Protocol (SMTP) is the Internet standard for email transmission. Often organizations use an SMTP Server — or a server that is specifically dedicated to transmitting email messages via TCP Port 25 — and in order to send email alerts with Privilege Manager policies, you must ensure that your email server is connected to Privilege Manager.

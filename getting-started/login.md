@@ -12,9 +12,15 @@ The login URL for an on-premises Privilege Manager instance has this form:
 >**Note**:
 >On combined Secret Server/Privilege Manager installations you are initially logged in through Secret Server. If this is the case, you can find Privilege Manager by navigating to __Tools | Privilege Manager__.
 
-![Login](images/login-on-prem.png "On-premises login page")
+The initial login for on-prem happens via NTLM:
 
-Use the Privilege Manager link to login to the product. If you need to add or update product features, such as connectors for foreign systems, use the Add / Update Product Features link.
+![Login](images/new-login.png "Privilege Manager login page")
+
+After logging in the Privilege Manager Server Setup Home page opens.
+
+![setup home page](images/pm_server_setup_home.png "Privilege Manager Server Setup Home page")
+
+Use the Privilege Manager link to login to the product. If you need to add or update product features, such as connectors for foreign systems, use the __Add / Update Product Features__ link.
 
 The __Setup a Secret Server Foreign System__ link can be used to set-up an integration with Secret Server. This will also allow you to use Secret Server as an authentication provider. Also refer to [Setting up Integration between Privilege Manager and Secret Server](../integration/thycotic/set-up-pm-ss-integration.md)
 
@@ -22,7 +28,7 @@ The __Setup a Secret Server Foreign System__ link can be used to set-up an integ
 
 At initial login the Getting Started Banner displays with help tips and next steps:
 
-* Choose an authentication provider that will be used to sign in to Privilege Manager.
+* Choose an authentication provider that will be used going forward to sign in to Privilege Manager.
 * Setup the SMTP Server.
 * Install Agents.
 * Review the documentation to begin configuring policies.

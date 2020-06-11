@@ -1,6 +1,6 @@
 [title]: # (Set Up Azure Active Directory Integration in Privilege Manager)
 [tags]: # (Azure AD,integration,Privilege Manager)
-[priority]: # (9020)
+[priority]: # (3)
 # Setting Up Azure Active Directory Integration in Privilege Manager
 
 Setting up Azure AD integration with Privilege Manager requires steps in your Azure tenant and in Privilege Manager.

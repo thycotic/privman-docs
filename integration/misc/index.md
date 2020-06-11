@@ -1,6 +1,6 @@
 [title]: # (Miscellaneous Integration)
 [tags]: # (rdp,remove)
-[priority]: # (9400)
+[priority]: # (4)
 # Collection of Miscellaneous Integration Related Topics
 
 The following topics are available in this section:

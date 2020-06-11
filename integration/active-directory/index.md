@@ -1,6 +1,6 @@
 [title]: # (Active Directory Integration)
 [tags]: # (how to)
-[priority]: # (9020)
+[priority]: # (2)
 # Active Directory Integration
 
 The following topics are available in the Active Directory (AD) integration section:

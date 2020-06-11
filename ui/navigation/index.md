@@ -88,4 +88,4 @@ The other available admin subitems are:
 * [Roles](../config/roles/index.md)
 * Setup
 * [Tasks](../../tasks/index.md)
-* [Users](../config/users/index.md)
+* [Users](../admin/users/index.md)

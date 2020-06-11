@@ -22,4 +22,4 @@ To login to a Privilege Manager Cloud instance, use the URL and credentials prov
 
 >**Note**: To import and synchronize Azure Active Directory Groups and Users, refer to the following topic: [Setting Up Azure Active Directory Integration in Privilege Manager](../../integration/active-directory/set-up-privilege-manager-azure-ad-integration.md).
 
-To add Thycotic One Users manually refer to the following topic: [How to Add Thycotic One Users Manually](../../ui/config/users/index.md). That topic does also cover how to create Standard and API Client users.
+To add Thycotic One Users manually refer to the following topic: [How to Add Thycotic One Users Manually](../../admin/users/index.md). That topic does also cover how to create Standard and API Client users.

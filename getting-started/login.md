@@ -12,11 +12,11 @@ The login URL for an on-premises Privilege Manager instance has this form:
 >**Note**:
 >On combined Secret Server/Privilege Manager installations you are initially logged in through Secret Server. If this is the case, you can find Privilege Manager by navigating to __Tools | Privilege Manager__.
 
-Once you create users or setup an authentication provider, the Privilege Manager login screen will provide the login option based on that configured provider.
+The initial login for on-prem happens via NTLM:
 
 ![Login](images/new-login.png "Privilege Manager login page")
 
-If you are using NTLM, the Privilege Manager Server Setup Home page opens.
+After logging in the Privilege Manager Server Setup Home page opens.
 
 ![setup home page](images/pm_server_setup_home.png "Privilege Manager Server Setup Home page")
 
@@ -28,7 +28,7 @@ The __Setup a Secret Server Foreign System__ link can be used to set-up an integ
 
 At initial login the Getting Started Banner displays with help tips and next steps:
 
-* Choose an authentication provider that will be used to sign in to Privilege Manager.
+* Choose an authentication provider that will be used going forward to sign in to Privilege Manager.
 * Setup the SMTP Server.
 * Install Agents.
 * Review the documentation to begin configuring policies.

@@ -16,11 +16,11 @@ Once you create users or setup an authentication provider, the Privilege Manager
 
 ![Login](images/new-login.png "Privilege Manager login page")
 
-After the authentication the Privilege Manager Server Setup Home page opens.
+If you are using NTLM, the Privilege Manager Server Setup Home page opens.
 
 ![setup home page](images/pm_server_setup_home.png "Privilege Manager Server Setup Home page")
 
-Use the Privilege Manager link to login to the product. If you need to add or update product features, such as connectors for foreign systems, use the Add / Update Product Features link.
+Use the Privilege Manager link to login to the product. If you need to add or update product features, such as connectors for foreign systems, use the __Add / Update Product Features__ link.
 
 The __Setup a Secret Server Foreign System__ link can be used to set-up an integration with Secret Server. This will also allow you to use Secret Server as an authentication provider. Also refer to [Setting up Integration between Privilege Manager and Secret Server](../integration/thycotic/set-up-pm-ss-integration.md)
 

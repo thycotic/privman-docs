@@ -14,12 +14,9 @@ To login to a Privilege Manager Cloud instance, use the URL and credentials prov
    Depending on the authentication provider setup, users are presented with different login choices.
 1. Click the Login button. This usually opens the Sign In dialog:
    1. Enter your username or Email address and click __Next__.
-   1. Enter your password and click __Sign in__.
-1. Select Privilege Manager on the Privilege Manager Server Setup Home page:
+   1. Enter your password and click __Login__.
 
-   ![Server Setup Home page](images/cloud/pm_server_setup_home.png)
-
-The Privilege Manager cloud console home page opens:
+   The Privilege Manager cloud console home page opens:
 
    ![Privilege Manager home page](images/cloud/pm_cloud_home.png)
 

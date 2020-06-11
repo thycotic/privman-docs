@@ -46,14 +46,12 @@ When complete, click __Go to your Privilege Manager Cloud__ instance and __Lo
 
 ![Ready and Go to your product](images/quick/c0ebaa0f499926b5af399779139587e4.png)
 
-You will be automatically redirected to your new Privilege Manager Cloud Dashboard. 
+You will be automatically redirected to your new Privilege Manager home page.
 
-Select the *Privilege Manager* link
-
-![Privilege Manager link](images/quick/85bd5ac0dbac4b3d114ff7e4478b0551.png)
+![Privilege Manager home page](images/cloud/pm_cloud_home.png "Privilege Manager home page")
 
 ## Getting Started Screen
 
 Follow the steps on the Getting Started screen. Start with step 1 to allow other users to access Privilege Manager and make sure all 5 steps are completed or reviewed before continuing.
 
-![Getting Started complete](images/quick/248978a9b16e4af2672e8569fde1a285.png)
+![Getting Started complete](images/quick/getting-started.png "Getting Started information page")

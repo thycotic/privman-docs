@@ -12,7 +12,7 @@ For integrations with Secret Server keep in mind that Privilege Manger has the a
 If you are integrating with Active Directory synchronization please refer to [Active Directory Synchronization](../../../local-security/ad-sync.md).
 
 >**Note**:
->If you synced with Azure AD, and then added that user to the Privilege Manager Administrators Role, that Azure AD user has admin rights only, if Azure AD is used as the auth provider. If users login via Thycotic One, use Admin | Configuration | Users to create a new user and then add that new user to the Privilege Manager Administrators Role, refer to [How to Add Thycotic One Users Manually](../../../ui/config/users/index.md).
+>If you synced with Azure AD, and then added that user to the Privilege Manager Administrators Role, that Azure AD user has admin rights only, if Azure AD is used as the auth provider. If users login via Thycotic One, use __Admin | Users__ to create a new user and then add that new user to the Privilege Manager Administrators Role, refer to [How to Add Thycotic One Users Manually](../../../admin/users/index.md).
 
 ## Create User during Installation
 

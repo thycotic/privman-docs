@@ -18,7 +18,7 @@ This topic is a collection of articles covering "How to..." procedures for diffe
 
 * Azure:
 
-  * [Add Thycotic One Users Manually](../ui/config/users/index.md#how_to_add_thycotic_one_users_manually)
+  * [Add Thycotic One Users Manually](../admin/users/index.md#how_to_add_thycotic_one_users_manually)
 
 * Infrastructure
 

@@ -12,3 +12,4 @@ The following examples are available:
 * [Offline Approvals](offline_approval.md)
 * [HelpDesk Approvals](helpdesk.md)
 * [Google Authenticator approval](google-authenticator.md)
+* [macOS Approval Process](../mac/approval.md)

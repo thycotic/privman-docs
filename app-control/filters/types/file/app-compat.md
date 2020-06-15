@@ -7,20 +7,19 @@ This type of filter identifies the rights or permissions that an application req
 
 ![app comp filter](images/ac_filter_1.png)
 
-## Examples
+## Parameters
 
-1. Navigate to __Admin | More…__ and select __Filters__.
-1. In the search field for the __Type__ column enter application compatibility.
+By default __Perform execution level test__ is set to no, if you change this to Yes, you can specify:
 
-   ![app comp filter](images/ac_filter_2.png)
-1. Select a filter to view its details and/or create a copy to customize the filter.
+* As Invoker
+* Highest Available
+* Require Administrator
 
-   ![app comp filter](images/ac_filter_3.png)
+By default __Perform installer detection test__ is set to no, if you change this to Yes, you can specify:
 
-1. Click __Edit__.
-1. Set the needed parameters.
+* Generic Installer to be set or not set.
+* Specific Installer to be set or not set.
+* Specific Non Installer to be set or not set.
+* if the Results should be included or excluded.
 
-   ![app comp filter](images/ac_filters_5.png)
-1. Click __Save__.
-
-   ![app comp filter](images/ac_filter_6.png)
+Remember to __Save Changes__ after any customization.

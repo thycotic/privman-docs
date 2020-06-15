@@ -5,23 +5,22 @@
 
 This filter identifies files based on ownership.
 
-![file owner filter](images/fo_1.png)
+![file owner filter](images/fo_1.png "File owner filter")
 
 This filter is available for both Windows and macOS systems.
 
-## Examples
+## Parameters
 
-1. Navigate to __Admin | More…__ and select __Filters__.
-1. In the search field for the __Type__ column enter File owner.
+Under settings you specify to include only those files with an owner having certain accounts or being part of certain domain user groups.
 
-   ![file owner filter](images/fo_2.png)
-1. Select a filter to view its details and/or create a copy to customize the filter.
+* Build-in Accounts
 
-   ![file owner filter](images/fo_3.png)
-1. Click __Edit__.
-1. Set the needed parameters.
+  ![build-in](images/fo_2.png "Adding build-in accounts")
+* Well-known Accounts
 
-   ![file owner filter](images/fo_6.png)
-1. Click __Save__.
+  ![build-in](images/fo_3.png "Adding well-known accounts")
+* Domain User Groups
 
-   ![file owner filter](images/fo_7.png)
+  ![build-in](images/fo_4.png "Adding Domain User Groups")
+
+Remember to click __Update__ and __Save Changes__ following any customization.

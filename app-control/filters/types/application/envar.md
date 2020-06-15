@@ -5,15 +5,16 @@
 
 This type of filter can target environment variables of a process that is started.
 
-![Filter specifications and settings](images/envar.png)
+![Filter specifications and settings](images/envar-1.png "Filter specifications and settings")
 
 ## Parameters
 
-![Filter specifications and settings](images/envar-2.png)
-
 * Name
 * Value
-* Match Type
+* Match Type:
+  * Exact Match
+  * Partial Match
+  * Regular expression
 
 ## Examples
 

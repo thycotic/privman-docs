@@ -7,26 +7,19 @@ This issue might be due to the __Present in Signed Security Catalog__ not being 
 
 ## How to Resolve
 
-1. Launch __Privilege Manager__
-1. Click __ADMIN__ | __Policies__.
-
-   ![Cortana and Search](images/sc-1.png)
+1. Launch __Privilege Manager__ and navigate to your __Application Policies__.
 1. Click on a previously created policy.
-1. Click __Edit__.
-1. Click on the __Conditions__ tab | __Add Exclusion Filter__.
+1. Under __Conditions__, next to Exclusions select __Add Exclusion Filter__.
 
-   ![Add an exclusion filter](images/sc-4.png)
+   ![Add an exclusion filter](images/sc-4.png "Add an exclusion filter")
 1. Search for __Present in Signed Security Catalog__.
-1. Select the check box for __Present in Signed Security__ filter | click __Add__.
 
    ![Add to signed security filter](images/sc-5.png)
-1. Click __Save__.
-1. Click on the __Deployment__ tab.
+1. Click __Add__ next to the __Present in Signed Security__ filter.
+1. Click __Update__.
+1. Click __Save Changes__ on the policy page.
 
-   ![Deployment tab](images/sc-6.png)
-1. Click __Cache Policy__ | __Run Policy Targeting Update__.
-
-   >**Note**: Once the agents check back into the web console which by default occurs every 30 minutes, the machines will get the new policy changes. However if you would like to test the policy update on a specific machine, please continue to step 11.
+   >**Note**: Once the agents check back into the web console which by default occurs every 30 minutes, the machines will get the new policy changes. However if you would like to test the policy update on a specific machine, please continue.
 1. Go to the Machine(s) where you want to update the policy and open the Agent Utility.
 
     e.g., `C:\Program Files\Thycotic\Agents\Agent`

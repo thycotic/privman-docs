@@ -10,7 +10,7 @@ User Context Filters are used in a policy as either an
 
 The User Context Filters are part of the Application Filter templates listed for Windows:
 
-![User Context Filter templates](images/user_context.png)
+![User Context Filter templates](images/user_context.png "User Context Filter templates")
 
 This filter is available for both Windows and macOS systems.
 
@@ -27,8 +27,6 @@ to specifically select user context.
 
 Then select if __ALL__ conditions must be met. Leave the box unchecked to match __ANY__. You can also specify, if accounts must be enabled to be targeted. This is an important checkbox to set if specific users have been added.
 
-![Create User Context Filter](images/user_context_1.png)
-
 ## Cloud
 
 For Privilege Manager cloud the __User Context Filter via SID__ can be used if (Azure) AD synchronization has not been set up but the SID of the group is known. When creating the filter, enter the
@@ -36,6 +34,4 @@ For Privilege Manager cloud the __User Context Filter via SID__ can be used if (
 * Group SID , and
 * Group Name, to name the group if it does not exist.
 
-![Create User Context Filter via SID](images/user_context_2.png)
-
-![Edit User Context Filter via SID](images/user_context_sid_edit.png)
+![Create User Context Filter via SID](images/user_context_2.png "Create User Context Filter via SID")

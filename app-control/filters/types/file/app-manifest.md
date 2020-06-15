@@ -7,20 +7,12 @@ Applications that declare specific rights required via a manifest, such as appli
 
 ![app manifest filter](images/am_1.png)
 
-## Examples
+## Parameters
 
-1. Navigate to __Admin | More…__ and select __Filters__.
-1. In the search field for the __Type__ column enter application manifest.
+By default __Only perform presence check__ is set to Yes, if you change this to No, you can specify the __Execution Level__ as either:
 
-   ![app manifest filter](images/am_2.png)
-1. Select a filter to view its details and/or create a copy to customize the filter.
+* As Invoker
+* Highest Available
+* Require Administrator
 
-   ![app manifest filter](images/am_3.png)
-
-1. Click __Edit__.
-1. Set the needed parameters.
-
-   ![app manifest filter](images/am_6.png)
-1. Click __Save__.
-
-   ![app manifest filter](images/am_7.png)
+Remember to __Save Changes__ after any customization.

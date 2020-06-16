@@ -5,7 +5,7 @@
 
 This type of filter exists to create policy parameters for specific time frames.
 
-![Time of Day Filter](images/time-of-day-filter.png)
+![Time of Day Filter](images/time-of-day-filter.png "Time of Day Filter")
 
 This filter is available for both Windows and macOS systems.
 

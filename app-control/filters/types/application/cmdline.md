@@ -9,25 +9,36 @@ This filter is available for both Windows and macOS systems.
 
 ## Search for Commandline Filters
 
-1. Navigate to __Admin | More...__ and select __Filters__.
+1. Navigate to __Admin | Filters__.
 1. In the search field for the __Type__ column enter commandline.
 
-   ![Commandline Filter type search](images/command-line-filter-list.png)
-1. Select a filter to view its details and/or create a copy to customize the filter.
+   ![Commandline Filter type search](../images/search-2.png "Commandline Filter type search")
+1. Select a filter to view its details and/or use __Duplicate__ to customize the filter.
 
-   ![Commandline Filter default example](images/command-line-filter.png)
+   ![Commandline Filter default example](images/command-line-filter.png "Commandline Filter default example")
+
+   If you Duplicate (make a copy of an existing) filter, "rename" the filter and click __Create__.
+
+   ![duplicate](images/command-line-filter-2.png "Commandline Filter duplicate")
+
 
 ## Create a new Commandline Type Filter
 
-1. Navigate to __Admin | More...__ and select __Filters__.
-1. Click __Add Filter__.
+1. Navigate to __Admin | Filters__.
+1. Click __Create Filter__.
 1. On the New Filter page, select the platform. For this example, select __Windows__.
 1. From the __Filter Type__ drop-down select __Commandline Filter__.
 1. Enter a name and description and click __Create__.
-1. Click Edit on the newly created filter page to customize.
 
-   ![New Commandline Filter edit](images/new-command-line-filter.png)
-1. Click __Save__.
+   ![New Commandline Filter](images/create-new.png "Create a new commandline filter")
+1. Customize the newly created filter.
+
+   ![New Commandline Filter edit](images/customize.png "Customize the filter")
+
+   1. Under __Settings__,
+      1. Set the __Match Type__. This can be either an exact or partial match or specified as a regular expression.
+      1. Enter the commandline to match.
+1. Click __Save Changes__.
 
 ## Parameters
 
@@ -41,7 +52,7 @@ The __Match Type__ gives you the options:
 
 __Command Line__:
 
-* This is the section where you would enter in the given command parameters to pull up the file or action.
+* This is the section where you enter in the given command parameters to pull up the file or action.
 
 ## Examples
 

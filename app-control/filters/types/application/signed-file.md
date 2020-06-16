@@ -5,7 +5,7 @@
 
 This filter allows you to associate one or more Digital Certificate(s) that are trusted and verify that an application or file is signed by one of those certificates. *No out-of-box filters exist in Privilege Manager for this type*.
 
-  ![Signed File Filter Settings](images/signed-file-filter.png)
+  ![Signed File Filter Settings](images/signed-file-filter.png "Signed File Filter Settings")
 
 These filters can be used in several of the following ways:
 
@@ -18,7 +18,7 @@ This filter is available for both Windows and macOS systems.
 
 ## Parameters
 
-Under Settings users: 
+Under Settings users:
 
 * add one or more digital certificates, which are discovered via inventory.
 * enter a Subject Name (version __10.7 and up__). If Subject Name is specified, the digital certificates above will be ignored. The following three match types are supported:

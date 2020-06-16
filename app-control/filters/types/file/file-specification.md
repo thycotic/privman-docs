@@ -3,23 +3,23 @@
 [priority]: # (2)
 # File Specification Filter
 
-This filter identifies files based on their file path, or location on a computer.
+This filter identifies files based on their file name, extension, path, or location on a computer.
 
 ![file specification filter](images/fs_1.png)
 
 This filter is available for both Windows and macOS systems. Use this filter for macOS endpoints only to target known scripts or command-line tools; otherwise use the [Default File Specification (macOS)](../macOS/file-specification.md) filter.
 
-## Example
+## Parameters
 
-1. Navigate to __Admin | More…__ and select __Filters__.
-1. In the search field for the __Type__ column enter file specification filter.
+* File Names
+* Path
+* Drive Types
+* Attributes, include reparse points is the only default enabled attributes
 
-   ![file specification filter](images/fs_2.png)
-1. Select a filter to view its details and/or create a copy to customize the filter.
+### Additional Filters
 
-   ![file specification filter](images/fs_3.png)
-1. Click __Edit__.
-1. Set the needed parameters.
+Additional Filters can be added optionally.
 
-   ![file specification filter](images/fs_5.png)
-1. Click __Save__.
+* File filters, at least one of the filters added here must match.
+* Include only filters, all of the filters added here have to match.
+* Exclude any filters, any matching filters added here will be excluded.

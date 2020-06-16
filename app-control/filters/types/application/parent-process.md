@@ -5,7 +5,7 @@
 
 This type of filter can identify parent processes of certain executables.
 
-![Parent Process filter](images/parent_process.png)
+![Parent Process filter](images/parent_process.png "Parent Process filter")
 
 This filter is available for both Windows and macOS systems.
 
@@ -14,7 +14,7 @@ This filter is available for both Windows and macOS systems.
 * Applications
 * Conditions
 * Include only filters
-* Exclude only filters
+* Exclude any filters
 
 ## Examples
 

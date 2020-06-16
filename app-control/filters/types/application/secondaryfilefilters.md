@@ -3,6 +3,8 @@
 [priority]: # (2)
 # Using Secondary File Filters
 
+<!-- TODO: UPDATE BASED ON WIZARD APPROACH AND ONLY USE ONE EXAMPLE (.BAT) FOR BLANK POLICY. Work will be done via https://thycotic.visualstudio.com/Thycotic.ManagementServer/_workitems/edit/184325 -->
+
 This topic explains how to create policies for applications that trigger file executions. Implementing a policy to filter on a file type, which is used by another executable, is done by setting a **Secondary File Filter**. The Secondary File Filter is available for both Windows and macOS systems.
 
 This article shows the steps used to create filters and policies that enforce actions on  endpoints when batch files, PowerShell scripts, or Microsoft Installer files execute. Any type of executer can be specified and policed this way.
@@ -22,49 +24,43 @@ The following three examples show how to setup file filters to deny running sing
 
 In this example we are creating a filter for the target executing .bat files.
 
-1. In the Privilege Manager Console navigate to **Admin | More | Filters**.
-2. On the Filter page, click **Add New Filter**.
-3. On the New Filter page, select the platform. This can be either **Both Windows / Mac OS**, **Windows**, or **Mac OS**. For this example, select **Windows**.
-4. From the Filter Type drop*down select **File Specification Filter**. This also allows you to link in hashes or signatures.
-
-   ![File Specification Filter](images/sff/file_spec_filter.png)
-
-5. Enter the name and a description for the filter, for example “test.bat” and “filter for batch files”.
-6. Click **Create**.
-7. The page for the new filter opens, click **Edit**.
-8. Under File Specifications in the File Name field enter either a single file name, file specification, or RegEx.
+1. In the Privilege Manager Console navigate to **Admin | Filters**.
+1. On the Filter page, click **Create Filter**.
+1. On the New Filter page, select the platform. This can be either **Both Windows / Mac OS**, **Windows**, or **Mac OS**. For this example, select **Windows**.
+1. From the Type drop-down select **File Specification Filter**. This also allows you to link in hashes or signatures.
+1. Enter the name and a description for the filter, for example “test.bat” and “filter for batch files”.
+1. Click **Create**.
+1. Under File Specifications in the File Name field enter either a single file name, file specification, or RegEx.
 
    ![Filter Name](images/sff/file_specifications.png)
 
    For this example, we use **test.bat** to police a single file name.
 
-9. Verify that First Discovered is set to **Anytime**.
-10. Click **Save**.
+1. Verify that First Discovered is set to **Anytime**.
+1. Click __Save Changes__.
 
 ### Creating the Secondary Filter
 
 In this example we are creating the secondary file filter.
 
-1. In the Privilege Manager Console navigate to **Admin | More | Filters**.
-2. On the Filter page, click **Add New Filter**.
-3. On the New Filter page, select the platform. This can be either **Both Windows / Mac OS**, **Windows**, or **Mac OS**. For this example, select **Windows**.
-4. From the Filter Type drop*down select **Secondary File Filter**. 
+1. In the Privilege Manager Console navigate to **Admin | Filters**.
+1. On the Filter page, click **Create Filter**.
+1. On the New Filter page, select the platform. This can be either **Both Windows / Mac OS**, **Windows**, or **Mac OS**. For this example, select **Windows**.
+1. From the Filter Type drop-down select **Secondary File Filter**. 
+1. Enter the name and a description for the filter, for example “secondary file filter for batch files”.
+1. Click **Create**.
 
-   ![Secondary File Filter](images/sff/secondary_file_filter.png)
+   ![sff](images/sff/sff_bat.png "Secondary File Filter")
+1. Under Settings click **Add Filters** to add the test.bat filter created in _Creating the File Filter for .bat_ procedure.
 
-5. Enter the name and a description for the filter, for example “secondary file filter for batch files”.
-6. Click **Create**.
-7. The page for the new filter opens, click **Edit**.
-8. Under Settings click **+Add** to add the test.bat filter created in “Creating the File Filter for .bat” procedure.
-
-   ![Adding File Filter](images/sff/sff_bat.png)
-
-9. Click **Save**.
+   ![Adding File Filter](images/sff/sff-bat-update.png "Updating the filter")
+1. Click __Update__.
+1. Click __Save Changes__.
 
 ### Creating the Policy
 
-1. Navigate to **Admin | Policies**.
-2. Click **Add New Policy**.
+1. Navigate to **Application Policies**.
+2. Click **Create Policy**.
 3. From the Platform drop*down select **Windows**.
 4. From the Policy Type drop*down select **Show All Templates**.
 5. From the Template Type drop*down select **Other: Empty Policy**.

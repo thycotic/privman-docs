@@ -67,7 +67,7 @@ After you have created an Active Directory (AD) instance in Privilege Manager, y
 
 1. Navigate to __Admin | Configuration | Foreign Systems__.
 
-   ![fs](images/fs-1.png "Select AD from list of Foreign Systems")
+   ![fs](images/resources/fs-1.png "Select AD from list of Foreign Systems")
 1. Select your AD instance and navigate to the __Synchronization__ tab.
 
    ![ad](images/resources/ad.png "Synchronize tab for AD services")

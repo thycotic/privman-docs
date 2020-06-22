@@ -1,6 +1,6 @@
 [title]: # (Agent Hardening)
 [tags]: # (endpoint,hardening, 10.7.1 and up)
-[priority]: # (20)
+[priority]: # (1620)
 # Agent Hardening 10.7.1 and up
 
 Agent installations on endpoints can be secured, only allowing a specified user access to start or stop an agent service and denying any agent control access to a local Administrator or basic user account.

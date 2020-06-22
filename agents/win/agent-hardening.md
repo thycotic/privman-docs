@@ -37,4 +37,4 @@ A user or group needs to be available in Privilege Manager to be selected while 
    1. Under __User Accounts__ click the __+__ button and use the search field to find specific user accounts that have permissions to make changes to the specified services. Administrators are present by default, if you wish to limit to only a subset of users with administrative rights, create a group and update accordingly.
 1. Click __Save__.
 
->**Note**: If you wish to update a hardened agent, refer to information under the topic [Windows Agents | Hardened Agents](agent-inst-win.md#hardened_agents).
+>**Note**: If you wish to update a hardened agent, refer to information under the topic [Windows Agents | Hardened Agents](../../install/agents/agent-inst-win.md#hardened_agents).

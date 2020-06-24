@@ -65,6 +65,12 @@ For example, the highlighted section below can be entered into the __Bundled Ide
 
 ![Example info.plist file contents](types/macOS/images/info-plist.png)
 
+## More Options Menu for Filters
+
+The __More__ options menu offers users entry points to duplicate, export, view xml, and delete filters that are already on the system.
+
+![more](images/more.png "More options menu for filters")
+
 ## Creating New Filters using Event Discovery
 
 One way to begin creating new Filters that identify specific files or applications on your network is to set up a Learning Mode Policy and use the events pulled in by Privilege Manager from actions performed on a test machine. See our User Guide's section on Event Discovery for more information on setting up a Learning Mode Policy.

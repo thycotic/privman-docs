@@ -7,32 +7,30 @@ This type of filter identifies file inventory based on Secure Hash Algorithms. 
 
 When creating this filter the target hashes need to be entered as a comma-separated list:
 
-![New SHA1 Hashes filter](images/sha1/new-sha1.png)
+![create](images/sha1/new-sha1.png "New SHA1 Hashes filter")
 
 This filter is available for both Windows and macOS systems.
 
 ## Parameters
 
-Once the filter is created, the following settings can be edited:
+Once the filter is created, the following settings can be viewed and/or edited:
 
 * Data Source:
 
-  * Hash Based Query (do not change the data source)
+  * Hash Based Query (__do not change the data source__)
 * Results will be:
- 
+
   * Included (default)
   * Excluded
 
-![Settings for the SHA1 Hashes filter](images/sha1/sha1-edit-1.png)
+![view](images/sha1/sha1-edit-1.png "Settings for the SHA1 Hashes filter")
 
-Under the Membership tab various reports can be viewed:
+Under the __Membership__ tab various reports can be viewed:
 
 * All Files Picker Report
 * Win32 File Picker Report
 * Default Resource Picker Report
 
-![Edit/Update Membership](images/sha1/sha1-edit-2.png)
+![edit](images/sha1/sha1-edit-2.png "Membership tab showing All Files Picker Report by default")
 
-Example showing the Default Resource Picker Report view:
-
-![Default Resource Picker Report view](images/sha1/sha1-edit-3.png)
+Under the __Related Items__ tab items will be listed if the filter is used in a policy or as a secondary filter.

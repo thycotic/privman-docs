@@ -18,6 +18,16 @@ Each filter has a Details area that contains the filter name, description, and p
 
 Those characteristics are used for searches or filtering and allow users to easily find existing filters.
 
+>**Note**: Every Filter is associated with a data source during its creation. That data source is not to be changed. Except for the Security Catalog File Filter where the data source needs to be added after the filter has been created.
+
+### Filter Change History
+
+Each filter has a __Change History__ tab, where audit information can be reviewed from the time the filter was created in the system.
+
+![filter change history](images/history.png "Filter Change History tab information")
+
+Refer to [Change History](../../admin/config/history/index.md) to learn more about drilling down into the change history of resources and the report.
+
 ## How to Search for Filters
 
 All out-of-the-box filters can be searched, duplicated, and then customized to be used in policies.

@@ -25,6 +25,7 @@ The following troubleshooting topics are available:
 * [Endpoint Troubleshooting](../agents/troubleshooting/endpoint-issues.md)
 * [How to Recover an Unresponsive macOS Endpoint](../agents/macOS/recover-unresponsive-macOS-endpoint.md)
 * [Catalina FileSystemWatcher Issue](../agents/troubleshooting/filesystemwatcher.md)
+* [macOS Specific Issues](macOS/index.md)
 
 ## [Privilege Manager Logs](logs/index.md)
 

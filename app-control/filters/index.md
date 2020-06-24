@@ -52,19 +52,6 @@ Once the filter is created, the new filter page open and information under the D
 
 ![create 4](images/create-4.png "New Filter page")
 
-### Creating macOS Filters Manually
-
-In cases when Privilege Manager does not have enough information from the discovery process on a macOS endpoint, filters have to be created manually.
-
-To manually find granular information required for targeting applications in Privilege Manager on a macOS endpoint,
-
-1. Right-click the target application and select __Show Package Contents__.
-1. Navigate to __Contents | Info.plist__, this gives you a coded list of items that you can match into the details page of your Filter.  
-  
-For example, the highlighted section below can be entered into the __Bundled Identifier__ line item when creating a Firefox filter.  
-
-![Example info.plist file contents](types/macOS/images/info-plist.png)
-
 ## More Options Menu for Filters
 
 The __More__ options menu offers users entry points to duplicate, export, view xml, and delete filters that are already on the system.
@@ -73,13 +60,23 @@ The __More__ options menu offers users entry points to duplicate, export, view x
 
 ## Creating New Filters using Event Discovery
 
-One way to begin creating new Filters that identify specific files or applications on your network is to set up a Learning Mode Policy and use the events pulled in by Privilege Manager from actions performed on a test machine. See our User Guide's section on Event Discovery for more information on setting up a Learning Mode Policy.
+One way to begin creating new Filters that identify specific files or applications on your network is to set up a Learning Mode Policy and use the events pulled in by Privilege Manager from actions performed on a test machine. Refer to [Event Discovery](../policies/ac-event-discovery.md) for more information on setting up a Learning Mode Policy.
 
-In Privilege Manager, navigate to <!-- TODO: need to change --> Admin | Event Discovery | Files. Under a recognized event, clicking Create Filter should bring you to an Add New Filter page* with the known identifiers needed for targeting this event auto-populated.
+1. In Privilege Manager, navigate to __File Inventory__.
 
-*If you are NOT directed to an Add New Filter screen, this means Privilege Manager doesn’t have enough information to target this event yet. In these cases you may need to create Filters manually. See section below for Adding New Filters Manually.
+   ![file inventory](images/file-inventory.png "Using the File Inventory page to create a new filter based on discovered resources")
+1. Select a recognized event.
+1. Click __Create Filter__. 
 
-This Add New Filter page reveals the available list of building blocks, attributes, or criteria used for creating a Windows' filter. In other words, the following list of criteria are possible data fields that Privilege Manager can look and sift for on any given event that your policies target for Windows machines. Note that criteria can vary depending on the type of filter you are creating:
+This brings you to the __Manage Application__ modal with the known identifiers needed for targeting this specific event auto-populated, for this example chrome.exe.
+
+   ![file inventory 2](images/file-inventory-2.png "Auto populated data based on event discovery")
+
+The modal has options to __Create and Add to Policy__ or to just __Create Filter__.
+
+>**Note**: If you are NOT directed to such a dialog, this means Privilege Manager doesn’t have enough information to target this event yet. In these cases you may need to create Filters manually.
+
+The dialog reveals the available list of building blocks, attributes, or criteria used for creating a filter. In other words, the following list of criteria are possible data fields that Privilege Manager can look and sift through for on any given event that your policies target for Windows machines. Note that criteria can vary depending on the type of filter you are creating:
 
 * File Name
 * Path
@@ -91,4 +88,4 @@ This Add New Filter page reveals the available list of building blocks, attribut
 * Company Name
 * File Signature (File must be signed by)
 
-You can choose which criteria to use by checking or un-checking any of the filter line-items listed above. If you are new to the filter creation process, we recommend experimenting with these different identifiers in your test environment to ensure that you are using a comprehensive list of identifiers in your filter, enough to target the application or file intended but not too specific that variations to your target will fall through the filter's criteria hooks.
+You can choose which criteria to use by checking or un-checking any of the available check boxes on the dialog. If you are new to the filter creation process, we recommend experimenting with these different identifiers in your test environment to ensure that you are using a comprehensive list of identifiers in your filter, enough to target the application or file intended but not too specific that variations to your target will fall through the filter's criteria hooks.

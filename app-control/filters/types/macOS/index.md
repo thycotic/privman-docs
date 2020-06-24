@@ -9,6 +9,19 @@ This is the default drop-down list when adding a new filter for macOS:
 
 ![MacOS default filters](images/macOS-filters.png "MacOS filter types drop-down")
 
+### Creating macOS Filters Manually
+
+In cases when Privilege Manager does not have enough information from the discovery process on a macOS endpoint, filters have to be created manually.
+
+To manually find granular information required for targeting applications in Privilege Manager on a macOS endpoint,
+
+1. Right-click the target application and select __Show Package Contents__.
+1. Navigate to __Contents | Info.plist__, this gives you a coded list of items that you can match into the details page of your Filter.  
+  
+For example, the highlighted section below can be entered into the __Bundled Identifier__ line item when creating a Firefox filter.  
+
+![Example info.plist file contents](images/info-plist.png)
+
 ## List of MacOS Filters
 
 The following filters are available based on type from a quick select drop-down menu, after choosing macOS as the platform.

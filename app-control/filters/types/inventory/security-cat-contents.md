@@ -5,11 +5,11 @@
 
 This is a special collection of files to whitelist or blacklist. This filter type is similar to other Inventory Filters, particularly our Security Catalog Filter. *No out-of-box filters exist in Privilege Manager for this type*.
 
-![New Security Catalog Contents Filter](images/security/catalog-1.png)
+![create](images/security/catalog-1.png "New Security Catalog Contents Filter")
 
 ## Parameters
 
-Once the filter is created the following settings can be edited:
+Once the filter is created the following settings can be viewed and/or edited:
 
 * Data Source
 * Computer Filter
@@ -18,4 +18,4 @@ Once the filter is created the following settings can be edited:
 * Resource Targets
 * Results will be either excluded (default) or included.
 
-![Edit Security Catalog Contents Filter](images/security/catalog-2.png)
+![edit](images/security/catalog-2.png "Edit Security Catalog Contents Filter")

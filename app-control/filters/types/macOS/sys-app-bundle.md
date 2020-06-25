@@ -1,7 +1,7 @@
 [title]: # (System App Bundle)
 [tags]: # (filter types)
 [priority]: # (7)
-# System Applications Bundle Filter (MacOS)
+# System Application Bundles Filter (MacOS)
 
 The default filter for app bundles files in /System/Applications on macOS endpoints.
 

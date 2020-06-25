@@ -1,4 +1,4 @@
-[title]: # (Default App Bundle)
+[title]: # (Default App Bundles - File Specification)
 [tags]: # (filter types)
 [priority]: # (4)
 # Default App Bundles File Specification Filter
@@ -18,13 +18,11 @@ The option to include subdirectories is enabled by default.
 
 ## Example
 
-1. Navigate to __Admin | More…__ and select __Filters__.
-1. In the search field for the __Name__ column, search for default.
+1. Navigate to __Admin | Filters__.
+1. In the search field next to the supported/not supported OS drop-downs, search for _default app_.
 
    ![App Bundles filter](images/default.png "Locate the Default App Bundles File Specification Filter")
 1. Select the __Default App Bundles File Specification Filter__ filter to view its details and/or create a copy to customize the filter.
-1. Click __Edit__.
+1. Click __Duplicate__.
 1. Set the needed parameters.
-
-   ![settings](images/dflt-ab-1.png "Changing settings for the Default App Bundles File Specification filter")
-1. Click __Save__.
+1. Click __Save Changes__.

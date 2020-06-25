@@ -5,7 +5,7 @@
 
 The default filter for discovering application bundles in /Applications on macOS endpoints.
 
-![default apps](images/dflt-app-bundle.png "Default Applications Bundle Filter (MacOS)")
+![default apps](images/dflt-app-bundle.png "Default Application Bundles Filter (MacOS)")
 
 This filter is available for macOS systems.
 

@@ -5,7 +5,7 @@
 
 <!-- TODO: UPDATE BASED ON WIZARD APPROACH AND ONLY USE ONE EXAMPLE (.BAT) FOR BLANK POLICY. Work will be done via https://thycotic.visualstudio.com/Thycotic.ManagementServer/_workitems/edit/184325 -->
 
-## Best Practices - File Inventory 
+## Best Practices - File Inventory
 
 As a best practice you create an elevate policy with a priority of X (for example 20) to elevate or allow specific scripts or files to run. Then you add a policy with a priority of X+1 (for this example 21) to deny any other execution of the command processor, PowerShell, or Microsoft installer files. For this example .msi is used.
 
@@ -14,7 +14,7 @@ As a best practice you create an elevate policy with a priority of X (for exampl
 1. In the Privilege Manager Console under __Computer Groups__ navigate to __Application Policies__.
 2. On the Filter page, click **Add New Filter**.
 3. On the New Filter page, select the platform. This can be either **Both Windows / Mac OS**, **Windows**, or **Mac OS**. For this example, select **Windows**.
-4. From the Filter Type drop*down select **File Specification Filter**.
+4. From the Filter Type drop-down select **File Specification Filter**.
 
    ![File Specification Filter](images/sff/file_spec_filter.png)
 

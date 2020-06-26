@@ -74,19 +74,29 @@ In this example we are creating the secondary file filter.
 
 Once the policy is created, it can be customized. 
 
-* The policy is inactive and to activate it, the switch needs to be set to active.
+## Verifying the Policy Works
 
-  ![inactive](images/pol-inactive.png "Inactive policy switch") - ![active](images/pol-active.png "Active policy switch")
-* Computer Groups Targeted can be edited by either 
-  * deleting the current target by clicking the __x__ next to the computer group name, or
-  * adding another computer group by clicking __Add__. 
-* Click the explanation point next to Deployment to run the __Resource and Collection Targeting Update Task__.
-* Modify the priority if needed, specific deny policy get lower priority values than monitor, allow, or elevate policies.
-* Under Conditions edit the Applications Targeted, the Inclusion, and Exclusion Filters. 
-* Under Actions edit the which message action to use, if child actions are applicaple, and if you wish to audit all activies this policy is detecting.
-* Clicking __Show Advanced__, provides access to setting Policy Enforcement options, like:
-  * Continue Enforcing
-  * Applies to All Processes
-  * Enforce Child Processes
-  * Stage 2 Processing
-  * Skip Policy Analysis at Start-up. 
+1. Add a test.bat file with a simple Hello World command to your system.
+   1. Create a new text file and add
+   
+      ```bash
+      ECHO OFF
+      ECHO Hello World
+      PAUSE
+      ```
+   1. Save the file as test.bat.
+1. With your policy set to __active__, double-click the test.bat file.
+
+   ![active policy](images/pol-act.png "Policy is set to active")
+
+   The policy triggers the specified message action:
+
+   ![deny msg](images/mes-action.png "The Application Denied Message Action is displayed")
+1. With your policy set to __inactive__, verify via Agent Utility that the update was received and the policy was removed:
+
+   ![agent](images/agent-update.png "Verify the Agent received the update")
+1. Double-click the test.bat file.
+
+   ![hello world](images/hello-world-bat.png "The batch file executes")
+
+   The batch file is executed and Hello World is printed to the cmd.exe output window.

@@ -3,6 +3,8 @@
 [priority]: # (2)
 # Batch File Example
 
+In this example we are creating a policy to deny running a test.bat file.
+
 ## Creating the File Filter for .bat Files
 
 In this example we are creating a filter for the target executing .bat files.
@@ -24,7 +26,7 @@ In this example we are creating a filter for the target executing .bat files.
 1. Verify that First Discovered is set to __Anytime__ (default).
 1. Click __Save Changes__.
 
-### Creating the Secondary Filter
+## Creating the Secondary Filter
 
 In this example we are creating the secondary file filter.
 
@@ -46,7 +48,7 @@ In this example we are creating the secondary file filter.
 1. Click __Update__.
 1. Click __Save Changes__.
 
-### Creating the Policy
+## Creating the Policy
 
 1. Navigate to __Computer Groups | Windows Computers__.
 1. Select __Application Policies__.
@@ -56,9 +58,9 @@ In this example we are creating the secondary file filter.
 1. In the policy wizard select __Notify and Block__, click __Next Step__.
 1. In the policy wizard select __Executable__, click __Next Step__.
 1. In the policy wizard select __Existing Filter__, click __Next Step__.
-1. Here we are searching for 2 different files and add those to the policy at the same time:
+1. Here we are searching for 2 different files to add those to the policy at the same time:
    1. In the modal search field type "secondary file filter" and __Add__ the secondary file filter you created in the previous procedure.
-   1. Search for "Command Processor" and __Add__ the Command Processor (cmd.exe).
+   1. Search for "Command Processor" and __Add__ the Command Processor (cmd.exe) filter.
 
    ![add filter](images/bat-pol-add-sff-2.png "Adding the secondary file filter for batch files to the policy")
 1. Click __Update__.
@@ -72,7 +74,7 @@ In this example we are creating the secondary file filter.
 
    ![bat policy](images/bat-deny-pol.png "Policy to deny batch file execution")
 
-Once the policy is created, it can be customized. 
+Once the policy is created, it can be [customized](../../../../policies/policy-page.md).
 
 ## Verifying the Policy Works
 

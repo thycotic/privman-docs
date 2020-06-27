@@ -1,9 +1,9 @@
 [title]: # (Best Practice)
-[tags]: # (policy, deny, allow, best practice)
+[tags]: # (secondary file filter, file inventory, create policy)
 [priority]: # (2)
 # Best Practice Using a Secondary File Filter
 
-<!-- TODO: UPDATE BASED ON WIZARD APPROACH AND ONLY USE ONE EXAMPLE (.BAT) FOR BLANK POLICY. Work will be done via https://thycotic.visualstudio.com/Thycotic.ManagementServer/_workitems/edit/184325 -->
+TODO: UPDATE BASED ON WIZARD APPROACH AND ONLY USE ONE EXAMPLE (.BAT) FOR BLANK POLICY. Work will be done via https://thycotic.visualstudio.com/Thycotic.ManagementServer/_workitems/edit/188257
 
 ## Best Practices - File Inventory
 
@@ -12,7 +12,7 @@ As a best practice you create an elevate policy with a priority of X (for exampl
 ### Creating the Allow notepad++\*.msi Filter
 
 1. In the Privilege Manager Console under __Computer Groups__ navigate to __Application Policies__.
-2. On the Filter page, click **Add New Filter**.
+<!-- 2. On the Filter page, click **Add New Filter**.
 3. On the New Filter page, select the platform. This can be either **Both Windows / Mac OS**, **Windows**, or **Mac OS**. For this example, select **Windows**.
 4. From the Filter Type drop-down select **File Specification Filter**.
 
@@ -114,5 +114,5 @@ From any other location in the Privilege Manager console follow these steps:
 2. Select the **General** tab.
 3. Click **Policy Targeting Update**.
 
-
+-->
 

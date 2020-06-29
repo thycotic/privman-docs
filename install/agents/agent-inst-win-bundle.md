@@ -34,23 +34,6 @@ To install Thycotic agents __on multiple machines__, we recommend the following:
 1. Download the [Agent standalone MSI](agent-inst-win.md) files based on specific systems.
 1. Push them out through any software delivery system tool (e.g.: SCCM) using the recommended command lines.
 
-## Agent Diagnostics
-
-Once your agents are installed, verify that they have registered in Privilege Manager. Navigate to the __ADMIN | Diagnostics__ page from the Dashboard, or __ADMIN | Agents__ to view your agent details.
-
-![Access Agent Diagnostics](images/bundle/menu-diag.png)
-  
-After the initial policies are received, future updates will be based on the task schedules set in Update Applicable Policies and Scheduled Registration policies. Ensure to select the correct policies based on Windows or Mac operating systems. To edit these schedules, navigate to __Admin | Policies | General__ tab, click the desired task, click the __Triggers__ tab, and then __Edit__.  
-  
-![Diagnostics Overview](images/bundle/diag-overview.png)
-
-On the Diagnostics page you will see the quantity of agents registered and what operating system is running on registered endpoints. Registered endpoints can also be viewed in the report (run from the __REPORTS__ menu selection) __Agent Installation Summary__ or by navigating to the __Admin | Agents | Agent Reports__ tab.  
-  
-![Reports page](images/bundle/reports-page.png)
-
-![Resource Explorer](images/bundle/resource-explorer.png)
-
-From the __Agent Installation Summary__ report you can click into any of the __target machines__ listed that have a Thycotic agent installed. Pictured above is a view from one of these resource pages where you can check the machine's System Health and configured policies.
 
 >**Note**:
->If you find that you've entered the wrong Privilege Manager Server address or want to change this settings, refer to the information under [Setting the Privilege Manager Server Address](agent-set-server-address.md).
+>If you find that you've entered the wrong Privilege Manager Server address or want to change this settings, refer to the information under [Setting the Privilege Manager Server Address](../../agents/agent-set-server-address.md).

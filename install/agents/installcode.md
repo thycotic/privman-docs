@@ -39,6 +39,6 @@ The script will request parameters, as follows:
 
 Agents can be installed without an install code, but they will be unable to register with the server until an installcode is provided.
 
-If older agents are used, the __Prevent Legacy Agent Registration (10.4 and older)__ option might be checked under __ADMIN | Configuration | Advanced__ tab, which prevents older agents without install code from registering.
+If older agents are used, the __Prevent Legacy Agent Registration (10.4 and older)__ option might be checked in the __General__ section under the __Admin | Configuration | Advanced__ tab, which prevents older agents without install code from registering.
 
-If an agent was previously installed and never revoked, the endpoint will still have a valid certificate and a new agent can be installed with post-install registration.
+If an agent was previously installed and never revoked, the endpoint continues to have a valid certificate and a new agent can be installed with post-install registration.

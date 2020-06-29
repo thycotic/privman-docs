@@ -29,9 +29,26 @@ The Agent Health dials describe how many Managed Operating Systems you have as w
 
 Clicking the Agent Policy State dial from the Home dashboard brings you to a report that links all of your agent-registered machines with the Number of Policies Missing from each agent. This page will become invaluable once you have multiple policies running over different computer groups in your network.
 
-## Diagnostics
+### Agent Diagnostics
 
-Navigate to the __ADMIN | Diagnostics__ page to view more comprehensive agent details. The Diagnostics page also is the go-to stop for full system health. Go here to find Server Console Logs and other system level warnings or tips.
+Once your agents are installed, verify that they have registered in Privilege Manager. Navigate to either:
+
+* __Admin | Diagnostics__ to access the __Diagnostics__ page or
+
+  ![Diagnostics Overview](images/diag-overview.png "Diagnostics Overview")
+* __ADMIN | Agents__ to view your agent details.
+
+  ![Diagnostics Overview](images/agents-overview.png "Agents Overview")
+
+After the initial policies are received, future updates will be based on the task schedules set in Update Applicable Policies and Scheduled Registration policies. Ensure to select the correct policies based on Windows or Mac operating systems. To edit these schedules, navigate to your computer group and select __Scheduled Jobs__. The __Triggers__ can be customized under the __Job Schedule__ section.  
+  
+On the agent details page you will see the quantity of agents registered and what operating system is running on registered endpoints. Registered endpoints can also be viewed in the report __Agent Installation Summary__ by navigating to the __Agent Reports__ tab.  
+  
+![Reports page](images/reports-page.png)
+
+From the the reports pages you can click into any of the __target machines__ listed that have a Thycotic agent installed. Pictured below is a view from one of these resource pages where you can check the machine's System Health and configured policies.
+
+![Resource Explorer](images/resource-explorer.png)
 
 ## Agent Encryption
 

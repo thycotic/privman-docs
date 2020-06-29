@@ -18,7 +18,7 @@ These following topics are available:
   * [HelpDesk Approvals](approval/helpdesk.md)
   * [Setup a Policy to use Google Authenticator](approval/google-authentication.md)
 
-* [Whitelisting Policies](safe/index.md)
+* [Allowlisting Policies](safe/index.md)
   * [Google Application with File Upload](safe/google-app-file-up.md)
   * [Microsoft Security Catalog](safe/ms-sec-cat.md)
 

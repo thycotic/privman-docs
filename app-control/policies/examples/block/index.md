@@ -5,7 +5,7 @@
 
 Blocking is a policy that denies applications from running on your endpoints based on application attributes, file hash, location, or certificates. This is a powerful type of policy and it may be used to block specific, known and unwanted applications from running. A block policy can target programs that prevent productivity for your end users or applications that are known malware. If malware, you can also add a quarantine action for your block policy as outlined in the second example below.
 
-Thycotic Privilege Manager controls any application on a machine. When you configure Privilege Manager correctly, targeted applications can be elevated, whitelisted, or blocked. But if you create new policies without careful consideration then you can potentially block core system processes.
+Thycotic Privilege Manager controls any application on a machine. When you configure Privilege Manager correctly, targeted applications can be elevated, allow listed, or blocked. But if you create new policies without careful consideration then you can potentially block core system processes.
 
 Before you create new polices, keep in mind the following best practices:
 

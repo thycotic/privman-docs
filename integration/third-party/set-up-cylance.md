@@ -49,9 +49,9 @@ Keep in mind that while the Cylance integration provides insight into threat ana
 1. Click __Edit__ to select the __Rating Level__ you wish to apply, the options are:
 
    * Unclassified
-   * Whitelist
+   * Allowlist
    * Greylist
-   * Blacklist
+   * Denylist
 
    You can also specify a Timeout value and Error Handling conditions on timeout and/or on failure, the options are:
 

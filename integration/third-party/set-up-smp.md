@@ -118,7 +118,7 @@ After the Package Synchronization completes the SMP Packages can be used in appl
 
     ![Update Membership](images/sccm/package-contents-filter-sync.png)
 
-    Running the sync package task, causes the server to inventory the package referenced in the filter. If you have multiple filters and packages, Thycotic recommends to use the _Inventory Packages Referenced in Whitelists_ task instead.
+    Running the sync package task, causes the server to inventory the package referenced in the filter. If you have multiple filters and packages, Thycotic recommends to use the _Inventory Packages Referenced in Allow Lists_ task instead.
 1. Click __Save__.
 
 This filter can then be referenced in Application Control policies.

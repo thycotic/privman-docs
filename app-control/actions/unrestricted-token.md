@@ -48,8 +48,8 @@ Access is granted only if both access checks allow the requested access rights.
 
 #### When to use restricted ID
 
-Use a restricted SID to further restrict the applications in the sandbox, which you can use as another method of graylisting. In other words, this is a way to protect yourself against unknown applications if you don't want to implement
-blacklisting.
+Use a restricted SID to further restrict the applications in the sandbox, which you can use as another method of greylisting. In other words, this is a way to protect yourself against unknown applications if you don't want to implement 
+denylisting.
 
 The restricted SID will allow only Read access to the user registry but not to the local machine registry. Also, restricted processes do not have rights to open any network-based resource, such as file servers. As a result, the
 restricted SID will be able to do very little and apps may not work correctly under this model. Ultimately, apps in the sandbox that have restricted SID applied to them will be severely locked down.

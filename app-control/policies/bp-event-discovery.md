@@ -67,7 +67,7 @@ For a production environment it is necessary to know when potentially dangerous 
 
 Approval and justification policies always generate an event as required for an audit trail. These events cannot be subdued.
 
-Self-elevation, blacklist, and other events on an endpoint triggering UAC are part of the never-ending event discovery process in an organization.
+Self-elevation, deny list, and other events on an endpoint triggering UAC are part of the never-ending event discovery process in an organization.
 
 ## Best Practices
 
@@ -76,19 +76,19 @@ Create policies that are used for a certain amount of time before they are revis
 * What exceptions can be made if any
 * When to use overrides
 * What to block
-* What to blacklist.
+* What to deny list.
 
 For certain groups of users, it might also be an idea to target a specific machine routinely to use the data to fine-tune any policies that are enforced on the endpoint. Group policies based on existing groupings – AD OUs, AD user groups, SCCM groups, etc.
 
 However, requirements and circumstances are not set in stone and revisiting existing and established policies is part of a best practice approach in PAM.
 
-It is important for administrators to know when (and potentially why) blacklisting policies are triggered. It indicates that employees are violating company policy. However, if this happens a lot, it might indicate that there is a business need for this application and that the blocked software was not fully understood. 
+It is important for administrators to know when (and potentially why) deny listing policies are triggered. It indicates that employees are violating company policy. However, if this happens a lot, it might indicate that there is a business need for this application and that the blocked software was not fully understood. 
 
 ## Examples
 
 ### Send Policy Feedback
 
-An UAC override policy allows a user to elevate a program not blocked by a blacklist or elevated by a whitelist, by reentering their password to install/run, is a good candidate for sending policy feedback. It presents an exception to normal execution of programs as an unprivileged user. This type of event logging should be used to identify new programs to add to silent elevation policies if the frequency warrants, or to audit user usage to elevate items they shouldn't to mark them for blocking or follow up action.
+An UAC override policy allows a user to elevate a program not blocked by a deny listing or elevated by an allow list, by reentering their password to install/run, is a good candidate for sending policy feedback. It presents an exception to normal execution of programs as an unprivileged user. This type of event logging should be used to identify new programs to add to silent elevation policies if the frequency warrants, or to audit user usage to elevate items they shouldn't to mark them for blocking or follow up action.
 
 ### Don’t Send Policy Feedback
 

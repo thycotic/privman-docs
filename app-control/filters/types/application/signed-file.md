@@ -31,6 +31,6 @@ Under Settings users:
 
 Adobe (TM) requires several certificates that are used to sign applications.
 
-Because of this, you may want all applications signed by Adobe to be whitelisted, so that a signed application filter targeting Adobe Certificates allows all applications signed by Adobe to run.
+Because of this, you may want all applications signed by Adobe to allow listed, so that a signed application filter targeting Adobe Certificates allows all applications signed by Adobe to run.
 
 Targeting the latest Adobe Flash Installer via a Win32 Executable filter and then using the signed application filter ensures that the application really is the adobe flash installer. The Signed Application Filter works as a validation filter for applications.

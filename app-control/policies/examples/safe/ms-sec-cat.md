@@ -1,9 +1,9 @@
 [title]: # (MS Security Catalog)
-[tags]: # (whitelist)
+[tags]: # (allow list)
 [priority]: # (4602)
 # MS Security Catalog
 
-This policy uses a built-in filter to whitelist Microsoft’s Signed Security Catalog. This filter is often used to dynamically whitelist update items from Microsoft.  Whitelisting these executables clears them so they are not effected by any other policy, (i.e. they are allowed to run).
+This policy uses a built-in filter to allow list Microsoft’s Signed Security Catalog. This filter is often used to dynamically allow to update items from Microsoft. Allow listing these executables clears them so they are not effected by any other policy, (i.e. they are allowed to run).
 
 1. Navigate to __Admin | Policies__, then click on Create a New Policy.
 1. From the Platform drop-down select __Windows__.
@@ -18,4 +18,4 @@ This policy uses a built-in filter to whitelist Microsoft’s Signed Security Ca
 1. Check the __Enabled__ box to activate this policy.
 1. Click __Save__.
 
-There is no need to add actions under the Actions tab, because these applications are Whitelisted, they are allowed to run with default permissions.
+There is no need to add actions under the Actions tab, because these applications are allow listed, they are allowed to run with default permissions.

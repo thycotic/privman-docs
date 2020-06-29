@@ -26,7 +26,7 @@
 | | Inventory Package | Run this task to scan the contents of a package and report detailed information on files it contains for reports, filters, etc. |
 | | Inventory Package with Exclusions | Run this task to scan the contents of a package and report detailed information on files it contains for reports, filters, etc. |
 | | Inventory Packages | Run this task to scan the contents of a list of packages and report detailed information on files it contains for reports, filters, etc. |
-| | Inventory Packages Referenced in Whitelists | Run this task to collect detailed information for files contained in packages referenced in one or more whitelists. |
+| | Inventory Packages Referenced in Allow Lists | Run this task to collect detailed information for files contained in packages referenced in one or more allow lists. |
 | | Inventory Uploaded File | This task is used internally to collect detailed information from files uploaded remotely to the server. It is visible only for status information and troubleshooting. |
 | Foreign Systems | | |
 | | [SCCM](../../integration/third-party/set-up-sccm.md) | Tasks here let you synchronize users, computers, and specific SCCM collection. |

@@ -133,8 +133,6 @@ This topic provides the Privilege Manager filters catalog for all out-of-the-box
 
 | Filter | Description |
 | ----- | ----- |
-| __Application Signed By Certificates Secondary Filter for policy: New Whitelist Signed Applications Policy__  | Filter used to capture secondary files (such as MSI or scripts) for policy: ‘New Whitelist Signed Applications Policy’. This policy will add administrator rights to applications signed by the chosen certificates|
-| __Application Signed By Certificates Secondary Filter for policy: Whitelist Microsoft Security Catalog Applications__ | Filter to capture secondary files (such as MSI or scripts) for policy: ‘Whitelist Microsoft Security Catalog Applications’. This policy will add administrator rights to applications signed by the chosen certificates |
 | __Target MSI and Scripts executed from the User’s Temp Directory__ | Filter used to target MSI and Scripts executed from the User’s Temp Directory |
 
 ## Security Rating Filters
@@ -276,14 +274,14 @@ VirusTotal Filters based on configuring VirusTotal integration in Privilege Mana
 
 | Filter | Description |
 | ----- | ----- |
-| __All Blacklist Security Rated Applications__ | This collection contains all applications that have been blacklisted by applying a security rating |
+| __All Deny List Security Rated Applications__ | This collection contains all applications that have been denylisted by applying a security rating |
 | __All Executables Discovered in Last 2 Weeks__ | Filter used to detect files that have been discovered by the server in the past 2 weeks|
 | __All Executables Discovered in Last Day__| Filter used to detect files that have been discovered by the server in the past day  |
 | __All Executables Discovered in Last Week__ | Filter used to detect files that have been discovered by the server in the past week |
 | __All Executables Discovered in Last Month__  | Filter used to detect files that have been discovered by the server in the past month |
 | __All Greylist Security Rated Applications__  | This collection contains all applications that have been greylisted |
 | __All Unclassified Applications__ | This collection contains all applications that have not been classified by a security rating|
-| __All Whitelist Security Rated Applications__ | This collection contains all applications that have been whitelisted by applying a security rating |
+| __All Allow Listed Security Rated Applications__ | This collection contains all applications that have been allowed by applying a security rating |
 
 ### Mach-O Header Filters
 

@@ -87,7 +87,7 @@ Many organizations leverage ticketing systems to streamline their support workfl
 
 ## Symantec Enterprise Platform (SEP)
 
-For those organizations utilizing the [Symantec Endpoint Protection](../integration/third-party/set-up-smp.md) or Symantec Endpoint Protection Cloud solution for whitelisting and reputation, Privilege Manager can utilize the SEP whitelist and reputation engine to inform and prescribe its provision of application control capabilities across endpoints.
+For those organizations utilizing the [Symantec Endpoint Protection](../integration/third-party/set-up-smp.md) or Symantec Endpoint Protection Cloud solution for allow listing and reputation, Privilege Manager can utilize the SEP allow list and reputation engine to inform and prescribe its provision of application control capabilities across endpoints.
 
 ## SysLog / SIEM
 
@@ -95,7 +95,7 @@ You can integrate your least privilege and application control program with a SI
 
 ## System Center Configuration Manager (SCCM)
 
-Privilege Manager can integrate with [Microsoft System Center Configuration Manager](../integration/third-party/set-up-sccm.md) and scan SCCM software delivery “packages” for applications that can be whitelisted by Privilege Manager.
+Privilege Manager can integrate with [Microsoft System Center Configuration Manager](../integration/third-party/set-up-sccm.md) and scan SCCM software delivery “packages” for applications that can be allow listed by Privilege Manager.
 
 ## Tailored Block, Elevation, Justification, and Monitoring Policies
 

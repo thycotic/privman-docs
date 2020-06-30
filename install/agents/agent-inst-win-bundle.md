@@ -34,6 +34,5 @@ To install Thycotic agents __on multiple machines__, we recommend the following:
 1. Download the [Agent standalone MSI](agent-inst-win.md) files based on specific systems.
 1. Push them out through any software delivery system tool (e.g.: SCCM) using the recommended command lines.
 
-
 >**Note**:
 >If you find that you've entered the wrong Privilege Manager Server address or want to change this settings, refer to the information under [Setting the Privilege Manager Server Address](../../agents/agent-set-server-address.md).

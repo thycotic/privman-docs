@@ -27,11 +27,11 @@ The Agent Log Viewer is very helpful for troubleshooting issues with policies no
 
 For example, in the screenshot below of the Agent Log Viewer, you will see a policy called “Block Notepad - Deny Application Execution Policy” that has been applied to the endpoint.
 
-![Block Notepad - Deny Application Execution Policy example](images/pm_agent_utility_logs.png)
+![Block Notepad - Deny Application Execution Policy example](../win/images/pm_agent_utility_logs.png)
 
 The highlighted entry on the screenshot above shows that the “Block Notepad - Deny Application Execution Policy” was triggered when notepad was opened. Double-click on the log entry to see further details as shown below. This shows the exact process that met the criteria of the policy and shows the priority number of that policy. The policy priority is useful information if the application continues processing through multiple policies.
 
-![Log Message Viewer](images/pm_agent_utility_logs.png)
+![Log Message Viewer](../win/images/entry-detail.png)
 
 With this information, you know that the policy applied to the Notepad process correctly. If there were other policies that applied to that same process, you would see them in the log viewer as well. There are certain situations in which clients will apply multiple policies to the same process. When troubleshooting issues with certain files or applications, the log viewer is a valuable tool to use.
 

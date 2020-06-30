@@ -1,52 +1,11 @@
-[title]: # (Batch File)
+[title]: # (Script Execution)
 [tags]: # (secondary file filter)
 [priority]: # (2)
-# Batch File Example
+# Script Execution File Example
 
-In this example we are creating a policy to deny running a test.bat file.
+In this example we are creating a policy to deny running a batch or ps1 file, which the policy targets through a secondary file filter.
 
-## Creating the File Filter for .bat Files
-
-In this example we are creating a filter for the target executing .bat files.
-
-1. In the Privilege Manager Console navigate to __Admin | Filters__.
-1. On the Filter page click __Create Filter__.
-1. On the __Create Filter__ modal select the platform. This can be either __Both Windows / Mac OS__, __Windows__, or __Mac OS__. For this example, select __Windows__.
-1. From the Type drop-down select __Blank Win32 Executable Filter__. This also allows you to link in hashes or signatures.
-1. Enter the name and a description for the filter, for example _test.bat_ and _filter for batch files_.
-
-   ![create](images/test-bat-filter.png "Creating the a batch filter")
-1. Click __Create__.
-1. Under Settings for __File Name__ enter either a single file name, file specification, or RegEx.
-
-   ![edit](images/file-specifications-bat.png "Adding the file name and verifying the First Discovered setting")
-
-   For this example, we use __test.bat__ to police a single file name.
-
-1. Verify that First Discovered is set to __Anytime__ (default).
-1. Click __Save Changes__.
-
-## Creating the Secondary Filter
-
-In this example we are creating the secondary file filter.
-
-1. In the Privilege Manager Console navigate to __Admin | Filters__.
-1. On the Filter page click __Create Filter__.
-1. On the __Create Filter__ modal select the platform. This can be either __Both Windows / Mac OS__, __Windows__, or __Mac OS__. For this example, select __Windows__.
-1. From the Type drop-down select __Secondary File Filter__. 
-1. Enter the name and a description for the filter, for example _secondary file filter for batch files_.
-
-   ![create](images/sff-batch.png "Creating the Secondary File Filter to target batch files")
-1. Click __Create__.
-1. Under Settings click __Add Filters__.
-
-   ![add](images/add-bat-filter.png "Searching for and adding the test.bat filter")
-1. Search for __test.bat__, as created in _Creating the File Filter for .bat Files_ procedure above.
-1. Click __Add__.
-
-   ![Adding File Filter](images/sff-bat-update.png "Updating the filter")
-1. Click __Update__.
-1. Click __Save Changes__.
+This example is for a Windows endpoint, but the policy can be created in the same way for a macOS system.
 
 ## Creating the Policy
 
@@ -56,25 +15,39 @@ In this example we are creating the secondary file filter.
 1. In the policy wizard select __Controlling__, click __Next Step__.
 1. In the policy wizard select __Block__, click __Next Step__.
 1. In the policy wizard select __Notify and Block__, click __Next Step__.
-1. In the policy wizard select __Executable__, click __Next Step__.
-1. In the policy wizard select __Existing Filter__, click __Next Step__.
-1. Here we are searching for 2 different files to add those to the policy at the same time:
-   1. In the modal search field type "secondary file filter" and __Add__ the secondary file filter you created in the previous procedure.
-   1. Search for "Command Processor" and __Add__ the Command Processor (cmd.exe) filter.
+1. In the policy wizard select __Script__, click __Next Step__.
+1. In the policy wizard select __File Upload__.
+   1. On the Upload a File modal, Click __Choose File__.
 
-   ![add filter](images/bat-pol-add-sff-2.png "Adding the secondary file filter for batch files to the policy")
-1. Click __Update__.
+      ![upload](images/choose-file.png "Upload a File dialog")
+   1. Select the file(s) you wish to be targeted. For this example we are first uploading a test.bat and then test.ps1 file. You need to run through the upload and manage application steps twice, once for each file you are uploading.
 
-   ![add policy](images/bat-add-pol.png "Policy Wizard with selected filters")
-1. Click __Next Step__.
+      ![upload](images/upload.png "Upload a File dialog with file added")
+   1. Click __Upload File__.
+   1. On the Manage Application dialog, check __File Name__.
 
-   ![finalize policy](images/bat-finalize.png "Finalizing the policy")
-1. Enter a name and customize the description to finalize the policy.
+      ![manage app](images/manage-app.png "Select the filter creation settings")
+
+      Select more details like the File Path or the Hash, if you want to make this policy more specific.
+   1. Click __Create Filter__.
+
+      ![filter](images/filter.png "Policy wizard with filters added")
+   1. Click __Next Step__.
+1. On the Finalize the Policy page, enter a name for your new policy. The policy will be created with a default priority of 10, since it is a deny and notify policy.
+
+   ![create](images/create.png "Finalize and create the policy")
 1. Click __Create Policy__.
 
-   ![bat policy](images/bat-deny-pol.png "Policy to deny batch file execution")
+   ![final](images/script-policy.png "Finalized policy")
 
-Once the policy is created, it can be [customized](../../../../policies/policy-page.md).
+The policy wizard added based on the selected file uploads and the file inventory that was executed 4 types of application targets:
+
+* Command Processor (cmd.exe)
+* Powershell (powershell.exe)
+* Scripting Host (cscript.exe)
+* Scripting Host (wscript.exe)
+
+A secondary file filter was added under Inclusions, identifying two specific file filters for the test.bat and test.ps1 files.
 
 ## Verifying the Policy Works
 

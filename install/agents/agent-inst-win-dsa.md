@@ -7,7 +7,9 @@ This agent supports the Active Directory synchronization between Privilege Manag
 
 The agent method requires that the Directory Services Agent is installed on one computer connected to a domain controller. Once installed, the agent receives the Active Directory Sync (Agent) scheduled task along with other parameters such as the credential used, which AD objects, etc. to perform a synchronization between a Cloud instance and local AD.
 
->**Note**: The Directory Services Agent for local AD synchronization with Privilege Manager Cloud instances is available for x64-bit systems only.
+>**Note**: If the Directory Services Agent is installed on a system with an Application Control or a Local Security Agent, a license will be consumed. If a system has the Directory Services agent installed ONLY, no license is consumed.
+>
+>The Directory Services Agent for local AD synchronization with Privilege Manager Cloud instances is available for x64-bit systems only.
 
 ## Prerequisites
 

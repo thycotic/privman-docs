@@ -24,14 +24,18 @@ To install licenses without Secret Server:
 
 1. Navigate to __Admin | Licenses__ or __click__ the Product Licenses Installed link in the top banner.
 
-   ![Navigate to Licensing Page](images/license/nav-to-licensing.png)
+   ![license page](images/license/nav-to-licensing.png "Navigate to Licensing Page")
 
-1. On the Privilege Manager Licenses page, click __Add License__, then 
-   1. enter your License Name(s) and 
-   1. Key(s) one at a time, 
-   1. select Add License to finish.
+1. On the Privilege Manager Licenses page, click __Add License__, then either
+   * enter your License Name(s) and Key(s) one at a time: 
 
-   ![Enter licenses and keys](images/license/enter-lic.png)
+     ![enter keys](images/license/enter-lic.png "Enter licenses and keys")
+
+     or
+   * use the __Add license certificate instead__ option.
+
+     ![enter cert](images/license/enter-lic-cert.png "Enter license certificate")
+1. Click __Add__.
 
 ### Steps for Combined Secret Server + Privilege Manager Installation
 
@@ -39,7 +43,7 @@ To install licenses with Secret Server on the same server as Privilege Manager, 
 
 1. To access Secret Server’s licensing page, either click the Secret Server link listed in the banner at the top of the Privilege Manager Licenses page or navigate to __Admin | Setup – Licenses__.
 1. From Secret Server’s License page, select Install New License.
-1. Enter your License Names and Keys individually or through the Bulk Entry Mode. 
+1. Enter your License Names and Keys individually or through the Bulk Entry Mode.
 1. Click Save or Add Multiple Licenses to save the License Keys. Installing these licenses in Secret Server will automatically import the licenses into Privilege Manager.  
 1. Navigate back to the Privilege Manager License page to verify under:
    __Tools | Privilege Manager | Admin | Privilege Manager–Licenses__.
@@ -55,13 +59,15 @@ If you previously had evaluation licenses and recently purchased, you will need 
 
 When your Privilege Manager licenses expire or have exceeded the licensed count, Privilege Manager will stop processing new inventory and application control events. Endpoints will continue to enforce policies.
 
+In your Installed Licenses list use the __Delete__ option to remove expired or old licenses that are not in use anymore.
+
+![confirm delete](images/license/delete.png "Confirm to delete the selected license")
+
 ## Client vs. Server Licenses
 
 * __Client License__: This license provides coverage for endpoints that are workstations, such as Windows 10, windows 7, etc.
 * __Server License__: This license provides coverage for endpoints that are server machines, Windows Server 2019, Windows 2016, etc.
 * __Support License__: Without having a support license you will not be able to complete upgrades and will not be able to receive support or maintenance.
-
-![Product Licenses](images/license/licenses.png)
 
 ### When a license has expired or have exceeded the license count
 

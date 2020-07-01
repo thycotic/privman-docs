@@ -5,7 +5,7 @@
 
 Once a policy is created, it can be customized. The following screen capture shows a policy example that denies the execution of a specific batch file.
 
-![example bat policy](../filters/types/application/sff/images/bat-deny-pol.png "Policy to deny batch file execution")
+![example bat policy](../filters/types/application/sff/images/script-policy.png "Policy to deny batch file execution")
 
 ## Policy Activation
 

@@ -16,25 +16,27 @@ A user or group needs to be available in Privilege Manager to be selected while 
 
 ## Editing the Restrict Account Permissions on Agent Services (Windows) Policy
 
-1. Navigate to __ADMIN | Policies__.
-1. Click on the __General__ Tab.
-1. In the Name field enter __Agent Services__.
+1. Under your Computer Group, select __Scheduled Jobs__.
+1. Search for __Restrict Account__.
 
    ![Search](images/agent-har/restrict-1.png "Searching for the Restrict Account Permissions on Agent Services policy")
 1. Click on the __Restrict Account Permissions on Agent Services (Windows)__ policy.
 
    ![Policy](images/agent-har/restrict-2.png "Policy")
-1. To customize the policy click __Create a Copy__.
-   1. Customize the name of the copied policy and click __Create__.
+1. To customize the policy click __Duplicate__.
 
-      ![Copy of Policy](images/agent-har/restrict-3.png "Copy of Policy")
-1. Click __Edit__.
-1. Select __Enabled__.
-1. Navigate to the __Parameters tab__.
+   ![copy](images/agent-har/restrict-5.png "Create a copy of the default policy")
+1. Customize the name of the copied policy and click __Create__.
 
-   ![Parameters](images/agent-har/restrict-4.png "Policy Parameters")
-   1. Under __Services__ the Arellia Application Control Service and Arellia Agent Service are present by default. Add any services you might also want to protect by clicking __+__. Use the search field to find and specify other service names.
-   1. Under __User Accounts__ click the __+__ button and use the search field to find specific user accounts that have permissions to make changes to the specified services. Administrators are present by default, if you wish to limit to only a subset of users with administrative rights, create a group and update accordingly.
-1. Click __Save__.
+   ![Copy of Policy](images/agent-har/restrict-3.png "Copy of Policy")
+1. Customize the policy's 
+   * Scheduled Job Details.
+   * Job Settings.
+   * Job Schedule.
+   * Job Conditions.
+   1. Under __Services__ the Arellia Application Control Service and Arellia Agent Service are present by default. Add any services you might also want to protect. Use the search field to find and specify other service names.
+   1. For __User Accounts__ use __Edit__ and use the search field to find specific user accounts that have permissions to make changes to the specified services. Administrators are present by default, if you wish to limit to only a subset of users with administrative rights, create a group and update accordingly.
+1. Click __Save Changes__.
+1. Set the policy to __Active__.
 
 >**Note**: If you wish to update a hardened agent, refer to information under the topic [Windows Agents | Hardened Agents](../../install/agents/agent-inst-win.md#hardened_agents).

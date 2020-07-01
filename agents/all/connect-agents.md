@@ -1,7 +1,7 @@
 [title]: # (Connecting Agents)
 [tags]: # (group policy)
 [priority]: # (3)
-# Connecting Agents to the Privilege Manager Sever
+# Connecting Agents to the Privilege Manager Server via Group Policy
 
 Regardless of how you installed agents or rolled agents out to your network, Privilege Manager has a method to link those agents with Servers. Privilege Manager has templates (files) that enable you to point agents back to the Privilege Manager Server.
 
@@ -23,14 +23,14 @@ To perform this task, do the following steps:
 1. In the Server field, __enter__ the __URL__ for your Privilege Manager Server, click __OK__.
 1. Now you need to copy some data from Privilege Manager. In Privilege Manager, navigate to __Admin | Agents | Installation Codes__ tab.
 
-   ![Agent Installation Codes Copy](images/agent/ag_codes.png)
-1. Copy the Code value found in the Installation Codes tab by clicking on Copy.
+   ![Agent Installation Codes Copy](../../install/agents/images/codes.png)
+1. Copy the __Code__ value by clicking __Copy__.
 1. Switch back to the Group Policy Editor, in the Privilege Manager Agent window, click Install Code.
 
    ![Agent Installation Codes Paste](images/agent/ag_codes2.png)
-   1. In the Install Code window, click Enabled.
+   1. In the Install Code window, click __Enabled__.
    1. In the Install Code field, paste the Code value you copied from Installation Codes tab in Privilege Manager.
-   1. Click OK.
+   1. Click __OK__.
 1. Set the Client Item Signature Validation. By default, Privilege Manager validates only client items that have a signature present. If you want to require that all client items have a valid signature, then configure the group policy settings to enforce the __Require Signed Client Items__ setting.
 
 <!--TODO: Explain Required Signed Client Items-->

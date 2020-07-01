@@ -1,7 +1,7 @@
 [title]: # (Connecting Agents)
 [tags]: # (group policy)
 [priority]: # (3)
-# Connecting Agents to the Privilege Manager Sever
+# Connecting Agents to the Privilege Manager Server via Group Policy
 
 Regardless of how you installed agents or rolled agents out to your network, Privilege Manager has a method to link those agents with Servers. Privilege Manager has templates (files) that enable you to point agents back to the Privilege Manager Server.
 

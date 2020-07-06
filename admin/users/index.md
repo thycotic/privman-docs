@@ -1,6 +1,6 @@
 [title]: # (Users)
 [tags]: # (admin,configuration)
-[priority]: # (1)
+[priority]: # (16)
 # Users
 
 Administrator users can create and edit Privilege Manager users and assign and remove roles for these users.

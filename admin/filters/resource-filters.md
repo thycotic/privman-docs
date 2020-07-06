@@ -1,6 +1,6 @@
 [title]: # (Resource Targets and Collections)
 [tags]: # (filter)
-[priority]: # (3)
+[priority]: # (10)
 # Resource Targets and Collections
 
 A Resource Target in Privilege Manager is a specified set of computers that meet certain criteria (e.g., type of operating system or location of the computers), meant to be used as targets for policies or scheduled tasks. To make a policy apply to a certain set of computers, you need a resource target comprising that set of computers and assign that resource target to the policy (or, to state it differently, assign the policy to the resource target).

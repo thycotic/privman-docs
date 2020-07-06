@@ -1,6 +1,6 @@
 [title]: # (File Upload)
 [tags]: # (operations)
-[priority]: # (2)
+[priority]: # (5)
 # File Upload
 
 The File Upload options allows existing file uploads via the standard Choose File dialog.

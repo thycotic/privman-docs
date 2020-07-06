@@ -1,6 +1,6 @@
 [title]: # (Filters)
 [tags]: # (overview)
-[priority]: # (2)
+[priority]: # (6)
 # Filters
 
 In Privilege Manager, using a robust filtering system is the key to creating accurate and effective Policies.

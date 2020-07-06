@@ -1,6 +1,6 @@
 [title]: # (Resource Explorer)
 [tags]: # (details)
-[priority]: # (1)
+[priority]: # (12)
 # Resource Explorer
 
 The Resource Explorer provides information about any type of resource item in Privilege Manager.

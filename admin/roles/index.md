@@ -1,7 +1,7 @@
-[title]: # (Roles Tab)
+[title]: # (Roles)
 [tags]: # (admin,configuration)
-[priority]: # (1)
-# Roles Tab
+[priority]: # (13)
+# Roles
 
 The following Privilege Manager roles are available by default and it is possible to add to or remove members from these roles. Privilege Manager also allows the creation of new roles, if a customer environment requires more role support.
 

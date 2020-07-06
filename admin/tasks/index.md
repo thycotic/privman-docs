@@ -1,6 +1,6 @@
 [title]: # (Tasks)
 [tags]: # (intro)
-[priority]: # (6000)
+[priority]: # (15)
 # Tasks
 
 In Privilege Manager tasks are activities that can be run on demand or regularly scheduled. If they are regularly scheduled, the schedule triggers the execution of a task instance, which performs specific actions based on set parameters.

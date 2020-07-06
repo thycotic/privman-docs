@@ -1,6 +1,6 @@
 [title]: # (Configuration Feeds)
-[tags]: # (overview)
-[priority]: # (8000)
+[tags]: # (adding templates,out-of-the-box)
+[priority]: # (2)
 # Configuration Feeds
 
 Configuration Feeds are extensions to Privilege Manager. They can be found by navigating to __Admin | More__ and then selecting the __Config Feed__ link. 

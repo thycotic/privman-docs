@@ -1,7 +1,7 @@
-[title]: # (MacOS Specifics)
+[title]: # (Best Practices)
 [tags]: # (ui)
 [priority]: # (1)
-# MacOS Specifics & Best Practices
+# Best Practices Preference Panes
 
 This best practices section pertains to all macOS versions from __El Capitan__ to (and including) __Catalina__.
 

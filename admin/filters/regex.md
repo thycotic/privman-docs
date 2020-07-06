@@ -1,6 +1,6 @@
 [title]: # (Using RegEx)
 [tags]: # (overview)
-[priority]: # (3)
+[priority]: # (11)
 # Using RegEx in Filters
 
 When using RegEx in Filters instead of a single file name or file specification, make sure to verify the syntax and test your filter before using it in production.

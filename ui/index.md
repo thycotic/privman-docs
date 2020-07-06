@@ -1,6 +1,6 @@
-[title]: # (The Privilege Manager UI)
+[title]: # (User Interface)
 [tags]: # (console,home page)
-[priority]: # (2000)
+[priority]: # (100)
 # The Privilege Manager UI
 
 The Privilege Manager user interface, also referred to as the console, is launched in a browser. The URL has the following form:
@@ -12,7 +12,7 @@ Where:
 * server-domain, indicates the customer specific domain name, for example
 
   * https://mydomain.com/TMS/PrivilegeManager for On-premises installations and
-  * https://myassignedname.privilegemanagercloud.com/TMS for Cloud instances.
+  * https://myassignedname.privilegemanagercloud.com/Tms for Cloud instances.
 
 The User Interface (UI) seen by all Privilege Manager roles is the same (whether Administrator or other). However, most of the interface is enabled only when you login in as a Privilege Manager Administrator; the other roles are able to perform very few activities.
 

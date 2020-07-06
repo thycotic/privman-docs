@@ -7,13 +7,13 @@ Privilege Manager analyzes applications in real-time.  This unique feature allow
 
 The monitor approach used here is that all applications that meet a general condition (i.e. executed from a specific directory or directories) will be sent to VirusTotal for a reputation check. For this use case we will perform real-time reputation analysis of unknown applications using VirusTotal.
 
-First, you will need to integrate Privilege Manager and VirusTotal by following the Integration steps listed in the [Setting Up VirusTotal for Reputation Checking](../../../../integration/third-party/set-up-virustotal.md) topic. That section will walk you how to do the following:
+First, you will need to integrate Privilege Manager and VirusTotal by following the Integration steps listed in the [Setting Up VirusTotal for Reputation Checking](../../../../foreign-sys/third-party/set-up-virustotal.md) topic. That section will walk you how to do the following:
 
 1. Configure VirusTotal Ratings Provider
 2. Install VirusTotal in Privilege Manager
 3. Create a Security Rating Filter for VirusTotal
 
-For information and setup steps to configure reputation checking using Cylance, see the [Cylance Integration](../../../../integration/third-party/set-up-cylance.md) topic.
+For information and setup steps to configure reputation checking using Cylance, see the [Cylance Integration](../../../../foreign-sys/third-party/set-up-cylance.md) topic.
 
 ## Creating Security Rating Filter
 

@@ -75,17 +75,18 @@ The other available admin subitems are:
 * [Actions](../../app-control/actions/index.md)
 * [Agents](../../agents/index.md)
 * [Config Feeds](../../config-feeds/index.md)
-* [Configuration](../config/index.md)
-* [Diagnostics](../diagnostics/index.md)
-* [File Upload](../../tools/file-upload.md)
+* [Configuration](../../admin/config/index.md)
+* [Diagnostics](../../admin/diagnostics/index.md)
+* [File Upload](../../admin/file-upload/index.md)
 * [Filters](../../app-control/filters/index.md)
 * Folders
 * [Import Items](../../how-to/maintenance/export-import.md)
 * [Licenses](../../tasks/reset-license.md)
 * [Log Viewer](../../troubleshooting/logs/ts-ui.md)
 * [Personas](../../local-security/personas.md)
-* [Resources](../resources/index.md)
-* [Roles](../config/roles/index.md)
-* Setup
+* [Resources](../../admin/resources/index.md)
+* [Roles](../../admin/roles/index.md)
+* Secret Server - only available if integrated via Foreign Systems
+* [Setup](../../install/upgrades/index.md) - only available for On-premises instances
 * [Tasks](../../tasks/index.md)
-* [Users](../admin/users/index.md)
+* [Users](../../admin/users/index.md)

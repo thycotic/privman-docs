@@ -1,13 +1,15 @@
-[title]: # (Alerts)
+[title]: # (Notifications)
 [tags]: # (active)
 [priority]: # (1)
-# Alerts
+# Notifications
 
-Alerts can be accessed via the Alerts icon in the top right corner of the Privilege Manager console. 
+Notifications can be accessed via the icon next to the search bar in the top right corner of the Privilege Manager console. 
 
-![Alert icon](images/alert-1.png)
+![notification icon](images/alert-1.png "Notification icon")
 
-The Alert icon displays a number indicator for any alert received:
+The notification icon displays an indicator when alerts are pending, such as:
 
-* Helpdesk: Manage Approval Requests
-* Alert Notifications
+* Manage Approvals
+* Notifications
+
+![type](images/alert-11.png "Menu options")

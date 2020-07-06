@@ -1,27 +1,25 @@
-[title]: # (Alert Notifications)
+[title]: # (Alerts)
 [tags]: # (active)
-[priority]: # (1)
-# Alert Notifications
+[priority]: # (2)
+# Alerts
 
-To access Alert Notifications, click the icon and select Alert Notifications from the menu options.
+To access Alerts, click the icon and select Notifications from the menu options.
 
-Notifications are listed by alert categories such as Agents Online, Unacknowledged Events, Install Agents, etc. 
+Alerts are listed by priority and category such as Unacknowledged Events, Pending Approvals Count, Number of Application Events, Install Agents, etc.
 
-![Alert Notifications overview](images/alert-4.png)
+![overview](images/alert-4.png "Alert Notifications overview")
 
 ## Endpoint Specific Alerts
 
 Alert Notifications can also be triggered for a specific endpoint agent, if the computer resource was configured for monitoring.
 
-1. Navigate to __ADMIN | More...__ and select Resources.
+1. Navigate to __Admin | Resources__.
 1. On the __Resources__ tab, open the __Computers__ folder.
-1. Open the Resource Explorer for the endpoint you wish to monitor by clicking on its name in the list.
-1. Select the __Monitor Resource__ checkbox.
 
-   ![Resource Explorer enable monitoring](images/alert-3.png)
+   ![resources](images/alert-5.png "Computer Resources folder")
+1. From the list select the endpoint you with to monitor and open the Resource Explorer for that endpoint.
+1. Set the __Monitor Resource__ switch to active.
 
-Once monitoring is enabled, alert notifications for the agent end point are available via the Alert Notification feature.
+   ![enable monitoring](images/alert-3.png "Resource Explorer enable monitoring")
 
-![Endpoint specific Alert Notifications](images/alert-2.png)
-
-These type of alerts inform about the agent registration, resource discovery, and update retrieval times.
+Once monitoring is enabled, alert notifications for the agent end point are available. These type of alerts inform about the agent registration, resource discovery, and update retrieval times.

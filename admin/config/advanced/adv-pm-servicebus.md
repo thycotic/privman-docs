@@ -5,7 +5,7 @@
 
 Under the Privilege Manager Server category, the fourth section is ServiceBus settings.
 
-![Privilege Manager ServiceBus](images/pm/servicebus.png)
+![Privilege Manager ServiceBus](images/pm/servicebus.png "Privilege Manager ServiceBus")
 
 ## Connectivity Mode
 

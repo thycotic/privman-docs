@@ -69,7 +69,7 @@ In your Installed Licenses list use the __Delete__ option to remove expired or o
 * __Server License__: This license provides coverage for endpoints that are server machines, Windows Server 2019, Windows 2016, etc.
 * __Support License__: Without having a support license you will not be able to complete upgrades and will not be able to receive support or maintenance.
 
-### When a license has expired or have exceeded the license count
+### License Expired or Exceeded License Ccount
 
 The Server will stop accepting data sent from agents that are in violation of the licensing. New endpoints will register, but will not be recorded, which means the endpoint:
 
@@ -80,4 +80,4 @@ The Server will stop accepting data sent from agents that are in violation of th
 
 ## 10.7 and up Reset Licensing
 
-If you need to reset licenses for your Privilege Manager instance refer to the [Reset Licensing](../tasks/reset-license.md) topic.
+If you need to reset licenses for your Privilege Manager instance refer to the [Reset Licensing](../admin/tasks/reset-license.md) topic.

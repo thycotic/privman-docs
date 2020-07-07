@@ -4,24 +4,6 @@
 # List of Default Actions
 
 This topic describes the out-of-the-box actions that are available in Privilege Manager and can be used to make your policy configuration process easy.
-<!--
-## ActiveX Installer
-## Adjust Process Rights
-## Application Classification
-## Apply Application Compatibility Fix Action
-## Deny File Access
-## Deny Windows Hooking
-## Display Advanced Message
-## Display User Message (Basic)
-## Encrypt Application Files
-## Enhanced Mitigation (EMET) Action
-
-  This action can be used on Endpoints that have the Enhanced Mitigation Experience Toolkit installed. The action will enforce an EMET on the targeted application(s).
-
-## Execute Application
-## Sandbox Action
-## Set Environment Variable Action
-## Set Process Security Descriptor Action -->
 
 ## Actions Catalog  
 

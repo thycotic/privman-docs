@@ -13,4 +13,4 @@ Under the File Inventory Solution the file extensions used for inclusions and ex
 
 When you click Edit at the bottom of the page, you can change any of the listed file extensions. 
 
-![Collectors file extension filters](images/advanced/collectors.png)
+![Collectors file extension filters](images/advanced/collectors.png "Collectors file extension filters")

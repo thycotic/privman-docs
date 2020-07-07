@@ -43,4 +43,5 @@
 | | Set Security Rating | Run this task to manually set the security rating (used in filters) for the selected files. |
 | | Update Security Ratings for Resource | Run this task to update the security ratings (used in filters) for the given resources using the given rating system. |
 | Utility | Delete Item | This task will delete an item, and optionally dependent children. |
+| | [Reset Licensing](../reset-license.md) | This task will reset licensing, deleting all installed license keys. |
 | | Update Server Gauge State | This task will update the state of a server gauge. |

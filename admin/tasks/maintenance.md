@@ -19,8 +19,8 @@ The primary maintenance tasks that will need to be scheduled to ensure Privilege
 
 These maintenance tasks can be found at
 
-* __ADMIN | Configuration | General (tab)__ or
-* __ADMIN | Tasks | Jobs__ and
+* __Admin | Configuration | General (tab)__ or
+* __Admin | Tasks | Jobs__ and
 * __Tasks | Infrastructure Scheduled Activities | Maintenance Tasks__.
 
 ### Assign Orphaned Agent Uploads
@@ -43,7 +43,7 @@ This task will delete internal performance counter events last updated before th
 
 __Parameters__: Can be set to Seconds, Minutes, Hours, Days, and Weeks. The default is 1 Day.
 
-This maintenance task should be used if [Save Performance Counters](../ui/config/advanced/adv-pm-general.md#save_performance_counters) is enabled in the general section of the advanced configuration settings.
+This maintenance task should be used if [Save Performance Counters](../config/advanced/adv-pm-general.md#save_performance_counters) is enabled in the general section of the advanced configuration settings.
 
 ### Initialize Item Change History
 
@@ -51,7 +51,7 @@ This task is run after installs to ensure items with change tracking enabled hav
 
 ### LSS Migration Tasks
 
-For information on the LSS Migration tasks refer to [Migrate Local Security Policies](../local-security/migrate-lss-policies.md).
+For information on the LSS Migration tasks refer to [Migrate Local Security Policies](../../local-security/migrate-lss-policies.md).
 
 ### Purge Agent and Gauge Data for Deleted Computers
 
@@ -76,7 +76,7 @@ __Parameters__: Can be set to Seconds, Minutes, Hours, Days, and Weeks. The defa
 Purges the selected Application Control Event types from the database either
 
 * manually based on a specified range of time, or
-* automatically after reaching a set threshold. Refer to [Maximum Application Event Count](../ui/config/advanced/adv-pm-general.md#maximum_application_event_count) time range specified.
+* automatically after reaching a set threshold. Refer to [Maximum Application Event Count](../config/advanced/adv-pm-general.md#maximum_application_event_count) time range specified.
 
 __Parameters__: Event Types to Purge (Application Action Events, Application Justification Events, Application Metering Events, Application Verifier Events). All of these Application Control Events are populated in the various Application Action reports.
 

@@ -36,8 +36,23 @@ Many aspects Privilege Manager can be customized. The gauges displayed on the ho
 
 Gauges are used in Privilege Manager to display the results of periodic configuration checks of the server and endpoints. Gauges allow reports and graphs to keep historical trend data, and speed up access in the console.
 
-### Reports and Gauges Currently Available
+## Reports and Gauges Available
 
 Privilege Manager currently has gauges published to track when an agent last communicated with the server, agents that have received all of their policies, agents that have a random password set, etc.
 
-You can click gauges to drill down for more information.
+You can click the following gauges to drill down for more information:
+
+* Agent Policy State
+* Agent Registration State
+* Application Event Counts by Publisher
+* Application Events Per Policy
+* Event Summary
+* Files by VirusTotal Security Rating Report
+* Managed Operating Systems
+* Pending Approval
+* Top Applications
+* Top Applications Needing Elevation
+* Top Applications Not Elevated or Denied
+* Top Denied Applications
+* Top Users
+* Top Users Attempting to Run Denied Applications

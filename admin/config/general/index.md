@@ -4,7 +4,7 @@
 # General Tab
 
 The General Tab provides a quick access to Privilege Manager Maintenance tasks and job settings.
-![General tab overview](images/config-gen/general.png)
+![General tab overview](images/general.png "General tab overview")
 
 ## Policy Targeting
 
@@ -25,16 +25,16 @@ These are read-only items and by default Administrators are always allowed to ap
 * Default Offline Approval Process
 * Mobile Message Approval Process
 
-## [Maintenance Settings](../../../tasks/maintenance.md)
+## [Maintenance Settings](../../tasks/maintenance.md)
 
-* [Assign Orphaned Agent Uploads](../../../tasks/maintenance.md#assign_orphaned_agent_uploads)
-* [Delete Old Performance Counter Events](../../../tasks/maintenance.md#delete_old_performance_counter_events)
-* [Initialize Item Change History](../../../tasks/maintenance.md#initialize_item_change_history)
-* [Purge Maintenance - Agent Logs](../../../tasks/maintenance.md#purge_maintenance___agent_logs)
-* [Purge Maintenance - Application Events](../../../tasks/maintenance.md#purge_maintenance___application_control_events)
-* [Purge Maintenance - Audit Events](../../../tasks/maintenance.md#purge_maintenance___audit_events)
-* [Purge Maintenance - Completed File Upload Sessions](../../../tasks/maintenance.md#purge_maintenance___completed_file_upload_sessions)
-* [Purge Maintenance - Files Undiscovered](../../../tasks/maintenance.md#purge_maintenance___files_undiscovered)
-* [Purge Maintenance - Incomplete File Upload Sessions](../../../tasks/maintenance.md#purge_maintenance___incomplete_file_upload_sessions)
-* [Purge Maintenance - Message History](../../../tasks/maintenance.md#purge_maintenance___message_history)
-* [Purge Old Computers](../../../tasks/maintenance.md#purge_old_computers)
+* [Assign Orphaned Agent Uploads](../../tasks/maintenance.md#assign_orphaned_agent_uploads)
+* [Delete Old Performance Counter Events](../../tasks/maintenance.md#delete_old_performance_counter_events)
+* [Initialize Item Change History](../../tasks/maintenance.md#initialize_item_change_history)
+* [Purge Maintenance - Agent Logs](../../tasks/maintenance.md#purge_maintenance___agent_logs)
+* [Purge Maintenance - Application Events](../../tasks/maintenance.md#purge_maintenance___application_control_events)
+* [Purge Maintenance - Audit Events](../../tasks/maintenance.md#purge_maintenance___audit_events)
+* [Purge Maintenance - Completed File Upload Sessions](../../tasks/maintenance.md#purge_maintenance___completed_file_upload_sessions)
+* [Purge Maintenance - Files Undiscovered](../../tasks/maintenance.md#purge_maintenance___files_undiscovered)
+* [Purge Maintenance - Incomplete File Upload Sessions](../../tasks/maintenance.md#purge_maintenance___incomplete_file_upload_sessions)
+* [Purge Maintenance - Message History](../../tasks/maintenance.md#purge_maintenance___message_history)
+* [Purge Old Computers](../../tasks/maintenance.md#purge_old_computers)

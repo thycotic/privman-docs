@@ -5,7 +5,7 @@
 
 Adjusting Process Security allows a process to be protected from most tampering by users. For example, adjusting process security can restrict who can stop a process from the task manager.
 
-![Display Set Process Security Descriptor Settings](images/sec-descriptor.png)
+![Display Set Process Security Descriptor Settings](images/sec-descriptor.png "Display Set Process Security Descriptor Settings")
 
 ## Parameters
 

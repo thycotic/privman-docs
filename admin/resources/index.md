@@ -19,11 +19,11 @@ Resources can be deleted from the Resource Explorer page.
 
 The Resource Explorer is accessible by either navigating to
 
-* __Admin | More__, selecting the __Resources__ link and expanding the Resources tree drilling down to a named resource to further explore and/or edit.
+* __Admin | Resources__ and expanding the Resources tree drilling down to a named resource to further explore and/or edit.
 
   ![Opening Resource Explorer via items in Resources tree](images/resource-explorer/resources-tree.png)
 
-* __Change History__ tab of a named resource.
+* __Change History__ tab of a named resource. <!-- TODO: New screen captures -->
 
   ![Opening Resource Explorer via the Change History tab](../config/history/images/config-history/change-hi-tab-details.png)
 

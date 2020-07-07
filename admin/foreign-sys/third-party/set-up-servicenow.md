@@ -8,7 +8,7 @@ Here are the steps to integrate Workflow between your ServiceNow Ticketing Syste
 1. Verify which ServiceNow User account you will use for your integration with Privilege Manager. If you decide to create a new user account to manage your approval requests, make sure that it includes the required roles for your environment:
    * Web Service Admin (`web_service_admin`) and
    * Approval Admin (`approval_admin`).
-   * For ServiceNow MID Server environments, the `mid-server` role permission also needs to be added to the account.
+   * For ServiceNow MID Server environments, the `mid_server` role permission also needs to be added to the account.
 
    Refer to [ServiceNow product documentation](https://docs.servicenow.com/bundle/orlando-platform-administration/page/administer/roles/reference/r_BaseSystemRoles.html).
 1. Verify that the ServiceNow connector is installed for your Privilege Manager Cloud instance:

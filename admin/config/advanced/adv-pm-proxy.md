@@ -5,7 +5,7 @@
 
 Under the Privilege Manager Server category, the third section is Proxy settings.
 
-![Privilege Manager Proxy](images/pm/proxy.png)
+![Privilege Manager Proxy](images/pm/proxy.png "Privilege Manager Proxy")
 
 ## Proxy Server
 

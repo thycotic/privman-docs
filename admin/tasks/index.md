@@ -16,7 +16,7 @@ Tasks are set-up via __Admin | More__ and then selecting the Tasks link. They ar
 
 The following general task topics are available:
 
-* [Agent Hardening](../install/agents/agent-hardening.md)
+* [Agent Hardening](../../agents/win/agent-hardening.md)
 * [Maintenance tasks details](maintenance.md)
 * [Other tasks to schedule](scheduled/index.md)
   

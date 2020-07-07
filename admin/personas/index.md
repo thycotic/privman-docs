@@ -16,9 +16,9 @@ To see all your Personas navigate to __Admin | Personas__. From the Windows Priv
 
 ## Creating a Persona
 
-To create a Persona, click Add New Persona from the Personas page. You will be presented with a dropdown list of Persona Templates to choose from.
+To create a Persona, click __Create Persona__. You will be presented with a dropdown list of Persona Templates to choose from.
 
-![New Personas Page](images/personas/new_persona.png)
+![create](images/new_persona.png "Selecting Create Persona")
 
 | Personas Template | Description |
 | ----- | ----- |
@@ -31,8 +31,10 @@ To create a Persona, click Add New Persona from the Personas page. You will be p
 
 Select a Persona Template and then provide a Name and Description. Once you are ready to proceed, click Create. If you selected any Persona Template other than Custom Persona then you will have pre-populated Behaviors that you can choose to delete or keep. Otherwise, you will start with a blank Persona.
 
-![Select Personas Template](images/personas/new_persona_template.png)
+![Select Personas Template](images/new_persona_template.png "Select Personas Template")
 
 For Persona Settings, you can change the name, description, and whether the Persona will be enabled. For Persona Behaviors, you can click Add Behavior and choose which privilege(s) you want to allow for this Persona. Finally, for Persona Targets you can choose which Active Directory Domain User Groups this Persona will affect and on which Active Directory Organizational Units this Persona will apply.
 
-Check the Enabled box and click Save to finish creating your Persona.
+![new persona](images/new_persona-2.png "Newly created persona")
+
+Set the persona to __Enabled__ and click __Save Changes__ to finish creating your Persona.

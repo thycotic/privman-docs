@@ -15,6 +15,10 @@ Whenever you are in editing mode on a page, you find a __Save__ or __Cancel__ ba
 
 Breadcrumb navigation is provided on the top left of your page.
 
+Table column sorting and filtering is available via the ellipsis on each table column:
+
+![columns](images/column-set.png "Column based sorting/filtering on tables")
+
 ## Search, Notification, Help, User Menus
 
 ![search et al](images/settings.png "Search, Notifications, Help, and User Menu")
@@ -35,12 +39,12 @@ Controls to enable or disable a setting are unified across the user interface vi
 
 The main navigation menu on the left is organized into
 
-* Computer Groups
-* Client System Settings
-* File Inventory
-* Policy Events
+* [Computer Groups](../../computer-groups/index.md)
+* [Client System Settings](../../computer-groups/windows/client-system-settings.md)
+* [File Inventory](../../file-inventory/index.md)
+* [Policy Events](../../policy-events/index.md)
 * [Reports](../../reports/index.md)
-* Admin
+* [Admin](../../admin/index.md)
 
 ![left navigation](images/left-nav.png "Left navigation menu")
 
@@ -64,29 +68,29 @@ The listed computer groups all have subitems organized by
 
 ## Admin Menu
 
-The Admin menu provides access to Tools, like
+The Admin menu provides access to __Tools__, like
 
-* [Disclose Password](../../tools/pw-disclosure.md)
+* [Disclose Password](../../admin/tools/pw-disclosure.md)
 * [Manage Approvals](../../app-control/examples/approval/helpdesk.md)
 * [Offline Approvals](../../app-control/examples/approval/offline-approval.md)
 
-The other available admin subitems are:
+The other available __Admin__ subitems are:
 
-* [Actions](../../app-control/actions/index.md)
+* [Actions](../../admin/actions/index.md)
 * [Agents](../../agents/index.md)
-* [Config Feeds](../../config-feeds/index.md)
+* [Config Feeds](../../admin/config-feeds/index.md)
 * [Configuration](../../admin/config/index.md)
 * [Diagnostics](../../admin/diagnostics/index.md)
 * [File Upload](../../admin/file-upload/index.md)
-* [Filters](../../app-control/filters/index.md)
-* Folders
+* [Filters](../../admin/filters/index.md)
+* [Folders](../../admin/folders/index.md)
 * [Import Items](../../how-to/maintenance/export-import.md)
-* [Licenses](../../tasks/reset-license.md)
+* [Licenses](../../admin/tasks/reset-license.md)
 * [Log Viewer](../../troubleshooting/logs/ts-ui.md)
 * [Personas](../../local-security/personas.md)
 * [Resources](../../admin/resources/index.md)
 * [Roles](../../admin/roles/index.md)
 * Secret Server - only available if integrated via Foreign Systems
 * [Setup](../../install/upgrades/index.md) - only available for On-premises instances
-* [Tasks](../../tasks/index.md)
+* [Tasks](../../admin/tasks/index.md)
 * [Users](../../admin/users/index.md)

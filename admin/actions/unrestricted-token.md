@@ -119,10 +119,10 @@ To set the unrestricted token, follow these steps:
 
 The following image shows the default action. To customize make a copy to change any of the default items.
 
-![Adjust Process Right for Resource Monitor](images/unrestrict/action-adj-process-rights.png)
+![Adjust Process Right for Resource Monitor](images/unrestrict/action-adj-process-rights.png "Adjust Process Right for Resource Monitor")
 
 ### Related Item - Policy
 
 The following image shows the default related item policy for the above action. To customize make a copy to change any of the default items.
 
-![Related Item - Policy](images/unrestrict/related-item-client-option.png)
+![Related Item - Policy](images/unrestrict/related-item-client-option.png "Related Item - Policy")

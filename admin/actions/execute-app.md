@@ -5,7 +5,7 @@
 
 This type of action will execute another application and (optionally) wait on that process to complete before the original process can execute.
 
-![Display Execute Application Settings](images/execute-app.png)
+![Display Execute Application Settings](images/execute-app.png "Display Execute Application Settings")
 
 ## Parameters
 

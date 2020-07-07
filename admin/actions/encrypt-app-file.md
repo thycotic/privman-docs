@@ -5,7 +5,7 @@
 
 This type of action will force applications to use Microsoft encryption when saving a file.
 
-![Display Encrypt Application Files Settings](images/encrypt.png)
+![Display Encrypt Application Files Settings](images/encrypt.png "Display Encrypt Application Files Settings")
 
 ## Parameters
 

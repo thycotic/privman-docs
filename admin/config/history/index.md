@@ -28,27 +28,27 @@ For any changes made to the Authentication Provider for Foreign Systems, like ch
 
 The following image shows an example of the change history for a foreign system entry. The change shows that the foreign system was initially pointed at the local host URL, with a Credential and Client Secret pertaining to that localhost instance. An update was made to configure a real Secret Server instance URL with accompanying changes of Client Secret and Credential to be able to authenticate against that new URL.
 
-![Change History for Foreign Systems](images/config-history/change-hi-tab-fs-2.png)
+![details](images/change-hi-tab-fs-2.png "Change History for Foreign Systems")
 
 ### Drilling Down
 
 To look at details of any given change, select one of the change entries in the left column. For the example we created a policy to deny the installation of iTunes on Windows endpoints. 
 
-![Details on the Change History](images/config-history/change-policy-1.png)
+![drill down](images/change-policy-1.png "Details on the Change History")
 
 What we see:
 
-1. Information about the system and user initiating the change, here WIN-...\TestAdmin and information about the type of change, here Created from template.
+1. Information about the system and user initiating the change, here _test1_ and information about the type of change, here Created from template.
 1. The name of the item that was created from template, the date and time when the change ocurred.
 1. Details on the summary information from the left, such as a link to view the user details and what change was done to which item.
 
 The next screen shows a state change due to the policy being saved. The State\ResourceTargetIds are being saved for the first time for this policy.
 
-![Change History on item save](images/config-history/change-policy-2.png)
+![Change History on item save](images/change-policy-2.png "Change History on item save")
 
 The last entry in the Change History list provides all the details about the change to the policy after initial creation and save.
 
-![Change History on item changes](images/config-history/change-policy-3.png)
+<!--![Change History on item changes](images/change-policy-3.png "Change History on item changes")
 
 What we see:
 
@@ -56,14 +56,14 @@ What we see:
 1. Application targets (+) iTunes indicates that iTunes was added as an Application target. A (-) would indicate a removal of an application target.
 1. ApplyToResourcesSettings\AllowedTargetRoleTypeId indicated that the previous zero value Id was changed to a value of Computer.
 1. The State\ResourceTargetIds field was populated with the value All Windows Computer with Application Control Agent Installed (Target).
-1. The last change was setting the policy Enabled state to True.
+1. The last change was setting the policy Enabled state to True. -->
 
 ## Item Change History Report
 
-The [Item Change History Report](../../../reports/change-history.md) is part of the __Diagnostic__ group on the Reports page. You can also search for “change history” and the report will be listed on the search results page. Click the link to access the report.
+The [Item Change History Report](../../reports/change-history.md) is part of the __Diagnostic__ group on the Reports page. You can also search for “change history” and the report will be listed on the search results page. Click the link to access the report.
 
 The report lists the history of item changes.
 
-![Item Change History Report](images/config-history/change-item-report.png)
+![Item Change History Report](images/change-item-report.png "Item Change History Report")
 
 For further investigation, you can access the item that was changed by clicking the entries in the Name column.

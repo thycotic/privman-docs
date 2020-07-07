@@ -5,6 +5,6 @@
 
 This tab is for resource discovery. After a resource is initially discovered by the server, the name is set to __New Loaded Resource...__. After discovery runs the names of those resources are updated.
 
-Resource Discoverers are selectable under the advanced section. Resource Discoverers are categorized by Agent and Server Discoverers. Most are selected by default and can be disabled by removing the check from the selection box.
+Resource Discoverers are selectable under the __Advanced__ section. Resource Discoverers are categorized by Agent and Server Discoverers. Most are selected by default and can be disabled via switch.
 
-![Configuration Discovery tab overview](images/config-dis/discovery.png)
+![Configuration Discovery tab overview](images/discovery.png "Configuration Discovery tab overview")

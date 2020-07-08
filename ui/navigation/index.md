@@ -87,7 +87,7 @@ The other available __Admin__ subitems are:
 * [Import Items](../../how-to/maintenance/export-import.md)
 * [Licenses](../../admin/tasks/reset-license.md)
 * [Log Viewer](../../troubleshooting/logs/ts-ui.md)
-* [Personas](../../local-security/personas.md)
+* [Personas](../../admin/personas.md)
 * [Resources](../../admin/resources/index.md)
 * [Roles](../../admin/roles/index.md)
 * Secret Server - only available if integrated via Foreign Systems

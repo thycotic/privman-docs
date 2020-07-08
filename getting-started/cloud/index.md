@@ -41,7 +41,7 @@ Refer to the Application Control documentation pages to learn more about:
 
 Refer to the Integration documentation pages to learn more about:
 
-* [Integration & Foreign Systems](../../foreign-sys/index.md)
+* [Integration & Foreign Systems](../../config/foreign-systems/index.md)
 
 ## Reports & Troubleshooting
 

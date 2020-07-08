@@ -93,7 +93,7 @@ You need to create an action and attach it to a policy to manage what events you
 1. Navigate to __Admin |Policies__, click __Create New__ or find an existing policy that you want to use for ServiceNow Approvals. 
 1. Select the __Actions__ tab.
 1. Click __Edit__ and __Add Action__.
-1. Search for the action you created in step 5, _ServiceNow Approval Request Form Action_, click __Add__.
+1. Search for the action you previously created, _ServiceNow Approval Request Form Action_, click __Add__.
 1. Click __Save__.
 1. Select the __Deployment__ tab.
 1. Click __Run Policy Targeting Update__ to immediately send the policy to your endpoint agents.
@@ -105,7 +105,7 @@ Policies also automatically update according to a schedule.
 Now that you have a policy attached to your ServiceNow integrated Action, the requests from your policy will be sent through ServiceNow for approval.
 
 1. On your endpoint, perform the action that your policy targets for ServiceNow Approval. You will be prompted with a justification window to explain your request. To approve these requests, open your ServiceNow Dashboard.
-1. Go to __MyApprovals__ in ServiceNow and you will see your new requests.
+1. Go to __My Requests__ in ServiceNow and you will see your new requests.
 1. Click Requested for details.
 1. In the Request page you will be able to view details of what action is being requested, and you can Accept the action.
 1. On your endpoint, the pending justification window will update to an Approved status, and the user will be able to access their requested application.

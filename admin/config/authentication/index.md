@@ -8,4 +8,4 @@ The Authentication tab is used for setting up the Authentication Provider used w
 ![auth tab](images/config-auth.png "Authentication tab to select the authentication provider")
 
 >**Note**:
->If you are trying to change your Authentication Provider specifically to NTLM, Privilege Manager runs a verification to make sure the local build-in Administrators Group is in the Privilege Manager Administrators Role.
+>If you are trying to change your Authentication Provider specifically to NTLM, Privilege Manager runs a verification to make sure the local built-in Administrators Group is in the Privilege Manager Administrators Role.

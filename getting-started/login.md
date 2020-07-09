@@ -22,7 +22,7 @@ After logging in the Privilege Manager Server Setup Home page opens.
 
 Use the Privilege Manager link to login to the product. If you need to add or update product features, such as connectors for foreign systems, use the __Add / Update Product Features__ link.
 
-The __Setup a Secret Server Foreign System__ link can be used to set-up an integration with Secret Server. This will also allow you to use Secret Server as an authentication provider. Also refer to [Setting up Integration between Privilege Manager and Secret Server](../foreign-sys/thycotic/set-up-pm-ss-integration.md)
+The __Setup a Secret Server Foreign System__ link can be used to set-up an integration with Secret Server. This will also allow you to use Secret Server as an authentication provider. Also refer to [Setting up Integration between Privilege Manager and Secret Server](../config/foreign-systems/thycotic/set-up-pm-ss-integration.md)
 
 ## Getting Started Banner
 

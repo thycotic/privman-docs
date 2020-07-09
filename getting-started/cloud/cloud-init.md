@@ -5,7 +5,7 @@
 
 To login to a Privilege Manager Cloud instance, use the URL and credentials provided to you. The URL is in the format of:
 
-`https://myassignedname.privilegemanagercloud.com/TMS`
+`https://myassignedname.privilegemanagercloud.com/Tms`
 
 1. Navigate to your assigned login URL.
 
@@ -20,6 +20,6 @@ To login to a Privilege Manager Cloud instance, use the URL and credentials prov
 
    ![Privilege Manager home page](images/cloud/pm_cloud_home.png)
 
->**Note**: To import and synchronize Azure Active Directory Groups and Users, refer to the following topic: [Setting Up Azure Active Directory Integration in Privilege Manager](../../foreign-sys/active-directory/set-up-privilege-manager-azure-ad-integration.md).
+>**Note**: To import and synchronize Azure Active Directory Groups and Users, refer to the following topic: [Setting Up Azure Active Directory Integration in Privilege Manager](../../config/foreign-systems/active-directory/set-up-privilege-manager-azure-ad-integration.md).
 
 To add Thycotic One Users manually refer to the following topic: [How to Add Thycotic One Users Manually](../../admin/users/index.md). That topic does also cover how to create Standard and API Client users.

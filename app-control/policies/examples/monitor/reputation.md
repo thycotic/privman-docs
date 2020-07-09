@@ -7,35 +7,34 @@ Privilege Manager analyzes applications in real-time.  This unique feature allow
 
 The monitor approach used here is that all applications that meet a general condition (i.e. executed from a specific directory or directories) will be sent to VirusTotal for a reputation check. For this use case we will perform real-time reputation analysis of unknown applications using VirusTotal.
 
-First, you will need to integrate Privilege Manager and VirusTotal by following the Integration steps listed in the [Setting Up VirusTotal for Reputation Checking](../../../../foreign-sys/third-party/set-up-virustotal.md) topic. That section will walk you how to do the following:
+First, you will need to integrate Privilege Manager and VirusTotal by following the Integration steps listed in the [Setting Up VirusTotal for Reputation Checking](../../../../config/foreign-systems/third-party/set-up-virustotal.md) topic. That section will walk you how to do the following:
 
 1. Configure VirusTotal Ratings Provider
 2. Install VirusTotal in Privilege Manager
 3. Create a Security Rating Filter for VirusTotal
 
-For information and setup steps to configure reputation checking using Cylance, see the [Cylance Integration](../../../../foreign-sys/third-party/set-up-cylance.md) topic.
+For information and setup steps to configure reputation checking using Cylance, see the [Cylance Integration](../../../../config/foreign-systems/third-party/set-up-cylance.md) topic.
 
 ## Creating Security Rating Filter
 
 Next you have to create a Security Rating Filter for VirusTotal. Follow these steps:
 
-1. Navigate to __Home | Filters__, the click __Add Filter__.
+1. Navigate to __Admin | Filters__, the click __Create Filter__.
 1. Select a platform, then __Security Rating Filter__ as a Filter Type. Name the policy and add a description.
-1. Next to Security Rating System, select __Application Control Rating System__.
+1. From the __Security Rating System__ drop-down, select __Virus Total Rating System__.
 
-   ![Creating the Security Rating Filter](images/reputation/filter-ratingsystem.png)
-1. Next to VirusTotal Rating System click __+__.
+   ![Creating the Security Rating Filter](images/reputation/filter-ratingsystem.png "Creating the Security Rating Filter")
 1. Click __Create__.
-1. Click __Edit__.
-1. Under __Settings__, change the __Rating Level__ drop-down to specify __Bad__. 
+1. Under __Settings__, change the __Rating Level__ drop-down to specify __Bad__.
 
-   ![Setting the Rating Level to Bad](images/reputation/filter-details.png)
+   ![Setting the Rating Level to Bad](images/reputation/filter-details.png "Setting the Rating Level to Bad")
 
    The rating level trigger is supposed to match what you want to accomplish with the policy that will be using this filter. A rating level of Bad should be used for Deny policies, and Clean for applications or files that are part of the safe list. A rating level of Suspect can be used in justification and/or learning/discovery policies.
-1. Click __Save__.
+1. Click __Save Changes__.
 
 ## Creating User's Downloads Location, Temp Dir, and Collection Filters
 
+<!-- TODO: New screen captures -->
 1. In the Privilege Manager Console search field, enter User’s Temp Directory File Specification Filter.
 
    ![Filter Search Results](images/reputation/filter-search.png)

@@ -5,7 +5,7 @@
 
 To login to a Privilege Manager Cloud instance, use the URL and credentials provided to you. The URL is in the format of:
 
-`https://myassignedname.privilegemanagercloud.com/TMS`
+`https://myassignedname.privilegemanagercloud.com/Tms`
 
 1. Navigate to your assigned login URL.
 

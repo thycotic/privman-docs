@@ -44,13 +44,7 @@ Before you can import collection data from SCCM, Privilege Manager needs to know
 1. Select your SCCM system via the __Select...__ option.
 
    ![select](images/sccm/sccm-task-run-select.png "Select the resource")
-   1. From the Scope by Organizational Group drop-down, select your resource.
-   1. Enter a Search text.
-   1. Click __Search__.
-   1. Select from the list of returned results.
-   1. Click __Select__.
-
-   ![run](images/sccm/sccm-task-run-select.png "Run customized task")
+   1. Under Scope by Organizational Group type the name of your sccm system in the search text or use the search option.
 1. Click __Run Task__.
 
 ### Verify the Computers have been Imported (optional)
@@ -78,8 +72,6 @@ After computers have been imported, you can create a collection to mirror an SCC
    ![TODO](images/sccm/target-collection.png "Associate the Foreign Collection target")
 1. Click __Save Changes__.
 1. Click the __Sync Foreign Collection__ to update the membership immediately. The foreign collection update can also be scheduled by following the link in the help tip.
-
-    ![TODO](images/sccm/sync-foreign-collection.png "Sync Foreign Collection")
 1. Select the Membership tab and then click the __Update Membership__ tab to see the current membership of this collection.
 
 ## Inventory Software Packages
@@ -93,11 +85,7 @@ Once the Foreign System has been created, an on-demand packages synchronization 
    ![select task](images/sccm/sccm-task-run-packages.png "Sync Foreign Collection")
 1. Click __Run__.
 1. Select your SCCM system via the __Select...__ option.
-   1. From the Scope by Organizational Group drop-down, select your resource.
-   1. Enter a Search text.
-   1. Click __Search__.
-   1. Select from the list of returned results.
-   1. Click __Select__.
+   1. Under Scope by Organizational Group type the name of your sccm system in the search text or use the search option.
 
    ![run task](images/sccm/sccm-task-run-packages-select.png "Run customized task")
 1. Click __Run Task__.

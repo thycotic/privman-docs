@@ -62,41 +62,38 @@ Now you've successfully defined a SOAP endpoint that Privilege Manager knows how
 
 ## Define Action and Policy
 
-<!-- TODO: Is this still the right approach or do we change this to the wizard way? -->
 You need to create an action and attach it to a policy to manage what events you want sent to ServiceNow for approvals. To do this,
 
-1. In the Privilege Manager console, navigate to __Admin | More__ and select __Tasks__.
+1. In the Privilege Manager console, navigate to __Admin | Tasks__.
 1. Click the __Automation__ tab.
-1. In the tree navigate to __Automation | Approvals | Approval Processes__, click __Add New__.
+1. In the tree navigate to __Automation | Approvals | Approval Processes__, click __Create__.
 
-   ![New Automation](images/servicenow/action_new.png)
+   ![New Automation](images/servicenow/action_new.png "New Automation")
 1. Enter a name and description, click __Create__.
-1. Click __Edit__ on the newly created ServiceNow Approval Process.
 
-   ![Editing the item](images/servicenow/action_addserver.png)
-1. Under __Settings__ specify your ServiceNow Server, click __Save__.
-1. Back in the Automation tree, select __Approval Types__, click __Edit__ for the default.
+   ![Editing the item](images/servicenow/action_addserver.png "Editing the item")
+1. Under __Settings__ specify your ServiceNow Server, click __Save Changes__.
+1. Back in the Automation tree, select __Approval Types__, click __Default Execute Application Request Type__.
 
-   ![Default approval type](images/servicenow/action_type.png)
-1. Select your __ServiceNow Approval Process__, click __Save__.
+   ![Default approval type](images/servicenow/action_type.png "Duplicate and customize the Default Execute Application Request Type")
 
-   ![Edits to approval type](images/servicenow/action_type2.png)
+   Duplicate and customize the Automation Task.
+1. Select your __ServiceNow Approval Process__.
+
+   ![Edits to approval type](images/servicenow/action_type2.png "Edits to approval type")
+1. Click __Save Changes__.
 1. Now navigate to __Admin | Actions__.
-1. Search and select __Approval Request (with ServiceNow Request ItemNumber) Form Action__. 
+1. Search and select __Approval Request (with ServiceNow Request ItemNumber) Form Action__.
 
-   ![Approval Request (with ServiceNow Request ItemNumber) Form Action](images/servicenow/new_req_form_action.png)
-1. Click __Create a Copy__.
+   ![Approval Request (with ServiceNow Request ItemNumber) Form Action](images/servicenow/new_req_form_action.png "Approval Request (with ServiceNow Request ItemNumber) Form Action")
+1. Click __Duplicate__.
 1. Name your new action and click __Create__.
-1. Click __Edit__.
 1. Customize the Action based on your specific business requirements.
-1. Click __Save__.
-1. Navigate to __Admin |Policies__, click __Create New__ or find an existing policy that you want to use for ServiceNow Approvals. 
-1. Select the __Actions__ tab.
-1. Click __Edit__ and __Add Action__.
-1. Search for the action you previously created, _ServiceNow Approval Request Form Action_, click __Add__.
-1. Click __Save__.
-1. Select the __Deployment__ tab.
-1. Click __Run Policy Targeting Update__ to immediately send the policy to your endpoint agents.
+1. Click __Save Changes__.
+1. Navigate to your computer group's __Application Policies__, click __Create Policy__ or find an existing policy that you want to use for ServiceNow Approvals.
+1. Under the __Actions__ section, search for and add the action you previously created, _ServiceNow Approval Request Form Action_.
+1. Click __Save Changes__.
+1. Click the __i__ next to __Deployment__ and select __Resource and Collection Targeting Update__ to immediately send the policy to your endpoint agents.
 
 Policies also automatically update according to a schedule.
 

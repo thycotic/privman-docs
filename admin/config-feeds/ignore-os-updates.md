@@ -13,39 +13,33 @@ MacOS has a command-line utility that can be used to ignore specific software up
 
 ## Configuration Feeds
 
-1. Navigate to __ADMIN | More__.
-1. Click on __Config Feeds__.
+1. Navigate to __Admin | Config Feeds__.
 1. Click on __Select Items__ for __Privilege Manager Product Configurations__.
-
-   ![Config feed](images/ignore/data-feed-1.png)
 1. Click on __Select Items__ for Application Control Solution.
-
-   ![Application Control Solution](images/ignore/data-feed-2.png)
-1. Click on download for both __Application Control - Ignore macOS Catalina software update and Application Control - Reset ignored macOS software updates__.
-
-   ![Download](images/ignore/data-feed-3.png)
+1. Download both configuration feeds __Ignore macOS Catalina software update__ and __Reset ignored macOS software updates__.
 
 ## Enabling the Policies
 
-1. Navigate to __ADMIN | Policies__.
-1. Click on the __General Tab__.
+Following the config feeds install, you need to enable the policy to ignore the update.
+
+1. Navigate to your macOS Computer Group and click __Scheduled Jobs__.
 1. Click on __Ignore macOS Catalina Software Update (Mac OS)__.
 
-   ![Policy](images/ignore/data-feed-4.png)
-1. Under the General tab, click __Edit__.
+   ![scheduled job](images/ignore/data-feed-4.png "Enable the policy")
+1. Set the __Inactive__ switch to __Active__.
+1. Click __Save Changes__.
 
-   ![Edit](images/ignore/data-feed-5.png)
-1. Check the __Enabled__ box.
-1. Click __Save__.
+## Resetting the Policy
 
-   ![Enable](images/ignore/data-feed-4.png)
-
-1. Repeat steps 1 through 6 for __Reset ignored macOS Software Updates (Mac OS)__ policy.
+1. To reset the changes, set the ignore updates policy to inactive and save the changes.
+1. Navigate to the __Reset ignored macOS Software Updates (Mac OS)__ policy.
+1. Set the __Inactive__ switch to __Active__.
+1. Click __Save Changes__.
 
 ## Scheduling
 
-You can edit when the policy runs by navigating to the __Triggers__ tab under the policy and clicking on __Edit__.
+You can edit when the policy runs by scrolling down to the Job Schedule and Job Conditions section on the policy page.
 
-   ![Triggers](images/ignore/data-feed-7.png)
+![schedule](images/ignore/data-feed-7.png "Job Schedule settings")
 
-   >**Note:** Once the policies are enabled they do not run immediately. If you would like the policies to run right way you will need to adjust the schedule which you can find under the __Triggers__ tab in the policy.
+>**Note**: Once the policies are enabled they do not run immediately. If you would like the policies to run right way you will need to click on the information icon next to Deployment and select the __Resource and Collection Targeting Update__ task.

@@ -5,6 +5,8 @@
 
 Follow these steps to perform an offline upgrade for Privilege Manager. This article is ONLY applicable when upgrading from versions 10.2 and higher.
 
+>**Note**: Offline upgrades on __multiple__ servers will need to be done manually.
+
 1. Go to https://thycotic.force.com/support/s/download-onprem
 1. Download the Privilege Manager Application Files (not the Installer .exe); this will download a .zip, for example Version_10_7_000000.zip
 1. Extract the zip file.
@@ -23,7 +25,7 @@ Follow these steps to perform an offline upgrade for Privilege Manager. This art
    ```
 1. Save the web.config
 1. Recycle the TMS app pools.
-1. Navigate to __ADMIN | More...__ and select __Add / Upgrade Privilege Manager Features__.
+1. Navigate to __Admin | Setup...__ and select __Add / Upgrade Privilege Manager Features__.
    This step will require windows authentication using an account that has local administrator permissions on the web server. The page should have a blue dialogue box stating:
 
    "You are viewing a local (cached) repository of product options.

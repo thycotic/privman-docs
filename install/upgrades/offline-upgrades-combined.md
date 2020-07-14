@@ -3,7 +3,9 @@
 [priority]: # (711)
 # Offline Upgrades - Combined
 
-Follow these steps to perform an offline upgrade for Privilege Manager and Secret Server. This article is ONLY applicable when upgrading from products that are versions 10.2 and higher.
+Follow these steps to perform an offline upgrade for Privilege Manager and Secret Server. This topic is ONLY applicable when upgrading from products that are versions 10.2 and higher.
+
+>**Note**: Offline upgrades on __multiple__ servers will need to be done manually.
 
 1. Download the zip files for your offline upgrade [here](http://updates.thycotic.net/secretserver/getlatestversion.aspx?alwayslatest=true). Copy/paste this zip file on your Privilege Manager Web server
 1. Make a backup of the Secret Server and TMS web folders (Default path is `C:\inetpub\wwwroot> SecretServer + TMS` folders, copy/paste these into a backup folder)

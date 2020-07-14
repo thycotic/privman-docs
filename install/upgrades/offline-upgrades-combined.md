@@ -13,36 +13,29 @@ Follow these steps to perform an offline upgrade for Privilege Manager and Secre
 1. On the web server, navigate to `C:\ProgramData\NugetCache\` and delete all the files in the folder (*ProgramData folder may be hidden: View > check the Hidden items box to reveal)
 1. Open Secret Server and navigate to: `https://<YourSecretServerURL>/Setup/Upgrade`
 1. On the Secret Server Update page:
-   1. Select "Advanced (not required)" to open the advanced options
-   1. Select "Choose File" and navigate to the location of the Secret Server Update zip package
-   1. Select "Upload Upgrade File"
-   1. When the new version is available select "Upgrade"
+   1. Select __Advanced (not required)__ to open the advanced options.
+   1. Select __Choose File__ and navigate to the location of the Secret Server Update zip package.
+   1. Select __Upload Upgrade File__.
+   1. When the new version is available select __Upgrade__.
 
       Check `https://URL/TMS/Setup` to see if an install is already in progress (this is usually seen when the TMS Upgrade portion of SS shows successful)
 1. Accept the License. Then allow the Secret Server upgrade to complete.  Note: The Upgrade TMS step may say it was successful, or it may say it wasn't.  Please ignore this message and continue to follow the steps below:
-1. Open the C:\ProgramData\ folder:
-   1. Right click on the NugetCache folder and select Properties
-   1. Click on the Security tab
-   1. Click the Advanced button
-   1. Check the Replace all child object permission entries with inheritable permission entries from this object checkbox
+1. Open the `C:\ProgramData\` folder:
+   1. Right-click on the NugetCache folder and select __Properties__.
+   1. Click on the __Security__ tab.
+   1. Click the __Advanced__ button.
+   1. Check the __Replace all child object permission entries with inheritable permission entries from this object__ checkbox
 
       ![Advanced Security for NugetCache](images/upgrade_1.png)
-   1. Click the OK button, and Yes.
-1. Navigate to `https://<webserver>/TMS/Setup/ProductOptions/ShowProducts`
-Note: The TMS setup page requires authentication with a Windows account that is a Local Administrator of the Web Server
-1. You may see a page that looks like the image below.  If so, click the Use Local (Cached) Product Options Button
-1. IMPORTANT: Do not ignore this step, even if you see the list of products:
-   1. Open the web.config file in the TMS web folder (`C:\inetpub\wwwroot\TMS\`"Web" or "Web.config"), right click and open with Notepad, Run as Administrator
-   1. Delete the line that says: `<add key="nuget:source:SolutionCentre" value="http://tmsnuget.thycotic.com/nuget/" />`
-   1. Replace with your offline nugetCache directory file path. (For example: `<add key="nuget:source:SolutionCentre" value="C:\ProgramData\NugetCache\")`
-   1. Save the web.config file
-1. Refresh the page at `https://<webserver>/TMS/Setup/ProductOptions/ShowProducts`
-1. Click the Install/Upgrade Products button.
-1. Select the products you wish to upgrade or install, and follow the steps to finish the installation.
+   1. Click the __OK__ and __Yes__.
+1. Navigate to the TMS web folder (`C:\inetpub\wwwroot\TMS\`), right-click and open with, e.g. __Notepad > Run as Administrator__ the __web.config__ file.
+   1. Update the "value" field of this item `<add key="nuget:source:SolutionCentre" value="http://tmsnuget.thycotic.com/nuget/" />` to `C:\ProgramData\NugetCache\`.
+   1. Save the __web.config__ file.
+   1. Recycle the TMS app pools.
+1. Navigate to `https://<webserver>/TMS/Setup/ProductOptions/ShowProducts` The TMS setup page requires authentication with a Windows account that is a Local Administrator of the Web Server.
+1. Click the __Install/Upgrade Products__ button.
+1. Select the products you wish to upgrade or install, and follow the steps to finish the installation. If one of the products fails to install, please repeat these last two steps. You may encounter an issue with an error of "Version Store out of Memory" - this is transient and re-starting the upgrade will fix it. If you encounter any additional errors, please contact Thycotic Technical Support for assistance.
 
->**Note**:
->If one of the products fails to install, please repeat steps 11 and 12.  You may encounter an issue with an error of "Version Store out of Memory" - this is transient and re-starting the upgrade will fix it.
-
-If you encounter any additional errors or the error from step 13 persists, please contact Thycotic Technical support for assistance by submitting a case here.
-
->**Note**: Thycotic recommends to create a back-up copy of the Privilege Manager web application folder after installation or upgrades.
+>**Note**: An upgrade or repair to the product may rewrite the web.config with default settings. Always double-check that the web.config has the correct SolutionCentre path whenever you perform a manual upgrade. Also, the version numbers available should match the highest versions available in the C:\ProgramData\NugetCache\ folder on the web server.
+>
+>Thycotic recommends to create a back-up copy of the Privilege Manager web application folder after installation or upgrades.

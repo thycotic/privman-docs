@@ -24,4 +24,3 @@ The Summary report for recent Logon Sessions.
 
    ![Logon Events Client Task](images/logon/lg-3.png)
 1. Run the task.
-1. 

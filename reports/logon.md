@@ -14,6 +14,13 @@ The Summary report for recent Logon Sessions.
 <!-- TODO: Two new screen captures once I find a system that creates output for this report -->
 
    ![Report](images/logon/lg-2.png)
-   >**Note:** You can also run the __Collect Windows Logon Events Client Task__ to get updated windows logon events for logon session logging.
+
+>**Note:** You can also run the __Collect Windows Logon Events Client Task__ to get updated windows logon events for logon session logging.
+
+## Using the Collect Windows Logon Events Client Task
+
+1. Navigate to __Admin | Tasks | Client Tasks__ and select __Local Security__.
+1. Click the __Collect Windows Logon Events Client Task__.
 
    ![Logon Events Client Task](images/logon/lg-3.png)
+1. Run the task.

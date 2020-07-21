@@ -3,90 +3,68 @@
 [priority]: # (2)
 # Setting up ActiveX Policies
 
-Setting up ActiveX Policies – this is to allow add-ins to be installed over at a browser (in this example Internet Explorer). To test if ActiveX can be installed without prompting UAC, we can do a test run at <http://pcpitstop.com/>; ActiveX installation is in turn provided at <https://pcpitstop.com/testax.asp>.
+To allow add-ins to be installed via Internet Explorer, you need to create an allow policy for ActiveX.
 
 >**Note:** You will need to import local group policy definitions before editing your Active-X Group Policy Settings.
 
 Refer to the Local Security topic, specifically [Manage Local Groups](../../../../local-security/ls-local-groups.md).
 
-## Overview
-
-1. Create a policy for the list of websites.
-1. Create a task to send the policies to the endpoints (this is for Resource Targeting).
-1. Test the policy.
-
 ## Creating the Policy
 
-1. Navigate to **Admin** | **Policies** | **ActiveX** tab.
+1. Navigate to __Admin | Folders__.
+1. Select __Group Policies__.
+1. Click __Create__.
 
-   ![ActiveX](images/active/14bbbe50f97f865b2b310b17aaa66fda.png)
-1. Click on **Add New Policy**.
+   ![create 1](images/active/create-1.png "New policy modal")
+1. From the __Template__ drop-down, select __Active-X Group Policy Settings__.
+1. Enter a name and description to identify the policy.
+1. Click __Create__.
+1. If you haven't already imported the Local Group Policy Definitions, Privilege Manager prompts you to import the definitions.
 
-   ![Add New Policy](images/active/f599edfecb0a25b9ca5a6a9f765830f1.png)
-1. After the Policy has been created, navigate to the **Other Sites** Tab and add
-the URL (protocols included).
+   ![create 2](images/active/create-2.png "Import local group policy definitions")
 
-   ![Other Sites](images/active/ddef8b4737b7f7823bfeed647a55dfdc.png)
+   Click __Go to Import Task__ and run the task. Return to the Active-X policy.
 
-Other options to consider:
+   ![create 3](images/active/create-3.png "The new ActiveX policy")
+1. You can now add Trusted Zone sites and Other Sites and customize what actions to take when they are accessed.
+   * Trusted Zone Sites tab:
 
-* Ignore Invalid Certificate Date
+   ![create 4](images/active/create-4.png "Trusted Zone Sites tab")
+   * Other Sites tab:
 
-* Ignore Invalid Certificate Name (CN)
+   ![create 5](images/active/create-5.png "Other Sites tab")
+   1. To customize, set the __Enabled on computers with: At least Windows Vista__ to __Yes__.
+   1. Click __Add Site__.
 
-* Ignore Unknown Certification Authority (CA)
+      ![create 6](images/active/create-6.png "Add Sites settings")
+   1. Enter the Host Name (URL) for the site.
+   1. Select from the Trusted Publishers and Signed Controls drop-down. The options are
+      * Don't install
+      * Prompt the user
+      * Silently install
+   1. Select from the Unsigned Controls drop-down. The options are
+      * Don't install
+      * Prompt the user
+   1. Set any of the Certificate Validations switches to active specific ignore behavior, such as
+      * Ignore unknown certification authority (CA)
+      * Ignore invalid certificate name (CN)
+      * Ignore invalid certificate date
+      * Ignore wrong certificate usage
+1. Click __Save Changes__.
+1. On the __Resource Targeting__ tab, Privilege Manager provides instructions for setting up how to deploy the Active-X policy to Resource Targets.
+1. In __Clone the following Policy__, click the __Policy__ link to open the read-only client task.
+1. Duplicate the client task and give it a name identifying it as the task for your Active-X policy.
 
-* Ignore Wrong Certificate Usage
+   ![create 7](images/active/create-7.png "Apply Group Policy Settings policy")
+   1. From the __Job Settings | Command__ drop-down, select __Apply Group Policy Settings__.
+   1. From the __Group Policy Setting__ drop-down, select the Active-X policy created above.
 
-## Task and Resource Targeting
+   >**Note:** Apply Group Policy Settings when you have 2 or more ActiveX policies to add to the Parameters, otherwise use the Apply Group Policy Setting item.
+1. Under Job Schedule modify the schedule and/or add triggers.
+1. Set the __Inactive__ switch to __Active__.
+1. Click __Save Changes__.
 
-1. Navigate to __ADMIN | More… | Folders__.
-
-   ![Folders](images/active/e83cf30c2f254d53948b5dab8118ae3c.png)
-1. Open the folder tree and navigate to **Policies | General | Windows**.
-
-   ![Windows](images/active/db6ec5e530a59d66db519bfc5b604466.png)
-1. Click **Add New**.
-
-1. From the Template drop-down select **General Scheduled Client Task**.
-
-1. Enter a Name and Description.
-
-1. For Client Command select **Apply Group Policy Settings**.
-
-1. Verify/add the Resource Target selection.
-
-1. Click **Create**.
-
-   ![Create](images/active/97dc7018559ca8e52e980cc181a13eed.png)
-
-   >**Note:** Apply Group Policy Settings when you have 2 or more ActiveX
-policies to add to the Parameters.
-
-   ![Group Policy Settings ](images/active/e28e94024cf6b5d52e833ae626d9cfca.png)
-
-1. Navigate to the **Parameters** Tab to add the ActiveX Policy that you
-    previously created.
-
-   ![Parameters](images/active/55bf3dd273c1a73d48137b6bd88eb1fd.png)
-
-## Configure the Triggers and the Targets
-
-Proceed to configuring both the Policy and Task functions. On completing this
-configuration, Privilege Manager Triggers feature will then send the configured
+On completing this configuration, Privilege Manager Triggers feature will then send the configured
 task to the targeted endpoint.
 
-To view the Task, go to the **Task Scheduler**. You must have administrator
-access to view the task inside Thycotic folder.
-
-   ![Task Scheduler](images/active/49b9ffe96a27ec13268763d889d89279.png)
-
-## Test the Policy
-
-Go to the website:
-[https://pcpitstop.com/testax.asp](http://pcpitstop.com/testax.asp) and install
-the **Add-in**.
-
-You should see the **Time and Date** as seen in the image below.
-
-   ![Time and Date](images/active/c1c02061c05456d4b4e14688db556012.png)
+To view the Task, go to the __Task Scheduler__. You must have administrator access to view the task inside Thycotic folder.

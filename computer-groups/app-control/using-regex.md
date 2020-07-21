@@ -1,6 +1,6 @@
 [title]: # (Using RegEx)
 [tags]: # (policy)
-[priority]: # (7)
+[priority]: # (10)
 # Using RegEx in Policies and Filters
 
 Various Privilege Manager policies and filters use Regular Expressions (RegEx) to specify application or file names to match against.

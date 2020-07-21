@@ -5,9 +5,7 @@
 
 Every Computer Group is divided into Groups and Users. Both __Groups__ and __Users__ in this context refer to local accounts on the machines that are included in the Computer Group.
 
-To see more details about the Windows Computers Group, either click on Windows Computers in the Local Security Home screen or in the left-hand navigation pane.
-
-The Computer Group page gives you pointers on what can be done with the users and local groups within this set of computers, and provide a high-level overview of the selected computer group based on Local Users, Local Groups, and the number of computers in the group.
+The Computer Group page lists all local groups on this set of computers, and provide a high-level overview of the selected computer group based on Local Users, Local Groups, and the number of computers in the group.
 
 Remember: when an agent registers, Local Security will automatically discover the local groups that exist on each machine.
 

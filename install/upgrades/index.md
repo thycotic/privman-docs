@@ -7,6 +7,14 @@ Privilege Manager software updates are made available via NuGet server packages.
 
 >**Note**: Thycotic recommends to create a back-up copy of the Privilege Manager web application folder after installation or upgrades.
 
+## What's New in Privilege Manager 10.8
+
+The 10.8 release of Privilege Manager introduces a new user interface, providing a redesigned user experience, simplifying many major areas and typical workflow processes when setting up application policies or local security.
+
+To preview the enhancements made to the user interface, please view this [video](https://vimeo.com/434453083/6c9dec1030).
+
+Switching between the new and old UI post upgrade is not available.
+
 ## Setting up the NuGet Source
 
 Once Privilege Manager is installed on a server, updates can be performed by pointing the web.config file to the product NuGet source.

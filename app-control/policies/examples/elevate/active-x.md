@@ -52,37 +52,19 @@ Refer to the Local Security topic, specifically [Manage Local Groups](../../../.
       * Ignore wrong certificate usage
 1. Click __Save Changes__.
 1. On the __Resource Targeting__ tab, Privilege Manager provides instructions for setting up how to deploy the Active-X policy to Resource Targets.
-<!-- 1. In __Clone the following Policy__, click the __Policy__ link to open the read-only client task. -->
-1. Under your Computer Group, navigate to __Scheduled Jobs__ and search for __Apply Group Policy Settings__.
+1. In __Clone the following Policy__, click the __Policy__ link to open the read-only client task.
+1. Duplicate the client task and give it a name identifying it as the task for your Active-X policy.
 
    ![create 7](images/active/create-7.png "Apply Group Policy Settings policy")
+   1. From the __Job Settings | Command__ drop-down, select __Apply Group Policy Settings__.
+   1. From the __Group Policy Setting__ drop-down, select the Active-X policy created above.
 
    >**Note:** Apply Group Policy Settings when you have 2 or more ActiveX policies to add to the Parameters, otherwise use the Apply Group Policy Setting item.
-1. Got to the __Parameters__ tab.
-
-   ![create 8](images/active/create-8.png "Parameters tab with Add Parameter button")
-1. Click __Add Parameter__ to add the ActiveX policy previously created. By default the GroupPolicySettingId is already listed.
-   1. Select the edit option for the existing __GroupPolicySettingIds__ parameter.
-      * Under __Items Types__:
-        1. Click __Edit__ and add the __ActiveXInstallerContract__.
-        1. Click __Update__.
-      * Under __Default Value__:
-        1. Click __Add Default Value__ and add the ActiveX policy created in Step 3 above.
-        1. Click __Update__.
-      * Repeat the default value setup for the __Test Value__.
-
-      ![create 0](images/active/create-9.png "Group Policy Settings update")
-   1. Click __Update__.
+1. Under Job Schedule modify the schedule and/or add triggers.
+1. Set the __Inactive__ switch to __Active__.
 1. Click __Save Changes__.
 
-<!-- TODO: HELP where is this done? 
-## Configure the Triggers and the Targets
-
-Proceed to configuring both the Policy and Task functions. On completing this
-configuration, Privilege Manager Triggers feature will then send the configured
+On completing this configuration, Privilege Manager Triggers feature will then send the configured
 task to the targeted endpoint.
 
-To view the Task, go to the **Task Scheduler**. You must have administrator
-access to view the task inside Thycotic folder.
-
-   ![Task Scheduler](images/active/49b9ffe96a27ec13268763d889d89279.png) -->
+To view the Task, go to the __Task Scheduler__. You must have administrator access to view the task inside Thycotic folder.

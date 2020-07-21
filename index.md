@@ -20,20 +20,10 @@ The typical Privilege Manager user is part of an IT team that is tasked with imp
 
 It is useful (although not necessary) for Privilege Manager Administrators to be familiar with the basics of IT administration, such as the Group Policy feature from Microsoft.
 
-## 10.7.1 Cloud Specific
+## What's New in Privilege Manager 10.8
 
-The following features and options are different from On-premises or previous Privilege Manager Cloud releases:
+The 10.8 release of Privilege Manager introduces a new user interface, providing a redesigned user experience, simplifying many major areas and typical workflow processes when setting up application policies or local security.
 
-* The ServiceNow connector is automatically installed for all new cloud instances.
-* The SMTP server is automatically configured during the cloud instance setup.
-* The setup is managed by Thycotic and installations, upgrades, and repairs are unavailable to the customer directly, this includes setup, add/remove feature options, and connection option to existing Secret Server. Upgrade notices and banners are removed with upgrades being handled by Thycotic during maintenance periods.
-* All license key management is done via Thycotic and license keys are not visible on the licensing page. There are presently no options for customers to add additional licenses directly.
+To preview the enhancements made to the user interface, please view this [video](https://vimeo.com/434453083/6c9dec1030).
 
-The following features and options are __not__ available in Privilege Manager Cloud:
-
-* The Local Active Directory features exists, but requires a direct connection to the domain controller, which is often not permissible due to firewall configurations.
-* Access to the Security Manager console (Silverlight version) is not available.
-* Personas are not available.
-* Server-side Powershell scripts not signed by Thycotic are not allowed. Custom server-side work can be done via Professional Services engagements.
-
-All other features and functionality of Privilege Manager On-premises and Cloud are the same unless otherwise specified.
+Switching between the new and old UI post upgrade is not available.

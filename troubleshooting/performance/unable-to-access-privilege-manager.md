@@ -3,9 +3,7 @@
 [priority]: # (2)
 # Unable to Access Privilege Manager
 
-When attempting to log in to Privilege Manager, you are unable to access the application window and see the following screen.
-
-![Unable to access Privilege Manager](images/unable-to-access-privilege-manager/pm-1.png)
+When attempting to login to Privilege Manager and you are unable to access the application window and you are continuously redirected to the login modal, verifying the IIS settings and resetting the app server might help.
 
 ## Resolve
 

@@ -29,9 +29,6 @@ In the example below the policy allows resource monitor to run but the applicati
 
    ![process rights](images/process-ex/proc-ex-3.png "Elevate Resource Monitor policy adding actions")
    1. Select Add Administrative Rights or the elevation action you are using.
-1. The new window will display what Windows Privileges the action is using.
-
-   ![Privileges used by the policy](images/process-ex/proc-ex-4.png)
 1. Under __Windows Privileges__, click __Edit__. (For this step you will have to determine which flags are enabled in Process Explorer in order to add the additional Windows Privileges to the action.)
 1. In another window navigate to the following Microsoft web site @ https://docs.microsoft.com/en-us/windows/win32/secauthz/privilege-constants. The site will show the name of the Windows Privileges, along with the user right information that needs to be added to the action in Privilege Manager.
 

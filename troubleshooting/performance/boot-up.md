@@ -14,8 +14,8 @@ The end of the boot-phase in which policy analysis is paused, is defined as the 
 
 ## Enable Pausing Policy Analysis during Boot-up
 
-Each policy by default has a list of policy enforcement options on the policy enforcement tab.
+Each policy by default has a list of policy enforcement options under __Advanced | Policy Enforcement__.
 
-![Policy Enforcement Tab](images/pause-policy-analysis.png)
+![policy enforcement](images/pause-policy-analysis.png "Policy Enforcement settings")
 
-To enable pausing policy analysis during boot-up on filter-rich policies, select the checkbox next to __Pause Policy Analysis During Boot__.
+To enable pausing policy analysis during boot-up on filter-rich policies, set the __Pause Policy Analysis During Boot__ switch to on and save the change.

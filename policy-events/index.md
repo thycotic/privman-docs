@@ -14,4 +14,3 @@ The policy events are listed in a table grid and if you select an event, you can
 The details provided are the application or process name that triggered the event and based on which policy the event was recorded, including a short policy description. You can also see how often this event has occurred.
 
 Use the details view to either create a filter or view the file. If you choose to create a filter, you can also select to immediately add that filter to an existing policy.
-

@@ -12,7 +12,7 @@ Privilege Manager version 10.6 and up, includes an option to specify the __maxim
 1. Navigate to __Admin | Configuration__ and select the __General__ tab
 
    ![purge](images/events/purge_maint.png "Purge Maintenance - Application Control Events")
-1. In the "Maintenance Settings" section of this page, click on "Purge Maintenance - Application Control Events".
+1. In the __Maintenance Settings__ section of this page, click on __Purge Maintenance - Application Control Events__.
 
    ![task](images/events/purge_maint_1.png "Task: Purge Maintenance - Application Control Events")
 

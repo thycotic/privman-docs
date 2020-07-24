@@ -15,7 +15,7 @@ The table grid contains the following columns:
 
 ![file inv](images/file-inv.png "File Inventory page")
 
-At the beginning of your policy creation process you will see many new events labeled as __New Loaded Resource__. This is because importing files in Privilege Manager is not the same thing as discovering information about the files. Discovery of file details is done [by scheduled tasks by default](../admin/tasks/client/bi.md), but if you want to discover file details immediately, do the following:
+At the beginning of your policy creation process you will see many new events labeled as __New Loaded Resource__. This is because importing files in Privilege Manager is not the same thing as discovering information about the files. Discovery of file details is done [by scheduled tasks by default](../admin/tasks/client/dfip.md), but if you want to discover file details immediately, do the following:
 
 1. Navigate to __File Inventory__.
 1. Select __New Loaded Resource__.

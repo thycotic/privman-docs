@@ -25,10 +25,9 @@ Once the installation completes click __Home__ to navigate back.
 
 After you have installed the Privilege Manager Mobile Console, set the Client ID and Tenant ID.
 
-1. Navigate to __ADMIN | Configuration__.
+1. Navigate to __Admin | Configuration__.
 1. Select the __Advanced__ tab.
-1. Scroll down and click __Edit__.
-1. In the Thycotic Mobile Console Solution section under General enter values for:
+1. Scroll down and under __Thycotic Mobile Console Solution__ under General enter values for:
 
    1. __Your client id__: In the __Your client id__ field, enter the Client Id that you generated when you configured the Microsoft Azure Active Directory. In the Azure AD portal, you find this under App Registration. Look for the __Application (client) ID__ value.
 
@@ -40,32 +39,33 @@ After you have installed the Privilege Manager Mobile Console, set the Client ID
       Enter that DNS in the __Your tenant id__ field.
 
       ![Configuration](images/cfg-3.png "Thycotic Mobile Console Solution configuration")
-1. Click __Save__.
+1. Click __Save Changes__.
 
 ## Configure the Notification Settings
 
 The notification settings for the mobile app are available via general configuration and task automation.
 
-1. Navigate to __ADMIN | Configuration__.
+1. Navigate to __Admin | Configuration__.
 1. Select the __General__ tab.
 
    ![Configuration](images/cfg-1.png "Configuration General")
 1. Under Approval Processes click __Mobile Message Approval Process__.
 
    ![Approval Process](images/cfg-2.png "Mobile message approval process")
-   This task can also be accessed via __ADMIN | More... | Tasks__, selecting the __Automation__ tab and the in the folder tree __Automation | Approvals | Approval Processes | Mobile Message Approval Process__.
+   This task can also be accessed via __Admin | Tasks__, selecting the __Automation__ tab and the in the folder tree __Automation | Approvals | Approval Processes | Mobile Message Approval Process__.
 
    ![Tasks](images/console-1.png "Creating/Editing the automation task")
-1. For customization, create a copy of the default task. Give it a meaning full name for your purpose, save the copy and click __Edit__.
+1. For customization, duplicate the default task. Give it a meaningful name for your environment.
+1. Click __Create__.
 
    ![Tasks 2](images/console-2.png "Editing the task")
-1. Under the Settings section, you specify in the
+1. Under __Settings__, you specify
 
-   * Approval role allowed field, which roles have approval permissions. By default the alerts for new approval requests will only be sent to mobile users in the Administrators role. You can change this setting by adding the approver role to a different role.
-   * Scope to collection field, which is an optional setting, to scope these messages to a subset of users in that role.
-   * Message field, what message will be displayed to the approver when a approval request was triggered.
-   * Start activity field, which is an optional setting, any activity you wish to start as part of the approval.
-1. Click __Save__.
+   * __Approval role allowed__, which roles have approval permissions. By default the alerts for new approval requests will only be sent to mobile users in the Administrators role. You can change this setting by adding the approver role to a different role.
+   * __Scope to collection (optional)__, which is an optional setting, to scope these messages to a subset of users in that role.
+   * __Message__, what message will be displayed to the approver when a approval request was triggered.
+   * __Start activity__, which is an optional setting, any activity you wish to start as part of the approval.
+1. Click __Save Changes__.
 
 To start sending notifications to phones, select the __Default Execute Application Request Type__ and change the __Approval Process__ from the __Default Manual Approval Process__ to the __Mobile Message Approval Process__ and save the changes.
 
@@ -78,6 +78,6 @@ This message can be executed on a schedule to send alerts for any password discl
 
 ## Authentication Provider Warning
 
-The Privilege Manager Mobile Console does currently not work with Secret Server as the authentication provider. If Secret Server is configured as the authentication provider in Privilege Manager, a warning message is shown on the Mobile Message Approval Process configuration page.
+The Privilege Manager Mobile Console does currently not work with Secret Server or ThycoticOne as the authentication provider. If Secret Server is configured as the authentication provider in Privilege Manager, a warning message is shown on the Mobile Message Approval Process configuration page.
 
 ![Warning](images/auth-provider-warning.png "Secret Server Authentication Provider warning")

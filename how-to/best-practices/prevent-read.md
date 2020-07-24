@@ -14,48 +14,37 @@ In the following scenario you will create a Microsoft Word document and save it 
 
 ## Create a Deny File Access Action
 
-1. Navigate to __ADMIN | Actions__.
-1. Under Filter Type enter __Deny File Access Action__.
-1. Click on the Deny File Access Action.
+1. Navigate to __Admin | Actions__.
+1. Search for __Deny File Access Action__.
+1. Click on __Deny Read/Write Access to Microsoft Office Document Files__.
 
-   ![Select Action](images/prevent-read/pr-4.png)
-1. Click on __Create a Copy__.
-1. Name the new copy of the action.
-1. Click __Edit__.
-1. Select the __Read__ and __Write__ check boxes.
-1. Enter in the path of the file (`e.g., c:\company invoices`).
-1. Select __Add__ to the right of MIME types and enter in __Word document__ for the example.
+   ![select](images/prevent-read/pr-4.png "Select Action")
+1. Click on __Duplicate__.
+1. Name the new copy of the action and click __Create__.
+1. Enter the path of the file location (`e.g., c:\company invoices`), for our example we also set the switch to include subdirectories.
 
-   ![Edit new action](images/prevent-read/pr-3.png)
-1. Click __Save__.
+   ![edit](images/prevent-read/pr-3.png "Edit new action")
+1. Click __Save Changes__.
 
 ## Create an Application Control Policy
 
-1. Navigate to __ADMIN | Policies__.
-1. Click __New Policy__.
-1. From the Platform drop down Select __Windows__.
-1. From the Policy Type drop down Select __Show All Templates__.
-1. From the Template Type drop down Select __Other: Empty Policy__.
-1. Add Name and Description, click __Create__.
+1. Under your Computer Group select __Application Policies__.
+1. Click __Create Policy__.
+1. Select __Skip the wizard, take me to a blank policy__.
+1. Add Name and Description, click __Create Policy__.
 
-  ![New policy](images/prevent-read/pr-5.png)
+   ![new](images/prevent-read/pr-5.png "New policy")
+1. Under __Conditions | Applications Targeted__, click __Add Application Targeted__.
+1. Search for __word__ and add the __MS Word__ filter.
+1. Click __Update__.
+1. Under __Actions__, click __Add Actions__.
+1. Search for and add your __Deny Read/Write Access to Microsoft Office Document Files__ Action.
+1. Click __Update__.
 
-1. Click __Edit__.
-1. Select the __Enabled__ Check box.
-1. Navigate to the __Conditions__ tab.
-1. Click on __Application Target__.
-1. In the search box enter __word__ and select the __MS Word__ filter.
-1. Click __Add__.
-
-   ![Conditions](images/prevent-read/pr-6.png)
-1. Navigate to the __Actions__ tab.
-1. Click __Add Action__.
-1. In the search box enter __Deny File Access Action__ and select the new deny file access filter you created.
-1. Click __Add__.
-
-   ![Action](images/prevent-read/pr-7.png)
-1. Click __Save__.
-1. After you run the Policy Targeting Update under the __Deployment__ tab, the appropriate endpoints will receive the new policy.
+   ![policy](images/prevent-read/pr-7.png "Policy with app target and action")
+1. Click __Save Changes__.
+1. Set the Inactive switch to __Active__.
+1. Next to Deployment, click the __i__ icon and run the __Resource and Collection Targeting Update__. After you run update, the appropriate endpoints will receive the new policy.
 
 ## Test Access
 

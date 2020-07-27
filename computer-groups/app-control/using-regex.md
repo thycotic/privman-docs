@@ -1,6 +1,6 @@
 [title]: # (Using RegEx)
 [tags]: # (policy)
-[priority]: # (10)
+[priority]: # (5)
 # Using RegEx in Policies and Filters
 
 Various Privilege Manager policies and filters use Regular Expressions (RegEx) to specify application or file names to match against.
@@ -11,9 +11,9 @@ For Privilege Manager all RegEx strings need to be in lowercase. A good resource
 
 The following characters have special meaning in RegEx, and should be used with an escape character when there is a need to represent a literal character.
 
-To perform the escape a \ (backslash) needs to precede the following characters: __+ * ? ^ $ . [ ] { } ( ) | \ /__
+To perform the escape a \ (backslash) needs to precede the following characters: `+ * ? ^ $ . [ ] { } ( ) | \ /`
 
-A Privilege Manager Win32 file filters path name does not use the ending directory slash `\`. RegEx for path names should also not include the ending `\`
+A Privilege Manager Win32 file filters path name does not use the ending directory slash `\`. RegEx for path names should also not include the ending `\`.
 
 ### Escape Example
 

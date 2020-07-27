@@ -1,6 +1,6 @@
 [title]: # (Agent Policy State)
 [tags]: # (agent)
-[priority]: # (10)
+[priority]: # (2)
 # Agent Policy State
 
 These are the steps for verifying which policies were received by an agent:

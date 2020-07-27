@@ -1,6 +1,6 @@
 [title]: # (Examples)
 [tags]: # (application control)
-[priority]: # (10)
+[priority]: # (15)
 # Example Policies
 
 This sections contains examples on how to configure and use policies in Privilege Manager.

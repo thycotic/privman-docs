@@ -1,6 +1,6 @@
 [title]: # (Policy Wizard)
 [tags]: # (create)
-[priority]: # (2)
+[priority]: # (11)
 # Using the Policy Wizard
 
 Privilege Manager 10.8 is introducing the Policy Wizard for an easy and guided creation of new policies.

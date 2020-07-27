@@ -1,6 +1,6 @@
 [title]: # (Deleting Items)
 [tags]: # (dependencies)
-[priority]: # (100)
+[priority]: # (6)
 # Deleting Items
 
 When deleting items there might be dependencies, like a filter is used in a policy. If that filter is then deleted without modifying or also deleting the policy, the policy will stop working without anyone realizing that the filter has been deleted.

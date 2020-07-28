@@ -7,18 +7,12 @@ This sections contains examples on how to configure and use policies in Privileg
 
 These following topics are available:
 
-<!-- * [Sending Policies to Endpoints](ac-policy-endpoints.md)
-* [Learning Mode Policies](ac-event-discovery.md)
-* [Application Control Events](ac-events.md)
-* [Best Practices](bp-event-discovery.md)
-* [Policy Priority](priority.md) -->
-
 * [Approval Policies](approval/index.md)
   * [Offline Approvals](approval/offline_approval.md)
   * [HelpDesk Approvals](approval/helpdesk.md)
   * [Setup a Policy to use Google Authenticator](approval/google-authentication.md)
 
-* [Allowlisting Policies](safe/index.md)
+* [Allow Policies](safe/index.md)
   * [Google Application with File Upload](safe/google-app-file-up.md)
   * [Microsoft Security Catalog](safe/ms-sec-cat.md)
 

@@ -1,6 +1,6 @@
 [title]: # (MS Security Catalog)
 [tags]: # (allow list)
-[priority]: # (4602)
+[priority]: # (2)
 # MS Security Catalog
 
 This policy uses a built-in filter to allow list Microsoft’s Signed Security Catalog. This filter is often used to dynamically allow to update items from Microsoft. Allow listing these executables clears them so they are not effected by any other policy, (i.e. they are allowed to run).

@@ -1,9 +1,9 @@
 [title]: # (Monitoring)
 [tags]: # (event discovery, policy feedback)
-[priority]: # (4)
-# Learning Mode Policies
+[priority]: # (1)
+# Monitoring - Learning Mode Policies
 
-At the most basic level, a Monitoring policy that takes no action, it exists only to gather data and you can use the data it gathers for audits or for assigning actions to application events retrospectively. For trials and Proof of Concept (PoC) environments these can be pointed at specific endpoints in order to learn about events that are already happening, or in order to test-run specific applications that you want to quickly introduce into Privilege Manager.
+At the most basic level, a Monitoring policy is a policy that takes no action, it exists only to gather data and you can use the data it gathers for audits or for assigning actions to application events retrospectively. For trials and Proof of Concept (PoC) environments these can be pointed at specific endpoints in order to learn about events that are already happening, or in order to test-run specific applications that you want to quickly introduce into Privilege Manager.
 
 Any Monitoring policy will have the __Audit Policy Events__ set to active under the Actions section.
 

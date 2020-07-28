@@ -1,6 +1,6 @@
 [title]: # (Policies)
 [tags]: # (application control, endpoints)
-[priority]: # (1)
+[priority]: # (10)
 # Policies
 
 In Application Control, layered Policies create the backbone or parameters, that dictate precisely how privileges are accessed across your network. They define what a user can run, and where. A policy is made up of customizable filters that apply an action to specific Computer Groups. In other words, each policy is defined by:

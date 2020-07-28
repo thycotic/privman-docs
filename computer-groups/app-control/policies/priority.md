@@ -1,6 +1,6 @@
 [title]: # (Priority)
 [tags]: # (policy)
-[priority]: # (5)
+[priority]: # (13)
 # Priority
 
 In Privilege Manager your Policies are evaluated in a certain order for each application that runs. It is important to have an awareness of all policies that are defined and the order in which they are called by the agent. If one policy blocks an application and ends execution before a second policy that was intended to elevate privileges, then only the block will occur.

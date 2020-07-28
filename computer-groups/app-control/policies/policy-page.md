@@ -1,6 +1,6 @@
 [title]: # (The Policy Page)
 [tags]: # (create)
-[priority]: # (3)
+[priority]: # (12)
 # What's on the Policy Page
 
 Once a policy is created, it can be customized. The following screen capture shows a policy example that denies the execution of a specific batch file.

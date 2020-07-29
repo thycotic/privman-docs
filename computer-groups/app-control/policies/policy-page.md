@@ -5,13 +5,13 @@
 
 Once a policy is created, it can be customized. The following screen capture shows a policy example that denies the execution of a specific batch file.
 
-![example bat policy](../filters/types/application/sff/images/script-policy.png "Policy to deny batch file execution")
+![example bat policy](../../../admin/filters/types/application/sff/images/script-policy.png "Policy to deny batch file execution")
 
 ## Policy Activation
 
 By default newly created policies are inactive and to activate them, the switch needs to be set to active.
 
-  ![inactive](../filters/types/application/sff/images/pol-inactive.png "Inactive policy switch") - ![active](../filters/types/application/sff/images/pol-active.png "Active policy switch")
+  ![inactive](images/pol-inactive.png "Inactive policy switch") - ![active](images/pol-active.png "Active policy switch")
 
 ## Policy Details
 

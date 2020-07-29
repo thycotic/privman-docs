@@ -1,14 +1,36 @@
 [title]: # (Specific Applications)
 [tags]: # (deny list)
-[priority]: # (4301)
+[priority]: # (5)
 # Specific Applications
 
-To create a new policy that blocks specific applications, do the following steps:
+## Using File Inventory
 
-1. Begin by selecting Deny (Blacklist) Applications from the Privilege Manager Dashboard.
-2. Select Block Application by Name and click Next.
-3. You will have to supply a application under File Name and/or File Path. Optionally you may choose a message to display to the user when they attempt to execute the target application. Once you feel satisfied to proceed, click Finish.
-4. On the General tab, you can customize the name and description of your Policy and observe where it will be placed in Privilege Manager’s folder structure. You should enable the Policy by ticking the checkbox next to Enabled and you can decide on what priority the Policy should have in comparison to other Policies. The lower numbered Policies will apply before higher numbered Policies.
-5. Click the Policy Enforcement tab. If you wish to ensure that this Policy will not affect system or service applications, select Applies to all processes. Otherwise, keeping the Applies to all processes setting disabled will force this policy to apply to only applications launched by the interactive user. Ensure all other boxes are unchecked here and click Save to finish creating your denylist Policy.
+To create a new policy using file inventory data to block specific applications, follow these steps:
+
+1. From the navigation menu select __File Inventory__.
+1. From the table grid of inventoried files, select the application you want to block.
+
+   ![select](images/inv-file-create.png "Select an inventoried file and create a filter")
+1. Click __Create Filter__.
+1. On the __Manage Application__ page select all the identifying factors you want the filter to target.
+1. Click __Create Filter__ or __Create and Add to Policy__. Use the __Create and Add to Policy__ option if you already have a deny policy to target applications.
+
+   Otherwise use __Create Filter__ and then use the Policy Wizard or a blank policy to add that filter.
+
+## Using the Policy Wizard
+
+To create a new policy using the policy wizard to block specific applications, follow these steps:
+
+1. Using the Policy Wizard, create a controlling policy that blocks application execution on endpoints.
+1. Select how you want the processes blocked, either __Block Silently__ or __Notify and Block__, for this example we use __Block Silently__. Click __Next Step__.
+1. Select what types you want the policy to block, for this example it's __Executables__.
+1. Choose your target, for this example __File Upload__.
+1. Click __Choose File__ and select a file to upload.
+1. Click __Upload File__.
+1. On the __Manage Application__ page select all the identifying factors you want the filter to target.
+1. Click __Create Filter__.
+1. Click __Next Step__.
+1. Name your policy and add a description, click __Create Policy__.
+1. Set the __Inactive__ switch to __Active__.
 
 Be sure to test the new policy on a few machines before you roll it out to the environment.

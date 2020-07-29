@@ -45,3 +45,5 @@ Clicking __Show Advanced__, provides access to setting Policy Enforcement option
 * Enforce Child Processes
 * Stage 2 Processing
 * Skip Policy Analysis at Start-up.
+
+Refer to [Policy Enforcement](stage-two.md) for further details.

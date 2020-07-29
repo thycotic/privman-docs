@@ -35,7 +35,7 @@ On Windows 7 endpoints with __Change Network Adapter Settings__ active, do NOT e
 
 ## Defragment the Disk
 
-If active, users on Windows endpoints are allowed to perform disk dedragmentation operations.
+If active, users on Windows endpoints are allowed to perform disk defragmentation operations.
 
 ## Install Language Packs
 

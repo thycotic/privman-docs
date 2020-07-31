@@ -10,7 +10,6 @@ For this use-case you will need to have access to downloaded Git installer files
 1. Using the Policy Wizard, create a controlling policy that allows application execution on endpoints.
 1. Select what process types you want the policy to allow, for this example it's __Specific Applications__.
 1. Choose your target, for this example __File Upload__.
-1. Name your policy and click __Create__.
 1. Click __Choose File__ and select a file to upload.
 1. Click __Upload File__.
 1. On the __Manage Application__ page select all the identifying factors you want the filter to target.

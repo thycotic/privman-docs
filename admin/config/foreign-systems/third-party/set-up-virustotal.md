@@ -4,7 +4,7 @@
 # Set-up VirusTotal Connection
 
 <!-- TODO: Per Mike new PBI to update this page -->
-Privilege Manager can perform real-time reputation checks for any unknown applications by integrating with analysis tools like VirusTotal. This article shows how to set up the integration between Privilege Manager and VirusTotal and then create a greylisting policy in Privilege Manager for reputation checking.
+Privilege Manager can perform real-time reputation checks for any unknown applications by integrating with analysis tools like VirusTotal. This article shows how to set up the integration between Privilege Manager and VirusTotal and then create a monitoring policy in Privilege Manager for reputation checking.
 
 ## VirusTotal API Key
 

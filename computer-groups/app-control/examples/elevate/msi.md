@@ -8,7 +8,7 @@ A wizard generated UNC or Network Share Path Elevation Policy elevates .exe file
 When launching an .msi file, the following command line is executed:
 
 ```cmd
-C:\Windows\System32\msiexec.exe /i "\[path-to-network-share]\[file]"
+C:\Windows\System32\msiexec.exe /i "\\[path-to-network-share]\[file]"
 ```
 
 This means that the application is not elevated because the msiexec.exe file is not in the elevated Network Share directory.
@@ -26,7 +26,7 @@ In order to enable elevation for .msi files on the network share, a command line
 1. Give this filter a custom name and description.
 1. Click __Create__.
 1. Under __Settings | Match Type__, select __Partial Match__.
-1. In the Command line field, enter the network share path that needs to be elevated (such as `\share\folder_path`).
+1. In the Command line field, enter the network share path that needs to be elevated (such as `\\share\folder_path`).
 
    ![path](images/msi/msi-1.png "Share path to network location")
 1. Click __Save Changes__.
@@ -54,16 +54,17 @@ An application control policy can be created that targets "msiexec.exe" and uses
    1. Click __Next Step__.
 1. On the Finalize the Policy page, enter a name for your new policy. The policy will be created with a default priority of 50, since it is a silent elevation policy.
 1. Click __Create Policy__.
-1. Under __Conditions__, click __Edit__.
-1. Search and add the network share path filter previously created.
-1. Click __Update__.
 
    ![final](images/msi/msi-6.png "Finalized policy")
+1. Click the __Packages for 'msi Elevate Process Rights Policy'__ Filter and under __Settings__ search for and add the __\\share\to-path__ filter previously created.
+
+   ![add filter](images/msi/msi-7.png "Adding \\share\... filter as secondary to policy created filter")
 1. Click __Save Changes__.
+1. Set the __Inactive__ switch to __Active__.
 
 MSI files in the network share will be elevated.
 
-Adding the Secondary File Filter created to the Applications Targets under Conditions of the Policy will catch all instances where `.msi` files are run from `\share\folder_path`. Only msiexec.exe will run .msi files, so the Secondary File Filter can be added to an Elevation Policy that has other Application Targets.
+Adding the Secondary File Filter created to the Applications Targets under Conditions of the Policy will catch all instances where `.msi` files are run from `\\share\folder_path`. Only msiexec.exe will run .msi files, so the Secondary File Filter can be added to an Elevation Policy that has other Application Targets.
 
 An Elevation Policy can be built with this Secondary File Filter as the Application Target and add the built-in Microsoft Installer File Filter as an Inclusion Filter to specifically target msiexec.exe runs an .msi from
-`\share\folder_path\`.
+`\\share\folder_path\`.

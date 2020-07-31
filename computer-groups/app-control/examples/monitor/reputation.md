@@ -1,6 +1,6 @@
 [title]: # (Reputation Checking)
 [tags]: # (monitoring)
-[priority]: # (4502)
+[priority]: # (5)
 # Reputation Checking
 
 Privilege Manager analyzes applications in real-time.  This unique feature allows for reputation analysis of any unknown applications that will mitigate endpoint attacks from Ransomware, Zero-day attacks, Drive-by Downloads, and other unknown malicious software.

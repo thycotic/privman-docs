@@ -1,26 +1,26 @@
 [title]: # (Catch-All Policy)
 [tags]: # (monitor)
-[priority]: # (4501)
+[priority]: # (5)
 # Catch-All Policy
 
 A useful Learning Mode Policy to set up in Production environments is called a Catch-All Policy. This type of policy will gather information on any executables in your environment that are not satisfied by other Privilege Manager policies.
 
-1. Navigate to __ADMIN | Policies__ and click __Add New Policy__.
-1. From Policy Type drop-down select __Show All Templates__.
-1. For POC and testing environments from Template Type drop-down, select __Other: Empty Policy Targeting Test Computers__.
-1. Name the policy _Catch-All Policy_, and add a description.
-1. Click __Create__.
-1. Click __Edit__.
+>**Note**: These types of Catch-all monitor policies SHOULD NOT BE used for the Windows or Mac OS Computer Groups. Those groups apply to ALL computers in the environment and unless a monitor policy like this is setup to work with really good allow policies in front a lot of events will be sent.
 
-   This policy is supposed to catch all processes not caught by any defined policy above it, change to priority to the highest possible value (100).
+1. Under your Computer Group for which you want to monitor all activities select __Application Policies__ and click __Create Policy__.
+1. From the Policy Wizard select __Monitoring__ and click __Next Step__.
+1. Select __Everything__ and click __Next Step__.
+1. Enter a name, for example _Catch-all Monitor Policy_.
+1. Click __Create Policy__.
 
-   ![Catch-All Policy General tab](images/catch-all-1.png)
-1. Select the __Enable__ checkbox.
-1. Customize the policies Conditions, Actions, and Policy Enforcement. Refer to the following screenshots for example configuration of the the policy:
+   ![policy](images/catch-all-1.png "Catch-All Policy")
+1. Customize the policies Conditions, Actions, and Policy Enforcement, for example:
+   * Under Applications Targeted, click __Add Application Target__ and search for and add __Interactive Users__.
+   * Under Exclusions, click __Edit__ and add __LocalSystem and Service applications__ to the exclusion list.
 
-   ![Catch-All Policy Conditions tab](images/catch-all-2.png)
+     ![customized](images/catch-all-2.png "Customized catch-all monitoring policy")
+   * Under __Show Advanced | Policy Enforcement__ set the switch for __Stage 2 Processing__ to active an all others to inactive.
 
-   ![Catch-All Policy Actions tab](images/catch-all-3.png)
-
-   ![Catch-All Policy Policy Enforcement tab](images/catch-all-4.png)
-1. Click __Save__.
+     ![enforcement](images/catch-all-3.png "Policy Enforcement settings")
+1. Click __Save Changes__
+1. Set the __Inactive__ switch to __Active__.

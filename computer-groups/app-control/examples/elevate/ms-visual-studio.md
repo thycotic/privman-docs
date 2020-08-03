@@ -11,16 +11,18 @@ Each File Specification Filter incorporates a Certificate Filter for the signing
 
 ## Import the XML Example
 
-1. In Privilege Manager, navigate to __ADMIN | Diagnostics__ and click __Import Items__.
-2. Copy the complete xml example data below.
-3. Paste the XML into the new Item(s) area in the Privilege Manager console.
-4. Click __Import__.
+1. In Privilege Manager, navigate to __Admin | Import Items__.
+1. Copy the complete xml example data below.
+1. Paste the XML into the new Item(s) area in the Privilege Manager console.
+
+   ![import](images/ms-vs-install/import.png "Item import")
+1. Click __Import__.
 
 ## Background Notes
 
 The four Microsoft Initial download files and subsequent two Windows Start Menu target files have been defined as Application targets in this policy.
 
-![Application Targets in the policy](images/ms-vs-install/app-targets.png)
+![targets](images/ms-vs-install/app-targets.png "Application Targets in the policy")
 
 If you use this policy in your environment, check frequently to update when new versions are released. Verify if there are any versions of Visual Studio you would need to include for your customization. To cover additional versions, use these filters as a basis and download desired versions from Microsoft. 
 

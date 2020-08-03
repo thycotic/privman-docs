@@ -279,7 +279,7 @@ VirusTotal Filters based on configuring VirusTotal integration in Privilege Mana
 | __All Executables Discovered in Last Day__| Filter used to detect files that have been discovered by the server in the past day  |
 | __All Executables Discovered in Last Week__ | Filter used to detect files that have been discovered by the server in the past week |
 | __All Executables Discovered in Last Month__  | Filter used to detect files that have been discovered by the server in the past month |
-| __All Greylist Security Rated Applications__  | This collection contains all applications that have been greylisted |
+| __All Greylist Security Rated Applications__  | This collection contains all applications that are being monitored. |
 | __All Unclassified Applications__ | This collection contains all applications that have not been classified by a security rating|
 | __All Allow Listed Security Rated Applications__ | This collection contains all applications that have been allowed by applying a security rating |
 

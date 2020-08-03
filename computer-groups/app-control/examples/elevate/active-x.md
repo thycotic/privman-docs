@@ -1,13 +1,13 @@
 [title]: # (Setting up ActiveX Policies)
 [tags]: # (elevate)
-[priority]: # (2)
+[priority]: # (4)
 # Setting up ActiveX Policies
 
 To allow add-ins to be installed via Internet Explorer, you need to create an allow policy for ActiveX.
 
 >**Note:** You will need to import local group policy definitions before editing your Active-X Group Policy Settings.
 
-Refer to the Local Security topic, specifically [Manage Local Groups](../../../../local-security/ls-local-groups.md).
+Refer to the Local Security topic, specifically [Manage Local Groups](../../../local-security/ls-local-groups.md).
 
 ## Creating the Policy
 

@@ -28,8 +28,8 @@ The application action elevates or restricts the permissions and/or privileges h
 
 The four main areas to customize are:
 
-* Selecting an __Action Type__, which can either Elevate Rights or Restrict Rights. When the adjustment is a rights restriction, there is an advanced feature that allows you to apply restricted Security Identifiers (SIDs), which further restricts access to securable objects. More about this under the [What is a Restricted SID](#what-is-a-restricted-sid) topic.
-* Adding or Removing __Windows Privileges__, these come prepopulated with a set of default recommendations for each out of the box Action. To learn more about these Windows Privileges visit [Microsoft’s Documentation about User Rights Assignment](https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/user-rights-assignment).
+* Selecting an __Action Type__, which can either Elevate Rights or Restrict Rights. When the adjustment is a rights restriction, there is an advanced feature that allows you to apply restricted Security Identifiers (SIDs), which further restricts access to securable objects. More about this under the [What is a Restricted SID](#what_is_a_restricted_sid_) topic.
+* Adding or Removing __Windows Privileges__, these come pre-populated with a set of default recommendations for each out of the box Action. To learn more about these Windows Privileges visit [Microsoft’s Documentation about User Rights Assignment](https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/user-rights-assignment).
 * Adding or Removing __Build-in Roles__, these are the roles that provide file level access to a system and they are based on group membership.
 * Adding or Removing __Well-known Accounts__, these are specifying the integrity levels at which processes can run. Also refer to [Microsoft’s Documentation about Mandatory Integrity Control](https://docs.microsoft.com/en-us/windows/win32/secauthz/mandatory-integrity-control).
 
@@ -48,11 +48,9 @@ Access is granted only if both access checks allow the requested access rights.
 
 #### When to use restricted ID
 
-Use a restricted SID to further restrict the applications in the sandbox, which you can use as another method of greylisting. In other words, this is a way to protect yourself against unknown applications if you don't want to implement 
-denylisting.
+Use a restricted SID to further restrict the applications in the sandbox, which you can use as another method of monitoring. In other words, this is a way to protect yourself against unknown applications if you don't want to implement a blocking policy.
 
-The restricted SID will allow only Read access to the user registry but not to the local machine registry. Also, restricted processes do not have rights to open any network-based resource, such as file servers. As a result, the
-restricted SID will be able to do very little and apps may not work correctly under this model. Ultimately, apps in the sandbox that have restricted SID applied to them will be severely locked down.
+The restricted SID will allow only Read access to the user registry but not to the local machine registry. Also, restricted processes do not have rights to open any network-based resource, such as file servers. As a result, the restricted SID will be able to do very little and apps may not work correctly under this model. Ultimately, apps in the sandbox that have restricted SID applied to them will be severely locked down.
 
 #### Using Apply Restricted SID
 

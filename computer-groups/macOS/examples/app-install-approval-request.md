@@ -10,7 +10,7 @@ Privilege Manager can allow macOS users to install packages on demand. Do the fo
 1. Select __Controlling__ and click __Next Step__.
 1. Select __Elevate__ and click __Next Step__.
 1. Select __Installer Packages__ and click __Next Step__.
-1. Select what exactly you want the policy to target. This can be based of an __Existing Filter__, a __File Upload__, and/or __Inventoried File(s)__. Multiple targets can be selected. Our example shows the __All Application Bundles Filter (MacOS)__. Click __Next Step__.
+1. Select what exactly you want the policy to target. This can be based of an __Existing Filter__, a __File Upload__, and/or __Inventoried File(s)__. Multiple targets can be selected. Our example shows the __Any Package (MacOS)__. Click __Next Step__.
 1. Enter a Name and description for your policy, click __Create Policy__.
 
    ![new](images/mac/appr_inst_pkgs.png "New Approve Installer Packages Policy")
@@ -19,7 +19,7 @@ Privilege Manager can allow macOS users to install packages on demand. Do the fo
 Once the policy is enabled and in place at the endpoint, a user will typically go through the following steps to request an application installation:
 
 1. Mount the DMG containing the application you’d like to install to Applications. If the DMG contains an application bundle that can be dragged to the Applications folder, do so. If the DMG contains an installer application, double-click and proceed with the steps outlined in installing an application.
-1. The Authentication required dialog opens:
+1. The Authentication required dialog might open based on system settings:
 
    ![request](images/mac/app_admin_acct_required_20190506.png "Authenticate")
 1. Click the Authenticate button. The following Application Notice opens:

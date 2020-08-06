@@ -20,7 +20,7 @@ To create a Monitoring (or Learning Mode Policy) on your Mac, begin by
    1. Add the macOS endpoints you want to be part of the computer group.
    1. Click __Save Changes__.
    1. Pin your computer group to the left navigation menu for quick access. Click the bookmark icon next to the computer group name.
-1. Click on Agent Configuration and create an __Agent Configuration Policy__ for this computer group.
+<!-- 1. Optionally, click on Agent Configuration and create an __Agent Configuration Policy__ for this computer group.
    1. Click __Create Agent Configuration Policy__.
    1. Enter a name and description.
 
@@ -29,7 +29,7 @@ To create a Monitoring (or Learning Mode Policy) on your Mac, begin by
 
       ![agent config 2](images/cg-agent-cfg-policy.png "Agent Configuration policy")
 
-Make any changes you want to globally apply to agents registered from endpoints in this computer group.
+Make any changes you want to globally apply to agents registered from endpoints in this computer group.-->
 
 ## Setting Up Monitoring Policies for macOS
 

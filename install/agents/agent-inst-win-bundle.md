@@ -6,7 +6,7 @@
 The bundled EXE installer is recommended when installing Privilege Manager on machines one at a time, for deployments through software delivery see the next section. This installer includes all Privilege Manager Agents for Windows machines (Core, ACS, LSS). You can use the bundled installer directly on individual endpoints for testing or for production environments in either 32-bit or 64-bit environments.
 
 >**Important**:
->To ensure you have installed all prerequisite software on your managed computers __before__ you install the Thycotic agents, please see our [System Requirements for Privilege Manager](../sysreq.md)
+>To ensure you have installed all prerequisite software on your managed computers __before__ you install the Thycotic agents, please see our [System Requirements for Privilege Manager](../sysreq.md) and [Agent System Requirements](agent-sysreq.md).
 
 To install Thycotic agents __on a single testing machine__, follow these steps:
 
@@ -35,4 +35,4 @@ To install Thycotic agents __on multiple machines__, we recommend the following:
 1. Push them out through any software delivery system tool (e.g.: SCCM) using the recommended command lines.
 
 >**Note**:
->If you find that you've entered the wrong Privilege Manager Server address or want to change this settings, refer to the information under [Setting the Privilege Manager Server Address](../../agents/agent-set-server-address.md).
+>If you find that you've entered the wrong Privilege Manager Server address or want to change this settings, refer to the information under [Setting the Privilege Manager Server Address](../../agents/all/agent-set-server-address.md).

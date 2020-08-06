@@ -17,7 +17,7 @@ The __Core Thycotic Agent__ needs to be installed on the system that receives th
 
 ## Directory Services Agent Installation
 
-Download the latest version of the Directory Services Agent via the [Software Downloads](../sw-downloads.md) page.
+Download the latest version of the __Directory Services Agent__ via the [Software Downloads](../sw-downloads.md) page.
 
 1. Double-click the .msi file to start the installation wizard:
 

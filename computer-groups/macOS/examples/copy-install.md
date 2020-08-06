@@ -5,25 +5,21 @@
 
 A policy can be created to allow or deny standard users to install specific applications by copying/pulling the application into the Applications folder. Follow this example to create a policy that will enable this functionality for your Mac OS user.
 
-1. Navigate to __Admin | Policies__ and click the __Add New Policy__ button.
-1. From the Platform drop-down select __Mac OS__.
-1. From the Policy Type drop-down select __Show All Templates__.
-1. From the Template Type drop-down select __Other: Allow Standard Users to Copy to Applications Directory (via Drag and Drop)__, this can also be done via __Other: Empty Policy__.
+1. Navigate to your macOS Computer Group and select __Application Policies__.
+1. Click __Create Policy__.
+1. Select __Controlling__ and click __Next Step__.
+1. Select __Allow__ and click __Next Step__.
+1. Select what exactly you want the policy to target. This can be based of an __Existing Filter__, a __File Upload__, and/or __Inventoried File(s)__. Multiple targets can be selected. Our example shows the __All Application Bundles Filter (MacOS)__. Click __Next Step__.
+1. Enter a Name and description for your policy, click __Create Policy__.
 
-   ![Add Allow Standard Users to Copy to Application Directory (via Drag and Drop)](images/mac/copy_drag_drop.png)
-1. Enter a name and description for the new policy and click __Create__.
-1. Once the policy is created, it can be modified to be restricted to certain applications instead of targeting every application:
-   1. Click __+ Add Application Target__ to specify an application bundles filter for Mac OS applications.
-   1. Click __+ Add Inclusion Filter__ to specify the Copy Install Application filter.
-   1. Click __Save__.
+   ![new](images/mac/copy_drag_drop.png "Allow Copy to Install Application Policy")
+1. Click __Add Inclusions__.
+1. Search for and add the __Copy Install Application__ filter.
+1. Click __Update__.
 
-   ![Example allow copy/drag application to applications folder](images/mac/allow_copy_conditions_20190510.png)
-1. Navigate to the __General__ tab.
-1. Click __Edit__.
-1. Select the __Enabled__ checkbox to enable the policy.
-
-   ![Enable the Copy Install Application policy](images/mac/allow_copy_enable_20190510.png)
-1. Click __Save__.
+   ![inclusion filter](images/mac/copy_drag_drop-2.png "Policy with inclusion filter")
+1. Click __Save Changes__.
+1. Set the __Inactive__ switch to __Active__ for policy updates at the endpoint.
 
 >**Note**:
 >The new Copy Install Application Filter should not be used with the existing Privilege Manager Copy/Installer Helper Parent Process Filter, which should be removed from any policy before adding the new Copy Install Application Filter to the policy.
@@ -32,16 +28,18 @@ A policy can be created to allow or deny standard users to install specific appl
 
 If you have policies that currently use the Privilege Manager Copy/Installer Helper Parent Process Filter use the following steps to update them to use the Copy Install Application Filter in the Privilege Manager UI:
 
-1. Navigate to __Admin | Policies__.
-1. Click __Edit__ and navigate to __Conditions__ tab.
-1. Under Inclusion Filters remove the __Privilege manager copy/installer helper parent process filter__.
-1. Under Add Inclusion Filter search for and select __Copy Install Application__ and click __Add__.
-1. Navigate to the Actions tab and remove __Allow copy to/Applications/Directory__.
-1. Click __Add Action__ and select Application Approval Request Message Action then click __Add__.
-1. Navigate to Policy Enforcement and select any of the options:
+1. Navigate to the macOS Computers Group and select __Application Policies__.
+1. For each application that currently uses the __Privilege manager copy/installer helper parent process filter__ as an inclusion filter, remove that filter and add the __Copy Install Application__ filter instead.
+1. Click __Update__.
+1. Under Actions remove __Allow copy to/Applications/Directory__ and add the __Application Approval Request Message Action__ in its place.
+1. Click __Update__.
+1. Click __Show Advanced__ and set these two option to active:
 
-   * Continue enforcing policies after enforcing this policy
-   * Continue enforcing policies for child processes after enforcing this policy
+   * Continue Enforcing.
+   * Enforce Child Processes.
+
+   ![enforcement](images/mac/policy-enforcement.png "Policy enforcement options")
+1. Click __Save Changes__.
 
 On the macOS endpoint,
 

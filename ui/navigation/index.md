@@ -35,6 +35,30 @@ The user icon provides access to information about the system name, Preferences,
 
 Controls to enable or disable a setting are unified across the user interface via on/off type switches. Users preferences like number of grid rows and color theme can be specified, these will be applied through the console one edited and saved.
 
+## Pin to Navigation Tree
+
+When computer groups are created, they can be pinned to the navigation tree on the left. Click the bookmark type icon next to the computer group name or on the Computer Groups page to toggle if a group is shown in the side menu.
+
+![pin](images/pin-toggle.png "Toggle to Show in Side Menu")
+
+## Table Grid Contents
+
+On any table grid the user has an option to filter on a what is displayed in the grid and what not. 
+
+| Page | Options |
+| ----- | ----- |
+| Computer Groups | ![side](images/side-menu-drop-down.png "Side Menu drop-down options") |
+| Application Policies | ![app policies](images/app-pol.png "Application Policies drop-down options") |
+| User Policies | ![user policies](images/user-pol.png "User Policies drop-down options")
+| Group Policies | Same options as for User Policies |
+| Scheduled Jobs | All, Active, Inactive |
+
+## Switches
+
+The UI offers many areas where items or states can be switched from off to on or inactive to active and vice versa.
+
+![switch](images/switches.png "Switch settings")
+
 ## Main Menu
 
 The main navigation menu on the left is organized into
@@ -60,10 +84,10 @@ The chevron pointing up for Windows computers indicates the item is expanded.
 
 The listed computer groups all have subitems organized by
 
-* [Application Policies](../../app-control/policies/index.md)
-* [User Policies](../../local-security/index.md)
-* [Group Policies](../../local-security/index.md)
-* [Scheduled Jobs](../../tasks/client/index.md)
+* [Application Policies](../../computer-groups/app-control/policies/index.md)
+* [User Policies](../../computer-groups/local-security/index.md)
+* [Group Policies](../../computer-groups/local-security/index.md)
+* [Scheduled Jobs](../../admin/tasks/client/index.md)
 * [Agent Configuration](../../agents/index.md)
 
 ## Admin Menu
@@ -71,8 +95,8 @@ The listed computer groups all have subitems organized by
 The Admin menu provides access to __Tools__, like
 
 * [Disclose Password](../../admin/tools/pw-disclosure.md)
-* [Manage Approvals](../../app-control/examples/approval/helpdesk.md)
-* [Offline Approvals](../../app-control/examples/approval/offline-approval.md)
+* [Manage Approvals](../../computer-groups/app-control/examples/approval/helpdesk.md)
+* [Offline Approvals](../../computer-groups/app-control/examples/approval/offline-approval.md)
 
 The other available __Admin__ subitems are:
 
@@ -84,7 +108,7 @@ The other available __Admin__ subitems are:
 * [File Upload](../../admin/file-upload/index.md)
 * [Filters](../../admin/filters/index.md)
 * [Folders](../../admin/folders/index.md)
-* [Import Items](../../how-to/maintenance/export-import.md)
+* [Import Items](../../admin/import-items/index.md)
 * [Licenses](../../admin/tasks/reset-license.md)
 * [Log Viewer](../../troubleshooting/logs/ts-ui.md)
 * [Personas](../../admin/personas.md)

@@ -5,11 +5,10 @@
 
 Use discovery with event notification to determine if an application requests or requires administrative privileges to perform tasks or run on a macOS endpoint.
 
-1. Use/Create a __Codesign Entitled Elevated Application Filter__. This filter creates events for application bundles that have a specific entitlement that might prompt for administrative permissions if launched.
-   1. Create a __Duplicate__ of the Codesign Entitled Elevated Application Filter:
+1. Use the __Codesign Entitled Elevated Application Filter__. This filter creates events for application bundles that have a specific entitlement that might prompt for administrative permissions if launched.
 
-      ![filter 1](images/mac/sudo_req_1.png "Codesign Entitled Elevated Application Filter")
-1. Use/Create a duplicate of the __Executable Declared as Privileged Filter__. This filter creates events for application bundles that list a privileged helper in their info.plist files.
+   ![filter 1](images/mac/sudo_req_1.png "Codesign Entitled Elevated Application Filter")
+1. Use the __Executable Declared as Privileged Filter__. This filter creates events for application bundles that list a privileged helper in their info.plist files.
 
    ![filter 2](images/mac/sudo_req_2.png "Executable Declared as Privileged Filter")
 1. Add both filters as the application target to a new policy and enable the __Send Policy Feedback__ action for that policy.

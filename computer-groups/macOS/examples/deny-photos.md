@@ -48,11 +48,16 @@ Once the resources have been fully discovered, the fastest way to either create 
    ![Policy](images/deny/discovery-nlr-8.png "Deny Application Execution Policy")
 1. Set the __Inactive__ switch to __Active__.
 
+## Updating the Endpoint
+
+On the macOS endpoint,
+
+1. Open __System Preferences | Privilege Manager__.
+
+   ![update client items](images/update-client-button.png "Privilege Manager system preference pane with Update Client Items button")
+1. Click __Update Client Items__.
+
 ## Policy Verification
-
-To make sure your policy is effective, pull up Terminal on your testing macOS endpoint and run the `sudo /usr/local/thycotic/agent/agentUtil.sh updateclientitems` command.
-
-   ![Run command example output](images/deny/terminal.png "Client items update terminal example")
 
 Once this Deny-policy is updated on your endpoint, when you click Zoom, you will see a message like this:
 

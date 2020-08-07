@@ -9,7 +9,8 @@ A policy can be created to allow or deny standard users to install specific appl
 1. Click __Create Policy__.
 1. Select __Controlling__ and click __Next Step__.
 1. Select __Allow__ and click __Next Step__.
-1. Select what exactly you want the policy to target. This can be based of an __Existing Filter__, a __File Upload__, and/or __Inventoried File(s)__. Multiple targets can be selected. Our example shows the __All Application Bundles Filter (MacOS)__. Click __Next Step__.
+1. Select what exactly you want the policy to target. This can be based of an __Existing Filter__, a __File Upload__, and/or __Inventoried File(s)__. Multiple targets can be selected.
+1. Click __Next Step__.
 1. Enter a Name and description for your policy, click __Create Policy__.
 
    ![new](images/mac/copy_drag_drop.png "Allow Copy to Install Application Policy")
@@ -41,13 +42,19 @@ If you have policies that currently use the Privilege Manager Copy/Installer Hel
    ![enforcement](images/mac/policy-enforcement.png "Policy enforcement options")
 1. Click __Save Changes__.
 
+## Updating the Endpoint
+
 On the macOS endpoint,
 
-1. Login as Admin user.
-1. Open the macOS Agent via Terminal and run an update using command:
+1. Open __System Preferences | Privilege Manager__.
 
-   ```shell
-   sudo /usr/local/thycotic/agent/agentUtil.sh updateclientitems
-   ```
+   ![update client items](images/update-client-button.png "Privilege Manager system preference pane with Update Client Items button")
+1. Click __Update Client Items__.
 
 The agent updates with new and updated policies and synchronizes.
+
+## Expected User Experience
+
+After the policies are updated, users can open a DMG or just drag and drop an application bundle to Applications. They'll see the authenticate message an click __Authenticate__.
+
+![copy](images/mac/copy_drag_drop-3.png "Message to authenticate")

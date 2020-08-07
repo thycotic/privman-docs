@@ -55,3 +55,13 @@ Once the Privilege Manager Extension is enabled, the extension icon is visible i
 The extension is also present as a menu item when you right-click or control+click an application in Finder.
 
 ![Request run as administrator](images/mac/finder_ext_ctrclk.png)
+
+### Finder Extension and Drive Type Extensions
+
+On endpoints that are also using OneDrive, GoogleDrive, DropBox, or similar extensions, when enabling the Finder Extension the endpoint will take about 2 min to correctly initialize.
+
+For systems prior to Privilege Manager 10.8, if a drive type extension does not work correctly. Execute the following steps in sequency:
+
+1. Disable the Finder Extension.
+1. Install/Enable the Drive type extension.
+1. Enable the Finder Extension. 

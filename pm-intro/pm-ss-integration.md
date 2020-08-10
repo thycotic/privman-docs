@@ -22,49 +22,43 @@ When Secret Server is used as the authentication source for Privilege Manager, R
 
 ## Component Definition
 
-__End User__ - These are the users connecting to your Secret Server and Privilege Manager websites. These users may be performing administrative tasks (admins), or just using the solution.
+__App User__ - These are the users connecting to your Privilege Manager websites. These users will be limited to the users that perform administrative tasks (admins), to use the solution in a helpdesk role, or to perform approvals or audits.
 
-__Load Balancers__ - Load Balancers are often involved in the solution to help distribute web traffic to more than one web server. Load balancers may also be involved for distributing traffic to a RabbitMQ cluster. Local and Global load balancers, if available, may be used in the solution to further lower potential application downtime during upgrades, patching, and single site failures.
+__Privilege Manager Agents__ - These is used for application control and local user/group management.
 
-__Web Server__ - This is a primary component of the solution. Our web servers use IIS 7 and newer and will only work on Windows Server 2008 R2 or newer. For multiple web server (clustered) solutions, The web application itself can be made cluster aware and does not require being built as part of an IIS farm. Each web server acts as its own stand alone web server.
+__Load Balancers__ - Load balancers are often involved in the solution to help distribute web traffic to more than one web server. Local and Global load balancers, if available, may be used in the solution to further lower potential application downtime during upgrades, patching, and single site failures.
 
-__Database Server__ - This is a primary component of the solution. SQL Server hosts the Secret Server and Privilege Manager databases. We are compatible only with SQL Server 2012 or newer running on Windows Server 2008 R2 or newer. The Thycotic databases can be put on a stand alone server, a FCI, or preferably using an AlwaysOn AG for clustered environments. The databases can be added to an existing production SQL cluster or instance, but proper sizing of the environment should be done. Windows authentication only is advised.
+__Web Server__ - This is a primary component of the solution. Our web servers use IIS 7 and newer and will only work on Windows Server 2008 R2 - Windows Server 2016. For multiple web server (clustered) solutions, the web application itself can be made cluster aware and does not require being built as part of an IIS farm. Each web server acts as its own stand alone web server.
 
-__MemoryMQ__ - MemoryMQ is our built in message brokering solution for Secret Server. It is not as robust as RabbitMQ and cannot be made highly available. Web Servers themselves have a built in MemoryMQ function so that out of box Secret Server can do all work by just having a Web and Database server. Alternatively, MemoryMQ can be installed on its own dedicated system. It is used by Secret Server, but not Privilege Manager.
+__Database Server__ - This is a primary component of the solution. Microsoft SQL Server hosts the Privilege Manager databases. We are compatible only with SQL Server 2012 or newer running on Windows Server 2008 R2 - Windows Server 2016. The Thycotic databases can be put on a stand alone server, a FCI, or preferably using an AlwaysOn AG for clustered environments. The databases can be added to an existing production SQL cluster or instance, but proper sizing of the environment should be done. Windows authentication only is advised.
 
-__RabbitMQ__ - This is an optional but often recommended component of the solution for any Secret Server environment involving multiple Web Servers or Distributed Engines. RabbitMQ is the most robust and widely used message brokering solution. Secret Server can utilize RabbitMQ for offloading work to Distributed Engines within the environment. This allows the solution to be more robust and efficient by making work done within the environment more distributed. You will see recommendations to use RabbitMQ in many web pages within our product. It is used by Secret Server, but not Privilege Manager. - https://www.rabbitmq.com/
+__Reverse Proxy / Azure Service Bus__ - A properly configured Reverse Proxy will act as a buffer between Privilege Manager agents and the Privilege Manager server(s) to limit server exposure. Use nginx, F5, or Windows Application Request Routing 3.0 and URL Rewrite in IIS on a DMZ Server, to prevent a direct connection between Agent endpoints and your Privilege Manager web server(s). Alternatively, Azure Bus can be used, to prevent Agent endpoints connecting directly to your Privilege Manager web server(s).
 
-__Distributed Engines__ - Distributed Engines are used by Secret Server for two primarily reasons. The first reason is to do work on behalf of the web servers and allow the architecture to be more distributed. You can consider distributed engines your "workers" within a Secret Server environment. Out of box without Distributed Engines, the Web Servers are doing all of the work. Distributed Engines are also useful for when you have systems in isolated network segments within your environment that you would like to manage with Secret Server. Distributed Engines are used by Secret Server, but not Privilege Manager.
-
-__Privilege Manager Agents__ - These are used for application control and local user/group management for our Privilege Manager solution. Privilege Manager Agents are used by Privilege Manager, but not Secret Server.
+__Secret Server__ - Optionally, Secret Server can be installed with Privilege Manager to use an authentication source and a storage vault for Privilege Manager credentials. Using Secret Server as the authentication source for Privilege Manager allows MFA options for login. Also, application role assignment can be assigned in Secret Server. If using Secret Server features (beyond authentication and vault storage for Privilege Manager), Secret Server should be on separate servers - for this, see separate Secret Server + Privilege Manager Architectures. 
 
 >**Note**:
->Every component of Secret Server and Privilege Manager can be made highly available to ensure a redundant architecture and to scale for future growth.
+>Every component of Privilege Manager can be made highly available to ensure a redundant architecture and to scale for future growth.
 
 ## Single Site - Implementation Diagrams
 
 ### Minimum High Availability
 
-![Minimum High Availability](images/ss-int/a1.png)
+![Minimum High Availability](images/ss-int/a1.png "Minimum High Availability")
 
-### Minimum High Availability (RabbitMQ Separation)
+### Minimum High Availability (Reverse Proxy/Azure Bus)
 
-![Minimum High Availability - RabbitMQ Separation](images/ss-int/a2.png)
-
-### Minimum High Availability/DR - Lowest Cost
-
-![Minimum High Availability/DR - Lowest Cost](images/ss-int/a3.png)
+![reverse-proxy](images/ss-int/a2.png "Minimum High Availability (Reverse Proxy/Azure Bus)")
 
 ## Multi Site - Implementation Diagrams
 
-### Average High Availability/DR (RabbitMQ Separation)
+### Minimum High Availability (with Multi Site DR) - Lower Cost/Manual Failover
 
-![Average High Availability/DR - RabbitMQ Separation](images/ss-int/c.png)
+![lowest cost](images/ss-int/b1.png "Minimum High Availability (with Multi Site DR) - Lower Cost/Manual Failover")
 
-### Best High Availability/DR (RabbitMQ Separation)
+### Average High Availability (with Multi Site DR) - Average Cost/Manual Failover
 
-![Best High Availability/DR - RabbitMQ Separation](images/ss-int/d1.png)
+![average cost](images/ss-int/c.png "Average High Availability (with Multi Site DR) - Average Cost/Manual Failover")
 
-### Best High Availability/DR (RabbitMQ Separation) - Highest Cost
+### Best High Availability (with Multi Site DR) - Highest Cost/Manual Failover
 
-![Best High Availability/DR - RabbitMQ Separation - Highest Cost](images/ss-int/d2.png)
+![high cost](images/ss-int/d1.png "Best High Availability (with Multi Site DR) - Highest Cost/Manual Failover")

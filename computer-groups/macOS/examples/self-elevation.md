@@ -46,4 +46,14 @@ Once the Privilege Manager Extension is enabled, the extension icon is visible i
 
 The extension is also present as a menu item when you right-click or control+click an application in Finder.
 
-![Request run as administrator](images/mac/finder_ext_ctrclk.png "Request run as administrator")
+![Request run as administrator](images/mac/finder_ext_ctrclk.png)
+
+### Finder Extension and Drive Type Extensions
+
+On endpoints that are also using OneDrive, GoogleDrive, DropBox, or similar extensions, when enabling the Finder Extension the endpoint will take about 2 min to correctly initialize.
+
+For systems prior to Privilege Manager 10.8, if a finder sync extension does not work correctly. Execute the following steps in sequence:
+
+1. Disable the Privilege Manager Finder Extension.
+1. Install/Enable other third-party Finder Extension.
+1. Enable the Privilege Manager Finder Extension.

@@ -16,7 +16,7 @@ The configuration page is tabulated and offers configuration or review options u
 * [Reputation](reputation/index.md)
 * [Credentials](credentials/index.md)
 * [Foreign Systems](foreign-systems/index.md)
-* [Roles](roles/index.md)
+* [Roles](../roles/index.md)
 * [Advanced](advanced/index.md)
 * [Authentication](authentication/index.md)
 * [Change History](history/index.md)

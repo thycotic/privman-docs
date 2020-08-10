@@ -66,7 +66,7 @@ Setting up Azure AD Integration in Privilege Manager requires these components i
 1. Open the __Directory category__ and select the __Directory.Read.All__ permission.<br/>
    ![Select the Azure AD Graph API](images/kb_ad_sync/AzAD_ADGraph_Request_API_20190411.png)
 1. Click the __Add permissions__ button at the bottom to finish this step.
-1. These permissions must be granted by the domain administrator before the application can use this registration. Click the __Grant admin consent for...__ button to ensure these APIs are allowed. Once this is done, these permissions will show a green check box next to them as shown here.<br/>
+1. These permissions must be granted by the domain administrator before the application can use this registration. Once this is done, these permissions will show a green check box next to them as shown here.<br/>
    ![Select the Azure AD Graph API](images/kb_ad_sync/AzAD_Grant_Admin_20190411.png)
 1. Select the __Certificates & secrets__ option.<br/>
    ![AzAD_NewClient_Secret_20190321.png](images/kb_ad_sync/AzAD_NewClient_Secret_20190321.png)  

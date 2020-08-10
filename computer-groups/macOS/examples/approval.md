@@ -14,7 +14,7 @@ The following workflows are impacted by this change:
 * Application Justification Message Action
 * Application Warning Message Action
 
-Refer to the [Actions](../../actions/index.md) specifically the [Message Actions](../../actions/msgs/index.md) topic.
+Refer to the [Actions](../../../admin/actions/index.md) specifically the [Message Actions](../../../admin/actions/msgs/index.md) topic.
 
 ## Application Approval Request Message Action
 

@@ -5,9 +5,13 @@
 
 Privilege Manager allows the inventory of macOS .pkg files. With the ability to upload and extract the contents within the .pkg files Privilege Manager inventories the applications that are bundled in any given .pkg.
 
-After uploading a .pkg file select the __Go To File Details__ button.
+1. Use __Admin | File Upload__ to start the inventory process.
+1. Choose a file to upload and click __Upload File__.
 
-![Use Go To File Details button](images/inventory/go-to.png)
+   ![upload](images/inventory/upload.png "Upload modal")
+1. After uploading a .pkg file select the __Go to File Details__ button.
+
+   ![go to file](images/inventory/go-to.png "Use Go to File Details button")
 
 In the Resource Explorer an Administrator can now look at all the details from the inventory.
 
@@ -15,13 +19,13 @@ In the Resource Explorer an Administrator can now look at all the details from t
 
   ![Inventory](images/inventory/list-mach-O-binaries.png)
 
-* Showing the main application details:
+* Click on the main application __Privilege Manager__ to see those details:
 
-  ![Inventory](images/inventory/resource-explorer-application.png)
+  ![inventory](images/inventory/resource-explorer-application.png "Main application details")
 
-* Showing the information specified in the macOS bundle:
+* Click on Known Data and open __Software Management | MacOS Bundle__ to see the information specified in the macOS bundle:
 
-  ![Inventory](images/inventory/resource-explorer-application-2.png)
+  ![inventory 2](images/inventory/resource-explorer-application-2.png "MacOS Bundle specific information")
 
 >**Note**:
 >Any packages that deviate from the standard configuration and layout might not have their contents inventoried correctly. If that is the case, unpack the .pkg and upload each contents file individually for inventory purposes.

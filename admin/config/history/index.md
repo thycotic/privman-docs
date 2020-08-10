@@ -60,7 +60,7 @@ What we see:
 
 ## Item Change History Report
 
-The [Item Change History Report](../../reports/change-history.md) is part of the __Diagnostic__ group on the Reports page. You can also search for “change history” and the report will be listed on the search results page. Click the link to access the report.
+The [Item Change History Report](../../../reports/change-history.md) is part of the __Diagnostic__ group on the Reports page. You can also search for “change history” and the report will be listed on the search results page. Click the link to access the report.
 
 The report lists the history of item changes.
 

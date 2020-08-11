@@ -30,8 +30,13 @@ The Directory Services Agent needs to be installed on a well resourced system ru
 
 * Windows 10 or above or
 * Windows Server 2016 or above.
+* Port requirements:
+  * The agent needs to be able to communicate to the server on 443
+  * AD Sync agent and Domain Controller over LDAPS
 
 >**Note**: The Directory Services Agent is available for x64-bit systems only.
+
+![dsa](images/dsa/ad-sync.png "DSA Network Diagram")
 
 ## Windows Management Framework download locations
 

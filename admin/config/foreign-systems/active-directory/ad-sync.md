@@ -7,6 +7,8 @@ The following procedures show the steps necessary to set-up Active Directory syn
 
 If you already configured the AD Default User Credential skip to the Foreign Systems set-up procedure.
 
+>**Note**: For local AD synchronization with Privilege Manager cloud the Directory Services Agent has to be installed. We recommend [installing the Directory Services Agent](../../../../install/agents/agent-inst-win-dsa.md) on a system that already has the Thycotic Agent (Core Agent) installed; however you may also use a domain connected system and [newly install both the Core and Directory Services Agent](../../../../install/agents/agent-inst-win-dsa-bundle.md).
+
 ## Set-up AD Default User Credential
 
 1. Select __Admin | Configuration__.
@@ -50,7 +52,7 @@ If you already configured the AD Default User Credential skip to the Foreign Sys
       * Custom LDAP Query
    1. Connectivity, use either
       * a Privilege Manager server that can reach a domain controller on your network, or
-      * the AD Sync Agent that is installed on one of your domain connected on-premises computers designated to perform the sync. Cloud hosted customers likely need to choose this option.
+      * the [AD Sync Agent that is installed](../../../../install/agents/agent-inst-win-dsa.md) on one of your domain connected on-premises computers designated to perform the sync. Cloud hosted customers likely need to choose this option.
    1. Server Task Config:
       * Schedule - Schedules help keeping your system in sync with your domain updates.
       * Domain Partner (optional)

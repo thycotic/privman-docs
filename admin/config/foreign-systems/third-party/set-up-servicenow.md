@@ -10,7 +10,7 @@ Here are the steps to integrate Workflow between your ServiceNow Ticketing Syste
    * Approval Admin (`approval_admin`).
    * For ServiceNow MID Server environments, the `mid_server` role permission also needs to be added to the account.
 
-   Refer to [ServiceNow product documentation](https://docs.servicenow.com/bundle/orlando-platform-administration/page/administer/roles/reference/r_BaseSystemRoles.html).
+   Refer to [ServiceNow product documentation, specifically Base System Roles](https://docs.servicenow.com/bundle/geneva-servicenow-platform/page/administer/roles/reference/r_BaseSystemRoles.html).
 1. Verify that the ServiceNow connector is installed for your Privilege Manager Cloud instance:
    1. In the Privilege Manager console navigate to __Admin | Configuration__ and select the __Foreign Systems__ tab.
    1. If the connector is installed, __ServiceNow__ is listed under Foreign System.
@@ -174,9 +174,9 @@ The task creates an input named “PMGetRequestId.”  Privilege Manager supplie
 
 ### CancelExecuteAppApprovalRequest
 
-The task creates a scripted SOAP service named “CancelExecuteAppApprovalRequest.”  If a request is canceled or times out from within Privilege Manager, Privilege Manger will call this service to cancel the corresponding item in ServiceNow.
+The task creates a scripted SOAP service named “CancelExecuteAppApprovalRequest.” If a request times out from within Privilege Manager, Privilege Manager will call this service to cancel the corresponding item in ServiceNow.
 
->**NOTE**: Privilege Manager expects this service to be defined in ServiceNow, but the default script associated with the service does nothing.
+>**NOTE**: Privilege Manager expects this service to be defined in ServiceNow, but the product does not invoke this except when a request times out from Privilege Manager.
 
 ### Inputs
 

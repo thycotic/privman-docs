@@ -174,7 +174,7 @@ The task creates an input named “PMGetRequestId.”  Privilege Manager supplie
 
 ### CancelExecuteAppApprovalRequest
 
-The task creates a scripted SOAP service named “CancelExecuteAppApprovalRequest.” If a request times out from within Privilege Manager, Privilege Manger will call this service to cancel the corresponding item in ServiceNow.
+The task creates a scripted SOAP service named “CancelExecuteAppApprovalRequest.” If a request times out from within Privilege Manager, Privilege Manager will call this service to cancel the corresponding item in ServiceNow.
 
 >**NOTE**: Privilege Manager expects this service to be defined in ServiceNow, but the product does not invoke this except when a request times out from Privilege Manager.
 

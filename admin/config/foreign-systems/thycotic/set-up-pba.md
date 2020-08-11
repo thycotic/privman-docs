@@ -7,6 +7,8 @@ Thycotic's Privileged Behavior Analytics (PBA) SaaS product can be integrated wi
 
 For the integration to work correctly independent of your Privilege Manager instance (on-prem vs. cloud) you need to have a Thycotic enabled PBA instance.
 
+Refer to the [PBA Documentation](https://docs.thycotic.com/pba/3.2.0) for details on features and functionality of PBA.
+
 ## Setting Up PBA Integration on Privilege Manager
 
 Required PBA resources are provided via Privilege Manager Configuration Feeds.

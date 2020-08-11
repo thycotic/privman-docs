@@ -3,7 +3,7 @@
 [priority]: # (1605)
 # Bundled Core and Directory Services Agents
 
-The __Thycotic Directory Services Installer__ bundle delivers the Thycotic Agent (Core Agent) and the Thycotic Directory Services Agent in one package for installation on x64-bit systems. To learn more about the Directory Services Agents refer to [Directory Services Agent (AD)](agent-inst-win-dsa.md).
+The __Thycotic Directory Services Installer__ bundle delivers the Thycotic Agent (Core Agent) and the Thycotic Directory Services Agent in one package for installation on x64-bit systems. To learn more about the Directory Services Agents refer to [Directory Services Agent (AD)](agent-inst-win-dsa.md). Also refer to [Agent System Requirements](agent-sysreq.md).
 
 ## Installing the Thycotic Directory Services Installer Bundle
 

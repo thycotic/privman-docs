@@ -21,6 +21,6 @@ Instructions and links for agent installers are grouped as follows:
 * [macOS X Installer - 10.11 or Newer](agent-inst-mac.md#installing_macos_agents)
 <!-- * [Unix/Linux Agent Installer](agent-inst-nix.md)-->
 * [Directory Services Agent to support Local AD Synchronization with Cloud Instances](agent-inst-win-dsa.md)
-* [Bundled Core and Directory Services Agents](agent-inst-dsa-bundle.md)
+* [Bundled Core and Directory Services Agents](agent-inst-win-dsa-bundle.md)
 
 For details about Thycotic Agent System Requirements, see our [Agent System Requirements](agent-sysreq.md).

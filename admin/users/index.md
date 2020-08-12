@@ -74,6 +74,8 @@ API Client users can view and edit their own accounts, such as password updates,
 
 API Client users are by default created with a date and time reference when the user was added. If you wish, you can modify the display name. The newly create user is automatically set to active on creation. Prior to navigating away from the page, make sure to take note of the __Client ID__ and copy the __Secret__ into your vault.
 
+Make sure the API user is a member of a role, the role depends on what you need the API to do.
+
 Use __Reset Secret__ to generate a new secret for this user, it invalidates the old secret you copied to the vault. Once you click __Reset Secret__ you need to confirm the action. The new secret will be shown until you navigate away from the page.
 All changes need to be saved to take effect.
 

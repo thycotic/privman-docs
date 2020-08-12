@@ -33,28 +33,32 @@ To create a new Group,
 
 ## Manage Local Groups
 
-Managing a local group means that you determine which accounts are in that group from the Local Security dashboard. In other words, if a group is being managed, the group membership will remain static and will no longer be able to be updated directly on the endpoint.
+Managing a local group means that you determine which user accounts are in the group. In other words, if a group is being managed, the group membership will remain static and will no longer be able to be updated directly on the endpoint. Before adding users to any group, make sure you really want all those users in that particular group. Any exact group membership setting is rolled out to ALL endpoints in that computer group.
 
 If a local group is not managed the Manage Group checkbox is not selected. To Manage the group, click Edit from the Details tab and then check the Manage Group box. Click Save Changes, and Yes to Confirm Navigation. Changes to these settings may take up to 15 minutes to update on your endpoints.
 
-When managing a group, existing members and any that have been added to the policy will appear in the Members table. From the drop-down choose which operation to perform if an account (user) is found on the endpoint. The following options can be selected:
+When managing a group, existing members and any that have been added to the policy will appear in the Members table. Users will be added, removed, or ignored based on the configured membership and will be consistently applied across all endpoints in this computer group target. From the drop-down choose which operation to perform if an account (user) is found on the endpoint. The following options can be selected:
 
 * Ignore if found
 * Add if missing
 * Remove if found
 
+Using __Remove if found__ for __All Other Users and Groups__ instates exact group membership and __Ignore if found__ cannot be used on individual accounts that are part of that group. Note that, if __exact group membership__ is used, an account that is initially listed as __Ignore if found__ switches to __Remove if found__ as part of the group membership. Individually specified accounts can be set to __Add if missing__ in those groups.  
+
+>**Note**: Once saved, group membership is permanently defined. Updates made directly on the endpoint that break this policy will be immediately reverted.
+
 ![options](images/add-member-2.png "Group Member Management options")
 
-The last row defines what action to take on all other users and groups. This ensures exact membership can be defined and any other users or groups can be automatically removed.
+The last row defines what action to take __on all other users and groups__. This ensures exact membership can be defined and any other users or groups can be automatically removed.
 
-Using __Remove if found__ for __All Other Users and Groups__ instates exact group membership and __Ignore if found__ cannot be used on individual accounts that are part of that group. If exact group membership is used, an account that is initially listed as __Ignore if found__ switches to __Remove if found__ as part of the group membership. Individually specified accounts can be set to __Add if missing__ in those groups.  
-
->__Note__: Once saved, group membership is permanently defined. Updates made directly on the endpoint that break this policy will be immediately reverted.
+### Statistics
 
 The __Statistics tab__ for a local group highlights some quick visual statistics and links you to relevant reports based on key factors like how many computers from your network are included in this group and whether there have been changes made to the Group’s Membership within the specified period. Click on these graphs to drill down into more details.
 
->__Note__: The reports in the “Related Reports” sections are scoped to only include endpoints in the current computer group. To view reports across all computers, go to the Reports section of the product.
+>**Note**: The reports in the “Related Reports” sections are scoped to only include endpoints in the current computer group. To view reports across all computers, go to the Reports section of the product.
 
 ![statistics](images/ls-statistics-lg.png "Statistics for Local Group")
+
+### Audit
 
 The __Audit tab__ is where you will find an audit record of all membership additions and deletions that have been made to your local groups.

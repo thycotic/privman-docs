@@ -6,3 +6,4 @@
 The following topics on integrating Privilege Manager with other Thycotic products are available:
 
 * [Integration between Privilege Manager and Secret Server](set-up-pm-ss-integration.md)
+* [Integration between Privilege Manager and Privileged Behavior Analytics](set-up-pba.md)

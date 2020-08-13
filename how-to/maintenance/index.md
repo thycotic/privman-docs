@@ -10,5 +10,6 @@ The following topics are available:
 * [How to Purge Computers](purge-computers.md)
 * [How to Purge the Action Items Table](purging-action-items-table.md)
 * [Using the Remove Programs Utility](remove-programs-utility.md)
-* [Export and Import Items](export-import.md)
-* [Migrate Local Security Policies](../../local-security/migrate-lss-policies.md)
+* [Export Items](../../admin/folders/export.md)
+* [Import Items](../../admin/import-items/index.md)
+* [Migrate Local Security Policies](../../computer-groups/local-security/migrate-lss-policies.md)

@@ -3,7 +3,7 @@
 [priority]: # (5)
 # Configure Privilege Manager Remove Programs
 
-Configure the [Privilege Manager Remove Programs](../../how-to/maintenance/remove-programs-utility.md) behavior.
+Configure the [Privilege Manager Remove Programs](../../../how-to/maintenance/remove-programs-utility.md) behavior.
 
 For standard users the utility by default,
 

@@ -19,19 +19,11 @@ The value is a flag set specifying what item values are allowed to be on-demand 
 
 This setting specifies the maximum time in __minutes__ for a login session to be active without having to negotiate another token. The default is set to 720 Minutes (12 Hours).
 
-<!-- ### Session Timeout Warning
+### Session Timeout Warning
 
 Two minutes before the set session timeout window expires, Privilege Manager displays a yellow warning with countdown timer to inform users about the pending session timeout.
 
-![Yellow Session Warning at 2 Minute mark](images/pm/session-timeout-1.png)
-
-One minute before the timeout, the color changes to red.
-
-![Red Session Warning at 1 Minute mark](images/pm/session-timeout-2.png)
-
-Once the session times out, the active user is logged out and returned to the Privilege Manager Server Setup Home page.
-
-![Privilege Manager Server Setup Home page](images/pm/session-timeout-3.png) -->
+![warning](images/pm/session-timeout-1.png "Timeout warning with countdown")
 
 ## Allow Agent Certificate Mismatch
 

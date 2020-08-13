@@ -60,7 +60,7 @@ The __More__ options menu offers users entry points to duplicate, export, view x
 
 ## Creating New Filters using Event Discovery
 
-One way to begin creating new Filters that identify specific files or applications on your network is to set up a Learning Mode Policy and use the events pulled in by Privilege Manager from actions performed on a test machine. Refer to [Event Discovery](../policies/ac-event-discovery.md) for more information on setting up a Learning Mode Policy.
+One way to begin creating new Filters that identify specific files or applications on your network is to set up a Learning Mode Policy and use the events pulled in by Privilege Manager from actions performed on a test machine. Refer to [Event Discovery](../../computer-groups/app-control/ac-event-discovery.md) for more information on setting up a Learning Mode Policy.
 
 1. In Privilege Manager, navigate to __File Inventory__.
 

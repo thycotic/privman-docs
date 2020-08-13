@@ -13,7 +13,7 @@ The following Application Filter type filter topics are available:
 * [Environment Filter](envar.md)
 * [Network Location Filter](network-location.md)
 * [Parent Process Filter](parent-process.md)
-* [Secondary File Filter](secondaryfilefilters.md)
+* [Secondary File Filter](sff/secondaryfilefilters.md)
 * [Security Rating Filter](security-ratings.md)
 * [Signed File Filter](signed-file.md)
 * [Time Of Day Filter](time-of-day.md)

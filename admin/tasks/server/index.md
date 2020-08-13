@@ -29,10 +29,10 @@
 | | Inventory Packages Referenced in Allow Lists | Run this task to collect detailed information for files contained in packages referenced in one or more allow lists. |
 | | Inventory Uploaded File | This task is used internally to collect detailed information from files uploaded remotely to the server. It is visible only for status information and troubleshooting. |
 | Foreign Systems | | |
-| | [SCCM](../../foreign-sys/third-party/set-up-sccm.md) | Tasks here let you synchronize users, computers, and specific SCCM collection. |
-| | [ServiceNow](../../foreign-sys/third-party/set-up-servicenow.md) | Creates ServiceNow Approval Request items. |
-| | [Symantec Management Platform](../../foreign-sys/third-party/set-up-smp.md) | Tasks here let you synchronize SMP collections and package(s). |
-| | [Syslog](../../foreign-sys/third-party/set-up-syslog.md) | Creates tasks to send events to the configured syslog server based on specific templates.  |
+| | [SCCM](../../config/foreign-systems/third-party/set-up-sccm.md) | Tasks here let you synchronize users, computers, and specific SCCM collection. |
+| | [ServiceNow](../../config/foreign-systems/third-party/set-up-servicenow.md) | Creates ServiceNow Approval Request items. |
+| | [Symantec Management Platform](../../config/foreign-systems/third-party/set-up-smp.md) | Tasks here let you synchronize SMP collections and package(s). |
+| | [Syslog](../../config/foreign-systems/third-party/set-up-syslog.md) | Creates tasks to send events to the configured syslog server based on specific templates.  |
 | Local Security | Update Primary User | Updates the primary user for the given computer resource. |
 | | Update Primary User for Collection | Updates the primary user for each computer in the given collection. |
 | Thycotic One Users | Sync users with Thycotic One | Run this task to synchronize PM users with a Thycotic One instance. |

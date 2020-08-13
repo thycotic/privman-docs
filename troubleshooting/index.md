@@ -7,7 +7,7 @@ This section contains a collection of troubleshooting articles to help with prob
 
 The following troubleshooting topics are available:
 
-## [Installation and Upgrade Issues](install-upgrades/index.md)
+## [Installation and Upgrade Issues](install-upgrade/index.md)
 
 * [Troubleshooting Installation Issues](install-upgrade/ts-install.md)
 * [10.5 Folder Permission for MachineKeys](install-upgrade/10-5-machinekeys.md)
@@ -20,7 +20,7 @@ The following troubleshooting topics are available:
 * [Client Item List Downloads](../agents/troubleshooting/failed-downloading-windows-group-policies-client-item-list.md)
 * [Advanced Messages not working for child processes of Microsoft Edge](../agents/troubleshooting/advanced-messages-not-working-edge.md)
 
-## [Endpoint Troubleshooting](endpoint/index.md)
+## [Endpoint Troubleshooting](../agents/troubleshooting/index.md)
 
 * [Endpoint Troubleshooting](../agents/troubleshooting/endpoint-issues.md)
 * [How to Recover an Unresponsive macOS Endpoint](../agents/macOS/recover-unresponsive-macOS-endpoint.md)
@@ -31,7 +31,7 @@ The following troubleshooting topics are available:
 
 * [Where are My Server Logs?](logs/ts-server-logs.md)
 * [Where are My Agent Logs?](logs/ts-agent-logs.md)
-* [SQL Server Transaction Log](log/sql-server-txn.md)
+* [SQL Server Transaction Log](logs/sql-server-txn.md)
 * [User Interface and Ports](logs/ts-ui.md)
 
 ## [Performance Issues](performance/index.md)

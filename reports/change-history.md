@@ -31,4 +31,4 @@ The reporting of any of these changes cannot be turned off and the results can b
 
 Each save creates or adds to the revision history of items. The __Item Change History Report__ cannot be used to revert to a previous state.
 
-![Item Change History Report](../ui/config/history/images/config-history/change-item-report.png)
+![Item Change History Report](../admin/config/history/images/change-item-report.png)

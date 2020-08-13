@@ -18,6 +18,7 @@ In order to use Secret Server as the password vault please review [Setting up In
 ### Thycotic Foreign Systems
 
 * [Integration between Privilege Manager and Secret Server](thycotic/set-up-pm-ss-integration.md)
+* [Integration between Privilege Manager and Privileged Behavior Analytics](thycotic/set-up-pba.md)
 
 ### AD Integration
 

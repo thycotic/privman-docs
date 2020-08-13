@@ -45,7 +45,7 @@ With an active policy, depending on its action, the following happens for:
 The following preference panes require admin credentials to make changes and should not be managed with a run as root policy that triggers a user dialog for justification or approvals:
 
 * Parental Controls,
-* [Printers & Scanners](bp-printers.md),
+* [Printers & Scanners](bp-printer.md),
 * Security & Privacy,
 * Sharing,
 * Time Machine, and

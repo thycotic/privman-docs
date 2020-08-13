@@ -13,6 +13,6 @@ By default this is a read-only filter which uses the following Additional Filter
 
 * Include only filters:
 
-  * [macOS Executables](macos-exe.md)
+  * [macOS Executables](macos-exec.md)
 
 The option to include subdirectories is enabled by default.

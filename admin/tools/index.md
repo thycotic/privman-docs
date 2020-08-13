@@ -7,6 +7,6 @@ The Tools menu in Privilege Managers offers access to
 
 * [Disclose Password](pw-disclosure.md)
 * [File Upload](../file-upload/index.md)
-* [Manage Approvals](../../app-control/policies/examples/approval/helpdesk.md)
-* [Offline Approvals](../../app-control/policies/examples/approval/offline_approval.md)
+* [Manage Approvals](../../computer-groups/app-control/examples/approval/helpdesk.md)
+* [Offline Approvals](../../computer-groups/app-control/examples/approval/offline-approval.md)
 * Secret Server, if integrated.

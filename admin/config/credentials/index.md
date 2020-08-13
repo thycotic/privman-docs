@@ -10,4 +10,4 @@ The Credentials tab lets you configure and add new credentials required for conf
 1. Navigate to __Admin | Configuration__ and select the __Credentials__ tab.
 1. Click __Create__ to add a new credential.
 
-   ![create](image/new-cred.png "Creating a new credential")
+   ![create](images/new-cred.png "Creating a new credential")

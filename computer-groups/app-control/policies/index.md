@@ -17,7 +17,7 @@ The __Privilege Manager Policy Wizard__, guides users through the policy creatio
 
 Privilege Manager ships with most commonly used policy templates. These are utilized by the policy wizard when creating a new policy.
 
-Thycotic also provides templates that do not ship with the product, but that can be downloaded via __Config Feeds__ from within the Privilege Manager Console. Once downloaded and installed, customers can access those policy templates via __Admin | Folders__. Here a new policy can be created based on a template from a drop-down list. This policy will have associated targets, filters, and actions set, which can be further customized to cover an organization's specific needs. Also refer to [Configuration Feeds](../../config-feeds/index.md).
+Thycotic also provides templates that do not ship with the product, but that can be downloaded via __Config Feeds__ from within the Privilege Manager Console. Once downloaded and installed, customers can access those policy templates via __Admin | Folders__. Here a new policy can be created based on a template from a drop-down list. This policy will have associated targets, filters, and actions set, which can be further customized to cover an organization's specific needs. Also refer to [Configuration Feeds](../../../admin/config-feeds/index.md).
 
 ## Overview of the Configuration Process
 

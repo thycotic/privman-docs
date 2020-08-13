@@ -24,7 +24,7 @@ Each filter has a __Change History__ tab, where audit information can be reviewe
 
 ![filter change history](images/history.png "Filter Change History tab information")
 
-Refer to [Change History](../../admin/config/history/index.md) to learn more about drilling down into the change history of resources and the report.
+Refer to [Change History](../../config/history/index.md) to learn more about drilling down into the change history of resources and the report.
 
 ## How to Search for Filters
 

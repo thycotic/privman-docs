@@ -41,7 +41,7 @@ To illustrate the way policies are applied in order, this use case will define t
 
    ![deny](images/priority/deny-mmc.png "Deny mmc.exe policy")
 
-The policy will now be listed on the Application Policies page under the deny group. Once the policy is delivered to the endpoint agent, mmc.exe will be denied execution for all users without administrator credentials on all target computers. See details on how to deliver policies to the endpoint in the [Sending Policies to Endpoints](ac-policy-endpoints.md) topic.
+The policy will now be listed on the Application Policies page under the deny group. Once the policy is delivered to the endpoint agent, mmc.exe will be denied execution for all users without administrator credentials on all target computers. See details on how to deliver policies to the endpoint in the [Sending Policies to Endpoints](../ac-policy-endpoints.md) topic.
 
 Once the policy is delivered to the endpoint, test running mmc.exe to see the results.
   

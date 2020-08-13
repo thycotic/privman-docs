@@ -24,5 +24,3 @@ This issue might be due to the __Present in Signed Security Catalog__ not being 
 
     e.g., `C:\Program Files\Thycotic\Agents\Agent`
 1. Click __Update__.
-
-    ![Cortana and Search](images/sc-7.png)

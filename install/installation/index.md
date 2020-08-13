@@ -33,7 +33,7 @@ The latest version of Privilege Manager is available for download under the [Sof
    ![Installation Welcome dialog](images/pm-install/install-1.png)
 1. Verify that the Privilege Manager box is checked.
 
-   >**Note**: Privilege Manager as a standalone product comes with three roles Administrator, Basic User, and Help Desk User roles. Please refer to [Application Roles.](../../ui/config/roles/app-roles.md)
+   >**Note**: Privilege Manager as a standalone product comes with three roles Administrator, Basic User, and Help Desk User roles. Please refer to [Application Roles.](../../admin/roles/app-roles.md)
 
 1. On the __Database__ tab you can choose to either install SQL Express or connect to an existing SQL Server. SQL Express requires a internet access for the installer to download the installation package for SQL Express.
 

@@ -71,7 +71,7 @@ The Azure Service Bus requires a Foreign Systems configuration in Privilege Mana
 When setting the URL for Agent communication, Internet connected clients need to use the Service Bus URL created above.
 
 >**Note**:
->For new installations, the agents can be set up to communicate with the service bus during the initial installation process when the __TMSURL__ and installation codes are provided, refer to [Bundled Install](../install/agent-inst-win-bundle.md).
+>For new installations, the agents can be set up to communicate with the service bus during the initial installation process when the __TMSURL__ and installation codes are provided, refer to [Bundled Install](../../install/agents/agent-inst-win-bundle.md).
 
 ### Using regedit
 

@@ -119,7 +119,7 @@ http://test-system/TMS/Agent/AgentRegistration4.svc
 
 ## Agent Configuration
 
-When you set up the Agent, make sure that the BaseURL has been set to the DMZ Server Address by following the steps in [Setting the Privilege Manager Server Address](../../install/agents/agent-set-server-address.md).
+When you set up the Agent, make sure that the BaseURL has been set to the DMZ Server Address by following the steps in [Setting the Privilege Manager Server Address](../../agents/all/agent-set-server-address.md).
 
 >**Important**:
 >The Privilege Manager server is __not__ able to push tasks to agents when the agents are not connected to the same network. However, the internet connected clients will automatically pull tasks from the server on a scheduled interval.

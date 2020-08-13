@@ -9,7 +9,7 @@ This policy type requires that people provide a justification for why they need 
 
 The following examples are available:
 
-* [Offline Approvals](offline_approval.md)
+* [Offline Approvals](offline-approval.md)
 * [HelpDesk Approvals](helpdesk.md)
 * [Google Authenticator approval](google-authenticator.md)
-* [macOS Approval Process](../mac/approval.md)
+* [macOS Approval Process](../../../macOS/examples/approval.md)

@@ -38,6 +38,8 @@ Add the applications that are discovered to policies with priorities to be trigg
 
 Following this process will naturally clean up the results from Event Discovery.
 
+Refer to [Discovery](../admin/config/discovery/index.md) in the Admin menu section.
+
 ### Never Disable Event Discovery
 
 Event Discovery is not a short process. It’s an integral part of Privilege Manager. Once Event Discovery is enabled, it is never disabled.

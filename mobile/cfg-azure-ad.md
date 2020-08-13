@@ -3,7 +3,7 @@
 [priority]: # (15001)
 # Configure Azure Active Directory
 
-As a prerequisite for running the Privilege Manager Mobile Console, you must configure Azure Active Directory integration with Privilege Manager. Refer to [Setting Up Azure Active Directory Integration in Privilege Manager](../config/foreign-systems/active-directory/set-up-privilege-manager-azure-ad-integration.md).
+As a prerequisite for running the Privilege Manager Mobile Console, you must configure Azure Active Directory integration with Privilege Manager. Refer to [Setting Up Azure Active Directory Integration in Privilege Manager](../admin/config/foreign-systems/active-directory/set-up-privilege-manager-azure-ad-integration.md).
 
 Once Azure AD integration for your Privilege Manager instance is configured, follow these steps to add an additional Redirect URI for the mobile application to the Azure AD application registration:
 

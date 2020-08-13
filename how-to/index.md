@@ -13,8 +13,9 @@ This topic is a collection of articles covering "How to..." procedures for diffe
 
 * Import, Export, and Migration:
 
-  * [Export and Import Items](maintenance/export-import.md)
-  * [Migrate Local Security Policies](../local-security/migrate-lss-policies.md)
+  * [Export Items](../admin/folders/export.md)
+  * [Import Items](../admin/import-items/index.md)
+  * [Migrate Local Security Policies](../computer-groups/local-security/migrate-lss-policies.md)
 
 * Azure:
 
@@ -30,11 +31,12 @@ This topic is a collection of articles covering "How to..." procedures for diffe
 
 * macOS:
 
-  * [Preference Pane Targeting on macOS](../ui/macOS/prefpane.md)
+  * [Preference Pane Targeting on macOS](../computer-groups/macOS/bp/prefpane.md)
 
 * Maintenance:
 
-  * [Export and Import Items](maintenance/export-import.md)
+  * [Export Items](../admin/folders/export.md)
+  * [Import Items](../admin/import-items/index.md)
   * [How to Purge Computers](maintenance/purge-computers.md)
   * [How to Purge the Action Items Table](maintenance/purging-action-items-table.md)
   * [Using the Remove Programs Utility](maintenance/remove-programs-utility.md)

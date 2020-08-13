@@ -94,7 +94,7 @@ To assign a policy to your target or better to add your target to a policy, find
 
 ![Assigning Policies to Targets](images/resources/assign.png "Add targets to the policy")
 
-Refer to the [Policies](../policies/index.md) section to review details about Policy Administration.
+Refer to the [Policies](../../computer-groups/app-control/policies/index.md) section to review details about Policy Administration.
 
 ## Collections
 

@@ -31,7 +31,7 @@ The following filters are available based on type from a quick select drop-down 
 * [Commandline Filter](../application/cmdline.md)
 * [Download Source Filter](../application/download-source.md)
 * [Parent Process Filter](../application/parent-process.md)
-* [Secondary File Filter](../application/secondaryfilefilters.md)
+* [Secondary File Filter](../application/sff/secondaryfilefilters.md)
 * [Security Rating Filter](../application/security-ratings.md)
 * [Signed File Filter](../application/signed-file.md)
 * [Time Of Day Filter](../application/time-of-day.md)

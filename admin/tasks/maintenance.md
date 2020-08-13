@@ -51,7 +51,7 @@ This task is run after installs to ensure items with change tracking enabled hav
 
 ### LSS Migration Tasks
 
-For information on the LSS Migration tasks refer to [Migrate Local Security Policies](../../local-security/migrate-lss-policies.md).
+For information on the LSS Migration tasks refer to [Migrate Local Security Policies](../../computer-groups/local-security/migrate-lss-policies.md).
 
 ### Purge Agent and Gauge Data for Deleted Computers
 

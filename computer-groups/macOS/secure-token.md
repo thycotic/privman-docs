@@ -18,17 +18,15 @@ If the Secure Token Management Credential is removed in the MacOS Agent Configur
 
 To use the secure token with macOS Agents, the user credential needs to be established and linked to the macOS Agent configuration.
 
-1. Navigate to __ADMIN | Configuration__, select the __Credentials__ tab.
-1. Click __Add New__.
+1. Navigate to __Admin | Configuration__, select the __Credentials__ tab.
+1. Click __Create__.
 
-   ![New User Credential](images/secure-token/macOS-credential-1.png)
+   ![new](images/secure-token/macOS-credential-1.png "New User Credential")
 1. Under Details enter a Name and Description.
 1. Under Settings enter the __Account Name__ and __Password__ for the macOS user account with Secure Token access.
-1. Click __Save__.
-1. Navigate to __Admin | Agents__.
-1. Select the __MacOS Agents Configuration__ tab.
-1. Click __Edit__.
+1. Click __Save Changes__.
+1. Navigate to your macOS computer group and select __Agent Configuration__.
 
-   ![Add credential to macOS agent configuration](images/secure-token/macOS-credential-2.png)
-1. In the __Secure Token Enabled Management Credential__ field enter the macOS user credential you created in __step 4__.
-1. Click __Save__.
+   ![add](images/secure-token/macOS-credential-2.png "Add credential to macOS agent configuration")
+1. In the __Secure Token Enabled Management Credential__ field enter the macOS user credential you created in __step 3__.
+1. Click __Save Changes__.

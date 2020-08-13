@@ -9,6 +9,15 @@ For the integration to work correctly independent of your Privilege Manager inst
 
 Refer to the [PBA Documentation](https://docs.thycotic.com/pba/3.2.0) for details on features and functionality of PBA.
 
+## PBA System Settings Details
+
+You will need to retrieve the PBA System Settings details required for setting up the integration in Privilege Manager.
+
+1. Navigate to the __PBA Systems Settings__ page (/system_settings/).
+
+   ![system settings](images/pba/system-settings.png "PBA System Settings required for Privilege Manager")
+1. Use the Syslog URL and port information when setting up the __SysLog Foreign System__ below. Use the Event Post Url and the X-API-Key when setting up the __Send Application Events to PBA__ below.
+
 ## Setting Up PBA Integration on Privilege Manager
 
 Required PBA resources are provided via Privilege Manager Configuration Feeds.
@@ -33,7 +42,7 @@ Once the table shows a date in the downloaded column and indicates a status of i
 
    ![pba 3](images/pba/cf-pba-3.png "Creating the SysLog Server")
 1. Click __Create__.
-1. Verify that your Protocol, Host, and Port match your SysLog server details.
+1. Verify that your Protocol, Host, and Port match your SysLog server details (SysLog URL and SysLog Port from the PBA System Settings details).
 
    ![pba 4](images/pba/cf-pba-4.png "Verifying the SysLog Server details")
 
@@ -69,7 +78,7 @@ The config feeds installation also add a remote scheduled client command for PBA
 
    ![pba 7](images/pba/cf-pba-7.png "Send Application Events to PBA policy")
 
-   * Under Job Settings enter the PBA API Endpoint and Key details.
+   * Under Job Settings enter the PBA __Event Post URL__ and __X-API-Key__ details from the PBA system settings information.
    * Modify the Job Schedule if customization is required.
    * Customize any of the Job Conditions to better fit your implementation.
 1. Click __Save Changes__.

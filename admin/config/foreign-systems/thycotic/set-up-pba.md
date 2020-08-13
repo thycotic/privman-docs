@@ -9,6 +9,15 @@ For the integration to work correctly independent of your Privilege Manager inst
 
 Refer to the [PBA Documentation](https://docs.thycotic.com/pba/3.2.0) for details on features and functionality of PBA.
 
+## PBA System Settings Details
+
+You will need to retrieve the PBA System Settings details required for setting up the integration in Privilege Manager.
+
+1. Navigate to the __PBA Systems Settings__ page (/system_settings/).
+
+   ![system settings](images/pba/system-settings.png "PBA System Settings required for Privilege Manager")
+1. Use the Syslog URL and port information when setting up the SysLog Foreign System below.
+
 ## Setting Up PBA Integration on Privilege Manager
 
 Required PBA resources are provided via Privilege Manager Configuration Feeds.

@@ -63,7 +63,7 @@ The ability to audit and review the activity of local users and groups is essent
 
 ## Privilege Manager Mobile App
 
-The Privilege Manager mobile app for iOS and Android lets you manage endpoints, configure policies, process approvals, and receive event alerts via a mobile device so you can learn of requests and address issues quickly.
+The [Privilege Manager mobile app](../mobile/index.md) for iOS and Android lets you manage endpoints, configure policies, process approvals, and receive event alerts via a mobile device so you can learn of requests and address issues quickly.
 
 ## Real-time Application Analysis | Reputation Check
 

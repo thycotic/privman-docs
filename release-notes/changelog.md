@@ -44,10 +44,10 @@ The contents is aligned with the new Privilege Manager navigation flow for users
 
 Refer to the [Admin Menu](../admin/index.md) topic for everything that was accessed via __ADMIN | More...__ in the old UI.
 
-Information about installing and upgrading Agents is available under [Installation and Upgrades > Agents](../install/agents/index.md). Information pertain to the use, features, configuration, and troubleshooting of Agents is available under [Privilege Manager Agents](../agents/index.md).
+Information about installing and upgrading Agents is available under [Installation and Upgrades > Agents](../install/agents/index.md). Information pertaining to the use, features, configuration, and troubleshooting of Agents is available under [Privilege Manager Agents](../agents/index.md).
 Agent topics are for the most part OS specific, with the exception of information under [Pertaining to All Agents](../agents/all/index.md).
 
-If you have trouble finding a topic that you frequently consult, use the documentation platforms search option to find and bookmark accordingly. For example:
+If you have trouble finding a topic that you frequently consult, use the documentation platform's search option to find and bookmark accordingly. For example:
 
 ![search](images/search.png "Search the Doc Portal")
 

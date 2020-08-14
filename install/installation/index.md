@@ -76,3 +76,9 @@ The latest version of Privilege Manager is available for download under the [Sof
    ![Finish](images/pm-install/install-9-1.png)
 
 >**Note**: Thycotic recommends to create a back-up copy of the Privilege Manager web application folder after installation or upgrades.
+
+## Installing Connectors or the API
+
+Privilege Manager installs the core packages. One your instance is up and running, use Setup to add connectors for foreign systems or the __Privilege Manager Application Programming Interface__.
+
+Refer to [Upgrades](../upgrades/index.md) for details about how to access Setup and use the __Add / Upgrade Privilege Manager Features__ option.

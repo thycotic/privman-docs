@@ -79,6 +79,6 @@ The latest version of Privilege Manager is available for download under the [Sof
 
 ## Installing Connectors or the API
 
-Privilege Manager installs the core packages. One your instance is up and running, use Setup to add connectors for foreign systems or the __Privilege Manager Application Programming Interface__.
+Privilege Manager installs the core packages. Once your instance is up and running, use Setup to add connectors for foreign systems or the __Privilege Manager Application Programming Interface__.
 
 Refer to [Upgrades](../upgrades/index.md) for details about how to access Setup and use the __Add / Upgrade Privilege Manager Features__ option.

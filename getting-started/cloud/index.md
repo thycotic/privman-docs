@@ -13,11 +13,13 @@ The following topics provide a guided path through the instance setup and subseq
 
 ## Cloud Specific vs. On-prem
 
+The new Privilege Manager Application Programming Interface is by default available on all cloud instances upgraded to 10.8 or newly created.
+
 The following features and options are different from On-premises or previous Privilege Manager Cloud (10.7.x) releases:
 
 * The ServiceNow connector is automatically installed for all new cloud instances.
 * The SMTP server is automatically configured during the cloud instance setup.
-* The setup is managed by Thycotic and installations, upgrades, and repairs are unavailable to the customer directly, this includes setup, add/remove feature options, and connection option to existing Secret Server. Upgrade notices and banners are removed with upgrades being handled by Thycotic during maintenance periods.
+* The setup is managed by Thycotic and installations, upgrades, and repairs are unavailable to the customer directly, this includes setup, add/remove feature options, and connection options to existing Secret Server. Upgrade notices and banners are removed with upgrades being handled by Thycotic during maintenance periods.
 * All license key management is done via Thycotic and license keys are not visible on the licensing page. There are presently no options for customers to add additional licenses directly.
 
 The following features and options are __not__ available in Privilege Manager Cloud:

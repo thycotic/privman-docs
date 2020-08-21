@@ -21,7 +21,9 @@ Setting up Azure AD Integration in Privilege Manager requires these components i
 >**Note**:
 >You do not need to have an active directory domain before you can sync with an Azure Active Directory. However, there are benefits for synchronizing on-premises Active Directory to Azure AD.
 
-<!-- TODO, "which is useful in support of:" -->
+## Prerequisites
+
+Assign Azure user(s) to the __Privilege Manager Administrators__ Role. In order for users to authenticate via Azure AD, they need to be members of various roles. There must be at least one member from your Azure Directory to be allowed to login via Azure AD before you can continue. We recommend adding yourself to ensure that you can login after the Authentication Provider is configured.
 
 ## Setting up Azure AD with Privilege Manager
 

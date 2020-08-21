@@ -16,5 +16,5 @@ This page provides links to Thycotic Privilege Manager product and agents softwa
 | | [Local Security Solution Agent (x64)](https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x64_10_8_1090.msi) |
 | | [Local Security Solution Agent (x86)](https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x86_10_8_1090.msi) |
 | | [Privilege Manager macOS Agent](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.8.19.dmg) |
-| | [Bundled Privilege Manager Core and Directory Services Agent - Windows](https://tmsnuget.thycotic.com/software/Agents/ThycoticDirectoryServicesInstaller_10_8_1101.exe) |
+| | [Bundled Privilege Manager Core and Directory Services Agent - Windows](https://tmsnuget.thycotic.com/software/Agents/ThycoticDirectoryServicesInstaller_x86_10_8_1101.exe) |
 | | [Directory Services Agent (x64)](https://tmsnuget.thycotic.com/software/Agents/Thycotic_DirectoryServicesAgent_x64_10_8_1148.msi) |

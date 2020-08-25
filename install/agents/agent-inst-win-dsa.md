@@ -11,7 +11,10 @@ The agent method requires that the Directory Services Agent is installed on one 
 >
 >The Directory Services Agent for local AD synchronization with Privilege Manager Cloud instances is available for x64-bit systems only.
 
-Refer to [Agent System Requirements](agent-sysreq.md).
+We recommend the following topics for details pertaining to the __Directory Services Agent__ functionality:
+
+* [Active Directory Synchronization](../../admin/config/foreign-systems/active-directory/ad-sync.md), to learn how to setup and run the synchronization task on the __Synchronization__ tab of the __Active Directory Domain__ foreign system.
+* [Agent System Requirements](agent-sysreq.md), to learn about the __Directory Services Agent__ specific system requirements.
 
 ## Prerequisites
 

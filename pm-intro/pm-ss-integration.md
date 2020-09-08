@@ -20,3 +20,30 @@ The benefits of Privilege Manager's integration with Secret Server include:
 
 When Secret Server is used as the authentication source for Privilege Manager, Role Permissions assigned in Secret Server are important and determine user access levels in Privilege Manager. Without Secret Server integration, Privilege Manager uses NTLM for WebServer and Azure AD as possible authentication sources.
 
+## Single Site - Implementation Diagrams
+
+### Minimum High Availability
+
+![Minimum High Availability](images/ss-int/ss-a1.png "Minimum High Availability")
+
+### Minimum High Availability (Reverse Proxy/Azure Bus)
+
+![reverse-proxy](images/ss-int/ss-a2.png "Minimum High Availability (Reverse Proxy/Azure Bus)")
+
+## Multi Site - Implementation Diagrams
+
+### Minimum High Availability (with Multi Site DR) - Lower Cost/Manual Failover
+
+![lowest cost](images/ss-int/ss-a3.png "Minimum High Availability (with Multi Site DR) - Lower Cost/Manual Failover")
+
+### Average High Availability (with Multi Site DR) - Average Cost/Manual Failover
+
+![average cost](images/ss-int/ss-c.png "Average High Availability (with Multi Site DR) - Average Cost/Manual Failover")
+
+### Best High Availability (with Multi Site DR)
+
+![high cost](images/ss-int/ss-d1.png "Best High Availability (with Multi Site DR)")
+
+### Best High Availability (with Multi Site DR) - Highest Cost
+
+![high cost](images/ss-int/ss-d2.png "Best High Availability (with Multi Site DR) - Highest Cost/Manual Failover")

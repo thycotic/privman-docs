@@ -1,6 +1,6 @@
 [title]: # (Monitor Settings)
 [tags]: # (general configuration)
-[priority]: # (4)
+[priority]: # (3)
 # Monitor Settings
 
 Under the Privilege Manager Server category, the second section is Monitor settings. The Monitor setting is designed to monitor the Worker Role to ensure it is healthy and active. When enabled, the process checks the health at each Ping Interval and waits until the Timeout value before considering it unhealthy.

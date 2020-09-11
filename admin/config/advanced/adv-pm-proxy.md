@@ -1,6 +1,6 @@
 [title]: # (Proxy Settings)
 [tags]: # (general configuration)
-[priority]: # (5)
+[priority]: # (6)
 # Proxy Settings
 
 Under the Privilege Manager Server category, the third section is Proxy settings.

@@ -38,7 +38,7 @@ If you already configured the AD Default User Credential skip to the Foreign Sys
 1. Click __Create__.
 
    ![new ad](images/ad_sync/new-ad.png "Newly created Active Directory Domain Foreign System")
-1. Verify the __URL__ is correct.
+1. Verify the __URL__ (Fully Qualified Name) is correct.
 1. If the domain uses LDAPS, set the switch to enable.
 1. Click __Save Changes__.
 1. Once Active Directory is configured a Directory Synchronization task needs to run to import the appropriate data. Select the __Synchronization__ tab.
@@ -50,42 +50,27 @@ If you already configured the AD Default User Credential skip to the Foreign Sys
       * Groups
       * Computers
       * Custom LDAP Query
-   1. Connectivity, use either
-      * a Privilege Manager server that can reach a domain controller on your network, or
-      * the [Directory Services Agent](../../../../install/agents/agent-inst-win-dsa.md) that is installed on one of your domain connected on-premises computers designated to perform the sync. Cloud hosted customers likely need to choose this option.
-   1. Synchronization Task Config:
-      * Schedule - Schedules help keeping your system in sync with your domain updates.
-      * Domain Partner (optional)
-1. Click __Save Changes__.
-1. Click __Run__, to manually run the task on demand.
+   1. Connectivity, via either
+      * __Privilege Manager server__ that can reach a domain controller on your network:
+        1. Synchronization Task Config:
+           * Schedule - Schedules help keeping your system in sync with your domain updates.
+           * Domain Partner (optional)
+        1. Click __Save Changes__.
+        1. Click __Run__, to manually run the task on demand.
+      * __[Directory Services Agent](../../../../install/agents/agent-inst-win-dsa.md)__ that is installed on one of your domain connected on-premises computers designated to perform the sync. Cloud hosted customers likely need to choose this option.
 
-These tasks can be scheduled and synchronization can be coordinated through one or multiple tasks as needed by each specific environment. As an example, one task may synchronize users once a week, another task could synchronize computers daily, and perhaps a third could synchronize a specific LDAP query for a specific group from Active Directory.
+        ![dsa](images/ad_sync/dsa-sync.png "AD options with Directory Services Agent selected")
+        1. Under __Agent Policy Config__:
+           * Schedule: Schedules help keeping your system in sync with your domain updates.
+           * Agent Computer: Select the computer that has the Thycotic Core and Directory Services Agents installed.
+           * Domain Partner (optional)
+        1. Click __Save Changes__.
 
-<!--
-## Setting up Scheduled Synchronization Task
+           By setting this up via Directory Services Agent, the directory policy and the Directory Sync Policy task are applied to the agent, which based on the task schedule kicks off the local active directory synchronization. You can verify this by checking your Agent logs.
 
-1. Select __Admin | More__.
-1. Select the __Tasks__ link.
-1. Navigate the Jobs and Tasks tree and open __Server Tasks | Directory Services__.
-1. Use the following three templates to run a task on demand and to customize schedules based on your company needs:
-   * Default Import Directory
-   * Default Import Directory Computers
-   * Default Import Directory Sites
+           ![agent log](images/ad_sync/log.png " Policy and Task in agent log")
 
-     ![Tasks](images/ad_sync/server-ds.png)
-1. Click __View__ on the template task.
-1. Click __Create a Copy__ and give it a name, click __Create__.
-1. Click __Edit__ on the newly created task.
-   * On the __General__ tab, you can change the task name and customize the Description.
-   * On the __Parameters__ tab,
-     1. Click __Select Resource__ to specify the Directory Id and Directory partner ID.
-     1. You may provide a Full sync Query and specify Search Configuration.
-   * On the __Schedules__ tab,
-     1. Click New Schedule to set-up a customized synchronization schedule.
-
-        ![Schedule](images/ad_sync/def-imp-directory-schedules-new.png)
-   * Click __Save__.
-1. You may manually run the task now or wait for the schedule to kick in. -->
+Tasks can be scheduled and synchronization can be coordinated through one or multiple tasks as needed by each specific environment. As an example, one task may synchronize users once a week, another task could synchronize computers daily, and perhaps a third could synchronize a specific LDAP query for a specific group from Active Directory.
 
 ## Viewing Imported Users and Groups
 
@@ -96,5 +81,7 @@ You may verify and browse the users and groups that are expected to be imported 
 1. Expand __Default__.
 1. Expand __All Resources__.
 1. Expand __Security Principal__.
-1. Select __Domain Users__. You should see a list that contains imported Active Directory users.
-1. Select __User Group__. You should see a list that contains imported Active Directory groups (other groups may exist in the list as well).
+   1. Select __Domain User__. You should see a list that contains imported Active Directory users.
+   1. Select __User Group__. You should see a list that contains imported Active Directory groups (other groups may exist in the list as well).
+
+   ![resources](images/ad_sync/resources.png "Resources for Domain User and User Group: Domain User Group selections")

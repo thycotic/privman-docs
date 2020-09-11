@@ -1,6 +1,6 @@
 [title]: # (ServiceBus Settings)
 [tags]: # (general configuration)
-[priority]: # (6)
+[priority]: # (5)
 # ServiceBus Settings
 
 Under the Privilege Manager Server category, the fourth section is ServiceBus settings.

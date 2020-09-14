@@ -1,6 +1,6 @@
 [title]: # (System Settings)
 [tags]: # (general configuration)
-[priority]: # (3)
+[priority]: # (4)
 # General System Settings
 
 Under the Privilege Manager Server category, the first section is General settings.

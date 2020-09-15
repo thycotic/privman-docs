@@ -9,6 +9,6 @@ If selected then the acknowledge events button will be visible in Policy Events.
 
    ![api](images/show-ack.png "Enable Acknowledge Events button switch")
 
-Once you recycle the application pool, you will see an Acknowledge All button on the Policy Events grid after selecting an unacknowledged event.
+Once you save the changes, you will see an Acknowledge All button on the Policy Events grid after selecting an unacknowledged event.
 
 ![ack all](images/ack-all.png "Acknowledge all button")

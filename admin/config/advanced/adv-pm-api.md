@@ -9,4 +9,4 @@ Enabling this setting will allow authorized calls to the public facing applicati
 
    ![api](images/api.png "Enable API switch")
 
-You will need to create an [API Client User](../../users#how_to_manually_add_api_client_users) and assign an admin role to this user.
+You will need to create an [API Client User](../../users#how_to_manually_add_api_client_users) and assign a role to this user.

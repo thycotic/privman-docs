@@ -1,6 +1,6 @@
 [title]: # (Legacy System Extensions)
 [tags]: # (macOS,kexts)
-[priority]: # (1720)
+[priority]: # (1700)
 # Legacy System Extensions
 
 ## Effect on Privilege Manager Customers by Apple Deprecating Kernel Extensions in macOS

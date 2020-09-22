@@ -36,3 +36,10 @@ To install Thycotic agents __on multiple machines__, we recommend the following:
 
 >**Note**:
 >If you find that you've entered the wrong Privilege Manager Server address or want to change this settings, refer to the information under [Setting the Privilege Manager Server Address](../../agents/all/agent-set-server-address.md).
+
+## Silent Install
+
+If the Bundled Agent Installer is run with the `/quiet` option for a silent install, the bundled installer will not accept the `installcode` or `baseurl` via the commandline. You have to set those values post install for the agent to be able to register with the server.
+
+* [Agent Install Codes](installcode.md)
+* [Setting the Privilege Manager Server Address](../../agents/all/agent-set-server-address.md)

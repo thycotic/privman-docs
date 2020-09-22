@@ -5,7 +5,7 @@
 
 ## DB Backup
 
-Thycotic recommends that Privilege Manager data bases are backed-up prior to an upgrade. For details SQL Database Back Up information refer to the vendor documentation of your SQL Database, such as [Back Up and Restore of SQL Server Databases](https://docs.microsoft.com/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases?view=sql-server-ver15).
+Thycotic recommends that Privilege Manager databases are backed-up prior to an upgrade. For details regarding SQL database backups, refer to the vendor documentation of your SQL database, such as [Back Up and Restore of SQL Server Databases](https://docs.microsoft.com/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases?view=sql-server-ver15).
 
 ## TMS Folder Backup
 

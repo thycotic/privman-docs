@@ -3,12 +3,15 @@
 [priority]: # (4)
 # Set-up ServiceNow Integration
 
+## Foreign System Configuration
+
 Here are the steps to integrate Workflow between your ServiceNow Ticketing System and Privilege Manager.
 
 1. Verify which ServiceNow User account you will use for your integration with Privilege Manager. If you decide to create a new user account to manage your approval requests, make sure that it includes the required roles for your environment:
    * Web Service Admin (`web_service_admin`) and
    * Approval Admin (`approval_admin`).
    * For ServiceNow MID Server environments, the `mid_server` role permission also needs to be added to the account.
+   * For Group Member Approval: Adding the task __Create ServiceNow Request Items__ requires temporary __admin__ credentials for the ServiceNow instance. Once those items are created, the user does not need admin access anymore.
 
    Refer to [ServiceNow product documentation, specifically Base System Roles](https://docs.servicenow.com/bundle/geneva-servicenow-platform/page/administer/roles/reference/r_BaseSystemRoles.html).
 1. Verify that the ServiceNow connector is installed for your Privilege Manager Cloud instance:
@@ -60,9 +63,9 @@ Open ServiceNow and navigate to __Scripted Web Services | Scripted SOAP Services
 
 Now you've successfully defined a SOAP endpoint that Privilege Manager knows how to call to initiate a ServiceNow request for approval.
 
-## Define Action and Policy
+## Define Policy and Actions
 
-You need to create an action and attach it to a policy to manage what events you want sent to ServiceNow for approvals. To do this,
+You need to create an action and attach it to a policy to manage what events you want sent to ServiceNow for approvals.
 
 1. In the Privilege Manager console, navigate to __Admin | Tasks__.
 1. Click the __Automation__ tab.
@@ -82,7 +85,10 @@ You need to create an action and attach it to a policy to manage what events you
 
    ![Edits to approval type](images/servicenow/action_type2.png "Edits to approval type")
 1. Click __Save Changes__.
-1. Now navigate to __Admin | Actions__.
+
+### Using an Approval Request (with ServiceNow Request ItemNumber) Form Action
+
+1. Navigate to __Admin | Actions__.
 1. Search and select __Approval Request (with ServiceNow Request ItemNumber) Form Action__.
 
    ![Approval Request (with ServiceNow Request ItemNumber) Form Action](images/servicenow/new_req_form_action.png "Approval Request (with ServiceNow Request ItemNumber) Form Action")
@@ -96,6 +102,34 @@ You need to create an action and attach it to a policy to manage what events you
 1. Click the __i__ next to __Deployment__ and select __Resource and Collection Targeting Update__ to immediately send the policy to your endpoint agents.
 
 Policies also automatically update according to a schedule.
+
+### Using a Group Member Authenticated Message Action
+
+This action can be used for _over the shoulder_ approvals, where a supervisor approves access by authentication on the users endpoint system.
+
+1. Navigate to __Admin | Actions__.
+1. Search and select __Group Member Authenticated Message Action__.
+
+   ![over shoulder approval action](images/servicenow/over-shoulder-1.png "Group Member Authenticated Message Action")
+1. Click __Duplicate__.
+1. Name your new action (_Endpoint Group Member Authenticated Approval Action_) and click __Create__.
+1. Customize the Action based on your specific business requirements.
+1. Verify the __By the member of the group:__ is active and a group is listed below the button.
+1. Click __Save Changes__.
+1. Navigate to your computer group's __Application Policies__, click __Create Policy__ or find an existing policy that you want to use for ServiceNow Approvals.
+1. Under the __Actions__ section, search for and add the action you previously created.
+1. Click __Save Changes__.
+1. Click the __i__ next to __Deployment__ and select __Resource and Collection Targeting Update__ to immediately send the policy to your endpoint agents.
+
+Policies also automatically update according to a schedule.
+
+Sample Group Member approval notice with approval overlay:
+
+![sample](images/servicenow/over-shoulder-2.png "Sample Group Member Application Notice with Approval overlay")
+
+Refer to the __Endpoint Group Member Authenticated Approvals__ report to view a history of "over the shoulder" approvals:
+
+![report](images/servicenow/over-shoulder-3.png "Endpoint Group Member Authenticated Approvals report")
 
 ## Integration Workflow
 

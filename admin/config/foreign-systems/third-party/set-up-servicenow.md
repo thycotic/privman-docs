@@ -11,7 +11,7 @@ Here are the steps to integrate Workflow between your ServiceNow Ticketing Syste
    * Web Service Admin (`web_service_admin`) and
    * Approval Admin (`approval_admin`).
    * For ServiceNow MID Server environments, the `mid_server` role permission also needs to be added to the account.
-   * For Group Member Approval: Adding the task __Create ServiceNow Request Items__ requires temporary __admin__ credentials for the ServiceNow instance. Once those items are created, the user does not need admin access anymore.
+   * For Endpoint Group Member Approval: Adding the task __Create ServiceNow Request Items__ requires temporary __admin__ credentials for the ServiceNow instance. Once those items are created, the user does not need admin access anymore.
 
    Refer to [ServiceNow product documentation, specifically Base System Roles](https://docs.servicenow.com/bundle/geneva-servicenow-platform/page/administer/roles/reference/r_BaseSystemRoles.html).
 1. Verify that the ServiceNow connector is installed for your Privilege Manager Cloud instance:
@@ -103,19 +103,22 @@ You need to create an action and attach it to a policy to manage what events you
 
 Policies also automatically update according to a schedule.
 
-### Using a Group Member Authenticated Message Action
+### Using an Endpoint Group Member Authenticated Message Action
 
 This action can be used for _over the shoulder_ approvals, where a supervisor approves access by authentication on the user's endpoint system.
 
 1. Navigate to __Admin | Actions__.
-1. Search and select __Group Member Authenticated Message Action__.
+1. Click __Create__.
+   1. On the __Create Action__ modal from the __Platform__ drop-down select __Windows__.
+   1. From __Type__ drop-down select __Endpoint Group Member Authenticated Approval Action__.
+   1. Enter a meaningful __Name__ and __Description__.
+   1. From the __Approval Group__ drop-down, select the group membership of the approver.
 
-   ![over shoulder approval action](images/servicenow/over-shoulder-1.png "Group Member Authenticated Message Action")
-1. Click __Duplicate__.
-1. Name your new action (_Endpoint Group Member Authenticated Approval Action_) and click __Create__.
-1. Customize the Action based on your specific business requirements.
-1. Verify the __By the member of the group:__ is active and a group is listed below the button.
-1. Click __Save Changes__.
+      ![create over shoulder approval action](images/servicenow/over-shoulder.png "Endpoint Group Member Authenticated Message Action")
+   1. Click __Create__.
+
+   ![over shoulder approval action](images/servicenow/over-shoulder-1.png "New Endpoint Group Member Authenticated Message Action")
+1. Under Settings verify the __Require approval by a member of the group:__ contains the correct group. If you ever need to change it, come back to this page and click the group name to access the change modal.
 1. Navigate to your computer group's __Application Policies__, click __Create Policy__ or find an existing policy that you want to use for ServiceNow Approvals.
 1. Under the __Actions__ section, search for and add the action you previously created.
 1. Click __Save Changes__.

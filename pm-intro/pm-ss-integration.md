@@ -22,28 +22,78 @@ When Secret Server is used as the authentication source for Privilege Manager, R
 
 ## Single Site - Implementation Diagrams
 
-### Minimum High Availability
+### Minimal Single-Site Enterprise Deployment
+
+* Minimum Cost HA Configuration – No Shared Storage Requirement.
+* RabbitMQ Installed on Secret Server Web Servers (Typically in a cluster on a primary + secondary node).
+* Single Site design, no native DR capacity. DR can be provided by means of VM replication if subnets are spanning locations, otherwise re-ip + DNS changes may be necessary.
+* Privilege Manager is preferably installed on separate web servers. For smaller environments, Privilege Manager can be installed on the same web servers as Secret Server and can be used for integrating authentication and can store credentials in Secret Server.
+* Privilege Manager can reside on the same database servers as Secret Server or separate database servers, but Secret Server and Privilege Manager should not share the same database itself. Due to SQL Basic Availability groups with Standard Edition, you will need to have multiple instances of SQL and a separate AlwaysOn availability group configuration.
+* Some customers may choose to use a separate web reverse proxy or azure service bus configuration for Privilege Manager agent TCP 443 communication.
 
 ![Minimum High Availability](images/ss-int/ss-a1.png "Minimum High Availability")
 
-### Minimum High Availability (Reverse Proxy/Azure Bus)
+### Average Single-Site Enterprise Deployment (Reverse Proxy/Azure Bus)
+
+* Minimum Cost HA Configuration – No Shared Storage Requirement.
+* RabbitMQ Installed on separate servers.
+* Single Site design, no native DR capacity. DR can be provided by means of VM replication if subnets are spanning locations, * otherwise re-ip + DNS changes may be necessary.
+* Privilege Manager is preferably installed on separate web servers. For smaller environments, Privilege Manager can be installed on the same web servers as Secret Server and can be used for integrating authentication and can store credentials in Secret Server.
+* Privilege Manager can reside on the same database servers as Secret Server or separate database servers, but Secret Server and Privilege Manager should not share the same database itself. Due to SQL Basic Availability groups with Standard Edition, you will need to have multiple instances of SQL and a separate AlwaysOn availability group configuration.
+* Some customers may choose to use a separate web reverse proxy or azure service bus configuration for Privilege Manager agent TCP 443 communication.
 
 ![reverse-proxy](images/ss-int/ss-a2.png "Minimum High Availability (Reverse Proxy/Azure Bus)")
 
 ## Multi Site - Implementation Diagrams
 
-### Minimum High Availability (with Multi Site DR) - Lower Cost/Manual Failover
+### Minimum HA/DR" Enterprise Scale Deployment
+
+* Minimum Cost HA Multi-Site Configuration – No Shared Storage Requirement.
+* RabbitMQ Installed on Secret Server Web Servers (Typically in a cluster on a primary + secondary node).
+* Multi-Site Design. SQL AlwaysOn configurations will be either synchronous/asynchronous for Secret Server database and asynchronous only for Privilege Manager database.
+* DR site acts at temporary site only with no intention for long-term usage. Services in DR site being down can incur downtime.
+* Privilege Manager is preferably installed on separate web servers. For smaller environments, Privilege Manager can be installed on the same web servers as Secret Server and can be used for integrating authentication and can store credentials in Secret Server.
+* Privilege Manager can reside on the same database servers as Secret Server or separate database servers, but Secret Server and * Privilege Manager should not share the same database itself. Due to SQL Basic Availability groups with Standard Edition, you will need to have multiple instances of SQL and a separate AlwaysOn availability group configuration.
+* Some customers may choose to use a separate web reverse proxy or azure service bus configuration for Privilege Manager agent TCP 443 communication.
 
 ![lowest cost](images/ss-int/ss-a3.png "Minimum High Availability (with Multi Site DR) - Lower Cost/Manual Failover")
 
-### Average High Availability (with Multi Site DR) - Average Cost/Manual Failover
+### Average HA/DR" Enterprise Scale Deployment
+
+* Average Cost HA Multi-Site Configuration – No Shared Storage Requirement.
+* RabbitMQ Installed on separate servers.
+* Multi-Site Design. SQL AlwaysOn configurations will be either synchronous/asynchronous for Secret Server database and asynchronous only for Privilege Manager database.
+* DR site acts at temporary site only with no intention for long-term usage. Services in DR site being down can incur downtime.
+* Privilege Manager is preferably installed on separate web servers. For smaller environments, Privilege Manager can be installed on the same web servers as Secret Server and can be used for integrating authentication and can store credentials in Secret Server.
+* Privilege Manager can reside on the same database servers as Secret Server or separate database servers, but Secret Server and Privilege Manager should not share the same database itself.
+* Secondary SQL Node at Primary Site for Planned Failover "Patching", Secondary SQL Node in DR Site for Unplanned Failover.
+* Some customers may choose to use a separate web reverse proxy or azure service bus configuration for Privilege Manager agent TCP 443 communication.
 
 ![average cost](images/ss-int/ss-c.png "Average High Availability (with Multi Site DR) - Average Cost/Manual Failover")
 
-### Best High Availability (with Multi Site DR)
+### Best High Availability - Enterprise Scale Deployment
+
+* Highest Cost HA Multi-Site Configuration – No Shared Storage Requirement.
+* RabbitMQ Installed on separate servers.
+* Multi-Site Design. SQL AlwaysOn configurations will be either synchronous/asynchronous for Secret Server database and asynchronous only for Privilege Manager database.
+* DR site acts at temporary site only with no intention for long-term usage. Services in DR site being down can incur downtime.
+* Privilege Manager is preferably installed on separate web servers. For smaller environments, Privilege Manager can be installed on the same web servers as Secret Server and can be used for integrating authentication and can store credentials in Secret Server.
+* Privilege Manager can reside on the same database servers as Secret Server or separate database servers, but Secret Server and Privilege Manager should not share the same database itself.
+* Secondary SQL Node at Primary Site for Planned Failover "Patching", Secondary SQL Node in DR Site for Unplanned Failover.
+* Some customers may choose to use a separate web reverse proxy or azure service bus configuration for Privilege Manager agent TCP 443 communication.
 
 ![high cost](images/ss-int/ss-d1.png "Best High Availability (with Multi Site DR)")
 
-### Best High Availability (with Multi Site DR) - Highest Cost
+### Best HA/DR" Enterprise Scale Deployment
+
+* Highest Cost HA Multi-Site Configuration – No Shared Storage Requirement.
+* RabbitMQ Installed on separate servers.
+* Multi-Site Design. SQL AlwaysOn configurations will be either synchronous/asynchronous for Secret Server database and asynchronous only for Privilege Manager database.
+* DR site acts at temporary site only with no intention for long-term usage. Services in DR site being down can incur downtime.
+* Privilege Manager is preferably installed on separate web servers. For smaller environments, Privilege Manager can be installed on the same web servers as Secret Server and can be used for integrating authentication and can store credentials in Secret Server.
+* Privilege Manager can reside on the same database servers as Secret Server or separate database servers, but Secret Server and Privilege Manager should not share the same database itself. 
+* Secondary SQL Node at Primary Site for Planned Failover "Patching", Secondary SQL Node in DR Site for Unplanned Failover.
+* DR site can act as permanent secondary site for long term use.
+* Some customers may choose to use a separate web reverse proxy or azure service bus configuration for Privilege Manager agent TCP 443 communication.
 
 ![high cost](images/ss-int/ss-d2.png "Best High Availability (with Multi Site DR) - Highest Cost/Manual Failover")

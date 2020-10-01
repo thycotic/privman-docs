@@ -19,8 +19,6 @@ Here are the steps to integrate Workflow between your ServiceNow Ticketing Syste
    1. If the connector is installed, __ServiceNow__ is listed under Foreign System.
 
       ![servicenow in fs list](images/servicenow/fs_servicenow.png "Adding ServiceNow as a Foreign System")
-
-      >**Note**: If you are a 10.6 cloud customer and don’t see ServiceNow in the list, contact Thycotic support to have the connector added to your cloud instance. If it is listed, continue with the next step.
 1. Select the __Credentials__ tab.
 1. Click __Create__.
 1. Under Details, enter a Name and Description for your ServiceNow credentials.

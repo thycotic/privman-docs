@@ -21,4 +21,7 @@ This action can be used for approvals that are based on a group membership authe
 
 Policies also automatically update according to a schedule.
 
-Also refer to [Using an Endpoint Group Member Authenticated Message Action](../config/foreign-systems/third-party/set-up-servicenow.md) for details on using a similar action for _over-the-shoulder_ approvals with a ServiceNow systems integration.
+Related topics:
+
+* [Endpoint Group Member Authenticated Message Action](endpoint-group-member-approvals.md), which guides you through setting up _over the shoulder_ approvals that can be used as an offline approval.
+* [Using an Endpoint Group Member Authenticated Message Action](../config/foreign-systems/third-party/set-up-servicenow.md), which guides you through setting up _over the shoulder_ approvals that can be used in offline situations with a ServiceNow system integration.

@@ -105,7 +105,7 @@ Policies also automatically update according to a schedule.
 
 ### Using an Endpoint Group Member Authenticated Message Action
 
-This action can be used for _over the shoulder_ approvals, where a supervisor approves access by authentication on the user's endpoint system.
+This action can be used for _over the shoulder_ approvals when systems are offline. The supervisor approves access by authentication on the user's endpoint system.
 
 1. Navigate to __Admin | Actions__.
 1. Click __Create__.
@@ -130,9 +130,9 @@ Sample Group Member approval notice with approval overlay:
 
 ![sample](images/servicenow/over-shoulder-2.png "Sample Group Member Application Notice with Approval overlay")
 
-Refer to the __Endpoint Group Member Authenticated Approvals__ report to view a history of "over the shoulder" approvals:
+Refer to the __Endpoint Group Member Authenticated Approvals__ report In Privilege Manager or your ServiceNow instance to view a history of "over the shoulder" approvals:
 
-![report](images/servicenow/over-shoulder-3.png "Endpoint Group Member Authenticated Approvals report")
+![report](images/servicenow/over-shoulder-3.png "Endpoint Group Member Authenticated Approvals report in Privilege Manager")
 
 ## Integration Workflow
 

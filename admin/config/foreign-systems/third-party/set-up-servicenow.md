@@ -11,7 +11,7 @@ Here are the steps to integrate Workflow between your ServiceNow Ticketing Syste
    * Web Service Admin (`web_service_admin`) and
    * Approval Admin (`approval_admin`).
    * For ServiceNow MID Server environments, the `mid_server` role permission also needs to be added to the account.
-   * For Endpoint Group Member Approval: Adding the task __Create ServiceNow Request Items__ requires temporary __admin__ credentials for the ServiceNow instance. Once those items are created, the user does not need admin access anymore.
+   * The task __Create ServiceNow Request Items__ requires temporary __admin__ credentials for the ServiceNow instance. Once those items are created, the user does not need admin access anymore.
 
    Refer to [ServiceNow product documentation, specifically Base System Roles](https://docs.servicenow.com/bundle/geneva-servicenow-platform/page/administer/roles/reference/r_BaseSystemRoles.html).
 1. Verify that the ServiceNow connector is installed for your Privilege Manager Cloud instance:

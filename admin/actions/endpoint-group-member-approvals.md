@@ -3,7 +3,7 @@
 [priority]: # (5)
 # Endpoint Group Member Approval Action
 
-This action can be used for _over the shoulder_ approvals when systems are offline. The supervisor approves access by authentication on the user's endpoint system.
+This action can be used for _over the shoulder_ approvals, whether systems are on- or offline. The supervisor approves access by authentication on the user's endpoint system.
 
 1. Navigate to __Admin | Actions__.
 1. Click __Create__.
@@ -35,4 +35,4 @@ Refer to the __Endpoint Group Member Authenticated Approvals__ report to view a 
 ## Related Topics
 
 * [Group Member Authenticated Message Action](group-member-approvals.md), which guides you through setting up approvals based on the group membership of the approver.
-* [Using an Endpoint Group Member Authenticated Message Action](../config/foreign-systems/third-party/set-up-servicenow.md), which guides you through setting up _over the shoulder_ approvals that can be used in offline situations with a ServiceNow system integration.
+* [Using an Endpoint Group Member Authenticated Message Action](../config/foreign-systems/third-party/set-up-servicenow.md), which guides you through setting up _over the shoulder_ approvals that can be used on- and offline with a ServiceNow system integration.

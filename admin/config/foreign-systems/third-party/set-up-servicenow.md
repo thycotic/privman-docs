@@ -103,7 +103,7 @@ Policies also automatically update according to a schedule.
 
 ### Using an Endpoint Group Member Authenticated Message Action
 
-This action can be used for _over the shoulder_ approvals when systems are offline. The supervisor approves access by authentication on the user's endpoint system.
+This action can be used for _over the shoulder_ approvals whether systems are on- or offline. The supervisor approves access by authentication on the user's endpoint system.
 
 1. Navigate to __Admin | Actions__.
 1. Click __Create__.

@@ -13,7 +13,7 @@ You may see this popup:
 
 ## How is this Going to Affect Privilege Manager?
 
-Thycotic plans to support Endpoint Security via system extension in Privilege Manager version 10.8 to be delivered this summer. In the meantime, Privilege Manager will continue to function normally and no immediate action is required.
+Thycotic plans to support Endpoint Security via system extension in Privilege Manager version 10.8.x to be delivered to support the Big Sur release. In the meantime, Privilege Manager will continue to function normally and no immediate action is required.
 
 You can read more about legacy system extensions on [Apple's website](https://support.apple.com/en-us/HT210999).
 

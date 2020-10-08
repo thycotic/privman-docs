@@ -10,6 +10,8 @@ The agent method requires that the Directory Services Agent is installed on one 
 >**Note**: If the Directory Services Agent is installed on a system with an Application Control or a Local Security Agent, a license will be consumed. If a system has the Thycotic Agent (Core Agent) and Directory Services Agent installed ONLY, no license is consumed.
 >
 >The Directory Services Agent for local AD synchronization with Privilege Manager Cloud instances is available for x64-bit systems only.
+>
+>If the Directory Services Agent produces error messages about failed application control policy processing in the agent log, those messages can be ignored.
 
 We recommend the following topics for details pertaining to the __Directory Services Agent__ functionality:
 

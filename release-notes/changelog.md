@@ -5,6 +5,16 @@
 
 This topic provides a chronological list of documentation changes. Minor content alterations are not tracked.
 
+## October 2020
+
+Added [10.8.1 Release Notes](10.8.1-combined.md).
+
+### Group Member Based Approvals
+
+* Added [Group Member Approval Action](../admin/actions/group-member-approvals.md) topic.
+* Added [Endpoint Group Member Approval Action](../admin/actions/endpoint-group-member-approvals.md) topic.
+* Updates to the [ServiceNow Integration Setup](../admin/config/foreign-systems/third-party/set-up-servicenow.md) topic to include _over-the-shoulder_ approvals at the endpoint.
+
 ## August 2020
 
 * New 10.8 UI introduction with changed user workflow and major documentation reorganization to accommodate the new UI layout.

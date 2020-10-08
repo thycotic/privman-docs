@@ -22,6 +22,8 @@ necessary can be created for a custom implementation:
 
 Each of those actions has by default Related Items associated, which need to be considered when customizing an action.
 
+>**Note**: The __Suppress UAC__ action should only be used with Agent versions 10.4 and older.
+
 ## Adjust Process Rights Action Settings Explained
 
 The application action elevates or restricts the permissions and/or privileges held by a process security token. By default, each process inherits the user's security token.

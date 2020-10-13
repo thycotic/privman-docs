@@ -16,10 +16,10 @@ To install Thycotic agents __on a single testing machine__, follow these steps:
 
    >**Note**: The Install Code field can be left blank when using versions lower than 10.5.
 
-   ![Bundle Installer Setup](images/bundle/setup.png)
+   ![Bundle Installer Setup](images/bundle/setup.png "Bundle Installer Setup")
 1. After the installation you will be prompted to restart your endpoint.
 
-   ![System restart prompt after agent installation](images/bundle/restart-prompt.png)
+   ![Restart prompt after agent installation](images/bundle/restart-prompt.png "Restart prompt after agent bundle installation")
 
 >**Note**:
 >It may take 15-30 minutes for agents to receive new policies, to speed this up navigate to __Admin | Configuration | General__ and click __Run Policy Targeting Update__, then open the Agent Utility on the endpoint and click the __Register__ button.

@@ -1,4 +1,4 @@
-[title]: # (macOS Secure Token)
+[title]: # (Secure Token)
 [tags]: # (local service accounts)
 [priority]: # (12)
 # macOS Secure Token

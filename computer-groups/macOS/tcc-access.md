@@ -1,29 +1,21 @@
-[title]: # (Troubleshooting)
+[title]: # (File/Folder Access)
 [tags]: # (macOS)
-[priority]: # (20)
-# Troubleshooting MacOS File/Folder Access
+[priority]: # (13)
+# macOS File/Folder Access
 
-## Access to Directories
+Permissions determine who or what can access (view or alter) files on a computer. With the release of macOS Mojave (10.14), Apple introduced Transparency Consent and Control (TCC) to further limit the permissions and access granted to applications as they relate to user data and devices. With macOS Catalina (10.15), Apple extended this to prevent third-party daemons from accessing user data within certain folders. These include a user's Desktop, Documents, and Downloads folders. The user's Public folder is exempt from this restriction.
 
-Permissions determine who or what can access (view or alter) files on a computer. With the release of macOS Catalina (10.15), Apple further secured file and folder access. With this change application basically need to request access to certain parts of the file system, which includes access to a user's Documents, Desktop, Downloads, or iCloud Drive folders, and any other files/folders connected to a system via external hard drives or memory cards. For Privilege Manager policies to catch correctly, Privilege Manager needs to have access to those restricted file system areas.
+For example, on Catalina, when package (pkg) installers are downloaded to a user's Desktop and there is a Privilege Manager policy governing them, an error like the following will be written to the [Unified Log](https://developer.apple.com/documentation/os/logging/viewing_log_messages).
 
-For example, on Catalina based macOS systems, when .pkg installers are downloaded to a users home directory vs. a public folder, an error like the following example is triggered with a 256 response code:
+| Install Attempt | Error `Failed to read file /Users/pmb/Desktop/Teams_osx.pkg: Unable to open file: Operation not permitted` |
+| ----- | ----- |
+| ![access-1](images/access/access-1.png "Attempt to install the Teams app from a TCC protected folder") | ![access-2](images/access/access-2.png "Error message in Console log") |
 
-`Error message: PrivManACS W: Unknown callback for event 3226790335 and filepath /Users/johndoe/Downloads/Microsoft_Outlook_16.32.19120802_Updater.pkg`
+In order to read files in these protected locations, third-party daemons need to be given the Full Disk Access (FDA) entitlement. On macOS Catalina, the FDA entitlement can't be granted manually to the daemon by a user. It must be provisioned by a TCC profile via a Mobile Device Management (MDM) solution.
 
-Catalina has a new security restriction that prevents daemons and applications that don’t have the full disk access entitlement from accessing files in certain directories in the users home directory. This includes directories like __~/Downloads__, __~/Documents__, etc.
+macOS versions prior to Catalina do not experience this restriction.
 
-Shared folders with full read/write access preemptively enabled or for example the __~/Public__ folder are exempt, it is public for that reason. Refer to https://support.apple.com/guide/mac-help/change-permissions-for-files-folders-or-disks-mchlp1203/10.15/mac/10.15.
-
-Versions prior to Catalina do not experience this restriction.
-
-### Using Logs
-
-It might help to look at system logs to see which folders are tripping up policy execution.
-
-On macOS systems the log documentation page can be viewed via `x-man-page://logs`, specifically review the `~/.logrc` option.
-
-### Workaround via MDM Solution
+## Workaround via MDM Solution
 
 If an MDM solution is in place, a TCC profile can be used to alleviate the problem. The below example can be used as a starting point. The example was specifically created for full disk access for a mobile configuration.
 

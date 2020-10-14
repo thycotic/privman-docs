@@ -5,6 +5,12 @@
 
 This topic provides a chronological list of documentation changes. Minor content alterations are not tracked.
 
+## December 2020
+
+Added [11.0.0 Release Notes](11.0.0-combined.md).
+
+[TBD]
+
 ## October 2020
 
 Added [10.8.1 Release Notes](10.8.1-combined.md).

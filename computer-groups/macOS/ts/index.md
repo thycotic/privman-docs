@@ -1,19 +1,27 @@
-[title]: # (macOS Specific)
-[tags]: # (troubleshooting)
-[priority]: # (1)
-# MacOS Specific Troubleshooting
+[title]: # (Troubleshooting)
+[tags]: # (macOS)
+[priority]: # (20)
+# Troubleshooting MacOS File/Folder Access
 
 ## Access to Directories
 
-On Catalina based macOS systems, when .pkg installers are downloaded to a users home directory vs. a public folder, an error like the following example is triggered with a 256 response code:
+Permissions determine who or what can access (view or alter) files on a computer. With the release of macOS Catalina (10.15), Apple further secured file and folder access. With this change application basically need to request access to certain parts of the file system, which includes access to a user's Documents, Desktop, Downloads, or iCloud Drive folders, and any other files/folders connected to a system via external hard drives or memory cards. For Privilege Manager policies to catch correctly, Privilege Manager needs to have access to those restricted file system areas.
+
+For example, on Catalina based macOS systems, when .pkg installers are downloaded to a users home directory vs. a public folder, an error like the following example is triggered with a 256 response code:
 
 `Error message: PrivManACS W: Unknown callback for event 3226790335 and filepath /Users/johndoe/Downloads/Microsoft_Outlook_16.32.19120802_Updater.pkg`
 
-Catalina has a new security restriction that prevents daemons and applications that don’t have the full disk access entitlement from accessing files in certain directories in the users home directory. This includes __~/Downloads__, __~/Documents__, etc.
+Catalina has a new security restriction that prevents daemons and applications that don’t have the full disk access entitlement from accessing files in certain directories in the users home directory. This includes directories like __~/Downloads__, __~/Documents__, etc.
 
-__~/Public__ is exempt, because it is public.
+Shared folders with full read/write access preemptively enabled or for example the __~/Public__ folder are exempt, it is public for that reason. Refer to https://support.apple.com/guide/mac-help/change-permissions-for-files-folders-or-disks-mchlp1203/10.15/mac/10.15.
 
 Versions prior to Catalina do not experience this restriction.
+
+### Using Logs
+
+It might help to look at system logs to see which folders are tripping up policy execution.
+
+On macOS systems the log documentation page can be viewed via `x-man-page://logs`, specifically review the `~/.logrc` option.
 
 ### Workaround via MDM Solution
 

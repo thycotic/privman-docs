@@ -1,5 +1,5 @@
 [title]: # (macOS Specific Policies)
-[tags]: # ( )
+[tags]: # (policy examples)
 [priority]: # (6)
 # macOS Specific Policies
 

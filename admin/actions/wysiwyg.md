@@ -27,6 +27,8 @@ The editor comes with various style element options to further simplify the mess
 
 Edit any of the message elements for your users on your endpoints, except for the app-name and user-name variables. Those are system derived.
 
+Any message action should be tested in light and dark mode before populating to endpoints.
+
 >**Note**: You can upload a custom logo, the file size should be under 128 KB and the width should be 500 pixels or less with a maximum hight of 34 pixels.
 >
 >The logo that is uploaded should NOT be a high-resolution image. Consider that this image will be delivered to every endpoint with every message in which it is used. The smaller the image, the better, for sending the message to the endpoints and for the endpoint to load the message.

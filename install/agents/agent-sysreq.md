@@ -61,3 +61,9 @@ To download it, go to http://www.microsoft.com/en-us/download/details.aspx?id=24
 ### .NET 2.0 Framework SP1
 
 The .Net 2.0 SP1 update is required only for Windows XP. To download, go to http://download.microsoft.com/download/c/6/e/c6e88215-0178-4c6c-b5f3-158ff77b1f38/NetFx20SP2_x86.exe.
+
+## Ports/Agent Access Information
+
+* __Outbound (port 443 - HTTPS)__: This is the default access port through which the agent connects to the server. You may specify a different port based on your environment.
+* __Inbound (port 5593)__: The is the default and only port that the agent listens on. This port is not required and you can block port 5593. If you block the port, the agents pull updates from the server based on a set schedule.
+* __SQL (port 1433)__: This is the default SQL DB port. The SQL port can be customized.

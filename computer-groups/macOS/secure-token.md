@@ -28,5 +28,5 @@ To use the secure token with macOS Agents, the user credential needs to be estab
 1. Navigate to your macOS computer group and select __Agent Configuration__.
 
    ![add](images/secure-token/macOS-credential-2.png "Add credential to macOS agent configuration")
-1. In the __Secure Token Enabled Management Credential__ field enter the macOS user credential you created in __step 3__.
+1. In the __Secure Token Enabled Management Credential__ field enter the macOS user credential you created in __step 2__.
 1. Click __Save Changes__.

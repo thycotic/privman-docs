@@ -60,11 +60,12 @@ The Client Items tab provides an overview of all client items on the endpoint. T
 * Actions
 * Commands
 * Filters
+* Provisioned Resources
 
 The following image shows the client items on the endpoint in an unlocked preference pane with policies expanded.
 
 ![client items unlocked](images/unlocked-client-items-tab.png "View of client items on endpoint, unlocked mode with policies expanded")
 
-Use expand/collapse to better navigate through the list of applicable client items on the endpoint. The following image shows the client items on the endpoint in a locked preference pane with policies collapsed.
+Use expand/collapse to better navigate through the list of applicable client items on the endpoint. The following image shows the client items on the endpoint in a locked preference pane with policies, commands, filters, and provisioned resources collapsed.
 
 ![client items locked](images/locked-client-items-tab.png "View of client items on endpoint, locked mode with policies collapsed")

@@ -121,4 +121,4 @@ There are two Templates that Privilege Manager uses to store Secrets in Secret S
   Do NOT mark any other fields in that template as required!
 
 >**Note**:
->To troubleshoot or remove the integrated configuration, navigate to the Admin | Configuration | Advanced tab in Privilege Manager and click Edit at the bottom of the page. Locate the “System Secret Vault” setting and click the Select Resource link. Here, a user can manually add and remove the Secret Server vault. If you choose to remove the Secret Server vault, a migration of passwords from Secret Server’s vault to Privilege Manager automatically happens.
+>To troubleshoot or remove the integrated configuration, navigate to the __Admin | Configuration | Advanced__ tab in Privilege Manager. Locate the __System Secret Vault__ setting and click the __Select Resource__ link. Here, a user can manually add and remove the Secret Server vault. If you choose to remove the Secret Server vault, a migration of passwords from Secret Server’s vault to Privilege Manager automatically happens.

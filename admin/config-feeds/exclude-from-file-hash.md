@@ -29,13 +29,9 @@ Always manually test a new policy deployment on a single endpoint, and only push
 1. Go to the __Parameters__ tab and add the list of extensions to exclude, for example xlsx, xls, mdb, accdb.
 
    ![parameters](images/app-ctrl/hash-exclude-policy-para.png "Specify the parameters for the policy")
-<!-- 1. Go to __Triggers__ and verify the set schedule works for your environment and edit if changes are required.
+   1. Click __ExtensionExcludes__ to modify the default parameter or use __Add Parameter__ to add different exclusions.
 
-   ![Edit the default triggers to your specific environment needs](images/app-ctrl/hash-exclude-policy-triggers.png)
-1. Go to the __Targets__ tab and specify the targets for the deployment of that list.
-
-   ![Edit the default targets to your specific environment needs](images/app-ctrl/hash-exclude-policy-targets.png)
-1. On the Conditions tab, you may specify any conditions specific to your environment. -->
+      ![edit](images/app-ctrl/hash-para.png "Editing existing default excludes or adding parameters dialog")
 1. Click __Save Changes__.
 
 ## Manually Test on Endpoint

@@ -26,12 +26,9 @@ Always manually test a new policy deployment on a single endpoint, and only push
 1. From the results list select the new policy __Deploy File Hash Exclusion Setting (Windows)__.
 
    ![select](images/app-ctrl/hash-exclude-policy.png "Select the Deploy File Hash Exclusion Setting policy")
-1. Go to the __Parameters__ tab and add the list of extensions to exclude, for example xlsx, xls, mdb, accdb.
+1. Under __Job Settings__ | __File Extensions not to Hash__ you can add to the list of extensions, for example xlsx, xls. By default _.mdb_ and _.accdb_ extensions are already listed.
 
    ![parameters](images/app-ctrl/hash-exclude-policy-para.png "Specify the parameters for the policy")
-   1. Click __ExtensionExcludes__ to modify the default parameter or use __Add Parameter__ to add different exclusions.
-
-      ![edit](images/app-ctrl/hash-para.png "Editing existing default excludes or adding parameters dialog")
 1. Click __Save Changes__.
 
 ## Manually Test on Endpoint

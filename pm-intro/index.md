@@ -1,69 +1,14 @@
-[title]: # (Product Overview)
-[tags]: # (architecture)
-[priority]: # (11)
-# Product Overview
+[title]: # (Overview)
+[tags]: # (least privilege)
+[priority]: # (10)
+# Least Privilege Explained
 
-The following diagrams provide an architectural overview of Privilege Manager, its components, and available integrations.
+Least Privilege is a security-driven management philosophy that models a system where all employees are given the minimum level of access rights necessary to carry out their job functions on endpoint machines. This is to protect each machine from malicious applications, rogue employees, or attackers. Privileged local admin or root accounts on endpoints give unfettered access to the entire endpoint and can potentially be used to access other computers, domain resources, and critical servers unless a least privilege security model is implemented.  But implementing Least Privilege can be difficult for IT teams to enforce because there are plenty of daily, trusted activities that employees must perform that require access to privileged credentials.
 
-## Privilege Manager Cloud - Layered Diagram
+Privilege Manager's toolset is two-fold. First, Local Security discovers all accounts that exist on endpoints and allows Privilege Manager Administrators to control the exact membership of every local group. This will ensure the correct admin and root accounts are permanently set. Additionally, credentials will be controlled by enforcing password rotation on those accounts.
 
-![PM Implementation Overview](images/privman-arch-20190415.png "Cloud Layered Diagram")
+Second, Application Control allows Privilege Manager administrators to manage application activity on endpoint machines. Applications that require admin rights or root access can be automatically elevated, allowed applications are allow listed, and malicious applications are blocked.
 
-<!--
-### Network Diagram (Cloud)
+In other words, tailoring a robust, role-based Application Control system is key to keeping your organization's employees working both securely and effectively, without notable disruptions. But managing local administrator and root accounts through Local Security is arguably the fastest way to lock down your network from malicious endpoint attacks that exploit administrator access.
 
-![PM Cloud Architecture](images/privman-cloud.png "Cloud Diagram")
--->
-## Privilege Manager On-premises - Layered Diagram
-
-![PM Implementation Overview](images/privman-arch-on-prem-20190415.png "On-prem Layered Diagram")
-<!--
-### Network Diagram (On-prem)
-
-![PM On-Premises Architecture](images/privman-on-prem.png "On-prem Diagram")
--->
-
-## Reference Diagrams
-
-### Component Definition
-
-__App User__ - These are the users connecting to your Privilege Manager websites. These users will be limited to the users that perform administrative tasks (admins), to use the solution in a helpdesk role, or to perform approvals or audits.
-
-__Privilege Manager Agents__ - These is used for application control and local user/group management.
-
-__Load Balancers__ - Load balancers are often involved in the solution to help distribute web traffic to more than one web server. Local and Global load balancers, if available, may be used in the solution to further lower potential application downtime during upgrades, patching, and single site failures.
-
-__Web Server__ - This is a primary component of the solution. Our web servers use IIS 7 and newer and will only work on Windows Server 2008 R2 - Windows Server 2016. For multiple web server (clustered) solutions, the web application itself can be made cluster aware and does not require being built as part of an IIS farm. Each web server acts as its own stand alone web server.
-
-__Database Server__ - This is a primary component of the solution. Microsoft SQL Server hosts the Privilege Manager databases. We are compatible only with SQL Server 2012 or newer running on Windows Server 2008 R2 - Windows Server 2016. The Thycotic databases can be put on a stand alone server, a FCI, or preferably using an AlwaysOn AG for clustered environments. The databases can be added to an existing production SQL cluster or instance, but proper sizing of the environment should be done. Windows authentication only is advised.
-
-__Reverse Proxy / Azure Service Bus__ - A properly configured Reverse Proxy will act as a buffer between Privilege Manager agents and the Privilege Manager server(s) to limit server exposure. Use nginx, F5, or Windows Application Request Routing 3.0 and URL Rewrite in IIS on a DMZ Server, to prevent a direct connection between Agent endpoints and your Privilege Manager web server(s). Alternatively, Azure Bus can be used, to prevent Agent endpoints connecting directly to your Privilege Manager web server(s).
-
-__Secret Server__ - Optionally, Secret Server can be installed with Privilege Manager to use an authentication source and a storage vault for Privilege Manager credentials. Using Secret Server as the authentication source for Privilege Manager allows MFA options for login. Also, application role assignment can be assigned in Secret Server. If using Secret Server features (beyond authentication and vault storage for Privilege Manager), Secret Server should be on separate servers - for this, see [Secret Server + Privilege Manager Architectures](pm-ss-integration.md).
-
->**Note**:
->Every component of Privilege Manager can be made highly available to ensure a redundant architecture and to scale for future growth.
-
-### Single Site - Implementation Diagrams
-
-#### Minimum High Availability
-
-![Minimum High Availability](images/ss-int/a1.png "Minimum High Availability")
-
-#### Minimum High Availability (Reverse Proxy/Azure Bus)
-
-![reverse-proxy](images/ss-int/a2.png "Minimum High Availability (Reverse Proxy/Azure Bus)")
-
-### Multi Site - Implementation Diagrams
-
-#### Minimum High Availability (with Multi Site DR) - Lower Cost/Manual Failover
-
-![lowest cost](images/ss-int/b1.png "Minimum High Availability (with Multi Site DR) - Lower Cost/Manual Failover")
-
-#### Average High Availability (with Multi Site DR) - Average Cost/Manual Failover
-
-![average cost](images/ss-int/c.png "Average High Availability (with Multi Site DR) - Average Cost/Manual Failover")
-
-#### Best High Availability (with Multi Site DR) - Highest Cost/Manual Failover
-
-![high cost](images/ss-int/d1.png "Best High Availability (with Multi Site DR) - Highest Cost/Manual Failover")
+Every implementation looks different when configuring Privilege Manager to work best for your organization. The key is to know your goal and be smart about getting there. The [Getting Started section](../getting-started/index.md) will walk you through beginning configurations for both Local Security and Application Control.

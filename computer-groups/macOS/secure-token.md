@@ -1,6 +1,6 @@
-[title]: # (macOS Secure Token)
+[title]: # (Secure Token)
 [tags]: # (local service accounts)
-[priority]: # (3004)
+[priority]: # (12)
 # macOS Secure Token
 
 Secure Token is a macOS High Sierra or later account attribute, that is required to be added to a user account before that account can be enabled for FileVault on an encrypted Apple File System (APFS) volume. To help make sure that at least one account has a Secure Token attribute associated with it, a Secure Token attribute is automatically added to the first account to log into the OS login window on a particular Mac. Once an account has a Secure Token associated with it, it can create other accounts which will in turn automatically be granted their own Secure Token.
@@ -28,5 +28,5 @@ To use the secure token with macOS Agents, the user credential needs to be estab
 1. Navigate to your macOS computer group and select __Agent Configuration__.
 
    ![add](images/secure-token/macOS-credential-2.png "Add credential to macOS agent configuration")
-1. In the __Secure Token Enabled Management Credential__ field enter the macOS user credential you created in __step 3__.
+1. In the __Secure Token Enabled Management Credential__ field enter the macOS user credential you created in __step 2__.
 1. Click __Save Changes__.

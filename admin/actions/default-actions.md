@@ -132,7 +132,7 @@ Here is the complete list of Actions that come with Privilege Manager out-of-the
 
 | Action | Description |
 | ----- | ----- |
-| __Suppress User Account Control Consent Dialog__ | This action will prevent the UAC consent dialog from being displayed |
+| __Suppress User Account Control Consent Dialog (Legacy)__ | This action will prevent the UAC consent dialog from being displayed. This action should only be used with Agent versions 10.4 and older.  |
 
 ### Set Process Security Descriptor
 

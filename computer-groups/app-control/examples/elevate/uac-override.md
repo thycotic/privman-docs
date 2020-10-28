@@ -23,10 +23,10 @@ By creating a User Access Control (UAC) Override Policy you can override UAC pro
    * Exclusion Filters
 1. Under __Actions__ you can edit
 
-   * the actually actions for the policy like
+   * the available actions for the policy like
      * the Justify Application Elevation Action
      * the Add Administrative Rights Action
-     * the Suppress User Account Control Consent Dialog Action
+     * the Suppress User Account Control Consent Dialog (Legacy) Action. Only used with Agent versions 10.4 and older.
    * if you want to Audit Policy Events (as a learning mode/monitoring feature)
    * you can add Child Actions.
 1. Click __Save Changes__, if you created a copy and made edits.

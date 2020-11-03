@@ -5,6 +5,13 @@
 
 The Bundled Mac Agent DMG + PKG installer is available for macOS systems. You can use this installer directly on individual endpoints for testing or for production environments.
 
+## Sudo Plugin
+
+In support of Big Sur the macOS agent install also installs the macOS sudo plugin at `/usr/local/libexec/sudo`.
+The plugin is own by root and it's configuration is located at `/etc/sudo.conf`.
+
+Refer to the [Sudo Plugin](../../computer-groups/macOS/sudo-plugin.md) topic for details on the functionality of the plugin.
+
 ## Installing macOS Agents
 
 >**Note**:

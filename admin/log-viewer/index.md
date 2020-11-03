@@ -17,12 +17,20 @@ By default the Server Logs are shown for the last 30 minutes and with the Severi
 
 ## Details
 
-The Server Logs are searchable via CorrelationID for better troubleshooting support. Details for a log entry can be viewed by clicking on the row containing the entry.
+Details for a log entry can be viewed by clicking on the row containing the log entry.
 
 ![details](images/details.png "Log event details")
 
 ## Search by CorrelationID
 
-If you are looking for all events pertaining to the same ID, you copy the id and enter it in the table grid search field.
+The Server Logs are searchable via CorrelationID for better troubleshooting support. If you are looking for log details about an error that occurred in the UI, copy the CorrelationID from the error message and enter it in the table grid search field.
 
-![id](images/id.png "Search by ID")
+* Error providing CorrelationID:
+
+  ![id](images/error.png "Error providing CorrelationID")
+* Search Server Logs for CorrelationID:
+
+  ![search](images/id-2.png "Search Server Logs for CorrelationID")
+* Details for error based on CorrelationID search:
+
+  ![details](images/details-2.png "Details for error based on CorrelationID search")

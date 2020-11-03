@@ -110,11 +110,11 @@ The other available __Admin__ subitems are:
 * [Folders](../../admin/folders/index.md)
 * [Import Items](../../admin/import-items/index.md)
 * [Licenses](../../admin/tasks/reset-license.md)
-* [Log Viewer](../../troubleshooting/logs/ts-ui.md)
-* [Personas](../../admin/personas.md)
+* [Personas](../../admin/personas/index.md)
 * [Resources](../../admin/resources/index.md)
 * [Roles](../../admin/roles/index.md)
 * Secret Server - only available if integrated via Foreign Systems
+* [Server Logs](../../admin/log-viewer/index.md)
 * [Setup](../../install/upgrades/index.md) - only available for On-premises instances
 * [Tasks](../../admin/tasks/index.md)
 * [Users](../../admin/users/index.md)

@@ -5,6 +5,14 @@
 
 The Bundled Mac Agent DMG + PKG installer is available for macOS systems. You can use this installer directly on individual endpoints for testing or for production environments.
 
+Starting with 10.8.2 Thycotic provides two macOS Agent installers, one in support of KEXT based endpoint versions (10.8.xx) and the other in support of SYSEX based endpoint versions (10.8.xxxx). Refer to the [Software Downloads](../sw-downloads.md) for the current versions available.
+
+## Sudo Plugin
+
+In support of Big Sur and system extensions, the macOS agent install also installs the macOS sudo plugin at `/usr/local/libexec/sudo`. The plugin is own by root and it's configuration is located at `/etc/sudo.conf`.
+
+Refer to the [Sudo Plugin](../../computer-groups/macOS/sudo-plugin.md) topic for details on the functionality of the plugin.
+
 ## Installing macOS Agents
 
 >**Note**:

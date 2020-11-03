@@ -7,9 +7,13 @@ This topic provides a chronological list of documentation changes. Minor content
 
 ## December 2020
 
-Added [11.0.0 Release Notes](11.0.0-combined.md).
-
-[TBD]
+* Added [10.8.2 Release Notes](10.8.2-combined.md).
+* Added [Platforms](../platforms/index.md) section.
+  * Moved [macOS Secure Token](../platforms/macOS/secure-token.md) to the [Platforms | macOS](../platforms/macOS/index.md) section.
+  * Moved [Best Practices](../platforms/macOS/bp/index.md) to the [Platforms | macOS](../platforms/macOS/index.md) section.
+  * Moved and edited [macOS Legacy Extensions](../platforms/macOS/mac-kexts.md) to reflect behavior and best practices for kernel and system extensions on Catalina and Big Sur.
+  * Moved [File/Folder Access](../platforms/macOS/tcc-access.md) to [Platforms | macOS](../platforms/macOS/index.md) section.
+  * Added topic on [Sudo Plugin](../platforms/macOS/sudo-plugin.md).
 
 ## October 2020
 
@@ -75,5 +79,5 @@ If you have trouble finding a topic that you frequently consult, use the documen
 
 ## June 2020
 
-* Added [Legacy System Extensions](../install/mac-kexts.md) topic.
+* Added [Legacy System Extensions](../platforms/macOS/mac-kexts.md) topic.
 * Updated [10.7.1 Release Notes](10.7.1-combined.md) to reflect Agent software version updates and associated bug fixes.

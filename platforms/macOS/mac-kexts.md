@@ -3,7 +3,7 @@
 [priority]: # (26)
 # macOS Extensions
 
-Introduced with Catalina and fully implemented with Big Sur, Apple announced the deprecation of kernel extensions and pushed for system extensions instead.
+Introduced with Catalina and fully implemented with Big Sur, Apple announced the deprecation of kernel extensions and replaced them with system extensions that leverage the Endpoint Security framework
 
 ## Kernel Extension (KEXT) vs. System Extension (SYSEX)
 
@@ -15,7 +15,7 @@ Many privileged operations are governed by rules in the authorizationdb and thes
 
 ## Using a Privacy Preference Policy Control Configuration Profile Payload
 
-The concept of [TCC](tcc-access.md) introduces Privacy Preference Policy Control (PPPC) configuration profile payload, which allow for enterprises to manage and ease, through Mobile Device Management (MDM), the installation process of products that leverage KEXTs and SYSEXs for their end-users. When properly configured, this eliminates the need for the user to deal with all of the dialogs above.
+The concept of [TCC](tcc-access.md) introduces Privacy Preference Policy Control (PPPC) configuration profile payload, which allow for enterprises to manage and ease, through Mobile Device Management (MDM), the installation process of products that leverage KEXTs and SYSEXs for their end-users. When properly configured, this eliminates the need for the user to deal with all of the dialogs below.
 
 Thycotic can provide the necessary configuration payloads that can be loaded into or leveraged with your MDM solution.
 
@@ -43,17 +43,17 @@ A user is informed that some product is trying to install a component that is tr
 
 ![popup](images/sysex/blocked_kext.png "System Extension Blocked notification")
 
-This dialog and the need to grant Full Disk Access to the SYSEX on Catalina and Big Sur can be remediated by Privacy Preference Policy Control (PPPC) configuration profile payloads. The popup in not directly pointing to the fact that it was triggered by due to a KEXT.
+This dialog and the need to grant Full Disk Access to the SYSEX on Catalina and Big Sur can be remediated by Privacy Preference Policy Control (PPPC) configuration profile payloads.
 
 Here the user opens the __Security & Privacy__ pane and clicks __Allow__ for the Thycotic Software to run. 
 
 ![security & privacy](images/sysex/allow-kext.png "Security & Privacy pane Allow button")
 
-No further action is required by the user. [File and Folder access](tcc-access.md) my need to be enabled on the endpoint.
+No further action is required by the user. [File and Folder access](tcc-access.md) may need to be enabled on the endpoint.
 
 ## System Extensions (SYSEX)
 
-With system extensions the process is similar as outlined for the KEXT above, however with System Extensions the Privilege Manager utility is used.
+With system extensions, the process is similar as outlined for the KEXT above.
 
 | Catalina Blocked | Big Sur Blocked |
 | ----- | ----- |

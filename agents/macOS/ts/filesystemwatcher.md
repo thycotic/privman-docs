@@ -1,9 +1,9 @@
 [title]: # (macOS - FileSystemWatcher)
-[tags]: # (catalina)
+[tags]: # (catalina,big sur)
 [priority]: # (14)
 # Catalina FileSystemWatcher Issue
 
-On macOS Catalina there is a known issue, preventing the the agent from receiving notification of events that need to be sent to the server. To workaround this, the __Retry errored TMS Events - Catalina and Big Sur (macOS)__ policy can be enabled to ensure all events get sent to the server.
+There is a known issue on macOS Catalina and later versions, preventing the the agent from receiving notification of events that need to be sent to the server. To workaround this, the __Retry errored TMS Events - Catalina and Big Sur (macOS)__ policy can be enabled to ensure all events get sent to the server.
 
 The defaults for this new Remote Scheduled Client Command are as follows:
 

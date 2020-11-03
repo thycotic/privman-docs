@@ -3,7 +3,7 @@
 [priority]: # (26)
 # Privilege Manager on macOS
 
-On macOS endpoints best practices around system panes and user file and folder access varies from how these areas are managed on other operating system endpoints.
+On macOS endpoints, best practices around system panes and user file and folder access varies from how these areas are managed on other operating system endpoints.
 
 Recent changes introduced with Catalina and completed with Big Sur required a new approach from Privilege Manager.
 

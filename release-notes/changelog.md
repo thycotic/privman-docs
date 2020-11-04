@@ -14,6 +14,7 @@ This topic provides a chronological list of documentation changes. Minor content
   * Moved and edited [macOS Legacy Extensions](../platforms/macOS/mac-kexts.md) to reflect behavior and best practices for kernel and system extensions on Catalina and Big Sur.
   * Moved [File/Folder Access](../platforms/macOS/tcc-access.md) to [Platforms | macOS](../platforms/macOS/index.md) section.
   * Added topic on [Sudo Plugin](../platforms/macOS/sudo-plugin.md).
+* Edits to [Server Logs](../admin/log-viewer/index.md) topic.
 
 ## October 2020
 

@@ -57,6 +57,12 @@ This settings specifies the SQL command timeout. The default is 180 Seconds.
 
 This link lets you configure the foreign system used to store secrets.
 
+## Password Complexity for Standard Users
+
+This setting is set to yes by default, meaning the password complexity rules are enforced when creating or editing a Privilege Manager user resource.
+
+Refer to [Password Complexity Enforcement](../../users/pw-complexity.md) for further details.
+
 ## Validate Agent Event Signatures
 
 Enabling this setting will verify the signature contained within agent events that are sent to the server. Any events with invalid signatures are discarded.

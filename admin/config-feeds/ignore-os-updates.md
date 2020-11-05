@@ -3,6 +3,8 @@
 [priority]: # (8002)
 # Ignoring macOS Updates
 
+>**Important**: This does not apply to macOS systems based on Big Sur (macOS 11.0) or later. The --ignore option is not supported on Big Sur system.
+
 MacOS has a command-line utility that can be used to ignore specific software updates in the Software Update preference pane. To provide a way in Privilege Manager to ignore or reset ignored OS updates, the following policies are available via configuration feeds.
 
  ![Config feed](images/ignore/config.png)

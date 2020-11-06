@@ -15,6 +15,8 @@ This topic provides a chronological list of documentation changes. Minor content
   * Moved [File/Folder Access](../platforms/macOS/tcc-access.md) to [Platforms | macOS](../platforms/macOS/index.md) section.
   * Added topic on [Sudo Plugin](../platforms/macOS/sudo-plugin.md).
 * Edits to [Server Logs](../admin/log-viewer/index.md) topic.
+* Edits to [CorrelationID support to Server Logs](../admin/log-viewer.md).
+* New subtopic [Complex Password Policy enforcement for Privilege Manager users](../admin/users/pw-complexity.md).
 
 ## October 2020
 

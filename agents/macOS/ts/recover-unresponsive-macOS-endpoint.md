@@ -3,7 +3,9 @@
 [priority]: # (10)
 # How to Recover an Unresponsive macOS Endpoint
 
-In case a macOS endpoint ever becomes unresponsive due to conflicting policy configurations, the following steps allow user to recover the endpoint without having to restore or rebuild the system.
+In case a macOS endpoint ever becomes unresponsive due to conflicting policy configurations, the following steps allow a user to recover the endpoint without having to restore or rebuild the system.
+
+>**Note**: Only applies to KEXT and does not apply to endpoints running Catalina or Big Sur versions of the macOS.
 
 1. Turn off the macOS system.
 1. Hold down the ⌘+s keys and power the system back on. Keep holding those keys down until it shows that it is booting in single-user mode.

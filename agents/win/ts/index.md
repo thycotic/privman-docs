@@ -13,4 +13,5 @@ The following topics for agents troubleshooting are available in this section:
 The following topics about Endpoint Troubleshooting are available:
 
 * [Endpoint Troubleshooting](endpoint-issues.md)
-* [Catalina FileSystemWatcher Issue](filesystemwatcher.md)
+* [Catalina FileSystemWatcher Issue](../../macOS/ts/filesystemwatcher.md)
+* [How to Recover an Unresponsive macOS Endpoint](../../macOS/ts/recover-unresponsive-macOS-endpoint.md)

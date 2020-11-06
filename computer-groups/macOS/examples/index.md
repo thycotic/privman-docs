@@ -32,9 +32,9 @@ The following actions are supported by macOS agents:
 * Quarantine Message
 * Run as Root (Elevate)
 
-### SYSEX Based Agent Behavior with Actions
+### Agent Behavior with Actions
 
-When a policy is used to manage .pkg installations on macOS endpoints with the SYSEX based Privilege Manager agent installed, the following behavior needs to be considered:
+When a policy is used to manage .pkg installations on macOS endpoints with the Privilege Manager agent installed, you can expect the following behaviors:
 
 Installation of a .pkg happens without prompting for credentials when
 

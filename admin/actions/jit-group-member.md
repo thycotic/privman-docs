@@ -3,7 +3,7 @@
 [priority]: # (5)
 # Just-in-Time Group Membership Action
 
-This action will add a user to a group with admin rights for a specified time. This action can then be added to a controlling policy to give Just-in-Time elevation to a user. The action is a read-only action by default. To customize this macOS action for your endpoints, use the __Duplicate__ option.
+This action will add a user to the specified group for a specified time. This action can then be added to a controlling policy to give Just-in-Time elevation to a user. The action is a read-only action by default. To customize this macOS action for your endpoints, use the __Duplicate__ option.
 
 1. Navigate to __Admin | Actions__.
 1. Search for and select __Just-in-Time Group Membership__ from the list of available macOS actions.

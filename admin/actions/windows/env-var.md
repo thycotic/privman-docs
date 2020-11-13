@@ -1,6 +1,6 @@
 [title]: # (Set Environment Variable)
 [tags]: # (action)
-[priority]: # (5)
+[priority]: # (3)
 # Set Environment Variable Action
 
 This type of action sets an environment variable for processes that could change the behavior of an  application, or be caught by an Environment Variable filter in another policy.

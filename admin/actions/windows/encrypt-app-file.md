@@ -1,6 +1,6 @@
 [title]: # (Encrypt Application Files)
 [tags]: # (action)
-[priority]: # (5)
+[priority]: # (3)
 # Encrypt Application Files Action
 
 This type of action will force applications to use Microsoft encryption when saving a file.

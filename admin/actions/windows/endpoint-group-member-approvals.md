@@ -1,6 +1,6 @@
 [title]: # (Endpoint Group Member Approval)
 [tags]: # (action)
-[priority]: # (5)
+[priority]: # (3)
 # Endpoint Group Member Approval Action
 
 This action can be used for _over the shoulder_ approvals, whether systems are on- or offline. The supervisor approves access by authentication on the user's endpoint system.

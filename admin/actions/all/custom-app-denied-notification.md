@@ -1,17 +1,17 @@
 [title]: # (Create Custom Notifications)
 [tags]: # (action customization)
-[priority]: # (5)
+[priority]: # (3
 # Create Custom Notifications
 
 The default Application Denied Notification Action can be edited/replaced by a customized notification action to better suite a specific customer need.
 
 Example of Default Notification:
 
-![Default notification](../images/deny/default.png)
+![Default notification](images/deny/default.png)
 
 Example of Custom Notification:
 
-![Custom notification](../images/deny/custom.png)
+![Custom notification](images/deny/custom.png)
 
 ## Enable View as XML
 
@@ -20,7 +20,7 @@ To edit the message text the __View as XML__ button has to be enabled in your co
 1. Navigate to and click your user icon, select __Preferences__.
 1. Verify __Show ‘View XML’ Button__ is set to __Yes__, if set to No change the switch.
 
-   ![Verify Show 'View as XML' Button checkbox is enabled](../images/deny/enable-2.png "Verify Show 'View as XML' Button checkbox is enabled")
+   ![Verify Show 'View as XML' Button checkbox is enabled](images/deny/enable-2.png "Verify Show 'View as XML' Button checkbox is enabled")
 1. Click __Save Changes__.
 
 ## Customizing the Application Denied Notification Action
@@ -30,11 +30,11 @@ Default Actions shouldn't be edited directly, however Privilege Manager default 
 1. In the top Search box enter Application Denied Notification Action.
 1. Click on the name of the Action __Application Denied Notification Action__.
 
-   ![Create a Copy of the default action](../images/deny/edit-action-3.png "Create a Copy of the default action")
+   ![Create a Copy of the default action](images/deny/edit-action-3.png "Create a Copy of the default action")
 1. Click __Duplicate__.
 1. Enter a customized and meaningful name for the action. It is recommended to use standard naming conventions with your custom items. Beginning custom names with your company name is a great way to differentiate between the default items and your custom items.
 
-   ![Name the customized action](../images/deny/edit-action-4.png "Name the customized action")
+   ![Name the customized action](images/deny/edit-action-4.png "Name the customized action")
 1. Click __Create__. Once you click Create, the new action page opens.
 1. To upload a custom image file click __Choose File__. You can upload a custom logo, the file size should be under 128 KB and the width should be 500 pixels or less with a maximum hight of 34 pixels.
 
@@ -45,11 +45,11 @@ Default Actions shouldn't be edited directly, however Privilege Manager default 
 
 Privilege Manager makes it very easy to edit the text of a message. The fields are listed in alphabetical order on the item’s view page. Compare each field to this overview image:
 
-![Custom notification](../images/deny/overview.png "Overview of customization options")
+![Custom notification](images/deny/overview.png "Overview of customization options")
 
 Most of the lines do not include individualized stylings per line. Editing the text in the UI will simply edit the text as required. The __Information Section__ field includes html formatting for the hyperlink to the corporate policy. That hyperlink will be removed if the text is edited on the message’s edit page.
 
-![Editing in UI](../images/deny/edit-ui.png "Using the UI settings to edit")
+![Editing in UI](images/deny/edit-ui.png "Using the UI settings to edit")
 
 >**Note**: It is __NOT__ recommended to edit the Information Section directly on the message’s edit page. Instead, editing the Information Section via XML retains the html formatting for this line.
 If no changes are made to the Information Section, the html formatting is retained. All other fields can be changed except the Information Section and the html formatting for the Information Section is retained.
@@ -58,7 +58,7 @@ If no changes are made to the Information Section, the html formatting is retain
 
 1. Select __More__ an click __View as XML__.
 
-   ![XML of action](../images/deny/edit-action-9.png)
+   ![XML of action](images/deny/edit-action-9.png)
 1. Change the notification text in the XML viewer:
    <!--TODO: Verify line numbers are still correct -->
    Line 82 has the following:
@@ -98,16 +98,16 @@ After creating a custom notification action, the policy using the default notifi
 1. Navigate to __Application Policies__ and locate the policy that uses the notification you wish to update.
 1. Go to the __Actions__ section.
 
-   ![actions](../images/deny/update-policy-1.png "Review existing actions")
+   ![actions](images/deny/update-policy-1.png "Review existing actions")
 1. Click __Edit__.
 1. Search for the action you just duplicated and modified.
 
-   ![search and add](../images/deny/update-policy-2.png "Search for new action and remove old actions")
+   ![search and add](images/deny/update-policy-2.png "Search for new action and remove old actions")
    1. Click __Add__, to add the action to the right pane of the dialog.
    1. Click __Remove__ for the old action used previously.
 1. Click __Update__.
 
-   ![Adding the customized action](../images/deny/update-policy-3.png "Save the updated policy")
+   ![Adding the customized action](images/deny/update-policy-3.png "Save the updated policy")
 1. Click __Save Changes__.
 
 Policy changes are automatically propagated to the endpoints. Note, that this might not be instantaneous based on the refresh cycle.

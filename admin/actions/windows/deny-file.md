@@ -1,6 +1,6 @@
 [title]: # (Deny File Access)
 [tags]: # (action)
-[priority]: # (5)
+[priority]: # (3)
 # Deny File Access Action
 
 As the name suggests, this type of action will prevent applications from reading or writing (or both) to certain directories or to certain file types.

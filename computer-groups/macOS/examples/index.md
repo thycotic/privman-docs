@@ -32,6 +32,28 @@ The following actions are supported by macOS agents:
 * Quarantine Message
 * Run as Root (Elevate)
 
+### Agent Behavior with Actions
+
+When a policy is used to manage .pkg installations on macOS endpoints with the Privilege Manager agent installed, you can expect the following behaviors:
+
+Installation of a .pkg happens without prompting for credentials when
+
+* the only action configured in the policy is __Allow Package Installation__ or
+* if any of the following are configured along with __Allow Package Installation__:
+  * Application Approval Request Message Action
+  * Application Approval Request (with Offline Fallback) Message Action
+  * Approval Request (with ServiceNow Request Item Number) Form Action
+  * Application Justification Message Action
+  * Application Warning Message Action
+
+A .pkg will NOT be installed if the only action is either of the following:
+
+* Deny Execute
+* Deny Execute + Deny Execute Message
+* Application Denied Message Action
+
+Any .pkg not managed by a Privilege Manager policy will be installed via the normal macOS workflow requiring admin credentials when prompted.
+
 ## Available Topics
 
 * [Allow Copy/Install of Applications](copy-install.md)

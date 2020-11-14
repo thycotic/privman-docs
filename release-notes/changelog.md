@@ -16,6 +16,8 @@ This topic provides a chronological list of documentation changes. Minor content
   * Added topic on [Sudo Plugin](../platforms/macOS/sudo-plugin.md).
 * Added [Just-in-Time Group Membership Action](../admin/actions/jit-group-member.md) topic.
 * Edits to [Server Logs](../admin/log-viewer/index.md) topic.
+* Edits to [CorrelationID support to Server Logs](../admin/log-viewer.md).
+* New subtopic [Complex Password Policy enforcement for Privilege Manager users](../admin/users/pw-complexity.md).
 
 ## October 2020
 

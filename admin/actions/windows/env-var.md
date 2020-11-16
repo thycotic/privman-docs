@@ -5,7 +5,7 @@
 
 This type of action sets an environment variable for processes that could change the behavior of an  application, or be caught by an Environment Variable filter in another policy.
 
-![Display Set Environment Variable Settings](images/env-var.png "Display Set Environment Variable Settings")
+![Display Set Environment Variable Settings](../all/images/env-var.png "Display Set Environment Variable Settings")
 
 ## Parameters
 

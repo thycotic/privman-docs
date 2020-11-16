@@ -42,7 +42,7 @@ Here is the complete list of Actions that come with Privilege Manager out-of-the
 | Deny Windows Hooking Action | __Deny Windows Hooking__ | This action limits specified applications from interacting in malicious ways with other applications |
 | Display Advanced (Xaml) Windows Message | __Application Denied Message Action__ | This action will display a modal denial notification message to the user and prevent application execution on Windows  |
 | | __Application Denied Notification Action__  | This action will display a notification to the user that the process has been denied by a policy. The notification window will fade in and out and automatically close after a period of time |
-| | __Application Warning Message Action__ | Application Warning Message Action for Mac OS |
+| | __Application Warning Message Action__ | Application Warning Message Action for Windows. |
 | | __Approval Request (with Offline Fallback) Form Action__ | This action will display an approval request form for approval before allowing application to run. |
 | | __Approval Request (with ServiceNow Request Item Number) Form Action__ | This action will display an approval request form for ServiceNow integrations for approval before allowing application to run. |
 | |__Approval Request Form Action__ | This action will display an approval request form for approval before allowing application to run  |

@@ -1,6 +1,6 @@
 [title]: # (Deny Execute)
 [tags]: # (action)
-[priority]: # (5)
+[priority]: # (3)
 # Deny Execute Action
 
 This action stops specific application from executing. It is a default action without any configurable settings. It is a read-only item.

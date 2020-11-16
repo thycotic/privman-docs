@@ -1,6 +1,6 @@
 [title]: # (Adjust Process Rights)
 [tags]: # (action,unrestricted token)
-[priority]: # (4)
+[priority]: # (2)
 # Adjust Process Rights Action
 
 This topic explains the Adjust Process Rights Action and Unrestricted Tokens in Privilege Manager.

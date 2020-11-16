@@ -1,6 +1,6 @@
 [title]: # (Group Member Approval)
 [tags]: # (action)
-[priority]: # (5)
+[priority]: # (3)
 # Group Member Approval Action
 
 This action can be used for approvals that are based on a group membership authentication of the approver.

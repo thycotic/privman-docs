@@ -1,6 +1,6 @@
 [title]: # (Apply Application Compatibility)
 [tags]: # (action)
-[priority]: # (5)
+[priority]: # (3)
 # Apply Application Compatibility Fix Action
 
 This type of action will allow old applications that must be run via compatibility mode to execute  without manual compatibility adjustments.

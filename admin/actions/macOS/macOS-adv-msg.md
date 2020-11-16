@@ -1,11 +1,11 @@
 [title]: # (Display Advanced User Message)
 [tags]: # (action)
-[priority]: # (6)
+[priority]: # (3)
 # Display Advanced User Message Action (MacOS)
 
 Display messages are paired with another action type. They are customizable and serve to tell the end user what is happening and why. Advanced messages pop up in the middle of the screen, whereas Basic User messages appear as smaller pop-ups directly from the taskbar area.
 
-![Display Advanced User Message Action Settings](../images/macOS-adv-msg.png "Display Advanced User Message Action Settings")
+![Display Advanced User Message Action Settings](images/macOS-adv-msg.png "Display Advanced User Message Action Settings")
 
 ## Parameters
 

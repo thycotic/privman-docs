@@ -1,6 +1,6 @@
 [title]: # (Deny Windows Hooking)
 [tags]: # (action)
-[priority]: # (5)
+[priority]: # (3)
 # Deny Windows Hooking Action
 
 This type of action will limit specified applications from interacting in malicious ways with other applications.

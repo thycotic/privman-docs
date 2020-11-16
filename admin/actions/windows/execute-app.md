@@ -1,6 +1,6 @@
 [title]: # (Execute Application)
 [tags]: # (action)
-[priority]: # (5)
+[priority]: # (3)
 # Execute Application Action
 
 This type of action will execute another application and (optionally) wait on that process to complete before the original process can execute.

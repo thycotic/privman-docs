@@ -14,7 +14,7 @@ Here is the complete list of Actions that come with Privilege Manager out-of-the
 | Type | Action | Description |
 | ----- | ----- | ----- |
 | Adjust Effective Process Rights Action | __Run as Root__ | Adjust the process rights of the application to run as the root user (MacOS) |
-| Allow Copy Action | __Allow Copy to Applications Directory__ | This action is used by policies that allow users to run the package installer elevated |
+| Allow Copy Action | __Allow Copy to Applications Directory__ | This action is used by policies that allow users to copy applications to the root Applications directory as standard users. |
 | | __Allow Package Installation__ | This action is used by policies that allow users to run the package installer elevated. |
 | Display Advanced Message Action| __Application Approval Request (with Offline Fallback) Message Action__ | Application Approval Request Message Action for Mac OS |
 | | __Application Approval Request (with ServiceNow Request Item Number) Message Action__ | This action will display an approval request form for ServiceNow integrations for approval before allowing application to run on macOS endpoints. |

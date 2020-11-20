@@ -1,5 +1,5 @@
 [title]: # (macOS Approval Process)
-[tags]: # ( )
+[tags]: # (application approvals)
 [priority]: # (7)
 # macOS Approval Process
 
@@ -14,7 +14,7 @@ The following workflows are impacted by this change:
 * Application Justification Message Action
 * Application Warning Message Action
 
-Refer to the [Actions](../../../admin/actions/index.md) specifically the [Message Actions](../../../admin/actions/msgs/index.md) topic.
+Refer to the [Actions](../../../admin/actions/default-actions.md) topic.
 
 ## Application Approval Request Message Action
 

@@ -3,31 +3,31 @@
 [priority]: # (7)
 # macOS Application Approval Process via Sudo Plugin
 
-The macOS sudo plugin provides the means to run application elevated via Terminal.app on macOS systems running Catalina and Big Sur. The sudo plugin also provides user feedback via Terminal when the request is approved or denied.
+The macOS sudo plugin provides the means to run an application elevated via Terminal.app on macOS systems running Catalina and Big Sur. The sudo plugin also provides user feedback via Terminal when the request is approved or denied.
 
 When an application policy requires approval, the user will be presented with a message in Terminal `"Waiting for approval... (Ctrl+C to cancel)"`. The application execution is blocked until that approval comes in. If the request is approved, the application runs. If it is denied, the process exits.
 
 ## Example: Elevate Applications Executed from Folder
 
-The following monitor policy is configured to elevate applications executed from inside the user's local folder after an approval.
+The following monitor policy is configured to elevate applications located within `/usr/local/bin` after an approval when run via `sudo`.
 
 ![policy](images/sudo/approval-policy.png "Approve Policy for app execution from local user folder")
 
 ### Endpoint Interaction
 
-1. At the macOS endpoint, open Terminal.app and runs an application via sudo. The __Approval Needed__ message opens:
+1. At the macOS endpoint, open Terminal.app and run an application via sudo. The __Approval Needed__ message opens:
 
    ![approval needed](images/sudo/approval-needed-1.png "Approve Needed modal")
 1. Enter the approval reason and click __Request Approval__.
 
-   In the Terminal __Waiting for approval... (Ctrl+C to cancel)__ is displayed and the __Approval request submitted__ confirmation opens.
-1. You will be notified of any status change via the notification center. Click __Ok__ to wait for the approval.
+   In the Terminal, __Waiting for approval... (Ctrl+C to cancel)__ is displayed and the __Approval request submitted__ confirmation opens.
+1. You will be notified of any status change via the notification center. Click __OK__ to wait for the approval.
 
    ![notify center](images/sudo/notify-center.png "Approval Submitted confirmation")
 
 ### Privilege Manager Console Interaction
 
-1. As an approval supervisor navigate to __Admin | Manage Approvals__.
+1. As an approval supervisor, navigate to __Admin | Manage Approvals__.
 
    ![manage appr](images/sudo/manage-appr.png "Manage Approvals page")
 1. If no approval requests are listed, click __Refresh__.

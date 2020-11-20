@@ -7,7 +7,7 @@ Default macOS Computer Group.
 
 ![default](images/default.png "Default macOS Computer Group")
 
-This is the navigation entry point into the macOS Computer Group. The sub nodes are in feature parity with other OS computer groups. Every policy or resource underneath __MACOS COMPUTERS__ pertain to that specific default computer group.
+This is the navigation entry point into the macOS Computer Group. The sub nodes are in feature parity with other OS computer groups. All policies or resources underneath __MACOS COMPUTERS__ pertain to that specific default computer group.
 
 Refer to the [Policy Wizard](../app-control/policies/policy-wizard/index.md) section for details on decision points for:
 

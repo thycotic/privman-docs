@@ -10,9 +10,9 @@
 
    ![wizard 1](../images/wizard/wiz-1.png "Policy Wizard first page")
 
-   Make you selection and click __Next__ to get to the next wizard page.
+   Make your selection and click __Next__ to get to the next wizard page.
 
-   For the steps through the wizard follow these decision points:
+   For the steps through the wizard, follow these decision points:
 
    ![elevate](../images/wizard/controlling-elevate-win.png "Policy Wizard decision diagram")
 1. After assigning a name, description and verifying the priority number, click __Create Policy__.

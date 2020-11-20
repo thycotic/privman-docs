@@ -12,11 +12,20 @@ Privilege Manager 10.8 is introducing the Policy Wizard for an easy and guided c
 
    ![wizard 1](../images/wizard/wiz-1.png "Policy Wizard first page")
 
-   Make you selection and click __Next__ to get to the next wizard page.
+   Make your selection and click __Next__ to get to the next wizard page.
 
-   For the steps through the wizard follow these decision points:
+   For the steps through the wizard, follow these decision points references per OS:
 
-   ![wizard diagram](../images/wizard/policy-wizard.png "Policy Wizard decision diagram")
+   * [Monitoring Policy Diagram](monitoring.md)
+   * macOS:
+     * [Controlling Allow Diagram](controlling-allow-macOS.md)
+     * [Controlling Block Diagram](controlling-block-macOS.md)
+     * [Controlling Elevate Diagram](controlling-elevate-macOS.md)
+   * Windows
+     * [Controlling Allow Diagram](controlling-allow-win.md)
+     * [Controlling Block Diagram](controlling-block-win.md)
+     * [Controlling Elevate Diagram](controlling-elevate-win.md)
+     * [Controlling Restrict Diagram](controlling-restrict-win.md)
 1. After assigning a name, description and verifying the priority number, click __Create Policy__.
 
 While in the wizard you can navigate back to previous pages via the __Previous Step__ link to select another path. However, any __Previous Step__ navigation clears selected options on accessed wizard pages.

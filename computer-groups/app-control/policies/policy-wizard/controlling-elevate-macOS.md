@@ -3,6 +3,8 @@
 [priority]: # (12)
 # Creating a Controlling Elevation Policy for macOS
 
+>**Note**: The diagram shows actions "Run as Root" and "Just in Time" which will only work with the system extensions based agent version introduced with Privilege Manager 10.8.2.
+
 1. For any of your Computer Groups navigate to __Application Policies__.
 
    ![app policies](../images/wizard/app-pol-1.png "Application Policies overview page")

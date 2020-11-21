@@ -3,6 +3,8 @@
 [priority]: # (7)
 # Deny Zoom Application
 
+>**Note**: This is the procedure for kernel extension.
+
 With your monitoring policies properly set up, anything you do on your Mac test machine will be discovered by Privilege Manager. For this example we will create a policy that blocks the Zoom applications.
 
 ## File Inventory

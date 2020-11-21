@@ -5,13 +5,12 @@
 
 The Bundled Mac Agent DMG + PKG installer is available for macOS systems. You can use this installer directly on individual endpoints for testing or for production environments.
 
-Starting with 10.8.2 Thycotic provides two macOS Agent installers, one in support of KEXT based endpoint versions (10.8.xx) and the other in support of SYSEX based endpoint versions (10.8.xxxx). Refer to the [Software Downloads](../sw-downloads.md) for the current versions available.
+Starting with 10.8.2 Thycotic provides two macOS Agent installers, 
 
-## Sudo Plugin
+* one in support of __KEXT__ based endpoint versions (10.8.xx) and 
+* the other in support of __SYSEX__ based endpoint versions (10.8.xxxx). 
 
-In support of Big Sur and system extensions, the macOS agent install also installs the macOS sudo plugin at `/usr/local/libexec/sudo`. The plugin is own by root and it's configuration is located at `/etc/sudo.conf`.
-
-Refer to the [Sudo Plugin](../../computer-groups/macOS/sudo-plugin.md) topic for details on the functionality of the plugin.
+Refer to the [Software Downloads](../sw-downloads.md) for the current versions available.
 
 ## Installing macOS Agents
 
@@ -25,13 +24,15 @@ The Bundled macOS Agent is a DMG + PKG file. You can use this Mac agent installe
 
 To install the agent software on a single testing machine, follow these steps:
 
-1. Go to [Agent Downloads](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.8.24.dmg) and download the Privilege Manager Mac Agent.
+1. Go to 
+   * [Agent Downloads - KEXT](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.8.24.dmg) or
+   * [Agent Downloads - SYSEX](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.8.nnnn.dmg) to download the Privilege Manager Mac Agent.
 1. Run the Bundled Mac Agent DMG + PKG Installer on the computer you want to manage.
 1. During the setup process,
    1. enter the base URL and
    1. the Install Code when prompted.​
 
-   ![Mac Agent Install Code field](images/mac/install_code.png)
+   ![Mac Agent Install Code field](images/mac/install-code.png "Mac Agent Install Code field")
 
 >**Note**: The bundled installer does require a restart in order to ensure the agent is ready to use.
 
@@ -61,9 +62,18 @@ If you want administrators to deploy agents onto individual macOS endpoints, sav
 
 Due to new macOS security enhancements, users cannot run a PKG installer from a network share anymore. The administrator must then run the installer command-line tool from __Terminal.app__ after mounting and cd'ing to the directory containing the PKG installer and __agentconfig.json__ file:
 
+__KEXT__
+
 ```cmd
 cd /Volumes/<network share>/<path to PKG installer>
 sudo installer -pkg ThycoticManagementAgent-10.8.24.pkg -target /
+```
+
+__SYSEX__
+
+```cmd
+cd /Volumes/<network share>/<path to PKG installer>
+sudo installer -pkg ThycoticManagementAgent-10.8.nnnn.pkg -target /
 ```
 
 The PKG will first look for an __agentconfig.json__ file located in the same folder. When it finds this file, it will copy __agentconfig.json__ into the _/Library/Application Support/Thycotic/Agent_ folder during the unattended install on the Mac endpoint where the installer is running.
@@ -72,9 +82,17 @@ The PKG will first look for an __agentconfig.json__ file located in the same fol
 
 Using a Deployment Tool like Jamf or SCCM, include both the PKG installer and the __agentconfig.json__ files in the distribution package together, then deploy the package onto your endpoint Macs by running a script using a tool or remotely by using ssh to install the PKG, for example:
 
+__KEXT__
+
 ```shell
 sudo installer -pkg ThycoticManagementAgent.10.8.24.pkg -target /
-```  
+```
+
+__SYSEX__
+  
+```shell
+sudo installer -pkg ThycoticManagementAgent.10.8.nnnn.pkg -target /
+```
 
 As in the example using a Network Share, the PKG will first look for an __agentconfig.json__ file located in the same folder. When it finds this file, it will copy __agentconfig.json__ into the _/Library/Application Support/Thycotic/Agent_ folder during the unattended install on the endpoint Mac where the installer is running.
 
@@ -92,6 +110,14 @@ If the Mac already has an existing __agentconfig.json__ file, it will NOT be ove
 
 When you need to uninstall the macOS Agent, use the __Uninstall.sh__ shell command:
 
+__KEXT__
+
 ```shell
 sudo /Volumes/ThycoticManagementAgent-10.8.24/Uninstall.sh
+```
+
+__SYSEX__
+
+```shell
+sudo /Volumes/ThycoticManagementAgent-10.8.nnnn/Uninstall.sh
 ```

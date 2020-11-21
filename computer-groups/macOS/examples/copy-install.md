@@ -3,6 +3,8 @@
 [priority]: # (7)
 # Allow Copy to Install Applications
 
+>**Note**: This is the procedure for kernel extension.
+
 A policy can be created to allow or deny standard users to install specific applications by copying/pulling the application into the Applications folder. Follow this example to create a policy that will enable this functionality for your Mac OS user.
 
 1. Navigate to your macOS Computer Group and select __Application Policies__.

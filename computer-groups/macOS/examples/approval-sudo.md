@@ -5,7 +5,7 @@
 
 The macOS sudo plugin provides the means to run an application elevated via Terminal.app on macOS systems running Catalina and Big Sur. The sudo plugin also provides user feedback via Terminal when the request is approved or denied.
 
-When an application policy requires approval, the user will be presented with a message in Terminal `"Waiting for approval... (Ctrl+C to cancel)"`. The application execution is blocked until that approval comes in. If the request is approved, the application runs. If it is denied, the process exits.
+When an application policy requires approval, the user will be presented with a message in Terminal `"Waiting for approval... (Ctrl+C to cancel)"`. The application execution is blocked until the approval comes in. If the request is approved, the application runs. If it is denied, the process exits.
 
 ## Example: Elevate Applications Executed from Folder
 
@@ -48,8 +48,8 @@ Following an approval, Terminal writes __Running command elevated__ and shows ot
 
 ![approved](images/sudo/running-elevated.png "Running elevated status in Terminal")
 
-#### Following Deny
+#### Following Denial
 
-Following a deny, Terminal writes __Approval request was denied__ and shows other process messages.
+Following a denial, Terminal writes __Approval request was denied__ and shows other process messages.
 
 ![denied](images/sudo/denied.png "Approval request was denied status in Terminal")

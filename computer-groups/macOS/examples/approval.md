@@ -1,5 +1,5 @@
 [title]: # (macOS Approval Process)
-[tags]: # (application approvals)
+[tags]: # (application approvals, sysex)
 [priority]: # (7)
 # macOS Approval Process
 
@@ -18,11 +18,11 @@ Refer to the [Actions](../../../admin/actions/default-actions.md) topic.
 
 ## Application Approval Request Message Action
 
-Workflow prior to Privilege Manager 10.8:
+Workflow __prior to__ Privilege Manager __10.8__:
 
 Action waits for the user to either click __Cancel__ or enter an __Approval Request Message__ and click __Request Approval__.
 
-Workflow starting with Privilege Manager 10.8:
+Workflow __starting with__ Privilege Manager __10.8__:
 
 Privilege Manager immediately denies the execution with macOS displaying a dialog indicating the application can't be opened. If the user has granted Privilege Manager.app the necessary _SendEvents_ right, Privilege Manager closes the dialog.
 
@@ -82,4 +82,4 @@ This action waits for the user to either click __Cancel__ or __Continue__. The w
 * Privilege Manager immediately denies the execution with macOS displaying a dialog indicating the application can't be opened. If the user has granted Privilege Manager.app the necessary _SendEvents_ right, Privilege Manager closes the dialog.
 
   * If the user clicks __Cancel__, the dialog is dismissed and no further action taken.
-  * If the user clicks __Continue__,, the app bundle will be launched.
+  * If the user clicks __Continue__, the app bundle will be launched.

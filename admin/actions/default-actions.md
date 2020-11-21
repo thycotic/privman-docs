@@ -22,6 +22,7 @@ Here is the complete list of Actions that come with Privilege Manager out-of-the
 | | __Application Denied Message Action__ | This action will display a modal denial notification message to the user and prevent application execution on MacOS. |
 | | __Application Justification Message Action__ | Application Justification Message Action for Mac OS |
 | | __Application Warning Message Action__ | Application Warning Message Action for Mac OS |
+| | __JIT Display Advanced User Message Action (MacOS)__ | Advanced message action for different message types. |
 | Display User Message Action | __Deny Execute Message__ | This action displays a message to the user informing them that an application has been denied execution |
 | Deny Execute Action | __Deny Execute__ | This action stops specified applications from executing |
 | Quarantine File Action | __File Quarantine__ | This action can be used to quarantine a file by moving it to the default agent quarantine path |

@@ -24,6 +24,8 @@ For agents in an environment with a moderate policy configuration, the requireme
 
 * MacOS 10.11 (El Capitan) or newer
 
+>**Note**: Endpoints with Apple Silicon processor are not supported at this point.
+
 ## Directory Services Agent
 
 The Directory Services Agent needs to be installed on a well resourced system running either

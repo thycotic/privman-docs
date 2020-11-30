@@ -15,22 +15,26 @@ Once your macOS agent is registered, creating policies for your macOS machines f
 
 In macOS, roles are bifurcated into two groups: Admins, and Users rather than by Group Policy Objects (GPO) found in Windows environments.
 
-## Actions supported by macOS Agents
+## Actions Supported by macOS Agents (Kernel vs System Extensions)
 
 The following actions are supported by macOS agents:
 
-* Allow Copy to /Applications/Directory
-* Allow Package Installation
-* Application Approval Request (with Offline Fallback) Message Action
-* Application Approval Request (with ServiceNow Request Item Number) Message Action
-* Application Approval Request Message Action (workflow request)
-* Application Denied Message Action
-* Application Justification Message Action
-* Application Warning Message Action
-* Deny Execute / Deny Execute Message
-* File Quarantine
-* Quarantine Message
-* Run as Root (Elevate)
+| Actions | pre Catalina & Catalina with __KEXT__ | Catalina & Big Sur or later with __SYSEX__ |
+| ----- | -----| ----- |
+| Allow Copy to /Applications Directory | elevate via UI | n/a |
+| Allow Package Installation | elevate via UI | via `sudo` plugin |
+| Application Approval Request (with Offline Fallback) Message Action | elevate via UI | via `sudo` plugin |
+| Application Approval Request (with ServiceNow Request Item Number) Message Action | elevate via UI | via `sudo` plugin |
+| Application Approval Request Message Action (workflow request) | elevate via UI | via `sudo` plugin |
+| Application Denied Message Action | no difference | no difference |
+| Application Justification Message Action | elevate via UI | via `sudo` plugin |
+| Application Warning Message Action | no difference | no difference |
+| Deny Execute / Deny Execute Message | no difference | no difference |
+| File Quarantine | no difference | no difference |
+| Quarantine Message | no difference | no difference |
+| Run as Root (Elevate) | no difference | via `sudo` plugin |
+| Just In Time (Elevate) | n/a | via `sudo` plugin |
+
 
 ### Agent Behavior with Actions
 
@@ -53,14 +57,3 @@ A .pkg will NOT be installed if the only action is either of the following:
 * Application Denied Message Action
 
 Any .pkg not managed by a Privilege Manager policy will be installed via the normal macOS workflow requiring admin credentials when prompted.
-
-## Available Topics
-
-* [Allow Copy/Install of Applications](copy-install.md)
-* [Request Application Installation](app-install-approval-request.md)
-* [Application Self-elevation](self-elevation.md)
-* [Use Discovery to Determine if an Application Requires Admin Privileges](determ-admin.md)
-* [Require Justification for Firefox](justification-firefox.md)
-* [Deny Zoom Application](deny-photos.md)
-* [Inventory of .pkg Files](inventory-pkg.md)
-<!--* [Adding macOS Agents to a Computer Testing Group](add-testing-group.md)-->

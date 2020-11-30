@@ -5,6 +5,8 @@
 
 Finder Sync Extensions allow application control on macOS endpoints. Just as on Windows endpoints, users can request application self-elevation via right-click mouse action. The application control is policy based and the macOS system with the endpoint agent must have been online at least once to request its policies from the Privilege Manager server.
 
+>**Note**: This feature is only available with the KEXT based Privilege Manager Agent. Self-elevation in this form is not possible with the system extension.
+
 ## Configuring Application Self-elevation
 
 Your Privilege Manager needs to be configured to allow self-elevation of applications on an endpoint. Follow these server configuration steps:

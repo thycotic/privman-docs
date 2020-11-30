@@ -3,9 +3,9 @@
 [priority]: # (7)
 # Allow Copy to Install Applications
 
->**Note**: This is the procedure for kernel extension.
+>**Note**: This is the procedure for the kernel extension.
 
-A policy can be created to allow or deny standard users to install specific applications by copying/pulling the application into the Applications folder. Follow this example to create a policy that will enable this functionality for your Mac OS user.
+A policy can be created to allow or deny standard users to install specific applications by copying/pulling the application into the /Applications folder. Follow this example to create a policy that will enable this functionality for your macOS user.
 
 1. Navigate to your macOS Computer Group and select __Application Policies__.
 1. Click __Create Policy__.
@@ -34,7 +34,7 @@ If you have policies that currently use the Privilege Manager Copy/Installer Hel
 1. Navigate to the macOS Computers Group and select __Application Policies__.
 1. For each application that currently uses the __Privilege manager copy/installer helper parent process filter__ as an inclusion filter, remove that filter and add the __Copy Install Application__ filter instead.
 1. Click __Update__.
-1. Under Actions remove __Allow copy to/Applications/Directory__ and add the __Application Approval Request Message Action__ in its place.
+1. Under Actions remove __Allow copy to /Applications Directory__ and add the __Application Approval Request Message Action__ in its place.
 1. Click __Update__.
 1. Click __Show Advanced__ and set these two option to active:
 
@@ -57,6 +57,6 @@ The agent updates with new and updated policies and synchronizes.
 
 ## Expected User Experience
 
-After the policies are updated, users can open a DMG or just drag and drop an application bundle to Applications. They'll see the authenticate message an click __Authenticate__.
+After the policies are updated, users can open a DMG or just drag and drop an application bundle to /Applications. They'll see the authenticate message an click __Authenticate__.
 
 ![copy](images/mac/copy_drag_drop-3.png "Message to authenticate")

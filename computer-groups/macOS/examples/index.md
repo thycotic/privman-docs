@@ -21,7 +21,7 @@ The following actions are supported by macOS agents:
 
 | Actions | pre Catalina & Catalina with __KEXT__ | Catalina & Big Sur or later with __SYSEX__ |
 | ----- | -----| ----- |
-| Allow Copy to /Applications/Directory | elevate via UI | via `sudo` plugin |
+| Allow Copy to /Applications Directory | elevate via UI | n/a |
 | Allow Package Installation | elevate via UI | via `sudo` plugin |
 | Application Approval Request (with Offline Fallback) Message Action | elevate via UI | via `sudo` plugin |
 | Application Approval Request (with ServiceNow Request Item Number) Message Action | elevate via UI | via `sudo` plugin |
@@ -32,7 +32,7 @@ The following actions are supported by macOS agents:
 | Deny Execute / Deny Execute Message | no difference | no difference |
 | File Quarantine | no difference | no difference |
 | Quarantine Message | no difference | no difference |
-| Run as Root (Elevate) | n/a | via `sudo` plugin |
+| Run as Root (Elevate) | no difference | via `sudo` plugin |
 | Just In Time (Elevate) | n/a | via `sudo` plugin |
 
 

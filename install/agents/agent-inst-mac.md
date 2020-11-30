@@ -10,7 +10,7 @@ Starting with 10.8.2 Thycotic provides two macOS Agent installers,
 * one in support of __KEXT__ based endpoint versions (10.8.xx) and
 * the other in support of __SYSEX__ based endpoint versions (10.8.xxxx).
 
-For details about differences regarding KEXT and SYSEX, refer to [macOS Extensions](../../platforms/macOS/mac-kexts.md). 
+For details about differences regarding KEXT and SYSEX, refer to [macOS Extensions](../../platforms/macOS/mac-kexts.md).
 
 Refer to the [Software Downloads](../sw-downloads.md) for the current versions available.
 

@@ -1,6 +1,6 @@
 [title]: # (macOS Agents)
 [tags]: # (endpoints)
-[priority]: # (2)
+[priority]: # (3)
 # Modify Update Agent Commands (MacOS) Policy
 
 Agents receive new policies on a schedule which can be modified. 

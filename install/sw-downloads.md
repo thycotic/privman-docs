@@ -32,4 +32,4 @@ This page provides links to Thycotic Privilege Manager product and agents softwa
 | Agent Version | Product | OS Version Support|
 | ----- | ----- | ----- | 
 | 10.8.24 | [Privilege Manager macOS Agent](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.8.24.dmg) | Catalina and previous using Kernel Extensions (KEXT) |
-| 10.8.nnnn | [Privilege Manager macOS Agent](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.8.nnnn.dmg) | Catalina and later using System Extensions (SYSEX) |
+| 10.8.1017 | [Privilege Manager macOS Agent](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.8.1017.dmg) | Catalina and later using System Extensions (SYSEX) |

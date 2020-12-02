@@ -22,8 +22,8 @@ This page provides links to Thycotic Privilege Manager product and agents softwa
 | 10.8.1150 | [Bundled Privilege Manager Agent Installer - Windows](https://tmsnuget.thycotic.com/software/Agents/ThycoticAgentsInstaller_x86_10_8_1150.exe) |
 | 10.8.1150 | [Core Thycotic Agent (x64)](https://tmsnuget.thycotic.com/software/Agents/ThycoticAgent_x64_10_8_1150.msi) |
 | 10.8.1150 | [Core Thycotic Agent (x86)](https://tmsnuget.thycotic.com/software/Agents/ThycoticAgent_x86_10_8_1150.msi) |
-| 10.8.2181 | [Application Control Agent (x64)](https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x64_10_8_2181.msi) |
-| 10.8.2181 | [Application Control Agent (x86)](https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x86_10_8_2181.msi) |
+| 10.8.2185 | [Application Control Agent (x64)](https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x64_10_8_2185.msi) |
+| 10.8.2185 | [Application Control Agent (x86)](https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x86_10_8_2185.msi) |
 | 10.8.2183 | [Local Security Solution Agent (x64)](https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x64_10_8_2183.msi) |
 | 10.8.2183 | [Local Security Solution Agent (x86)](https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x86_10_8_2183.msi) |
 | 10.8.1150 | [Bundled Privilege Manager Core and Directory Services Agent - Windows](https://tmsnuget.thycotic.com/software/Agents/ThycoticDirectoryServicesInstaller_x86_10_8_1150.exe) |
@@ -34,4 +34,4 @@ This page provides links to Thycotic Privilege Manager product and agents softwa
 | Agent Version | Product | OS Version Support|
 | ----- | ----- | ----- | 
 | 10.8.24 | [Privilege Manager macOS Agent](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.8.24.dmg) | Catalina and previous using Kernel Extensions (KEXT) |
-| 10.8.1018 | [Privilege Manager macOS Agent](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.8.1018.dmg) | Catalina and later using System Extensions (SYSEX) |
+| 10.8.1019 | [Privilege Manager macOS Agent](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.8.1019.dmg) | Catalina and later using System Extensions (SYSEX) |

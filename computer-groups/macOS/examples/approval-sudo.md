@@ -20,7 +20,7 @@ The following monitor policy is configured to elevate applications located withi
    ![approval needed](images/sudo/approval-needed-1.png "Approve Needed modal")
 1. Enter the approval reason and click __Request Approval__.
 
-   In the Terminal, __Waiting for approval... (Ctrl+C to cancel)__ is displayed and the __Approval request submitted__ confirmation opens.
+   In the Terminal, __Waiting for approval... (Ctrl+C to cancel)__ is displayed and the __Approval request submitted.__ dialog opens.
 1. You will be notified of any status change via the notification center. Click __OK__ to wait for the approval.
 
    ![notify center](images/sudo/notify-center.png "Approval Submitted confirmation")

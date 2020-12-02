@@ -28,9 +28,7 @@ Once the policy is enabled and in place at the endpoint, a user will typically g
 1. Click the Authenticate button. The following Application Notice opens:
 
    ![reason](images/mac/app_request_reason_20190506.png "Application Notice Reason for authentication")
-1. Enter the Reason why the application should be installed and click the Request Approval button. The Waiting for approval response dialog opens.
+1. Enter the Reason why the application should be installed and click the Request Approval button. The __Approval request submitted.__ dialog opens.
 
    ![wait](images/mac/app_waiting_response_20190506.png "Waiting for approval response")
-1. Once approved, the “This application has been approved…” text displays. Click the Continue button to proceed with the installation. If you click Cancel, the application will not be copied to the Applications folder and you may need to request approval again.
-
-   ![ approved](images/mac/app_approved_20190506.png "Application approved")
+1. You will be notified of any status change via the notification center. Click __OK__ to wait for the approval.

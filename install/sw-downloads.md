@@ -9,7 +9,9 @@ This page provides links to Thycotic Privilege Manager product and agents softwa
 
 | Version | Product |
 | ----- | ----- |
-| 10.8.2 | [Combined Secret Server and Privilege Manager Installer](https://thycotic.force.com/support/s/download-onprem) - Authentication required! |
+| 10.8.2 | [Combined Secret Server and Privilege Manager Installer](https://thycotic.force.com/support/s/download-onprem)[^1] - Authentication required! |
+[]()
+[^1] - Download of combined installer will have 10.8.1 Privilege Manager installation package until the Secret Server release on 12/8 (10.9.000005). If the server is internet connected, the installer will reach out to the NuGet server and download the 10.8.2 packages.
 
 ## Agent Software
 

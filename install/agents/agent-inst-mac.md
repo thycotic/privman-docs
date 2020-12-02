@@ -28,7 +28,7 @@ To install the agent software on a single testing machine, follow these steps:
 
 1. Go to 
    * [Agent Downloads - KEXT](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.8.24.dmg) or
-   * [Agent Downloads - SYSEX](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.8.1017.dmg) to download the Privilege Manager Mac Agent.
+   * [Agent Downloads - SYSEX](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.8.1018.dmg) to download the Privilege Manager Mac Agent.
 1. Run the Bundled Mac Agent DMG + PKG Installer on the computer you want to manage.
 1. During the setup process,
    1. enter the base URL and
@@ -75,7 +75,7 @@ __SYSEX__
 
 ```cmd
 cd /Volumes/<network share>/<path to PKG installer>
-sudo installer -pkg ThycoticManagementAgent-10.8.1017.pkg -target /
+sudo installer -pkg ThycoticManagementAgent-10.8.1018.pkg -target /
 ```
 
 The PKG will first look for an __agentconfig.json__ file located in the same folder. When it finds this file, it will copy __agentconfig.json__ into the _/Library/Application Support/Thycotic/Agent_ folder during the unattended install on the Mac endpoint where the installer is running.
@@ -93,7 +93,7 @@ sudo installer -pkg ThycoticManagementAgent.10.8.24.pkg -target /
 __SYSEX__
   
 ```shell
-sudo installer -pkg ThycoticManagementAgent.10.8.1017.pkg -target /
+sudo installer -pkg ThycoticManagementAgent.10.8.1018.pkg -target /
 ```
 
 As in the example using a Network Share, the PKG will first look for an __agentconfig.json__ file located in the same folder. When it finds this file, it will copy __agentconfig.json__ into the _/Library/Application Support/Thycotic/Agent_ folder during the unattended install on the endpoint Mac where the installer is running.
@@ -121,5 +121,5 @@ sudo /Volumes/ThycoticManagementAgent-10.8.24/Uninstall.sh
 __SYSEX__
 
 ```shell
-sudo /Volumes/ThycoticManagementAgent-10.8.1017/Uninstall.sh
+sudo /Volumes/ThycoticManagementAgent-10.8.1018/Uninstall.sh
 ```

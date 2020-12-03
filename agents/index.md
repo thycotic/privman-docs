@@ -52,6 +52,10 @@ From the the reports pages you can click into any of the __target machines__ lis
 
 ## Agent Encryption
 
-The agent traffic is secured via SSL/TLS.
+The agent traffic is secured via SSL/TLS (1.2).
 
 <!-- Post 10.7.1 release create a general agent section in the TOC to cover more general information and conceptual write-up. Remove this heading here and create more contents in that new agent section. -->
+
+## Elevated Processes
+
+Starting with Privilege Manager version 10.8.2, the agent adds memory checks for all processes that are managed/elevated via Privilege Manager. Any processes not managed by Privilege Manager, should be checked for process hollowing through means of products like Windows Defender ATP.

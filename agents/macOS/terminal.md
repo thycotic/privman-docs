@@ -1,6 +1,6 @@
 [title]: # (Terminal Commands)
 [tags]: # (endpoints)
-[priority]: # (3)
+[priority]: # (4)
 # Terminal Commands
 
 In the Mac Terminal application you can perform the following commands directly to your Thycotic macOS agent.

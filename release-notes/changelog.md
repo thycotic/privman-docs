@@ -5,6 +5,9 @@
 
 This topic provides a chronological list of documentation changes. Minor content alterations are not tracked.
 
+## January 2021
+
+
 ## December 2020
 
 * Added [10.8.2 Release Notes](10.8.2-combined.md).

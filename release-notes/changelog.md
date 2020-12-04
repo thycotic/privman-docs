@@ -14,7 +14,10 @@ This topic provides a chronological list of documentation changes. Minor content
   * Moved and edited [macOS Legacy Extensions](../platforms/macOS/mac-kexts.md) to reflect behavior and best practices for kernel and system extensions on Catalina and Big Sur.
   * Moved [File/Folder Access](../platforms/macOS/tcc-access.md) to [Platforms | macOS](../platforms/macOS/index.md) section.
   * Added topic on [Sudo Plugin](../platforms/macOS/sudo-plugin.md).
+* Added [Just-in-Time Group Membership Action](../admin/actions/jit-group-member.md) topic.
 * Edits to [Server Logs](../admin/log-viewer/index.md) topic.
+* Edits to [CorrelationID support to Server Logs](../admin/log-viewer.md).
+* New subtopic [Complex Password Policy enforcement for Privilege Manager users](../admin/users/pw-complexity.md).
 
 ## October 2020
 

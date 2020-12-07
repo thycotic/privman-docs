@@ -26,7 +26,7 @@ The Bundled macOS Agent is a DMG + PKG file. You can use this Mac agent installe
 
 To install the agent software on a single testing machine, follow these steps:
 
-1. Go to 
+1. Go to
    * [Agent Downloads - KEXT](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.8.24.dmg) or
    * [Agent Downloads - SYSEX](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.8.1019.dmg) to download the Privilege Manager Mac Agent.
 1. Run the Bundled Mac Agent DMG + PKG Installer on the computer you want to manage.
@@ -37,6 +37,16 @@ To install the agent software on a single testing machine, follow these steps:
    ![Mac Agent Install Code field](images/mac/install-code.png "Mac Agent Install Code field")
 
 >**Note**: The bundled installer does require a restart in order to ensure the agent is ready to use.
+
+#### Unsupported Version Messages
+
+If you attempt the to install the __SYSEX__ agent bundle on an unsupported OS version, the following message is displayed:
+
+![sysex error](images/sysex-msg.png "Agent install message if SYSEX agent version is installed on unsupported OS version")
+
+If you attempt the to install the __KEXT__ agent bundle on an unsupported OS version, the following message is displayed:
+
+![kext error](images/kext-msg.png "Agent install message if KEXT agent version is installed on unsupported OS version")
 
 ### Using an Unattended Install Method
 

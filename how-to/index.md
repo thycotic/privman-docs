@@ -31,7 +31,7 @@ This topic is a collection of articles covering "How to..." procedures for diffe
 
 * macOS:
 
-  * [Preference Pane Targeting on macOS](../computer-groups/macOS/bp/prefpane.md)
+  * [Preference Pane Targeting on macOS](../platforms/macOS/bp/prefpane.md)
 
 * Maintenance:
 

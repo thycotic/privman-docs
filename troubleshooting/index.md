@@ -13,19 +13,18 @@ The following troubleshooting topics are available:
 * [10.5 Folder Permission for MachineKeys](install-upgrade/10-5-machinekeys.md)
 * [Retrieving the COM class factory error](install-upgrade/retrieving-the-com-class-factory-for-component-with-clsid.md)
 
-## [Agents Troubleshooting](../agents/troubleshooting/index.md)
+## Agents Troubleshooting
 
-* [Agent Registration Error Following an OS Upgrade](../agents/troubleshooting/agent-not-registering.md)
-* [Running updateclientitems.ps1 on an Agent triggers an error](../agents/troubleshooting/agent-ps1-update.md)
-* [Client Item List Downloads](../agents/troubleshooting/failed-downloading-windows-group-policies-client-item-list.md)
-* [Advanced Messages not working for child processes of Microsoft Edge](../agents/troubleshooting/advanced-messages-not-working-edge.md)
+* [Agent Registration Error Following an OS Upgrade](../agents/win/ts/agent-not-registering.md)
+* [Running updateclientitems.ps1 on an Agent triggers an error](../agents/win/ts/agent-ps1-update.md)
+* [Client Item List Downloads](../agents/win/ts/failed-downloading-windows-group-policies-client-item-list.md)
+* [Advanced Messages not working for child processes of Microsoft Edge](../agents/win/ts/advanced-messages-not-working-edge.md)
 
-## [Endpoint Troubleshooting](../agents/troubleshooting/index.md)
+## Endpoint Troubleshooting
 
-* [Endpoint Troubleshooting](../agents/troubleshooting/endpoint-issues.md)
-* [How to Recover an Unresponsive macOS Endpoint](../agents/macOS/recover-unresponsive-macOS-endpoint.md)
-* [Catalina FileSystemWatcher Issue](../agents/troubleshooting/filesystemwatcher.md)
-* [macOS Specific Issues](macOS/index.md)
+* [Endpoint Troubleshooting](../agents/win/ts/endpoint-issues.md)
+* [How to Recover an Unresponsive macOS Endpoint](../agents/macOS/ts/recover-unresponsive-macOS-endpoint.md)
+* [Catalina FileSystemWatcher Issue](../agents/macOS/ts/filesystemwatcher.md)
 
 ## [Privilege Manager Logs](logs/index.md)
 

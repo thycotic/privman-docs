@@ -8,13 +8,11 @@ Configuration Feeds are extensions to Privilege Manager. They allow Thycotic to 
 1. Navigate to __Admin | Config Feeds__.
 1. Browse the available config feeds by expanding __Privilege Manager Product Configuration Feeds__.
    ![expand](images/expand.png "Expanded config feed product areas")
-1. starting with the Select Items button and download anything that might be useful in your environment. Once the item is downloaded, it is immediately available in your Privilege Manager instance.
 
-The main product areas covered are:
-
-* Application Control Solution
-* Local Security Solution
-* Thycotic Management Server Core
+   Expand the available product areas to drill-down into the configuration feeds available under:
+   * Application Control Solution
+   * Local Security Solution
+   * Thycotic Management Server Core
 
 | Solution | Feed | Description |
 | ----- | ----- | ----- |

@@ -25,13 +25,11 @@ Required PBA resources are provided via Privilege Manager Configuration Feeds.
 ### Downloading and Installing the PBA Config Feed
 
 1. In you Privilege Manager console, navigate to __Admin | Config Feeds__.
-1. In the __Privilege Manager Product Configuration Feeds__ row click __Select Items__.
-1. In the __Thycotic Management Server Core__ row click __Select Items__.
-1. In the __Privileged Behavior Analytics Integration__ row click __Download__.
+1. Expand __Privilege Manager Product Configuration Feeds__.
+1. Expand __Thycotic Management Server Core__.
+1. Install __Privileged Behavior Analytics Integration__.
 
-   ![pba 1](images/pba/cf-pba-1.png "Download the PBA config feed")
-
-Once the table shows a date in the downloaded column and indicates a status of installed, proceed to the Foreign Systems setup.
+After the install, proceed to the Foreign Systems setup.
 
 ### Setting up the PBA SysLog Foreign System
 

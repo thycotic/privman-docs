@@ -29,13 +29,14 @@ Users on Privilege Manager 10.7.1 or up should use the new policy named __Restri
 
 If you need to rollback agent hardening on your endpoints, follow these steps to restore the default agent permissions:
 
-1. Navigate to __ADMIN | More...__ and select __Config Feeds__.
-1. Next to __Privilege Manager Product Configuration Feeds__ click __Select Items__.
-1. Next to __Thycotic Management Server Core__ click __Select Items__.
-1. Download the __Reset Agent Service Permissions__ config feed.
+1. Navigate to __ADMIN | Config Feeds__.
+1. Expand __Privilege Manager Product Configuration Feeds__.
+1. Expand __Thycotic Management Server Core__.
+1. Install __Reset Agent Service Permissions__.
 
-   ![Config Feed](images/agent-har/cfg-feed.png "Download the Reset Agent Service Permissions config feed")
-1. Once the config feed is installed, navigate to __ADMIN | Policies__ and select the General tab.
+Following the Configuration Feed installation,
+
+1. Navigate to __ADMIN | Policies__ and select the General tab.
 1. Search for the agent service policies and select to edit.
 
    ![Agent Service](images/agent-har/agent-service.png "Agent Service policies")

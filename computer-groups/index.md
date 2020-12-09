@@ -12,6 +12,8 @@ Each Computer Group has the following areas to specifically address
 * [Group Policies](local-security/ls-local-groups.md), which are also part of [local security](local-security/index.md), but pertain to a group of users.
 * Scheduled Jobs, these are also known as client tasks. Many are by default active.
 * Agent Configuration, these are agent configuration policies allowing a global configuration of agent behavior.
+  * [Windows](../agents/win/cfg/index.md)
+  * [macOS](../agents/macOS/cfg/index.md)
 
 ![cg menu](images/cg-menu.png "Computer Groups Menu")
 

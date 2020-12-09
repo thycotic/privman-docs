@@ -19,9 +19,12 @@ Details for each tasks are provided under the following topics:
 * [Cleanup Sent Privilege Manager Event](cpme.md)
 * [Configure PM Remove Programs](cpmrp.md)
 * [Default File Inventory Policy](dfip.md)
+* [Deploy File Hash Exclusion Setting (Windows)](exclude-from-file-hash.md) - installed via Configuration Feeds only!
 * [Ensure UAC Override Setting](euacos.md)
+* [Ignore macOS Catalina software update (Mac OS)](ignore-os-updates.md) - installed via Configuration Feeds only!
 * [Local User Inventory Policy](luip.md)
 * [Perform Resource Discovery](prd.md)
+* [Reset ignored macOS software updates (Mac OS)](ignore-os-updates.md) - installed via Configuration Feeds only!
 * [Retry Errored TMS Events](retmse.md)
 * [Set Agent Log Size](sals.md)
 * [Scheduled Check for Pending Tasks](scfpt.md)

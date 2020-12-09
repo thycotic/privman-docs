@@ -1,6 +1,6 @@
 [title]: # (Troubleshooting)
 [tags]: # (macOS agents,endpoints)
-[priority]: # (2)
+[priority]: # (10)
 # Troubleshooting on macOS Endpoints
 
 The following topics offer troubleshooting help for macOS endpoints and agents:

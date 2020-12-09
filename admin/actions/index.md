@@ -20,23 +20,23 @@ For a more complete (and more specific) list of all out-of-the-box Privilege Man
 
 Navigate to __Admin | Actions__ in Privilege Manager and click __Create Action__. Under Action Details, select a platform type and then choose an action type from the dropdowns (see our Actions' Catalog for descriptions of action types).
 
-![create](images/action-both-new-2.png "Create Action dialog")
+![create](all/images/action-both-new-2.png "Create Action dialog")
 
 Select a specific platform or choose both:
 
-![platform](images/action-both-new-1.png "Select Platform")
+![platform](all/images/action-both-new-1.png "Select Platform")
 
 If __Both Windows / Mac OS__ is selected, enter a name/description and click __Create__. Otherwise select a type from the drop-down based on selected platform:
 
 * Windows:
 
-  ![Create a new Action - Windows](images/new-action.png)
+  ![Create a new Action - Windows](all/images/new-action.png)
 * macOS:
 
-  ![Create a new Action - macOS](images/new-action-macOS.png)
+  ![Create a new Action - macOS](all/images/new-action-macOS.png)
 
 Name your new action and type a Description, then click __Create__.
 
 Editing options for this action will depend on the type of was action selected from the drop-down.
 
-![new action](images/action-both-new.png "Newly created action")
+![new action](all/images/action-both-new.png "Newly created action")

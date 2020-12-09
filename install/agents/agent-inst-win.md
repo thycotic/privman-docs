@@ -33,9 +33,9 @@ Individual Windows agents are available in MSI format for easier bulk-rollout th
 * __Core Thycotic Agent (x64)__:
   https://tmsnuget.thycotic.com/software/Agents/ThycoticAgent_x64_10_8_1150.msi
 * __Application Control Agent (x64)__:
-  https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x64_10_8_1155.msi
+  https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x64_10_8_2185.msi
 * __Local Security Solution Agent (x64)__:
-  https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x64_10_8_1144.msi
+  https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x64_10_8_2183.msi
 
 #### Installation Command Lines
 
@@ -48,11 +48,11 @@ Individual Windows agents are available in MSI format for easier bulk-rollout th
   ```
 * __Application Control Agent__
   ```
-  msiexec.exe /i "Thycotic_ApplicationControlAgent_x64_10_8_1155.msi" /norestart REBOOT=ReallySuppress /qn
+  msiexec.exe /i "Thycotic_ApplicationControlAgent_x64_10_8_2185.msi" /norestart REBOOT=ReallySuppress /qn
   ```
 * __Local Security Agent__
   ```
-  msiexec.exe /i "Thycotic_LocalSecurityAgent_x64_10_8_1144.msi" /norestart REBOOT=ReallySuppress /qn
+  msiexec.exe /i "Thycotic_LocalSecurityAgent_x64_10_8_2183.msi" /norestart REBOOT=ReallySuppress /qn
   ```
 
 ### 32-bit Windows Operating Systems
@@ -62,9 +62,9 @@ Individual Windows agents are available in MSI format for easier bulk-rollout th
 * Core Thycotic Agent __(x86)__:
   https://tmsnuget.thycotic.com/software/Agents/ThycoticAgent_x86_10_8_1150.msi
 * Application Control Agent __(x86)__:
-  https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x86_10_8_1155.msi
+  https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x86_10_8_2185.msi
 * Local Security Solution Agent __(x86)__:
-  https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x86_10_8_1144.msi
+  https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x86_10_8_2183.msi
 
 #### Installation Command Lines
 
@@ -77,9 +77,9 @@ Individual Windows agents are available in MSI format for easier bulk-rollout th
   ```
 * Application Control Agent
   ```
-  msiexec.exe /i "Thycotic_ApplicationControlAgent_x86_10_8_1155.msi" /norestart REBOOT=ReallySuppress /qn
+  msiexec.exe /i "Thycotic_ApplicationControlAgent_x86_10_8_2185.msi" /norestart REBOOT=ReallySuppress /qn
   ```
 * Local Security Agent
   ```
-  msiexec.exe /i "Thycotic_LocalSecurityAgent_x86_10_8_1144.msi" /norestart REBOOT=ReallySuppress /qn
+  msiexec.exe /i "Thycotic_LocalSecurityAgent_x86_10_8_2183.msi" /norestart REBOOT=ReallySuppress /qn
   ```

@@ -43,10 +43,10 @@ There are different options to elevate rights to launch applications from a netw
 
 Use the UNC Elevation Policy Template to create a customized policy that lets you scan a network share and automatically elevates launches of MSI and EXE files from that share.
 
-1. Navigate to __Admin Config Feeds__.
-1. Find __Privilege Manager Product Configuration Feeds__, click __Select Items__.
-1. Find __Application Control Solution__, click __Select Items__.
-1. Find __Application Control - UNC Elevation Policy Template__, click __Download__. The template is being installed.
+1. Navigate to __Admin | Config Feeds__.
+1. Expand __Privilege Manager Product Configuration Feeds__.
+1. Expand __Application Control Solution__.
+1. Install __Application Control - UNC Elevation Policy Template__. The template is being installed.
 1. Navigate to __Admin | Folders__.
 1. In the folder tree open __Privilege Manager Solutions | Application Control | Policies | macOS or Windows policies | Privilege Management__.
 1. Click __Create__.

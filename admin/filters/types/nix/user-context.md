@@ -23,7 +23,7 @@ For Privilege Manager on-premises the __User Context Filter__ can be used after 
 * Local UIDs: If entering multiple UIDs, each entry must go on a new line.
 * Local Group Names: If entering multiple local group names, each entry must go on a new line.
 
-1. Select if __ALL__ conditions must be met. Leave the box unchecked to match __ANY__. You can also specify, if accounts must be enabled to be targeted. This is an important checkbox to set if specific users have been added.
+1. Select if __ALL__ conditions must be met. Leave the box unchecked to match __ANY__. You can also specify if accounts must be enabled to be targeted. This is an important checkbox to set if specific users have been added.
 1. Click __Save Changes__ to save any customization of the filter.
 
 <!--## Cloud

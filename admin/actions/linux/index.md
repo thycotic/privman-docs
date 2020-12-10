@@ -9,4 +9,4 @@ The following Unix/Linux specific action topics are available:
 * [Adjust Environment Variable Action](adj-env-var.md)
 * [CLI Justification Message Action](cli-just-msg.md)
 * [Display User Message Action](display-user-msg.md)
-* [Run As Root Action](run-as-root.md)
+* [Run As User Action](run-as-user.md)

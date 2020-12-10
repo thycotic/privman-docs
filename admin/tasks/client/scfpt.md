@@ -14,10 +14,10 @@ Initiate a check for pending client tasks. Used by agents that are unable to rec
 | Triggers | Daily at 2:00:00 AM (repeating every 4 hours) |
 | Targets | All Windows Managed Computers - Internet Client (Target) |
 | Conditions | None specified by default |
-| Advanced | Allow task to be run on demand |
-| (missed) | Run task as soon as possible after a scheduled start is missed |
-| (stop) | Stop the task if it run for longer than 5 minute(s). |
-| (retry on failure) | not set by default |
+| Advanced | On: Allow task to be run on demand |
+| | On: Run task as soon as possible after a scheduled start is missed |
+| | Off: If the task fails, attempt to restart |
+| | On: Stop the task if it runs for longer than 5 minute(s). |
 | Rule | Default (Do not start a new instance) |
 | Agent Sent Size | n/a |
 | Agent Received Size | depends on number of pending items |
@@ -38,7 +38,7 @@ This remote-scheduled task checks for server-scheduled tasks assigned to the age
 | Advanced | On: Allow task to be run on demand |
 | | On: Run task as soon as possible after a scheduled start is missed |
 | | Off: If the task fails, attempt to restart |
-| | On: Stop the task if it run for longer than 5 minute(s). |
+| | On: Stop the task if it runs for longer than 5 minute(s). |
 | Rule | Default (Do not start a new instance) |
 | Agent Sent Size | n/a |
 | Agent Received Size | depends on number of pending items |

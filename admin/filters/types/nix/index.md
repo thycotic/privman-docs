@@ -3,7 +3,7 @@
 [priority]: # (2)
 # Unix/Linux Filters
 
-Most of the Application and File type filters apply to all OS platforms. However, for Unix/Linux platforms the filters that are covered in this section.
+Most of the Application and File type filters apply to all OS platforms. However, for Unix/Linux platforms, the filters are covered in this section.
 
 ## List of Unix/Linux Filters
 

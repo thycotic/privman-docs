@@ -63,7 +63,7 @@ When this policy is triggered the Agent will attempt (or re-attempt) to register
 | Agent Received Size | n/a |
 | Restrictions | none |
 
-<!-- ## Scheduled Registration (Linux)
+## Scheduled Registration (Unix/Linux)
 
 This agent-scheduled task refreshes registration data for the assigned agents.
 
@@ -72,14 +72,14 @@ This agent-scheduled task refreshes registration data for the assigned agents.
 | Default Active | Yes |
 | Command | Start TMS Registration |
 | Triggers | Daily at 2:00:00 AM (repeating every 1 hour for a duration of 24 hours) |
-| Targets | Linux Computers |
+| Targets | Unix/Linux Computers |
+| Deployment | The deployment status of this policy, if this number is 0 or incorrect, then the Resource and Collection Targeting Update Task might need to run.
 | Conditions | None specified by default |
-| Advanced | Allow task to be run on demand |
-| (missed) | Run task as soon as possible after a scheduled start is missed |
-| (stop) | Stop the task if it run for longer than 5 minute(s). |
-| (retry on failure) | not set by default |
+| Advanced | On: Allow task to be run on demand |
+| | On: Run task as soon as possible after a scheduled start is missed |
+| | Off: If the task fails, attempt to restart |
+| | On: Stop the task if it run for longer than 5 minute(s). |
 | Rule | Default (Do not start a new instance) |
 | Agent Sent Size | 5 KB |
 | Agent Received Size | n/a |
 | Restrictions | none |
--->

@@ -9,3 +9,4 @@ The following topics are available:
 * [Active Directory Import](ad-import/index.md)
 * [Using a Service Account to run the IIS App pool](run-iis-app-pool.md)
 * [Prevent Read and Write Access to File Types or Locations](prevent-read.md)
+* [Securing the IIS Server](securing-iis.md)

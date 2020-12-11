@@ -71,3 +71,10 @@ Here is the complete list of Actions that come with Privilege Manager out-of-the
 | Set Process Security Descriptor Action | __Locked down Service Process Security Descriptor__ | This action applies a restrictive security descriptor disallowing Administrators the right to terminate the process. |
 | Apply SVS Layer Action | __Workspace Virtualization Global Layer__ | This action places specified applications in a common Workspace Virtualization global layer |
 | | __Workspace Virtualization Isolation Layer__ | This action places specified applications in a common Workspace Virtualization isolation layer |
+
+### Unix/Linux
+  
+| Type | Action | Description |
+| ----- | ----- | ----- |
+| Display User Message Action | __Deny Execute Message__ | This action displays a message to the user informing them that an application has been denied execution |
+| Deny Execute Action | __Deny Execute__ | This action stops specified applications from executing |

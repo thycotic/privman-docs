@@ -1,7 +1,12 @@
-[title]: # (Linux/Unix)
-[tags]: # (actions)
+[title]: # (Unix/Linux)
+[tags]: # (actions,*nix)
 [priority]: # (2)
-[display]: # (none)
-# Linux/Unix Specific Actions
+# Unix/Linux Specific Actions
 
-hidden folder/topic for now - TBD
+The following Unix/Linux specific action topics are available:
+
+* [Add to Group Action](add-to-group.md)
+* [Adjust Environment Variable Action](adj-env-var.md)
+* [CLI Justification Message Action](cli-just-msg.md)
+* [Display User Message Action](display-user-msg.md)
+* [Run As User Action](run-as-user.md)

@@ -23,7 +23,7 @@ These following topics are available:
   * [Elevate msi launched from a Network Share](elevate/msi.md)
   * [Elevate Applications whose Execution Requires Approval](elevate/app-req-app.md)
   * [Elevate Applications that Require User Justification](elevate/user-just.md)
-  * [MS Visual Studio Installations](elevate/ms-visual-studio.md)
+  * MS Visual Studio Installations - Filters and policy now provided via Configuration Feeds. Refer to [Config Feeds](../../../admin/config-feeds/index.md) for download and installation information. 
 
 * [Greylisting Policies](monitor/index.md)
   * [Using a Catch All Policy](monitor/catch-all.md)

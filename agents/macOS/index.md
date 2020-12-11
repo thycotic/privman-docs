@@ -12,3 +12,4 @@ The following topics are available:
 * [Terminal Commands](terminal.md)
 * [Finding Logs without using the Agent Utility](find-logs.md)
 * [How to Recover an Unresponsive macOS Endpoint](recover-unresponsive-macOS-endpoint.md)
+* [Using an MDM Profile for your Agent](mdm-profiles.md)

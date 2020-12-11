@@ -11,6 +11,7 @@ This topic provides a chronological list of documentation changes. Minor content
 ## December 2020
 
 * Added [10.8.2 Release Notes](10.8.2-combined.md).
+* NuGet source zip for manual installs/upgrades provided via [Software Downloads](../install/sw-downloads.md) topic.
 * Added [Platforms](../platforms/index.md) section.
   * Moved [macOS Secure Token](../platforms/macOS/secure-token.md) to the [Platforms | macOS](../platforms/macOS/index.md) section.
   * Moved [Best Practices](../platforms/macOS/bp/index.md) to the [Platforms | macOS](../platforms/macOS/index.md) section.
@@ -21,7 +22,8 @@ This topic provides a chronological list of documentation changes. Minor content
 * Edits to [Server Logs](../admin/log-viewer/index.md) topic.
 * Edits to [CorrelationID support to Server Logs](../admin/log-viewer/index.md).
 * New subtopic [Complex Password Policy enforcement for Privilege Manager users](../admin/users/pw-complexity.md).
-
+* New topic [Active Directory Import - On-prem vs Cloud](../how-to/best-practices/ad-import/index.md)
+* New topic [Securing the IIS Server](../how-to/best-practices/securing-iis.md)
 ## October 2020
 
 Added [10.8.1 Release Notes](10.8.1-combined.md).

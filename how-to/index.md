@@ -10,6 +10,7 @@ This topic is a collection of articles covering "How to..." procedures for diffe
   * [Disaster Recovery](best-practices/pm-dr/index.md)
   * [Using a Service Account to run the IIS App pool](best-practices/run-iis-app-pool.md)
   * [Prevent Read and Write Access to File Types or Locations](best-practices/prevent-read.md)
+  * [Securing the IIS SErver](best-practices/securing-iis.md)
 
 * Import, Export, and Migration:
 

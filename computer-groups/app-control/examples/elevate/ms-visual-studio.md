@@ -1,7 +1,8 @@
 [title]: # (MS Visual Studio Installations)
 [tags]: # (elevate, xml example)
 [priority]: # (4)
-# MS Visual Studio Installations
+[display]: # (none)
+<!-- # MS Visual Studio Installations
 
 At the bottom of this page Thycotic is providing a policy and filter xml example, named __ThyPS_Example Elevate MS VisualStudio Installs__ with a Policy Priority of 9.
 
@@ -216,3 +217,4 @@ Prior to rolling this out to a production environment, proper testing by a devel
 </items>
 
 ```
+-->

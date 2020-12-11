@@ -19,6 +19,7 @@ The main product areas covered are:
 | | [Secondary File Hash Exclusion Policy](exclude-from-file-hash.md) | Policy template to exclude non-executable files from the hash process. |
 | | UNC Allow Policy Template | Contains the UNC Share Allow Policy Template to scan a network share and automatically allow files in MSI, ISO, ZIP files. |
 | | [UNC Elevation Policy Template](../../computer-groups/app-control/examples/elevate/network-share.md) | Contains the UNC Share Elevation Policy Template to scan a network share and automatically elevate MSI and EXE files. |
+| | Visual Studio Installer Elevation | This configuration feed imports example filters and a policy for elevating Visual Studio Installers. After the installation the policy needs to be activated. |
 | Local Security Solution |  Disclose Password HelpDesk Tab | Adds the helpdesk tab to the Security Manager console. |
 | Thycotic Management Server Core | Maintenance Resources | Contains maintenance gauges, tasks, etc. for optimal TMS performance. |
 | | [Reset Agent Service Permissions](../../agents/win/pre-10.7.1-agent-hardening.md) | Contains a policy to restore the security descriptor on Thycotic Services for Privilege Manager versions prior to 10.7.1. |

@@ -9,6 +9,8 @@ Introduced with Catalina and fully implemented with Big Sur, Apple announced the
 
 The Privilege Manager macOS agent is composed of several components and at the core of it are the KEXT and ThycoticACSvc daemon. These two work together to allow, deny, and elevate applications according to policy. With the deprecation of KEXTs in macOS Catalina, we are combining the functionality of these two components into the __com.thycotic.acsd__ system extension that is hosted by __Privilege Manager.app__. In the KEXT version of the macOS agent, we relied on the KEXT to adjust processes so that they could run elevated. With the SYSEX version, we are no longer able to do that. We now leverage a sudo plugin to provide similar functionality.
 
+Refer to [Using an MDM Profile for your Agent](../../agents/macOS/mdm-profiles.md) for details on creating MDM profiles for your macOS agents.
+
 ## Leveraging the AuthorizationDB
 
 Many privileged operations are governed by rules in the authorizationdb and these rules determine what credentials are required to perform certain tasks depending on the right being authorized. To address restrictions placed on the macOS agent because we no longer have the fine-grained access and control provided by our KEXT, we’re extending how we leverage the authorizationdb to provide least privilege for users on macOS endpoints. In addition, we’ll be expanding upon this to provide coverage for more privileged operations.

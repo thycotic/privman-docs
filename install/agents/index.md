@@ -18,7 +18,7 @@ Instructions and links for agent installers are grouped as follows:
 * Individual Agent Installers for Privilege Manager:
   * [64-bit Windows Operating Systems](agent-inst-win.md#64_bit_windows_operating_systems)
   * [32-bit Windows Operating Systems](agent-inst-win.md#32_bit_windows_operating_systems)
-* [macOS X Installer - 10.11 or Newer](agent-inst-mac.md#installing_macos_agents)
+* [macOS Installer - 10.11 or Newer](agent-inst-mac.md#installing_macos_agents)
 <!-- * [Unix/Linux Agent Installer](agent-inst-nix.md)-->
 * [Directory Services Agent to support Local AD Synchronization with Cloud Instances](agent-inst-win-dsa.md)
 * [Bundled Core and Directory Services Agents](agent-inst-win-dsa-bundle.md)

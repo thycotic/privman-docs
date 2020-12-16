@@ -18,7 +18,7 @@ The following topic are available:
   * [Install Codes](agents/installcode.md)
   * [Windows Bundled Agent Install](agents/agent-inst-win-bundle.md)
   * [Windows](agents/agent-inst-win.md)
-  * [Mac OSx](agents/agent-inst-mac.md)
+  * [macOS](agents/agent-inst-mac.md)
   * [Directory Services Agent (AD)](agents/agent-inst-win-dsa.md)
   * [Bundled Core and Directory Services Agents](agents/agent-inst-win-dsa-bundle.md)
   * [Uninstall via Command Line](agents/agent-uninstall-cmd.md)

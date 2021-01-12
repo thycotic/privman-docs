@@ -41,15 +41,15 @@ To install licenses without Secret Server:
 
 To install licenses with Secret Server on the same server as Privilege Manager, you will need to install licenses through the Secret Server UI and then import the new licenses into Privilege Manager.
 
-1. To access Secret Server’s licensing page, either click the Secret Server link listed in the banner at the top of the Privilege Manager Licenses page or navigate to __Admin | Setup – Licenses__.
-1. From Secret Server’s License page, select Install New License.
+1. To access Secret Server’s licensing page, either click the Secret Server link listed in the banner at the top of the Privilege Manager Licenses page or in Secret Server navigate to __Admin | Setup – Licenses__.
+1. On Secret Server’s License page, select Install New License.
 1. Enter your License Names and Keys individually or through the Bulk Entry Mode.
 1. Click Save or Add Multiple Licenses to save the License Keys. Installing these licenses in Secret Server will automatically import the licenses into Privilege Manager.  
 1. Navigate back to the Privilege Manager License page to verify under:
    __Tools | Privilege Manager | Admin | Privilege Manager–Licenses__.
 
 >**Note**:
->If your license keys do not appear or you have too many keys listed, click the import task link and then Run Task to reset.
+>If your license keys do not appear or you have too many keys listed, click the import task link and then run task to reset.
 
 ## Converting from Trial Licenses
 
@@ -65,11 +65,11 @@ In your Installed Licenses list use the __Delete__ option to remove expired or o
 
 ## Client vs. Server Licenses
 
-* __Client License__: This license provides coverage for endpoints that are workstations, such as Windows 10, windows 7, etc.
+* __Client License__: This license provides coverage for endpoints that are workstations, such as Windows 10, windows 7, macOS or Unix/Linux endpoints, etc.
 * __Server License__: This license provides coverage for endpoints that are server machines, Windows Server 2019, Windows 2016, etc.
 * __Support License__: Without having a support license you will not be able to complete upgrades and will not be able to receive support or maintenance.
 
-### License Expired or Exceeded License Ccount
+### License Expired or Exceeded License Count
 
 The Server will stop accepting data sent from agents that are in violation of the licensing. New endpoints will register, but will not be recorded, which means the endpoint:
 
@@ -77,6 +77,10 @@ The Server will stop accepting data sent from agents that are in violation of th
 * No password changes will occur, etc.
 * Policies will run on the endpoint, but the server will completely discard the data, and it won’t be stored.
 * Tasks will not run – all automation will stop and event Discovery will not inventory users or applications, new endpoints won’t be discoverable.
+
+An exceeded license count is indicated with a warning banner.
+
+![client licenses](images/license-count.png "Client License Count Exceeded warning")
 
 ## 10.7 and up Reset Licensing
 

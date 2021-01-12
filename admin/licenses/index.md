@@ -11,6 +11,10 @@ For On-prem instances licenses can be added and deleted by users with Privilege 
 
 ![on-prem](images/on-prem.png "On-premises licenses page")
 
+The Add License button is always available, independent of a potential integration with Secret Server. Privilege Manager Unix/Linux licenses must be installed in the Licensing page within Privilege Manager. Installing these licenses via an integrated Secret Server installation is not (yet) supported.
+
+When licenses are added the __Licensing Update__ task should be run manually to immediately update any gauges and reports with the correct number.
+
 ## Cloud
 
 For Cloud instances, licenses can be deleted by users with Privilege Manager Administrators' roles.

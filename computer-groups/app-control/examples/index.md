@@ -23,9 +23,9 @@ These following topics are available:
   * [Elevate msi launched from a Network Share](elevate/msi.md)
   * [Elevate Applications whose Execution Requires Approval](elevate/app-req-app.md)
   * [Elevate Applications that Require User Justification](elevate/user-just.md)
-  * MS Visual Studio Installations - Filters and policy now provided via Configuration Feeds. Refer to [Config Feeds](../../../admin/config-feeds/index.md) for download and installation information. 
+  * [MS Visual Studio Installations](elevate/ms-visual-studio.md) - Filters and policy now provided via Configuration Feeds. Refer to [Config Feeds](../../../admin/config-feeds/index.md) for download and installation information.
 
-* [Greylisting Policies](monitor/index.md)
+* [Monitoring Policies](monitor/index.md)
   * [Using a Catch All Policy](monitor/catch-all.md)
   * [Reputation Checking Policies](monitor/reputation.md)
 
@@ -43,6 +43,6 @@ These following topics are available:
   * [Require Justification for Firefox](../../macOS/examples/justification-firefox.md)
   * [Deny Photos Application](../../macOS/examples/deny-photos.md)
   * [Adding macOS Agents to a Computer Testing Group](../../macOS/examples/add-testing-group.md)
-  * [Inventoring .pkg Files](../../macOS/examples/inventory-pkg.md)
+  * [Inventorying .pkg Files](../../macOS/examples/inventory-pkg.md)
   
 

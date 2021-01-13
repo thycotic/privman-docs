@@ -22,10 +22,8 @@ The majority will run for the first time after system initialization.
 | [Default File Inventory Policy (Windows)](../../admin/tasks/client/dfip.md) | The purpose of this policy is to inventory software programs running on the managed computer. | weekly | Yes |
 | [Deploy File Hash Exclusion Setting (Windows)](../../admin/tasks/client/exclude-from-file-hash.md) | The purpose of this policy is to provide the ability to exclude certain file extensions from the hash process. | daily | No |
 | [Ensure UAC Override Setting (Windows)](../../admin/tasks/client/euacos.md) | Ensures that the UAC Override Registry Key is set. | daily | Yes |
-| [Ignore macOS Catalina software update (Mac OS)](../../admin/tasks/client/ignore-os-updates.md) | The purpose of this policy is to provide a way in Privilege Manager to ignore macOS updates. | daily | no |
 | [Local User Inventory Policy](../../admin/tasks/client/luip.md) | The purpose of this policy is to inventory Local User account, groups and group membership on the client. This policy can also be used to inventory for specific account privileges. | weekly | Yes |
 | [Perform Resource Discovery (Windows)](../../admin/tasks/client/prd.md) | Schedule on which agents will check with server to determine if any local resources require discovery. | daily | Yes |
-| [Reset ignored macOS software updates (Mac OS)](../../admin/tasks/client/ignore-os-updates.md) | The purpose of this policy is to provide a way in Privilege Manager to reset ignored macOS updates. | daily | No |
 | [Retry errored TMS Events (Windows)](../../admin/tasks/client/retmse.md) | Scan Agent queue for any events that require retransmission. | daily | Yes |
 | [Scheduled Check Pending Client Tasks - Internet Clients (Windows)](../../admin/tasks/client/scfpt.md) | Initiate a check for pending client tasks. Used by agents that are unable to receive an incoming connection from the server. | daily | Yes |
 | [Scheduled Registration - Internet Clients (Windows)](../../admin/tasks/client/sr.md) | Initiate agent registration with server less frequently than internal clients. | daily | Yes |
@@ -45,19 +43,20 @@ The majority will run for the first time after system initialization.
 | [Basic Inventory (Mac OS)](../../admin/tasks/client/bi.md) | This scheduled task triggers the Agent to send Mac OS basic inventory. | daily | Yes |
 | [Cleanup sent Privilege Manager Events (Mac OS)](../../admin/tasks/client/cpme.md) | Purges Agent events that have been successfully transmitted from managed endpoints to reclaim disk space. | daily | Yes |
 | [Default File Inventory Policy (MacOS)](../../admin/tasks/client/dfip.md) | The purpose of this policy is to inventory software programs running on the managed computer. | weekly | Yes |
+| [Ignore macOS Catalina software update (Mac OS)](../../admin/tasks/client/ignore-os-updates.md) | The purpose of this policy is to provide a way in Privilege Manager to ignore macOS updates. | daily | no |
 | [Local User Inventory Policy (MacOS)](../../admin/tasks/client/luip.md) | The purpose of this policy is to inventory Local User account, groups and group membership on the client. This policy can also be used to inventory for specific account privileges. | weekly | Yes |
 | [Perform Resource Discovery (Mac OS)](../../admin/tasks/client/prd.md)]| Schedule on which agents will check with server to determine if any local resources require discovery. | daily | Yes |
+| [Reset ignored macOS software updates (Mac OS)](../../admin/tasks/client/ignore-os-updates.md) | The purpose of this policy is to provide a way in Privilege Manager to reset ignored macOS updates. | daily | No |
 | [Retry errored TMS Events (Mac OS)](../../admin/tasks/client/retmse.md) | Scan Agent queue for any events that require retransmission. | daily | Yes |
 | [Scheduled Registration (Mac OS)](../../admin/tasks/client/sr.md) | When this policy is triggered the Agent will attempt (or re-attempt) to register with the server. | daily | Yes |
 | [Update Agent Commands (Mac OS)](../../admin/tasks/client/sr.md) | When this policy is triggered the Agent will update agent command items. | daily | Yes |
 | [Update Applicable Policies (Mac OS)](../../admin/tasks/client/uap.md) | When this policy is triggered the Agent will check the server for updated policies. | daily | Yes |
 | [Update Provisioned Resource Client Items (MacOS)](../../admin/tasks/client/uprci.md) | | daily | Yes |
 
-<!-- ## Unix/Linux Remote Client Scheduled Commands
+## Unix/Linux Remote Client Scheduled Commands
 
 | Name | Description | Schedule | Enabled |
 | ----- | ----- | ----- | ----- |
-| [Scheduled Check for Pending Tasks (Linux)](../../admin/tasks/client/scfpt.md) | This remote-scheduled task checks for server-scheduled tasks assigned to the agent. | daily | Yes |
-| [Scheduled Registration (Linux)](../../admin/tasks/client/sr.md) | This agent-scheduled task refreshes registration data for the assigned agents. | daily | Yes |
-| [Update Applicable Policies (Linux)](../../admin/tasks/client/uap.md) | This remote-scheduled command will update policies applicable to the assigned agents. | daily | Yes |
--->
+| [Scheduled Check for Pending Tasks (Unix/Linux)](../../admin/tasks/client/scfpt.md) | This remote-scheduled task checks for server-scheduled tasks assigned to the agent. | daily | Yes |
+| [Scheduled Registration (Unix/Linux)](../../admin/tasks/client/sr.md) | This agent-scheduled task refreshes registration data for the assigned agents. | daily | Yes |
+| [Update Applicable Policies (Unix/Linux)](../../admin/tasks/client/uap.md) | This remote-scheduled command will update policies applicable to the assigned agents. | daily | Yes |

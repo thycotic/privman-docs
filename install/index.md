@@ -28,3 +28,5 @@ The following topic are available:
   * [Upgrading from 8.2 to Privilege Manager 10.4 and up](upgrades/upgrades-version-8.md)
   * [Offline Upgrades Privilege Manager](upgrades/offline-upgrade.md)
   * [Offline Upgrades - Combined Secret Server and Privilege Manager](upgrades/offline-upgrades-combined.md)
+
+* [Package Hash Verification](package-verify.md)

@@ -40,9 +40,16 @@ The following a basic steps to create a filter. Based on platform and type the e
    1. select a Platform from the drop-down.
 
       ![create 1](images/create-1.png "Select the platform from the drop-down options")
+
+      Options here are:
+      * Windows
+      * macOS
+      * Unix/Linux
    1. select the Type from the drop-down.
 
       ![create 2](images/create-2.png "Select the filter type from the drop-down options")
+
+      The Type depends on the platform selection.
    1. enter a __Name__ and __Description__.
 
       ![create 3](images/create-3.png "Enter a name and description")

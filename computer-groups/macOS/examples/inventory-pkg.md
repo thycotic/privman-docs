@@ -1,7 +1,7 @@
-[title]: # (Inventoring .pkg Files)
+[title]: # (Inventorying .pkg Files)
 [tags]: # (learning mode, macOS)
 [priority]: # (101)
-# Inventoring .pkg Files
+# Inventorying .pkg Files
 
 Privilege Manager allows the inventory of macOS .pkg files. With the ability to upload and extract the contents within the .pkg files Privilege Manager inventories the applications that are bundled in any given .pkg.
 

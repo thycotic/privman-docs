@@ -9,9 +9,9 @@ Privilege Manager provides pre-configured and fully customizable reporting on th
 
 Privilege Manager supports agents on:
 
-* Windows
-* macOS
-<!-- * Unix/Linux -->
+* [Windows](win/index.md)
+* [macOS](macOS/index.md)
+* [Unix/Linux](nix/index.md)
 
 endpoint operating systems.
 

@@ -7,7 +7,7 @@ This topic provides a chronological list of documentation changes. Minor content
 
 ## January 2021
 
-
+* Added topics covering Unix/Linux agent endpoint support.
 ## December 2020
 
 * Added [10.8.2 Release Notes](10.8.2-combined.md).

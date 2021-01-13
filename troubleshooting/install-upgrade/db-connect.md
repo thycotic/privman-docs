@@ -15,4 +15,4 @@ Reasons for this state:
   * SQL Integrated Security settings and no further details need to be entered when the first radio button is selected. This is usually the account information for the account running the application pools for Privilege Manager in IIS.
   * Overwrite Account credentials when the second radio button is selected.
 
-If a database connection ever needs to be updated, the __Connect to Database__ page can be accessed from your browser by navigating to `.../TMS/Setup/Database/ConnectDatabase`.
+If a database connection ever needs to be updated, the __Connect to Database__ page can be accessed by a __Privilege Manager Administrator__ from the browser by navigating to `.../TMS/Setup/Database/ConnectDatabase`.

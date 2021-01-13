@@ -3,7 +3,7 @@
 [priority]: # (2)
 # Configuration Feeds
 
-Configuration Feeds are extensions to Privilege Manager. They allow Thycotic to deliver new components/items to Privilege Manager on demand. Simply click through the options in the Config Feeds page. 
+Configuration Feeds are extensions to Privilege Manager. They allow Thycotic to deliver new components/items to Privilege Manager on demand. Simply click through the options in the __Config Feeds__ page.
 
 1. Navigate to __Admin | Config Feeds__.
 1. Browse the available config feeds by expanding __Privilege Manager Product Configuration Feeds__.
@@ -21,7 +21,7 @@ Configuration Feeds are extensions to Privilege Manager. They allow Thycotic to 
 | | [Secondary File Hash Exclusion Policy](../tasks/client/exclude-from-file-hash.md) | Policy template to exclude non-executable files from the hash process. |
 | | UNC Allow Policy Template | Contains the UNC Share Allow Policy Template to scan a network share and automatically allow files in MSI, ISO, ZIP files. |
 | | [UNC Elevation Policy Template](../../computer-groups/app-control/examples/elevate/network-share.md) | Contains the UNC Share Elevation Policy Template to scan a network share and automatically elevate MSI and EXE files. |
-| | [Visual Studio Installer Elevation](../../computer-groups/app-control/examples/elevate/ms-visual-studio.md) | This configuration feed imports example filters and a policy for elevating Visual Studio Installers. After the installation the policy needs to be activated. Note: For enhanced security, the policy should include a certificate filter when rolled out into a production environment. |
+| | [Visual Studio Installer Elevation](../../computer-groups/app-control/examples/elevate/ms-visual-studio.md) | Contains example filters and a policy for elevating Visual Studio Installers. After the installation the policy needs to be activated. Note: For enhanced security, the policy should include a certificate filter when rolled out into a production environment. |
 | Local Security Solution |  Disclose Password HelpDesk Tab | Adds the helpdesk tab to the Security Manager console. |
 | Thycotic Management Server Core | Maintenance Resources | Contains maintenance gauges, tasks, etc. for optimal TMS performance. |
 | | [Privileged Behavior Analytics Integration](../config/foreign-systems/thycotic/set-up-pba.md) | Contains tasks for sending data to Privileged Behavior Analytics (PBA) - requires a SysLog Foreign System to be configured. |
@@ -37,3 +37,6 @@ There are three potential options for each of the Configuration Feeds.
 * Update: This option is shown when the configuration feed has previously been installed on the Privilege Manager instance and an update to the configuration feed is available.  
 
 ![expand all](images/expand-all.png "Expanded Configuration Feeds indicating installation/update options")
+
+>**Note**: If items from a configuration feed are used and have been customized, any reinstallation or update will overwrite those customizations. Always rename modified items or save a copy to provide accidental overwriting.
+ 

@@ -1,9 +1,9 @@
 [title]: # (Advanced Commandline)
-[tags]: # (filter types, *nix)
+[tags]: # (filter types, unix/linux)
 [priority]: # (3)
 # Advanced Commandline Filter
 
-These filters perform a GLOB or RegEx match on the commandline of the process.
+This filter performs a glob or RegEx match on the commandline of the process.
 
 ## Create a new Advanced Commandline Type Filter
 

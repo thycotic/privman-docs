@@ -18,3 +18,9 @@ The banner is displayed for the following conditions:
 The banner is expandable and lists all filter definitions creating the potential conflict. Each filter definition is a hyperlink to the offending filter.
 
 Removing the offending filters from the policy clears the banner warning.
+
+## Invalid Policies
+
+When a policy has a user context filter as the only application target, the policy validation fails and a __Policy invalid__ warning is displayed.
+
+![Policy invalid](images/pol-invalid.png "Policy invalid warning")

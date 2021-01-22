@@ -10,6 +10,11 @@ Items can be imported in different ways, which are further detailed below.
 
 ![Import Items](images/import.png)
 
+Unsupported or missing file extensions trigger an error message on the import modal. The following file types are supported:
+
+* .xml
+* .zip
+
 ## Using Import Items
 
 1. Navigate to __Admin | Import Items__.

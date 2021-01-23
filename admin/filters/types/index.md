@@ -3,12 +3,19 @@
 [priority]: # (5000)
 # Filter Types and Descriptions
 
-There are different types of filters. When creating a new filter for Windows or macOS, the "Filter Type" drop-down gives you a list of options that include the categories:
+There are different types of filters for different operating systems and applicable functional areas. When creating a new filter,
 
-* [Application Filters](application/index.md)
-* [File Filters](file/index.md)
-* [Inventory Filters](inventory/index.md)
-* [macOS Specific Filters](macOS/index.md)
+* the __Platform__ drop-down offers a choice of macOS, Windows, and Unix/Linux.
+
+  * [Unix/Linux](nix/index.md)
+  * [Mac OS](macOS/index.md)
+  * Windows
+
+* when Windows or macOS is selected as a platform, the __Filter Type__ drop-down gives a list of options based on that platform selection:
+
+  * [Application Filters](application/index.md)
+  * [File Filters](file/index.md)
+  * [Inventory Filters](inventory/index.md)
 
 These are loose groupings that signify a few different approaches to the filtering method or targets.
 

@@ -16,6 +16,13 @@ Here is the complete list of Actions that come with Privilege Manager out-of-the
 | Adjust Effective Process Rights Action | __Run as Root__ | Adjust the process rights of the application to run as the root user (MacOS) |
 | Allow Copy Action | __Allow Copy to Applications Directory__ | This action is used by policies that allow users to copy applications to the root Applications directory as standard users. |
 | | __Allow Package Installation__ | This action is used by policies that allow users to run the package installer elevated. |
+| AuthorizationDB Right Action | __Activity Monitor Kill Authorization Right__ (com.apple.activitymonitor.kill) | This action grants the com.apple.activitymonitor.kill right in the authorizationdb for the duration of an applicable process. |
+| | __Add to System Keychain Authorization Right__ (system.keychain.create.loginkc) | This action grants the system.keychain.create.loginkc right in the authorizationdb for the duration of an applicable process. |
+| | __Bless Helper Authorization Right__ (com.apple.ServiceManagement.blesshelper) | This action grants the com.apple.ServiceManagement.blesshelper right in the authorizationdb for the duration of an applicable process. |
+| | __Install Apple Software Authorization Right__ (system.install.apple-software) | This action grants the system.install.apple-software right in the authorizationdb for the duration of an applicable process. |
+| | __Modify System Keychain Authorization Right__ (system.keychain.modify) | This action grants the system.keychain.modify right in the authorizationdb for the duration of an applicable process. |
+| | __XCode Documentation Sets Authorization Right__ (com.apple.docset.install) | This action grants the com.apple.docset.install right in the authorizationdb for the duration of an applicable process. |
+| | __XCode FLE Authorization Right__ (com.apple.dt.Xcode.LicenseAgreementXPCServiceRights) | This action grants the com.apple.dt.Xcode.LicenseAgreementXPCServiceRights right in the authorizationdb for the duration of an applicable process. |
 | Display Advanced Message Action| __Application Approval Request (with Offline Fallback) Message Action__ | Application Approval Request Message Action for Mac OS |
 | | __Application Approval Request (with ServiceNow Request Item Number) Message Action__ | This action will display an approval request form for ServiceNow integrations for approval before allowing application to run on macOS endpoints. |
 | | __Application Approval Request Message Action__ | Application Approval Request Message Action for Mac OS |

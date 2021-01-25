@@ -4,20 +4,23 @@
 
 # Package Hash Verification
 
-Privilege Manager verifies the SHA512 hash of downloaded packages during the install/update process.
+## Automatically when Online
+
+Privilege Manager verifies the SHA512 hash of downloaded packages during the install/update process. Installation of packages does not happen if a downloaded package hash does not match with the NuGet server information.
 
 The following measures are implemented:
 
 * Privilege Manager prevents zero byte files from passing hash validation.
 * Through hash validation, Privilege Manager ensures any download or disk write failures (disk space issues, rights, etc) do not leave remnants of partially extracted packages on the system.
 * Privilege Manager writes a warning into the logs and does not start an install/upgrade from the install pages unless it can validate the packages. It re-checks when the install is running, to accommodate other Privilege Manager servers in a multi-server environment, so that each server checks packages while doing its install.
-* For offline package installs, Privilege Manager assumes the user has validated the package integrity. Refer to __Validating Package Integrity for Offline Upgrades__ below.
 
-Tempering or disk-write failure are logged, those can be due to skipped package validation, if the hash cannot be received from the NuGet server, or for offline updates or packages that are considered pre-release and not yet publicly available.
+Tempering or disk-write failures are logged, those can be due to skipped package validation, when the hash cannot be received from the NuGet server, or for offline updates or packages that are considered pre-release and not yet publicly available. Also, files shares can be setup, restricting a user's write access to prevent tempering of downloaded packages, which is a best practice for offline environments.
+
+>**Note**: For offline package installs, Privilege Manager assumes the user has validated the package integrity. Refer to __Validating Package Integrity for Offline Upgrades__ below.
 
 ## Validating Package Integrity for Offline Upgrades
 
-Users need to either
+Privilege Manager does not verify package integrity in offline scenarios without the following user action. Users need to either
 
 * copy the package hash files along with the NuGet packages, or
 * calculate the hash files themselves (see PowerShell examples below.

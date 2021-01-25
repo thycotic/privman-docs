@@ -10,9 +10,9 @@ Xcode relies on two authorizationdb rights to provide certain aspects of its fun
 
 ## Agree to License Agreement
 
-The default right Xcode uses requires the user to be in the admin's group and will prompt for admin credentials.
+The default right to agree to the license agreement Xcode uses, requires the user to be in the admin's group and will prompt for admin credentials.
 
-To elevate this aspect of XCode, you can create a policy that targets XCode and has the XCode FLE Authorization Right (com.apple.dt.XCode.LicenseAgreementXPCServiceRights) Authorization DB Right Name.
+To elevate this aspect of Xcode, you can create a policy that targets Xcode and has the Xcode FLE Authorization Right (com.apple.dt.Xcode.LicenseAgreementXPCServiceRights) Authorization DB Right Name.
 
 Advanced message actions such as Approval, Deny, Justification, or Warning should not be used in conjunction with this action.
 
@@ -21,7 +21,7 @@ Advanced message actions such as Approval, Deny, Justification, or Warning shoul
 1. Select __Run Silently__, click __Next Step__.
 1. Select __Executables__, click __Next Step__.
 1. Select __Modify Authorization Database__, click __Next Step__.
-1. Select __Existing Filter__, search for and use an App Bundle filter that targets XCode. If one doesn't exist, create it.
+1. Select __Existing Filter__, search for and use an App Bundle filter that targets Xcode. If one doesn't exist, create it.
 1. Click __Update__.
 1. Click __Next Step__.
 1. Name your policy, add a description.
@@ -34,11 +34,11 @@ Advanced message actions such as Approval, Deny, Justification, or Warning shoul
 
 ### What to Expect on the Endpoint
 
-* __With__ a policy in place, when XCode is run the first time and the user is a standard user and the policy is effective, the user will only be prompted to agree to the license agreement:
+* __With__ a policy in place, when Xcode is run the first time and the user is a standard user and the policy is effective, the user will only be prompted to agree to the license agreement:
 
   ![policy](images/authdb/xcode-2.png "Policy in place requiring license agreement only")
 
-* __Without__ policy in place, when XCode is run the first time and the user is a standard user, it prompts to agree to the license agreement. Clicking Agree results in the user being asked to provide admin credentials:
+* __Without__ policy in place, when Xcode is run the first time and the user is a standard user, it prompts to agree to the license agreement. Clicking Agree results in the user being asked to provide admin credentials:
 
   ![no policy](images/authdb/xcode-1.png "No policy in place requiring authentication by user")
 
@@ -59,7 +59,7 @@ Advanced message actions such as Approval, Deny, Justification, or Warning shoul
 1. Select __Run Silently__, click __Next Step__.
 1. Select __Executables__, click __Next Step__.
 1. Select __Modify Authorization Database__, click __Next Step__.
-1. Select __Existing Filter__, search for and use an App Bundle filter that targets XCode. If one doesn't exist, create it.
+1. Select __Existing Filter__, search for and use an App Bundle filter that targets Xcode. If one doesn't exist, create it.
 1. Click __Update__.
 1. Click __Next Step__.
 1. Name your policy, add a description.
@@ -75,6 +75,6 @@ Advanced message actions such as Approval, Deny, Justification, or Warning shoul
 * __With__ a policy in place, when a standard user attempts to install an iOS simulator and the policy is effective, the install will begin without prompting for credentials:
 
   ![policy](images/authdb/xcode-iOS-2.png "Policy in place iOS Simulator running")
-* __Without__ a policy in place, by default, a standard user attempts to install an iOS simulator they will be prompted for admin credentials:
+* __Without__ a policy in place, by default, when a standard user attempts to install an iOS simulator they will be prompted for admin credentials:
 
   ![no policy](images/authdb/xcode-iOS-1.png "No policy in place requiring authentication by user")

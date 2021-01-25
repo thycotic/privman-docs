@@ -89,6 +89,6 @@ The man page for DevToolsSecurity says:
 
 On normal user systems, the first time in a given login session that any such Apple-code-signed debugger or performance analysis tools are used to examine one of the user's processes, the user is queried for an administrator password for authorization. Use the DevToolsSecurity tool to change the authorization policies, such that a user who is a member of either the admin group or the ___developer__ group does not need to enter an additional password to use the Apple-code-signed debugger or performance analysis tools." (macOS system man page quote)
 
-Depending on your requirements, you can address the issue of the user being prompted for admin credentials by adding their users to the ___developer__ group via LSS. If you wish to enable Developer mode and avoid the dialog entirely, you can create a scheduled command (client task) in Privilege Manager to run the DevToolsSecurity command and enforce it on specific endpoints based on the LSS group membership.
+Depending on your requirements, you can address the issue of the user being prompted for admin credentials by adding your users to the ___developer__ group via LSS. If you wish to enable Developer mode and avoid the dialog entirely, you can create a scheduled command (client task) in Privilege Manager to run the DevToolsSecurity command and enforce it on specific endpoints based on the LSS group membership.
 
 ![dev tool security](images/authdb/dev-tool-sec-cmd.png "Customizing the DevToolSecurity command")

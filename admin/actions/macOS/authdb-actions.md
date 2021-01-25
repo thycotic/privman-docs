@@ -10,7 +10,6 @@ Privilege Manager provides the following default AuthorizationDB Right actions:
 * Install Apple Software Authorization Right (system.install.apple-software)
 * Modify System Keychain Authorization Right (system.keychain.modify)
 * Xcode FLE Authorization Right (com.apple.dt.Xcode.LicenseAgreementXPCServiceRights)
-​
 
 ![authdb actions](images/authdb/authdb-actions.png "AuthorizationDB action list")
 

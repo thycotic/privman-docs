@@ -9,7 +9,7 @@ In Application Control, layered Policies create the backbone or parameters, that
 * Targets - Where should this policy be applied?
 * Actions - What should happen to the applications this policy applies to? (i.e. blocked, allowed, etc.)
 
-During the creation of a Policy you will specify Actions and Targets, but Filters are created separately and then assigned to Policies.
+During the creation of a Policy you will specify Actions and Targets, and Filters that are created separately but then assigned to Policies.
 
 The __Privilege Manager Policy Wizard__, guides users through the policy creation process, with step-by-step decision making guidance.
 
@@ -54,3 +54,4 @@ You can avoid conflicts resulting from incorrectly configured Privilege Manager 
   * LocalSystem and Service
   * Signed Security Catalog
 * You should (almost) never use wildcards in deny policies. Wildcards should be considered only after performing extensive testing.
+* Do not add User Context filters as the only application target to a policy. Starting with Privilege Manager version 11, the UI does alert to this as being an invalid policy. Refer to [Warning Banner indicating Filter Error Conditions in Policies](error-conditions.md).

@@ -26,6 +26,7 @@ This topic provides a chronological list of documentation changes. Minor content
 * Added [Visual Studio Installer Elevation](../admin/config-feeds/index.md) example policy and filters to configuration feeds. Removed topic [MS Visual Studio Installations](../computer-groups/app-control/examples/elevate/ms-visual-studio.md).
 * New topic [Active Directory Import - On-prem vs Cloud](../how-to/best-practices/ad-import/index.md)
 * New topic [Securing the IIS Server](../how-to/best-practices/securing-iis.md)
+
 ## October 2020
 
 Added [10.8.1 Release Notes](10.8.1-combined.md).

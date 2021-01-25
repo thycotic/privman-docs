@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.
+com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>NotificationSettings</key>
+                <array>
+                    <dict>
+                        <key>AlertType</key>
+                        <integer>1</integer>
+                        <key>BadgesEnabled</key>
+                        <true/>
+                        <key>BundleIdentifier</key>
+                        <string>com.thycotic.privilegemanagergui</string>
+                        <key>CriticalAlertEnabled</key>
+                        <true/>
+                        <key>NotificationsEnabled</key>
+                        <true/>
+                        <key>ShowInLockScreen</key>
+                        <false/>
+                        <key>ShowInNotificationCenter</key>
+                        <true/>
+                        <key>SoundsEnabled</key>
+                        <true/>
+                    </dict>
+                </array>
+                <key>PayloadDisplayName</key>
+                <string>Notifications</string>
+                <key>PayloadIdentifier</key>
+                <string>8BC5EB47-8E9B-4CCB-BFB8-7ED346060748.com.apple.notificationsettings.510D70CC-A4DE-42FB-B327-CAA358740DF7</string>
+                <key>PayloadOrganization</key>
+                <string></string>
+                <key>PayloadType</key>
+                <string>com.apple.notificationsettings</string>
+                <key>PayloadUUID</key>
+                <string>510D70CC-A4DE-42FB-B327-CAA358740DF7</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDisplayName</key>
+        <string>Approve Privman Notifications</string>
+        <key>PayloadIdentifier</key>
+        <string>com.thycotic.com.8BC5EB47-8E9B-4CCB-BFB8-7ED346060748</string>
+        <key>PayloadOrganization</key>
+        <string>Thycotic</string>
+        <key>PayloadScope</key>
+        <string>System</string>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>8BC5EB47-8E9B-4CCB-BFB8-7ED346060748</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+    </dict>
+</plist>

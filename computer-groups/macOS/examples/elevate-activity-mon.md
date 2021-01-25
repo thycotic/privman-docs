@@ -5,7 +5,7 @@
 
 ## Authorizationdb Right: com.apple.activitymonitor.kill
 
-This action can be used to elevate killing processes that do not belong to the logged in user in Activity Monitor while it is running. The right will be elevated for the duration that Activity Monitor is running . Once the application is quit, the right will be restored to its default.
+This action can be used to elevate killing processes that do not belong to the logged in user in Activity Monitor while it is running. The right will be elevated for the duration that Activity Monitor is running. Once the application is quit, the right will be restored to its default.
 
 Advanced message actions such as Approval, Deny, Justification, or Warning should not be used in conjunction with this action.
 

@@ -5,7 +5,7 @@
 
 ## Authorizationdb Right: com.apple.ServiceManagement.blesshelper
 
-This action deals with applications that use SMJobBless to install privileged helpers. This action can be used to elevate the installation of a privileged helper while an application is running. The right will be elevated for the duration the targeted application. Once the application is quit, the right will be restored to its default.
+This action deals with applications that use SMJobBless to install privileged helpers. This action can be used to elevate the installation of a privileged helper while an application is running. The right will be elevated for the duration of the targeted application. Once the application is quit, the right will be restored to its default.
 
 Advanced message actions such as Approval, Deny, Justification, or Warning should not be used in conjunction with this action.
 
@@ -29,7 +29,7 @@ Advanced message actions such as Approval, Deny, Justification, or Warning shoul
 
 ### What to Expect on the Endpoint
 
-* __With__ a policy in place, when Charles Proxy is started and the policy is effective and its helper is installed, it will present this dialog:
+* __With__ a policy in place, when Charles Proxy is started and the policy is effective and its helper isn't installed, it will present this dialog:
 
   ![policy](images/db-right/bless-helper-1.png "Policy in place allow automatic configuration")
 
@@ -37,3 +37,5 @@ Advanced message actions such as Approval, Deny, Justification, or Warning shoul
 * __Without__ a policy in place, when Charles Proxy is started and its helper isn't installed, it will present an authorization required dialog:
 
   ![no policy](images/db-right/bless-helper-2.png "No policy in place requiring authentication by user")
+
+>**Note**: Privileges to the Helper, if not already installed, need to be granted no matter if a policy is in place or not. Granting those privileges, however won't require an authorization when a policy with Bless Helper Authorization Right action is in place and active.

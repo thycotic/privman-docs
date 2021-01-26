@@ -20,9 +20,12 @@ This topic provides a chronological list of documentation changes. Minor content
 * Edits to [CorrelationID support to Server Logs](../admin/log-viewer/index.md).
 * New subtopic [Complex Password Policy enforcement for Privilege Manager users](../admin/users/pw-complexity.md).
 * Added [MDM Profiles for macOS Agents](../agents/macOS/mdm-profiles.md) topic.
-* Added [Visual Studio Installer Elevation](../admin/config-feeds/index.md) example policy and filters to configuration feeds. Removed topic [MS Visual Studio Installations](../computer-groups/app-control/examples/elevate/ms-visual-studio.md).
+* Added [Visual Studio Installer Elevation](../admin/config-feeds/index.md) example policy and filters to configuration feeds. 
+* Removed topic [MS Visual Studio Installations](../computer-groups/app-control/examples/elevate/ms-visual-studio.md).
 * New topic [Active Directory Import - On-prem vs Cloud](../how-to/best-practices/ad-import/index.md)
 * New topic [Securing the IIS Server](../how-to/best-practices/securing-iis.md)
+* Moved [VM Deployments](../agents/all/vm-deployments.md) to the Agents/All Agents section.
+
 ## October 2020
 
 Added [10.8.1 Release Notes](10.8.1-combined.md).

@@ -1,5 +1,5 @@
 [title]: # (VM Deployments)
-[tags]: # (virtual machines)
+[tags]: # (virtual machines,vdi)
 [priority]: # (2)
 # VM Deployments
 

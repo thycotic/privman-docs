@@ -108,14 +108,14 @@ sudo installer -pkg ThycoticManagementAgent.10.8.1019.pkg -target /
 
 As in the example using a Network Share, the PKG will first look for an __agentconfig.json__ file located in the same folder. When it finds this file, it will copy __agentconfig.json__ into the _/Library/Application Support/Thycotic/Agent_ folder during the unattended install on the endpoint Mac where the installer is running.
 
-For more instructions on how to deploy in bulk using Microsoft Software System Center Configuration Manager (SCCM), Microsoft instructions for Macs are described [here](https://technet.microsoft.com/en-us/library/jj687950.aspx).
+For more instructions on how to deploy in bulk using Microsoft Software System Center Configuration Manager (SCCM), Microsoft instructions for Macs are described [here](https://docs.microsoft.com/en-us/previous-versions/system-center/system-center-2012-r2/jj687950(v=technet.10)).
 
 ## After Initial Deployment
 
 If the Mac already has an existing __agentconfig.json__ file, it will NOT be overwritten because creating a file only occurs if the computer didn't already have an __agentconfig.json__ installed. This means you can use the same distribution package for upgrades and new installs.
 
 >**Note**:
->It will take 15-30 minutes for newly installed agents to register in Privilege Manager. See the agent registration information in the [Terminal Commands](agent-inst-mac.md#terminal_commands) topic to speed the process up.
+>It will take 15-30 minutes for newly installed agents to register in Privilege Manager. See the agent registration information in the [Terminal Commands](../../agents/macOS/terminal.md) topic to speed the process up.
 
 ## Uninstalling an Agent
 

@@ -27,7 +27,7 @@ Privilege Manager AuthenticationDB actions should not be used with advanced mess
 1. Click __Create__.
 
    ![default](images/authdb/action-default.png "Default AuthorizationDB Right Action page without Settings customization")
-1. Under Authorization DB Right Settings in the __Right Name__ field enter the Apple specified authorization database right name, refer to the Apple man pages for details.
+1. Under Authorization DB Right Settings in the __Right Name__ field enter the desired authorization database right name.
 1. Click __Save Changes__.
 
 The action can now be added to existing macOS elevation policies or selected at policy creation following the use of __Modify Authorization Right__ on the final create policy wizard page by selecting it from the __Right Name__ drop-down.

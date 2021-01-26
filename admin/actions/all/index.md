@@ -6,7 +6,7 @@
 Messages are the most common application action used in Privilege Manager. These messages are presented for end users on their endpoints. There are two kinds of messages:
 
 * Basic, these display as smaller pop-ups directly form the taskbar area. They display and fade automatically. From the Action Type drop-down these are the [Display User Message](display-user-msg.md) actions for both Windows and macOS.
-* Advanced, these messages display as a user dialog, requiring users to justify access to a certain application or to warn the user. Most of these messages require user interaction, but some can be set to fade in and out for the end user. From the Action Type drop down these are the [Display Advanced Message](display-adv-msg.md) for Windows and [Display Advanced User Message (MacOS)](macOS/macOS-adv-msg.md) for macOS endpoints.
+* Advanced, these messages display as a user dialog, requiring users to justify access to a certain application or to warn the user. Most of these messages require user interaction, but some can be set to fade in and out for the end user. From the Action Type drop down these are the [Display Advanced Message](display-adv-msg.md) for Windows and [Display Advanced User Message (MacOS)](../macOS/macOS-adv-msg.md) for macOS endpoints.
 
 Both basic and advanced messages are useful for providing feedback to users that an application is being blocked, usage of the application is being logged, or any message that the end user should see.
 
@@ -135,18 +135,6 @@ This action displays a message to the user informing that an application has had
 This action displays a message to the user informing them of an associated action. The Remove Administrative Rights Action or Remove Advanced Privileges Action should be used with this message.
 
 ![Default Remove Rights Message](images/rights-removed.png "Default Remove Rights Message")
-<!--
-### SWV Global Layer User Message
-
-This action displays a message to the user informing that an application has been placed in SWV global layer.
-
-![Default SWV Global Layer User Message](msgs/images/layer.png "Default SWV Global Layer User Message")
-
-### SWV Isolation Layer User Message
-
-This action displays a message to the user informing them that an application has been placed in SWV isolation layer.
-
-![Default SWV Isolation Layer User Message](msgs/images/isolation.png "Default SWV Isolation Layer User Message")-->
 
 ### Quarantine Message
 

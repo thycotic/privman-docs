@@ -37,12 +37,9 @@ These following topics are available:
 
 * [macOS Specific Policies](../../macOS/examples/index.md)
   * [Allow Copy/Install of Applications](../../macOS/examples/copy-install.md)
-  * [Request Application Installation](../../macOS/examples/app-install-approval-request.md)
   * [Application Self-elevation](../../macOS/examples/self-elevation.md)
   * [Use Discovery to Determine if an Application Requires Admin Privileges](../../macOS/examples/determ-admin.md)
   * [Require Justification for Firefox](../../macOS/examples/justification-firefox.md)
   * [Deny Photos Application](../../macOS/examples/deny-photos.md)
   * [Adding macOS Agents to a Computer Testing Group](../../macOS/examples/add-testing-group.md)
   * [Inventorying .pkg Files](../../macOS/examples/inventory-pkg.md)
-  
-

@@ -3,7 +3,7 @@
 [priority]: # (4)
 # MS Visual Studio Installations
 
-After downloading the [Visual Studio Installer Elevation configuration feed](../../../../admin/config-feed/index.md), follow the below best practices to elevate Visual Studio Installer packages.
+After downloading the [Visual Studio Installer Elevation configuration feed](../../../../admin/config-feeds/index.md), follow the below best practices to elevate Visual Studio Installer packages.
 
 ## Customizing the Policy
 

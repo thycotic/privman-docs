@@ -10,7 +10,7 @@ This page provides links to Thycotic Privilege Manager product and agents softwa
 | Version | Product |
 | ----- | ----- |
 | 10.8.2 | [Combined Secret Server and Privilege Manager Installer](https://thycotic.force.com/support/s/download-onprem) - Authentication required! |
-| | [NuGet source for manual and/or offline install/upgrades](https://tmsnuget.thycotic.com/software/PrivManOfflineUpgrade/10.8.2/upgrade.zip) |
+| | [Privilege Manager Offline Upgrade](https://tmsnuget.thycotic.com/software/PrivManOfflineUpgrade/10.8.2/upgrade.zip) |
 
 ## Agent Software
 

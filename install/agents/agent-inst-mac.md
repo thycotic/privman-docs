@@ -108,7 +108,7 @@ sudo installer -pkg ThycoticManagementAgent.10.8.1019.pkg -target /
 
 As in the example using a Network Share, the PKG will first look for an __agentconfig.json__ file located in the same folder. When it finds this file, it will copy __agentconfig.json__ into the _/Library/Application Support/Thycotic/Agent_ folder during the unattended install on the endpoint Mac where the installer is running.
 
-For more instructions on how to deploy in bulk using Microsoft Software System Center Configuration Manager (SCCM), Microsoft instructions for Macs are described [here](https://technet.microsoft.com/en-us/library/jj687950.aspx).
+For more instructions on how to deploy in bulk using Microsoft Software System Center Configuration Manager (SCCM), Microsoft instructions for Macs are described [here](https://docs.microsoft.com/en-us/previous-versions/system-center/system-center-2012-r2/jj687950(v=technet.10)).
 
 ## After Initial Deployment
 

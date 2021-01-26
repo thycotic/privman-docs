@@ -186,8 +186,7 @@ TMS requires **Read** access to the private key of the certificate being used fo
 1. Right-click on the certificate and select **All Tasks | Manage Private Keys**.
 1. Grant **Read** access to the identity account for your application pools.
 
-If the "Manage Private Keys" option is not available, you can set this permission in PowerShell. <!-- [This article ](https://thycotic.force.com/support/s/article/PM-Adv-Setting-Read-Access-to-the-Private-Key-of-your-Certificate-in-Powershell)
-has the script. -->
+If the "Manage Private Keys" option is not available, you can set this permission in PowerShell.
 
 ### Verify Login on Secondary Node
 

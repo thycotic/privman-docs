@@ -3,7 +3,7 @@
 [priority]: # (3)
 # Best Practices Printer Installs
 
-To install and manage printers via the Printers and Scanners preference pane, standard users on macOS should be added as members of the __lpadmin__ group. You can use Privilege Manager's [LSS user and group management features](../../local-security/ls-local-users.md) to assist with this.
+To install and manage printers via the Printers and Scanners preference pane, standard users on macOS should be added as members of the __lpadmin__ group. You can use Privilege Manager's [LSS user and group management features](../../../computer-groups/local-security/ls-local-users.md) to assist with this.
 
 On macOS, adding a printer can happen in three ways. Two of those can be allowed through an elevation policy enabling a user to add a printer via
 

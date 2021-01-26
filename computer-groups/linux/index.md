@@ -5,7 +5,7 @@
 
 The default Unix/Linux Computer Group.
 
-![default](images/default.png "Default Windows Computer Group")
+![default](images/default.png "Default Unix/Linux Computer Group")
 
 This is the navigation entry point into the Unix/Linux Computer Group. The sub nodes are in feature parity with other OS computer groups. All policies or resources underneath __UNIX/LINUX COMPUTERS__ pertain to that specific default computer group.
 

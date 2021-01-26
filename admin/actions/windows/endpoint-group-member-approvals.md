@@ -35,4 +35,4 @@ Refer to the __Endpoint Group Member Authenticated Approvals__ report to view a 
 ## Related Topics
 
 * [Group Member Authenticated Message Action](group-member-approvals.md), which guides you through setting up approvals based on the group membership of the approver.
-* [Using an Endpoint Group Member Authenticated Message Action](../config/foreign-systems/third-party/set-up-servicenow.md), which guides you through setting up _over the shoulder_ approvals that can be used on- and offline with a ServiceNow system integration.
+* [Using an Endpoint Group Member Authenticated Message Action](../../config/foreign-systems/third-party/set-up-servicenow.md), which guides you through setting up _over the shoulder_ approvals that can be used on- and offline with a ServiceNow system integration.

@@ -115,7 +115,7 @@ For more instructions on how to deploy in bulk using Microsoft Software System C
 If the Mac already has an existing __agentconfig.json__ file, it will NOT be overwritten because creating a file only occurs if the computer didn't already have an __agentconfig.json__ installed. This means you can use the same distribution package for upgrades and new installs.
 
 >**Note**:
->It will take 15-30 minutes for newly installed agents to register in Privilege Manager. See the agent registration information in the [Terminal Commands](agent-inst-mac.md#terminal_commands) topic to speed the process up.
+>It will take 15-30 minutes for newly installed agents to register in Privilege Manager. See the agent registration information in the [Terminal Commands](../../agents/macOS/terminal.md) topic to speed the process up.
 
 ## Uninstalling an Agent
 

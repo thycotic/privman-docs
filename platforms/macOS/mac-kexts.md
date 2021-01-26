@@ -15,6 +15,14 @@ Refer to [Using an MDM Profile for your Agent](../../agents/macOS/mdm-profiles.m
 
 Many privileged operations are governed by rules in the authorizationdb and these rules determine what credentials are required to perform certain tasks depending on the right being authorized. To address restrictions placed on the macOS agent because we no longer have the fine-grained access and control provided by our KEXT, we’re extending how we leverage the authorizationdb to provide least privilege for users on macOS endpoints. In addition, we’ll be expanding upon this to provide coverage for more privileged operations.
 
+The policy wizard allows you to create macOS policies using the __Modify Authorization Database__ action. Refer to these examples and topic to learn more:
+
+* [AuthorizationDB Actions](../../admin/actions/macOS/authdb-actions.md)
+* [Elevating Xcode](../../computer-groups/macOS/examples/elevate-xcode.md)
+* [Elevating Modifying the Keychain](../../computer-groups/macOS/examples/elevate-keychain.md)
+* [Elevating Charles Proxy](../../computer-groups/macOS/examples/elevate-charles-proxy.md)
+* [Elevating Activity Monitor](../../computer-groups/macOS/examples/elevate-activity-mon.md)
+
 ## Using a Privacy Preference Policy Control Configuration Profile Payload
 
 The concept of [TCC](tcc-access.md) introduces Privacy Preference Policy Control (PPPC) configuration profile payload, which allow for enterprises to manage and ease, through Mobile Device Management (MDM), the installation process of products that leverage KEXTs and SYSEXs for their end-users. When properly configured, this eliminates the need for the user to deal with all of the dialogs below.

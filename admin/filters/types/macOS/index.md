@@ -36,6 +36,7 @@ The following filters are available based on type from a quick select drop-down 
 * [Signed File Filter](../application/signed-file.md)
 * [Time Of Day Filter](../application/time-of-day.md)
 * [User Context Filter](../application/user-context.md)
+  * [Levering the User Context Filter for NoMAD](user-context-nomad.md)
 
 ### File Filter Types
 

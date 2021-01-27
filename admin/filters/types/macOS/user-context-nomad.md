@@ -2,7 +2,7 @@
 [tags]: # (filter types)
 [priority]: # (8)
 
-# Levering the User Context Filter for NoMAD
+# Leveraging the User Context Filter for NoMAD
 
 Domain group memberships on macOS agents integrated with NoMAD can be targeted with a specific User Context filter.
 
@@ -24,4 +24,4 @@ You User Context Filter now contains the groups you associated with this filter,
 
 ![nomad groups](images/nomad-groups.png "MacOS User Context Filter list of associated groups")
 
->**Note**: If no groups are shown after the select resources search, you might have to run the Active Directory sync task to update available users and group.
+>**Note**: If no groups are shown after the select resources search, you might have to run the Active Directory sync task to update available users and groups.

@@ -25,7 +25,7 @@ The Privilege Manager agent is implemented by files in the following locations:
 
 * /Applications/Privilege Manager.app
 
-  This application bundle contains the Privilege Manager launch agent in form of the com.thycotic.acsd launch daemon, and the com.thycotic.acsd.systemextension system extension, which together implement the main functionality of the PM agent.
+  This application bundle contains the Privilege Manager launch agent and the com.thycotic.acsd launch daemon, which together implement the main functionality of the PM agent.
 * /Library/Application Support/Thycotic/Agent
 
   This folder contains configuration information and other data necessary for the PM agent.

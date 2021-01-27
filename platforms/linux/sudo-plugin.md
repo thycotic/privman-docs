@@ -1,5 +1,5 @@
 [title]: # (Sudo Plugin)
-[tags]: # (unix/linus)
+[tags]: # (unix,linux)
 [priority]: # (27)
 # Unix/Linux Privilege Manager Sudo Plugin
 

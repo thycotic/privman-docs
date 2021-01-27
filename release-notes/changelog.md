@@ -5,6 +5,11 @@
 
 This topic provides a chronological list of documentation changes. Minor content alterations are not tracked.
 
+## January 2021
+
+* Hotfix release notes entry related to Directory Services.
+* Several documentation improvements addressing broken cross-references.
+
 ## December 2020
 
 * Added [10.8.2 Release Notes](10.8.2-combined.md).

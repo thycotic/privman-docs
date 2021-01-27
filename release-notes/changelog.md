@@ -7,7 +7,7 @@ This topic provides a chronological list of documentation changes. Minor content
 
 ## January 2021
 
-* Hotfix release notes entry and Software Downloads topic update to reflect new Directory Services Agent version.
+* Hotfix release notes entry related to Directory Services.
 * Several documentation improvements addressing broken cross-references.
 
 ## December 2020

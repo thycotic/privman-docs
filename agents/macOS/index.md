@@ -8,6 +8,7 @@ This section of the Privilege Manager documentation covers information and step 
 The following topics are available:
 
 * [Agent Configuration](cfg/index.md)
+* [Agent Hardening](agent-hardening.md)
 * [Modify Update Agent Commands (MacOS) Policy](schedules.md)
 * [MacOS Agent Utility Preference Pane](utility.md)
 * [Terminal Commands](terminal.md)

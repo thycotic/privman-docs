@@ -12,7 +12,7 @@ If you already configured the AD Default User Credential skip to the Foreign Sys
 ## Set-up AD Default User Credential
 
 1. Select __Admin | Configuration__.
-1. Select the __User Credentials__ tab.
+1. Select the __Credentials__ tab.
 1. Edit the __Default User Credential__ or use __Create__ to add a new user. Set a domain credential with an Account Name and Password that has can read from the Active Directory domain(s).
 
    ![credential](images/ad_sync/default-user.png "Default User Credential")

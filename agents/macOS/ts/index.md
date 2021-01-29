@@ -7,3 +7,4 @@ The following topics offer troubleshooting help for macOS endpoints and agents:
 
 * [macOS - FileSystemWatcher](filesystemwatcher.md)
 * [How to Recover an Unresponsive macOS Endpoint](recover-unresponsive-macOS-endpoint.md)
+* [Sudo Command Timed Out](sudo-timeout.md)

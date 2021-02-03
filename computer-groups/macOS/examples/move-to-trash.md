@@ -18,23 +18,17 @@ When a standard user deletes an application bundle via __⌘-delete__ or __drag-
   * Warning - Warning dialog is invoked before it is allowed to complete
     * Cancelled - It is denied.
 
-To allow a standard user to delete application bundles from the /Applications directory, create an elevation policy that uses the __Copy Install Application__ filter under Inclusions. We recommend to also add a justification message action.
+To allow a standard user to delete application bundles from the /Applications directory, create an elevation policy that uses the __Copy Install Application__ filter under Inclusions. We recommend to also add a justification message action. For this example we are starting with an empty policy.
 
 1. Navigate to your macOS Computer Group and select __Application Policies__.
 1. Click __Create Policy__.
-1. Select __Controlling__ and click __Next Step__.
-1. Select __Elevate__ and click __Next Step__.
-1. Select __Require Justification__ and click __Next Step__.
-1. Select what types to target. In this case select __Executables__.
-1. Click __Next Step__.
-1. Select how you want the elevate policy to run, select __Run As Root__.
-1. Click __Next Step__.
-1. Select what you want to target, select __Existing Filter__.
-1. Add the __Any Package (MacOS)__.
-1. Click __Next Step__.
+1. Click __Skip the wizard, take me to a blank policy__.
 1. Enter a Name and description for your policy, click __Create Policy__.
 1. Click __Add Inclusions__.
 1. Search for and add the __Copy Install Application__ filter.
+1. Click __Update__.
+1. Click __Add Actions__.
+1. Search for and add the __Application Justification Message Action__.
 1. Click __Update__.
 1. Click __Save Changes__.
 1. Set the __Inactive__ switch to __Active__ for policy updates at the endpoint.

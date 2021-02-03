@@ -4,9 +4,9 @@
 
 # Supporting Multiple TLS Versions
 
- Privilege Manager on-premise does not work with Azure Service Bus if the web server is set to use only TLS 1.2 and needs TLS 1.1 enabled to function.
+Privilege Manager on-premise does not work with Azure Service Bus if the web server is set to use only TLS 1.2.
 
-To support a TLS version mismatch between Privilege Manager and the Azure Service Bus the web.config files for the Service Bus and Privilege Manager need to be edited as follows:
+For customers that want to restrict connections on their web server to TLS 1.2, need to make modifications to  C:\inetpub\wwwroot\Tms\ServiceBus\web.config and C:\inetpub\wwwroot\Tms\Worker\web.config. They also must have .NET Framework 4.6 or newer installed and modify the <system.web> section as follows:
 
 1. Open `C:\inetpub\wwwroot\Tms\ServiceBus\web.config`.
 1. Change the <system.web> section to:

@@ -47,3 +47,27 @@ Clicking __Show Advanced__, provides access to setting Policy Enforcement option
 * Skip Policy Analysis at Start-up.
 
 Refer to [Policy Enforcement](stage-two.md) for further details.
+
+## Policy Events Tab
+
+The Policy Events tab lists all events that were discovered with this specific policy.
+
+The Policy Events page provides the
+
+* File Path
+* Computer Name
+* User Name
+* Product Name
+* Product Version
+* Action Applied
+* Command Line
+
+information for the active application control policy creating the events.
+
+![policy events](images/pol-events.png "Policy Events page for a specific application control policy")
+
+## Change History Tab
+
+The Change History tab provides insight into any change events for the specific policy.
+
+![change history](images/pol-events.png "Change History page for a specific application control policy")

@@ -5,7 +5,7 @@
 # Events Drilldown
 
 After selecting __View File__ the Summary page is displayed for the process that triggered the application policy event.
-The summary page lists details, such as the File Name, Original File Name, Product Name, Version, Internal Name, Company Name, Copyright, File Hashes, and provides to view reputation if reputation checking is enabled.
+The summary page lists details, such as the File Name, Original File Name, Product Name, Version, Internal Name, Company Name, Copyright, File Hashes, and provides the ability to view reputation details if reputation checking is enabled.
 
 When drilling down into this information the context determines the information that is provided:
 
@@ -30,7 +30,7 @@ The __Similar Files Report__ lists all files that are similar to the recorded po
 
 ### Observed Parent Processes
 
-The __Observed Parent Processes__ report lists all parent processes for the recorded policy events. This report allows to view all parent, and grant parent processes as recorded.
+The __Observed Parent Processes__ report lists all parent processes for the recorded policy events. This report allows the view of all parent and grant parent processes as recorded.
 
 ## Known Data
 

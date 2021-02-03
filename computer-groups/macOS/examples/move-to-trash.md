@@ -37,3 +37,5 @@ To allow a standard user to delete application bundles from the /Applications di
 1. Set the __Inactive__ switch to __Active__ for policy updates at the endpoint.
 
    ![generic](images/move-to.png "Generic policy for move to trash elevation")
+
+>**Note**: These basic steps can also be used to allow a user to update or replace an App Bundle by drag-n-drop via Finder to the /Applications folder.

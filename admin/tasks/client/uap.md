@@ -63,7 +63,7 @@ When this policy is triggered the Agent will check the server for updated polici
 | Agent Received Size | depends on the number of updated policies |
 | Restrictions | none |
 
-## Update Applicable Policies (unix/Linux)
+## Update Applicable Policies (Unix/Linux)
 
 This remote-scheduled command will update policies applicable to the assigned agents.
 

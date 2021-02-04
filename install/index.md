@@ -5,7 +5,7 @@
 
 This sections contains all you need to know about installation and upgrading Privilege Manager and all its components.
 
-The following topic are available:
+The following topics are available:
 
 * [System Requirements](sysreq.md)
 * [Recommended Anti Virus Exclusions](antivirus-exclusions.md)

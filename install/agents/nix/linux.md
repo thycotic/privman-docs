@@ -16,7 +16,7 @@ Other locations Thycotic agent will modify system files: `/etc`, `/etc/pam.d`, `
 
 ## Disable Security-Enhanced Linux (SELinux)
 
-Currently for the Thycotic Identity Bridge agent to correctly authenticate against Active Directory Thycotic requires that the SELinux functionality of the host machine is disabled.
+Currently for the Thycotic Identity Bridge agent to correctly authenticate against Active Directory, Thycotic requires that the SELinux functionality of the host machine be disabled.
 
 The agent installer will detect if SELinux is set to Enforcing or Permissive and provide the following message at the end of the installation.
 
@@ -33,7 +33,7 @@ To disable the SELinux functionality you will need to perform the following:
    * Example: SELINUX=disabled
 1. Reboot your host
 
-If SElinux is disabled the message will not be displayed.
+If SELinux is disabled the message will not be displayed.
 
 For CentOS, RedHat, and Oracle there are 2 methods for installing packages, rpm and yum, both methods are outlined below.
 

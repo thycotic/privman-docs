@@ -109,9 +109,9 @@ using the command:
 
 ## Post Installation
 
-By default Ubuntu does not start a newly installed package, therefore you will need to manually start the Thycotic Agent
+By default Ubuntu does not start a newly installed package, therefore you will need to manually start the Thycotic Agent.
 
-Performed as non root user with sudo permissions
+Performed as non root user with sudo permissions:
 
 `>> sudo systemctl start pmagent.service`
 

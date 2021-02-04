@@ -6,7 +6,7 @@
 
 This section provides information that guides you through the Privilege Manager Unix/Linux agent installation steps.
 
-Once you have [downloaded the latest version](../../sw-downloads.md) of the installer you will need to securely copy it onto you host. You will need to perform the installation as root or a user with root sudo permissions.
+Once you have [downloaded the latest version](../../sw-downloads.md) of the installer you will need to securely copy it onto your host. You will need to perform the installation as root or a user with root sudo permissions.
 
 ## Prerequisites
 

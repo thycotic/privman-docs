@@ -88,3 +88,45 @@ For Windows systems the policies instruct the agent on the client system to repo
 | Agent Sent Size | |
 | Agent Received Size | |
 | Restrictions | |
+
+## Basic Inventory (Initial, Unix/Linux)
+
+This scheduled task triggers Unix/Linux agents who have not already sent basic inventory to send it for the first time.
+
+| Parameter | Value |
+| ----- | ----- |
+| Default Active | Yes |
+| Command | Perform Basic Inventory (Unix/Linux) |
+| Triggers | Daily at 10:00:00 AM |
+| | Upon task creation/modification |
+| Targets | Unix/Linux Computers |
+| Conditions | None specified by default |
+| Advanced | Allow task to be run on demand |
+| (missed) | Run task as soon as possible after a scheduled start is missed |
+| | Stop the task if it run for longer than 5 minutes. |
+| (retry on failure) | not set by default |
+| Rule | Default (Do not start a new instance) |
+| Agent Sent Size | |
+| Agent Received Size | |
+| Restrictions | |
+
+## Basic Inventory (Unix/Linux)
+
+This scheduled task triggers Unix/Linux agents who have not already sent basic inventory to send it for the first time.
+
+| Parameter | Value |
+| ----- | ----- |
+| Default Active | Yes |
+| Command | Perform Basic Inventory (Unix/Linux) |
+| Triggers | Daily at 10:00:00 AM |
+| | Upon task creation/modification |
+| Targets | Unix/Linux Computers |
+| Conditions | None specified by default |
+| Advanced | Allow task to be run on demand |
+| (missed) | Run task as soon as possible after a scheduled start is missed |
+| | Stop the task if it run for longer than 5 minutes. |
+| (retry on failure) | not set by default |
+| Rule | Default (Do not start a new instance) |
+| Agent Sent Size | |
+| Agent Received Size | |
+| Restrictions | |

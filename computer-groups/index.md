@@ -10,7 +10,7 @@ Each Computer Group has the following areas to specifically address
 * Application Policies, which are used for [Application Control](app-control/index.md) policies that can be created by using the Policy Wizard.
 * [User Policies](local-security/ls-local-users.md), which are used as part of [local security](local-security/index.md) and pertain to specific users.
 * [Group Policies](local-security/ls-local-groups.md), which are also part of [local security](local-security/index.md), but pertain to a group of users.
-* Scheduled Jobs, these are also known as client tasks. Many are by default active.
+* Scheduled Jobs, these are also known as [client tasks](../admin/tasks/client/index.md). Many are by default active.
 * Agent Configuration, these are agent configuration policies allowing a global configuration of agent behavior.
   * [Windows](../agents/win/cfg/index.md)
   * [macOS](../agents/macOS/cfg/index.md)
@@ -19,8 +19,9 @@ Each Computer Group has the following areas to specifically address
 
 If you have agents already installed and registered, you will see Computer Group numbers listed, divided by Privilege Manager’s two out-of-the-box computer groups:
 
-* Windows Computers and
 * MacOS Computers
+* Unix/Linux
+* Windows Computers and
 
 ![cg](images/cg.png "Default Computer Groups")
 

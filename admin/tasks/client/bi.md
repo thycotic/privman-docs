@@ -3,9 +3,9 @@
 [priority]: # (5)
 # Basic Inventory
 
-Basic Inventory (Initial, Windows) and (Initial, Mac OS) are scheduled to run at a client's initial start-up after the agent is installed. The cause of the policy's trigger is the task creation.
+Basic Inventory (Initial, Windows), (Initial, Mac OS), and (Initial, Unix/Linux) are scheduled to run at a client's initial start-up after the agent is installed. The cause of the policy's trigger is the task creation.
 
-The common Basic Inventory is scheduled to run daily at 8 am.
+The common Basic Inventory is scheduled to run daily at a set time.
 
 For Windows systems the policies instruct the agent on the client system to report the following WMI classes to the server:
 
@@ -112,7 +112,7 @@ This scheduled task triggers Unix/Linux agents who have not already sent basic i
 
 ## Basic Inventory (Unix/Linux)
 
-This scheduled task triggers Unix/Linux agents who have not already sent basic inventory to send it for the first time.
+This scheduled task triggers Unix/Linux agents who have already sent initial basic inventory.
 
 | Parameter | Value |
 | ----- | ----- |

@@ -1,7 +1,8 @@
 [title]: # (macOS Agents)
 [tags]: # (endpoint,installation,registration)
-[priority]: # (1604)
-# macOS Agents
+[priority]: # (2)
+
+# macOS ThycoticManagementAgent
 
 The Bundled Mac Agent DMG + PKG installer is available for macOS systems. You can use this installer directly on individual endpoints for testing or for production environments.
 
@@ -10,9 +11,9 @@ Starting with 10.8.2 Thycotic provides two macOS Agent installers,
 * one in support of __KEXT__ based endpoint versions (10.8.xx) and
 * the other in support of __SYSEX__ based endpoint versions (10.8.xxxx).
 
-For details about differences regarding KEXT and SYSEX, refer to [macOS Extensions](../../platforms/macOS/mac-kexts.md).
+For details about differences regarding KEXT and SYSEX, refer to [macOS Extensions](../../../platforms/macOS/mac-kexts.md).
 
-Refer to the [Software Downloads](../sw-downloads.md) for the current versions available.
+Refer to the [Software Downloads](../../sw-downloads.md) for the current versions available.
 
 ## Installing macOS Agents
 
@@ -34,7 +35,7 @@ To install the agent software on a single testing machine, follow these steps:
    1. enter the base URL and
    1. the Install Code when prompted.​
 
-   ![Mac Agent Install Code field](images/mac/install-code.png "Mac Agent Install Code field")
+   ![Mac Agent Install Code field](../images/mac/install-code.png "Mac Agent Install Code field")
 
 >**Note**: The bundled installer does require a restart in order to ensure the agent is ready to use.
 
@@ -42,11 +43,11 @@ To install the agent software on a single testing machine, follow these steps:
 
 If you attempt the to install the __SYSEX__ agent bundle on an unsupported OS version, the following message is displayed:
 
-![sysex error](images/sysex-msg.png "Agent install message if SYSEX agent version is installed on unsupported OS version")
+![sysex error](../images/sysex-msg.png "Agent install message if SYSEX agent version is installed on unsupported OS version")
 
 If you attempt the to install the __KEXT__ agent bundle on an unsupported OS version, the following message is displayed:
 
-![kext error](images/kext-msg.png "Agent install message if KEXT agent version is installed on unsupported OS version")
+![kext error](../images/kext-msg.png "Agent install message if KEXT agent version is installed on unsupported OS version")
 
 ### Using an Unattended Install Method
 
@@ -108,14 +109,14 @@ sudo installer -pkg ThycoticManagementAgent.10.8.1019.pkg -target /
 
 As in the example using a Network Share, the PKG will first look for an __agentconfig.json__ file located in the same folder. When it finds this file, it will copy __agentconfig.json__ into the _/Library/Application Support/Thycotic/Agent_ folder during the unattended install on the endpoint Mac where the installer is running.
 
-For more instructions on how to deploy in bulk using Microsoft Software System Center Configuration Manager (SCCM), Microsoft instructions for Macs are described [here](https://docs.microsoft.com/en-us/previous-versions/system-center/system-center-2012-r2/jj687950(v=technet.10)).
+For more instructions on how to deploy in bulk using Microsoft Software System Center Configuration Manager (SCCM), Microsoft instructions for Macs are described [here](https://docs.microsoft.com/mem/configmgr/core/clients/deploy/deploy-clients-to-macs).
 
 ## After Initial Deployment
 
 If the Mac already has an existing __agentconfig.json__ file, it will NOT be overwritten because creating a file only occurs if the computer didn't already have an __agentconfig.json__ installed. This means you can use the same distribution package for upgrades and new installs.
 
 >**Note**:
->It will take 15-30 minutes for newly installed agents to register in Privilege Manager. See the agent registration information in the [Terminal Commands](../../agents/macOS/terminal.md) topic to speed the process up.
+>It will take 15-30 minutes for newly installed agents to register in Privilege Manager. See the agent registration information in the [Terminal Commands](../../../agents/macOS/terminal.md) topic to speed the process up.
 
 ## Uninstalling an Agent
 

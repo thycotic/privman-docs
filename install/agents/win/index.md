@@ -1,7 +1,10 @@
-[title]: # (System Requirements)
-[tags]: # (agents)
-[priority]: # (1601)
-# Agent System Requirements
+[title]: # (Installing Windows Agents)
+[tags]: # (agent,install,upgrade,windows)
+[priority]: # (1)
+
+# Installing Windows Agents
+
+## Agent System Requirements
 
 For agents in an environment with a moderate policy configuration, the requirements for memory and disk space are as follows:
 
@@ -13,18 +16,6 @@ For agents in an environment with a moderate policy configuration, the requireme
   * Security Analysis Solution: 13 MB
 * Average CPU over a week: 3%
 * Impact to boot time: Negligible
-
-## Supported Windows Operating Systems (both 32- and 64-bit):
-
-* Desktops: Windows 7, Windows 8, Windows 8.1, Windows 10
-* Servers: Windows Server 2012 R2 and newer
-* __Disable__ the GPO security option "System cryptography: Use __FIPS__ compliant algorithms for encryption, hashing, and signing."
-
-## MacOS Agent
-
-* MacOS 10.11 (El Capitan) or newer
-
->**Note**: Endpoints with Apple Silicon processor are not supported at this point.
 
 ## Directory Services Agent
 
@@ -38,7 +29,13 @@ The Directory Services Agent needs to be installed on a well resourced system ru
 
 >**Note**: The Directory Services Agent is available for x64-bit systems only.
 
-![dsa](images/dsa/ad-sync.png "DSA Network Diagram")
+![dsa](../images/dsa/ad-sync.png "DSA Network Diagram")
+
+## Supported Windows Operating Systems (both 32- and 64-bit):
+
+* Desktops: Windows 7, Windows 8, Windows 8.1, Windows 10
+* Servers: Windows Server 2012 R2 and newer
+* __Disable__ the GPO security option "System cryptography: Use __FIPS__ compliant algorithms for encryption, hashing, and signing."
 
 ## Windows Management Framework download locations
 
@@ -63,9 +60,3 @@ To download it, go to http://www.microsoft.com/en-us/download/details.aspx?id=24
 ### .NET 2.0 Framework SP1
 
 The .Net 2.0 SP1 update is required only for Windows XP. To download, go to http://download.microsoft.com/download/c/6/e/c6e88215-0178-4c6c-b5f3-158ff77b1f38/NetFx20SP2_x86.exe.
-
-## Ports/Agent Access Information
-
-* __Outbound (port 443 - HTTPS)__: This is the default access port through which the agent connects to the server. You may specify a different port based on your environment.
-* __Inbound (port 5593)__: The is the default and only port that the agent listens on. This port is not required and you can block port 5593. If you block the port, the agents pull updates from the server based on a set schedule.
-* __SQL (port 1433)__: This is the default SQL DB port. The SQL port can be customized.

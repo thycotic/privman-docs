@@ -8,3 +8,4 @@ This section of the Privilege Manager documentation covers information and step 
 The following topics are available:
 
 * [Agent Configuration](cfg/index.md)
+* [Agent Registration and Status](reg.md)

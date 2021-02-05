@@ -1,6 +1,6 @@
 [title]: # (macOS Computers)
 [tags]: # (admin,configuration)
-[priority]: # (2)
+[priority]: # (3)
 # macOS Computers
 
 The default macOS Computer Group.

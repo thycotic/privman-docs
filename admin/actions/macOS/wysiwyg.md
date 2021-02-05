@@ -1,6 +1,6 @@
 [title]: # (WYSIWYG Editor)
 [tags]: # (action,macOS,message editor)
-[priority]: # (6)
+[priority]: # (3)
 # WYSIWYG MacOS Action Message Editor
 
 All macOS based Display Advanced Message Action types are supported via an WYSIWYG editor for user friendly editing of advanced message action text. Any HTML based message can be rendered by the Agent on the macOS endpoint.

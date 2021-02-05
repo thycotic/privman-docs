@@ -1,6 +1,6 @@
 [title]: # (macOS - FileSystemWatcher)
 [tags]: # (catalina,big sur)
-[priority]: # (14)
+[priority]: # (11)
 # Catalina FileSystemWatcher Issue
 
 There is a known issue on macOS Catalina and later versions, preventing the the agent from receiving notification of events that need to be sent to the server. To workaround this, the __Retry errored TMS Events - Catalina and Big Sur (macOS)__ policy can be enabled to ensure all events get sent to the server.

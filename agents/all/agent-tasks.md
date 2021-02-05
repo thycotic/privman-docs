@@ -57,6 +57,8 @@ The majority will run for the first time after system initialization.
 
 | Name | Description | Schedule | Enabled |
 | ----- | ----- | ----- | ----- |
-| [Scheduled Check for Pending Tasks (Unix/Linux)](../../admin/tasks/client/scfpt.md) | This remote-scheduled task checks for server-scheduled tasks assigned to the agent. | daily | Yes |
+| [Basic Inventory (Initial, Unix/Linux)](../../admin/tasks/client/bi.md) | This scheduled task triggers the Agent to send initial Unix/Linux basic inventory. | daily | Yes |
+| [Basic Inventory (Unix/Linux)](../../admin/tasks/client/bi.md) | This scheduled task triggers the Agent to send Unix/Linux basic inventory. | daily | Yes |
+| [Remove Successful Agent Events (Unix/Linux)](../../admin/tasks/client/rsae.md) | This command will remove agent events that have been successfully uploaded to Privilege Manager. | daily | Yes |
 | [Scheduled Registration (Unix/Linux)](../../admin/tasks/client/sr.md) | This agent-scheduled task refreshes registration data for the assigned agents. | daily | Yes |
 | [Update Applicable Policies (Unix/Linux)](../../admin/tasks/client/uap.md) | This remote-scheduled command will update policies applicable to the assigned agents. | daily | Yes |

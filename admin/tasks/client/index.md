@@ -24,6 +24,7 @@ Details for each tasks are provided under the following topics:
 * [Ignore macOS Catalina software update (Mac OS)](ignore-os-updates.md) - installed via Configuration Feeds only!
 * [Local User Inventory Policy](luip.md)
 * [Perform Resource Discovery](prd.md)
+* [Remove Successful Agent Events](rsae.md)
 * [Reset ignored macOS software updates (Mac OS)](ignore-os-updates.md) - installed via Configuration Feeds only!
 * [Retry Errored TMS Events](retmse.md)
 * [Set Agent Log Size](sals.md)

@@ -13,6 +13,7 @@ The following troubleshooting topics are available:
 * [10.5 Folder Permission for MachineKeys](install-upgrade/10-5-machinekeys.md)
 * [Retrieving the COM class factory error](install-upgrade/retrieving-the-com-class-factory-for-component-with-clsid.md)
 * [Database Connection Issue during Setup](install-upgrade/db-connect.md)
+* [Supporting Multiple TLS Versions](install-upgrade/multiple-tls.md)
 
 ## Agents Troubleshooting
 

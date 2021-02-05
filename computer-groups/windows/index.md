@@ -1,6 +1,6 @@
 [title]: # (Windows Computers)
 [tags]: # (admin,configuration)
-[priority]: # (2)
+[priority]: # (3)
 # Windows Computers
 
 The default Windows Computer Group.

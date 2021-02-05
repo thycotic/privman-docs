@@ -1,6 +1,6 @@
 [title]: # (Unix/Linux Computers)
 [tags]: # (admin,configuration)
-[priority]: # (2)
+[priority]: # (3)
 # Unix/Linux Computers
 
 The default Unix/Linux Computer Group.

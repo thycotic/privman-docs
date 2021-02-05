@@ -66,8 +66,14 @@ information for the active application control policy creating the events.
 
 ![policy events](images/pol-events.png "Policy Events page for a specific application control policy")
 
+### Unix/Linux Policy Events Tab
+
+The Policy Events page for Unix/Linux shows a subset of the information available for macOS/Windows systems on this page.
+
+![unix/linux policy events](images/nix-pol-events.png "Policy Events page for a specific application control policy")
+
 ## Change History Tab
 
 The Change History tab provides insight into any change events for the specific policy.
 
-![change history](images/pol-events.png "Change History page for a specific application control policy")
+![change history](images/change-history.png "Change History page for a specific application control policy")

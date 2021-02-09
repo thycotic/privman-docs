@@ -19,9 +19,9 @@ With Privilege Manager version 10.7 Thycotic is introducing support for Windows 
 
 With the Privilege Manager 10.7 release the Remove Programs Utility has moved from being delivered via configuration feed to being fully integrated and delivered via the Server and Agent installation packages.
 
-To allow standard users to use the utility refer to the [Elevating the Privilege Manager Remove Programs Utility Policy](../../computer-groups/app-control/examples/elevate/pm-remove-prog.md) set-up instructions.
+To allow standard users to use the utility refer to the [Elevating the Privilege Manager Remove Programs Utility Policy](../../computer-groups/app-control/examples/elevate/pm-remove-prog.md) set-up instructions. Thycotic recommends to also create a policy that blocks non installers from running via the Remove Programs Utility, which is documented under the same topic as the utility elevation.
 
-### Configuring the Remove Programs Utility
+## Configuring the Remove Programs Utility
 
 1. Under your __Computer Group__ select __Scheduled Jobs__.
 1. Search for __Configure Privilege Manager Remove Programs__.

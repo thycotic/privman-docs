@@ -15,12 +15,6 @@ The utility will list all the same applications as the Remove Programs in the Co
 
 With Privilege Manager version 10.7 Thycotic is introducing support for Windows 10 __Apps & Features__ and the management of Windows Store apps via the __Remove Programs Helper__. Certain apps designed as a Windows 10 package are registered in __Apps & Features__ but do not appear in the operating systems Add Remove Programs options. Privilege Manager locates those applications and provides management via the enhanced __Remove Programs Utility__.
 
-## Using the Configure Privilege Manager Remove Programs Policy
-
-With the Privilege Manager 10.7 release the Remove Programs Utility has moved from being delivered via configuration feed to being fully integrated and delivered via the Server and Agent installation packages.
-
-To allow standard users to use the utility refer to the [Elevating the Privilege Manager Remove Programs Utility Policy](../../computer-groups/app-control/examples/elevate/pm-remove-prog.md) set-up instructions. Thycotic recommends to also create a policy that blocks non installers from running via the Remove Programs Utility, which is documented under the same topic as the utility elevation.
-
 ## Configuring the Remove Programs Utility
 
 1. Under your __Computer Group__ select __Scheduled Jobs__.
@@ -49,9 +43,17 @@ To allow standard users to use the utility refer to the [Elevating the Privilege
 
    ![Utility in Agents folder](images/remove-pro/rpu-7.png "Utility in Agents folder")
 
-## Use the Utility
+## Using the Utility
 
 The utility is straightforward to use. It's installed on endpoints as part of the Agents installation.
 Users can select the row containing the program that they want to uninstall and then select the uninstall button.
 
 ![Utility in use](images/remove-pro/rpu-8.png "Utility in use")
+
+## Using the Elevate Privilege Manager Remove Programs Policy Children Policy (Sample)
+
+>**Note**: Starting with Privilege Manager agents version 11.0, the Remove Program Utility does not require elevation on endpoints.
+
+Thycotic recommends using the out-of-the-box __Elevate Privilege Manager Remove Programs Policy Children Policy (Sample)__ policy on endpoints that are configured to use the Remove Program Utility. This policy elevates the uninstallers only after an approval request has been granted.
+
+You may also manually block non installers from running by importing the [block-non-installer-child-processes XML file](scripts/block-non-installer-child-processes.xml).

@@ -1,6 +1,9 @@
-[title]: # (Remove Programs Utility)
+[title]: # (Remove Programs Utility Policy)
 [tags]: # (elevate)
 [priority]: # (5)
+[display]: # (none)
+
+<!--
 # Elevating the Privilege Manager Remove Programs Utility Policy
 
 If standard users need to be able to use the Remove Program Utility the __Elevate Privilege Manager Remove Programs Utility Policy__ needs to be elevated.
@@ -34,3 +37,4 @@ Import the [block-non-installer-child-processes XML file](scripts/block-non-inst
 1. Select the installer you edited above, in this example Fiddler 2.
 1. Click the uninstall button.
 1. Check the agent logs to verify that the installer is blocked.
+-->

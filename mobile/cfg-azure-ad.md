@@ -11,12 +11,8 @@ Once Azure AD integration for your Privilege Manager instance is configured, fol
 1. Navigate to your __Active Directory__ instance.
 1. Select __App registrations__ from the menu.
 1. Click the __Owned applications__ tab.
-1. From the list under Display name select your Privilege Manager registration.
-
-   ![Client ID](images/az-ad-8.png "Select registered Privilege Manager instance")
+1. From the list under __Display name__ select your Privilege Manager registration.
 1. Either select the __Redirect URI__ links or the __Authentication__ menu.
-
-   ![Application](images/redirect-uri.png "Registered application page")
 1. Select __Add a platform__.
 1. Select __Mobile and desktop applications__.
 1. Set the Redirect URI to exactly `http://ArelliaMobileClient`. There are two access points to do this either via: 

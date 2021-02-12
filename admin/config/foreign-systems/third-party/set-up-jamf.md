@@ -17,7 +17,7 @@ For on-premises Privilege Manager instances the Jamf Connector must be installed
 
 ## Create a Credential
 
-Privilege Manager needs a username and password to access Jamf PRO. Create the credential in the Privilege Console:
+Privilege Manager needs a username and password to access Jamf PRO. Create the credential in the Privilege Manager Console:
 
 1. Navigate to __Admin | Configuration | Credentials__.
 1. Click __Create__.
@@ -71,16 +71,13 @@ To import computer groups from the Jamf Server, the __Synchronize Jamf Computer 
 1. Click __Run__.
 
    ![run task](images/jamf/cg.png "Details modal")
-1. Click __Select..__.
+1. Select your Jamf system via the __Select...__ option. Enter the Jamf server name to narrow the search, or leave empty to search all.
 
    ![select resource](images/jamf/select-resource.png "Select Resource modal")
-   1. Enter the Jamf Computer Group Name to narrow the search, or leave empty to search all.
-   1. Select the groups to import.
-   1. Click __Update__.
+1. Under __Computer Group names__, type the names of the computer groups you want to import. These need to be exact name matches.
 1. Click __Run Task__. The task executes and the task history is recorded.
 
 Error codes are returned if the task fails due to loss of connectivity with Jamf, invalid credential or URL, and due to incorrect computer group names.
-None of the computer groups will be imported if any of the provided names are invalid.
 
 ### Example Results
 
@@ -140,12 +137,10 @@ To import applications as filters, the __Synchronize Jamf Applications by Comput
 1. Click __Run__.
 
    ![run apps](images/jamf/run-apps-task.png "Running the sync application task")
-1. Click __Select…__.
+1. Select your Jamf system via the __Select...__ option. Enter the Jamf server name to narrow the search, or leave empty to search all.
 
    ![select apps](images/jamf/select-apps.png "Sync Application modal")
-   1. Enter the Jamf Server Name to narrow the search, or leave empty to search all.
-   1. Click __Add Computers__, to add the computers from which to import applications.
-1. Click __Update__.
+1. Click __Add Computers__, to add the computers from which to import applications.
 1. Click __Run Task__. The task executes and the task history is recorded.
 
 This imports all the applications as an __App Bundle Filter__ into Privilege Manager.
@@ -164,15 +159,13 @@ To import applications based on computer groups as filters, the __Synchronize Ja
 1. Click __Run__.
 
    ![apps by group task](images/jamf/sync-apps-group-task.png "Task modal")
-1. Click __Select…__.
+1. Select your Jamf system via the __Select...__ option. Enter the Jamf server name to narrow the search, or leave empty to search all.
 
    ![select apps](images/jamf/select-apps.png "Sync Application modal")
-   1. Enter the Jamf Server Name to narrow the search, or leave empty to search all.
-   1. Click __Add Computers__, to add the computers from which to import applications.
-1. Click __Update__.
+1. Under __Computer Group names__, type the names of the computer groups from which you want to import Applications. These need to be exact name matches.
 1. Click __Run Task__. The task executes and the task history is recorded.
 
-This imports all the applications as an __App Bundle Filter__ into Privilege Manager.
+This imports all the applications as an __App Bundle Filter__ into Privilege Manager. This task will fail, if any computer group name is invalid.
 
 ### Sample Results of Application Sync
 
@@ -239,7 +232,7 @@ Use the __Jamf Agent Rollout By Computer Groups__ task to rollout agents by comp
    ![agent details for group task](images/jamf/agent-details-group.png "Agent details")
 1. Click __Run Task__.
 
-The task executes and the task history is recorded.
+The task executes and the task history is recorded. This task will fail, if any computer group name is invalid.
 
 This tasks creates the required details like __scripts__ and __policies__ on the Jamf PRO instance. These are then initiated using the __Check-in__ task in Jamf PRO to complete the installation of the Privilege Manager Agent. Once the agent is installed and registered, it communicates with the Privilege Manager server.
 

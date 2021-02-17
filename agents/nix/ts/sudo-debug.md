@@ -1,6 +1,7 @@
 [title]: # (Enable Sudo Debug)
 [tags]: # (agents,unix/linux)
 [priority]: # (2)
+[display]: # (none)
 
 # How to Enable sudo Debug
 

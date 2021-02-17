@@ -2,13 +2,13 @@
 [tags]: # (endpoint,installation,registration)
 [priority]: # (2)
 
-# macOS ThycoticManagementAgent
+# macOS Privilege Manager Agent
 
-The Bundled Mac Agent DMG + PKG installer is available for macOS systems. You can use this installer directly on individual endpoints for testing or for production environments.
+The macOS agent is available as a DMG which contains the pkg installer and Uninstall.sh script. You can use the installer directly on individual endpoints for testing or for production environments.
 
-Starting with Privilege Manager version 11 Thycotic provides the macOS ThycoticManagementAgent only for __SYSEX__ based endpoint versions (11.x). Refer to the [10.8.2 documentation for installation instruction](https://docs.thycotic.com/privman/10.8.2/install/agents/agent-inst-mac.md) of the __KEXT__ based agent.
+Starting with Privilege Manager version 11, Thycotic provides the macOS agent only for __SYSEX__ enabled macOS versions (Catalina and higher). Refer to the [10.8.2 documentation for installation instruction](https://docs.thycotic.com/privman/10.8.2/install/agents/agent-inst-mac.md) for the __KEXT__ based agent.
 
-For details about differences regarding KEXT and SYSEX, refer to [macOS Extensions](../../../platforms/macOS/mac-kexts.md).
+For details about differences regarding KEXT and SYSEX versions, refer to [macOS Extensions](../../../platforms/macOS/mac-kexts.md).
 
 Refer to the [Software Downloads](../../sw-downloads.md) for the current versions available.
 
@@ -22,27 +22,27 @@ Refer to the [Software Downloads](../../sw-downloads.md) for the current version
 
 ### Directly
 
-The Bundled macOS Agent is a DMG + PKG file. You can use this Mac agent installer directly on individual endpoints for testing or production environments.
+You can use the macOS agent installer directly on individual endpoints for testing or production environments.
 
-To install the agent software on a single testing machine, follow these steps:
+To install the agent software on a single endpoint, follow these steps:
 
-1. Go to [Software Downloads - macOS Endpoints](../../sw-downloads.md#macos_endpoints) to download the Privilege Manager Mac Agent.
-1. Run the Bundled Mac Agent DMG + PKG Installer on the computer you want to manage.
+1. Go to [Software Downloads - macOS Endpoints](../../sw-downloads.md#macos_endpoints) to download the Privilege Manager macOS Agent.
+1. Mount the DMG and run the pkg installer on the computer you want to manage.
 1. During the setup process,
    1. enter the base URL and
    1. the Install Code when prompted.​
 
    ![Mac Agent Install Code field](../images/mac/install-code.png "Mac Agent Install Code field")
 
->**Note**: The bundled installer does require a restart in order to ensure the agent is ready to use.
+>**Note**: The installer does require a restart in order to ensure the agent is ready to use.
 
 #### Unsupported Version Messages
 
-If you attempt the to install the __SYSEX__ agent bundle on an unsupported OS version, the following message is displayed:
+If you attempt the to install the __SYSEX__ agent on an unsupported OS version, the following message is displayed:
 
 ![sysex error](../images/sysex-msg.png "Agent install message if SYSEX agent version is installed on unsupported OS version")
 
-If you attempt the to install the __KEXT__ agent bundle on an unsupported OS version, the following message is displayed:
+If you attempt the to install the __KEXT__ agent on an unsupported OS version, the following message is displayed:
 
 ![kext error](../images/kext-msg.png "Agent install message if KEXT agent version is installed on unsupported OS version")
 
@@ -55,52 +55,21 @@ Create a policy to include the newly uploaded pkg and include the below script t
 >**Note**: Replace the version placeholders with the real package file version numbers.
 
 ```shell
-\#!/bin/bash
+#!/bin/bash
+# Privilege Manager macOS configuation script to be used with a "vanilla" download of the agent.
+# This script should be used as a pre-install payload following the installation of the PKG.
+# Replace the tmsBaseUrl with your own server url i.e "https://your.privman.com/TMS"
+# Replace installCode with your own details.
 
-\# Privilege Manager macOS configuration script to be used with a "vanilla"
-download of the agent.
+/bin/mkdir -p /Library/Application\ Support/Thycotic/Agent/
 
-\# This script should be used as a pre-install payload then followed by the
-installation of the PKG.
-
-\# Replace the tmsBaseUrl with your own server url i.e
-"https://your.privman.com/TMS"
-
-\# Replace installCode with your own details.
-
-/bin/mkdir -p /Library/Application\\ Support/Thycotic/Agent/
-
-/bin/cat \<\< EOF \> /Library/Application\\
-Support/Thycotic/Agent/agentconfig.json
-
+/bin/cat << EOF > /Library/Application\ Support/Thycotic/Agent/agentconfig.json
 {
-"tmsBaseUrl": "",
-"installCode": "",
-"loginProcessingDelayS": 30
+      "tmsBaseUrl": "",
+      "installCode": "",
+      "loginProcessingDelayS": 30
 }
-
 EOF
-
-s. Ru.
-
-{
-"tmsBaseUrl": "https://servername/Tms/",
-"installCode": "VALUEHERE"
-}
-
--   Distribution Tool
-
-cd /Volumes/\<network share\>/\<path to PKG installer\>
-
-sudo installer -pkg ThycoticManagementAgent-n.n.nn.pkg -target /
-
-cd /Volumes/\<network share\>/\<path to PKG installer\>
-
-sudo installer -pkg ThycoticManagementAgent-n.n.nn.pkg -target /
-
-sudo installer -pkg ThycoticManagementAgent.n.n.nn.pkg -target /
-
-sudo installer -pkg ThycoticManagementAgent.n.n.nn.pkg -target /
 ```
 
 >**Note**:
@@ -108,7 +77,7 @@ sudo installer -pkg ThycoticManagementAgent.n.n.nn.pkg -target /
 
 ## Uninstalling an Agent
 
-When you need to uninstall the macOS Agent, use the __Uninstall.sh__ shell command:
+When you need to uninstall the macOS agent, use the __Uninstall.sh__ shell command:
 
 ```shell
 sudo /Volumes/ThycoticManagementAgent-n.n.nnnn/Uninstall.sh

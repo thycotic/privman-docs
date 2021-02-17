@@ -4,6 +4,10 @@
 
 # Installing macOS Agents
 
+The following installation/upgrade topic for the macOS agent is covered:
+
+* [macOS Privilege Manager Agent](agent-inst-mac.md)
+
 ## MacOS Agent System Requirements
 
 * MacOS 10.11 (El Capitan) or newer

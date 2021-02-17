@@ -38,11 +38,11 @@ To install the agent software on a single endpoint, follow these steps:
 
 #### Unsupported Version Messages
 
-If you attempt the to install the __SYSEX__ agent on an unsupported OS version, the following message is displayed:
+If you attempt to install the __SYSEX__ agent on an unsupported OS version, the following message is displayed:
 
 ![sysex error](../images/sysex-msg.png "Agent install message if SYSEX agent version is installed on unsupported OS version")
 
-If you attempt the to install the __KEXT__ agent on an unsupported OS version, the following message is displayed:
+If you attempt to install the __KEXT__ agent on an unsupported OS version, the following message is displayed:
 
 ![kext error](../images/kext-msg.png "Agent install message if KEXT agent version is installed on unsupported OS version")
 

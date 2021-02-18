@@ -17,7 +17,7 @@ To install this Thycotic agents bundle __on a single machine__, follow these st
 
 1. Download the [Bundled Privilege Manager Core and Directory Services Agent - Windows](../../sw-downloads.md).
 1. Run the __ThycoticDirectoryServicesInstaller__ on the computer you want to use for the active directory synchronization tasks.
-1. During the setup process, enter the Privilege Manager Server URL (or AZ Service Bus Queue URL) and the [Install Code](installcode.md) when prompted.
+1. During the setup process, enter the Privilege Manager Server URL (or AZ Service Bus Queue URL) and the [Install Code](../installcode.md) when prompted.
 
    >**Note**: The Install Code field can be left blank when using versions lower than 10.5.
 

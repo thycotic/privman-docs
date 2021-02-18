@@ -1,4 +1,4 @@
-[title]: # (Block Diskspace Command)
+[title]: # (Block)
 [tags]: # (policy examples)
 [priority]: # (2)
 

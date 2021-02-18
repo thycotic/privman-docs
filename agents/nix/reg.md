@@ -1,6 +1,6 @@
 [title]: # (Registration/Status)
 [tags]: # (endpoints)
-[priority]: # (3)
+[priority]: # (4)
 
 # Agent Registration and Status
 
@@ -30,3 +30,34 @@ The table grid list all endpoint operating systems and the number of endpoints w
 Clicking on a computer in the list, opens the resource page.
 
 ![agent resource](images/nix-agent-resource.png "Agent resource page")
+
+## Registering the Agent
+
+The pmagent service isn’t required to be running for Privilege Manager policies to be executed, although for scheduled jobs to run successfully, the pmagent service need to be registered, for example:
+
+`pmagent --register -u https://192.168.248.201:443 -c WC5W-W2DD-ONLE`
+
+Where:
+
+* -u xxxxxx is the PMServer address and port
+* -c xxxxxx is the agent code
+
+You can append command with a -V for extended output.
+
+Once registered the following is inserted into the `/etc/sudo.conf`:
+
+```bash
+Plugin sudoers_policy /opt/thycotic/lib64/pmsudo_plugin.so
+Path noexec /opt/thycotic/lib64/pmsudo_noexec.so
+```
+
+Once registered the following is inserted into the `/etc/shells`:
+
+```bash
+/usr/bin/pmsh
+```
+
+The Agent will also create a `xxxxxx.thyorig` and `xxxxxx.thybak` files of the original files modified.
+
+* `thyorig` is a copy of the original file before we make any changes.
+* `thybak` is a copy of the file taken before any additional changes made. This is being updated during agent upgrades.

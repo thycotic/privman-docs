@@ -36,6 +36,16 @@ Under Conditions edit the
 
 Under Actions edit which message action to use, if child actions are applicable, and if you wish to audit all activities this policy is detecting.
 
+* Actions
+* Add Child Actions
+* Audit Policy Events
+
+### Audit Policy Events
+
+All activity identified on a policy can be recorded by using the Audit Policy Events switch. This setting is automatically enabled for all monitoring policies. It can be activated on demand for controlling policies. Once selected, a confirmation message appears advising users that this functionality should only be enabled for a limited time on a selected number of endpoints.
+
+For Unix/Linux endpoints the `pmagent --privman --refreshpolicies` command needs to run, to update the policy on the endpoint.
+
 ## Show Advanced
 
 Clicking __Show Advanced__, provides access to setting Policy Enforcement options, like:

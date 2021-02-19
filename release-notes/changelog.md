@@ -5,7 +5,7 @@
 
 This topic provides a chronological list of documentation changes. Minor content alterations are not tracked.
 
-## January 2021
+## February 2021
 
 * Added topics covering Unix/Linux agent endpoint support.
 ## December 2020

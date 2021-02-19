@@ -24,7 +24,6 @@ The following features and options are different from On-premises or previous Pr
 
 The following features and options are __not__ available in Privilege Manager Cloud:
 
-* Access to the Security Manager console (Silverlight version) is not available.
 * Server-side Powershell scripts not signed by Thycotic are not allowed. Custom server-side work can be done via Professional Services engagements.
 
 All other features and functionality of Privilege Manager On-premises and Cloud are the same unless otherwise specified.

@@ -69,7 +69,7 @@ In your Installed Licenses list use the __Delete__ option to remove expired or o
 * __Server License__: This license provides coverage for endpoints that are server machines, Windows Server 2019, Windows 2016, etc.
 * __Support License__: Without having a support license you will not be able to complete upgrades and will not be able to receive support or maintenance.
 
-### License Expired or Exceeded License Ccount
+### License Expired or Exceeded License Count
 
 The Server will stop accepting data sent from agents that are in violation of the licensing. New endpoints will register, but will not be recorded, which means the endpoint:
 

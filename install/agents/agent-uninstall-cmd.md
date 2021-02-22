@@ -5,7 +5,7 @@
 
 This topic explains how to uninstall the Agent through command line. If you're trying to uninstall an old agent in order to install a newer version of the agent, there is no need to do so. The installers will detect a previous version installed and uninstall the old version prior to installing the new agent.
 
->**Note**: For hardened agents refer to information under [Windows Agents | Hardened Agents](agent-inst-win.md#hardened_agents).
+>**Note**: For hardened agents refer to information under [Windows Agents | Hardened Agents](win/agent-inst-win.md#hardened_agents).
 
 ## Manual Uninstall Steps
 

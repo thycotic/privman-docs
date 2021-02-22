@@ -39,4 +39,4 @@ A user or group needs to be available in Privilege Manager to be selected while 
 1. Click __Save Changes__.
 1. Set the policy to __Active__.
 
->**Note**: If you wish to update a hardened agent, refer to information under the topic [Windows Agents | Hardened Agents](../../install/agents/agent-inst-win.md#hardened_agents).
+>**Note**: If you wish to update a hardened agent, refer to information under the topic [Windows Agents | Hardened Agents](../../install/agents/win/agent-inst-win.md#hardened_agents).

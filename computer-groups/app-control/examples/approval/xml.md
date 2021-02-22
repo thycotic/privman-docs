@@ -31,7 +31,6 @@
 	xmlns:sys="clr-namespace:System;assembly=mscorlib"
 	xmlns:adx="http://schemas.arellia.com/winfx/2012/arelliadisplayxamlaction"
 	xmlns:ac="http://schemas.arellia.com/winfx/2010/xaml"
-	xmlns:acs="http://schemas.arellia.com/silverlight/2012/acs"
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 	mc:Ignorable="ac acs"
 	Icon="Images/thycotic-icon.png"

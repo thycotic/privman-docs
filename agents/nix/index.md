@@ -9,3 +9,4 @@ The following topics are available:
 
 * [Agent Configuration](cfg/index.md)
 * [Agent Registration and Status](reg.md)
+* [Local Agent File Inventory](local-file-inv.md)

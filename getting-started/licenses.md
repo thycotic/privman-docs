@@ -71,7 +71,7 @@ In your Installed Licenses list use the __Delete__ option to remove expired or o
 
 ### License Expired or Exceeded License Count
 
-The Server will stop accepting data sent from agents that are in violation of the licensing. New endpoints will register, but will not be recorded, which means the endpoint:
+The Server will stop accepting data sent from agents that are in violation of the licensing based on operating system license counts. New endpoints will register, but will not be recorded, which means the endpoint:
 
 * Will not get added to the resource targets and will not collect application or user inventories
 * No password changes will occur, etc.

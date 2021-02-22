@@ -18,9 +18,9 @@ The agent should have a resolvable hostname set. If the agent has a default host
 
 | **Operating System** | **Disk Space Requirements**  | **Minimum Memory** | **Other** |
 | ----- | ----- | ----- | ----- |
-| CentOS 7.x, 8.x | 100Mb - 2mb in each of /lib64 /etc/pam.d /usr/lib64/security and /etc | 2Gb | For the Identity Bridge component to function correctly **SELinux** currently needs to be [disabled on the host](inst-agent/index.md#disable_security-enhanced_linux). |
-| RedHat Linux 7.x, 8.x |  100Mb - 2mb in each of /lib64 /etc/pam.d /usr/lib64/security and /etc | 2Gb | For the Identity Bridge component to function correctly **SELinux** currently needs to be [disabled on the host](inst-agent/index.md#disable_security-enhanced_linux). |
-| Oracle Linux, 7.x, 8.x | 100Mb - 2mb in each of /lib64 /etc/pam.d /usr/lib64/security and /etc | 2Gb | For the Identity Bridge component to function correctly **SELinux** currently needs to be [disabled on the host](inst-agent/index.md#disable_security-enhanced_linux). |
+| CentOS 7.x, 8.x | 100Mb - 2mb in each of /lib64 /etc/pam.d /usr/lib64/security and /etc | 2Gb | For the Identity Bridge component to function correctly **SELinux** currently needs to be [disabled on the host](linux.md#disable_security-enhanced_linux). |
+| RedHat Linux 7.x, 8.x |  100Mb - 2mb in each of /lib64 /etc/pam.d /usr/lib64/security and /etc | 2Gb | For the Identity Bridge component to function correctly **SELinux** currently needs to be [disabled on the host](linux.md#disable_security-enhanced_linux). |
+| Oracle Linux, 7.x, 8.x | 100Mb - 2mb in each of /lib64 /etc/pam.d /usr/lib64/security and /etc | 2Gb | For the Identity Bridge component to function correctly **SELinux** currently needs to be [disabled on the host](linux.md#disable_security-enhanced_linux). |
 | Ubuntu 18.04, 20.04 | 100Mb - 2mb in each of /`lib/x86_64-linux-gnu/security`, `/lib/x86_64-linux-gnu/` `/etc/pam.d` and `/etc` | 2 Gb | |
 
 ### Windows & Active Directory Requirements

@@ -1,7 +1,7 @@
 [title]: # (SMP)
 [tags]: # (integration)
 [priority]: # (4)
-# Set-up Symantec Management Platform (SMP) Integration
+# Setting us a Symantec Management Platform (SMP) Integration
 
 Privilege Manger integrates with the Symantec Management Platform (SMP) to allow the
 

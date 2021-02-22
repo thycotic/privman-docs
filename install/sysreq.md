@@ -40,7 +40,7 @@ These are requirement for an on-premises integration.
 * Windows 7 or newer. Thycotic performs validation on the latest Windows OS that is available via the Microsoft Insider Program to ensure any required changes are made prior to a new OS version release.
 * MacOS 10.11 (El Capitan) or newer.
 
-Also refer to [Agent System Requirements](agents/agent-sysreq.md).
+Also refer to [Agent System Requirements](agents/index.md) for each of the specific endpoint operating systems.
 
 ## Details
 

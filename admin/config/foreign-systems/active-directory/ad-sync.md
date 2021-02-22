@@ -7,7 +7,7 @@ The following procedures show the steps necessary to set-up Active Directory syn
 
 If you already configured the AD Default User Credential skip to the Foreign Systems set-up procedure.
 
->**Note**: For local AD synchronization with Privilege Manager cloud the Directory Services Agent has to be installed. We recommend [installing the Directory Services Agent](../../../../install/agents/agent-inst-win-dsa.md) on a system that already has the Thycotic Agent (Core Agent) installed; however you may also use a domain connected system and newly install both the Core and Directory Services Agent by using the [bundled installer](../../../../install/agents/agent-inst-win-dsa-bundle.md).
+>**Note**: For local AD synchronization with Privilege Manager cloud the Directory Services Agent has to be installed. We recommend [installing the Directory Services Agent](../../../../install/agents/win/agent-inst-win-dsa.md) on a system that already has the Thycotic Agent (Core Agent) installed; however you may also use a domain connected system and newly install both the Core and Directory Services Agent by using the [bundled installer](../../../../install/agents/win/agent-inst-win-dsa-bundle.md).
 
 ## Set-up AD Default User Credential
 
@@ -57,7 +57,7 @@ If you already configured the AD Default User Credential skip to the Foreign Sys
            * Domain Partner (optional)
         1. Click __Save Changes__.
         1. Click __Run__, to manually run the task on demand.
-      * __[Directory Services Agent](../../../../install/agents/agent-inst-win-dsa.md)__ that is installed on one of your domain connected on-premises computers designated to perform the sync. Cloud hosted customers likely need to choose this option.
+      * __[Directory Services Agent](../../../../install/agents/win/agent-inst-win-dsa.md)__ that is installed on one of your domain connected on-premises computers designated to perform the sync. Cloud hosted customers likely need to choose this option.
 
         ![dsa](images/ad_sync/dsa-sync.png "AD options with Directory Services Agent selected")
         1. Under __Agent Policy Config__:

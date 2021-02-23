@@ -79,11 +79,11 @@ Below is the expected output of a successful installation
 
 ```
 Loaded plugins: fastestmirror, langpacks
-Examining ./pmagent_x86_64_v1.1.3.79_centos7.rpm: pmagent-1.1.3.79-1.x86_64
-Marking ./pmagent_x86_64_v1.1.3.79_centos7.rpm to be installed
+Examining ./pmagent_x86_64_v1.1.3.81_centos7.rpm: pmagent-1.1.3.81-1.x86_64
+Marking ./pmagent_x86_64_v1.1.3.81_centos7.rpm to be installed
 Resolving Dependencies
 --> Running transaction check
----> Package pmagent.x86_64 0:1.1.3.79-1 will be installed
+---> Package pmagent.x86_64 0:1.1.3.81-1 will be installed
 --> Finished Dependency Resolution
 base/7/x86_64                           | 3.6 kB  00:00:00
 epel/x86_64/metalink                    |  19 kB  00:00:00
@@ -100,7 +100,7 @@ Dependencies Resolved
  Package            Arch          Version         Repository                            Size
 ==============================================================================================
 Installing:
- pmagent            x86_64        1.1.3.79-1        /pmagent_x86_64_v1.1.3.79_centos7       22 M
+ pmagent            x86_64        1.1.3.81-1        /pmagent_x86_64_v1.1.3.81_centos7       22 M
 
 Transaction Summary
 ==============================================================================================
@@ -115,7 +115,7 @@ Running transaction test
 Transaction test succeeded
 Running transaction
 Warning: RPMDB altered outside of yum.
-  Installing : pmagent-1.1.3.79-1.x86_64                                                 1/1
+  Installing : pmagent-1.1.3.81-1.x86_64                                                 1/1
 Created symlink from /etc/systemd/system/multi-user.target.wants/pmagent.service to /etc/systemd/system/pmagent.service.
 
 Please start the pmagent service by running:
@@ -134,10 +134,10 @@ You need to join an Active Directory domain to start authenticating users
 using the command:
     /opt/thycotic/sbin/pmagent --join
 
-  Verifying  : pmagent-1.1.3.79-1.x86_64                                               1/1
+  Verifying  : pmagent-1.1.3.81-1.x86_64                                               1/1
 
 Installed:
-  pmagent.x86_64 0:1.1.3.79-1
+  pmagent.x86_64 0:1.1.3.81-1
 
 Complete!
 ```

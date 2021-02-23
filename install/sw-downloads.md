@@ -10,7 +10,7 @@ This page provides links to Thycotic Privilege Manager product and agents softwa
 | Version | Product |
 | ----- | ----- |
 | 11.0.0 | [Combined Secret Server and Privilege Manager Installer](https://thycotic.force.com/support/s/download-onprem) - Authentication required! |
-| | [Privilege Manager Offline Upgrade](https://thycotic.force.com/support/s/download-onprem) - Authentication required! |
+| | [Privilege Manager Application Files](https://thycotic.force.com/support/s/download-onprem) - Authentication required! |
 
 ## Agent Software
 
@@ -39,13 +39,13 @@ This page provides links to Thycotic Privilege Manager product and agents softwa
 
 ### Unix/Linux Endpoints
 
-| OS | Flavor | Version | Product |
-| ----- | ----- | ----- | ----- |
-| Linux | Redhat | 7.x | [Thycotic Identity Bridge Linux Agent V1.1.3](https://tmsnuget.thycotic.com/software/IdBridge/pmagent_x86_64_v1.1.3.79_rhel7.rpm) |
-| | | 8.x | [Thycotic Identity Bridge Linux Agent V1.1.3](https://tmsnuget.thycotic.com/software/IdBridge/pmagent_x86_64_v1.1.3.79_rhel8.rpm) |
-| | CentOS | 7.x | [Thycotic Identity Bridge Linux Agent V1.1.3](https://tmsnuget.thycotic.com/software/IdBridge/pmagent_x86_64_v1.1.3.79_centos7.rpm) |
-| | | 8.x | [Thycotic Identity Bridge Linux Agent V1.1.3](https://tmsnuget.thycotic.com/software/IdBridge/pmagent_x86_64_v1.1.3.79_centos8.rpm) |
-| | Ubuntu LTS | 18.04 | [Thycotic Identity Bridge Linux Agent V1.1.3](https://tmsnuget.thycotic.com/software/IdBridge/pmagent_x86_64_v1.1.3.79_ubuntu18.deb) |
-| | | 20.04 | [Thycotic Identity Bridge Linux Agent V1.1.3](https://tmsnuget.thycotic.com/software/IdBridge/pmagent_x86_64_v1.1.3.79_ubuntu20.deb) |
-| | Oracle | 7.x | [Thycotic Identity Bridge Linux Agent V1.1.3](https://tmsnuget.thycotic.com/software/IdBridge/pmagent_x86_64_v1.1.3.79_oraclelinux7.rpm) |
-| | | 8.x | [Thycotic Identity Bridge Linux Agent V1.1.3](https://tmsnuget.thycotic.com/software/IdBridge/pmagent_x86_64_v1.1.3.79_oraclelinux8.rpm) |
+| Agent Version | OS | Flavor | Version | Product |
+| ----- | ----- | ----- | ----- | ----- |
+| 1.1.3.81 | Linux | Redhat | 7.x | [Thycotic Identity Bridge Linux Agent V1.1.3](https://tmsnuget.thycotic.com/software/IdBridge/pmagent_x86_64_v1.1.3.81_rhel7.rpm) |
+| 1.1.3.81 | | | 8.x | [Thycotic Identity Bridge Linux Agent V1.1.3](https://tmsnuget.thycotic.com/software/IdBridge/pmagent_x86_64_v1.1.3.81_rhel8.rpm) |
+| 1.1.3.81 | | CentOS | 7.x | [Thycotic Identity Bridge Linux Agent V1.1.3](https://tmsnuget.thycotic.com/software/IdBridge/pmagent_x86_64_v1.1.3.81_centos7.rpm) |
+| 1.1.3.81 | | | 8.x | [Thycotic Identity Bridge Linux Agent V1.1.3](https://tmsnuget.thycotic.com/software/IdBridge/pmagent_x86_64_v1.1.3.81_centos8.rpm) |
+| 1.1.3.81 | | Ubuntu LTS | 18.04 | [Thycotic Identity Bridge Linux Agent V1.1.3](https://tmsnuget.thycotic.com/software/IdBridge/pmagent_x86_64_v1.1.3.81_ubuntu18.deb) |
+| 1.1.3.81 | | | 20.04 | [Thycotic Identity Bridge Linux Agent V1.1.3](https://tmsnuget.thycotic.com/software/IdBridge/pmagent_x86_64_v1.1.3.81_ubuntu20.deb) |
+| 1.1.3.81 | | Oracle | 7.x | [Thycotic Identity Bridge Linux Agent V1.1.3](https://tmsnuget.thycotic.com/software/IdBridge/pmagent_x86_64_v1.1.3.81_oraclelinux7.rpm) |
+| 1.1.3.81 | | | 8.x | [Thycotic Identity Bridge Linux Agent V1.1.3](https://tmsnuget.thycotic.com/software/IdBridge/pmagent_x86_64_v1.1.3.81_oraclelinux8.rpm) |

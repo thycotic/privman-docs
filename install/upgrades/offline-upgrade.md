@@ -7,7 +7,7 @@ Follow these steps to perform an offline upgrade for Privilege Manager. This art
 
 >**Note**: Offline upgrades on __multiple__ servers will need to be done manually.
 
-1. Download the latest version for the Privilege Manager Offline Upgrade from [Software Downloads](../sw-downloads.md).
+1. Download the latest version for the Privilege Manager Application Files via [Software Downloads](../sw-downloads.md).
 1. Extract the zip file.
 1. From the unzipped folder, copy the contents of the nugetCache folder to this location on the web server: `C:\ProgramData\NugetCache\`
 1. Navigate to the TMS web folder (`C:\inetpub\wwwroot\TMS\`), right-click and open with, e.g. __Notepad > Run as Administrator__ the __web.config__ file.

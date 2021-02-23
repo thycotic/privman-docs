@@ -24,6 +24,7 @@ This topic provides a chronological list of documentation changes. Minor content
   * [Computer Group](../computer-groups/nix/index.md).
   * [Authorization DB](../platforms/macOS/mac-kexts.md) handler.
   * [HTML editor](../admin/actions/macOS/wysiwyg.md).
+  * [Jamf Connector](../admin/config/foreign-systems/third-party/set-up-jamf.md)
 
 ## December 2020
 

@@ -22,7 +22,7 @@ necessary can be created for a custom implementation:
 
 Each of those actions has by default Related Items associated, which need to be considered when customizing an action.
 
->**Note**: The __Suppress UAC__ action should only be used with Agent versions 10.4 and older.
+>**Note**: The __Suppress UAC Consent Dialog (Legacy)__ action should only be used with Agent versions 10.4 and older.
 
 ## Adjust Process Rights Action Settings Explained
 

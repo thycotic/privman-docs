@@ -64,7 +64,7 @@ The UI offers many areas where items or states can be switched from off to on or
 The main navigation menu on the left is organized into
 
 * [Computer Groups](../../computer-groups/index.md)
-* [Client System Settings](../../computer-groups/windows/client-system-settings.md)
+* [Client System Settings](../../platforms/windows/client-system-settings.md)
 * [File Inventory](../../file-inventory/index.md)
 * [Policy Events](../../policy-events/index.md)
 * [Reports](../../reports/index.md)

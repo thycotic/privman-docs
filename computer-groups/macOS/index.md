@@ -1,9 +1,9 @@
 [title]: # (macOS Computers)
 [tags]: # (admin,configuration)
-[priority]: # (2)
+[priority]: # (3)
 # macOS Computers
 
-Default macOS Computer Group.
+The default macOS Computer Group.
 
 ![default](images/default.png "Default macOS Computer Group")
 
@@ -15,3 +15,5 @@ Refer to the [Policy Wizard](../app-control/policies/policy-wizard/index.md) sec
 * [Creating a Controlling Elevation Policy for macOS](../app-control/policies/policy-wizard/controlling-elevate-macOS.md)
 * [Creating a Controlling Allow Policy for macOS](../app-control/policies/policy-wizard/controlling-allow-macOS.md)
 * [Creating a Controlling Block Policy for macOS](../app-control/policies/policy-wizard/controlling-block-macOS.md)
+
+For macOS Agent Configuration information refer to [Agent Configuration](../../agents/macOS/cfg/index.md).

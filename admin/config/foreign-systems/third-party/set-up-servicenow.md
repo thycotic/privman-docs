@@ -1,7 +1,7 @@
 [title]: # (ServiceNow)
 [tags]: # (integration)
 [priority]: # (4)
-# Set-up ServiceNow Integration
+# Setting up a ServiceNow Integration
 
 ## Foreign System Configuration
 

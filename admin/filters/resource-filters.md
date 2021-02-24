@@ -74,9 +74,11 @@ After you have created an Active Directory (AD) instance in Privilege Manager, y
 
    1. Under __Import__ select which objects you want to import from your AD instance.
 
-      * If you select Computers, the default import task also imports the Organization Units (OU) to which the computers belong. <!-- TODO: Default Import Directory will import only organization structure and security-related information like users. (how does this work here now?) -->
+      * If you select Computers, the default import task also imports the Organization Units (OU) to which the computers belong. 
+
+        <!-- TODO: Default Import Directory will import only organization structure and security-related information like users. (how does this work here now?) -->
       * If you select LDAP query, enter the query in the text field.
-   1. Under __Connectivity__ select your import path. Import either directly from the server (as long as a domain controller can be reached on the network) or by using an on-premises computer running the [AD Sync agent](../../install/agents/agent-inst-win-dsa.md).
+   1. Under __Connectivity__ select your import path. Import either directly from the server (as long as a domain controller can be reached on the network) or by using an on-premises computer running the [AD Sync agent](../../install/agents/win/agent-inst-win-dsa.md).
 1. Click __Save__.
 
 After the task completes, navigate to __Admin | Resources__, select the __Resource__ tab. In the tree under __Organizational Views | Active Directory Domains | (your AD name)__, you should be able to see your OUs and computers.

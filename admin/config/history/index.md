@@ -48,16 +48,6 @@ The next screen shows a state change due to the policy being saved. The State\Re
 
 The last entry in the Change History list provides all the details about the change to the policy after initial creation and save.
 
-<!--![Change History on item changes](images/change-policy-3.png "Change History on item changes")
-
-What we see:
-
-1. The left-hand summary indicates that Application targets were set to iTunes and three other changes were made.
-1. Application targets (+) iTunes indicates that iTunes was added as an Application target. A (-) would indicate a removal of an application target.
-1. ApplyToResourcesSettings\AllowedTargetRoleTypeId indicated that the previous zero value Id was changed to a value of Computer.
-1. The State\ResourceTargetIds field was populated with the value All Windows Computer with Application Control Agent Installed (Target).
-1. The last change was setting the policy Enabled state to True. -->
-
 ## Item Change History Report
 
 The [Item Change History Report](../../../reports/change-history.md) is part of the __Diagnostic__ group on the Reports page. You can also search for “change history” and the report will be listed on the search results page. Click the link to access the report.

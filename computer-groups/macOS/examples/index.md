@@ -1,5 +1,5 @@
 [title]: # (macOS Specific Policies)
-[tags]: # ( )
+[tags]: # (policy examples)
 [priority]: # (6)
 # macOS Specific Policies
 
@@ -21,7 +21,7 @@ The following actions are supported by macOS agents:
 
 | Actions | pre Catalina & Catalina with __KEXT__ | Catalina & Big Sur or later with __SYSEX__ |
 | ----- | -----| ----- |
-| Allow Copy to /Applications Directory | supported | n/a |
+| Allow Copy to /Applications Directory | supported | A privileged helper that uses an authorization right can be used. This needs to happen by an AuthorizationDB Right action. |
 | Allow Package Installation | elevate via UI | via `sudo` plugin |
 | Application Approval Request (with Offline Fallback) Message Action | elevate via UI | via `sudo` plugin |
 | Application Approval Request (with ServiceNow Request Item Number) Message Action | elevate via UI | via `sudo` plugin |

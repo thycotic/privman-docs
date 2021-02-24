@@ -1,9 +1,12 @@
-[title]: # (*nix Agents)
+[title]: # (Unix/Linux Agents)
 [tags]: # (endpoints)
 [priority]: # (3)
-[display]: # (none)
-<!--# Agents on Unix/Linux Systems
+# Agents on Unix/Linux Systems
 
 This section of the Privilege Manager documentation covers information and step procedures pertaining to Privilege Manager agents installed on Unix/Linux systems.
 
-TODO -->
+The following topics are available:
+
+* [Agent Configuration](cfg/index.md)
+* [Agent Registration and Status](reg.md)
+* [Local Agent File Inventory](local-file-inv.md)

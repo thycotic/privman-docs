@@ -11,9 +11,8 @@ Topics in this section:
 
 * [Setting up ActiveX Policies](active-x.md)
 * [UAC Override Policy](uac-override.md)
-* [Elevating the Privilege Manager Remove Programs Utility Policy](pm-remove-prog.md)
 * [Elevate Applications launched from Network Share Policy](network-share.md)
 * [Elevate msi launched from a Network Share](msi.md)
 * [Elevate Applications whose Execution Requires Approval](app-req-app.md)
 * [Elevate Applications that Require User Justification](user-just.md)
-* MS Visual Studio Installations - Filters and policy now provided via Configuration Feeds. Refer to [Config Feeds](../../../../admin/config-feeds/index.md) for download and installation information.
+* [MS Visual Studio Installations](ms-visual-studio.md) - Filters and policy now provided via Configuration Feeds. Refer to [Config Feeds](../../../../admin/config-feeds/index.md) for download and installation information.

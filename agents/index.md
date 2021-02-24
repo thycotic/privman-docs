@@ -9,17 +9,23 @@ Privilege Manager provides pre-configured and fully customizable reporting on th
 
 Privilege Manager supports agents on:
 
-* Windows
-* macOS
-<!-- * Unix/Linux -->
+* [Windows](win/index.md)
+* [macOS](macOS/index.md)
+* [Unix/Linux](nix/index.md)
 
 endpoint operating systems.
 
 For information about installing agents, refer to [Agent Installation](../install/agents/index.md) to review agent system requirements and the specific agent installation procedures. This section of our document is a general agent information section, containing details about how to use/interact with agents and to provide information about the agent processes.
 
-## Agent Hardening (Windows)
+## Agent Hardening
+
+### Windows Endpoints
 
 To make sure that local Administrators do not tamper with Thycotic agents running on their system, Privilege Manager Administrators can define users that can start and stop the Privilege Manager services running on endpoints, such as the Thycotic Agent or Thycotic Application Control. Refer to [Agent Hardening](win/agent-hardening.md).
+
+### macOS Endpoints
+
+It is not currently possible to prevent a local administrator account on macOS from starting and stopping a background service like the Privilege Manager agent. Refer to [macOS Agent Hardening](macOS/agent-hardening.md) for best practices.
 
 ## Post Agent Installation
 

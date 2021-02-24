@@ -5,10 +5,26 @@
 
 This topic provides a chronological list of documentation changes. Minor content alterations are not tracked.
 
-## January 2021
+## February 2021
 
-* Hotfix release notes entry related to Directory Services.
-* Several documentation improvements addressing broken cross-references.
+* Added [11.0.0 Release Notes](11.0.0-combined.md).
+* Changes to [Default Actions](../admin/actions/default-actions.md#set_environment_variable_action) and [Adjust Process Rights Action](../admin/actions/windows/unrestricted-token.md) due to renaming of the __Suppress UAC__ Action to __Suppress UAC (Legacy)__.
+* Changes to [Remove Program Utility](../how-to/maintenance/remove-programs-utility.md) covering the new __Elevate Privilege Manager Remove Programs Policy Children Policy (Sample)__ policy.
+* Changes to [Policy Events](../policy-events/index.md), covering information about [Observed Parent Processes](../policy-events/drilldown.md#observed_parent_processes) and [Server reports](../policy-events/drilldown.md#events).
+* Changes to [Config Feeds](../admin/config-feeds/index.md).
+* Added information about [Filter validations](../computer-groups/app-control/policies/error-conditions.md) for application control policies.
+* Added topics:
+  * [Privilege Manager on Unix/Linux](../platforms/nix/index.md)
+  * [Unix/Linux Privilege Manager Sudo Plugin](../platforms/nix/sudo-plugin.md)
+  * [Unix/Linux Computers](../computer-groups/nix/index.md)
+  * [Unix/Linux Agent](../agents/nix/index.md) topic.
+  * [Unix/Linux Administrators](../admin/roles/app-roles.md).
+  * [Filters](../admin/filters/types/nix/index.md).
+  * [Actions](../admin/actions/nix/index.md).
+  * [Computer Group](../computer-groups/nix/index.md).
+  * [Authorization DB](../platforms/macOS/mac-kexts.md) handler.
+  * [HTML editor](../admin/actions/macOS/wysiwyg.md).
+  * [Jamf Connector](../admin/config/foreign-systems/third-party/set-up-jamf.md)
 
 ## December 2020
 
@@ -25,11 +41,9 @@ This topic provides a chronological list of documentation changes. Minor content
 * Edits to [CorrelationID support to Server Logs](../admin/log-viewer/index.md).
 * New subtopic [Complex Password Policy enforcement for Privilege Manager users](../admin/users/pw-complexity.md).
 * Added [MDM Profiles for macOS Agents](../agents/macOS/mdm-profiles.md) topic.
-* Added [Visual Studio Installer Elevation](../admin/config-feeds/index.md) example policy and filters to configuration feeds. 
-* Removed topic [MS Visual Studio Installations](../computer-groups/app-control/examples/elevate/ms-visual-studio.md).
+* Added [Visual Studio Installer Elevation](../admin/config-feeds/index.md) example policy and filters to configuration feeds. Removed topic [MS Visual Studio Installations](../computer-groups/app-control/examples/elevate/ms-visual-studio.md).
 * New topic [Active Directory Import - On-prem vs Cloud](../how-to/best-practices/ad-import/index.md)
 * New topic [Securing the IIS Server](../how-to/best-practices/securing-iis.md)
-* Moved [VM Deployments](../agents/all/vm-deployments.md) to the Agents/All Agents section.
 
 ## October 2020
 

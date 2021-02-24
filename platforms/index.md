@@ -9,4 +9,4 @@ For platform specific details, refer to:
 
 * [macOS](macOS/index.md)
 * [Windows](windows/index.md)
-<!--* [Unix/Linux](linux/index.md-->
+* [Unix/Linux](nix/index.md)

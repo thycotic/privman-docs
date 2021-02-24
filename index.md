@@ -24,7 +24,7 @@ It is useful (although not necessary) for Privilege Manager Administrators to be
 
 Unix/Linux endpoint agent support. This release does not include user group inventory.
 
-## What's New in Privilege Manager 10.8
+## New in Privilege Manager 10.8
 
 The 10.8 release of Privilege Manager introduces a new user interface, providing a redesigned user experience, simplifying many major areas and typical workflow processes when setting up application policies or local security.
 

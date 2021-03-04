@@ -37,7 +37,7 @@ Rewrites the submitted command being executed on the Unix\Linux Agent
 1. Customize the newly created filter, click __Add Command__.
 
    ![New Commandline Filter edit](images/adv-cmdline-2.png "Add commands to the filter")
-1. Select the matching type, Glob or RegEx. Use Glob for filename matches and RegEx for searches amd matches of patterns in files.
+1. Select the matching type, Glob or RegEx. Use Glob for filename matches and RegEx for searches and matches of patterns in files.
 1. Enter a __Command__.
 1. Enter __Arguments__.
 1. Enter a __Replacement__.

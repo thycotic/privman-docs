@@ -7,7 +7,9 @@ This topic provides a chronological list of documentation changes. Minor content
 
 ## March 2021
 
-* Updates like fixing typos and broken links from previous release notes reference links to current topic locations.
+* Updates:
+  * Added a resolved bug to the 10.8.2 release notes.
+  * Fixed typos and broken links from previous release notes reference links to current topic locations.
 
 ## February 2021
 

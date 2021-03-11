@@ -28,7 +28,9 @@ Privilege Manager needs a username and password to access Jamf PRO. Create the c
 Before you can import data from Jamf PRO you need to setup a foreign systems connection in Privilege Manager for the Jamf integration.
 
 1. Navigate to __Admin | Configuration | Foreign Systems__.
-1. Select __Jamf server__. If this is not listed, make sure the connector is, refer to [Installing Foreign System Connectors](index.md).
+1. Select __Jamf server__. If this is not listed, make sure the connector is installed, refer to [Installing Foreign System Connectors](index.md).
+
+   >**Note**: If you are a cloud customer and don’t see Jamf in the list, contact Thycotic support to have the connector added to your cloud instance. Once it is listed, continue with the next step.
 
    ![select server](images/jamf/select.png "Foreign system page")
 1. Click __Create__.

@@ -27,4 +27,4 @@ The agent is made up of several components:
 
 ### Apple® Silicon
 
-For macOS endpoints with __Apple® Silicon__, the agent needs to be version __11.0.104__ or later.
+For macOS endpoints with __Apple® silicon__, the agent needs to be version __11.0.104__ or later.

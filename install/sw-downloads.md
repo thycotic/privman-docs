@@ -34,14 +34,15 @@ This page provides links to Thycotic Privilege Manager product and agents softwa
 
 | Agent Version | Product | OS Version Support|
 | ----- | ----- | ----- |
-| 11.0.6 | [Privilege Manager macOS Agent](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-11.0.6.dmg) | Catalina and later using System Extensions (SYSEX) |
-| 10.8.24 | [Privilege Manager macOS Agent](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.8.24.dmg) | Catalina and previous using Kernel Extensions (KEXT) |
+| 11.0.104 | [Privilege Manager macOS Agent](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-11.0.104.dmg) | Catalina and later using System Extensions (Apple Silicon & Intel) |
+| 11.0.6 | [Privilege Manager macOS Agent](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-11.0.6.dmg) | Catalina and later using System Extensions (Intel) |
+| 10.8.24 | [Privilege Manager macOS Agent](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.8.24.dmg) | Catalina and previous using Kernel Extensions (Intel) |
 
 ### Unix/Linux Endpoints
 
 | Agent Version | OS | Flavor | Version | Product |
 | ----- | ----- | ----- | ----- | ----- |
-| 1.1.3.81 | Linux | Redhat | 7.x | [Thycotic Identity Bridge Linux Agent V1.1.3](https://tmsnuget.thycotic.com/software/IdBridge/pmagent_x86_64_v1.1.3.81_rhel7.rpm) |
+| 1.1.3.81 | Linux | RedHat | 7.x | [Thycotic Identity Bridge Linux Agent V1.1.3](https://tmsnuget.thycotic.com/software/IdBridge/pmagent_x86_64_v1.1.3.81_rhel7.rpm) |
 | 1.1.3.81 | | | 8.x | [Thycotic Identity Bridge Linux Agent V1.1.3](https://tmsnuget.thycotic.com/software/IdBridge/pmagent_x86_64_v1.1.3.81_rhel8.rpm) |
 | 1.1.3.81 | | CentOS | 7.x | [Thycotic Identity Bridge Linux Agent V1.1.3](https://tmsnuget.thycotic.com/software/IdBridge/pmagent_x86_64_v1.1.3.81_centos7.rpm) |
 | 1.1.3.81 | | | 8.x | [Thycotic Identity Bridge Linux Agent V1.1.3](https://tmsnuget.thycotic.com/software/IdBridge/pmagent_x86_64_v1.1.3.81_centos8.rpm) |

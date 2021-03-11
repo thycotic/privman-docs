@@ -32,6 +32,7 @@ The Resource Explorer is accessible by either navigating to
 
   ![Opening Resource Explorer via other console areas](images/resource-explorer/named-resource.png)
 
+
 ## Example for Discovered Files
 
 You enter the Resource Explorer for discovered file through __File Inventory__ on the main navigation tree. On the Events page, click any of the discovered files and use __View File__ to drill down to the files resources.

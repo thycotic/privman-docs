@@ -7,7 +7,7 @@ This topic provides a chronological list of documentation changes. Minor content
 
 ## March 2021
 
-* Added [Apple Silicon](../install/agents/macOS/index.md) architecture support via for macOS endpoints.
+* Added [Apple Silicon](../install/agents/macOS/index.md) support.
 * Updates:
   * Added a resolved bug to the 10.8.2 release notes.
   * Fixed typos and broken links from previous release notes reference links to current topic locations.

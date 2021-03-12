@@ -5,6 +5,11 @@
 
 This topic provides a chronological list of documentation changes. Minor content alterations are not tracked.
 
+## TBD 2021
+
+* Added topics:
+  * [Custom Data Collection](../admin/resources/cust-data-src.md)
+
 ## March 2021
 
 * Added [Apple® Silicon](../install/agents/macOS/index.md) support.

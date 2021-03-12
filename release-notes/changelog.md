@@ -5,6 +5,13 @@
 
 This topic provides a chronological list of documentation changes. Minor content alterations are not tracked.
 
+## March 2021
+
+* Added [Apple® Silicon](../install/agents/macOS/index.md) support.
+* Updates:
+  * Added a resolved bug to the 10.8.2 release notes.
+  * Fixed typos and broken links from previous release notes reference links to current topic locations.
+
 ## February 2021
 
 * Added [11.0.0 Release Notes](11.0.0-combined.md).

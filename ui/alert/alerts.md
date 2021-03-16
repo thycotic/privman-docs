@@ -23,3 +23,7 @@ Alert Notifications can also be triggered for a specific endpoint agent, if the 
    ![enable monitoring](images/alert-3.png "Resource Explorer enable monitoring")
 
 Once monitoring is enabled, alert notifications for the agent end point are available. These type of alerts inform about the agent registration, resource discovery, and update retrieval times.
+
+## Alert Framework
+
+The Privilege Manager Alert framework notifies administrators about potential issues with their instance. 

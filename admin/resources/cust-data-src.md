@@ -1,18 +1,20 @@
-[title]: # (Custom Data Collections)
+[title]: # (Computer Name Pattern Collections)
 [tags]: # (resources,query)
 [priority]: # (13)
 
-# Custom Data Collections
+# Computer Name Pattern Collections
 
-If users are looking for a specific list of computers to target, SQL wildcard characters can be used in the search and then create a custom collection based on the results.
+If you have specific patterns of computer names that you wish to target, create a query-based collection using the __Computers by Name Patterns Query__. This collection can then be used within Computer Group definitions. The query uses SQL wildcard characters in the search to create a custom collection based on the results.
 
 For example, if a company has their computer resources around the globe set up to have geo location references like EU, AS, US, etc. as a pre- or postfix, collections can be created for all machines in either Europe, Asia, or the United States based on those characters in the computer names.
 
 The query for creating a custom data collection is __Computer by Name Pattern Query__, which is available for macOS, Unix/Linux, and Windows collections.
 
-## Creating a Custom Data Collection Query
+## Creating a Computer Name Pattern Collection Query
 
-1. Navigate to __Admin | Resources__.
+These queries are dependent on the admin role a user might have. Privilege Manager Administrators can create new collections on the __Collections__ root level. Privilege Manager MacOS, Unix/Linux, or Windows Administrators must select the OS specific folder from the __Collections__ tree.
+
+1. Navigate to __Admin | Resources__ and select the __Resource Filters__ tab.
 1. From the __Resource Filters__ tree, select __Collections__.
 1. Click __Create__.
 1. From the __Template__ drop-down, select __Query Collection__.
@@ -47,7 +49,7 @@ To create a new computer group using the new custom collection query, follow the
 1. Click __Add Rule__ again to add another rule (leaving the existing rules in place). For this new rule specify for:
    1. __Operation__ drop-down, select __Only Keep Computers in__.
    1. __List Type__ drop-down, select __Collection__.
-   1. __Selected Items__ drop-down, select the _Custom Data Collection Query_ you created above.
+   1. __Selected Items__ drop-down, select the _Computer Name Pattern Collection Query_ you created above.
 
    ![new](images/new-cg.png "Computer group page based on queried collection")
 1. Click __Save Changes__.

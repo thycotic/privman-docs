@@ -8,7 +8,7 @@ This topic provides a chronological list of documentation changes. Minor content
 ## TBD 2021
 
 * Added topics:
-  * [Custom Data Collection](../admin/resources/cust-data-src.md)
+  * [Computer Name Pattern Collections](../admin/resources/cust-data-src.md)
 
 ## March 2021
 

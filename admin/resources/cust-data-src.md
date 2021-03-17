@@ -13,6 +13,7 @@ The query for creating a custom data collection is __Computer by Name Pattern Qu
 ## Creating a Custom Data Collection Query
 
 1. Navigate to __Admin | Resources__.
+1. From the __Resource Filters__ tree, select __Collections__.
 1. Click __Create__.
 1. From the __Template__ drop-down, select __Query Collection__.
 1. Enter a name and edit the description to better identify the purpose of the resource you are creating.
@@ -39,12 +40,14 @@ To create a new computer group using the new custom collection query, follow the
 1. From the Platform drop-down select the targeted platform for your new group.
 1. Enter a Name and Description for your new computer group.
 1. Click __Create__.
-1. Under __Filter Rules__, from the
+1. Under __Filter Rules__, click __Add Rule__ to add another rule (leave the existing platform-based rule at the top). For the new rule, specify for:
+   1. __Operation__ drop-down, select __Only Keep Computers in__.
+   1. __List Type__ drop-down, select __Collection__.
+   1. __Selected Items__ drop-down, select the __All Managed Computers__.
+1. Click __Add Rule__ again to add another rule (leaving the existing rules in place). For this new rule specify for:
    1. __Operation__ drop-down, select __Only Keep Computers in__.
    1. __List Type__ drop-down, select __Collection__.
    1. __Selected Items__ drop-down, select the _Custom Data Collection Query_ you created above.
-
-   >**Note**: Make sure the set of computers created by the Custom Data Collection Query is not filtered by managed computers. If it is a collection filtered by managed computers, the managed computer rule needs to be added as well.
 
    ![new](images/new-cg.png "Computer group page based on queried collection")
 1. Click __Save Changes__.

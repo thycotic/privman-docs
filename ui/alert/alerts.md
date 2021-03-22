@@ -37,7 +37,7 @@ The framework introduces tasks under __Admin | Tasks, Jobs and Tasks | Server Ta
 * Raise Test Alert: This task, when run, raises an alert.
 * Revoke Test Alert: This task, when run, clears an alert.
 
-The alert contains a correlation ID, which can be used to look for further details int he logs:
+The alert contains a correlation ID, which can be used to look for further details in the logs:
 
 ![log data](images/task3.png "Notification/alerts list with correlation ID details")
 

@@ -24,9 +24,10 @@ Alert Notifications can also be triggered for a specific endpoint agent, if the 
 
 Once monitoring is enabled, alert notifications for the agent end point are available. These type of alerts inform about the agent registration, resource discovery, and update retrieval times.
 
-## Testing Alert Framework
+<!-- HELP: Is this meant for customers? Are we moving the tasks from the dev config feed to the general config feed? Will the tasks be renamed if they are moved? 
+TODO: Come back to this when the feature is ready for customers.
 
-<!-- HELP: Is this meant for customers? Are we moving the tasks from the dev config feed to the general config feed? Will the tasks be renamed if they are moved? -->
+## Testing Alert Framework
 
 The Privilege Manager Alert framework notifies administrators about potential issues with their instance.
 
@@ -42,3 +43,4 @@ The alert contains a correlation ID, which can be used to look for further detai
 ![log data](images/task3.png "Notification/alerts list with correlation ID details")
 
 ![server log](images/task4.png "Server log details")
+-->

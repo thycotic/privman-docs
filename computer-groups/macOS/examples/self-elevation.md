@@ -61,3 +61,5 @@ For systems prior to Privilege Manager 10.8, if a finder sync extension does not
 1. Disable the Privilege Manager Finder Extension.
 1. Install/Enable other third-party Finder Extension.
 1. Enable the Privilege Manager Finder Extension.
+
+>**Note**: On endpoints using OneDrive, GoogleDrive, DropBox, or similar enabled extensions, the endpoint will take about 2 min to correctly initialize the Finder Extension functionality after enabling the extension or after upgrading from versions prior to 10.8.

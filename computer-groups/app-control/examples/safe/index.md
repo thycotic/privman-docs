@@ -12,4 +12,4 @@ The following examples are available:
 
 ## Allow Listing Policies without Actions
 
-If an application is allowlisted under a user context instead of group context and without an action specified, Thycotic recommends to use the [Administrators (Include Disabled)](../../../../admin/filters/default-filters.md#user_context_filters) filter for the policy to execute as desired.
+If an application is allow listed under a user context instead of group context and without an action specified, Thycotic recommends to use the [Administrators (Include Disabled)](../../../../admin/filters/default-filters.md#user_context_filters) filter for the policy to execute as desired.

@@ -83,3 +83,20 @@ This action waits for the user to either click __Cancel__ or __Continue__. The w
 
   * If the user clicks __Cancel__, the dialog is dismissed and no further action taken.
   * If the user clicks __Continue__, the app bundle will be launched.
+
+## Privacy Preference Policy Control Requests
+
+Approval policies in Privilege Manager that requires an __approval request__, might receive the below shown macOS Privacy Preference Policy Control requests.
+
+| Big Sur Interactions | Catalina Interactions |
+| ----- | ----- |
+| System Event | |
+| ![event big sur](images/pppc/bigsur-system-events.png "Big Sur event") | ![event cat](images/pppc/cat-system-events.png "Catalina event") |
+| Access Request | |
+| ![request big sur](images/pppc/bigsur-access.png "Big Sur access request") | ![request cat](images/pppc/cat-access.png "Catalina access request") |
+| Access Setting | |
+| ![access big sur](images/pppc/bigsur-accessibility.png "Big Sur access setting") | ![access cat](images/pppc/cat-accessibility.png "Catalina access setting") |
+| System Event | |
+| ![auto big sur](images/pppc/bigsur-automation.png "Big Sur automation") | ![auto cat](images/pppc/cat-automation.png "Catalina automation") |
+
+In order to automate the approval of the prompt(s), use [this XML](scripts/pppc.xml) or refer to the Jamf Pro screenshot as an example, depending on your existing MDM.

@@ -86,17 +86,29 @@ This action waits for the user to either click __Cancel__ or __Continue__. The w
 
 ## Privacy Preference Policy Control Requests
 
-Approval policies in Privilege Manager that requires an __approval request__, might receive the below shown macOS Privacy Preference Policy Control requests.
+If you have a policy in Privilege Manager that includes __Deny Execute__ and any of the [Advanced Message Actions](../../../admin/actions/all/index.md), for example _Application Approval Request_, _Application Denied_, or _Application Justification_, the user at the endpoint might be presented with a macOS dialog saying that the application could not be launched.
 
-| Big Sur Interactions | Catalina Interactions |
-| ----- | ----- |
-| System Event | |
-| ![event big sur](images/pppc/bigsur-system-events.png "Big Sur event") | ![event cat](images/pppc/cat-system-events.png "Catalina event") |
-| Access Request | |
-| ![request big sur](images/pppc/bigsur-access.png "Big Sur access request") | ![request cat](images/pppc/cat-access.png "Catalina access request") |
-| Access Setting | |
-| ![access big sur](images/pppc/bigsur-accessibility.png "Big Sur access setting") | ![access cat](images/pppc/cat-accessibility.png "Catalina access setting") |
-| System Event | |
-| ![auto big sur](images/pppc/bigsur-automation.png "Big Sur automation") | ![auto cat](images/pppc/cat-automation.png "Catalina automation") |
+When a policy with one of the above [Advanced Message Actions](../../../admin/actions/all/index.md) is triggered, Privilege Manager.app attempts to use AppleEvents to dismiss this dialog on behalf of the user to provide the best user experience possible.
+
+![event big sur](images/pppc/bigsur-system-events.png "Big Sur event")
+
+* If the user clicks __OK__ on the AppleEvents dialog, the Privilege Manager.app is added to the Automation setting in the Security & Privacy pane on the Privacy tab:
+
+  ![auto big sur](images/pppc/bigsur-automation.png "Big Sur automation")
+* If the user clicks __Don't Allow__ on the AppleEvents dialog, the system events will be unchecked.
+
+Afterwards, macOS prompts the user with an Accessibility Access dialog:
+
+  ![request big sur](images/pppc/bigsur-access.png "Big Sur access request")
+
+* If the user clicks __Deny__, Privilege Manager will not be granted access to use accessibility features to automatically close the dialog and stating the application couldn’t be launched.
+
+* If the user clicks __Open System Preferences__, the Security & Privacy pane open to the Privacy tab:  
+
+  ![access big sur](images/pppc/bigsur-accessibility.png "Big Sur access setting")
+
+  If you check __Privilege Manager__, it will be granted access to use accessibility features to control other applications.
 
 In order to automate the approval of the prompt(s), use [this XML](scripts/pppc.xml) or refer to the Jamf Pro screenshot as an example, depending on your existing MDM.
+
+![Jamf Pro](images/pppc/jamf-pro.png "Jamf Pro settings")

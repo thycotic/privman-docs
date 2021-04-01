@@ -9,3 +9,7 @@ The following examples are available:
 
 * [Allow MS Security Catalog](ms-sec-cat.md)
 * [Allow Google Application with File Upload](google-app-file-up.md)
+
+## Allow Listing Policies without Actions
+
+If an application is allow listed under a user context instead of group context and without an action specified, Thycotic recommends to use the [Administrators (Include Disabled)](../../../../admin/filters/default-filters.md#user_context_filters) filter for the policy to execute as desired.

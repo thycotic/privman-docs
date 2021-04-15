@@ -5,11 +5,13 @@
 
 This topic provides a chronological list of documentation changes. Minor content alterations are not tracked.
 
-## TBD 2021
+## June 2021
 
 * Added [11.1.0 Release Notes](11.1.0-combined.md).
 * Added topics:
   * [Computer Name Pattern Collections](../admin/resources/cust-data-src.md)
+* Added subtopics:
+  * [Allow Listing Policies without Actions](../computer-groups/app-control/examples/safe/index.md#allow_listing_policies_without_actions)
 
 ## March 2021
 

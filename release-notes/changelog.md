@@ -5,6 +5,11 @@
 
 This topic provides a chronological list of documentation changes. Minor content alterations are not tracked.
 
+## April 2021
+
+* Added a macOS [Block Agent Removal Policy](../computer-groups/macOS/examples/block-agent-removal.md) in support of [agent hardening](../agents/macOS/agent-hardening.md).
+* New [macOS agent version](../install/sw-downloads.md).
+
 ## March 2021
 
 * Added [Apple® Silicon](../install/agents/macOS/index.md) support.

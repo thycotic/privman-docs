@@ -5,6 +5,10 @@
 
 This topic provides a chronological list of documentation changes. Minor content alterations are not tracked.
 
+## April 2021
+
+* Updated Privilege Manager macOS Agent download version in support of a hotfix.
+
 ## March 2021
 
 * Added [Apple® Silicon](../install/agents/macOS/index.md) support.

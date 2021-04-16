@@ -82,3 +82,5 @@ When you need to uninstall the macOS agent, use the __Uninstall.sh__ shell comma
 ```shell
 sudo /Volumes/ThycoticManagementAgent-n.n.nnnn/Uninstall.sh
 ```
+
+Where `n.n.nnnn` needs to be replaced with the actual version number of the agent you wish to uninstall.

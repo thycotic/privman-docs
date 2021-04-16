@@ -13,4 +13,5 @@ The following topics are available:
 * [Uninstalling an Agent with Script](agent-uninstall-script.md)
 * [How to prevent Backwards Compatibility for Agents v10.4 and earlier](prevent-backwards-compatibility-agents.md)
 * [Configuring for a Test Environment](config-test-env.md)
+* [VM Deployments](vm-deployments.md)
 * [Agent Tasks](agent-tasks.md)

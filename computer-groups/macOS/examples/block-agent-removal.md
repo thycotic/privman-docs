@@ -3,7 +3,7 @@
 [priority]: # (7)
 # Block Agent Removal - launchctl
 
-This is the example policy that aids with the macOS agent hardening process.
+These are the filters and the example policy that need to be created that aid with the macOS agent hardening process.
 
 ## Creating a File Specification Filter
 
@@ -24,7 +24,7 @@ This is the example policy that aids with the macOS agent hardening process.
 1. Add a Name and Description, for example _launchctl unload_ and click __Create__.
 1. On the filter page, under __Settings__:
    * __Match Type__, type __Regular Expression__.
-   * __Command Line__, type __com\.thycotic__.
+   * __Command Line__, type __com\\.thycotic__.
 1. Click __Save Changes__.
 
 ## Creating the Blocking Policy
@@ -45,3 +45,9 @@ This is the example policy that aids with the macOS agent hardening process.
 
    ![policy](images/block-launchctl.png "The block lauchctl policy")
 1. Set the __Inactive__ switch to __Active__.
+
+### XML Example Files
+
+* Policy xml sample to use as a [item upload](scripts/block-launchctl.xml).
+* File Specification Filter [bin-launchctl](scripts/bin-launchctl.xml).
+* Commandline Filter [launchctl-unload](scripts/launchctl-unload.xml).

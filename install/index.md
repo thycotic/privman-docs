@@ -21,7 +21,7 @@ The following topics are available:
       * [32-bit Windows Operating Systems](agents/win/agent-inst-win.md#32_bit_windows_operating_systems)
       * [Directory Services Agent to support Local AD Synchronization with Cloud Instances](agents/win/agent-inst-win-dsa.md)
     * [Bundled Core and Directory Services Agents](agents/win/agent-inst-win-dsa-bundle.md)
-  * [macOS Agent Installer - 10.11 or Newer](agents/win/index.md)
+  * [macOS Agent Installer - 10.11 or Newer](agents/macOS/index.md)
     * [macOS ThycoticManagementAgent](agents/macOS/agent-inst-mac.md)
   * [Unix/Linux Agent Installer](agents/nix/index.md)
     * [Installing on CentOS/RedHat/Oracle Linux](agents/nix/linux.md)

@@ -13,6 +13,10 @@ This topic provides a chronological list of documentation changes. Minor content
 * Added subtopics:
   * [Allow Listing Policies without Actions](../computer-groups/app-control/examples/safe/index.md#allow_listing_policies_without_actions)
 
+## April 2021
+
+* Updated Privilege Manager macOS Agent download version in support of a hotfix.
+
 ## March 2021
 
 * Added [Apple® Silicon](../install/agents/macOS/index.md) support.

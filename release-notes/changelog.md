@@ -13,6 +13,11 @@ This topic provides a chronological list of documentation changes. Minor content
 * Added subtopics:
   * [Allow Listing Policies without Actions](../computer-groups/app-control/examples/safe/index.md#allow_listing_policies_without_actions)
 
+## April 2021
+
+* Updated Privilege Manager [macOS Agent download version](../install/sw-downloads.md#macos_endpoints) in support of a hotfix.
+* Added a macOS [Block Agent Removal Policy](../computer-groups/macOS/examples/block-agent-removal.md) in support of [agent hardening](../agents/macOS/agent-hardening.md).
+
 ## March 2021
 
 * Added [Apple® Silicon](../install/agents/macOS/index.md) support.

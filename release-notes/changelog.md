@@ -15,7 +15,8 @@ This topic provides a chronological list of documentation changes. Minor content
 
 ## April 2021
 
-* Updated Privilege Manager macOS Agent download version in support of a hotfix.
+* Updated Privilege Manager [macOS Agent download version](../install/sw-downloads.md#macos_endpoints) in support of a hotfix.
+* Added a macOS [Block Agent Removal Policy](../computer-groups/macOS/examples/block-agent-removal.md) in support of [agent hardening](../agents/macOS/agent-hardening.md).
 
 ## March 2021
 

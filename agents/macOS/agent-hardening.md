@@ -15,6 +15,8 @@ In addition, a sudo plugin is installed that connects the sudo command to the Pr
 ## Possible Areas of Concern
 
 * An administrative user could use the launchctl command to disable the Privilege Manager processes (the launch daemons com.thycotic.acsd and Thycotic.Agent.Service and the launch agent Privilege Manager).
+
+  To mitigate, create a blocking policy for `/bin/launchctl`. [This policy](../../computer-groups/macOS/examples/block-agent-removal.md) prevents a privileged user from unloading, removing, and/or stopping either of the above LaunchDaemons and LaunchAgents.
 * The application bundle Privilege Manager.app could be deleted from the command line by an administrative user (possibly after first disabling the sudo plugin).
 * The sudo plugin could be disabled by an administrative user by removing or renaming the file /etc/sudo.conf — this can be done from the Finder (i.e. even if the normal use of sudo is blocked by policies implemented through the plugin itself, or if the plugin fails to work normally due to other issues with PM).
 * On most Unix systems the command su can be used to log into the root account (assuming one knows the root password), which gives complete access to the system. On macOS the root account is disabled by default, but can be enabled by an administrative user; see the Apple support document at https://support.apple.com/en-us/HT204012.
@@ -40,7 +42,7 @@ The Privilege Manager agent is implemented by files in the following locations:
   In macOS Catalina and earlier, Privilege Manager installs a kernel extension named ThycoticACS.kext into this folder in order to detect and potentially block application launches, file creation, etc. In macOS Big Sur and later, this use of kernel extensions is no longer supported by the system, and so ThycoticACS.kext is not installed.
 * /Library/SystemExtensions
 
-  In macOS Big Sur and later, the com.thycotic.acsd.systemextension system extension is automatically copied into this folder when Privilege Manager is first installed. It will remain if Privilege Manager.app is deleted, but can be removed by an administrative user with the systemextensionctl command.
+  In macOS Big Sur and later, the com.thycotic.acsd.systemextension system extension is automatically copied into this folder when Privilege Manager is first installed. It will remain if Privilege Manager.app is deleted, but can be removed by an administrative user with the systemextensionctl command. This is currently only possible if SIP is disabled.
 * /usr/local/thycotic/agent
 
   This folder contains the launch daemon Thycotic.Agent.Service as well as a number of command line utilities to support the Privilege Manager agent.

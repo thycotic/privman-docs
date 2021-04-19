@@ -1,0 +1,90 @@
+﻿<items>
+<CommandlineFilterContract xmlns:adc="http://schemas.arellia.com/dc/" xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:mss="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:dc="http://schemas.datacontract.org/2004/07/System" xmlns:d1p4="http://schemas.arellia.com/dc/ClientItem/" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.arellia.com/dc/ApplicationControl/ApplicationFilter/">
+	<adc:FolderId>451680e9-28d1-4af9-8e88-c4cd04f8cebc</adc:FolderId>
+	<adc:ItemId>5ab0270c-b9fa-4a8d-b0fe-5dd092971c92</adc:ItemId>
+	<adc:Name>launchctl unload</adc:Name>
+	<adc:ProductId>27bedb8a-db37-4d53-b748-bc6651461fe4</adc:ProductId>
+	<adc:Strings />
+	<adc:Tags>
+		<arr:string>pm.platform.macos</arr:string>
+	</adc:Tags>
+	<Commandline>com.\thycotic</Commandline>
+	<Option>2</Option>
+</CommandlineFilterContract>
+<FileSpecificationFilterContract xmlns:adc="http://schemas.arellia.com/dc/" xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:mss="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:dc="http://schemas.datacontract.org/2004/07/System" xmlns:d1p4="http://schemas.arellia.com/dc/ClientItem/" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.arellia.com/dc/FileInventory/Filters/">
+	<adc:FolderId>451680e9-28d1-4af9-8e88-c4cd04f8cebc</adc:FolderId>
+	<adc:ItemId>ebbd1adf-72f6-4e71-bbb0-46417ecdbd8b</adc:ItemId>
+	<adc:Name>/bin/launchctl</adc:Name>
+	<adc:ProductId>75afc25f-c518-491c-a60d-ecd6b7dbc7ad</adc:ProductId>
+	<adc:Strings />
+	<adc:Tags>
+		<arr:string>pm.platform.macos</arr:string>
+	</adc:Tags>
+	<ChildAssociations>
+		<arr:anyType i:type="adc:ItemAssociations">
+			<adc:AssociationTypeId>efb89861-0aed-5592-be87-6c8992773a87</adc:AssociationTypeId>
+			<adc:AssociatedItemIds />
+		</arr:anyType>
+		<arr:anyType i:type="adc:ItemAssociations">
+			<adc:AssociationTypeId>c01776a1-dffd-5842-94ad-aedbafc19515</adc:AssociationTypeId>
+			<adc:AssociatedItemIds />
+		</arr:anyType>
+	</ChildAssociations>
+	<DriveTypes>0</DriveTypes>
+	<ExcludeFilterIds />
+	<FilePath>/bin/</FilePath>
+	<FileSpec>launchctl</FileSpec>
+	<IncludeFilterIds />
+	<IncludeHidden>false</IncludeHidden>
+	<IncludeReparse>true</IncludeReparse>
+	<IncludeSubdirectories>false</IncludeSubdirectories>
+	<IncludeSystem>false</IncludeSystem>
+	<IncludeSystemReparse>false</IncludeSystemReparse>
+	<ManditoryFilterIds />
+	<OwnsItemIds />
+</FileSpecificationFilterContract>
+<ApplicationControlPolicyContract xmlns:adc="http://schemas.arellia.com/dc/" xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:mss="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:dc="http://schemas.datacontract.org/2004/07/System" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.arellia.com/dc/ApplicationControl/Policy/">
+	<adc:Description>This policy blocks the specified executables from running</adc:Description>
+	<adc:FolderId>74cbc043-beed-499f-85ca-cc10d1bf44d5</adc:FolderId>
+	<adc:ItemId>187b30cb-803c-4ba2-a8ab-39ebf905716b</adc:ItemId>
+	<adc:Name>Block launchctl</adc:Name>
+	<adc:ProductId>27bedb8a-db37-4d53-b748-bc6651461fe4</adc:ProductId>
+	<adc:Strings />
+	<adc:Tags>
+		<arr:string>pm.platform.macos</arr:string>
+		<arr:string>pm.policyType:block</arr:string>
+	</adc:Tags>
+	<adc:ApplyToResourcesSettings xmlns:d2p1="http://schemas.arellia.com/dc/Resource/">
+		<d2p1:AllowedTargetRoleTypeId>493435f7-3b17-4c4c-b07f-c23e7ab7781f</d2p1:AllowedTargetRoleTypeId>
+		<d2p1:RequiresScopingSecurity>false</d2p1:RequiresScopingSecurity>
+		<d2p1:RestrictionCollectionId>00000000-0000-0000-0000-000000000000</d2p1:RestrictionCollectionId>
+		<d2p1:ScopingSecurityOperationId>00000000-0000-0000-0000-000000000000</d2p1:ScopingSecurityOperationId>
+	</adc:ApplyToResourcesSettings>
+	<adc:DefaultResourceTargetIds>
+		<arr:guid>34166591-d5f2-4dde-abc3-99d5aa841518</arr:guid>
+	</adc:DefaultResourceTargetIds>
+	<adc:Enabled>false</adc:Enabled>
+	<ApplicationActionIds>
+		<arr:guid>d8498d12-4fdd-44db-b21c-4e294881c4d4</arr:guid>
+		<arr:guid>01b913fe-b098-4ec9-99fe-ec93782da543</arr:guid>
+	</ApplicationActionIds>
+	<AppliesToAllProcesses>false</AppliesToAllProcesses>
+	<ChildApplicationActionIds />
+	<ChildAssociations />
+	<EndsProcessing>true</EndsProcessing>
+	<EndsProcessingChild>false</EndsProcessingChild>
+	<ManditoryFilterIds>
+		<arr:guid>5ab0270c-b9fa-4a8d-b0fe-5dd092971c92</arr:guid>
+	</ManditoryFilterIds>
+	<NegativeFileFilterIds />
+	<OwnsItemIds />
+	<PositiveFileFilterIds>
+		<arr:guid>ebbd1adf-72f6-4e71-bbb0-46417ecdbd8b</arr:guid>
+	</PositiveFileFilterIds>
+	<Priority>10</Priority>
+	<SendActionEvent>true</SendActionEvent>
+	<SkipDuringSystemStartup>false</SkipDuringSystemStartup>
+	<Stage2Processing>false</Stage2Processing>
+</ApplicationControlPolicyContract>
+
+</items>

@@ -1,0 +1,35 @@
+﻿<items>
+<FileSpecificationFilterContract xmlns:adc="http://schemas.arellia.com/dc/" xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:mss="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:dc="http://schemas.datacontract.org/2004/07/System" xmlns:d1p4="http://schemas.arellia.com/dc/ClientItem/" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.arellia.com/dc/FileInventory/Filters/">
+	<adc:FolderId>451680e9-28d1-4af9-8e88-c4cd04f8cebc</adc:FolderId>
+	<adc:ItemId>ebbd1adf-72f6-4e71-bbb0-46417ecdbd8b</adc:ItemId>
+	<adc:Name>/bin/launchctl</adc:Name>
+	<adc:ProductId>75afc25f-c518-491c-a60d-ecd6b7dbc7ad</adc:ProductId>
+	<adc:Strings />
+	<adc:Tags>
+		<arr:string>pm.platform.macos</arr:string>
+	</adc:Tags>
+	<ChildAssociations>
+		<arr:anyType i:type="adc:ItemAssociations">
+			<adc:AssociationTypeId>efb89861-0aed-5592-be87-6c8992773a87</adc:AssociationTypeId>
+			<adc:AssociatedItemIds />
+		</arr:anyType>
+		<arr:anyType i:type="adc:ItemAssociations">
+			<adc:AssociationTypeId>c01776a1-dffd-5842-94ad-aedbafc19515</adc:AssociationTypeId>
+			<adc:AssociatedItemIds />
+		</arr:anyType>
+	</ChildAssociations>
+	<DriveTypes>0</DriveTypes>
+	<ExcludeFilterIds />
+	<FilePath>/bin/</FilePath>
+	<FileSpec>launchctl</FileSpec>
+	<IncludeFilterIds />
+	<IncludeHidden>false</IncludeHidden>
+	<IncludeReparse>true</IncludeReparse>
+	<IncludeSubdirectories>false</IncludeSubdirectories>
+	<IncludeSystem>false</IncludeSystem>
+	<IncludeSystemReparse>false</IncludeSystemReparse>
+	<ManditoryFilterIds />
+	<OwnsItemIds />
+</FileSpecificationFilterContract>
+
+</items>

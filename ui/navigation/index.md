@@ -25,7 +25,7 @@ Table column sorting and filtering is available via the ellipsis on each table c
 
 Next to the search menu is the [Notification/Alerts](../alert/index.md) icon. Click the icon to Manage Approvals and to view Notifications.
 
-The help menu provides access to About, Getting Started, Documentation, and the API Reference.
+The help menu provides access to [About](about.md), Getting Started, Documentation, and the API Reference.
 
 ![help](images/help.png "Help menu")
 

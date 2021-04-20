@@ -3,17 +3,17 @@
 [priority]: # (1)
 # Navigation and Controls
 
-In Privilege Manager navigation and controls are aligned with Thycotic's standard user experience.  The main navigation menu is situated along the left side of your browser window and controls on each page are standardized.
+In Privilege Manager, navigation and controls are aligned with Thycotic's standard user experience.  The main navigation menu is situated along the left side of your browser window and controls on each page are standardized.
 
 The button for a __page refresh__ and the __More__ drop-down options are available at the top-right of your page.
 
 ![refresh](images/refresh-more.png "Refresh and More button")
 
-Whenever you are in editing mode on a page, you find a __Save__ or __Cancel__ banner on the top of your page.
+Whenever you are in editing mode on a page, you will find a __Save Changes__ or __Cancel__ banner at the top of your page.
 
 ![cancel](images/save-cancel.png "Cancel/Save banner in editing mode")
 
-Breadcrumb navigation is provided on the top left of your page.
+Breadcrumb navigation is provided at the top left of your page.
 
 Table column sorting and filtering is available via the ellipsis on each table column:
 
@@ -33,7 +33,7 @@ The user icon provides access to information about the system name, Preferences,
 
 ![preferences](images/pref.png "User preferences")
 
-Controls to enable or disable a setting are unified across the user interface via on/off type switches. Users preferences like number of grid rows and color theme can be specified, these will be applied through the console one edited and saved.
+Controls to enable or disable a setting are unified across the user interface via on/off type switches. Users' preferences, such as number of grid rows and color theme can be specified, and will be applied throughout the console once edited and saved.
 
 ## Pin to Navigation Tree
 
@@ -43,7 +43,7 @@ When computer groups are created, they can be pinned to the navigation tree on t
 
 ## Table Grid Contents
 
-On any table grid the user has an option to filter on a what is displayed in the grid and what not. 
+On any table grid, the user has an option to filter on a what is displayed in the grid.
 
 | Page | Options |
 | ----- | ----- |
@@ -74,7 +74,7 @@ The main navigation menu on the left is organized into
 
 ### Chevrons
 
-A menu item with a chevron indicates the menu can be opened or closed, depending on chevron direction. For example in the image below the chevron pointing down for macOS computers indicates the item is collapsed.
+A menu item with a chevron indicates the menu can be opened or closed, depending on chevron direction. For example, in the image below the chevron pointing down for macOS computers indicates the item is collapsed.
 
 ![chevrons](images/chevrons.png "Chevron direction indicating closed or expanded menu items")
 

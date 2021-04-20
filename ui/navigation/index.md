@@ -43,7 +43,7 @@ When computer groups are created, they can be pinned to the navigation tree on t
 
 ## Table Grid Contents
 
-On any table grid, the user has an option to filter on a what is displayed in the grid.
+On any table grid, the user has an option to filter on what is displayed in the grid.
 
 | Page | Options |
 | ----- | ----- |

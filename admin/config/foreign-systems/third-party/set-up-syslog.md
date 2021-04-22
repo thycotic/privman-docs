@@ -44,6 +44,7 @@ The following template options are available:
 
 ![Send SysLog templates](images/syslog/templates.png "Sent SysLog Events template options")
 
+* __Send Change History as SysLog Events__ - Use this template to send change history events to your SysLog system. When this task runs for the first time, it sends all change history to your SysLog server. On subsequent runs it only sends the delta of new change history events.​
 * __Send SysLog Application Action Events__ - Use this template to send application action events to your SysLog system. Application Action Events contain generic information about the application that run, which policy was triggered, the date/time stamp, computer, and user for example.
 * __Send SysLog Application Justification Events__ - Use this template to send application justification events to your SysLog system. For example, if a user runs an application requiring a justification workflow.
 * __Send SysLog Bad Rated Application Action Events__ - Use this template to send an event to your SysLog system, when an application is being installed or executed, that is identified with a bad security rating.

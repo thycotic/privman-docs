@@ -7,5 +7,6 @@ The following Unix/Linux specific action topics are available:
 
 * [Add to Group Action](add-to-group.md)
 * [Adjust Environment Variable Action](adj-env-var.md)
+* [CLI Require Justification Message](cli-just-msg.md)
 * [Display User Message Action](display-user-msg.md)
 * [Run As User Action](run-as-user.md)

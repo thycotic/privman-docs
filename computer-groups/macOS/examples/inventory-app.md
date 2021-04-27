@@ -1,24 +1,24 @@
-[title]: # (Inventorying .app Bundles)
+[title]: # (Inventorying Application Bundles)
 [tags]: # (learning mode, macOS)
 [priority]: # (101)
-# Inventorying .app Bundles
+# Inventorying Application Bundles
 
-Privilege Manager allows the inventory of macOS .app bundles. These are most likely files already installed on a macOS system that can be found in the Applications folder.
-In order for Privilege Manager to inventory .app bundles, the user needs to create a .zip file of the .app bundles and move it outside of the Applications folder. Once the .zip is created and moved, it can be uploaded to Privilege Manager for inventory purposes.
+Privilege Manager allows the inventory of macOS application bundles. These are most likely applications already installed on a macOS system that can be found in the Applications folder.
+In order for Privilege Manager to inventory application bundles, the user needs to create a .zip file of the application bundles and move it outside of the Applications folder. Once the .zip is created and moved, it can be uploaded to Privilege Manager for inventory purposes.
 
-A .zip of an .app bundle when inventoried can contain one or more mach-O binaries. The level of details that can be inventoried automatically depends on the format of and information provided in the Info.plist file.
+A .zip of an application bundle when inventoried can contain one or more Mach-O binaries. The level of details that can be inventoried automatically depends on the format of and information provided in the Info.plist file.
 
 The examples below show certain steps for the zip and upload process for one type of file, while the inventory examples are shown for
 
-* a readable Info.plist file with an .app bundle containing one mach-O binary.
-* a readable Info.plist file with an .app bundle containing more than one mach-O binary.
+* a readable Info.plist file with an application bundle containing one Mach-O binary.
+* a readable Info.plist file with an application bundle containing more than one Mach-O binary.
 * a binary Info.plist file that does not provide sufficient details automatically and that will require manual steps to add information to the filter and/or policy.
 
-The __Manage Application__ option is only available on files inside the .zip or .rar compressed archives and not on the .zip or .rar file itself.
+The __Manage Application__ option is only available on files inside the .zip compressed archives and not on the .zip file itself.
 
 ## Creating a .zip File
 
-1. Navigate to an .app bundle file inside __/Applications__.
+1. Navigate to an application bundle file inside __/Applications__.
 1. Right-click and select __Compress__.
 1. Select the created .zip file and move it out of __/Applications__.
 
@@ -40,10 +40,8 @@ The __Manage Application__ option is only available on files inside the .zip or 
 1. On the Resource Explorer page under __Known Data | File Inventory__, select __Virtual Disk File Contents__.
 
    ![alt](images/inventory/app-virtual-disk.png "Resource Explorer page")
-   * In the File column the .app bundle name is listed as inventoried.
-   * In the Folder column the path/location of the .app bundle is provided.
-1. In the __File__ column, click on the .app bundle name.
-1. The Resource explorer is now displaying the information for the client item.
+1. In the __File__ column, click on the Mach-O binary name.
+1. The Resource explorer is now displaying the information for the client item. The table below shows the difference between readable (left column) and non-readable (right column) Info.plist files.
 
    | Info.plist readable | Info.plist non-readable (binary format) |
    | ----- | ----- |
@@ -52,35 +50,37 @@ The __Manage Application__ option is only available on files inside the .zip or 
 
    | Info.plist readable | Info.plist non-readable (binary format) |
    | ----- | ----- |
-   | ![alt](images/inventory/app-manage-full-filter.png "Manage Application modal to create a filter for the .app bundle") | ![alt](images/inventory/app-manage.png "Manage Application modal to create a filter for the .app bundle") |
+   | ![alt](images/inventory/app-manage-full-filter.png "Manage Application modal to create a filter for the application bundle") | ![alt](images/inventory/app-manage.png "Manage Application modal to create a filter for the application bundle") |
 
    Select any or all of the options on the Manage Application modal.
 1. Click __Create Filter__.
 
-   Privilege Manager creates a _Wizard Generated File Specification Filter_ for the .app bundle. This filter can be further customized and added to any policy.
+   When dealing with an application bundle that has a readable Info.plist, Privilege Manager creates a very detailed _Wizard Generated File Specification Filter_ for the application bundle. This filter can be further customized and added to any policy.
 
-   ![alt](images/inventory/app-filter.png "Wizard Generated File Specification Filter for the .app bundle")
+   ![alt](images/inventory/app-filter.png "Wizard Generated File Specification Filter for the application bundle")
 
-## Uploading a .zip with Two mach-O Binaries
+## Uploading a .zip with Two Mach-O Binaries
 
-App bundles can contain more than one mach-O binary, which will all be inventoried and accessible via the client items under __Known Data | Virtual Disk File Contents__:
+App bundles can contain more than one Mach-O binary, which will all be inventoried and accessible via the client items under __Known Data | Virtual Disk File Contents__:
 
 ![alt](images/inventory/app-2-binaries.png "App bundle client item with two binaries")
 
-Create a filter via __Manage Application__ for all binaries listed and add all of those filters to a policy to correctly handle the .app bundle.
+While an application bundle can contain many binaries, you may want to only create an App Bundle filter for the binary set as the __CFBundleExecutable__ in the Info.Plist. For some applications this may be sufficient, but you may need to create additional non-App Bundle filters for the other binaries.
 
 ## App Bundle Contents Info.plist (binary format)
 
-Depending on how the vendor created the .app bundle, the level of detail to be inventoried might vary. Sometimes it is necessary to look at other artifacts in the bundle to customize the filter and or policy further.
+Depending on how the vendor created the application bundle, the level of detail to be inventoried might vary. Sometimes it is necessary to look at other artifacts in the bundle to customize the filter and or policy further.
 
 For this we will look at an Info.plist file in binary format. For example,
 
 * to manually add a Bundle Identifier to the filter, search for the tag `<CFBundleIdentifier>` and enter the string value in the appropriate filter field.
 * to manually add a Bundle Version (short) to the filter, search for the tag `<CFBundleShortVersionString`> and enter the string value in the appropriate filter field.
 
+>**Note**: Reading an Info.plist file might depend on the tool that is being used. If opened in TextEdit only, they can appear garbled. On macOS systems, we recommend using QuickLock (⌘Y), XCode, or something like Visual Studio Code. On Windows systems, we recommend Visual Studio Code or Notepad++. 
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://wwwapplicationle.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
@@ -138,7 +138,7 @@ For this we will look at an Info.plist file in binary format. For example,
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>DTCompiler</key>
-	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<string>comapplicationle.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
 	<string>12B45b</string>
 	<key>DTPlatformName</key>
@@ -180,7 +180,7 @@ For this we will look at an Info.plist file in binary format. For example,
 			<key>NSRequiredContext</key>
 			<dict>
 				<key>NSApplicationIdentifier</key>
-				<string>com.apple.finder</string>
+				<string>comapplicationle.finder</string>
 			</dict>
 			<key>NSSendFileTypes</key>
 			<array>

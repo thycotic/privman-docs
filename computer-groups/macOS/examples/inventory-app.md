@@ -55,9 +55,9 @@ The __Manage Application__ option is only available on files inside the .zip com
    Select any or all of the options on the Manage Application modal.
 1. Click __Create Filter__.
 
-   When dealing with an application bundle that has a readable Info.plist, Privilege Manager creates a very detailed _Wizard Generated File Specification Filter_ for the application bundle. This filter can be further customized and added to any policy.
+   When dealing with an application bundle that has a readable Info.plist, Privilege Manager creates a very detailed _Wizard Generated App Bundle Filter_ for the application bundle. This filter can be further customized and added to any policy.
 
-   ![alt](images/inventory/app-filter.png "Wizard Generated File Specification Filter for the application bundle")
+   ![alt](images/inventory/app-filter.png "Wizard Generated App Bundle Filter for the application bundle")
 
 ## Uploading a .zip with Two Mach-O Binaries
 
@@ -76,7 +76,7 @@ For this we will look at an Info.plist file in binary format. For example,
 * to manually add a Bundle Identifier to the filter, search for the tag `<CFBundleIdentifier>` and enter the string value in the appropriate filter field.
 * to manually add a Bundle Version (short) to the filter, search for the tag `<CFBundleShortVersionString`> and enter the string value in the appropriate filter field.
 
->**Note**: Reading an Info.plist file might depend on the tool that is being used. If opened in TextEdit only, they can appear garbled. On macOS systems, we recommend using QuickLock (⌘Y), XCode, or something like Visual Studio Code. On Windows systems, we recommend Visual Studio Code or Notepad++. 
+>**Note**: Reading an Info.plist file might depend on the tool that is being used. If opened in TextEdit only, they can appear garbled. On macOS systems, we recommend using QuickLock (⌘Y), XCode, or something like Visual Studio Code. On Windows systems, we recommend Visual Studio Code or Notepad++.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

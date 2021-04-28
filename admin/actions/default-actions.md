@@ -21,7 +21,7 @@ Here is the complete list of Actions that come with Privilege Manager out-of-the
 | | __Install Apple Software Authorization Right__ (system.install.apple-software) | This action grants the system.install.apple-software right in the authorizationdb for the duration of an applicable process. |
 | | __Modify System Keychain Authorization Right__ (system.keychain.modify) | This action grants the system.keychain.modify right in the authorizationdb for the duration of an applicable process. |
 | | __Xcode FLE Authorization Right__ (com.apple.dt.Xcode.LicenseAgreementXPCServiceRights) | This action grants the com.apple.dt.Xcode.LicenseAgreementXPCServiceRights right in the authorizationdb for the duration of an applicable process. |
-| CLI Justification Message (Application Action) | __CLI Require Justification Message​__ | Justification message to execute before allowing the process to continue. |
+| CLI Justification Message (Application Action) | __Command Line Justification Message​__ | Justification message to execute before allowing the process to continue. |
 | Display Advanced Message Action| __Application Approval Request (with Offline Fallback) Message Action__ | Application Approval Request Message Action for macOS. |
 | | __Application Approval Request (with ServiceNow Request Item Number) Message Action__ | This action will display an approval request form for ServiceNow integrations for approval before allowing application to run on macOS endpoints. |
 | | __Application Approval Request Message Action__ | Application Approval Request Message Action for macOS. |

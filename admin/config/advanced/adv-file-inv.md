@@ -12,6 +12,8 @@ Under the File Inventory Solution the inventory hash algorithm(s) and file exten
 * VHD contents filters with default extensions of .exe, .cat, and .zip.
 * ZIP contents filters with default extensions of .exe, .cat, . msi, and .zip.
 
-When you click __Edit__ you can add other hash algorithms to the list. You can change any of the listed file extensions by adding/removing directly in the text fields. Make sure to save any changes.
-
 ![Collectors file extension filters](images/advanced/collectors.png "Inventory configuration options")
+
+1. To add inventory hash algorithms, click __Edit__. To remove them, click __x__.
+1. To change any of the listed file extensions, add or remove extensions directly in the text fields.
+1. Make sure to save any changes.

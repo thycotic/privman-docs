@@ -6,11 +6,12 @@
 The Advanced tab lets you configure settings like:
 
 * [General](adv-pm-general.md)
+* [API Settings](adv-pm-api.md)
 * [Timeout](adv-pm-timeout.md)
 * [Agent](adv-pm-agent.md)
 * [Inventory](adv-file-inv.md)
 * [Monitor](adv-pm-monitor.md)
 * [Proxy](adv-pm-proxy.md)
-* [ServiceBus](adv-pm-servicebus.md)* File Inventory Solution such as
+* [ServiceBus](adv-pm-servicebus.md)
 
 To edit any of the advanced settings, make changes and then click __Save Changes__.

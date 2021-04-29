@@ -21,12 +21,13 @@ Here is the complete list of Actions that come with Privilege Manager out-of-the
 | | __Install Apple Software Authorization Right__ (system.install.apple-software) | This action grants the system.install.apple-software right in the authorizationdb for the duration of an applicable process. |
 | | __Modify System Keychain Authorization Right__ (system.keychain.modify) | This action grants the system.keychain.modify right in the authorizationdb for the duration of an applicable process. |
 | | __Xcode FLE Authorization Right__ (com.apple.dt.Xcode.LicenseAgreementXPCServiceRights) | This action grants the com.apple.dt.Xcode.LicenseAgreementXPCServiceRights right in the authorizationdb for the duration of an applicable process. |
-| Display Advanced Message Action| __Application Approval Request (with Offline Fallback) Message Action__ | Application Approval Request Message Action for Mac OS |
+| CLI Justification Message (Application Action) | __Command Line Justification Message​__ | Justification message to execute before allowing the process to continue. |
+| Display Advanced Message Action| __Application Approval Request (with Offline Fallback) Message Action__ | Application Approval Request Message Action for macOS. |
 | | __Application Approval Request (with ServiceNow Request Item Number) Message Action__ | This action will display an approval request form for ServiceNow integrations for approval before allowing application to run on macOS endpoints. |
-| | __Application Approval Request Message Action__ | Application Approval Request Message Action for Mac OS |
+| | __Application Approval Request Message Action__ | Application Approval Request Message Action for macOS. |
 | | __Application Denied Message Action__ | This action will display a modal denial notification message to the user and prevent application execution on MacOS. |
-| | __Application Justification Message Action__ | Application Justification Message Action for Mac OS |
-| | __Application Warning Message Action__ | Application Warning Message Action for Mac OS |
+| | __Application Justification Message Action__ | Application Justification Message Action for macOS. |
+| | __Application Warning Message Action__ | Application Warning Message Action for macOS. |
 | Just in Time Group Membership Action | __Just in Time Group Membership Action__ | This action will add a user to a specified group for a specified time. |
 | Display User Message Action | __Deny Execute Message__ | This action displays a message to the user informing them that an application has been denied execution |
 | Deny Execute Action | __Deny Execute__ | This action stops specified applications from executing |

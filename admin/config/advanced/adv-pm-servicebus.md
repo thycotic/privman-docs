@@ -1,9 +1,9 @@
-[title]: # (ServiceBus Settings)
+[title]: # (ServiceBus)
 [tags]: # (general configuration)
-[priority]: # (5)
-# ServiceBus Settings
+[priority]: # (8)
+# ServiceBus
 
-Under the Privilege Manager Server category, the fourth section is ServiceBus settings.
+The ServiceBus configuration setting is used when you utilize a Service Bus with your Privilege Manager instance.
 
 ![Privilege Manager ServiceBus](images/pm/servicebus.png "Privilege Manager ServiceBus")
 

@@ -26,7 +26,7 @@ Here is the complete list of Actions that come with Privilege Manager out-of-the
 | | __Application Approval Request (with ServiceNow Request Item Number) Message Action__ | This action will display an approval request form for ServiceNow integrations for approval before allowing application to run on macOS endpoints. |
 | | __Application Approval Request Message Action__ | Application Approval Request Message Action for macOS. |
 | | __Application Denied Message Action__ | This action will display a modal denial notification message to the user and prevent application execution on MacOS. |
-| | __Application Justification Message Action__ | Application Justification Message Action for macOS. Do __not__ use for commands and script run under `sudo` in Terminal. |
+| | __Application Justification Message Action__ | Application Justification Message Action for macOS. |
 | | __Application Warning Message Action__ | Application Warning Message Action for macOS. |
 | Just in Time Group Membership Action | __Just in Time Group Membership Action__ | This action will add a user to a specified group for a specified time. |
 | Display User Message Action | __Deny Execute Message__ | This action displays a message to the user informing them that an application has been denied execution |

@@ -23,4 +23,6 @@ To create the message action,
 1. Under Settings, use the color tooling options and editor to add and customize your message prompt for the users.
 1. Click __Save Changes__.
 
+Refer to [Using the Command Line Action Editor](../index.md#using_the_command_line_action_editor) for information on how to use the editor.
+
 >**Note**: The Command Line Justification Message action is the preferred message action to elevate commands and scripts run under `sudo`.

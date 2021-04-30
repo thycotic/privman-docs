@@ -38,7 +38,7 @@ The administrator can customize the
 * Background Color
 * Text Style.
 
-By default the background is black.
+By default the background and foreground colors will be based on the user's terminal configuration settings. You can use __Text Style | Reset__ to reset to defaults at any point.
 
 The text color can be changed and any color/style customization applies to all text after the specific ANSI control character has been inserted.
 

@@ -1,6 +1,6 @@
 [title]: # (Add to Group)
 [tags]: # (actions,*nix)
-[priority]: # (2)
+[priority]: # (3)
 # Add to Group Action
 
 The Add to Group action provides group membership to the running process via policy for temporary access.

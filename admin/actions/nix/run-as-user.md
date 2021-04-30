@@ -1,6 +1,6 @@
 [title]: # (Run as User)
 [tags]: # (actions,*nix)
-[priority]: # (2)
+[priority]: # (3)
 # Run as User Action
 
 This actions allows a command a user runs on an endpoint to be treated as if a different user ran it.

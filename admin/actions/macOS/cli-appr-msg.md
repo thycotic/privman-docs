@@ -4,7 +4,7 @@
 
 # Command Line Approval Message Action
 
-The Command Line Approval Message action allows administrators to prompt command line users on macOS endpoints for an approval request. The action displays a text in the command line interface and prompts the user to enter text.
+The Command Line Approval Message action allows administrators to prompt command line users on macOS endpoints for an approval request. The action displays text in the command line interface and prompts the user to enter text.
 
 This action is specifically designed to work with the Thycotic macOS sudo plugin and is only intended for commands that run under `sudo` based on the following use case:
 

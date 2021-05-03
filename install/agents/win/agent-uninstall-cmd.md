@@ -1,6 +1,6 @@
 [title]: # (Agent Uninstall)
 [tags]: # (software removal)
-[priority]: # (1610)
+[priority]: # (10)
 # Agent Uninstall via Command Line
 
 This topic explains how to uninstall the Agent through command line. If you're trying to uninstall an old agent in order to install a newer version of the agent, there is no need to do so. The installers will detect a previous version installed and uninstall the old version prior to installing the new agent.

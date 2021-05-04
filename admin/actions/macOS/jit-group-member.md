@@ -16,4 +16,5 @@ This action will add a user to the specified group for a specified time. This ac
    1. the __Duration__ either
       * set a specific length of time, here you need to consider that authorization is started when the application starts, or
       * use the default _as long as application is active_.
+   1. enable the __Suppress password prompts from sudo while a member of the group__ if the user should be prompted for the standard user password while in the group.
 1. Click __Save Changes__.

@@ -4,9 +4,9 @@
 
 # macOS Homebrew Installer Support
 
-If you are using Homebrew to manage command line utilities and applications, you need to add the __privman_privileged__ group to your JIT policy. This will add the user to the group for the duration of the Homebrew installer.
+If you are using Homebrew to manage command line utilities and applications, you need to add the user to the admin group with a JIT group action and use a policy with additional advanced setting as described below.
 
-With a policy in place, a standard (non-admin) user is able to run the Homebrew installer by entering the command line found on the Homebrew home page (https://brew.sh) at a Terminal window prompt. The user is prompted to enter their password (in response to a sudo command in the script); this is expected and succeeds since the user has been JIT added to the admin group. After that the installer proceeds and completes successfully, resulting in a Homebrew installation under `/usr/local` (or `/opt/homebrew` on Apple Silicon machines) owned by the user (not root).
+With a policy in place, a standard (non-admin) user is able to run the Homebrew installer by entering the command line found on the Homebrew home page (https://brew.sh) at a Terminal window prompt. After that the installer proceeds and completes successfully, resulting in a Homebrew installation under `/usr/local` (or `/opt/homebrew` on Apple Silicon machines) owned by the user (not root).
 
 ## Creating the Filters Needed
 

@@ -4,7 +4,7 @@
 
 # macOS Gatekeeper Best Practices
 
-The macOS Gatekeeper technology prevents certain scripts from running on a system. Only items downloaded from the app store or items identified as trusted software are allowed to run.
+The macOS Gatekeeper technology can prevent newly downloaded applications and scripts from running, unless downloaded from the App Store or identified as coming from a trusted developer
 
 Privilege Manager cannot get around these OS specific security protections; however deploying a script that developers use or need to run frequently is possible via the MDM process (and JAMF rollout).
 

@@ -9,4 +9,6 @@ This sections contains topics around infrastructure set-up and/or changes:
 * [Setup High Availability/Clustering](ha_clustering.md)
 * [Setup Reverse Proxy](proxy.md)
 * [VM Deployments](../../agents/all/vm-deployments.md)
-* [Moving SQL DB](moving-comb-db.md)
+* [Migrating SQL Server Database for Privilege Manager and Secret Server Combined Installation](moving-comb-db.md)
+* [Migrating the Privilege Manager Server](moving-privman.md)
+

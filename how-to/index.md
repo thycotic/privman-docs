@@ -27,8 +27,9 @@ This topic is a collection of articles covering "How to..." procedures for diffe
   * [Azure Service Bus Configuration](infrastructure/ms-az-service-bus.md)
   * [Setup High Availability/Clustering](infrastructure/ha_clustering.md)
   * [Setup Reverse Proxy](infrastructure/proxy.md)
-  * [Moving MS SQL Server Database for Privilege Manager and Secret Server Combined Installation](infrastructure/moving-comb-db.md)
-  * [VM Deployments](infrastructure/vm-deployments.md)
+  * [Migrating SQL Server Database for Privilege Manager and Secret Server Combined Installation](infrastructure/moving-comb-db.md)
+  * [Migrating the Privilege Manager Server](infrastructure/moving-privman.md)
+  * [VM Deployments](../agents/all/vm-deployments.md)
 
 * macOS:
 

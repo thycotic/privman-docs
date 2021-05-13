@@ -36,6 +36,8 @@ We recommend taking the old database offline.
 1. Restart TMS website.
 1. Check that the TMS, TMSAgent, and TMSWorker application pools are running.
 1. Browse to your TMS URL database connection page e.g. `https://<YOUR_URL_INSTANCE>/TMS/setup/database/connectdatabase` (for Arellia this URL would be slightly different e.g. `https://<YOUR_URL_INSTANCE>/ams/setup/database/connectdatabase`) and you will see a page to enter your new database connection details.
+
+   >**Note**: This can only be accessed locally via the server running the Privilege Manager instance or via active RDP session into the Privilege Manager server.
 1. Enter your new SQL Server and the account information.
 1. Click Next and the site will connect to the new database.
 

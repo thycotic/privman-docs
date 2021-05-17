@@ -56,7 +56,7 @@ Create a policy to include the newly uploaded pkg and include the below script t
 
 ```shell
 #!/bin/bash
-# Privilege Manager macOS configuation script to be used with a "vanilla" download of the agent.
+# Privilege Manager macOS configuration script to be used with a "vanilla" download of the agent.
 # This script should be used as a pre-install payload following the installation of the PKG.
 # Replace the tmsBaseUrl with your own server url i.e "https://your.privman.com/TMS"
 # Replace installCode with your own details.
@@ -82,3 +82,5 @@ When you need to uninstall the macOS agent, use the __Uninstall.sh__ shell comma
 ```shell
 sudo /Volumes/ThycoticManagementAgent-n.n.nnnn/Uninstall.sh
 ```
+
+Where `n.n.nnnn` needs to be replaced with the actual version number of the agent you wish to uninstall.

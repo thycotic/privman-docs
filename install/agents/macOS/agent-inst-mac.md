@@ -56,7 +56,7 @@ Create a policy to include the newly uploaded pkg and include the below script t
 
 ```shell
 #!/bin/bash
-# Privilege Manager macOS configuation script to be used with a "vanilla" download of the agent.
+# Privilege Manager macOS configuration script to be used with a "vanilla" download of the agent.
 # This script should be used as a pre-install payload following the installation of the PKG.
 # Replace the tmsBaseUrl with your own server url i.e "https://your.privman.com/TMS"
 # Replace installCode with your own details.

@@ -27,7 +27,7 @@ The Bundled macOS Agent is a DMG + PKG file. You can use this Mac agent installe
 To install the agent software on a single testing machine, follow these steps:
 
 1. Go to
-   * [Agent Downloads - KEXT](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.8.24.dmg) or
+   * [Agent Downloads - KEXT](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.8.27.dmg) or
    * [Agent Downloads - SYSEX](https://tmsnuget.thycotic.com/software/Agents/ThycoticManagementAgent-10.8.1019.dmg) to download the Privilege Manager Mac Agent.
 1. Run the Bundled Mac Agent DMG + PKG Installer on the computer you want to manage.
 1. During the setup process,
@@ -78,7 +78,7 @@ __KEXT__
 
 ```cmd
 cd /Volumes/<network share>/<path to PKG installer>
-sudo installer -pkg ThycoticManagementAgent-10.8.24.pkg -target /
+sudo installer -pkg ThycoticManagementAgent-10.8.27.pkg -target /
 ```
 
 __SYSEX__
@@ -97,7 +97,7 @@ Using a Deployment Tool like Jamf or SCCM, include both the PKG installer and th
 __KEXT__
 
 ```shell
-sudo installer -pkg ThycoticManagementAgent.10.8.24.pkg -target /
+sudo installer -pkg ThycoticManagementAgent.10.8.27.pkg -target /
 ```
 
 __SYSEX__
@@ -124,7 +124,7 @@ When you need to uninstall the macOS Agent, use the __Uninstall.sh__ shell comma
 __KEXT__
 
 ```shell
-sudo /Volumes/ThycoticManagementAgent-10.8.24/Uninstall.sh
+sudo /Volumes/ThycoticManagementAgent-10.8.27/Uninstall.sh
 ```
 
 __SYSEX__

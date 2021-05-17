@@ -5,6 +5,10 @@
 
 This topic provides a chronological list of documentation changes. Minor content alterations are not tracked.
 
+## May 2021
+
+* New 10.8.2 KEXT flavored macOS Agent download to address high memory utilization during File Inventory.
+
 ## January 2021
 
 * Hotfix release notes entry related to Directory Services.

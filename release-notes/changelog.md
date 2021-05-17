@@ -5,6 +5,10 @@
 
 This topic provides a chronological list of documentation changes. Minor content alterations are not tracked.
 
+## May 2021
+
+* New macOS Agent download to address high memory utilization during File Inventory.
+
 ## October 2020
 
 Added [10.8.1 Release Notes](10.8.1-combined.md).

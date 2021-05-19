@@ -8,6 +8,10 @@ Based on authentication provider configured and used, the login and logout promp
 
 ## Login Options
 
+Sample images with various login options set up.
+
+![alt](images/scenarios/sample-login-options.png "Sample login options")
+
 ### Basic login (Standard Out-Of-Box)
 
 ![alt](images/scenarios/standard-NTML-login.png "Standard local login")
@@ -18,64 +22,18 @@ Based on authentication provider configured and used, the login and logout promp
 
 ### Azure AD
 
+![alt](images/scenarios/azure-ad.png "Default Azure AD login")
 
 ## Logout Scenarios
 
 ### Basic with NTLM 
 
+After the logout completes and the tokens are cleaned out, the user is presented with a prompt to close the browser.
+
 ![alt](images/scenarios/standard-logout.png "Standard local login")
 
 ### Azure AD
-User logs out
-Redirects to landing page with spinner only. This is a transition page while we clear out cookies
-NOTE: Clears out all Privman and third-part provider login tokens/cookies
-After this is complete, redirect to standard Logout page that has:
-Image on left and options on right 
-"You have been signed out"
-Have a "Login" button below that message
-Clicking "Login" button redirect you back to original Login" page
 
+After the logout completes and the user tokens are cleaned out, the user is redirected to the Thycotic One login modal.
 
-Local AD
-User logs out
-Redirects to landing page with spinner only. This is a transition page while we clear out cookies
-NOTE: Clears out all Privman and third-part provider login tokens/cookies
-After this is complete, redirect to standard Logout page that has:
-Image on left and options on right 
-"You have been signed out"
-Have a "Login" button below that message
-Clicking "Login" button redirect you back to original Login" page
-
-
-
-Third party Auth
-User logs out
-Redirects to landing page with spinner only. This is a transition page while we clear out cookies
-NOTE: Clears out all Privman and third-part provider login tokens/cookies
-After this is complete, redirect to standard Logout page that has:
-Image on left and options on right 
-"You have been signed out"
-Have a "Login" button below that message
-Clicking "Login" button redirect you back to original Login" page
-
-
-SAML/SSO
-User logs out
-Redirects to landing page with spinner only. This is a transition page while we clear out cookies
-NOTE: Clears out all Privman and third-part provider login tokens/cookies
-After this is complete, redirect to standard Logout page that has:
-Image on left and options on right 
-"You have been signed out"
-Have a "Login" button below that message
-Clicking "Login" button redirect you back to original Login" page
-
-
-Third party SAML/SSO
-User logs out
-Redirects to landing page with spinner only. This is a transition page while we clear out cookies
-NOTE: Clears out all Privman and third-part provider login tokens/cookies
-After this is complete, redirect to standard Logout page that has:
-Image on left and options on right 
-"You have been signed out"
-Have a "Login" button below that message
-Clicking "Login" button redirect you back to original Login" page
+![alt](images/scenarios/login-t1.png "Redirect to Thycotic One login after logout")

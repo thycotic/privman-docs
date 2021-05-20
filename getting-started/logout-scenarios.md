@@ -28,12 +28,12 @@ Sample images with various login options set up.
 
 ### Basic with NTLM 
 
-After the logout completes and the tokens are cleared out, the user is presented with a prompt to close the browser.
+After the logout completes and the tokens are cleared, the user is presented with a prompt to close the browser.
 
 ![alt](images/scenarios/standard-logout.png "Standard local login")
 
 ### Azure AD
 
-After the logout completes and the user tokens are cleared out, the user is redirected to the Thycotic One login modal.
+After the logout completes and the user tokens are cleared, the user is redirected to the Thycotic One login modal.
 
 ![alt](images/scenarios/login-t1.png "Redirect to Thycotic One login after logout")

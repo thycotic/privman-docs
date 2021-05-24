@@ -1,7 +1,7 @@
 [title]: # (Local Users)
 [tags]: # (Local Security,Users)
 [priority]: # (4)
-# Local Users
+# User Management
 
 The Users page listed under your Computer Group shows a list of local users that exist within this Computer Group. The information highlighted by this table includes
 
@@ -17,8 +17,8 @@ Managing local users in Local Security means that you are setting a password for
 
 To create a new local user,
 
-1. Navigate to your Computer Group for this new user and select User Policies.
-1. On the User Policies page, click __Create User__.
+1. Navigate to your Computer Group for this new user and select User Management.
+1. On the User Management page, click __Create User__.
 1. Enter the new User Name.
 1. Click __Create__.
 1. This takes you to the Account Details tab of your new user's account. To create a user through Local Security, it must be a managed user.

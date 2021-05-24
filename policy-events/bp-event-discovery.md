@@ -80,7 +80,7 @@ Create policies that are used for a certain amount of time before they are revis
 * What to block
 * What to deny list.
 
-For certain groups of users, it might also be an idea to target a specific machine routinely to use the data to fine-tune any policies that are enforced on the endpoint. Group policies based on existing groupings – AD OUs, AD user groups, SCCM groups, etc.
+For certain groups of users, it might also be an idea to target a specific machine routinely to use the data to fine-tune any policies that are enforced on the endpoint. Group Management based on existing groupings – AD OUs, AD user groups, SCCM groups, etc.
 
 However, requirements and circumstances are not set in stone and revisiting existing and established policies is part of a best practice approach in PAM.
 

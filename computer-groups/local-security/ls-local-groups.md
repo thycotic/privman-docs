@@ -1,9 +1,11 @@
-[title]: # (Local Groups)
-[tags]: # (Local Security,Groups)
+[title]: # (Group Management)
+[tags]: # (local security,local groups)
 [priority]: # (3)
-# Local Groups
+# Group Management
 
 Every Computer Group is divided into Groups and Users. Both __Groups__ and __Users__ in this context refer to local accounts on the machines that are included in the Computer Group.
+
+![local](images/gr-mgmt.png "Group Management")
 
 The Computer Group page lists all local groups on this set of computers, and provide a high-level overview of the selected computer group based on Local Users, Local Groups, and the number of computers in the group.
 
@@ -13,7 +15,7 @@ Remember: when an agent registers, Local Security will automatically discover th
 
 To create a new Group, 
 
-1. Under your Computer Group, select Group Policies.
+1. Under your Computer Group, select Group Management.
 1. Click __Create Group__.
 1. Enter a Name for your new group.
 1. Click __Create__.

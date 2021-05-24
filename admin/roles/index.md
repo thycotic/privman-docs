@@ -39,6 +39,10 @@ This role allows the Privilege Manager Unix/Linux Administrator to have full adm
 
 This role allows the user to have read permissions to most items, but no rights to modify security permissions. This role can disclose passwords.
 
+## Privilege Manager View Password Role
+
+This role allows the user to have view access to passwords for managed users in Privilege Manager. They can view the current passwords and password change history.
+
 ## Privilege Manager Windows Administrators
 
 This role allows the Privilege Manager Administrator to have full administrative access to the Privilege Manager Server Console to administer local security and application control items pertaining to Windows systems. This role can view but not edit macOS and Unix/Linux policies.

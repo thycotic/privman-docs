@@ -1,7 +1,7 @@
 [title]: # (Local Users)
 [tags]: # (Local Security,Users)
 [priority]: # (4)
-# Local Users
+# User Management
 
 The Users page listed under your Computer Group shows a list of local users that exist within this Computer Group. The information highlighted by this table includes
 
@@ -17,8 +17,8 @@ Managing local users in Local Security means that you are setting a password for
 
 To create a new local user,
 
-1. Navigate to your Computer Group for this new user and select User Policies.
-1. On the User Policies page, click __Create User__.
+1. Navigate to your Computer Group for this new user and select User Management.
+1. On the User Management page, click __Create User__.
 1. Enter the new User Name.
 1. Click __Create__.
 1. This takes you to the Account Details tab of your new user's account. To create a user through Local Security, it must be a managed user.
@@ -41,7 +41,7 @@ To create a new local user,
 1. Set the rules pertaining to the user's password. Managed user accounts require an initial password when created.
 1. Click __Save Changes__.
 
-While editing a user you can change the account User Name, add details like the full name of the user, you may disable the account or update the schedule that pushes out modifications to endpoints.
+While editing a user, you can change the account User Name, add details like the full name of the user, disable the account, or update the schedule that pushes out modifications to endpoints.
 
 The most important part of managing a user is setting a one-time password for the account. This means that any user of the account is no longer able to access the account with the former password, effectively locking a user out of the account unless they contact the Privilege Manager Local Security Helpdesk.
 
@@ -51,7 +51,7 @@ The __Statistics tab__ for a local user account highlights some quick visual sta
 
 ## Password Management: Randomize Local Account Passwords
 
-Local Security allows administrators to manage users and also to manage passwords and password rotation. Managing users, passwords, and rotation scheduled often go hand-in-hand, but not every managed user account also requires password rotation. For example, service accounts are managed, but usually do not have password rotation setup.
+Local Security allows administrators to manage users and also to manage passwords and password rotation. Managing users, passwords, and rotation schedules often go hand-in-hand, but not every managed user account also requires password rotation. For example, service accounts are managed, but usually do not have password rotation setup.
 
 Password rotation can also be setup for existing users without having to provision user accounts.
 

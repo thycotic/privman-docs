@@ -3,7 +3,7 @@
 [priority]: # (5001)
 # Best Practices
 
-In Privilege Manager the option to Send Policy Feedback is the main notification mechanism about application installation and execution on user endpoints. Using Send Policy Feedback is recommended while systems are in Event Discovery and Learning Mode. This helps administrators to gather data, analyze patterns, and then assign actions to application events retrospectively.
+In Privilege Manager, the option to Send Policy Feedback is the main notification mechanism about application installation and execution on user endpoints. Using Send Policy Feedback is recommended while systems are in Event Discovery and Learning Mode. This helps administrators to gather data, analyze patterns, and then assign actions to application events retrospectively.
 
 It is not recommended to use Event Discovery for all configurable options and all user endpoints all the time. Event Discovery in an established production environment should be targeted to not generate unnecessary and overwhelming amounts of data.
 
@@ -80,7 +80,7 @@ Create policies that are used for a certain amount of time before they are revis
 * What to block
 * What to deny list.
 
-For certain groups of users, it might also be an idea to target a specific machine routinely to use the data to fine-tune any policies that are enforced on the endpoint. Group policies based on existing groupings – AD OUs, AD user groups, SCCM groups, etc.
+For certain groups of users, it might also be an idea to target a specific machine routinely to use the data to fine-tune any policies that are enforced on the endpoint. Group Management based on existing groupings – AD OUs, AD user groups, SCCM groups, etc.
 
 However, requirements and circumstances are not set in stone and revisiting existing and established policies is part of a best practice approach in PAM.
 
@@ -94,4 +94,4 @@ An UAC override policy allows a user to elevate a program not blocked by a deny 
 
 ### Don’t Send Policy Feedback
 
-For most business organization it makes no sense to implement a policy that sends feedback when a MS Office product or the company wide instant messaging product is installed or run. For user groups like developers, programming tools are needed and running those should not trigger any notifications.
+For most business organizations, it makes no sense to implement a policy that sends feedback when a MS Office product or the company wide instant messaging product is installed or run. For user groups like developers, programming tools are needed and running those should not trigger any notifications.

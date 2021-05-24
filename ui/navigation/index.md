@@ -49,8 +49,8 @@ On any table grid, the user has an option to filter on what is displayed in the 
 | ----- | ----- |
 | Computer Groups | ![side](images/side-menu-drop-down.png "Side Menu drop-down options") |
 | Application Policies | ![app policies](images/app-pol.png "Application Policies drop-down options") |
-| User Policies | ![user policies](images/user-pol.png "User Policies drop-down options")
-| Group Policies | Same options as for User Policies |
+| User Management | ![User Management](images/user-pol.png "User Management drop-down options")
+| Group Management | Same options as for User Management |
 | Scheduled Jobs | All, Active, Inactive |
 
 ## Switches
@@ -85,8 +85,8 @@ The chevron pointing up for Windows computers indicates the item is expanded.
 The listed computer groups all have subitems organized by
 
 * [Application Policies](../../computer-groups/app-control/policies/index.md)
-* [User Policies](../../computer-groups/local-security/index.md)
-* [Group Policies](../../computer-groups/local-security/index.md)
+* [User Management](../../computer-groups/local-security/index.md)
+* [Group Management](../../computer-groups/local-security/index.md)
 * [Scheduled Jobs](../../admin/tasks/client/index.md)
 * [Agent Configuration](../../agents/index.md)
 

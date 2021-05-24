@@ -3,7 +3,7 @@
 [priority]: # (2100)
 # Computer Groups
 
-Privilege Manager's user interface provides a logical categorization via Computer Groups. The basic categorization is by operating system. Based on size of organization different business units can be targeted by separate Computer Groups established in Privilege Manager.
+Privilege Manager's user interface provides a logical categorization via Computer Groups. The basic categorization is by operating system. Based on size of organization, different business units can be targeted by separate Computer Groups established in Privilege Manager.
 
 Each Computer Group has the following areas to specifically address
 
@@ -22,10 +22,10 @@ If you have agents already installed and registered, you will see Computer Group
 
 * MacOS Computers
 * Unix/Linux
-* Windows Computers and
+* Windows Computers
 
 ![cg](images/cg.png "Default Computer Groups")
 
-For example, in the screenshot above only 2 agent are registered with Privilege Manager. Local Security tells us that the agents are installed on a Windows computer (thus categorized in the Windows Computers group), that there are 30 local Users  and 35 User Groups on the two machines. Local Security automatically discovers this information upon every agent’s registration with Privilege Manager.
+For example, in the screenshot above only 1 agent is registered with Privilege Manager. Local Security tells us that the agents are installed on a Windows computer (thus categorized in the Windows Computers group), that there is 1 local User, and 28 User Groups on the machine. Local Security automatically discovers this information upon every agent’s registration with Privilege Manager.
 
 If you have Computer Groups (also called Resource Targets) already configured for Application Control in Privilege Manager, keep in mind that those groups also appear under Group Management for a given Computer Group in the left navigation tree.

@@ -7,13 +7,13 @@ Every Computer Group is divided into Groups and Users. Both __Groups__ and __Use
 
 ![local](images/gr-mgmt.png "Group Management")
 
-The Computer Group page lists all local groups on this set of computers, and provide a high-level overview of the selected computer group based on Local Users, Local Groups, and the number of computers in the group.
+The Computer Group page lists all local groups on this set of computers, and provides a high-level overview of the selected computer group based on Local Users, Local Groups, and the number of computers in the group.
 
 Remember: when an agent registers, Local Security will automatically discover the local groups that exist on each machine.
 
 ## Create New Local Group
 
-To create a new Group, 
+To create a new Group,
 
 1. Under your Computer Group, select Group Management.
 1. Click __Create Group__.
@@ -37,9 +37,9 @@ To create a new Group,
 
 Managing a local group means that you determine which user accounts are in the group. In other words, if a group is being managed, the group membership will remain static and will no longer be able to be updated directly on the endpoint. Before adding users to any group, make sure you really want all those users in that particular group. Any exact group membership setting is rolled out to ALL endpoints in that computer group.
 
-If a local group is not managed the Manage Group checkbox is not selected. To Manage the group, click Edit from the Details tab and then check the Manage Group box. Click Save Changes, and Yes to Confirm Navigation. Changes to these settings may take up to 15 minutes to update on your endpoints.
+If a local group is not managed, the Manage Group checkbox is not selected. To Manage the group, click Edit from the Details tab and then check the Manage Group box. Click Save Changes, and Yes to Confirm Navigation. Changes to these settings may take up to 15 minutes to update on your endpoints.
 
-When managing a group, existing members and any that have been added to the policy will appear in the Members table. Users will be added, removed, or ignored based on the configured membership and will be consistently applied across all endpoints in this computer group target. From the drop-down choose which operation to perform if an account (user) is found on the endpoint. The following options can be selected:
+When managing a group, existing members and any that have been added to the policy will appear in the Members table. Users will be added, removed, or ignored based on the configured membership and will be consistently applied across all endpoints in this computer group target. From the drop-down, choose which operation to perform if an account (user) is found on the endpoint. The following options can be selected:
 
 * Ignore if found
 * Add if missing

@@ -1,20 +1,22 @@
-[title]: # (Controlling: Block Windows)
+[title]: # (Controlling: Elevate macOS)
 [tags]: # (create)
-[priority]: # (13)
-# Creating a Controlling Block Policy for Windows
+[priority]: # (12)
+# Creating a Controlling Elevation Policy for macOS
+
+>**Note**: The diagram shows actions "Run as Root" and "Just in Time" which will only work with the system extension based agent introduced with Privilege Manager 10.8.2.
 
 1. For any of your Computer Groups navigate to __Application Policies__.
 
-   ![app policies](../images/wizard/app-pol-1.png "Application Policies overview page")
+   ![app policies](../../app-control/policies/images/wizard/app-pol-1.png "Application Policies overview page")
 1. Click __Create Policy__.
 
-   ![wizard 1](../images/wizard/wiz-1.png "Policy Wizard first page")
+   ![wizard 1](../../app-control/policies/images/wizard/wiz-1.png "Policy Wizard first page")
 
    Make your selection and click __Next__ to get to the next wizard page.
 
    For the steps through the wizard, follow these decision points:
 
-   ![block](../images/wizard/controlling-block-win.png "Policy Wizard decision diagram")
+   ![elevate](images/wizard/controlling-elevate-macOS.png "Policy Wizard decision diagram")
 1. After assigning a name, description and verifying the priority number, click __Create Policy__.
 
 While in the wizard you can navigate back to previous pages via the __Previous Step__ link to select another path. However, any __Previous Step__ navigation clears selected options on accessed wizard pages.

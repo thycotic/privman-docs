@@ -1,6 +1,6 @@
 [title]: # (Migrate LSS Policies)
 [tags]: # (silverlight end-of-life)
-[priority]: # (3010)
+[priority]: # (10)
 # Migrate Local Security Policies
 
 The migration path to the latest Local Security implementation provides an analysis report of issues like missing account credentials, or accounts that are not unique across targets, which can then be remediated before the migration.

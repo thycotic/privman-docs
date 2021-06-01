@@ -1,12 +1,14 @@
 [title]: # (Using MDM Profiles)
 [tags]: # (macOS,agents)
 [priority]: # (6)
+
 # Using an MDM Profile for your Agent
 
 If you utilize an MDM tool like JAMF, you can create configuration profiles to make management of the agent more silent on your macOS Catalina and Big Sur deployments.
 
 You will need two different configuration profiles for each version of the agent (or two different payloads within the same profile):
-* a KEXT or SYSEX Allow Profile 
+
+* a KEXT or SYSEX Allow Profile
 * a PPPC profile that gives Full Disk Access to ThycoticACSvc (KEXT) or com.thycotic.acsd (SYSEX). Refer to [macOS File/Folder Access](../../platforms/macOS/tcc-access.md)
 
 ## SYSEX

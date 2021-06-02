@@ -4,7 +4,7 @@
 
 # Directory Services Tasks
 
-The directory services tasks in this components are all covering different type of directory services imports.
+The directory services tasks in this component are all covering different type of directory services imports.
 
 You find the tasks when you:
 
@@ -19,14 +19,14 @@ This task will import devices, users, and groups from Azure AD.
 ### Parameters
 
 * Directory: The Azure AD instance from which to import/synchronize.
-* Import Users: If set then this task will search for users in the given Azure AD instance.
-* Import Groups: If set then this task will search for groups in the given Azure AD instance.
-* Import Devices: If set then this task will search for devices in the given Azure AD instance.
-* Create users when not matched: If set then users not matched to an existing resource in Privilege Manager will be created.
-* Create groups when not matched: If set then groups not matched to an existing resource in Privilege Manager will be created.
-* Create devices when not matched: If set then devices not matched to an existing resource in Privilege Manager will be created.
+* Import Users: If set, then this task will search for users in the given Azure AD instance.
+* Import Groups: If set, then this task will search for groups in the given Azure AD instance.
+* Import Devices: If set, then this task will search for devices in the given Azure AD instance.
+* Create users when not matched: If set, then users not matched to an existing resource in Privilege Manager will be created.
+* Create groups when not matched: If set, then groups not matched to an existing resource in Privilege Manager will be created.
+* Create devices when not matched: If set, then devices not matched to an existing resource in Privilege Manager will be created.
 
-  >**Note**: Devices are particularly vulnerable to duplication because of lack of identifiers in Azure AD. Refer to [Best Practices for AD Imports](../../../how-to/best-practices/ad-import/index.md) for details.
+  >**Note**: Devices are particularly vulnerable to duplication due to the lack of identifiers in Azure AD. Refer to [Best Practices for AD Imports](../../../how-to/best-practices/ad-import/index.md) for details.
 
 ## Import Directory Computers
 
@@ -79,12 +79,14 @@ This task will import the specified users, devices, groups, and optionally child
 ### Parameters
 
 * Azure AD: The Azure AD instance from which to import/synchronize.
-* Create groups when not matched (no): If set then devices not matched to an existing resource in Privilege Manager will be created. NOTE: Devices are particularly vulnerable to duplication because of lack of identifiers in Azure AD. See documentation for details.
-* Create groups when not matched (yes): If set then groups not matched to an existing resource in Privilege Manager will be created.
-* Create users when not matched: If set then users not matched to an existing resource in Privilege Manager will be created.
+* Create groups when not matched (no): If set, then devices not matched to an existing resource in Privilege Manager will be created.
+
+  >**Note**: Devices are particularly vulnerable to duplication due to the lack of identifiers in Azure AD. Refer to [Best Practices for AD Imports](../../../how-to/best-practices/ad-import/index.md) for details.
+* Create groups when not matched (yes): If set, then groups not matched to an existing resource in Privilege Manager will be created.
+* Create users when not matched: If set, then users not matched to an existing resource in Privilege Manager will be created.
 * Device names: The display names of the devices to import. Leave empty for none. Use a newline between names. End name with '*' to find all that start with the given name.
 * Group display names: The display names of the groups to import. Leave empty for none. Use a newline between names. End name with '*' to find all that start with the given name.
-* Import child devices: If set then child devices of any discovered group will be imported.
-* Import child users: If set then child users of any discovered group will be imported.
-* Recurse child groups: If set then child groups of the given group names will be imported recursively.
+* Import child devices: If set, then child devices of any discovered group will be imported.
+* Import child users: If set, then child users of any discovered group will be imported.
+* Recurse child groups: If set, then child groups of the given group names will be imported recursively.
 * User names: The display names or user principal names (UPN) of the users to import. Leave empty for none. Use a newline between names. End name with '*' to find all that start with the given name.

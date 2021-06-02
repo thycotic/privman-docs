@@ -4,7 +4,7 @@
 
 # Directory Services Maintenance Tasks
 
-The tasks in this components all help with the maintenance of directory services resources. These tasks are all read-only items that need to be duplicated for any task customization.
+The tasks in this component all help with the maintenance of directory services resources. These tasks are read-only items that need to be duplicated for any task customization.
 
 You find the tasks when you:
 
@@ -20,9 +20,9 @@ This task will delete users, groups, and devices from Privilege Manager that wer
 ### Parameters
 
 * Directory: The Azure AD instance from which to delete resources.
-* Delete users: If set then this task will delete users from Privilege Manager imported from the given directory.
-* Delete groups: If set then this task will delete groups from Privilege Manager imported from the given directory.
-* Delete devices: If set then this task will delete computers and other devices from Privilege Manager imported from the given directory.
+* Delete users: If set, then this task will delete users from Privilege Manager imported from the given directory.
+* Delete groups: If set, then this task will delete groups from Privilege Manager imported from the given directory.
+* Delete devices: If set, then this task will delete computers and other devices from Privilege Manager imported from the given directory.
 * Ignore dependencies: Use this as a last resort if you wish to delete and ignore any items that depend on the resources being deleted.
 
 ## Delete Imported Directory Resources
@@ -32,11 +32,11 @@ This task will delete users, groups, computers, OUs, and Sites from Privilege Ma
 ### Parameters
 
 * Directory: The AD instance from which to delete resources.
-* Delete users: If set then this task will delete users from Privilege Manager imported from the given directory.
-* Delete groups: If set then this task will delete groups from Privilege Manager imported from the given directory.
-* Delete computers: If set then this task will delete computers from Privilege Manager imported from the given directory.
-* Delete organization: If set then this task will delete OUs from Privilege Manager imported from the given directory.
-* Delete sites: If set then this task will delete sites from Privilege Manager imported from the given directory.
+* Delete users: If set, then this task will delete users from Privilege Manager imported from the given directory.
+* Delete groups: If set, then this task will delete groups from Privilege Manager imported from the given directory.
+* Delete computers: If set, then this task will delete computers from Privilege Manager imported from the given directory.
+* Delete organization: If set, then this task will delete OUs from Privilege Manager imported from the given directory.
+* Delete sites: If set, then this task will delete sites from Privilege Manager imported from the given directory.
 * Ignore dependencies: Use this as a last resort if you wish to delete and ignore any items that depend on the resources being deleted.
 
 ## Merge Computers with Duplicate Azure Device IDs
@@ -45,7 +45,7 @@ This task will merge computers with duplicate Azure AD Device IDs.
 
 ### Parameters
 
-* Directory: The Azure AD instance from which to merge resources. Leave empty for all
+* Directory: The Azure AD instance from which to merge resources. Leave empty for all.
 
 ## Merge Duplicate Account SID Resources
 
@@ -73,4 +73,4 @@ This task updates the membership of Directory Services OU scope collections.
 
 ### Parameters
 
-This task has a Force all parameter that, if set the membership of all directory scope collections will be updated, regardless of update required detection.
+This task has a __Force all__ parameter that forces the membership of all directory scope collections to update, regardless of an update required detection.

@@ -29,6 +29,20 @@ Users also need to have a Global Account Details - SID from the same Azure AD fo
 
 The basic reason for duplicates is not having matching information when Privilege Manager imports resources, registers computers, or updates inventory.
 
+### Agent Registration
+
+Prior to Privilege Manager release version 11.1.0, if you imported devices from Azure AD and then registered agents, you were guaranteed to get duplicate computers. With version 11.1.0, when agents register, the server checks for existing computers with the same Device ID and merges them automatically.
+
+For existing systems where duplicate computers have been recorded, the __Computers with Duplicate Azure Device IDs__ report is available.
+
+![alt](images/report-comp-dup-id.png "Computer with Duplicate Azure Device Id report")
+
+Run the report and then use the __Merge Computers with Duplicate Azure Device IDs__ task to merge all computers with duplicate device Ids based on the report.
+
+![alt](images/task-merge.png "Merge Computers with Duplicate Azure Device IDs task")
+
+The report and task require a version 11.1.x based agent.
+
 ### Resource Type Keys
 
 Privilege Manager identifies resources in several ways. The primary way is through “keys”, which is basically just uniquely identifying data about a resource. Not all keys are available from all sources, so below each key is a table that lists availability.

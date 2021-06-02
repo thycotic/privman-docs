@@ -37,7 +37,7 @@ For existing systems where duplicate computers have been recorded, the __Compute
 
 ![alt](images/report-comp-dup-id.png "Computer with Duplicate Azure Device Id report")
 
-Run the report and then use the __Merge Computers with Duplicate Azure Device IDs__ task to merge all computer with duplicate device Ids based on the report.
+Run the report and then use the __Merge Computers with Duplicate Azure Device IDs__ task to merge all computers with duplicate device Ids based on the report.
 
 ![alt](images/task-merge.png "Merge Computers with Duplicate Azure Device IDs task")
 

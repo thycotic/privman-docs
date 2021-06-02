@@ -4,7 +4,7 @@
 
 # Directory Services Tasks
 
-The directory services tasks in this component are all covering different type of directory services imports.
+The directory services tasks in this component cover different types of directory services imports.
 
 You find the tasks when you:
 

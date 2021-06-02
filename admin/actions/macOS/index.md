@@ -11,4 +11,5 @@ The following are macOS specific topics on actions:
 * [Command Line Justification Message Action](cli-just-msg.md)
 * [Display Advanced User Message Action (MacOS)](macOS-adv-msg.md)
 * [Just-in-Time Group Membership Action](jit-group-member.md)
+* [Run as User Action](run-as-user.md)
 * [WYSIWYG MacOS Action Message Editor](wysiwyg.md)

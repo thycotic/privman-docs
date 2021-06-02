@@ -1,4 +1,5 @@
-[title]: # (Directory Services)
+[title]: # (* Added [Run as User action](../admin/actions/macOS/run-as-user.md) that is leveraged by the sudo plugin to run arbitrary commands as a specified user.
+)
 [tags]: # (foreign systems)
 [priority]: # (3)
 

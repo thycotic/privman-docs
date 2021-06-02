@@ -5,7 +5,7 @@
 
 User Context Filters are used in a policy as either an
 
-* inclusion filter,  to specify that the policy only applies to users in a specific AD Group
+* inclusion filter, to specify that the policy only applies to users in a specific AD Group.
 * exclusion filter, to specify that the policy applies to everyone except the users in a specific AD Group.
 
 The User Context Filters are part of the Application Filter templates listed for Windows:
@@ -14,13 +14,13 @@ The User Context Filters are part of the Application Filter templates listed for
 
 This filter is available for both Windows and macOS systems.
 
-On Windows 10 endpoints the filter ensures that Azure AD security groups can be targeted within Windows-based User Context Filters computers that are __only__ joined to Azure AD.
+On Windows 10 endpoints, the filter ensures that Azure AD security groups can be targeted within Windows-based User Context Filters computers that are __only__ joined to Azure AD.
 
 ## On-Premise
 
-For Privilege Manager on-premises the __User Context Filter__ can be used after the Active Directory synchronization completes. When creating and editing the filter, add any 
+For Privilege Manager on-premises, the __User Context Filter__ can be used after the Active Directory synchronization completes. When creating and editing the filter, add any 
 
-* Build-in Accounts,
+* Built-in Accounts,
 * Well-known Accounts, and/or
 * Domain User Groups, for which you may need to run the Active Directory sync task to update available users and groups, or
 * Specific Users,
@@ -31,11 +31,11 @@ to specifically select user context.
 
 Then set the __All specified conditions must be met__ switch to __Yes__, if __ALL__ conditions must be met. Leave the switch set to __No__ to match __ANY__.
 
-You can also specify, if accounts must be enabled to be targeted. This is an important checkbox to set if specific users have been added.
+You can also specify if accounts must be enabled to be targeted. This is an important checkbox to set if specific users have been added.
 
 ## Cloud
 
-For Privilege Manager cloud the __User Context Filter via SID__ can be used if (Azure) AD synchronization has not been set up but the SID of the group is known. When creating the filter, 
+For Privilege Manager Cloud, the __User Context Filter via SID__ can be used if (Azure) AD synchronization has not been set up but the SID of the group is known. When creating the filter, 
 
 ![Create User Context Filter via SID](images/user_context_2.png "Create User Context Filter via SID")
 

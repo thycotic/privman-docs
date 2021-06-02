@@ -3,7 +3,7 @@
 [priority]: # (3)
 # Group Management
 
-Every Computer Group is divided into Groups and Users. Both __Groups__ and __Users__ in this context refer to local accounts on the machines that are included in the Computer Group.
+Every Computer Group is divided into Groups and Users. Both __Groups__ and __Users__ in this context refer to local accounts and any Azure AD synchronized resources as part of a particular Computer Group.
 
 ![local](images/gr-mgmt.png "Group Management")
 
@@ -28,7 +28,7 @@ To create a new Group,
    * Domain User
    * Domain Group
    * Local User
-1. On the __Add Member__ dialog, select from the available resource items by setting the switch.
+1. On the __Add Member__ dialog, select from the available resource items for Domain User or Domain Group, click __Select__ to enter the search, for Local User, select the user from the list as shown in the example image below.
 
    ![member](images/add-member.png "Add Member from list")
 1. Click __Add Member__.

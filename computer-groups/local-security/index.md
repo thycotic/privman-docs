@@ -1,6 +1,6 @@
 [title]: # (Local Security)
 [tags]: # (overview)
-[priority]: # (1)
+[priority]: # (2)
 # Local Security
 
 Local Security in Privilege Manager allows customers to
@@ -26,6 +26,8 @@ Each computer group contains all local groups and local users on endpoints with 
 
 ## Local Groups
 
+Groups are created and managed under the [Group Management](g-mgmt/index.md) menu node.
+
 Each local group has a list of local users that exist in that specific local group. From that list you can see
 
 * how many groups each user account is a member of.
@@ -33,5 +35,7 @@ Each local group has a list of local users that exist in that specific local gro
 * whether or not the account itself is managed.
 
 ## Local Users
+
+Users are created and managed under the [Users Management](u-mgmt/index.md) menu node.
 
 Setting up a local user account with password rotation means that the account is a managed account within Privilege Manager.

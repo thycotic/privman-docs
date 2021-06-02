@@ -18,25 +18,30 @@ For a more complete (and more specific) list of all out-of-the-box Privilege Man
 
 ## Creating a New Action Manually
 
-Navigate to __Admin | Actions__ in Privilege Manager and click __Create Action__. Under Action Details, select a platform type and then choose an action type from the dropdowns (see our Actions' Catalog for descriptions of action types).
+1. Navigate to __Admin | Actions__ in Privilege Manager and click __Create Action__.
+1. From the __Platform__ drop-down, select either Mac OS, Unix/Linux, or Windows.
 
-![create](all/images/action-both-new-2.png "Create Action dialog")
+   ![create](all/images/action-both-new-2.png "Create Action dialog")
+1. From the __Type__ drop-down, select the action type.
+1. Name your new action and type a Description, then click __Create__.
 
-Select a specific platform or choose both:
+   Editing options for actions depend on the type of action selected from the drop-down.
 
-![platform](all/images/action-both-new-1.png "Select Platform")
+   ![new action](all/images/action-both-new.png "Newly created action")
 
-If __Both Windows / Mac OS__ is selected, enter a name/description and click __Create__. Otherwise select a type from the drop-down based on selected platform:
+## Using the Command Line Action Editor
 
-* Windows:
+Command Line Action types have a built-in text editor to customize the user experience.
 
-  ![Create a new Action - Windows](all/images/new-action.png)
-* macOS:
+The administrator can customize the
+* Text Color
+* Background Color
+* Text Style.
 
-  ![Create a new Action - macOS](all/images/new-action-macOS.png)
+By default the background and foreground colors will be based on the user's terminal configuration settings. You can use __Text Style | Reset__ to reset to defaults at any point.
 
-Name your new action and type a Description, then click __Create__.
+The text color can be changed and any color/style customization applies to all text after the specific ANSI control character has been inserted.
 
-Editing options for this action will depend on the type of was action selected from the drop-down.
+![alt](all/images/cli-text-edit.png "Text editor example")
 
-![new action](all/images/action-both-new.png "Newly created action")
+Click [here](https://en.wikipedia.org/wiki/ANSI_escape_code) for a deep dive on ANSI control codes.

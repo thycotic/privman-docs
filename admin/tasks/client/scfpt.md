@@ -23,6 +23,7 @@ Initiate a check for pending client tasks. Used by agents that are unable to rec
 | Agent Received Size | depends on number of pending items |
 | Restrictions | none |
 
+<!-- 
 ## Scheduled Check for Pending Tasks (Unix/Linux)
 
 This remote-scheduled task checks for server-scheduled tasks assigned to the agent.
@@ -43,3 +44,4 @@ This remote-scheduled task checks for server-scheduled tasks assigned to the age
 | Agent Sent Size | n/a |
 | Agent Received Size | depends on number of pending items |
 | Restrictions | none |
+-->

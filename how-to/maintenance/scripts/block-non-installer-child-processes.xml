@@ -1,0 +1,273 @@
+<items>
+<ResourceContract xmlns:adc="http://schemas.arellia.com/dc/" xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:mss="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:dc="http://schemas.datacontract.org/2004/07/System" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.arellia.com/dc/Resource/">
+    <adc:Attributes>NoModify NoReplication NoDelete</adc:Attributes>
+    <adc:ItemId>4c628030-23ac-542c-b393-eab95dc471c0</adc:ItemId>
+    <adc:Name>CN=Thycotic Software, OU=Development, O=Thycotic Software, L=Washington, S=District of Columbia, C=US</adc:Name>
+    <adc:ProductId>27bedb8a-db37-4d53-b748-bc6651461fe4</adc:ProductId>
+    <adc:Strings />
+    <adc:Tags />
+    <AdditionalResourceRoleIds />
+    <ChildAssociations />
+    <DataClassData>
+        <adc:DataClassData>
+            <adc:DataClassId>0577a870-283f-470f-8f9b-15fdab031e96</adc:DataClassId>
+            <adc:DataClassType>InventorySingleRow</adc:DataClassType>
+            <adc:DataSet>
+                <dataset xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdatatypes="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:sqltypes="http://schemas.microsoft.com/sqlserver/2004/sqltypes" xmlns="">
+                    <DS_Digital_Certificate_Raw xmlns="http://schemas.arellia.com/resource/data/">
+                        <Digital_Certificate_Raw c1="true">
+                            <c0>MIIE1zCCA7+gAwIBAgIQNAO/dhnl0ufyV5FDaH5srjANBgkqhkiG9w0BAQsFADBRMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMdGhhd3RlLCBJbmMuMSswKQYDVQQDEyJ0aGF3dGUgU0hBMjU2IENvZGUgU2lnbmluZyBDQSAtIEcyMB4XDTE3MTIwNzAwMDAwMFoXDTIwMTIwNjIzNTk1OVowgY8xCzAJBgNVBAYTAlVTMR0wGwYDVQQIDBREaXN0cmljdCBvZiBDb2x1bWJpYTETMBEGA1UEBwwKV2FzaGluZ3RvbjEaMBgGA1UECgwRVGh5Y290aWMgU29mdHdhcmUxFDASBgNVBAsMC0RldmVsb3BtZW50MRowGAYDVQQDDBFUaHljb3RpYyBTb2Z0d2FyZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMq/vBGY70gaoVrCNXQDl1L48mB0BNoKLh/TsE18EiLJFIingbw63euNbntQE1uEJyoWB6Nnp03vAhvKunfVn42J5UsCM7irAH96UyA1Ecu3j1uXfFIyE1roAXU9SrLhf1qGd+e8CIdMmTdj7/qW8YtiLg63QWR4Ovp/a0RibEjIYmfp/I1A05YG8I/CoxepU+tTHKbtBTFJpwEZM1UvQlhGsxDdMGKpbUGto5hg+WWtBIbhmuRu6z9clam8A0x5NRxIViGmeo830sArHwrwVjRQ8ZLTYZtni68nM5lbbhbdA74+8DvVJVvtTNg2gBAOZbbzZgXc+1SCeUrKJg3hQvUCAwEAAaOCAWowggFmMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUcPaoczpQ8lsKcM0RwWgKdvA9pVYwHQYDVR0OBBYEFPmhy6Dxk4ZgyUE8KeIwQfmFMS7BMCsGA1UdHwQkMCIwIKAeoByGGmh0dHA6Ly90by5zeW1jYi5jb20vdG8uY3JsMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzBuBgNVHSAEZzBlMGMGBmeBDAEEATBZMCYGCCsGAQUFBwIBFhpodHRwczovL3d3dy50aGF3dGUuY29tL2NwczAvBggrBgEFBQcCAjAjDCFodHRwczovL3d3dy50aGF3dGUuY29tL3JlcG9zaXRvcnkwVwYIKwYBBQUHAQEESzBJMB8GCCsGAQUFBzABhhNodHRwOi8vdG8uc3ltY2QuY29tMCYGCCsGAQUFBzAChhpodHRwOi8vdG8uc3ltY2IuY29tL3RvLmNydDANBgkqhkiG9w0BAQsFAAOCAQEAKXO6r2nCFnGBOAd4i1PItY85/e3smYjYlQFcUPrwMBw3aGXUuFRHXeHXDXVo+uash+iI61SJiVg90gyzVIBlH14SZXGLu3leTo4HY+dRonX6p4CFEF1HhMdBmw/rPlT0j5XBsbd3YqgnmFAdVaU5T0RDjp7kelGEumH+0U0+w4xhGYGyaX8t5p0lD9z9CkFRBXu39qK7WFIZ1bKMynLr7NrMH6KU104ptsfEOOrN+HH/BzJdW+0+7a+0KArL7ItKv2VVrj/Lswp6QSASPxzDsaAWNi7hL+ELTi1LA1T6fxWdY79iPk7LIg84mbSPXmAu9q0vJYn0EMwFhIxX/DRiVQ==</c0>
+                        </Digital_Certificate_Raw>
+                    </DS_Digital_Certificate_Raw>
+                </dataset>
+            </adc:DataSet>
+        </adc:DataClassData>
+        <adc:DataClassData>
+            <adc:DataClassId>4d7c8bff-22c3-40f6-8f95-6410ebd4c1d9</adc:DataClassId>
+            <adc:DataClassType>Inventory</adc:DataClassType>
+            <adc:DataSet>
+                <dataset xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdatatypes="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:sqltypes="http://schemas.microsoft.com/sqlserver/2004/sqltypes" xmlns="">
+                    <DS_Hash xmlns="http://schemas.arellia.com/resource/data/">
+                        <Hash c0="1a160ee1-61c1-41f2-8758-a7562e84b358" c1="Az0h0vQP6PGmeq23oy1NLdRVUeia7uFMv3VFZb2lc68=" />
+                        <Hash c0="3bc0e8a0-caa1-40e0-b705-c8d990c0babf" c1="TGKAMCOsVCyzk+q5XcRxwIOH3+0=" />
+                    </DS_Hash>
+                </dataset>
+            </adc:DataSet>
+        </adc:DataClassData>
+        <adc:DataClassData>
+            <adc:DataClassId>b5479b8c-425f-491c-b835-72c5d611fb1e</adc:DataClassId>
+            <adc:DataClassType>InventorySingleRow</adc:DataClassType>
+            <adc:DataSet>
+                <dataset xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdatatypes="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:sqltypes="http://schemas.microsoft.com/sqlserver/2004/sqltypes" xmlns="">
+                    <DS_Digital_Certificate_Details xmlns="http://schemas.arellia.com/resource/data/">
+                        <Digital_Certificate_Details c2="rmx+aEORV/Ln0uUZdr8DNA==" c3="c36bc09f-1d7e-4cae-bfad-8677ee67834f" c5="2017-12-06T16:00:00-08:00" c6="2020-12-06T15:59:59-08:00">
+                            <c0>CN=Thycotic Software, OU=Development, O=Thycotic Software, L=Washington, S=District of Columbia, C=US</c0>
+                            <c1>CN=thawte SHA256 Code Signing CA - G2, O="thawte, Inc.", C=US</c1>
+                            <c4>MIIBCgKCAQEAyr+8EZjvSBqhWsI1dAOXUvjyYHQE2gouH9OwTXwSIskUiKeBvDrd641ue1ATW4QnKhYHo2enTe8CG8q6d9WfjYnlSwIzuKsAf3pTIDURy7ePW5d8UjITWugBdT1KsuF/WoZ357wIh0yZN2Pv+pbxi2IuDrdBZHg6+n9rRGJsSMhiZ+n8jUDTlgbwj8KjF6lT61Mcpu0FMUmnARkzVS9CWEazEN0wYqltQa2jmGD5Za0EhuGa5G7rP1yVqbwDTHk1HEhWIaZ6jzfSwCsfCvBWNFDxktNhm2eLryczmVtuFt0Dvj7wO9UlW+1M2DaAEA5ltvNmBdz7VIJ5SsomDeFC9QIDAQAB</c4>
+                        </Digital_Certificate_Details>
+                    </DS_Digital_Certificate_Details>
+                </dataset>
+            </adc:DataSet>
+        </adc:DataClassData>
+    </DataClassData>
+    <OwnsItemIds />
+    <ResourceTypeId>c76fc2a7-85db-4ecb-a055-8cd0d5fc91fd</ResourceTypeId>
+</ResourceContract>
+<ResourceContract xmlns:adc="http://schemas.arellia.com/dc/" xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:mss="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:dc="http://schemas.datacontract.org/2004/07/System" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.arellia.com/dc/Resource/">
+    <adc:Attributes>NoModify NoReplication NoDelete</adc:Attributes>
+    <adc:ItemId>7777b584-ed00-502b-a0b9-a7d05b7e7f3d</adc:ItemId>
+    <adc:Name>CN="Thycotic Software, LLC", O="Thycotic Software, LLC", L=Washington, S=District of Columbia, C=US</adc:Name>
+    <adc:ProductId>27bedb8a-db37-4d53-b748-bc6651461fe4</adc:ProductId>
+    <adc:Strings />
+    <adc:Tags />
+    <AdditionalResourceRoleIds />
+    <ChildAssociations />
+    <DataClassData>
+        <adc:DataClassData>
+            <adc:DataClassId>0577a870-283f-470f-8f9b-15fdab031e96</adc:DataClassId>
+            <adc:DataClassType>InventorySingleRow</adc:DataClassType>
+            <adc:DataSet>
+                <dataset xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdatatypes="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:sqltypes="http://schemas.microsoft.com/sqlserver/2004/sqltypes" xmlns="">
+                    <DS_Digital_Certificate_Raw xmlns="http://schemas.arellia.com/resource/data/">
+                        <Digital_Certificate_Raw c1="true">
+                            <c0>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</c0>
+                        </Digital_Certificate_Raw>
+                    </DS_Digital_Certificate_Raw>
+                </dataset>
+            </adc:DataSet>
+        </adc:DataClassData>
+        <adc:DataClassData>
+            <adc:DataClassId>4d7c8bff-22c3-40f6-8f95-6410ebd4c1d9</adc:DataClassId>
+            <adc:DataClassType>Inventory</adc:DataClassType>
+            <adc:DataSet>
+                <dataset xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdatatypes="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:sqltypes="http://schemas.microsoft.com/sqlserver/2004/sqltypes" xmlns="">
+                    <DS_Hash xmlns="http://schemas.arellia.com/resource/data/">
+                        <Hash c0="1a160ee1-61c1-41f2-8758-a7562e84b358" c1="E0ez9lcH+o3PzskLruwYLKsnvJW/SffJ6VxRQImJpsI=" />
+                        <Hash c0="3bc0e8a0-caa1-40e0-b705-c8d990c0babf" c1="d3e1hO0AACsguafQW35/PS4/0GU=" />
+                    </DS_Hash>
+                </dataset>
+            </adc:DataSet>
+        </adc:DataClassData>
+        <adc:DataClassData>
+            <adc:DataClassId>b5479b8c-425f-491c-b835-72c5d611fb1e</adc:DataClassId>
+            <adc:DataClassType>InventorySingleRow</adc:DataClassType>
+            <adc:DataSet>
+                <dataset xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdatatypes="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:sqltypes="http://schemas.microsoft.com/sqlserver/2004/sqltypes" xmlns="">
+                    <DS_Digital_Certificate_Details xmlns="http://schemas.arellia.com/resource/data/">
+                        <Digital_Certificate_Details c2="Z2zflT90GBNJCQn2u/nQCg==" c3="c36bc09f-1d7e-4cae-bfad-8677ee67834f" c5="2020-07-26T17:00:00-07:00" c6="2023-08-01T05:00:00-07:00">
+                            <c0>CN="Thycotic Software, LLC", O="Thycotic Software, LLC", L=Washington, S=District of Columbia, C=US</c0>
+                            <c1>CN=DigiCert SHA2 Assured ID Code Signing CA, OU=www.digicert.com, O=DigiCert Inc, C=US</c1>
+                            <c4>MIICCgKCAgEAufpV+m47W7iYZKefZ9F2kj5KtX/LQS6zChuBsmu3onwLPM3afjlXyBVOCl4a322ZmdBmmqPwSOckp8e/jSXafcrrIczUP3Y+eS7k9ktZ519tuQTwRqBn7NYAVQGdgTrp38xNxI8KTYrcNyS1eY+8u12LUoDCVxmIKF7xd3QgxwPbXl/YgCFY1GKvzjTDI5vVTPvJS1KTZ7jJ4YT/vGiXgExK2kGTBTiSfcpYafCHktgQ8S0l6LJ7/qjWZoVbCesKnKTNFK+AjBbsvRXTe6ZvdrmKU4+2MdEbVOzawdUSByWPiMhjeSbj3dDYAetrOJhh3Df+ACFKRWhLXn9x9PV7L1F7F7YTALyEGkjmLqj6+FO654PjVutd+DLddCMysgxBzADczJcjWIBnAxG6Sa0MhUjJLUjWZrNbllDVTyn6LphPGSlBOtt//vkLzHGnMC4wvOpZlGOVg8pFl8d5C7XGtwFQiAxhGWMb+mVSMsXTDS0aQZG8FdIZ7ratC2XcIatEjSK34B5oGmde3w7ruhjNDh8elCO9L6K3AKOF24oJXUIj4rZyjyrCGbpdfWAVXZ27B/M5RHRNd64kARKfpB/OpM3QrcdKLT8Dh8ASiXUw2E3SuXqxXVkW/3z50fOjVPfEq31L0mBMVTK8y6dL/5OcWYaFXVRAxTZj0P2JbNcucb8CAwEAAQ==</c4>
+                        </Digital_Certificate_Details>
+                    </DS_Digital_Certificate_Details>
+                </dataset>
+            </adc:DataSet>
+        </adc:DataClassData>
+    </DataClassData>
+    <OwnsItemIds />
+    <ResourceTypeId>c76fc2a7-85db-4ecb-a055-8cd0d5fc91fd</ResourceTypeId>
+</ResourceContract>
+<DigitalCertFilterContract xmlns:adc="http://schemas.arellia.com/dc/" xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:mss="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:dc="http://schemas.datacontract.org/2004/07/System" xmlns:d1p4="http://schemas.arellia.com/dc/ClientItem/" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.arellia.com/dc/FileInventory/Filters/">
+    <adc:Attributes>NoModify NoReplication NoDelete</adc:Attributes>
+    <adc:FolderId>bd1b4d12-8dfc-4fcf-a6ea-fe09159ff055</adc:FolderId>
+    <adc:ItemId>d1ca1c62-43de-4140-b8c5-85471c106a0f</adc:ItemId>
+    <adc:Name>Signed by Thycotic Certificate Filter</adc:Name>
+    <adc:ProductId>27bedb8a-db37-4d53-b748-bc6651461fe4</adc:ProductId>
+    <adc:Strings />
+    <adc:Tags>
+        <arr:string>pm.platform.windows</arr:string>
+    </adc:Tags>
+    <ChildAssociations />
+    <DigitalCertIds>
+        <arr:guid>7777b584-ed00-502b-a0b9-a7d05b7e7f3d</arr:guid>
+        <arr:guid>4c628030-23ac-542c-b393-eab95dc471c0</arr:guid>
+    </DigitalCertIds>
+    <OwnsItemIds />
+    <SubjectName i:nil="true" />
+</DigitalCertFilterContract>
+<Win32ExeFilterContract xmlns:adc="http://schemas.arellia.com/dc/" xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:mss="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:dc="http://schemas.datacontract.org/2004/07/System" xmlns:d1p4="http://schemas.arellia.com/dc/ClientItem/" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.arellia.com/dc/FileInventory/Filters/">
+    <adc:Attributes>NoModify NoReplication NoDelete</adc:Attributes>
+    <adc:FolderId>bd1b4d12-8dfc-4fcf-a6ea-fe09159ff055</adc:FolderId>
+    <adc:ItemId>eca86824-14f4-4301-8667-cfa316a00a39</adc:ItemId>
+    <adc:Name>Privilege Manager 'Remove Programs Utility.exe' Executable Filter</adc:Name>
+    <adc:ProductId>27bedb8a-db37-4d53-b748-bc6651461fe4</adc:ProductId>
+    <adc:Strings />
+    <adc:Tags>
+        <arr:string>pm.platform.windows</arr:string>
+    </adc:Tags>
+    <CompanyName />
+    <DriveTypes>0</DriveTypes>
+    <ExeProductName>Privilege Manager</ExeProductName>
+    <FileName />
+    <FilePath />
+    <FilePathSubdir>false</FilePathSubdir>
+    <FileVersion />
+    <InternalName />
+    <LegalCopyright i:nil="true" />
+    <LocalDiscoveryInterval>0</LocalDiscoveryInterval>
+    <OriginalFileName>Remove Programs Utility.exe</OriginalFileName>
+    <ProductVersion />
+    <UseLocalDiscoveryInterval>false</UseLocalDiscoveryInterval>
+</Win32ExeFilterContract>
+<FileSpecificationFilterContract xmlns:adc="http://schemas.arellia.com/dc/" xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:mss="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:dc="http://schemas.datacontract.org/2004/07/System" xmlns:d1p4="http://schemas.arellia.com/dc/ClientItem/" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.arellia.com/dc/FileInventory/Filters/">
+    <adc:Attributes>NoModify NoReplication NoDelete</adc:Attributes>
+    <adc:FolderId>bd1b4d12-8dfc-4fcf-a6ea-fe09159ff055</adc:FolderId>
+    <adc:ItemId>f44edf77-0fd5-4d30-b0ad-ad1a5da7351c</adc:ItemId>
+    <adc:Name>Privilege Manager 'Remove Programs Utility.exe' File Specification Filter</adc:Name>
+    <adc:ProductId>27bedb8a-db37-4d53-b748-bc6651461fe4</adc:ProductId>
+    <adc:Strings />
+    <adc:Tags>
+        <arr:string>pm.platform.windows</arr:string>
+    </adc:Tags>
+    <ChildAssociations>
+        <arr:anyType i:type="adc:ItemAssociations">
+            <adc:AssociationTypeId>efb89861-0aed-5592-be87-6c8992773a87</adc:AssociationTypeId>
+            <adc:AssociatedItemIds />
+        </arr:anyType>
+        <arr:anyType i:type="adc:ItemAssociations">
+            <adc:AssociationTypeId>c01776a1-dffd-5842-94ad-aedbafc19515</adc:AssociationTypeId>
+            <adc:AssociatedItemIds />
+        </arr:anyType>
+    </ChildAssociations>
+    <DriveTypes>0</DriveTypes>
+    <ExcludeFilterIds />
+    <FilePath i:nil="true" />
+    <FileSpec i:nil="true" />
+    <IncludeFilterIds />
+    <IncludeHidden>false</IncludeHidden>
+    <IncludeReparse>false</IncludeReparse>
+    <IncludeSubdirectories>false</IncludeSubdirectories>
+    <IncludeSystem>false</IncludeSystem>
+    <IncludeSystemReparse>false</IncludeSystemReparse>
+    <ManditoryFilterIds>
+        <arr:guid>d1ca1c62-43de-4140-b8c5-85471c106a0f</arr:guid>
+        <arr:guid>eca86824-14f4-4301-8667-cfa316a00a39</arr:guid>
+    </ManditoryFilterIds>
+    <OwnsItemIds />
+</FileSpecificationFilterContract>
+<ParentProcesssFilterContract xmlns:adc="http://schemas.arellia.com/dc/" xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:mss="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:dc="http://schemas.datacontract.org/2004/07/System" xmlns:d1p4="http://schemas.arellia.com/dc/ClientItem/" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.arellia.com/dc/ApplicationControl/ApplicationFilter/">
+    <adc:FolderId>bd1b4d12-8dfc-4fcf-a6ea-fe09159ff055</adc:FolderId>
+    <adc:ItemId>a6e3701b-e6f2-47af-ab0f-6bfcb5c0c742</adc:ItemId>
+    <adc:Name>Privilege Manager 'Remove Programs Utility.exe' Parent Process Filter</adc:Name>
+    <adc:ProductId>27bedb8a-db37-4d53-b748-bc6651461fe4</adc:ProductId>
+    <adc:Strings />
+    <adc:Tags>
+        <arr:string>pm.platform.windows</arr:string>
+    </adc:Tags>
+    <ChildAssociations />
+    <ExcludeFilterIds />
+    <IncludeFilterIds>
+        <arr:guid>f44edf77-0fd5-4d30-b0ad-ad1a5da7351c</arr:guid>
+    </IncludeFilterIds>
+    <ManditoryFilterIds />
+    <OwnsItemIds />
+</ParentProcesssFilterContract>
+<Win32ExeFilterContract xmlns:adc="http://schemas.arellia.com/dc/" xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:mss="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:dc="http://schemas.datacontract.org/2004/07/System" xmlns:d1p4="http://schemas.arellia.com/dc/ClientItem/" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.arellia.com/dc/FileInventory/Filters/">
+    <adc:Attributes>NoReplication System</adc:Attributes>
+    <adc:Description>Filter used to identify the Windows Console Window</adc:Description>
+    <adc:FolderId>f3355929-f372-43bd-83b0-3754f92f0e2e</adc:FolderId>
+    <adc:ItemId>cbbf212a-b08b-4211-97ae-7b7db252ac3e</adc:ItemId>
+    <adc:Name>Console Window Host (conhost.exe)</adc:Name>
+    <adc:ProductId>27bedb8a-db37-4d53-b748-bc6651461fe4</adc:ProductId>
+    <adc:Strings />
+    <adc:Tags />
+    <CompanyName />
+    <DriveTypes>0</DriveTypes>
+    <ExeProductName />
+    <FileName>conhost.exe</FileName>
+    <FilePath>%SYSTEMROOT%\System32</FilePath>
+    <FilePathSubdir>false</FilePathSubdir>
+    <FileVersion />
+    <InternalName />
+    <LegalCopyright i:nil="true" />
+    <LocalDiscoveryInterval>0</LocalDiscoveryInterval>
+    <OriginalFileName />
+    <ProductVersion />
+    <UseLocalDiscoveryInterval>false</UseLocalDiscoveryInterval>
+</Win32ExeFilterContract>
+<ApplicationControlPolicyContract xmlns:adc="http://schemas.arellia.com/dc/" xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:mss="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:dc="http://schemas.datacontract.org/2004/07/System" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.arellia.com/dc/ApplicationControl/Policy/">
+    <adc:Attributes>NoReplication</adc:Attributes>
+    <adc:Description>This policy blocks non-installers launched from the Privilege Manager Remove Programs Utility</adc:Description>
+    <adc:FolderId>d60954d0-4bd3-4e2d-92cc-a00606d0e651</adc:FolderId>
+    <adc:ItemId>429b2a7c-b95a-4926-bb29-51262b2a2f04</adc:ItemId>
+    <adc:Name>Block Non-Installers from Privilege Manager Remove Programs Utility Policy</adc:Name>
+    <adc:ProductId>27bedb8a-db37-4d53-b748-bc6651461fe4</adc:ProductId>
+    <adc:Strings />
+    <adc:Tags>
+        <arr:string>pm.platform.windows</arr:string>
+        <arr:string>pm.policyType:block</arr:string>
+    </adc:Tags>
+    <adc:ApplyToResourcesSettings xmlns:d2p1="http://schemas.arellia.com/dc/Resource/">
+        <d2p1:AllowedTargetRoleTypeId>493435f7-3b17-4c4c-b07f-c23e7ab7781f</d2p1:AllowedTargetRoleTypeId>
+        <d2p1:RequiresScopingSecurity>false</d2p1:RequiresScopingSecurity>
+        <d2p1:RestrictionCollectionId>00000000-0000-0000-0000-000000000000</d2p1:RestrictionCollectionId>
+        <d2p1:ScopingSecurityOperationId>00000000-0000-0000-0000-000000000000</d2p1:ScopingSecurityOperationId>
+    </adc:ApplyToResourcesSettings>
+    <adc:DefaultResourceTargetIds>
+        <arr:guid>eb5326c2-dfbe-4399-8c53-d980a673fd95</arr:guid>
+    </adc:DefaultResourceTargetIds>
+    <adc:Enabled>false</adc:Enabled>
+    <ApplicationActionIds>
+        <arr:guid>01b913fe-b098-4ec9-99fe-ec93782da543</arr:guid>
+    </ApplicationActionIds>
+    <AppliesToAllProcesses>false</AppliesToAllProcesses>
+    <ChildApplicationActionIds />
+    <ChildAssociations />
+    <EndsProcessing>true</EndsProcessing>
+    <EndsProcessingChild>true</EndsProcessingChild>
+    <ManditoryFilterIds>
+        <arr:guid>a6e3701b-e6f2-47af-ab0f-6bfcb5c0c742</arr:guid>
+    </ManditoryFilterIds>
+    <NegativeFileFilterIds />
+    <OwnsItemIds />
+    <PositiveFileFilterIds>
+        <arr:guid>71ca8447-6c03-4c6b-94cc-2e4ef3066c0b</arr:guid>
+        <arr:guid>cbbf212a-b08b-4211-97ae-7b7db252ac3e</arr:guid>
+        <arr:guid>ab4c795a-93e1-4c29-a67e-b6fcb5238ed1</arr:guid>
+    </PositiveFileFilterIds>
+    <Priority>3</Priority>
+    <SendActionEvent>true</SendActionEvent>
+    <SkipDuringSystemStartup>false</SkipDuringSystemStartup>
+    <Stage2Processing>false</Stage2Processing>
+</ApplicationControlPolicyContract>
+</items>

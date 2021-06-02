@@ -1,7 +1,7 @@
 [title]: # (SysLog)
 [tags]: # (integration)
 [priority]: # (4)
-# Set-up SysLog Connection
+# Setting up a SysLog Connection
 
 Privilege Manager can push out SysLog formatted messages on a set schedule. Note that this does not happen immediately upon events occurring. Listed below are steps for configuration and task creation for scheduling the action of sending Discovery Event logs to a SysLog server.
 
@@ -47,6 +47,7 @@ The following template options are available:
 * __Send SysLog Application Action Events__ - Use this template to send application action events to your SysLog system. Application Action Events contain generic information about the application that run, which policy was triggered, the date/time stamp, computer, and user for example.
 * __Send SysLog Application Justification Events__ - Use this template to send application justification events to your SysLog system. For example, if a user runs an application requiring a justification workflow.
 * __Send SysLog Bad Rated Application Action Events__ - Use this template to send an event to your SysLog system, when an application is being installed or executed, that is identified with a bad security rating.
+* __Send SysLog Change History Events__ - Use this template to send change history events to your SysLog system. When this task runs for the first time, it sends all change history to your SysLog server. On subsequent runs it only sends the delta of new change history events.​
 * __Send SysLog Events__ - Use this template to send all SysLog events to your SysLog system. These events are based on the different options you selected on the SysLog server during setup.
 * __Send SysLog Newly Discovered File Events__ - Use this template to send newly discovered file events to your SysLog system. For this to produce any events the Default File Inventory Policy needs to be enabled and resource discovery schedules need to be customized.
 * __Send SysLog Password Disclosure Events__ - Use this template to send all password disclosure events to your SysLog system.

@@ -9,3 +9,4 @@ The following topics are available:
 * [10.5 Folder Permission for MachineKeys](10-5-machinekeys.md)
 * [Retrieving the COM class factory error](retrieving-the-com-class-factory-for-component-with-clsid.md)
 * [Database Connection Issue during Setup](db-connect.md)
+* [Supporting Multiple TLS Versions](multiple-tls.md)

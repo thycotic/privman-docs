@@ -1,0 +1,12 @@
+[title]: # (Unix/Linux Computers)
+[tags]: # (admin,configuration)
+[priority]: # (3)
+# Unix/Linux Computers
+
+The default Unix/Linux Computer Group.
+
+![default](images/default.png "Default Unix/Linux Computer Group")
+
+This is the navigation entry point into the Unix/Linux Computer Group. The sub nodes are in feature parity with other OS computer groups. except for User and Group Management, which is not currently covered. All policies or resources underneath __UNIX/LINUX COMPUTERS__ pertain to that specific default computer group.
+
+For Unix/Linux Agent Configuration information refer to [Agent Configuration](../../agents/nix/cfg/index.md).

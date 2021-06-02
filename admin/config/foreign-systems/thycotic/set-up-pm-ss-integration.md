@@ -19,22 +19,25 @@ As a prerequisite, you need to make sure that your Secret Server instance has We
 1. Verify that under View Webservices the __Enable Webservices__ option is reflecting __Yes__.
 
    ![Verify Enable Webservices](images/SS_enable_WebServices_20190412.png "Verify Enable Webservices")
-1. Enter credentials for "Secret Server Default Credential" located at __Admin | Configuration | User Credentials__ tab. Edit this account to choose which account will be used by Privilege Manager to connect to Secret Server. This can be a regular Secret Server user or a Secret Server Application account.
+1. Navigate to __Admin | Users__ and verify you have a user configured to be used for the credential setup in Privilege Manager. This can be a regular Secret Server user or a Secret Server Application account.
 
->**Note**: The account needs to have a role with ALL of the following permissions.
+   >**Note**: The account needs to have a role with ALL of the following Secret Server permissions.
+   >
+   >| Permissions |
+   >| ----- |
+   >| Add Secret |
+   >| Administer Configuration |
+   >| Administer Folders |
+   >| Administer Licenses |
+   >| Assign Secret Policy |
+   >| Create Root Folders |
+   >| Delete Secret |
+   >| Edit Secret |
+   >| Own Secret |
+   >| View Secret |
 
-| Permissions |
-| ----- |
-| Add Secret |
-| Administer Configuration |
-| Administer Folders |
-| Administer Licenses |
-| Assign Secret Policy |
-| Create Root Folders |
-| Delete Secret |
-| Edit Secret |
-| Own Secret |
-| View Secret |
+   ![Secret Server Users](images/secserv-user.png "Secret Server User configuration page")
+1. In your Privilege Manager instance, enter the credentials for that user at __Admin | Configuration | Credentials__ . Create/Edit the default Secret Server credential account to specify which account will be used by Privilege Manager to connect to Secret Server. Depending on your setup, this can be the "Default User Credential" in Privilege Manager.
 
 ## Setup Authentication Data in Privilege Manager
 
@@ -69,7 +72,7 @@ After these steps the Secret Server Foreign System is ready for use. If you need
    On the Password Vault Settings configuration page:
    1. Set the switch __Use Secret Server__ in order to use Secret Server’s vault to store credentials.
    1. Enter the username and password for the account that will be used to access Secret Server.
-   
+
    >**Note**: These are the same credentials that will be stored as the Secret Server Default Credential (located at the __Admin | Configuration | Credentials__ tab). If a user already has been entered here, the same account will be auto populated into the configuration page.
 1. Back on the __Password Vault Settings__ configuration page click __Save Changes__.
 

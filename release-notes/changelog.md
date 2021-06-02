@@ -5,9 +5,51 @@
 
 This topic provides a chronological list of documentation changes. Minor content alterations are not tracked.
 
-## January 2021
+## June 2021
 
-* Added topics covering Unix/Linux agent endpoint support.
+* Added [11.1.0 Release Notes](11.1.0-combined.md).
+* Added topics:
+  * [Computer Name Pattern Collections](../admin/resources/cust-data-src.md)
+  * [The About Page](../ui/navigation/about.md)
+* Added subtopics:
+  * [Allow Listing Policies without Actions](../computer-groups/app-control/examples/safe/index.md#allow_listing_policies_without_actions)
+
+## April 2021
+
+* Updated Privilege Manager [macOS Agent download version](../install/sw-downloads.md#macos_endpoints) in support of a hotfix.
+* Added a macOS [Block Agent Removal Policy](../computer-groups/macOS/examples/block-agent-removal.md) in support of [agent hardening](../agents/macOS/agent-hardening.md).
+
+## March 2021
+
+* Added [Apple® Silicon](../install/agents/macOS/index.md) support.
+* Updates:
+  * Added a resolved bug to the 10.8.2 release notes.
+  * Fixed typos and broken links from previous release notes reference links to current topic locations.
+
+## February 2021
+
+* Added [11.0.0 Release Notes](11.0.0-combined.md).
+* Changes to [Default Actions](../admin/actions/default-actions.md#set_environment_variable_action) and [Adjust Process Rights Action](../admin/actions/windows/unrestricted-token.md) due to renaming of the __Suppress UAC__ Action to __Suppress UAC (Legacy)__.
+* Changes to [Remove Program Utility](../how-to/maintenance/remove-programs-utility.md) covering the new __Elevate Privilege Manager Remove Programs Policy Children Policy (Sample)__ policy.
+* Changes to [Policy Events](../policy-events/index.md), covering information about [Observed Parent Processes](../policy-events/drilldown.md#observed_parent_processes) and [Server reports](../policy-events/drilldown.md#events).
+* Changes to [Config Feeds](../admin/config-feeds/index.md).
+* Added information about [Filter validations](../computer-groups/app-control/policies/error-conditions.md) for application control policies.
+* Added topics:
+  * [Privilege Manager on Unix/Linux](../platforms/nix/index.md)
+  * [Unix/Linux Privilege Manager Sudo Plugin](../platforms/nix/sudo-plugin.md)
+  * [Unix/Linux Computers](../computer-groups/nix/index.md)
+  * [Unix/Linux Agent](../agents/nix/index.md) topic.
+  * [Unix/Linux Administrators](../admin/roles/app-roles.md).
+  * [Filters](../admin/filters/types/nix/index.md).
+  * [Actions](../admin/actions/nix/index.md).
+  * [Computer Group](../computer-groups/nix/index.md).
+  * [Authorization DB](../platforms/macOS/mac-kexts.md) handler.
+  * [HTML editor](../admin/actions/macOS/wysiwyg.md).
+  * [Jamf Connector](../admin/config/foreign-systems/third-party/set-up-jamf.md).
+  * [Package Hash Verification](../install/package-verify.md)
+  * [Events Drilldown](../policy-events/drilldown.md#events_drilldown)
+  * [Supporting multiple TLS and .NET Versions](../troubleshooting/install-upgrade/multiple-tls.md)
+
 ## December 2020
 
 * Added [10.8.2 Release Notes](10.8.2-combined.md).

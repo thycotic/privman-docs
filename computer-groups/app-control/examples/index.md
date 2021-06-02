@@ -18,7 +18,6 @@ These following topics are available:
 
 * [Elevation Policies](elevate/index.md)
   * [UAC Override Policy](elevate/uac-override.md)
-  * [Elevating the Privilege Manager Remove Programs Utility Policy](elevate/pm-remove-prog.md)
   * [Elevate Applications launched from Network Share Policy](elevate/network-share.md)
   * [Elevate msi launched from a Network Share](elevate/msi.md)
   * [Elevate Applications whose Execution Requires Approval](elevate/app-req-app.md)

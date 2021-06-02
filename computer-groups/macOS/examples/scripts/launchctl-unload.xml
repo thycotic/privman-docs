@@ -1,0 +1,15 @@
+﻿<items>
+<CommandlineFilterContract xmlns:adc="http://schemas.arellia.com/dc/" xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:mss="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:dc="http://schemas.datacontract.org/2004/07/System" xmlns:d1p4="http://schemas.arellia.com/dc/ClientItem/" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.arellia.com/dc/ApplicationControl/ApplicationFilter/">
+	<adc:FolderId>451680e9-28d1-4af9-8e88-c4cd04f8cebc</adc:FolderId>
+	<adc:ItemId>5ab0270c-b9fa-4a8d-b0fe-5dd092971c92</adc:ItemId>
+	<adc:Name>launchctl unload</adc:Name>
+	<adc:ProductId>27bedb8a-db37-4d53-b748-bc6651461fe4</adc:ProductId>
+	<adc:Strings />
+	<adc:Tags>
+		<arr:string>pm.platform.macos</arr:string>
+	</adc:Tags>
+	<Commandline>com.\thycotic</Commandline>
+	<Option>2</Option>
+</CommandlineFilterContract>
+
+</items>

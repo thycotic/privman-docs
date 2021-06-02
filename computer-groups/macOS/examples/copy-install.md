@@ -3,7 +3,7 @@
 [priority]: # (7)
 # Allow Copy to Install Applications
 
->**Note**: This is the procedure for the kernel extension, Catalina or earlier versions of macOS.
+>**Note**: This is the procedure for the kernel extension. For the system extension, a privileged helper that uses an authorization right can be used. This needs to happen by an AuthorizationDB Right action. There are no standards for this, so it will be entirely dependent on how the application implements its privileged helper. Refer to [Elevating Charles Proxy](elevate-charles-proxy.md) as an example.
 
 A policy can be created to allow or deny standard users to install specific applications by copying/pulling the application into the /Applications folder. Follow this example to create a policy that will enable this functionality for your macOS user.
 

@@ -36,11 +36,12 @@ These are requirement for an on-premises integration.
 
 ## Client Requirements
 
-* RAM, CPU, and Disk Space - negligible
-* Windows 7 or newer. Thycotic performs validation on the latest Windows OS that is available via the Microsoft Insider Program to ensure any required changes are made prior to a new OS version release.
-* MacOS 10.11 (El Capitan) or newer.
+For details refer to the Agent specific system requirements as provided under these topics:
 
-Also refer to [Agent System Requirements](agents/agent-sysreq.md).
+* [macOS Endpoint System Requirements](agents/macOS/index.md#macos_agent_system_requirements)
+* [Unix/Linux Endpoint System Requirements](agents/nix/index.md#unix_linux_agent_system_requirements)
+* [Windows Endpoint System Requirements](agents/win/index.md#installing_windows_agents)
+* RAM, CPU, and Disk Space - negligible
 
 ## Details
 

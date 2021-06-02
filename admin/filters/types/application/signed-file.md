@@ -27,6 +27,14 @@ Under Settings users:
   * Lower-case RegEx is also supported and must be surrounded with parenthesis. (i.e. `(micro.*)`)
   * Setting the subject name to `*` will match any file signed with a valid certificate. (__Not recommended by Thycotic__)
 
+### Subject Name
+
+This filter matches on the common name (CN=) data of the certificate as the Subject Name. Make sure to specify the right string, for example for the following certificate the filter Subject Name field would contain Logitech.
+
+![cert](images/cert.png "Certificate dialog showing Issued to/CN= data")
+
+If the common name contains quotes on the certificate, those quotes should NOT be used in the Subject Name field.
+
 ## Examples
 
 Adobe (TM) requires several certificates that are used to sign applications.

@@ -28,4 +28,4 @@ To create the message action,
 
 ## Time Interval Retention
 
-By default, `sudo` retains the user's authentication for 5 minutes, but different actions can have different intervals. If the user runs `sudo -k`, which clears the sudo credential cache, the `sudo` plugin resets the interval for any Run as User action in force for that user. `sudo -k` followed by `sudo id` will prompt the user for their password regardless of whether the 1 minute interval has passed, and it will apply to any other command governed by a run-as-user policy.
+By default, `sudo` retains the user's authentication for 5 minutes, but different actions can have different intervals. Continuing the example above, if the user runs `sudo -k` followed by `sudo id`, which clears the sudo credential cache, the `sudo` plugin resets the interval for any Run as User action active for that user. `sudo -k` followed by `sudo id` will prompt the user for their password regardless of whether the specified interval has passed, and it will apply to any other command governed by a run-as-user policy.

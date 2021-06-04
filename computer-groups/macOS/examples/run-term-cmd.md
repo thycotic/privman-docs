@@ -4,7 +4,9 @@
 
 # Run a Command in Terminal as a Different User
 
-On macOS use the `sudo` command to run a command in Terminal as a member of a different group. Using `sudo --group` allows a non-administrative user to run a command as a member of a specific group.
+>**Note**: With Privilege Manager v11.1 ThycoticCentrify has added a __Run as User__ action and also modified the __Just-in-Time Group Membership__ action. Using those two actions in a policy, supersedes the following procedure.
+
+On macOS, use the `sudo` command to run a command in Terminal as a member of a different group. Using `sudo --group` allows a non-administrative user to run a command as a member of a specific group.
 
 By default, in macOS, the user's primary group is `staff`. Use the `id -gn` command to display the name of the current effective group:
 

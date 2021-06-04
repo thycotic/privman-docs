@@ -15,3 +15,5 @@ The Advanced tab lets you configure settings like:
 * [ServiceBus](adv-pm-servicebus.md)
 
 To edit any of the advanced settings, make changes and then click __Save Changes__.
+
+Also refer to [Security Algorithms](../../../how-to/best-practices/algorithms.md).

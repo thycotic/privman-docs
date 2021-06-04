@@ -10,7 +10,7 @@ These depend on file inventory data, meaning they generally apply to already dis
 
 The following Inventory Filter type filter topics are available:
 
-* [File Collection from List of Sha1 Hashes Filter](file-collect-list-sha1-hash.md)
+* [File Hash Filter](file-hash.md)
 * [File Scan Results Filter - Computer](file-scan-results-comp.md)
 * [File Scan Results Filter - Policy](file-scan-results-pol.md)
 * [MSI File Contents Filter](msi-file-contents.md)

@@ -101,11 +101,11 @@ Recycle your TMS, TMSAgent, and TMSWorker app pools in IIS.
 In IIS on your Privilege Manager web server, navigate to the site you are using to run Privilege Manager
 Right-click on this site, click Bindings. Choose the https port you need to update and select Edit. View the SSL Certificate this is attached to.
 
-Next, choose the Details tab and scroll down to find the certificate's Thumbprint. copy the list of numbers and letters that make up your certificate's thumbprint (an sha1 hash)
+Next, choose the Details tab and scroll down to find the certificate's Thumbprint. copy the list of numbers and letters that make up your certificate's thumbprint (a sha256 hash).
 
 Return to your certificates in MMC (step 2 above). Right-click Certificates (Local Computer) and select Find Certificates...
 
-In the Contains box, paste your Thumbprint sha1 hash and select sha1 from the Look in Field drop down. Click Find Now. This will return the certificate name that your Privilege Manager Binding is currently linked to.
+In the Contains box, paste your Thumbprint sha256 hash and select sha256 from the Look in Field drop down. Click Find Now. This will return the certificate name that your Privilege Manager Binding is currently linked to.
 
 ## Tasks Stuck at Ready 
 

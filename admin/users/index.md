@@ -10,6 +10,7 @@ There are three types of users:
 * Thycotic One users - these are only available in cloud environments and are manually added.
 * API Users - these are available for the public API implementation.
 * Standard Users - these are users manually added by an administrator after the initial installation of Privilege Manager.
+* Federated Users - 
 
 ## How to Manually Add Thycotic One Users
 

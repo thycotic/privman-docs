@@ -4,7 +4,7 @@
 
 # Security Algorithms
 
-Privilege Manager version 11.1 introduced configurable security algorithms.
+Privilege Manager v11.1 introduced configurable security algorithms.
 
 Configuration of security algorithms is managed via __Admin | Configuration | Advanced__ under the Agent section. Refer to [Advanced Tab](../../admin/config/advanced).
 
@@ -16,7 +16,7 @@ The following settings are targeted at the Privilege Manager server.
 
 ### Allowed agent event signature algorithms
 
-This setting specifies what signature algorithms the server accepts when processing events from the agent. The new minimum standard for agents version 11.1 events is XML RSA/SHA256. SML RSA/SHA1 is considered legacy support for older agent version only.
+This setting specifies what signature algorithms the server accepts when processing events from the agent. The new minimum standard for agents v11.1 events is XML RSA/SHA256. XML RSA/SHA1 is considered legacy support for older agent version only.
 
 By default in v11.1 and up XML RSA/SHA256 and SHA1 are configured. Once your server only communicates with the latest agent version and all your policies/filters have been updated, SHA1 can be removed from the configuration.
 

@@ -3,9 +3,9 @@
 [priority]: # (2)
 # File Hash Filter
 
-This type of filter identifies file inventory based on Secure Hash Algorithms. *No out-of-box filters exist in Privilege Manager for this type*.
+This type of filter identifies file inventoried based on Hash Algorithms. *No out-of-box filters exist in Privilege Manager for this type*.
 
-When creating this filter the target hashes need to be entered as a comma-separated list:
+When creating this filter, the target hashes need to be entered as a comma-separated list:
 
 ![create](images/sha/new-hash.png "New Hash Filter")
 
@@ -20,7 +20,7 @@ This filter is available for macOS, Unix/Linux, and Windows systems.
   * SHA256
   * Authenticode 2
 
-* __Hash encoding__ dorp-down:
+* __Hash encoding__ drop-down:
   * Hex
   * Base64
 

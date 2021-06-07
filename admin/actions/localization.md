@@ -14,7 +14,7 @@ To add a localization such as Spanish:
 1. Add `Language="es"`, as in `<axc:LocaleResourceSet Language="es">`.
 1. Modify the elements with string values to the correct translation for that language.
 
-For a list of valid language code values, refer to https://docs.microsoft.com/en-us/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a (the more specific language is used first, such as ‘es-ES’ for Spanish – Spain and then the broader ‘es’ will be used if a specific language translation is not found, the last resort is the invariant translation).
+For a list of valid language code values, refer to https://docs.microsoft.com/en-us/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a (the more specific language is used first, such as ‘es-ES' for Spanish – Spain and then the broader ‘es' will be used if a specific language translation is not found, the last resort is the invariant translation).
 
 ## Example for Spanish
 

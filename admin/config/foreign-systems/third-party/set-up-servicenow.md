@@ -232,6 +232,6 @@ Most of the ServiceNow back end can be changed to accommodate your own items and
 
 While the inputs that Privilege Manager sends to the services are fixed, once they reach ServiceNow you are free to do (or not do) what you want with the values.
 
-Privilege Manager expects the outputs from the services as described above.  PMRequestId is by default the ServiceNow sys_id of the requested service catalog item instance, but can be any string up to 256 characters used to identify the request.  It’s up to you to ensure that the status and cancel services can interpret that value.
+Privilege Manager expects the outputs from the services as described above.  PMRequestId is by default the ServiceNow sys_id of the requested service catalog item instance, but can be any string up to 256 characters used to identify the request.  It's up to you to ensure that the status and cancel services can interpret that value.
 
 You can change the names of the services if you update the names in the ServiceNow Approval Process configuration in Privilege Manager.  You can also create multiple ServiceNow Approval Process items within Privilege Manager, and each can reference their own set of services.

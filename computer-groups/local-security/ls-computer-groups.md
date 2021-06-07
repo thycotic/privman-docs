@@ -3,14 +3,14 @@
 [priority]: # (2)
 # Create New Computer Group
 
-To add new computer groups tailored to your organization’s environment,
+To add new computer groups tailored to your organization's environment,
 
 1. Click __Create Computer Group__.
 1. From the __Platform__ drop-down, select either macOS or Windows.
 1. Enter a Name and Description for your new group.
 
    ![new computer group](images/ls-create-cg.png "New Computer Group")
-1. To select the machines you want to include within this group, you must add Filter Rules that will target the appropriate machines on your organization’s network. The default filter rule begins with a rule that targets computers within the main OS Computer Group that was selected when you created the group, meaning it will target either all Windows or all Mac computers with registered agents.
+1. To select the machines you want to include within this group, you must add Filter Rules that will target the appropriate machines on your organization's network. The default filter rule begins with a rule that targets computers within the main OS Computer Group that was selected when you created the group, meaning it will target either all Windows or all Mac computers with registered agents.
 
    To narrow your group, click __Add Rule__.
 

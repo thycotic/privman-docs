@@ -7,7 +7,7 @@ Privilege Manager agents are installed on endpoint machines to implement policie
 
 This article is about agent deployment to endpoints in Virtual Desktop Infrastructure (VDI) or other similar environments. It describes the different cases and options for deploying Privilege Manager agents to VDIs and discusses the pros and cons where relevant. It is expected to be read by a user who is the Privilege Manager administrator for the customer.
 
-Installing the Privilege Manager agent is supported as part of a VDI image build. There are a few different ways to accomplish this, based on the (Privilege Manager) customer’s environment and preferences. Discussion of the relevant issues and options is grouped in this article as follows:
+Installing the Privilege Manager agent is supported as part of a VDI image build. There are a few different ways to accomplish this, based on the (Privilege Manager) customer's environment and preferences. Discussion of the relevant issues and options is grouped in this article as follows:
 
 ## Identifying Agents to The Console
 
@@ -21,7 +21,7 @@ In a persistent VM, machines images are created, spun up, and then persist indef
 
 In a dynamic VM, a golden image is spun up each time a user requests it with their profile and it is then applied on top. This case is more complicated.
 
-The major concern is agent spamming, which would happen as follows: the Privilege Manager console sees each new image as a new computer and rapidly runs through the customer’s licenses, leaving a large number of orphan machines. There are a few different ways to deal with this situation, discussed in the sub-sections below.
+The major concern is agent spamming, which would happen as follows: the Privilege Manager console sees each new image as a new computer and rapidly runs through the customer's licenses, leaving a large number of orphan machines. There are a few different ways to deal with this situation, discussed in the sub-sections below.
 
 ### Multiple VMs Collapsed to a Single Resource
 

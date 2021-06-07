@@ -3,7 +3,7 @@
 [priority]: # (3)
 # Where are My Agent Logs
 
-If something is going wrong on specific endpoints, another place to look for answers is in your Agent’s Event Log Viewer.
+If something is going wrong on specific endpoints, another place to look for answers is in your Agent's Event Log Viewer.
 
 In your endpoint machine, navigate to your Thycotic Agent files. This is usually located in `C:\Program Files\Thycotic\Powershell\Arellia.Agent`. Right-click on AgentLogViewer and select Run with Powershell.  This will open your Agent Event Log Viewer, which shows updates in real time as the agent communicates with the Privilege Manager server.
 

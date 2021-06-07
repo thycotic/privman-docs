@@ -20,7 +20,7 @@ While using Privilege Manager, you can utilize the Thycotic Monitor to help trou
    ![Filter by messages](images/thycotic-monitor/tm-4.png)
 
 >**Note**:
->If you’re attempting to troubleshoot an issue open the Thycotic Monitor and replicate the issue on the server that Privilege Manager is installed on. It may also be helpful to grab a screenshot including a time-stamp from when you replicate the error in order to better help with troubleshooting.
+>If you're attempting to troubleshoot an issue open the Thycotic Monitor and replicate the issue on the server that Privilege Manager is installed on. It may also be helpful to grab a screenshot including a time-stamp from when you replicate the error in order to better help with troubleshooting.
 
 1. Open the Thycotic Monitor.
 1. Replicate the issue server-side.

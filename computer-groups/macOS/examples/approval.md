@@ -101,7 +101,7 @@ Afterwards, macOS prompts the user with an Accessibility Access dialog:
 
   ![request big sur](images/pppc/bigsur-access.png "Big Sur access request")
 
-* If the user clicks __Deny__, Privilege Manager.app will not be granted access to use accessibility features to automatically close the dialog that states the application couldn’t be launched.
+* If the user clicks __Deny__, Privilege Manager.app will not be granted access to use accessibility features to automatically close the dialog that states the application couldn't be launched.
 
 * If the user clicks __Open System Preferences__, the Security & Privacy preference pane opens to the Privacy tab:  
 

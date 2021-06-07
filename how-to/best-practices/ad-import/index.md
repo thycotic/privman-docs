@@ -9,7 +9,7 @@ The support for on-prem AD import is better than the support for Azure AD. On-pr
 
 ## Cloud
 
-In a cloud environment the Privilege Manager server(s) typically don’t have direct access to
+In a cloud environment the Privilege Manager server(s) typically don't have direct access to
 Active Directory. Instead the customer can select a local machine on which to install the
 Directory Services Agent. The agent retrieves information, and sends data to the server on a schedule.
 
@@ -19,13 +19,13 @@ Unless otherwise specified, both the server and agent imports attempt a differen
 
 1. Privilege Manager has a record of a prior sync with a session ID and USN.
    * On the server these are recorded in the database as data for the foreign system in the [Ams.Data].[DirectorySync] table.
-   * For the agent they’re recorded in the registry under `HKLM\\Software\\Arellia\\Agent\\DirectoryServices\\Imports`. Users can force a full sync by deleting this data.
+   * For the agent they're recorded in the registry under `HKLM\\Software\\Arellia\\Agent\\DirectoryServices\\Imports`. Users can force a full sync by deleting this data.
 1. The directory partner (Domain Controller Server) must be the same. Starting with Privilege Manager version 10.8 and later, a server will be automatically picked if none is specified. But on older versions of the product, no differential sync is available unless the server is specified.
 1. The LDAP query must be the same query as the hash is stored.
 
 Assuming the conditions are met, Privilege Manager takes the given LDAP query, and appends a condition that the USN is greater than the recorded last USN.
 
->**NOTE**: In test environments it’s common to have a sync “fail” because the agent has done a sync prior on a different PM server. For a new environment setup with a Directory Services Agent, remember to clear out the registry record of syncs.
+>**NOTE**: In test environments it's common to have a sync “fail” because the agent has done a sync prior on a different PM server. For a new environment setup with a Directory Services Agent, remember to clear out the registry record of syncs.
 
 ## Expected Performance
 
@@ -59,7 +59,7 @@ This task allows users to import selected users and groups, instead of importing
 
 ![](images/01f191c95e0da32c27eafd34e09d1d14.png)
 
->**NOTE**: For groups the search filter is by display name. For users either display name or UPN can be entered (or a partial with \*). This is a common point of trouble - users often use account names or other names that don’t match the Azure AD data. When in doubt, open the Azure AD portal and make sure the display names match.
+>**NOTE**: For groups the search filter is by display name. For users either display name or UPN can be entered (or a partial with \*). This is a common point of trouble - users often use account names or other names that don't match the Azure AD data. When in doubt, open the Azure AD portal and make sure the display names match.
 
 #### Device Import
 
@@ -67,4 +67,4 @@ At this time, importing devices (computers) from Azure AD is discouraged. The us
 
 ## On-Premises vs. Cloud 
 
-Since Azure AD is itself a cloud service, there’s basically no difference between our support on-premises and in cloud.
+Since Azure AD is itself a cloud service, there's basically no difference between our support on-premises and in cloud.

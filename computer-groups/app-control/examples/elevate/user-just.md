@@ -24,4 +24,4 @@ This policy type requires a user to provide a justification for why they need to
 The user will see a justification message as a result of the policy.
 When the user adds a reason, they will then click the __Continue__ button and the application is allowed to execute.
 
->**Note**: You can then view a user’s provided reasons in Privilege Manager under __Reports | Application Justification Summary Details Report__.
+>**Note**: You can then view a user's provided reasons in Privilege Manager under __Reports | Application Justification Summary Details Report__.

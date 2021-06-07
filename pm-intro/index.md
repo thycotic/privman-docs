@@ -79,7 +79,7 @@ Many organizations choose to protect their Privilege Manager web server by restr
 
 ## Sandboxing
 
-Sandboxing quarantines applications so they are not allowed to execute, or only allowed to execute in a limited way so they don’t touch any system folders or underlying OS configurations.  Privilege Manager supports sandboxing for applications that are not known, to ensure they do not negatively impact productivity or introduce threats to the endpoint or network.
+Sandboxing quarantines applications so they are not allowed to execute, or only allowed to execute in a limited way so they don't touch any system folders or underlying OS configurations.  Privilege Manager supports sandboxing for applications that are not known, to ensure they do not negatively impact productivity or introduce threats to the endpoint or network.
 
 ## ServiceNow
 

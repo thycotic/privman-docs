@@ -9,7 +9,7 @@ All SAML Foreign Systems integrations follow the same principle steps:
 1. Set up the identity provider.
 1. Use data from the identity provider setup for setting up the Privilege Manager Foreign Systems.
 
-For the purpose of this procedure we use Okta as the identity provider example.
+For the purpose of this procedure, we use Okta as the identity provider example.
 
 ## Create a new Application
 
@@ -38,8 +38,7 @@ Privilege Manager. The default value in Privilege Manager is `PrivilegeManagerSe
 
    The rest of the settings can be ignored.
 1. Proceed via __Next__.
-1. On the last page for the __Are you a customer or partner?__ prompt, select __I'm an Okta customer adding an internal app__.you will be ask about the app, I usually just say it’s an
-internal app. 
+1. On the last page for the __Are you a customer or partner?__ prompt, select __I'm an Okta customer adding an internal app__.
 1. Click __Finish__.
 
 ### View Setup Instructions
@@ -52,7 +51,7 @@ Privilege Manager in the next section.
 Start with the certificate data.
 
 1. Click __Download certificate__ and save the certificate as __.cer__. Okta will try to save it as .cert.
-1. Once it’s save you should be able to open and view the certificate in Windows:
+1. Once it’s saved, you should be able to open and view the certificate in Windows:
 
 ![alt](images/saml/cer.png "Certificate details")
 
@@ -106,7 +105,7 @@ When this option is selected, Privilege Manager will create a new Federated user
 
 If you don’t have any Okta users, you’ll need to go to the Okta Directory section and add them.
 
-Okta requires the usernames be in the format of an email address. These are the usernames your users are going to user when they log into Privilege Manager. You can configure Okta to send Privilege Manager a different username (like `domain\username`, or a short name like `yoda`).
+Okta requires the usernames be in the format of an email address. These are the usernames your users are going to use when they log into Privilege Manager. You can configure Okta to send Privilege Manager a different username (like `domain\username`, or a short name like `yoda`).
 
 ### Add Okta Users to Application
 
@@ -127,7 +126,7 @@ You can use Active Directory users that you’ve already imported into Privilege
 
 #### Match by DOMAIN\username
 
-Ensure the username in Okta matches the Global Identity data for the user in Privilege Manager:
+Ensure the username in Okta matches the Global Identity data for the user in Privilege Manager.
 
 #### Match by username@dnsdomainname
 

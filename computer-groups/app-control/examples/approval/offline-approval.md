@@ -62,8 +62,8 @@ The following procedures provides detailed steps about the offline approval proc
 1. Navigate to __Admin | Tools | Offline Approval__.
 1. Click __Select…__  and search to access the list of Computers with open offline approval requests.
    ![Offline Approval](images/offline/tools-offline.png "Select Offline Approval computer")
-1. Verify the customer’s name is in the list.
-1. Select the customer’s computer from the list and click the __Select__ button.
+1. Verify the customer's name is in the list.
+1. Select the customer's computer from the list and click the __Select__ button.
 
    ![Generate Request Code](images/offline/enter-req-code.png "Enter Request Code to generate the Response Code")
 1. Enter the __Request Code__ provided by the customer and click __Generate Response Code__.

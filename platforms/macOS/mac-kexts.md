@@ -13,7 +13,7 @@ Refer to [Using an MDM Profile for your Agent](../../agents/macOS/mdm-profiles.m
 
 ## Leveraging the AuthorizationDB
 
-Many privileged operations are governed by rules in the authorizationdb and these rules determine what credentials are required to perform certain tasks depending on the right being authorized. To address restrictions placed on the macOS agent because we no longer have the fine-grained access and control provided by our KEXT, we’re extending how we leverage the authorizationdb to provide least privilege for users on macOS endpoints. In addition, we’ll be expanding upon this to provide coverage for more privileged operations.
+Many privileged operations are governed by rules in the authorizationdb and these rules determine what credentials are required to perform certain tasks depending on the right being authorized. To address restrictions placed on the macOS agent because we no longer have the fine-grained access and control provided by our KEXT, we're extending how we leverage the authorizationdb to provide least privilege for users on macOS endpoints. In addition, we'll be expanding upon this to provide coverage for more privileged operations.
 
 The policy wizard allows you to create macOS policies using the __Modify Authorization Database__ action. Refer to these examples and topic to learn more:
 
@@ -75,7 +75,7 @@ Here the user opens the __Security & Privacy__ pane and clicks __Allow__ for the
 
 ![security & privacy](images/sysex/allow-kext.png "Security & Privacy pane Allow button")
 
-If you’re not delivering a PPPC configuration profile via MDM to manage this, users will need to give Privilege Manager Security Full Disk Access.
+If you're not delivering a PPPC configuration profile via MDM to manage this, users will need to give Privilege Manager Security Full Disk Access.
 
 ![full disk access](images/sysex/full-disk.png "Granting Privilege Manager full disk access")
 
@@ -85,6 +85,6 @@ Here the user opens the __Security & Privacy__ pane and clicks __Allow__ for the
 
 ![security & privacy](images/sysex/new-allow.png "Security & Privacy pane Allow button")
 
-If you’re not delivering a PPPC configuration profile via MDM to manage this, users will need to give Privilege Manager Security Full Disk Access.
+If you're not delivering a PPPC configuration profile via MDM to manage this, users will need to give Privilege Manager Security Full Disk Access.
 
 ![full disk access](images/sysex/full-disk-big.png "Granting Privilege Manager full disk access")

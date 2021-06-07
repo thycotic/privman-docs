@@ -26,7 +26,7 @@ After enabling Self-Elevation of applications in the __MacOS Agent Configuration
 
 >**Note**: This is the procedure for kernel extension. On endpoints using system extension, the [__Run as Root__ action](../../../admin/actions/index.md) needs to be used instead.
 
-To request to run an application as Administrator, the user at the macOS endpoint navigates to and selects the applications in Finder and uses either right-click or Control+Click to invoke Finder’s context menu:
+To request to run an application as Administrator, the user at the macOS endpoint navigates to and selects the applications in Finder and uses either right-click or Control+Click to invoke Finder's context menu:
 
 ![Request run as administrator](images/mac/app_run_as_admin_20190506.png "Request run as administrator")
 

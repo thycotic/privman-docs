@@ -5,7 +5,7 @@
 
 Privilege Manger integrates with Microsoft System Center Configuration Manager (SCCM) to allow the
 
-* [import of computers](#import-computers) for use in computer groups and identifying systems that exist on the network, but don’t have an endpoint agent installed yet.
+* [import of computers](#import-computers) for use in computer groups and identifying systems that exist on the network, but don't have an endpoint agent installed yet.
 * [import of existing Device Collections](#create-a-collection) from SCCM and use them for Privilege Manager computer groups.
 * [inventory of SCCM Software Packages](#inventory-software-packages) to use the package contents in Privilege Manager Application Control policies.
 

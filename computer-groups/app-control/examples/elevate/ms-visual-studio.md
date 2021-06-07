@@ -32,7 +32,7 @@ Four Microsoft Initial download files and subsequent two Windows Start Menu targ
 
 If you use this policy in your environment, check frequently to update when new versions are released. Verify if there are any versions of Visual Studio you would need to include for your customization. To cover additional versions, use these filters as a basis and download desired versions including signature certificates from Microsoft. If you make changes to the default policy, take action to prevent accidental overwriting your changes when updating via configuration feed. Save the policy under a new name and compare with any Thycotic provided updates in the future.
 
-Additionally, work is needed to sort out what needs elevation when using the application’s various modules. Not every module installation was tested with these filters.
+Additionally, work is needed to sort out what needs elevation when using the application's various modules. Not every module installation was tested with these filters.
 
 The Applications Elevation Policy should be a separate Policy, as it should be located differently in the Policy Stack.
 

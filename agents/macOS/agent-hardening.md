@@ -6,7 +6,7 @@
 
 It is not currently possible to prevent a local administrator account on macOS from starting and stopping a background service like the Privilege Manager agent. The generally accepted best practice is for the end user to log into a "standard" (non-administrative) account. This should not be a hardship in conjunction with Privilege Manager, once an appropriate but limited set of tools are enabled for the end user.
 
-When the Privilege Manager agent is installed on a Mac endpoint, three processes run in the background. Two of these are macOS launch daemons that run as root, and the third is a macOS launch agent that runs in the current user’s context. These processes are run by the launchd process, which will automatically relaunch them if they are terminated. Moving Privilege Manager to the Trash in an attempt to disable the functionality will not be allowed by the Finder while the processes are still running; bypassing this requires administrative privileges.
+When the Privilege Manager agent is installed on a Mac endpoint, three processes run in the background. Two of these are macOS launch daemons that run as root, and the third is a macOS launch agent that runs in the current user's context. These processes are run by the launchd process, which will automatically relaunch them if they are terminated. Moving Privilege Manager to the Trash in an attempt to disable the functionality will not be allowed by the Finder while the processes are still running; bypassing this requires administrative privileges.
 
 >**Note**: The term "launch agent" has a specific meaning in macOS, and is not related to the use of the word "agent" to describe the Privilege Manager endpoint software.
 

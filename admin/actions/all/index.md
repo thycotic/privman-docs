@@ -12,15 +12,15 @@ Both basic and advanced messages are useful for providing feedback to users that
 
 ## Basic vs. Advanced Messages
 
-Basic messages briefly pop up from the end user’s task bar. They display like other Windows notifications, are shown on the screen, and then disappear without any user interaction required.
+Basic messages briefly pop up from the end user's task bar. They display like other Windows notifications, are shown on the screen, and then disappear without any user interaction required.
 
-Basic messages do not include custom branding or logos. It is easiest to edit basic messages via Privilege Manager’s UI. However, the default message may suffice for some use.
+Basic messages do not include custom branding or logos. It is easiest to edit basic messages via Privilege Manager's UI. However, the default message may suffice for some use.
 Basic messages only display a message. These messages do not perform an action. For example, the basic Deny Execute Message should be used in conjunction with the Deny Execute action.
 
 Advanced messages display as a new dialog, typically in the center of the screen, and usually require an interactive action from the end user – entering a justification, enter credentials, waiting for approval, selecting a continue or cancel button, etc.
 
 Advanced message actions are used for justification and approval policies.
-The ‘Application Denied Notification Action’ is the only default advanced message that does not require an interactive action from the end user. While this message has a cancel button to remove the message, this message will fade from the user’s screen after a short period of time.
+The ‘Application Denied Notification Action' is the only default advanced message that does not require an interactive action from the end user. While this message has a cancel button to remove the message, this message will fade from the user's screen after a short period of time.
 
 Advanced messages include branding, which can be customized. Some fields are recommended to edit in the XML instead of the UI. These details are expanded in the section on Customizing Advanced Messages.
 
@@ -78,7 +78,7 @@ This action displays an approval request form before allowing the application to
 
 ![Approval Request dialog](images/offline.png "Approval Request example")
 
-If the machine is offline or can’t connect to Privilege Manager to upload the request, another dialogue box will then appear to prompt the end user to contact the helpdesk and generate a verification code:
+If the machine is offline or can't connect to Privilege Manager to upload the request, another dialogue box will then appear to prompt the end user to contact the helpdesk and generate a verification code:
 
 ![Offline fallback dialog](images/offline-2.png "Approval Request with Offline Fallback example")
 

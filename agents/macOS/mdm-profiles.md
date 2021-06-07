@@ -15,7 +15,7 @@ You will need two different configuration profiles for each version of the agent
 
 ### SYSEX Allow Info
 
-You can create a SYSEX Allow profile for ThycoticManagementAgent-10.8.nnnn.pkg and above using your MDM’s profile creator and the following information:
+You can create a SYSEX Allow profile for ThycoticManagementAgent-10.8.nnnn.pkg and above using your MDM's profile creator and the following information:
 
 * Team Identifier: UJDHBB2D6Q
 * Allowed System Extensions: com.thycotic.acsd
@@ -23,7 +23,7 @@ You can create a SYSEX Allow profile for ThycoticManagementAgent-10.8.nnnn.pkg a
 ## SYSEX PPPC Profile Info
 
 1. Install the agent on a test endpoint.
-1. Use Jamf’s **PPPC Utility** or another method to create a profile that gives Full Disk Access to the Privilege Manager Security system extension (**com.thycotic.acsd.systemextension**) found under `Macintosh HD/Library/SystemExtensions`.
+1. Use Jamf's **PPPC Utility** or another method to create a profile that gives Full Disk Access to the Privilege Manager Security system extension (**com.thycotic.acsd.systemextension**) found under `Macintosh HD/Library/SystemExtensions`.
 
    Alternatively, make a custom configuration profile using the XML below:
 
@@ -99,7 +99,7 @@ You can create a SYSEX Allow profile for ThycoticManagementAgent-10.8.nnnn.pkg a
 
 ### KEXT Allow Info
 
-You can create a KEXT Allow profile for ThycoticManagementAgent-10.8.nn.pkg and below using your MDM’s profile creator and the following information:
+You can create a KEXT Allow profile for ThycoticManagementAgent-10.8.nn.pkg and below using your MDM's profile creator and the following information:
 
 * Team ID: UJDHBB2D6Q
 * Kernel Extension Bundle ID: com.thycotic.ThycoticACS
@@ -107,7 +107,7 @@ You can create a KEXT Allow profile for ThycoticManagementAgent-10.8.nn.pkg and 
 ### KEXT PPPC Profile Info
 
 1. Install the agent on a test endpoint.
-1. Use Jamf’s [PPPC Utility](https://github.com/jamf/PPPC-Utility) (free, no Jamf subscription needed) or another method to create a profile that gives Full Disk Access to the ThycoticACSvc daemon found under `Macintosh HD/Library/Extensions/ThycoticACS.kext/Contents/MacOS/ThycoticACSvc`
+1. Use Jamf's [PPPC Utility](https://github.com/jamf/PPPC-Utility) (free, no Jamf subscription needed) or another method to create a profile that gives Full Disk Access to the ThycoticACSvc daemon found under `Macintosh HD/Library/Extensions/ThycoticACS.kext/Contents/MacOS/ThycoticACSvc`
 
    Alternatively, make a configuration profile with the XML below:
 

@@ -32,7 +32,7 @@ If the error persists, manually install the recommended .NET version.
 
    ![.NET Installation](images/install/prereq_net_2.png)
 
-Follow the rest of the Wizard’s steps until the install is completed.
+Follow the rest of the Wizard's steps until the install is completed.
 Once .NET 4.6 or greater framework is installed on your server, then run the pre-requisites check again.
 
 ## IIS not Installated

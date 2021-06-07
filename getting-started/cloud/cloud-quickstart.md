@@ -9,7 +9,7 @@ This guide will walk you through an initial configuration of your cloud instance
 
 ## Initial Setup
 
-After you’ve signed up for a Privilege Manager Cloud trial, you will receive 2 emails. The first one is from Customer Support and will ask you to create a password to log into the customer support portal.
+After you've signed up for a Privilege Manager Cloud trial, you will receive 2 emails. The first one is from Customer Support and will ask you to create a password to log into the customer support portal.
 
 The second email you will receive is from Thycotic Sales titled Privilege Manager Cloud Trial. This email directs you to the __Cloud Portal__ to begin your instance setup.
 
@@ -26,7 +26,7 @@ the password, click __Set Password and Login__.
 
 **Important:** Thycotic recommends that you store the password in a secured physical location such as a safe or locked file cabinet. You can reset the password using an email reset, but __if this password is forgotten or you no longer have access to the email account, Thycotic will not be able to reset this password.__
 
-On the Thycotic Login page, click the blue button that corresponds to your new Cloud’s Thycotic One location (chosen above).
+On the Thycotic Login page, click the blue button that corresponds to your new Cloud's Thycotic One location (chosen above).
 
 ![Login via cloud location](images/quick/fb6838d4977f7f8384e38931459ef3e5.png)
 
@@ -34,7 +34,7 @@ Next, on the Setup page choose the location of your cloud environment and enter 
 
 ![Enter you site name](images/quick/47fae03724a18389764a79b70607543b.png)
 
-Read the End User License Agreement and click the box to signify agreement. From the dropdown, select Yes or No to signify your organization’s oversight of EU information. Click __Accept__.
+Read the End User License Agreement and click the box to signify agreement. From the dropdown, select Yes or No to signify your organization's oversight of EU information. Click __Accept__.
 
 ![Accept the EULA](images/quick/8b97657d8ec7eb469562ce963f1f47b3.png)
 

@@ -9,7 +9,7 @@ When creating this filter the target hashes need to be entered as a comma-separa
 
 ![create](images/sha/new-hash.png "New Hash Filter")
 
-This filter is available for both Windows and macOS systems.
+This filter is available for macOS, Unix/Linux, and Windows systems.
 
 ## Required Parameters on Filter Creation
 

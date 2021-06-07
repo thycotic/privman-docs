@@ -11,6 +11,7 @@ This topic provides a chronological list of documentation changes. Minor content
 * Added topics:
   * [Computer Name Pattern Collections](../admin/resources/cust-data-src.md)
   * [The About Page](../ui/navigation/about.md)
+  * [Setting up a ServiceNow Webhook Foreign Systems](../admin/config/foreign-systems/third-party/set-up-servicenow-webhook.md)
 * Added subtopics:
   * [Allow Listing Policies without Actions](../computer-groups/app-control/examples/safe/index.md#allow_listing_policies_without_actions)
 

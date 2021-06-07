@@ -11,15 +11,6 @@
 | | Get Security Ratings for Files | Get/update the security ratings for the given files. |
 | | Refresh Security Rating Reports | Refreshes old security rating reports for resources rated by the given provider. |
 | Application Control Cylance | | |
-| Directory Services | Default Import AzureAD Users/Groups | Run this task to import/update Azure AD users and groups. |
-| | Default Import Directory | Run this task to import/update directory OUs, users, and containers. |
-| | Default Import Directory Computers | Run this task to import/update directory computer resources. |
-| | Default Import Directory Sites | Run this task to import/update directory sites. |
-| | Import Specific Azure AD Users and Groups | Import specific users and groups from Azure Active Directory. |
-| | Merge Duplicate Account SID Resources | Run this task to merge resources that have a duplicate account SID. |
-| | Synchronize Organizational Unit Server Task | Synchronize Organizational Unit Server Task. |
-| | Update OU Directory Scope Collections Membership | This task updates the membership of Directory Services OU scope collections. |
-| | Update OU Directory Scope Collections Membership 2 | This task updates the membership of Directory Services OU scope collections. |
 | [Email Tasks](../scheduled/email-reports.md) | Send Gauge Summary E-mail Task | Send a specific report on a schedule. |
 | File Inventory | Inventory File | Run this task to collect detailed information on the selected file for reports, filters, etc. |
 | | Inventory File Resource | Run this task to update information on an existing file resource for reports, filters, etc. |
@@ -29,6 +20,23 @@
 | | Inventory Packages Referenced in Allow Lists | Run this task to collect detailed information for files contained in packages referenced in one or more allow lists. |
 | | Inventory Uploaded File | This task is used internally to collect detailed information from files uploaded remotely to the server. It is visible only for status information and troubleshooting. |
 | Foreign Systems | | |
+| | Refer to | [Directory Services](fs-ds.md) for details on the following Directory Services Tasks |
+| Directory Services | Import Directory | Run this task to import/update directory OUs, users, and containers. |
+| | Import Directory Computers | Run this task to import/update directory computer resources. |
+| | Import Directory Sites | Run this task to import/update directory sites. |
+| | Import Specific Azure AD Users and Groups | Import specific users and groups from Azure Active Directory. |
+| | Synchronize Organizational Unit Server Task | Synchronize Organizational Unit Server Task. |
+| | Update OU Directory Scope Collections Membership | This task updates the membership of Directory Services OU scope collections. |
+| | Update OU Directory Scope Collections Membership 2 | This task updates the membership of Directory Services OU scope collections. |
+| DS - Maintenance | Delete Imported Azure AD Resources | This task will delete users, groups, and devices from Privilege Manager that were imported from Azure AD. |
+| | Refer to | [Directory Services Maintenance](fs-ds-maint.md) for details on the following Directory Services Maintenance Tasks |
+| | Delete Imported Directory Resources | This task will delete users, groups, computers, OUs, and Sites from Privilege Manager that were imported from AD. |
+| | Merge Computers with Duplicate Azure Device IDs | This task will merge computers with duplicate Azure AD Device IDs. |
+| | Merge Duplicate Account SID Resources | Run this task to merge resources that have a duplicate account SID. |
+| | OU Directory Scope Collection Update | This task updates the membership of Directory Services OU scope collections based on a selected Schedule Type. |
+| | Update OU Directory Scope Collections Membership | This task updates the membership of Directory Services OU scope collections. |
+| | Update OU Directory Scope Collections Membership 2 | This task updates the membership of Directory Services OU scope collections. |
+| Obsolete | Import Azure Ad Users/Groups | This task is obsolete and should not be used anymore. |
 | | [SCCM](../../config/foreign-systems/third-party/set-up-sccm.md) | Tasks here let you synchronize users, computers, and specific SCCM collection. |
 | | [ServiceNow](../../config/foreign-systems/third-party/set-up-servicenow.md) | Creates ServiceNow Approval Request items. |
 | | [Symantec Management Platform](../../config/foreign-systems/third-party/set-up-smp.md) | Tasks here let you synchronize SMP collections and package(s). |

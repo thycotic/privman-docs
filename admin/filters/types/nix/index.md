@@ -10,5 +10,6 @@ Most of the Application and File type filters apply to all OS platforms. However
 The following filters are available based on type from a quick select drop-down menu, after choosing Unix/Linux as the platform.
 
 * [Advanced Commandline Filter](adv-cmdline.md)
-* [User Context Filter](user-context.md)
+* [File Hash Filter](../inventory/file-hash.md)
 * [Time of Day Filter](time-of-day.md)
+* [User Context Filter](user-context.md)

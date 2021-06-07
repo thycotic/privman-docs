@@ -39,7 +39,7 @@ You need to create an action and attach it to a policy to manage what events you
 
 1. In the Privilege Manager console, navigate to __Admin | Tasks__.
 1. Click the __Automation__ tab.
-1. In the tree navigate to __Automation | Approvals | Approval Processes__, click __Create__.
+1. In the tree, navigate to __Automation | Approvals | Approval Processes__, click __Create__.
 
    ![New Automation](images/servicenow/action_new.png "New Automation")
 1. Enter a name and description, click __Create__.

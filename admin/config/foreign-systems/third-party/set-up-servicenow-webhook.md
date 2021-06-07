@@ -39,7 +39,7 @@ Once the foreign system is saved, a new webhook is created in the background and
 
    ![alt](images/servicenow/webhook-4.png "Webhook Configuration details")
 
-By default for ServiceNow foreign systems integrations the webhook event is __Approval Request Event__.
+The default webhook event for ServiceNow foreign systems integrations is __Approval Request Event__.
 
 ### Registration with ServiceNow App
 

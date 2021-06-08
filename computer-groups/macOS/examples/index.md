@@ -19,21 +19,34 @@ In macOS, roles are bifurcated into two groups: Admins, and Users rather than by
 
 The following actions are supported by macOS agents:
 
-| Actions | pre Catalina & Catalina with __KEXT__ | Catalina & Big Sur or later with __SYSEX__ |
-| ----- | -----| ----- |
-| Allow Copy to /Applications Directory | supported | A privileged helper that uses an authorization right can be used. This needs to happen by an AuthorizationDB Right action. |
-| Allow Package Installation | elevate via UI | via `sudo` plugin |
-| Application Approval Request (with Offline Fallback) Message Action | elevate via UI | via `sudo` plugin |
-| Application Approval Request (with ServiceNow Request Item Number) Message Action | elevate via UI | via `sudo` plugin |
-| Application Approval Request Message Action (workflow request) | elevate via UI | via `sudo` plugin |
-| Application Denied Message Action | no difference | no difference |
-| Application Justification Message Action | elevate via UI | via `sudo` plugin |
-| Application Warning Message Action | no difference | no difference |
-| Deny Execute / Deny Execute Message | no difference | no difference |
-| File Quarantine | no difference | no difference |
-| Quarantine Message | no difference | no difference |
-| Run as Root (Elevate) | no difference | via `sudo` plugin |
-| Just In Time (Elevate) | n/a | via `sudo` plugin |
+| Action | KEXT | SYSEX | Versions | Usage |
+| ----- | ----- | ----- | ----- | ----- |
+| Allow Copy to /Applications/ Directory | Y | Y | 10.5+ | Used to elevate installation of an Application Bundle to the /Applications folder via Drag-n-Drop to the Privilege Manager.app window. This is legacy and will be deprecated in an upcoming release. |
+| Allow Package Installation | Y | Y | 10.5+ | Used to elevate installation of installer packages.  |
+| Application Approval Request (with Offline Fallback) Message Action| Y | Y | 10.6+ | |
+| Application Approval Request (with ServiceNow Request Item Number) Message Action | Y | Y | 10.5+ | |
+| ​Application Approval Request Message Action| Y | Y | 10.5+ | |
+| Application Denied Message Action| Y | Y | 10.5+ | |
+| Application Justification Message Action| Y | Y | 10.5+ | |
+| Application Warning Message Action  | Y | Y | 10.5+ | |
+| Authorization DB Rights | N | Y | 11.0+ | Grants the specified right allowing an application to perform an elevated task. |
+| Command Line Approval Message | N | Y | 11.1+ | |
+| Command Line Justification Question | N | Y | 11.1+ | |
+| Deny Execute| Y | Y | 10.5+ | |
+| Deny Execute Message | Y | Y | 10.5+ | |
+| Display User Message | Y | Y | 10.5+ | |
+| File Quarantine| Y | Y | 10.5+ | |
+| Just in Time Group Membership | N | Y | 10.8.2+  | |
+| Run as Custom User| Y | N | 10.5-10.8.2 | |
+| Run as Print Admin User | Y | N | 10.5-10.8.2 | |
+| Run as Root | Y | N | 10.5-10.8.2 | |
+| Run As User | N | Y | 11.1+ | |
+
+The following actions are specific to the use of sudo through our sudo plugin:
+
+* [Command Line Approval Message](../../../admin/actions/macOS/cli-appr-msg.md)
+* [Command Line Justification Message](../../../admin/actions/macOS/cli-just-msg.md)
+* [Run As User](../../../admin/actions/macOS/run-as-user.md)
 
 ### Agent Behavior with Actions
 

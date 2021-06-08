@@ -32,3 +32,6 @@ To create the message action,
 Refer to [Using the Command Line Action Editor](../index.md#using_the_command_line_action_editor) for information on how to use the editor.
 
 >**Note**: The Command Line Approval Message action is the preferred message action to elevate commands and scripts run under `sudo` requiring approval.
+>
+>If there are networking issues, while a CLI approval is being used, the following error might be displayed in Terminal: _Error occurred in policy engine_. This is due to offline CLI approvals not being supported at this time.
+

@@ -17,6 +17,6 @@ The following macOS controlling policy decision diagrams are available:
 
 * [Creating a Controlling Elevation Policy for macOS](wizard/controlling-elevate-macOS.md)
 * [Creating a Controlling Allow Policy for macOS](wizard/controlling-allow-macOS.md)
-* [Creating a Controlling Block Policy for macOS](wizrd/controlling-block-macOS.md)
+* [Creating a Controlling Block Policy for macOS](wizard/controlling-block-macOS.md)
 
 For macOS Agent Configuration information refer to [Agent Configuration](../../agents/macOS/cfg/index.md).

@@ -10,3 +10,4 @@ The following topics are available:
 * [Using a Service Account to run the IIS App pool](run-iis-app-pool.md)
 * [Prevent Read and Write Access to File Types or Locations](prevent-read.md)
 * [Securing the IIS Server](securing-iis.md)
+* [Updating to higher security algorithms](algorithms.md)

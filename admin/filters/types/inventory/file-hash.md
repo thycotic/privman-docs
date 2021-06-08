@@ -3,7 +3,7 @@
 [priority]: # (2)
 # File Hash Filter
 
-This type of filter identifies file inventoried based on Hash Algorithms. *No out-of-box filters exist in Privilege Manager for this type*.
+This type of filter identifies files inventoried based on Hash Algorithms. *No out-of-box filters exist in Privilege Manager for this type*.
 
 When creating this filter, the target hashes need to be entered as a comma-separated list:
 

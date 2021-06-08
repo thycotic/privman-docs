@@ -5,7 +5,7 @@
 
 Thycotic recommends setting up a domain service account that can both:
 
-* access the Thycotic product’s SQL database
+* access the Thycotic product's SQL database
 * run the IIS Application Pool(s) dedicated to your Thycotic product
 
 >**Note**: The service account created in this KB should NOT be the same account that is created during the installation of SQL and used to manage SQL as a whole.
@@ -39,7 +39,7 @@ To set up this service account correctly you will need to:
 
 You must have SQL installed on your database server before completing these steps:
 
-1. Using SQL Management Studio (on your database server), connect to your Thycotic product’s SQL Database using an Administrator account.
+1. Using SQL Management Studio (on your database server), connect to your Thycotic product's SQL Database using an Administrator account.
 1. Right-click on the Security node (Ensure this is the top most Security node under the instance and not under the database name itself).
 1. Click __New__ and __Login__.
 
@@ -66,7 +66,7 @@ OR - If you have not yet created the Database, Under Server Roles select db_crea
 
    ![run-iis-app-pool](images/iis/iis-6.png)
 1. Select the Custom Account radio button.
-1. Click __Set__ and enter your service account’s name and password.
+1. Click __Set__ and enter your service account's name and password.
 1. Click __OK__.
 
    >**Note**: You will need to perform this step for multiple application pools for Privilege Manager.
@@ -80,7 +80,7 @@ You must have the Thycotic product application files installed (on your web serv
 Following the steps below you will need to give the service account __Modify__ access to two folders:
 
 * __C:\Windows\TEMP__
-* The folder where your Thycotic product’s application files are located 
+* The folder where your Thycotic product's application files are located 
 (i.e.:__C:\inetpub\wwwroot\SecretServer__)
 
 ​You must have the Thycotic Product Application Files installed on your web server before completing these steps.

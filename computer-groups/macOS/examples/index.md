@@ -10,7 +10,7 @@ Once your macOS agent is registered, creating policies for your macOS machines f
 1. Create Policies — This step defines what
    1. Actions to perform on applications and
    1. Targets (Locations) for those actions.
-1. Assign Filters to Policies — This step directs a Policy’s actions to the appropriate Events happening on your network. This step also allows a Policy to be set to active.
+1. Assign Filters to Policies — This step directs a Policy's actions to the appropriate Events happening on your network. This step also allows a Policy to be set to active.
 1. Order your Policies based on priority level—Once your policies are created, the order they execute across your network matters. See the [Policy Priority](../../app-control/policies/priority.md) topic for more details.
 
 In macOS, roles are bifurcated into two groups: Admins, and Users rather than by Group Policy Objects (GPO) found in Windows environments.

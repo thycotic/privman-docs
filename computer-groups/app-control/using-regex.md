@@ -101,7 +101,7 @@ To match when a wildcard is at the end of the File Path like:
 >**Note**:
 >The final backslash has been removed for Privilege Manager.
 
-Also note the system variables like `%ProgramFiles%` don’t work using regex unless `%ProgramFiles%` is what is shown in the Privilege Manager logs for the event.
+Also note the system variables like `%ProgramFiles%` don't work using regex unless `%ProgramFiles%` is what is shown in the Privilege Manager logs for the event.
 
 Results:
 

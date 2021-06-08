@@ -81,7 +81,7 @@ This brings you to the __Manage Application__ modal with the known identifiers n
 
 The modal has options to __Create and Add to Policy__ or to just __Create Filter__.
 
->**Note**: If you are NOT directed to such a dialog, this means Privilege Manager doesn’t have enough information to target this event yet. In these cases you may need to create Filters manually.
+>**Note**: If you are NOT directed to such a dialog, this means Privilege Manager doesn't have enough information to target this event yet. In these cases you may need to create Filters manually.
 
 The dialog reveals the available list of building blocks, attributes, or criteria used for creating a filter. In other words, the following list of criteria are possible data fields that Privilege Manager can look and sift through for on any given event that your policies target for Windows machines. Note that criteria can vary depending on the type of filter you are creating:
 

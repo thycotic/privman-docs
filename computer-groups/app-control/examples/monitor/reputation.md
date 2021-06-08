@@ -45,11 +45,11 @@ Next you have to create a Security Rating Filter for VirusTotal. Follow these st
 1. Click __Save Changes__.
 1. Finally, combine the 2 filters into a single filter to target both directories:
    1. Click __More | Duplicate__.
-   1. Enter the name for the new filter _User’s Directory Collection File Specification Filter_, click __Create__.
+   1. Enter the name for the new filter _User's Directory Collection File Specification Filter_, click __Create__.
    1. Clear the data in the Path field.
    1. Under Additional Filters, click __Add File filters__.
-   1. Search for __User’s Download__ and add the __User’s Downloads Directory File Specification Filter__.
-   1. Search for __User’s Temp Directory__ and add __User’s Temp Directory File Specification Filter__ (this is a default filter).
+   1. Search for __User's Download__ and add the __User's Downloads Directory File Specification Filter__.
+   1. Search for __User's Temp Directory__ and add __User's Temp Directory File Specification Filter__ (this is a default filter).
    1. Click __Update__.
 
       ![collection](images/reputation/collection-filter.png "Both filters added to the collection filter")
@@ -64,7 +64,7 @@ Next you have to create a Policy and add the filters for VirusTotal:
 1. Search for add the previously created __VirusTotal Security Rating Filter__.
 1. Click __Update__
 1. Name the policy __Allow Applications – VirusTotal Rating__, and add a description _Deny applications flagged by VirusTotal as bad_, click __Create Policy__.
-1. Click __Add Inclusions__, search for and add the __User’s Directory Collection File Specification Filter__.
+1. Click __Add Inclusions__, search for and add the __User's Directory Collection File Specification Filter__.
 1. Click __Update__
 
       ![policy](images/reputation/policy-conditions.png "Policy with filters and conditions")
@@ -72,7 +72,7 @@ Next you have to create a Policy and add the filters for VirusTotal:
 1. Set the __Inactive__ switch to __Active__.
 
 >**Note**:
->This policy will send any application run from the user’s Downloads or Temp directory to VirusTotal for a reputation check in real-time. If the application is graded with Bad from VirusTotal, the application will be denied.
+>This policy will send any application run from the user's Downloads or Temp directory to VirusTotal for a reputation check in real-time. If the application is graded with Bad from VirusTotal, the application will be denied.
 
 ## Viewing a File Security Ratings Report
 

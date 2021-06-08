@@ -28,7 +28,7 @@ It is toggled on or off via any of your __Windows Computer Groups | Agent Config
 
 ## Testing RRAA Policies
 
-This section explains how to create a RRAA Elevation Policy for Developers. As described here, this feature will be added to all endpoints with the Application Control Agent. It will require authentication from a Developer to proceed, so other users won’t be able to *use* the feature, but it will be present.
+This section explains how to create a RRAA Elevation Policy for Developers. As described here, this feature will be added to all endpoints with the Application Control Agent. It will require authentication from a Developer to proceed, so other users won't be able to *use* the feature, but it will be present.
 
 There are two steps to configuring the __Right-Click Run As Thycotic Administrator__ feature.
 
@@ -36,7 +36,7 @@ One is the global configuration setting to enable the feature. Enabling this add
 
 After enabling the global feature, Policies are created that assign Actions to this feature, typically based on specific use cases (such as the Developer use case detailed below).
 
-If testing this feature in an environment with Agents deployed to production machines, consider first creating a Policy that targets all endpoints and all users that includes a custom Application Denied Message Action or Application Warning Message Action explaining that this feature isn’t currently enabled, but may be used in the future by Helpdesk or other users. Then create a separate policy that has Resource Targets only for your test machines and a Policy Priority to occur earlier in processing. That way, your tests will be separate from the global actions of this feature.
+If testing this feature in an environment with Agents deployed to production machines, consider first creating a Policy that targets all endpoints and all users that includes a custom Application Denied Message Action or Application Warning Message Action explaining that this feature isn't currently enabled, but may be used in the future by Helpdesk or other users. Then create a separate policy that has Resource Targets only for your test machines and a Policy Priority to occur earlier in processing. That way, your tests will be separate from the global actions of this feature.
 
 ## Create a RRAA Elevation Policy for Developers
 
@@ -123,9 +123,9 @@ Activate this policy, when you are ready to begin using it on endpoints.
 
 Another common use case for the Right-Click Run As Thycotic Administrator feature is a RRAA Elevation Policy for Helpdesk. To do this, follow the same steps for the RRAA Elevation Policy for Developers, outlined above, using Helpdesk AD groups and naming conventions for the Action and Policy during creation.
 
-It’s possible to have multiple RRAA policies that work for different groups in the same Policy stack. To get this working, User Context Filters will be built in Privilege Manager that match the targeted AD groups.
+It's possible to have multiple RRAA policies that work for different groups in the same Policy stack. To get this working, User Context Filters will be built in Privilege Manager that match the targeted AD groups.
 
-Once the basic policies needed are made, and the User Context Filters are created, use the “Add Inclusion Filter” and “Add Exclusion Filter” sections under the Policy’s “Conditions” to logically get all Policies working in your policy stack.
+Once the basic policies needed are made, and the User Context Filters are created, use the “Add Inclusion Filter” and “Add Exclusion Filter” sections under the Policy's “Conditions” to logically get all Policies working in your policy stack.
 
 In the Developers & Helpdesk example:
 
@@ -135,7 +135,7 @@ In the Developers & Helpdesk example:
 
 * If the Current User on an endpoint is not a member of the Developers AD group and initiates the Right-Click Run As Thycotic Administrator feature, the custom Helpdesk Action executes.
 
-* The Helpdesk’s RRAA Policy would not work when the computer User is in the Developers group, but the Helpdesk policy would work on all other computers regardless of who the User is.
+* The Helpdesk's RRAA Policy would not work when the computer User is in the Developers group, but the Helpdesk policy would work on all other computers regardless of who the User is.
 
 This example gives Helpdesk users a workflow to enter their credentials on any computer to request elevation for supporting all computers not having a separate RRAA Policy of their own (in the above example, only the Developers have a separate RRAA Policy).
 

@@ -18,7 +18,7 @@ Each Computer Group has the following areas to specifically address
 
 ![cg menu](images/cg-menu.png "Computer Groups Menu")
 
-If you have agents already installed and registered, you will see Computer Group numbers listed, divided by Privilege Manager’s out-of-the-box computer groups:
+If you have agents already installed and registered, you will see Computer Group numbers listed, divided by Privilege Manager's out-of-the-box computer groups:
 
 * MacOS Computers
 * Unix/Linux
@@ -26,7 +26,7 @@ If you have agents already installed and registered, you will see Computer Group
 
 ![cg](images/cg.png "Default Computer Groups")
 
-For example, in the screenshot above only 1 agent is registered with Privilege Manager. Local Security tells us that the agents are installed on a Windows computer (thus categorized in the Windows Computers group), that there is 1 local User, and 28 User Groups on the machine. Local Security automatically discovers this information upon every agent’s registration with Privilege Manager.
+For example, in the screenshot above only 1 agent is registered with Privilege Manager. Local Security tells us that the agents are installed on a Windows computer (thus categorized in the Windows Computers group), that there is 1 local User, and 28 User Groups on the machine. Local Security automatically discovers this information upon every agent's registration with Privilege Manager.
 
 If you have Computer Groups (also called Resource Targets) already configured for Application Control in Privilege Manager, keep in mind that those groups also appear under Group Management for a given Computer Group in the left navigation tree.
 

@@ -11,7 +11,7 @@ Privilege Manager isn't a SIEM tool, so it shouldn't be capturing events from ev
 
 Privilege Manager should not be used to audit events on all endpoints, but small scope audit can be done. For those, an elevate policy can be copied and targeted to a specific user, machine, or very small group with send policy feedback. As long as it's a small sample, it shouldn't flood the database with events. This type of audit policy can be assigned to an AD group. Change what user or machine is in that group to change who/what is spot audited. It provides a small example of what is being elevated.
 
-## What’s First
+## What's First
 
 Privilege Manager includes policies to discover when an end user runs an application that requires administrative rights. Creating policies for any known applications and tasks should be first. Organizations are aware of applications that require elevated permissions to run or install. Collect any files that have already been identified and create policies targeting those applications.
 
@@ -24,7 +24,7 @@ Understanding which users and groups have administrative rights, allows you to p
 
 ### Event Discovery
 
-Event Discovery is Privilege Manager’s process to determine which applications will require policies.
+Event Discovery is Privilege Manager's process to determine which applications will require policies.
 
 Based on your use cases, different Event Discovery policies should be enabled. Enable event discovery for the most common use cases like:
 
@@ -42,9 +42,9 @@ Refer to [Discovery](../admin/config/discovery/index.md) in the Admin menu secti
 
 ### Never Disable Event Discovery
 
-Event Discovery is not a short process. It’s an integral part of Privilege Manager. Once Event Discovery is enabled, it is never disabled.
+Event Discovery is not a short process. It's an integral part of Privilege Manager. Once Event Discovery is enabled, it is never disabled.
 
-Even after all policies have been built and all end user needs are met and the local admin groups are empty on all endpoints, you’ll still want to know if there are new items that require elevated permissions. Or, after admin rights have been removed, you may want to setup Event Discovery to send feedback if someone runs an application in a context that is unexpected and highly suspicious.
+Even after all policies have been built and all end user needs are met and the local admin groups are empty on all endpoints, you'll still want to know if there are new items that require elevated permissions. Or, after admin rights have been removed, you may want to setup Event Discovery to send feedback if someone runs an application in a context that is unexpected and highly suspicious.
 
 What is discovered and who/which machines Event Discovery targets may change, but Event Discovery will always be used in some capacity.
 
@@ -92,6 +92,6 @@ It is important for administrators to know when (and potentially why) deny listi
 
 An UAC override policy allows a user to elevate a program not blocked by a deny listing or elevated by an allow list, by reentering their password to install/run, is a good candidate for sending policy feedback. It presents an exception to normal execution of programs as an unprivileged user. This type of event logging should be used to identify new programs to add to silent elevation policies if the frequency warrants, or to audit user usage to elevate items they shouldn't to mark them for blocking or follow up action.
 
-### Don’t Send Policy Feedback
+### Don't Send Policy Feedback
 
 For most business organizations, it makes no sense to implement a policy that sends feedback when a MS Office product or the company wide instant messaging product is installed or run. For user groups like developers, programming tools are needed and running those should not trigger any notifications.

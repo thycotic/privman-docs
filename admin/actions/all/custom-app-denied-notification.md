@@ -18,7 +18,7 @@ Example of Custom Notification:
 To edit the message text the __View as XML__ button has to be enabled in your console. 
 
 1. Navigate to and click your user icon, select __Preferences__.
-1. Verify __Show ‘View XML’ Button__ is set to __Yes__, if set to No change the switch.
+1. Verify __Show ‘View XML' Button__ is set to __Yes__, if set to No change the switch.
 
    ![Verify Show 'View as XML' Button checkbox is enabled](images/deny/enable-2.png "Verify Show 'View as XML' Button checkbox is enabled")
 1. Click __Save Changes__.
@@ -38,20 +38,20 @@ Default Actions shouldn't be edited directly, however Privilege Manager default 
 1. Click __Create__. Once you click Create, the new action page opens.
 1. To upload a custom image file click __Choose File__. You can upload a custom logo, the file size should be under 128 KB and the width should be 500 pixels or less with a maximum hight of 34 pixels.
 
-   The logo that is uploaded should NOT be a high-resolution image. This image will be delivered to every endpoint with every message in which it’s used. The smaller the image, the better, for sending the message to the endpoints and for the endpoint to load the message.
+   The logo that is uploaded should NOT be a high-resolution image. This image will be delivered to every endpoint with every message in which it's used. The smaller the image, the better, for sending the message to the endpoints and for the endpoint to load the message.
 1. Click __Save__.
 
 ## Editing the Text in the UI
 
-Privilege Manager makes it very easy to edit the text of a message. The fields are listed in alphabetical order on the item’s view page. Compare each field to this overview image:
+Privilege Manager makes it very easy to edit the text of a message. The fields are listed in alphabetical order on the item's view page. Compare each field to this overview image:
 
 ![Custom notification](images/deny/overview.png "Overview of customization options")
 
-Most of the lines do not include individualized stylings per line. Editing the text in the UI will simply edit the text as required. The __Information Section__ field includes html formatting for the hyperlink to the corporate policy. That hyperlink will be removed if the text is edited on the message’s edit page.
+Most of the lines do not include individualized stylings per line. Editing the text in the UI will simply edit the text as required. The __Information Section__ field includes html formatting for the hyperlink to the corporate policy. That hyperlink will be removed if the text is edited on the message's edit page.
 
 ![Editing in UI](images/deny/edit-ui.png "Using the UI settings to edit")
 
->**Note**: It is __NOT__ recommended to edit the Information Section directly on the message’s edit page. Instead, editing the Information Section via XML retains the html formatting for this line.
+>**Note**: It is __NOT__ recommended to edit the Information Section directly on the message's edit page. Instead, editing the Information Section via XML retains the html formatting for this line.
 If no changes are made to the Information Section, the html formatting is retained. All other fields can be changed except the Information Section and the html formatting for the Information Section is retained.
 
 ## Editing the Text via XML

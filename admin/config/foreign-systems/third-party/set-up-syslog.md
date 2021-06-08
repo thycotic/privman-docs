@@ -34,7 +34,7 @@ To configure SysLog messages in Privilege Manager:
    ![create](images/syslog/create_syslog_task.png "Create Task")
 1. Click __Create__.
 
-Once created, you’ll be taken to the new Scheduled Task's page where you can run the task on demand and/or specify how often you want events received by Privilege Manager (i.e. all events viewed in Admin | Event Discovery) to be pushed out to the SysLog server. The schedule can be hourly, every 30 minutes, daily, or whatever time period is preferred.
+Once created, you'll be taken to the new Scheduled Task's page where you can run the task on demand and/or specify how often you want events received by Privilege Manager (i.e. all events viewed in Admin | Event Discovery) to be pushed out to the SysLog server. The schedule can be hourly, every 30 minutes, daily, or whatever time period is preferred.
 
 After this task runs and successfully completes, verify that Event Discovery events appear in your SysLog system.
 

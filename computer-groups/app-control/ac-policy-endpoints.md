@@ -24,7 +24,7 @@ After setting up your first policies, keep in mind that even after you enable th
 
 ## View Deployment Status
 
-Within a Policy’s Detail View, verify the deployment status. This will tell you how many computers the policy is already deployed on:
+Within a Policy's Detail View, verify the deployment status. This will tell you how many computers the policy is already deployed on:
 
 ![Deployment Status](images/tasks/deployment.png "Deployment Status")
 
@@ -50,15 +50,15 @@ On Privilege Manager version prior to 10.7, the fastest way to deploy or update 
 >**Note**:
 >If your policies are not immediately updated, wait a few minutes and try running the script again.
 
-After you’ve updated your test endpoints, you can try running applications that are targeted by your policies to make sure the policies are configured correctly. You will also see the policy's Deployment status information updated if refreshed.
+After you've updated your test endpoints, you can try running applications that are targeted by your policies to make sure the policies are configured correctly. You will also see the policy's Deployment status information updated if refreshed.
 
 ## Agent Event Log Viewer
 
-Another helpful place to look when setting up new policies is your Agent’s Event Log Viewer. On your endpoint machine,
+Another helpful place to look when setting up new policies is your Agent's Event Log Viewer. On your endpoint machine,
 
 1. Navigate to your Thycotic Agent files. This is usually located in `C:\Program Files\Thycotic\Powershell\Arellia.Agent`.
 1. Right-click on __AgentLogViewer__ and select the Log Viewer button. This opens your Agent Event Log Viewer, which shows updates in real time as the agent communicates with the Privilege Manager server. For remote access, Agent logs are also viewable through the Windows Event Viewer.
 1. Scroll all the way to the top of the page to see the most recent activity from your Thycotic Agent.
 1. Deselect the Information box on the upper right-hand corner to narrow search results for any Errors and Warning messages that may be occurring. You can also double-click any line item for more detailed information about each event.
 
-Now that you know how to update your endpoints and check to make sure your policies are working, it’s time to start building new policies!
+Now that you know how to update your endpoints and check to make sure your policies are working, it's time to start building new policies!

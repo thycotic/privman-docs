@@ -114,7 +114,7 @@ Error: Are your tasks sitting at "Ready" for extended periods of time?
 To Resolve:
  
 1. Navigate to Admin | Configuration | Advanced and make sure the URL for the "Monitor Worker Role" are accurate for the bindings (Check the hostname in the Base local address and the Port).
-1. Open IIS Manager, check to make sure the app pools have Read Access to the certificate that you’ve assigned to that binding via MMC Certificates plug-in. More instructions on how to do this in our Granting Permissions on New SSL Certificate for Privilege Manager KB, posted here.
+1. Open IIS Manager, check to make sure the app pools have Read Access to the certificate that you've assigned to that binding via MMC Certificates plug-in. More instructions on how to do this in our Granting Permissions on New SSL Certificate for Privilege Manager KB, posted here.
 1. Manually recycle the TMS and TMS Worker app pools.
 
 ## CPU Issue

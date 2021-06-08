@@ -55,7 +55,7 @@ The last row defines what action to take __on all other users and groups__. This
 
 ### Statistics
 
-The __Statistics tab__ for a local group highlights some quick visual statistics and links you to relevant reports based on key factors like how many computers from your network are included in this group and whether there have been changes made to the Group’s Membership within the specified period. Click on these graphs to drill down into more details.
+The __Statistics tab__ for a local group highlights some quick visual statistics and links you to relevant reports based on key factors like how many computers from your network are included in this group and whether there have been changes made to the Group's Membership within the specified period. Click on these graphs to drill down into more details.
 
 >**Note**: The reports in the “Related Reports” sections are scoped to only include endpoints in the current computer group. To view reports across all computers, go to the Reports section of the product.
 

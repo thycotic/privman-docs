@@ -33,7 +33,7 @@ Clicking on a computer in the list, opens the resource page.
 
 ## Registering the Agent
 
-The pmagent service isn’t required to be running for Privilege Manager policies to be executed, although for scheduled jobs to run successfully, the pmagent service need to be registered, for example:
+The pmagent service isn't required to be running for Privilege Manager policies to be executed, although for scheduled jobs to run successfully, the pmagent service need to be registered, for example:
 
 `pmagent --register -u https://192.168.248.201:443 -c WC5W-W2DD-ONLE`
 

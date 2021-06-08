@@ -3,13 +3,13 @@
 [priority]: # (1653)
 # Upgrading from Arellia Management Server 8.2 to Privilege Manager 10.4 and up
 
-Upgrading from our 8.2 version to Privilege Manager 10.4 and up can’t be done from `https://servername/Ams/Setup/`. To upgrade, we recommend using the same database and removing the old application before installing the new version. This can be done automatically or manually.
+Upgrading from our 8.2 version to Privilege Manager 10.4 and up can't be done from `https://servername/Ams/Setup/`. To upgrade, we recommend using the same database and removing the old application before installing the new version. This can be done automatically or manually.
 
 ## Automatic Steps
 
 1. Download http://tmsnuget.thycotic.com/Software/ThycoticTmsInstaller_10_0_1570.exe and run it on the web server where your existing Arellia Management Server 8.x version is installed.
 1. Follow the prompts.
-1. Once it completes, you’ll access the server at `https://servername/Tms/` instead of `https://servername/Ams/`.
+1. Once it completes, you'll access the server at `https://servername/Tms/` instead of `https://servername/Ams/`.
 1. Go to `https://servername/Tms/Setup` to install the latest 10.x version.
 1. Open __IIS Manager__ and go to __Sites__  | __Ams__ | __Agent__ | __Uploads__.
 1. Click on the __BITS Uploads__ and change the notification URL from `http://localhost/Ams/Services/BitsUpload.ashx` to `http://localhost/Tms/Services/BitsUpload.ashx`.

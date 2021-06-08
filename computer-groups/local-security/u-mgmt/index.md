@@ -47,7 +47,7 @@ The most important part of managing a user is setting a one-time password for th
 
 The __Groups tab__ for a Local Account tells you how many groups and computers the account is on. Clicking on a Group Name from this page directs you back to the details of that local group.
 
-The __Statistics tab__ for a local user account highlights some quick visual statistics and links to relevant reports based on key factors, like how many computers from your network have this user account and whether there have been changes made to the user’s membership within the specified period. Click on the graphs to drill down into more details.
+The __Statistics tab__ for a local user account highlights some quick visual statistics and links to relevant reports based on key factors, like how many computers from your network have this user account and whether there have been changes made to the user's membership within the specified period. Click on the graphs to drill down into more details.
 
 ## Password Management: Randomize Local Account Passwords
 

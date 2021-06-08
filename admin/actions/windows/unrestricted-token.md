@@ -31,9 +31,9 @@ The application action elevates or restricts the permissions and/or privileges h
 The four main areas to customize are:
 
 * Selecting an __Action Type__, which can either Elevate Rights or Restrict Rights. When the adjustment is a rights restriction, there is an advanced feature that allows you to apply restricted Security Identifiers (SIDs), which further restricts access to securable objects. More about this under the [What is a Restricted SID](#what_is_a_restricted_sid_) topic.
-* Adding or Removing __Windows Privileges__, these come pre-populated with a set of default recommendations for each out of the box Action. To learn more about these Windows Privileges visit [Microsoft’s Documentation about User Rights Assignment](https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/user-rights-assignment).
+* Adding or Removing __Windows Privileges__, these come pre-populated with a set of default recommendations for each out of the box Action. To learn more about these Windows Privileges visit [Microsoft's Documentation about User Rights Assignment](https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/user-rights-assignment).
 * Adding or Removing __Build-in Roles__, these are the roles that provide file level access to a system and they are based on group membership.
-* Adding or Removing __Well-known Accounts__, these are specifying the integrity levels at which processes can run. Also refer to [Microsoft’s Documentation about Mandatory Integrity Control](https://docs.microsoft.com/en-us/windows/win32/secauthz/mandatory-integrity-control).
+* Adding or Removing __Well-known Accounts__, these are specifying the integrity levels at which processes can run. Also refer to [Microsoft's Documentation about Mandatory Integrity Control](https://docs.microsoft.com/en-us/windows/win32/secauthz/mandatory-integrity-control).
 
 ### What is a Restricted SID?
 
@@ -61,7 +61,7 @@ need to allow access to the user, but explicitly to the Restricted SID.
 
 ### How to Add Windows Permissions
 
-Windows permissions are specific OS based permissions to perform actions, like changing system time or taking ownership of a files vs. accessing securable resources. To learn more about these Windows Privileges visit [Microsoft’s
+Windows permissions are specific OS based permissions to perform actions, like changing system time or taking ownership of a files vs. accessing securable resources. To learn more about these Windows Privileges visit [Microsoft's
 Documentation about User Rights Assignment](https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/user-rights-assignment).
 
 ### How to Use Well-known Accounts
@@ -95,10 +95,10 @@ Any elevation policy pertaining to Adobe products, needs an __Adjust Process Rig
 
 ## Additional Options Explained
 
-Under Additional Options customers can select to __Use User’s Unrestricted Token__ and __Disallow changes to the process rights after applying changes__.
+Under Additional Options customers can select to __Use User's Unrestricted Token__ and __Disallow changes to the process rights after applying changes__.
 
 The use of the unrestricted token option is another level of available customization beyond what can be enabled or disabled via the Adjust Process Rights Settings. Enabling this token presents the user with extra levels of
-access rights over the process. If changes to the process rights are disallowed, the user’s unrestricted token is valid as long as the pertaining process is running.
+access rights over the process. If changes to the process rights are disallowed, the user's unrestricted token is valid as long as the pertaining process is running.
 
 For example if you have a standard user policy for a certain process to run at medium integrity level, but you want to enable more rights without fully elevating and granting the process a high integrity level, you can use the unrestricted access token to fine tune.
 

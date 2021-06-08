@@ -36,6 +36,6 @@ As a second step VirusTotal needs to be installed in Privilege Manager.
 >**Note**:
 >VirusTotal can be used without API Key. If the free version is used, reputation checks are limited to 4 per Minute. Thycotic does not recommend this for a production environment.
 
-For the implementation example below, we are creating two filters, using one default filter, and creating a policy. One filter is the standard Security Rating Filter the other filter controls, that we only send applications to VirusTotal for a reputation check that are in the user’s Downloads and Temp directories.
+For the implementation example below, we are creating two filters, using one default filter, and creating a policy. One filter is the standard Security Rating Filter the other filter controls, that we only send applications to VirusTotal for a reputation check that are in the user's Downloads and Temp directories.
 
 Further details about creating a Security Rating Filter and other needed filters to work with reputation checking policies refer to the [Reputation Checking](../../../../computer-groups/app-control/examples/monitor/reputation.md) topic.

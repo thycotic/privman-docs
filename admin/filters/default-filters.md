@@ -62,7 +62,7 @@ This topic provides the Privilege Manager filters catalog for all out-of-the-box
 | __ShareX__ | This filter targets the ShareX application |
 | __Skype__ | Filter used to detect Skype |
 | __Trillian__ | Filter used to detect the Trillian application |
-| __User’s Temp Directory Win32 Executable Filter__  | Filter used to target any executable (exe) in a user’s temp directory |
+| __User's Temp Directory Win32 Executable Filter__  | Filter used to target any executable (exe) in a user's temp directory |
 | __Win32 Executables Discovered in the Last Week__  | This filter is limited to applications discovered on the endpoint within the last week|
 | __Winamp__ | Filter used to detect Winamp application |
 | __Windows Firewall (netsh.exe)__| Filter used to identify the Windows Firewall netsh.exe  |
@@ -112,7 +112,7 @@ This topic provides the Privilege Manager filters catalog for all out-of-the-box
 | ----- | ----- |
 | __Manual Application Compatibility Setting__ | Detects whether an application is being run with manual override options |
 | __User Access Control Consent Dialog Detected__ | This filter will match when an application that requires User Access Control consent is launched |
-| __User Requested Run As Administrator__ | Detects whether a user has right-clicked on an application and used Thycotic’s custom ‘Request Run as Administrator’ option |
+| __User Requested Run As Administrator__ | Detects whether a user has right-clicked on an application and used Thycotic's custom ‘Request Run as Administrator' option |
 
 ## Network Location Filters
 
@@ -133,7 +133,7 @@ This topic provides the Privilege Manager filters catalog for all out-of-the-box
 
 | Filter | Description |
 | ----- | ----- |
-| __Target MSI and Scripts executed from the User’s Temp Directory__ | Filter used to target MSI and Scripts executed from the User’s Temp Directory |
+| __Target MSI and Scripts executed from the User's Temp Directory__ | Filter used to target MSI and Scripts executed from the User's Temp Directory |
 
 ## Security Rating Filters
 
@@ -229,9 +229,9 @@ VirusTotal Filters based on configuring VirusTotal integration in Privilege Mana
 | __Time Machine Preference Pane (MacOS)__ | Filter used to detect the Time Machine Preference Pane in Mac |
 | __Uncommon Executables Folders__ | Filter used to detect files in the Uncommon directories|
 | __Users and Groups Preference Pane (MacOS)__| Filter used to detect the Users and Groups Preference Pane in Mac  |
-| __User’s Directory Collection File Specification Filter__| Used to target any file in the user’s temp directory  |
-| __User’s Downloads Directory File Specification Filter__ | Used to target any file in the user’s temp directory  |
-| __User’s Temp Directory File Specification Filter__ | Used to target any file in the user’s temp directory  |
+| __User's Directory Collection File Specification Filter__| Used to target any file in the user's temp directory  |
+| __User's Downloads Directory File Specification Filter__ | Used to target any file in the user's temp directory  |
+| __User's Temp Directory File Specification Filter__ | Used to target any file in the user's temp directory  |
 | __Windows Directory__ | Filter used to detect files in the C:\Windows directory |
 | __Windows Directory (Include Subdirectories)__  | Filter used to detect files in the C:\Windows\ directory |
 | __Windows Dll Cache__ | Filter used to detect files in the C:\Windows\System32\dllcache directory|
@@ -246,7 +246,7 @@ VirusTotal Filters based on configuring VirusTotal integration in Privilege Mana
 
 | Filter | Description |
 | ----- | ----- |
-| __Present in Signed Security Catalog__ | Filter used to detect Operating System Files and other trusted files dynamically on each system by using that machine’s Signed Security Catalog. This filter does not need to be modified on the server |
+| __Present in Signed Security Catalog__ | Filter used to detect Operating System Files and other trusted files dynamically on each system by using that machine's Signed Security Catalog. This filter does not need to be modified on the server |
 
 ## Miscellaneous Filters
 

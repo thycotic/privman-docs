@@ -32,7 +32,7 @@
 	xmlns:adx="http://schemas.arellia.com/winfx/2012/arelliadisplayxamlaction"
 	xmlns:ac="http://schemas.arellia.com/winfx/2010/xaml"
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-	mc:Ignorable="ac acs"
+	mc:Ignorable="ac"
 	Icon="Images/thycotic-icon.png"
 	WindowStartupLocation="CenterScreen"
 	Title="{DynamicResource WindowTitle}"
@@ -238,7 +238,6 @@
 				<Border Style="{StaticResource ImageHeadingBorderStyle}">
 					
 					<Image Style="{StaticResource ImageHeadingStyle}"
-							 acs:ImageSourceHelper.EncodedImage="{StaticResource EncodedLogoImage}"
 							 adx:ImageSourceHelper.EncodedImage="{StaticResource EncodedLogoImage}" />
 				</Border>
 			</Grid>

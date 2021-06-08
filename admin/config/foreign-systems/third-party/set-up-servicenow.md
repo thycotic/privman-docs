@@ -32,6 +32,32 @@ Here are the steps to integrate Workflow between your ServiceNow Ticketing Syste
 1. Assign the credentials you created previously to link to your instance.
 
    ![creds](images/servicenow/fs_link_credentials.png "Linking the credentials")
+
+## Define Policy and Actions
+
+You need to create an action and attach it to a policy to manage what events you want sent to ServiceNow for approvals.
+
+1. In the Privilege Manager console, navigate to __Admin | Tasks__.
+1. Click the __Automation__ tab.
+1. In the tree, navigate to __Automation | Approvals | Approval Processes__, click __Create__.
+
+   ![New Automation](images/servicenow/action_new.png "New Automation")
+1. Enter a name and description, click __Create__.
+
+   ![Editing the item](images/servicenow/action_addserver.png "Editing the item")
+1. Under __Settings__ specify your ServiceNow Server, click __Save Changes__.
+1. Back in the Automation tree, select __Approval Types__, click __Default Execute Application Request Type__.
+
+   ![Default approval type](images/servicenow/action_type.png "Duplicate and customize the Default Execute Application Request Type")
+
+   Duplicate and customize the Automation Task.
+1. Select your __ServiceNow Approval Process__.
+
+   ![Edits to approval type](images/servicenow/action_type2.png "Edits to approval type")
+1. Click __Save Changes__.
+
+### Run the Create ServiceNow Approval Request Items Tasks
+
 1. Next, in __Search__ at the top of your Privilege Manager console, search for _Create ServiceNow Approval Request Items_.
 1. In your search results, __click on this task__ and then select from the __More__ drop-down __Run Task__.
 
@@ -61,29 +87,7 @@ Open ServiceNow and navigate to __Scripted Web Services | Scripted SOAP Services
 
 Now you've successfully defined a SOAP endpoint that Privilege Manager knows how to call to initiate a ServiceNow request for approval.
 
-## Define Policy and Actions
-
-You need to create an action and attach it to a policy to manage what events you want sent to ServiceNow for approvals.
-
-1. In the Privilege Manager console, navigate to __Admin | Tasks__.
-1. Click the __Automation__ tab.
-1. In the tree navigate to __Automation | Approvals | Approval Processes__, click __Create__.
-
-   ![New Automation](images/servicenow/action_new.png "New Automation")
-1. Enter a name and description, click __Create__.
-
-   ![Editing the item](images/servicenow/action_addserver.png "Editing the item")
-1. Under __Settings__ specify your ServiceNow Server, click __Save Changes__.
-1. Back in the Automation tree, select __Approval Types__, click __Default Execute Application Request Type__.
-
-   ![Default approval type](images/servicenow/action_type.png "Duplicate and customize the Default Execute Application Request Type")
-
-   Duplicate and customize the Automation Task.
-1. Select your __ServiceNow Approval Process__.
-
-   ![Edits to approval type](images/servicenow/action_type2.png "Edits to approval type")
-1. Click __Save Changes__.
-
+## Defining Actions in the Privilege Manager Console
 ### Using an Approval Request (with ServiceNow Request ItemNumber) Form Action
 
 1. Navigate to __Admin | Actions__.

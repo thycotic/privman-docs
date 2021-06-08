@@ -11,6 +11,7 @@ This topic provides a chronological list of documentation changes. Minor content
 * Added topics:
   * [Computer Name Pattern Collections](../admin/resources/cust-data-src.md)
   * [The About Page](../ui/navigation/about.md)
+  * [Setting up a ServiceNow Webhook Foreign Systems](../admin/config/foreign-systems/third-party/set-up-servicenow-webhook.md)
   * [Run as User action](../admin/actions/macOS/run-as-user.md)
   * [Directory Services](../admin/tasks/server/fs-ds.md)
   * [Directory Services Maintenance](../admin/tasks/server/fs-ds-maint.md)

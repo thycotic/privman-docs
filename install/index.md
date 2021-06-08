@@ -33,7 +33,7 @@ The following topics are available:
     * [Installing on Ubuntu](agents/nix/ubuntu.md)
 
 * [Upgrades](upgrades/index.md)
-  * [Online Upgrades (recommended)](upgrades/online-upgrades.md)
+  * [Online Upgrades (recommended)](upgrades/online-upgrade.md)
   * [Offline Upgrades](upgrades/offline-upgrade.md)
   * [Offline Upgrades - Combined Installations](upgrades/offline-upgrades-combined.md)
   * [Upgrading from Arellia Management Server 8.2 to Privilege Manager 10.4 and up](upgrades/upgrades-version-8.md)

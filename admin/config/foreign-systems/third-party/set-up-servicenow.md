@@ -13,7 +13,7 @@ Here are the steps to integrate Workflow between your ServiceNow Ticketing Syste
    * For ServiceNow MID Server environments, the `mid_server` role permission also needs to be added to the account.
    * The task __Create ServiceNow Request Items__ requires temporary __admin__ credentials for the ServiceNow instance. Once those items are created, the user does not need admin access anymore.
 
-   Refer to [ServiceNow product documentation, specifically Base System Roles](https://docs.servicenow.com/bundle/geneva-servicenow-platform/page/administer/roles/reference/r_BaseSystemRoles.html).
+   Refer to [ServiceNow product documentation, specifically Base System Roles](https://docs.servicenow.com/bundle/quebec-platform-administration/page/administer/roles/reference/r_BaseSystemRoles.html?cshalt=yes).
 1. Verify that the ServiceNow connector is installed for your Privilege Manager Cloud instance:
    1. In the Privilege Manager console navigate to __Admin | Configuration__ and select the __Foreign Systems__ tab.
    1. If the connector is installed, __ServiceNow__ is listed under Foreign System.

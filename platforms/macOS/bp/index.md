@@ -1,9 +1,9 @@
 [title]: # (Best Practices)
-[tags]: # (ui)
+[tags]: # (macOS)
 [priority]: # (1)
 # Best Practices Preference Panes
 
-This best practices section pertains to all macOS versions from __El Capitan__ to (and including) __Catalina__.
+This best practices section pertains to all macOS versions from __El Capitan__ to (and including) __Big Sur__.
 
 Thycotic supports elevation without having to enter admin credentials for these preference panes:
 
@@ -17,6 +17,7 @@ All macOS preference panes can be used in deny policies.
 
 This section contains macOS specific user interface topics.
 
+* [Configuration Profiles](cfg-profiles/index.md)
 * [Best Practices System Preferences](bp-sys-pref.md)
 * [Best Practices Printer Installs](bp-printer.md)
 * [Date & Time Preference Pane](bp-date-time.md)

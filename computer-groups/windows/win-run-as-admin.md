@@ -54,9 +54,9 @@ The most common Message Actions used with RRAA Policies are the Advanced Feedbac
 
 * [Group Member Authenticated Message Action](../../admin/actions/windows/group-member-approvals.md): This action will display a customized message to the user and requires authentication by a member of the specified group if the end-user is not a member.
 
-* [Authenticated Justification Message Action](../../admin/actions/windows/all/index.md#justify_application_message_action): This action will display an authentication prompt to the user before continuing to the process controlled by a policy.
+* [Authenticated Justification Message Action](../../admin/actions/all/index.md#justify_application_message_action): This action will display an authentication prompt to the user before continuing to the process controlled by a policy.
 
-* [Justify Application Elevation Action](../../admin/actions/windows/all/index.md#justify_application_elevation_action): This action will display a justification prompt to the user before continuing to the process controlled by a policy.
+* [Justify Application Elevation Action](../../admin/actions/all/index.md#justify_application_elevation_action): This action will display a justification prompt to the user before continuing to the process controlled by a policy.
 
 Each of these Actions provide fields that can adjust the communication presented to the User.
 

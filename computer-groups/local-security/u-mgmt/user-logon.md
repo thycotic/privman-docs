@@ -1,6 +1,6 @@
 [title]: # (Logon User Tracking)
 [tags]: # (local security)
-[priority]: # (3004)
+[priority]: # (5)
 # Logon User Tracking
 
 The Thycotic Local Security Agent collects logon and logoff events from Windows on a schedule configured via the User Logon Inventory policy. The Agent collects logon and logoff events and reports them as inventory data. The __Update Primary User for Collection__ task calculates the primary user and the primary user and associated inventory data can then be viewed in the Resource Explorer.

@@ -1,6 +1,6 @@
 [title]: # (Add Agent to Testing Group)
 [tags]: # (learning mode)
-[priority]: # (100)
+[priority]: # (7)
 # Adding macOS Agents to a Computer Testing Group
 
 The Policy Configuration examples in the following section will use a Learning Mode Policy that enables us to perform actions (i.e. run applications) on a test computer that Privilege Manager will then pick up. This makes targeting specific applications during policy creation easy.
@@ -20,6 +20,7 @@ To create a Monitoring (or Learning Mode Policy) on your Mac, begin by
    1. Add the macOS endpoints you want to be part of the computer group.
    1. Click __Save Changes__.
    1. Pin your computer group to the left navigation menu for quick access. Click the bookmark icon next to the computer group name.
+
 <!-- 1. Optionally, click on Agent Configuration and create an __Agent Configuration Policy__ for this computer group.
    1. Click __Create Agent Configuration Policy__.
    1. Enter a name and description.

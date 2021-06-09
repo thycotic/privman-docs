@@ -1,7 +1,7 @@
 [title]: # (ServiceNow Webhook)
 [tags]: # (integration)
 [priority]: # (4)
-# ServiceNow Webhook Setup
+# Setting up a ServiceNow Webhook Connection
 
 One you have your foreign system established in the Privilege Manager Console, you are ready to also enable Webhook configuration.
 

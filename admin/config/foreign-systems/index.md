@@ -27,9 +27,11 @@ In order to use Secret Server as the password vault please review [Setting up In
 
 ### Third-Party Foreign Systems Integration
 
-* [Set-up an SMTP Server Connection](third-party/set-up-smtp.md)
-* [Set-up a Cylance Connection](third-party/set-up-cylance.md)
-* [Set-up a ServiceNow Ticketing Connection](third-party/set-up-servicenow.md)
-* [Set-up VirusTotal](third-party/set-up-virustotal.md)
-* [Set-up an SCCM Connection](third-party/set-up-sccm.md)
-* [Set-up Syslog](third-party/set-up-syslog.md)
+* [Setting up an SMTP Server Connection](third-party/set-up-smtp.md)
+* [Setting up a Cylance Connection](third-party/set-up-cylance.md)
+* [Setting up a ServiceNow Ticketing Connection](third-party/set-up-servicenow.md)
+* [ServiceNow Application](third-party/set-up-servicenow-app.md)
+* [Setting up a ServiceNow Webhook Connection](third-party/set-up-servicenow-webhook.md)
+* [Setting up VirusTotal](third-party/set-up-virustotal.md)
+* [Setting up an SCCM Connection](third-party/set-up-sccm.md)
+* [Setting up Syslog](third-party/set-up-syslog.md)

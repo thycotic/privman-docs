@@ -4,7 +4,7 @@
 
 # ServiceNow Application
 
-With Privilege Manager v11.1 a Thycotic Privilege Manager ServiceNow application is available in the ServiceNow app store allowing approval workflow management.
+With Privilege Manager v11.1, a Thycotic Privilege Manager ServiceNow application is available in the ServiceNow app store allowing approval workflow management.
 
 ![alt](images/servicenow/app-nav.png "Application navigation menu")
 
@@ -41,6 +41,6 @@ Users verify the status and status code by clicking on individual requests recei
 
 ## Activity Setup
 
-Activity Details can be configured with various processes parameters, like max timeout values:
+Activity Details can be configured with various process parameters, like max timeout values:
 
 ![alt](images/servicenow/activity-setup.png "Activity parameters")

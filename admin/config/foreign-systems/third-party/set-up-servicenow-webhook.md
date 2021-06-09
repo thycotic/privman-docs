@@ -3,7 +3,7 @@
 [priority]: # (4)
 # Setting up a ServiceNow Webhook Connection
 
-One you have your foreign system established in the Privilege Manager Console, you are ready to also enable Webhook configuration.
+Once you have your foreign system established in the Privilege Manager Console, you are ready to also enable Webhook configuration.
 
 ## Configuration an API Credential
 

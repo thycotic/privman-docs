@@ -31,6 +31,8 @@ In order to use Secret Server as the password vault please review [Setting up In
 * [Setting up a Cylance Connection](third-party/set-up-cylance.md)
 * [Setting up a ServiceNow Ticketing Connection](third-party/set-up-servicenow.md)
 * [ServiceNow Application](third-party/set-up-servicenow-app.md)
+  * [ServiceNow Application](third-party/set-up-servicenow-app.md)
+  * [Setting up a ServiceNow Webhook](third-party/set-up-servicenow-webhook.md)
 * [Setting up a ServiceNow Webhook Connection](third-party/set-up-servicenow-webhook.md)
 * [Setting up VirusTotal](third-party/set-up-virustotal.md)
 * [Setting up an SCCM Connection](third-party/set-up-sccm.md)

@@ -3,7 +3,7 @@
 [priority]: # (11)
 # Using the Policy Wizard
 
-Privilege Manager 10.8 is introducing the Policy Wizard for an easy and guided creation of new policies.
+Privilege Manager v10.8 is introducing the Policy Wizard for an easy and guided creation of new policies.
 
 1. For any of your Computer Groups navigate to __Application Policies__.
 

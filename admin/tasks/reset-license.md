@@ -3,7 +3,7 @@
 [priority]: # (6002)
 # Reset Licensing
 
-With Privilege Manager 10.7 and up license registrations can be reset. The Reset Licensing task allows upgrading users to remove outdated licenses.
+With Privilege Manager v10.7 and up license registrations can be reset. The Reset Licensing task allows upgrading users to remove outdated licenses.
 
 After acknowledging the license reset, all licenses are removed from the Privilege Manager instance. When no licenses can be found, the no product licenses warning banner displays on the top of the console.
 

@@ -74,3 +74,22 @@ $hashFileContent = "{ ""HashBase64"": ""$($hashBase64)"", ""HashAlgorithm"": ""S
 
 Write-Host "Updated hash file ""$($hashFileName)"" for nuget package ""$($NuGetFileName)""."
 ```
+
+## Unix/Linux Signature Verification
+
+Customers can verify Signatures via detached signature verification, which requires three things:
+
+* __FILE__ - The original distributed file in which a signature file was derived
+* __SIGNATURE__ - The signature file derived from the distributed file (<FILE>)
+* __PUBKEY__ - The public key file (cert) counterpart to the private key that was used to sign.
+
+After issuing the following commands, a successful signature will result in __Verified OK__:
+
+```powershell
+$ openssl base64 -d -in <SIGNATURE> -out /tmp/sign.sha256
+$ openssl dgst -sha256 -verify <PUBKEY> -signature /tmp/sign.sha256 <FILE>
+
+Verified OK
+```
+
+>**Note**: OpenSSL v1.0.1 (or newer) is a required dependency PMAUL package signature verification.

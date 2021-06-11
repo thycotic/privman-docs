@@ -3,7 +3,7 @@
 [priority]: # (6001)
 # Tasks Launching Executables
 
-When a task is used to launch executables, but the task does not have an associated user context, the appropriate user token cannot be assigned. This applies to systems with 10.7 and above agents.
+When a task is used to launch executables, but the task does not have an associated user context, the appropriate user token cannot be assigned. This applies to systems with v10.7 and above agents.
 
 ## Example Scenario
 

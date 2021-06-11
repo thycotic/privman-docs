@@ -38,23 +38,22 @@ Below is the expected output of a successful installation
 ```
 Selecting previously unselected package pmagent.
 (Reading database ... 344578 files and directories currently installed.)
-Preparing to unpack pmagent_x86_64_v1.1.3.81_ubuntu18.deb ...
-Unpacking pmagent (1.1.3.81) ...
-Setting up pmagent (1.1.3.81) ...
+Preparing to unpack pmagent_x86_64_v1.2.0.186_ubuntu18.deb ...
+Unpacking pmagent (1.2.0.186) ...
+Setting up pmagent (1.2.0.186) ...
 Created symlink /etc/systemd/system/multi-user.target.wants/pmagent.service → /etc/systemd/system/pmagent.service.
 
 Please start the pmagent service by running:
     /bin/systemctl start pmagent.service
 
-This installation can be used as an agent for the Thycotic Privilege Manager
-and/or an agent for the Thycotic Identity Bridge.
+This installation can be used as an agent for the Thycotic Privilege Manager agent.
 
 If you are using this installation as a Thycotic Privilege Manager agent,
 You must now register this agent with the Thycotic Privilege Manager
 using the command:
     /opt/thycotic/sbin/pmagent --register <host:port> <install code>
 
-If you are using this installation as a Thycotic Identity Bridge agent,
+If you are using this installation as a Privilege Manager Unix/Linux agent,
 You need to join an Active Directory domain to start authenticating users
 using the command:
     /opt/thycotic/sbin/pmagent --join
@@ -72,7 +71,7 @@ Below is the expected output of a successful installation
 Reading package lists... Done
 Building dependency tree
 Reading state information... Done
-Note, selecting 'pmagent' instead of './pmagent_x86_64_v1.1.3.81_ubuntu18.deb'
+Note, selecting 'pmagent' instead of './pmagent_x86_64_v1.2.0.186_ubuntu18.deb'
 The following packages were automatically installed and are no longer required:
   efibootmgr libfwup1 libllvm9 linux-hwe-5.4-headers-5.4.0-42 linux-hwe-5.4-headers-5.4.0-47 linux-hwe-5.4-headers-5.4.0-48 linux-hwe-5.4-headers-5.4.0-51 linux-hwe-5.4-headers-5.4.0-52
   linux-hwe-5.4-headers-5.4.0-53 linux-hwe-5.4-headers-5.4.0-56 linux-hwe-5.4-headers-5.4.0-58 linux-hwe-5.4-headers-5.4.0-59 linux-hwe-5.4-headers-5.4.0-60 tcpd
@@ -82,26 +81,25 @@ The following NEW packages will be installed
 0 to upgrade, 1 to newly install, 0 to remove and 6 not to upgrade.
 Need to get 0 B/10.8 MB of archives.
 After this operation, 34.3 MB of additional disk space will be used.
-Get:1 /root/Thycotic/pmagent_x86_64_v1.1.3.81_ubuntu18.deb pmagent amd64 1.1.3.81 [10.8 MB]
+Get:1 /root/Thycotic/pmagent_x86_64_v1.2.0.186_ubuntu18.deb pmagent amd64 1.2.0.186 [10.8 MB]
 Selecting previously unselected package pmagent.
 (Reading database ... 344578 files and directories currently installed.)
-Preparing to unpack .../pmagent_x86_64_v1.1.3.81_ubuntu18.deb ...
-Unpacking pmagent (1.1.3.81) ...
-Setting up pmagent (1.1.3.81) ...
+Preparing to unpack .../pmagent_x86_64_v1.2.0.186_ubuntu18.deb ...
+Unpacking pmagent (1.2.0.186) ...
+Setting up pmagent (1.2.0.186) ...
 Created symlink /etc/systemd/system/multi-user.target.wants/pmagent.service → /etc/systemd/system/pmagent.service.
 
 Please start the pmagent service by running:
     /bin/systemctl start pmagent.service
 
-This installation can be used as an agent for the Thycotic Privilege Manager
-and/or an agent for the Thycotic Identity Bridge.
+This installation can be used as an agent for the Thycotic Privilege Manager agent.
 
 If you are using this installation as a Thycotic Privilege Manager agent,
 You must now register this agent with the Thycotic Privilege Manager
 using the command:
     /opt/thycotic/sbin/pmagent --register <host:port> <install code>
 
-If you are using this installation as a Thycotic Identity Bridge agent,
+If you are using this installation as a Privilege Manager Unix/Linux agent,
 You need to join an Active Directory domain to start authenticating users
 using the command:
     /opt/thycotic/sbin/pmagent --join

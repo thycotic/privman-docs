@@ -1,7 +1,7 @@
-[title]: # (Inventorying Application Bundles)
+[title]: # (Inventory of Application Bundles)
 [tags]: # (learning mode, macOS)
 [priority]: # (101)
-# Inventorying Application Bundles
+# Inventory of Application Bundles
 
 Privilege Manager allows the inventory of macOS application bundles. These are most likely applications already installed on a macOS system that can be found in the Applications folder.
 In order for Privilege Manager to inventory application bundles, the user needs to create a .zip file of the application bundles and move it outside of the Applications folder. Once the .zip is created and moved, it can be uploaded to Privilege Manager for inventory purposes.

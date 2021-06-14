@@ -5,6 +5,7 @@
 
 This section includes the most recent Privilege Manager Release Notes.
 
+* [11.1.0 Release Notes - On-prem/Cloud](11.1.0-combined.md)
 * [11.0.0 Release Notes - On-prem/Cloud](11.0.0-combined.md)
 * [10.8.2 Release Notes - On-prem/Cloud](10.8.2-combined.md)
 * [10.8.1 Release Notes - On-prem/Cloud](10.8.1-combined.md)

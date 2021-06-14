@@ -25,7 +25,7 @@ Configuration Feeds are extensions to Privilege Manager. They allow Thycotic to 
 | Local Security Solution |  Disclose Password HelpDesk Tab | Adds the helpdesk tab to the Security Manager console. |
 | Thycotic Management Server Core | Maintenance Resources | Contains maintenance gauges, tasks, etc. for optimal TMS performance. |
 | | [Privileged Behavior Analytics Integration](../config/foreign-systems/thycotic/set-up-pba.md) | Contains tasks for sending data to Privileged Behavior Analytics (PBA) - requires a SysLog Foreign System to be configured. |
-| | [Reset Agent Service Permissions](../../agents/win/pre-10.7.1-agent-hardening.md) | Contains a policy to restore the security descriptor on Thycotic Services for Privilege Manager versions prior to 10.7.1. |
+| | [Reset Agent Service Permissions](../../agents/win/pre-10.7.1-agent-hardening.md) | Contains a policy to restore the security descriptor on Thycotic Services for Privilege Manager versions prior to v10.7.1. |
 | | SQL CPU Usage Gauge | Contains a gauge and report to monitor SQL CPU usage. |
 
 ## Installation, Reinstallation, and Updates

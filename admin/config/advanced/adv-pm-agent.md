@@ -19,9 +19,9 @@ Enabling this setting, allows agents to communicate with the server even if ther
 
 By default this setting is enabled. The setting controls whether or not duplicate SIDs detected during agent registration are automatically merged.
 
-## Prevent legacy agent registration (10.4 and older)
+## Prevent legacy agent registration (v10.4 and older)
 
-Enabling this setting prevents older agents (prior to 10.5) from registering, allowing only agents with valid agent Install Codes. Only enable this option if you are certain your managed computers have all been upgraded to 10.5 or newer agents.
+Enabling this setting prevents older agents (prior to v10.5) from registering, allowing only agents with valid agent Install Codes. Only enable this option if you are certain your managed computers have all been upgraded to v10.5 or newer agents.
 
 ## Validate agent event signatures
 

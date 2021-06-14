@@ -16,7 +16,7 @@ Other locations Thycotic agent will modify system files: `/etc`, `/etc/pam.d`, `
 
 ## Disable Security-Enhanced Linux (SELinux)
 
-Currently for the Thycotic Identity Bridge agent to correctly authenticate against Active Directory, Thycotic requires that the SELinux functionality of the host machine be disabled.
+Currently for the Privilege Manager Unix/Linux agent to correctly authenticate against Active Directory, Thycotic requires that the SELinux functionality of the host machine be disabled.
 
 The agent installer will detect if SELinux is set to Enforcing or Permissive and provide the following message at the end of the installation.
 
@@ -53,15 +53,14 @@ Created symlink from /etc/systemd/system/multi-user.target.wants/pmagent.service
 Please start the pmagent service by running:
     /bin/systemctl start pmagent.service
 
-This installation can be used as an agent for the Thycotic Privilege Manager
-and/or an agent for the Thycotic Identity Bridge.
+This installation can be used as an agent for the Thycotic Privilege Manager agent.
 
 If you are using this installation as a Thycotic Privilege Manager agent,
 You must now register this agent with the Thycotic Privilege Manager
 using the command:
     /opt/thycotic/sbin/pmagent --register <host:port> <install code>
 
-If you are using this installation as a Thycotic Identity Bridge agent,
+If you are using this installation as a Privilege Manager Unix/Linux agent,
 You need to join an Active Directory domain to start authenticating users
 using the command:
     /opt/thycotic/sbin/pmagent --join
@@ -79,11 +78,11 @@ Below is the expected output of a successful installation
 
 ```
 Loaded plugins: fastestmirror, langpacks
-Examining ./pmagent_x86_64_v1.1.3.81_centos7.rpm: pmagent-1.1.3.81-1.x86_64
-Marking ./pmagent_x86_64_v1.1.3.81_centos7.rpm to be installed
+Examining ./pmagent_x86_64_v1.2.0.186_centos7.rpm: pmagent-1.2.0.186-1.x86_64
+Marking ./pmagent_x86_64_v1.2.0.186_centos7.rpm to be installed
 Resolving Dependencies
 --> Running transaction check
----> Package pmagent.x86_64 0:1.1.3.81-1 will be installed
+---> Package pmagent.x86_64 0:1.2.0.186-1 will be installed
 --> Finished Dependency Resolution
 base/7/x86_64                           | 3.6 kB  00:00:00
 epel/x86_64/metalink                    |  19 kB  00:00:00
@@ -100,7 +99,7 @@ Dependencies Resolved
  Package            Arch          Version         Repository                            Size
 ==============================================================================================
 Installing:
- pmagent            x86_64        1.1.3.81-1        /pmagent_x86_64_v1.1.3.81_centos7       22 M
+ pmagent            x86_64        1.2.0.186-1        /pmagent_x86_64_v1.2.0.186_centos7       22 M
 
 Transaction Summary
 ==============================================================================================
@@ -115,29 +114,28 @@ Running transaction test
 Transaction test succeeded
 Running transaction
 Warning: RPMDB altered outside of yum.
-  Installing : pmagent-1.1.3.81-1.x86_64                                                 1/1
+  Installing : pmagent-1.2.0.186-1.x86_64                                                 1/1
 Created symlink from /etc/systemd/system/multi-user.target.wants/pmagent.service to /etc/systemd/system/pmagent.service.
 
 Please start the pmagent service by running:
     /bin/systemctl start pmagent.service
 
-This installation can be used as an agent for the Thycotic Privilege Manager
-and/or an agent for the Thycotic Identity Bridge.
+This installation can be used as an agent for the Thycotic Privilege Manager agent.
 
 If you are using this installation as a Thycotic Privilege Manager agent,
 You must now register this agent with the Thycotic Privilege Manager
 using the command:
     /opt/thycotic/sbin/pmagent --register <host:port> <install code>
 
-If you are using this installation as a Thycotic Identity Bridge agent,
+If you are using this installation as a Privilege Manager Unix/Linux agent,
 You need to join an Active Directory domain to start authenticating users
 using the command:
     /opt/thycotic/sbin/pmagent --join
 
-  Verifying  : pmagent-1.1.3.81-1.x86_64                                               1/1
+  Verifying  : pmagent-1.2.0.186-1.x86_64                                               1/1
 
 Installed:
-  pmagent.x86_64 0:1.1.3.81-1
+  pmagent.x86_64 0:1.2.0.186-1
 
 Complete!
 ```

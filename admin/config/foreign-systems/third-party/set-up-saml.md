@@ -61,10 +61,10 @@ Start with the certificate data.
 
 1. Navigate to __Admin | Configuration__ and select __Foreign Systems__.
 1. Click __SAML Identity Providers__.
-1. Click __Create__. 
+1. Click __Create__.
 
    ![alt](images/saml/92798b0bf398054f1043b3d8a1b49a66.png "New modal")
-1. Enter a name for the Foreign System. 
+1. Enter a name for the Foreign System.
 1. For __Identity Provider Entity Id__, enter the issuer name from the setup instructions. For example:
 
    ![alt](images/saml/ade69534380612b4a7eb793deba759db.png "Identity Provider Issuer information")

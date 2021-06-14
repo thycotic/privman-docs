@@ -24,7 +24,7 @@ The following general task topics are available:
 * [Reset Licensing](reset-license.md)
 * [Tasks Launching Executables without User Context](launching-exe.md)
 
->**Note**: Upgrading to Privilege Manager 10.8 causes a task to run to merge computer groups and remove unused system computer groups. This primarily affects the Application Control policies that are using resource targets/computer groups named __All Windows Computers with Application Control Agent Installed__.  With 10.8, those policies will use the __Windows Computers__ computer group and macOS will use __MacOS Computers__.
+>**Note**: Upgrading to Privilege Manager v10.8 causes a task to run to merge computer groups and remove unused system computer groups. This primarily affects the Application Control policies that are using resource targets/computer groups named __All Windows Computers with Application Control Agent Installed__.  With v10.8, those policies will use the __Windows Computers__ computer group and macOS will use __MacOS Computers__.
 >
 >If you want to prevent this automatic merge, modify the XML of this item:
 >

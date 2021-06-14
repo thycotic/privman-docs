@@ -7,7 +7,7 @@ These are tasks that pertain to either core functions or to components and subco
 
 | Component | Task | Description |
 | ----- | ----- | ----- |
-| Core, no folder at root level | Client Items Update __OBSOLETE WITH v 10.7 and higher__ | Updates client items required by agents. |
+| Core, no folder at root level | Client Items Update __OBSOLETE WITH v10.7 and higher__ | Updates client items required by agents. |
 | | Collection and Resource Targeting Update | Updates collections and resource targets. |
 | | Collection Update | Update collections. |
 | | Import Local Group Policy Definitions | Loads Group Policy Definitions from the local machine. |

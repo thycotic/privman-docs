@@ -3,7 +3,7 @@
 [priority]: # (21)
 # Pre-10.7.1 Agent Hardening
 
-Users on Privilege Manager 10.7.1 or up should use the new policy named __Restrict Account Permissions on Agent Services (Windows)__. Refer to [Agent Hardening 10.7.1 and up](agent-hardening.md) for details on the policy used starting with Privilege Manager 10.7.1.
+Users on Privilege Manager v10.7.1 or up should use the new policy named __Restrict Account Permissions on Agent Services (Windows)__. Refer to [Agent Hardening 10.7.1 and up](agent-hardening.md) for details on the policy used starting with Privilege Manager v10.7.1.
 
 ## Editing the Agent Service Start / Stop Control (Windows) Policy
 
@@ -54,4 +54,3 @@ Following the Configuration Feed installation,
    1. On the Targets tab specify the computers that need to be targeted by this policy.
    1. On the Triggers tab specify when to run and/or what events will trigger the policy to run.
 1. Click __Save__.
-

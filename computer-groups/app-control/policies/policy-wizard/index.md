@@ -3,7 +3,7 @@
 [priority]: # (11)
 # Using the Policy Wizard
 
-Privilege Manager 10.8 is introducing the Policy Wizard for an easy and guided creation of new policies.
+Privilege Manager v10.8 is introducing the Policy Wizard for an easy and guided creation of new policies.
 
 1. For any of your Computer Groups navigate to __Application Policies__.
 
@@ -18,14 +18,16 @@ Privilege Manager 10.8 is introducing the Policy Wizard for an easy and guided c
 
    * [Monitoring Policy Diagram](monitoring.md)
    * macOS:
-     * [Controlling Allow Diagram](controlling-allow-macOS.md)
-     * [Controlling Block Diagram](controlling-block-macOS.md)
-     * [Controlling Elevate Diagram](controlling-elevate-macOS.md)
+     * [Controlling Allow Diagram](../../../macOS/wizard/controlling-allow-macOS.md)
+     * [Controlling Block Diagram](../../../macOS/wizard/controlling-block-macOS.md)
+     * [Controlling Elevate Diagram](../../../macOS/wizard/controlling-elevate-macOS.md)
+   * Unix/Linux
+     * [Wizard Flow Diagram for Unix/Linux Policies](../../../nix/examples/index.md)
    * Windows
-     * [Controlling Allow Diagram](controlling-allow-win.md)
-     * [Controlling Block Diagram](controlling-block-win.md)
-     * [Controlling Elevate Diagram](controlling-elevate-win.md)
-     * [Controlling Restrict Diagram](controlling-restrict-win.md)
+     * [Controlling Allow Diagram](../../../windows/wizard/controlling-allow-win.md)
+     * [Controlling Block Diagram](../../../windows/wizard/controlling-block-win.md)
+     * [Controlling Elevate Diagram](../../../windows/wizard/controlling-elevate-win.md)
+     * [Controlling Restrict Diagram](../../../windows/wizard/controlling-restrict-win.md)
 1. After assigning a name, description and verifying the priority number, click __Create Policy__.
 
 While in the wizard you can navigate back to previous pages via the __Previous Step__ link to select another path. However, any __Previous Step__ navigation clears selected options on accessed wizard pages.

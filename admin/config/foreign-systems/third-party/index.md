@@ -7,6 +7,8 @@
 * [Setting up a Jamf Connection](set-up-jamf.md)
 * [Setting up an SCCM Connection](set-up-sccm.md)
 * [Setting up a ServiceNow Ticketing Connection](set-up-servicenow.md)
+  * [ServiceNow Application](set-up-servicenow-app.md)
+  * [Setting up a ServiceNow Webhook](set-up-servicenow-webhook.md)
 * [Setting up the SMP Integration](set-up-smp.md)
 * [Setting up an SMTP Server Connection](set-up-smtp.md)
 * [Setting up a Syslog Connection](set-up-syslog.md)

@@ -12,9 +12,9 @@ This is the navigation entry point into the Windows Computer Group. The sub node
 Refer to the [Policy Wizard](../app-control/policies/policy-wizard/index.md) section for details on decision points for:
 
 * [Creating a Monitoring Policy](../app-control/policies/policy-wizard/monitoring.md)
-* [Creating a Controlling Elevation Policy for macOS](../app-control/policies/policy-wizard/controlling-elevate-win.md)
-* [Creating a Controlling Allow Policy for macOS](../app-control/policies/policy-wizard/controlling-allow-win.md)
-* [Creating a Controlling Block Policy for macOS](../app-control/policies/policy-wizard/controlling-block-win.md)
-* [Creating a Controlling Restrict Policy for Windows](../app-control/policies/policy-wizard/controlling-restrict-win.md)
+* [Creating a Controlling Elevation Policy for Windows](wizard/controlling-elevate-win.md)
+* [Creating a Controlling Allow Policy for Windows](wizard/controlling-allow-win.md)
+* [Creating a Controlling Block Policy for Windows](wizard/controlling-block-win.md)
+* [Creating a Controlling Restrict Policy for Windows](wizard/controlling-restrict-win.md)
 
 For Windows Agent Configuration information refer to [Agent Configuration](../../agents/win/cfg/index.md).

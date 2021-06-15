@@ -18,11 +18,11 @@ Refer to the [Actions](../../../admin/actions/default-actions.md) topic.
 
 ## Application Approval Request Message Action
 
-Workflow __prior to__ Privilege Manager __10.8__:
+Workflow __prior to__ Privilege Manager v__10.8__:
 
 Action waits for the user to either click __Cancel__ or enter an __Approval Request Message__ and click __Request Approval__.
 
-Workflow __starting with__ Privilege Manager __10.8__:
+Workflow __starting with__ Privilege Manager v__10.8__:
 
 Privilege Manager immediately denies the execution with macOS displaying a dialog indicating the application can't be opened. If the user has granted Privilege Manager.app the necessary _SendEvents_ right, Privilege Manager closes the dialog.
 
@@ -101,7 +101,7 @@ Afterwards, macOS prompts the user with an Accessibility Access dialog:
 
   ![request big sur](images/pppc/bigsur-access.png "Big Sur access request")
 
-* If the user clicks __Deny__, Privilege Manager.app will not be granted access to use accessibility features to automatically close the dialog that states the application couldn’t be launched.
+* If the user clicks __Deny__, Privilege Manager.app will not be granted access to use accessibility features to automatically close the dialog that states the application couldn't be launched.
 
 * If the user clicks __Open System Preferences__, the Security & Privacy preference pane opens to the Privacy tab:  
 

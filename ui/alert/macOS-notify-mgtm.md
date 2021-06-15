@@ -4,7 +4,7 @@
 
 # Best Practices: Manage Privilege Manager Notifications on macOS
 
-As of macOS Catalina, Apple provided the ability to [manage notification settings](https://developer.apple.com/documentation/devicemanagement/notifications/notificationsettingsitem) in macOS by using Configuration Profiles. The benefit of managing this setting is that you as the administrator have complete control over the desired state of that configuration on the endpoint. You want the user to be able to see the notifications that Privilege Manager sends out. If the setting is not managed the user may miss something important, if they previously clicked __Don’t Allow__.
+As of macOS Catalina, Apple provided the ability to [manage notification settings](https://developer.apple.com/documentation/devicemanagement/notifications/notificationsettingsitem) in macOS by using Configuration Profiles. The benefit of managing this setting is that you as the administrator have complete control over the desired state of that configuration on the endpoint. You want the user to be able to see the notifications that Privilege Manager sends out. If the setting is not managed the user may miss something important, if they previously clicked __Don't Allow__.
 
 ![manage notifications](images/macOS-notifications.png "Notification prompt to Allow/Don't Allow")
 

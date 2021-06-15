@@ -5,7 +5,7 @@
 
 Privilege Manger integrates with the Symantec Management Platform (SMP) to allow the
 
-* [import of computers](#import-computers) for use in computer groups and identifying systems that exist on the network, but don’t have an endpoint agent installed yet.
+* [import of computers](#import-computers) for use in computer groups and identifying systems that exist on the network, but don't have an endpoint agent installed yet.
 * [import of existing Resource Collections](#create-a-collection) from SMP and use them for Privilege Manager policy targets.
 * [inventory of SMP Software Packages](#inventory-software-packages) to use the package contents in Privilege Manager Application Control policies.
 

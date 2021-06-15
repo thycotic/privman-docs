@@ -40,6 +40,6 @@ You may choose to not show the Getting Started Banner on subsequent logins.
 
 ## Home
 
-The Home screen of Privilege Manager can be found by clicking Home in the top banner of any page inside of Privilege Manager. From this dashboard you can jump into either Application Control or Local Security, depending on what you want to do. You also will be given different snapshots of various important information about your environment. Once you have agents installed and policies setup, you’ll have a lot going on from the Home Dashboard:
+The Home screen of Privilege Manager can be found by clicking Home in the top banner of any page inside of Privilege Manager. From this dashboard you can jump into either Application Control or Local Security, depending on what you want to do. You also will be given different snapshots of various important information about your environment. Once you have agents installed and policies setup, you'll have a lot going on from the Home Dashboard:
 
 ![Home screen](images/home-new-install.png "Home page new installations")

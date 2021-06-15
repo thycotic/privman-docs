@@ -89,12 +89,18 @@ You will need the Application Id and the Client Secret you copied to the clipboa
 1. Click __Save Changes__.
 1. Continue to the Azure AD Authentication Provider section and click __Edit__.
 1. Complete the three steps:
-   1. Import Users & Groups from Azure AD. This process may take a few minutes to complete, depending on the size of the directory. Privilege Manager offers two tasks for this import:
+   1. Import Users & Groups from Azure AD. This process may take a few minutes to complete, depending on the size of the directory. Privilege Manager offers various different tasks for this import:
 
-      * __Default Import AzureAD Users/Groups__, imports ALL users and groups.
+      * __Import Azure AD Resources__, imports ALL users and groups.
+      * __Import Directory Computers__.
+      * __Import Directory Sites__.
+      * __Import Directory Users and Groups__.
+      * __Import Directory OU__.
       * __Import Specific Azure AD Users and Groups__, imports only the specified users and/or groups.
 
       Refer to setup and scheduling of these tasks under the "Import Users and Groups via Privilege Manager Task" and "Create Scheduled Task for Users/Groups Synchronization" topics below.
+
+      Also refer to the [Server Tasks | Foreign Systems | Directory Services](../../../tasks/server/fs-ds.md) for details on the Directory Services tasks.
    1. Assign Azure user(s) to the Privilege Manager Administrators Role. In order for users to authenticate via Azure AD, they will need to be added as members of various roles. There must be at least one member from this Azure Directory allowed to login via Azure AD before you can continue. We recommend adding yourself to ensure that you can login after the Authentication Provider is configured.
    1. Set as Authentication Provider.
 1. Click __Save Changes__.

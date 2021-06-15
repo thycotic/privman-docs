@@ -3,7 +3,7 @@
 [priority]: # (5)
 # Quarantine Specified Malware
 
-For known cases of malware or ransomware, you can use Privilege Manager to prevent specified applications from running and place them in a quarantine. For this example we’ll target the generic executable “malware.exe,” but you can do this with any file name.
+For known cases of malware or ransomware, you can use Privilege Manager to prevent specified applications from running and place them in a quarantine. For this example we'll target the generic executable “malware.exe,” but you can do this with any file name.
 
 1. Navigate to __Admin | Filters__ and click __Create Filter__.
 1. From the platform drop-down select the OS to target, for this example __Windows__.

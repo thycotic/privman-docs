@@ -101,11 +101,11 @@ Recycle your TMS, TMSAgent, and TMSWorker app pools in IIS.
 In IIS on your Privilege Manager web server, navigate to the site you are using to run Privilege Manager
 Right-click on this site, click Bindings. Choose the https port you need to update and select Edit. View the SSL Certificate this is attached to.
 
-Next, choose the Details tab and scroll down to find the certificate's Thumbprint. copy the list of numbers and letters that make up your certificate's thumbprint (an sha1 hash)
+Next, choose the Details tab and scroll down to find the certificate's Thumbprint. Copy the list of numbers and letters that make up your certificate's thumbprint (a SHA256 hash).
 
 Return to your certificates in MMC (step 2 above). Right-click Certificates (Local Computer) and select Find Certificates...
 
-In the Contains box, paste your Thumbprint sha1 hash and select sha1 from the Look in Field drop down. Click Find Now. This will return the certificate name that your Privilege Manager Binding is currently linked to.
+In the Contains box, paste your Thumbprint SHA256 hash and select SHA256 from the Look in Field drop down. Click Find Now. This will return the certificate name that your Privilege Manager Binding is currently linked to.
 
 ## Tasks Stuck at Ready 
 
@@ -114,7 +114,7 @@ Error: Are your tasks sitting at "Ready" for extended periods of time?
 To Resolve:
  
 1. Navigate to Admin | Configuration | Advanced and make sure the URL for the "Monitor Worker Role" are accurate for the bindings (Check the hostname in the Base local address and the Port).
-1. Open IIS Manager, check to make sure the app pools have Read Access to the certificate that you’ve assigned to that binding via MMC Certificates plug-in. More instructions on how to do this in our Granting Permissions on New SSL Certificate for Privilege Manager KB, posted here.
+1. Open IIS Manager, check to make sure the app pools have Read Access to the certificate that you've assigned to that binding via MMC Certificates plug-in. More instructions on how to do this in our Granting Permissions on New SSL Certificate for Privilege Manager KB, posted here.
 1. Manually recycle the TMS and TMS Worker app pools.
 
 ## CPU Issue

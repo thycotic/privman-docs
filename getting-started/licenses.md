@@ -41,8 +41,8 @@ To install licenses without Secret Server:
 
 To install licenses with Secret Server on the same server as Privilege Manager, you will need to install licenses through the Secret Server UI and then import the new licenses into Privilege Manager.
 
-1. To access Secret Server’s licensing page, either click the Secret Server link listed in the banner at the top of the Privilege Manager Licenses page or in Secret Server navigate to __Admin | Setup – Licenses__.
-1. On Secret Server’s License page, select Install New License.
+1. To access Secret Server's licensing page, either click the Secret Server link listed in the banner at the top of the Privilege Manager Licenses page or in Secret Server navigate to __Admin | Setup – Licenses__.
+1. On Secret Server's License page, select Install New License.
 1. Enter your License Names and Keys individually or through the Bulk Entry Mode.
 1. Click Save or Add Multiple Licenses to save the License Keys. Installing these licenses in Secret Server will automatically import the licenses into Privilege Manager.  
 1. Navigate back to the Privilege Manager License page to verify under:
@@ -75,8 +75,8 @@ The Server will stop accepting data sent from agents that are in violation of th
 
 * Will not get added to the resource targets and will not collect application or user inventories
 * No password changes will occur, etc.
-* Policies will run on the endpoint, but the server will completely discard the data, and it won’t be stored.
-* Tasks will not run – all automation will stop and event Discovery will not inventory users or applications, new endpoints won’t be discoverable.
+* Policies will run on the endpoint, but the server will completely discard the data, and it won't be stored.
+* Tasks will not run – all automation will stop and event Discovery will not inventory users or applications, new endpoints won't be discoverable.
 
 An exceeded license count is indicated with a warning banner.
 

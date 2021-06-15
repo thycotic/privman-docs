@@ -1,6 +1,6 @@
 [title]: # (Adjust Environment Variable)
 [tags]: # (actions,*nix)
-[priority]: # (2)
+[priority]: # (3)
 # Adjust Environment Variable Action
 
 The Adjust Environment Variable action is used to customize environment variables on an endpoint.

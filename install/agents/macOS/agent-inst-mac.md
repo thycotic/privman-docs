@@ -48,7 +48,7 @@ If you attempt to install the __KEXT__ agent on an unsupported OS version, the f
 
 ### Using an Unattended Install Method
 
-After downloading the [latest bundled macOS Agent](../../sw-downloads.md#macos_endpoints) package onto one of your macOS endpoints, extract the ThycoticManagementAgent-n-n-nnnn.pkg installer from inside the DMG and upload it to your MDM’s distribution point.
+After downloading the [latest bundled macOS Agent](../../sw-downloads.md#macos_endpoints) package onto one of your macOS endpoints, extract the ThycoticManagementAgent-n-n-nnnn.pkg installer from inside the DMG and upload it to your MDM's distribution point.
 
 Create a policy to include the newly uploaded pkg and include the below script to run before the pkg installation replacing the tmsBaseUrl and installCode as required. 
 

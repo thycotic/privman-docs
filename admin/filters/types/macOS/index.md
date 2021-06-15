@@ -41,7 +41,7 @@ The following filters are available based on type from a quick select drop-down 
 ### File Filter Types
 
 * [Application Bundle Filter](app-bundle.md)
-* [File Collection from List of SHA1 Hashes Filter](../inventory/file-collect-list-sha1-hash.md)
+* [File Hash Filter](../inventory/file-hash.md)
 * [File Existence Filter](../file/file-existence.md)
 * [File Owner Filter](../file/file-owner.md)
 * [File Scan Results Filter (Computer)](../inventory/file-scan-results-comp.md)

@@ -1,6 +1,6 @@
 [title]: # (Migrate LSS Policies)
 [tags]: # (silverlight end-of-life)
-[priority]: # (3010)
+[priority]: # (10)
 # Migrate Local Security Policies
 
 The migration path to the latest Local Security implementation provides an analysis report of issues like missing account credentials, or accounts that are not unique across targets, which can then be remediated before the migration.
@@ -12,7 +12,7 @@ Before any migration is performed, make sure to backup your Privilege Manager da
 
 ## Migration Steps
 
-Starting with Privilege Manager 10.7 the LLS Migration Readiness Report is available. The report is generated after an upgrade to 10.7 or higher from any previous Privilege Manager version.
+Starting with Privilege Manager v10.7 the LLS Migration Readiness Report is available. The report is generated after an upgrade to v10.7 or higher from any previous Privilege Manager version.
 
 To access the LSS Migration Readiness Report, follow these steps:
 

@@ -16,9 +16,9 @@ Thycotic One is the default identity provider in Privilege Manager Cloud (PMC). 
 
 When Thycotic One integration is turned on, all Privilege Manager users can log in either with their local passwords or with Thycotic One. All Privilege Manager permissions and configuration will apply to that user regardless of how they logged in.
 
-However, the local username and password and the Thycotic One username and password are not necessarily the same thing. In Thycotic One, you’ll log in with your email address rather than your username, and the password you use may very well be different from the Privilege Manager password.
+However, the local username and password and the Thycotic One username and password are not necessarily the same thing. In Thycotic One, you'll log in with your email address rather than your username, and the password you use may very well be different from the Privilege Manager password.
 
-You’ll see this on the login page:
+You'll see this on the login page:
 
 ![login](images/login.png "Privilege Manager Login prompt")
 

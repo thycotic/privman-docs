@@ -19,4 +19,4 @@ Use the details view to either create a filter or view the file. If you choose t
 
 If you choose __View File__, you can drill into the event details further. Refer to [Events Drilldown](drilldown.md).
 
-If you enabled the __Show Acknowledge Events__ switch, the Acknowledge Events button is visible. Refer to [Privilege Manger Solution](../admin/config/advanced/pm-solution.md) for details.
+If you enabled the __Show Acknowledge Events__ switch, the Acknowledge Events button is visible. Refer to [Privilege Manger Solution](../admin/config/advanced/adv-pm-general.md) for details.

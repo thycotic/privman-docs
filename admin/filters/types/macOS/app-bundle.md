@@ -7,8 +7,8 @@ This type of filter identifies application bundles for macOS systems.
 
    ![create](images/app-bundle.png "macOS application bundle filter")
 
-Prior to Privilege Manager 10.7.1, the value of the Bundle Name field required the inclusion of the .app extension (e.g. Console.app). The Bundle Name field should have an entry like __console.app__ or __photos.app__ to correctly apply the filter. If it is not present, the filter will fail to properly match.
-With Privilege Manager 10.7.1, the presence of the .app extension is properly calculated during policy processing.
+Prior to Privilege Manager v10.7.1, the value of the Bundle Name field required the inclusion of the .app extension (e.g. Console.app). The Bundle Name field should have an entry like __console.app__ or __photos.app__ to correctly apply the filter. If it is not present, the filter will fail to properly match.
+With Privilege Manager v10.7.1, the presence of the .app extension is properly calculated during policy processing.
 
 ## Pre-10.7.1 Example
 

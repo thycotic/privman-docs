@@ -6,8 +6,6 @@
 
 Privilege Manager software updates are made available via NuGet server packages. The upgrade process can be performed via __Add/Upgrade Features__ link in the Privilege Manager Setup page.
 
->**Note**: Thycotic recommends to create a back-up copy of the Privilege Manager web application folder after installation or upgrades.
-
 ## What's New in Privilege Manager 10.8
 
 The 10.8 release of Privilege Manager introduces a new user interface, providing a redesigned user experience, simplifying many major areas and typical workflow processes when setting up application policies or local security.
@@ -30,7 +28,7 @@ Once Privilege Manager is installed on a server, updates can be performed by poi
 
 ## Updating Privilege Manager
 
->**Note**: Always make a backup of the Privilege Manager Database in SQL and the TMS web files before performing upgrades in a production environment. The default location of the web files on the Privilege Manager Server `C:\inetpub\wwwroot\TMS`.
+>**Note**: Always make a backup of the Privilege Manager Database in SQL and the TMS web files before performing upgrades in a production environment. The default location of the web files on the Privilege Manager Server is `C:\inetpub\wwwroot\TMS`.
 >
 >On systems running Privilege Manager 10.5.1 or older with multiple Privilege Manager Server nodes, __stop__ the TMS application pools on all secondary nodes before starting the upgrade. Restart the applications pools once the upgrade is completed. Newer Privilege Manager versions automatically initiate setup tasks when the primary node is being updated.
 
@@ -71,6 +69,8 @@ Privilege Manager provides an __Update Available__ notification banner when upda
 The installation/upgrade process starts and you can view the log while products are being installed.
 
 ### Secondary Nodes
+
+>**Note**: This is only required on Privilege Manager servers being upgraded from version prior to __10.5.1__.
 
 1. On the upgraded primary node navigate to TMS web files. The default location is: `C:\inetpub\wwwroot\TMS`.
 1. Copy the TMS folder, except for the ConnectionStrings.config file.

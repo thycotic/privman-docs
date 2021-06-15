@@ -5,15 +5,60 @@
 
 This topic provides a chronological list of documentation changes. Minor content alterations are not tracked.
 
+## June 2021
+
+* Added topics:
+  * [11.1.0 Release Notes](11.1.0-combined.md)
+  * [SAML Support](../admin/config/foreign-systems/third-party/set-up-saml.md)
+  * [Security Algorithms](../how-to/best-practices/algorithms.md)
+  * [ServiceNow Application](../admin/config/foreign-systems/third-party/set-up-servicenow-app.md)
+  * [Privilege Manager Foreign Systems setup that includes webhooks configuration](../admin/config/foreign-systems/third-party/set-up-servicenow-webhook.md)
+  * [Computer Name Pattern Collections](../admin/resources/cust-data-src.md)
+  * [The About Page](../ui/navigation/about.md)
+  * [Setting up a ServiceNow Webhook Foreign Systems](../admin/config/foreign-systems/third-party/set-up-servicenow-webhook.md)
+  * [macOS: Inventory of Application Bundles](../computer-groups/macOS/examples/inventory-app.md)
+  * [macOS: Run as User action](../admin/actions/macOS/run-as-user.md)
+  * [macOS: CLI Approval Message action](../admin/actions/macOS/cli-appr-msg.md)
+  * [macOS: CLI Justification Message action](../admin/actions/macOS/cli-just-msg.md)
+  * [Unix/Linux: Run as User action](../admin/actions/nix/run-as-user.md)
+  * [Unix/Linux: CLI Approval Message action](../admin/actions/nix/cli-approval-msg.md)
+  * [Unix/Linux: CLI Justification Message action](../admin/actions/nix/cli-just-msg.md)
+  * [Directory Services](../admin/tasks/server/fs-ds.md)
+  * [Directory Services Maintenance](../admin/tasks/server/fs-ds-maint.md)
+  * [Standardized Privilege Manager logout process](../getting-started/logout-scenarios.md)
+  * [macOS Homebrew Installer Support](../computer-groups/macOS/examples/homebrew.md)
+  * [Configuration Profiles](../platforms/macOS/bp/cfg-profiles/index.md)
+  * [File Hash Filter](../admin/filters/types/inventory/file-hash.md), this file replaces the obsolete [File Collection from List os SHA1 HAshes Filter](https://docs.thycotic.com/privman/11.0.0/admin/filters/types/inventory/file-collect-list-sha1-hash.md)
+  * [New API to run an existing report](https://docs.thycotic.com/privman-api/11.1.0/reports/index.md) and return the results.
+  * [New API to run a task](https://docs.thycotic.com/privman-api/11.1.0/tasks/index.md) 
+* Added subtopics:
+  * [Allow Listing Policies without Actions](../computer-groups/app-control/examples/safe/index.md#allow_listing_policies_without_actions)
+* Changes to topics:
+  * [Advanced Tab](../admin/config/advanced/index.md) and subtopics.
+  * [Troubleshooting AD Sync](../how-to/best-practices/ad-import/ts-ad-sync.md#duplicates)
+  * [User Context Filters](../admin/filters/types/application/user-context.md)
+  * [Console Audit Logs](../admin/config/foreign-systems/third-party/set-up-syslog.md#template_options)
+  * [View Password role](../admin/roles/index.md#privilege_manager_view_password_role)
+  * [Scheduled Tasks](../admin/tasks/scheduled/index.md)
+  * [Windows Policy Wizard](../computer-groups/windows/wizard/index.md)
+  * [Unix/Linux Specific Policies](../computer-groups/nix/examples/index.md)
+  * [macOS Policy Wizard](../computer-groups/macOS/wizard/index.md)
+  * [Actions Supported by macOS Agents (Kernel vs System Extensions)](../computer-groups/macOS/examples#actions_supported_by_macos_agents__kernel_vs_system_extensions_)
+  * [Computer Groups](../computer-groups/index.md)
+  * Renamed Application Control to [Application Policies](../computer-groups/app-control/index.md) - documentation only issue.
+  * Renamed Group Policies to [Group Management](../computer-groups/local-security/g-mgmt/index.md)
+  * Renamed User Policies to [User Management](../computer-groups/local-security/u-mgmt/index.md)
+  * [Allow Listing Policies without Actions](../computer-groups/app-control/examples/safe/index.md#allow_listing_policies_without_actions)
+  * [Just-in-Time Group Membership Action](../admin/actions/macOS/jit-group-member.md)
+
 ## April 2021
 
-* Updated Privilege Manager macOS Agent download version in support of a hotfix.
+* Updated Privilege Manager [macOS Agent download version](../install/sw-downloads.md#macos_endpoints) in support of a hotfix.
 * Added a macOS [Block Agent Removal Policy](../computer-groups/macOS/examples/block-agent-removal.md) in support of [agent hardening](../agents/macOS/agent-hardening.md).
-* New [macOS agent version](../install/sw-downloads.md).
 
 ## March 2021
 
-* Added [Apple® Silicon](../install/agents/macOS/index.md) support.
+* Added [Apple Silicon](../install/agents/macOS/index.md) support.
 * Updates:
   * Added a resolved bug to the 10.8.2 release notes.
   * Fixed typos and broken links from previous release notes reference links to current topic locations.

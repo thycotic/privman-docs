@@ -3,7 +3,7 @@
 [priority]: # (2)
 # MS Security Catalog
 
-This policy uses a built-in filter to allow list Microsoft’s Signed Security Catalog. This filter is often used to dynamically allow to update items from Microsoft. Allow listing these executables clears them so they are not effected by any other policy, (i.e. they are allowed to run).
+This policy uses a built-in filter to allow list Microsoft's Signed Security Catalog. This filter is often used to dynamically allow to update items from Microsoft. Allow listing these executables clears them so they are not effected by any other policy, (i.e. they are allowed to run).
 
 1. Using the Policy Wizard, create a controlling policy that allows application execution on endpoints.
 1. Select what process types you want the policy to allow, for this example it's __Specific Applications__.

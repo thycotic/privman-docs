@@ -3,7 +3,7 @@
 [priority]: # (2)
 # Git App with File Upload
 
-In evaluation and production installations, proactive introduction of executables into Privilege Manager can be accomplished with a feature called File Upload.  File Upload allows you to quickly introduce a file, then create a Filter and/or a Policy to govern the application. As example, here’s how to introduce the Git Installer into Privilege Manager and use the file information to allow list Git applications.
+In evaluation and production installations, proactive introduction of executables into Privilege Manager can be accomplished with a feature called File Upload.  File Upload allows you to quickly introduce a file, then create a Filter and/or a Policy to govern the application. As example, here's how to introduce the Git Installer into Privilege Manager and use the file information to allow list Git applications.
 
 For this use-case you will need to have access to downloaded Git installer files.
 

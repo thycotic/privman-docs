@@ -3,7 +3,7 @@
 [priority]: # (3)
 # ActiveX Installer Action
 
-This type of action is a specific use-case for older Windows systems (Windows XP and Windows Server 2003). The ActiveX installer action allows or denies an application to enable standard users to install approved ActiveX components. If you don’t know what ActiveX means, you won’t need to use this type of action.
+This type of action is a specific use-case for older Windows systems (Windows XP and Windows Server 2003). The ActiveX installer action allows or denies an application to enable standard users to install approved ActiveX components. If you don't know what ActiveX means, you won't need to use this type of action.
 
 ![ActiveX Action Details](images/activeX.png "ActiveX Installer action")
 

@@ -11,9 +11,12 @@ This is the navigation entry point into the macOS Computer Group. The sub nodes 
 
 Refer to the [Policy Wizard](../app-control/policies/policy-wizard/index.md) section for details on decision points for:
 
-* [Creating a Monitoring Policy](../app-control/policies/policy-wizard/monitoring.md)
-* [Creating a Controlling Elevation Policy for macOS](../app-control/policies/policy-wizard/controlling-elevate-macOS.md)
-* [Creating a Controlling Allow Policy for macOS](../app-control/policies/policy-wizard/controlling-allow-macOS.md)
-* [Creating a Controlling Block Policy for macOS](../app-control/policies/policy-wizard/controlling-block-macOS.md)
+* [Creating a Monitoring Policy](../app-control/policies/policy-wizard/monitoring.md).
+
+The following macOS controlling policy decision diagrams are available:
+
+* [Creating a Controlling Elevation Policy for macOS](wizard/controlling-elevate-macOS.md)
+* [Creating a Controlling Allow Policy for macOS](wizard/controlling-allow-macOS.md)
+* [Creating a Controlling Block Policy for macOS](wizard/controlling-block-macOS.md)
 
 For macOS Agent Configuration information refer to [Agent Configuration](../../agents/macOS/cfg/index.md).

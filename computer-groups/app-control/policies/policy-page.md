@@ -15,7 +15,7 @@ By default newly created policies are inactive and to activate them, the switch 
 
 ## Policy Details
 
-The Policy Details section provided information about and customization options for:
+The Policy Details section provides information about and customization options for:
 
 * __Computer Groups Targeted__ can be edited by either
   * deleting the current target by clicking the __x__ next to the computer group name, or
@@ -44,7 +44,7 @@ Under Actions edit which message action to use, if child actions are applicable,
 
 All activity identified on a policy can be recorded by using the Audit Policy Events switch. This setting is automatically enabled for all monitoring policies. It can be activated on demand for controlling policies. Once selected, a confirmation message appears advising users that this functionality should only be enabled for a limited time on a selected number of endpoints.
 
-For Unix/Linux endpoints the `pmagent --privman --refreshpolicies` command needs to run, to update the policy on the endpoint.
+>**Note**: For Unix/Linux endpoints the `pmagent --privman --refreshpolicies` command needs to run, to update the policy on the endpoint.
 
 ## Show Advanced
 

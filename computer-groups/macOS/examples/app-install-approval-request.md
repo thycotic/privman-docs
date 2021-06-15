@@ -21,7 +21,7 @@ Privilege Manager can allow macOS users to install packages on demand. Do the fo
 
 Once the policy is enabled and in place at the endpoint, a user will typically go through the following steps to request an application installation:
 
-1. Mount the DMG containing the application you’d like to install to Applications. If the DMG contains an application bundle that can be dragged to the Applications folder, do so. If the DMG contains an installer application, double-click and proceed with the steps outlined in installing an application.
+1. Mount the DMG containing the application you'd like to install to Applications. If the DMG contains an application bundle that can be dragged to the Applications folder, do so. If the DMG contains an installer application, double-click and proceed with the steps outlined in installing an application.
 1. The Authentication required dialog might open based on system settings:
 
    ![request](images/mac/app_admin_acct_required_20190506.png "Authenticate")

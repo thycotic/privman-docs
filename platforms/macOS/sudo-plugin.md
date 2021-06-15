@@ -3,7 +3,7 @@
 [priority]: # (27)
 # macOS Privilege Manager Sudo Plugin
 
-Apple’s Endpoint Security framework prevents Privilege Manager from performing process elevation of command-line binaries like done in the past. Privilege Manager's previous KEXT support for command line filtering in order to block, elevate, restrict, or allow commands is being replaced with a `sudo` plugin for Apple's newer OS versions starting with Catalina and newer.
+Apple's Endpoint Security framework prevents Privilege Manager from performing process elevation of command-line binaries like done in the past. Privilege Manager's previous KEXT support for command line filtering in order to block, elevate, restrict, or allow commands is being replaced with a `sudo` plugin for Apple's newer OS versions starting with Catalina and newer.
 
 Going forward, the `sudo` plugin supports a modular framework that allows third-party policy evaluation to govern whether a command is allowed to run. This architecture allows Privilege Manager to extend `sudo` functionality without replacing it and without introducing too much change to established workflows.
 

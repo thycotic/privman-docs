@@ -30,7 +30,8 @@ This topic provides a chronological list of documentation changes. Minor content
   * [Configuration Profiles](../platforms/macOS/bp/cfg-profiles/index.md)
   * [File Hash Filter](../admin/filters/types/inventory/file-hash.md), this file replaces the obsolete [File Collection from List os SHA1 HAshes Filter](https://docs.thycotic.com/privman/11.0.0/admin/filters/types/inventory/file-collect-list-sha1-hash.md)
   * [New API to run an existing report](https://docs.thycotic.com/privman-api/11.1.0/reports/index.md) and return the results.
-  * [New API to run a task](https://docs.thycotic.com/privman-api/11.1.0/tasks/index.md) 
+  * [New API to run a task](https://docs.thycotic.com/privman-api/11.1.0/tasks/index.md)
+  * [Thycotic Policy Framework](../getting-started/tpf.md)
 * Added subtopics:
   * [Allow Listing Policies without Actions](../computer-groups/app-control/examples/safe/index.md#allow_listing_policies_without_actions)
 * Changes to topics:

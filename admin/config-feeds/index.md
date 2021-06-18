@@ -19,6 +19,7 @@ Configuration Feeds are extensions to Privilege Manager. They allow Thycotic to 
 | Application Control Solution | [Ignoring macOS Updates](../tasks/client/ignore-os-updates.md) | Contains the policy to ignore macOS Catalina in the Software Update preference pane. Only works with the KEXT agent and Catalina, not supported with SYSEX agent or on Big Sur and up. |
 | |[Reset ignored macOS Software Updates](../tasks/client/ignore-os-updates.md) | Contains the policy to reset ignored macOS software updates in the Software Update preference pane. |
 | | [Secondary File Hash Exclusion Policy](../tasks/client/exclude-from-file-hash.md) | Policy template to exclude non-executable files from the hash process. |
+| | [Thycotic Policy Framework](../../getting-started/tpf.md) | Contains the example Thycotic Policy Framework. Installs 28 quick start policies. |
 | | UNC Allow Policy Template | Contains the UNC Share Allow Policy Template to scan a network share and automatically allow files in MSI, ISO, ZIP files. |
 | | [UNC Elevation Policy Template](../../computer-groups/app-control/examples/elevate/network-share.md) | Contains the UNC Share Elevation Policy Template to scan a network share and automatically elevate MSI and EXE files. |
 | | [Visual Studio Installer Elevation](../../computer-groups/app-control/examples/elevate/ms-visual-studio.md) | Contains example filters and a policy for elevating Visual Studio Installers. After the installation the policy needs to be activated. Note: For enhanced security, the policy should include a certificate filter when rolled out into a production environment. |
@@ -27,6 +28,7 @@ Configuration Feeds are extensions to Privilege Manager. They allow Thycotic to 
 | | [Privileged Behavior Analytics Integration](../config/foreign-systems/thycotic/set-up-pba.md) | Contains tasks for sending data to Privileged Behavior Analytics (PBA) - requires a SysLog Foreign System to be configured. |
 | | [Reset Agent Service Permissions](../../agents/win/pre-10.7.1-agent-hardening.md) | Contains a policy to restore the security descriptor on Thycotic Services for Privilege Manager versions prior to v10.7.1. |
 | | SQL CPU Usage Gauge | Contains a gauge and report to monitor SQL CPU usage. |
+| | Windows Server and Desktop Filters | Contains Windows Server and Desktop Filters. |
 
 ## Installation, Reinstallation, and Updates
 

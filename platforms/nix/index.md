@@ -5,7 +5,6 @@
 
 On Unix/Linux endpoints, best practices around application control varies from how these areas are managed on other operating system endpoints.
 
-
 Platform specific topics covered:
 
 * [Unix/Linux Privilege Manager Sudo Plugin](sudo-plugin.md)

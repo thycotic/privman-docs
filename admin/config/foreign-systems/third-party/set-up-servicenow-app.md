@@ -4,7 +4,7 @@
 
 # ServiceNow Application
 
-With Privilege Manager v11.1, a Thycotic Privilege Manager ServiceNow application is available in the ServiceNow app store allowing approval workflow management.
+With Privilege Manager v11.1, a Thycotic Privilege Manager ServiceNow application is available in the [ServiceNow app store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/bdae5965db77a010484325b2ca96194f/1.0.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3Dthycotic&sl=sh) allowing approval workflow management.
 
 ![alt](images/servicenow/app-nav.png "Application navigation menu")
 

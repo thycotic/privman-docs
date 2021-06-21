@@ -5,7 +5,7 @@
 
 ## Active Directory and Azure Active Directory
 
-For those organizations leveraging [Active Directory (AD)](../admin/config/foreign-systems/active-directory/ad-sync.md) and/or [Azure AD](../admin/config/foreign-systems/active-directory/set-up-privilege-manager-azure-ad-integration.md) as their identity authentication and authorization service, deploying a least privilege program that works seamlessly with AD is absolutely critical. Privilege Manager integrates with AD so administrators can synchronize Domain Objects such as computers, OUs, and security groups from AD with their application control policies. Privilege Manager can leverage the user, group and privilege associations managed by Active Directory in its policy deployment and ensure unauthorized changes to AD made by endpoint users – such as adding a user to a local administrator account – can be blocked automatically and in real time.
+For those organizations leveraging [Active Directory (AD)](../admin/config/foreign-systems/active-directory/ad-sync.md) and/or [Azure AD](../admin/config/foreign-systems/active-directory/set-up-privilege-manager-azure-ad-integration.md) as their identity authentication and authorization service, deploying a least privilege program that works seamlessly with AD is absolutely critical. Privilege Manager integrates with AD so administrators can synchronize Domain Objects such as computers, OUs, and security groups from AD with their application control policies. Privilege Manager can leverage the user, group and privilege associations managed by Active Directory in its policy deployment and ensure unauthorized changes to AD made by endpoint users, such as adding a user to a local administrator account, can be blocked automatically and in real time.
 
 ## Agent & OS Reports
 
@@ -15,7 +15,7 @@ The [Privilege Manager Agents](../install/agents/index.md) are a critical compon
 
 The most powerful applications installed on endpoints are those that require administrator credentials or root privileges to run. Privilege Manager discovers all applications that run on endpoints through its Learning Mode, giving you a precise snapshot of how these applications are used before you implement any changes. You can set up Discovery policies to target any new application action that requires administrator or root access, so no privileged action goes unnoticed.
 
-Non-Domain Endpoint Support - Privilege Manager provides management and application control support for endpoints even if they are not associated with your organizational network. Because it utilizes agents it can manage endpoints outside the network – such as those used by vendors, contractors, and partners - with the same dexterity and precision control as those within the network.
+Non-Domain Endpoint Support: Privilege Manager provides management and application control support for endpoints even if they are not associated with your organizational network. Because it utilizes agents, it can manage endpoints outside the network, such as those used by vendors, contractors, and partners, with the same dexterity and precision control as those within the network.
 
 ## Automated Local Account Password Rotation
 

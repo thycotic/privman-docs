@@ -19,15 +19,3 @@ Privilege Manager does not require Secret Server or any other Thycotic product t
 The typical Privilege Manager user is part of an IT team that is tasked with implementing and overseeing a company's security business requirements and framework. In the Privilege Manager product this role is known as the Privilege Manager Administrator. Although there are a few other kinds of [Privilege Manager user roles](admin/roles/index.md) that may use Privilege Manager now and then for minor tasks, the Privilege Manager Administrator is the main user of Privilege Manager.
 
 It is useful (although not necessary) for Privilege Manager Administrators to be familiar with the basics of IT administration, such as the Group Policy feature from Microsoft.
-
-## What's New in Privilege Manager 11.0
-
-Unix/Linux endpoint agent support. This release does not include user group inventory.
-
-## New in Privilege Manager 10.8
-
-The 10.8 release of Privilege Manager introduces a new user interface, providing a redesigned user experience, simplifying many major areas and typical workflow processes when setting up application policies or local security.
-
-To preview the enhancements made to the user interface, please view this [video](https://vimeo.com/434453083/6c9dec1030).
-
-Switching between the new and old UI post upgrade is not available.

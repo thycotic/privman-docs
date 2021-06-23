@@ -9,7 +9,7 @@ Once you have your foreign system established in the Privilege Manager Console, 
 
 1. Navigate to __Admin | Configuration | Credentials__.
 1. Click __Create__ and create a webhook __API Credential__ as a standard user.
-   1. Create an __API Client User__. Refer to [How to Manually Add API Client Users](../../users/index.md#how_to_manually_add_api_client_users) and [Add Roles to Users](../../users/index.md#add_roles_to_a_user). Copy the __Client Id__ and __Secret__ for the credential.
+   1. Create an __API Client User__. Refer to [How to Manually Add API Client Users](../../../users/index.md#how_to_manually_add_api_client_users) and [Add Roles to Users](../../../users/index.md#add_roles_to_a_user). Copy the __Client Id__ and __Secret__ for the credential.
 1. For __Account Name__ enter the __Client Id__.
 1. For __Password__ enter the __Secret__.
 1. Click __Save Changes__.

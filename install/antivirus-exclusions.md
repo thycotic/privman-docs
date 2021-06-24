@@ -3,7 +3,7 @@
 [priority]: # (1502)
 # Anti Virus Exclusions
 
-For Privilege Manager users we recommend several antivirus exclusions to maintain application performance and integrity. These guidelines apply to both real time and on-demand antivirus scanning.
+For Privilege Manager users, we recommend several antivirus exclusions to maintain application performance and integrity. These guidelines apply to both real time and on-demand antivirus scanning.
 
 ## Directories
 
@@ -26,7 +26,7 @@ Exclude the following directory to prevent degradation in performance and possib
 
 ## Exclusions for Database Server
 
-Exclude the following antivirus programs for databases.
+Exclude the following database files.
 
 ### SQL Server Data Files
 
@@ -43,7 +43,7 @@ These files contain the backup files and typically have the following extensions
 * .bak - database backup files
 * .trn - transaction log backup files
 
-By default the directories that contain the Data and Backup files are located under `C:\Program Files\Microsoft SQL Server\MSSQL11.MSSQLSERVER\MSSQL`.
+By default, the directories that contain the Data and Backup files are located under `C:\Program Files\Microsoft SQL Server\MSSQL11.MSSQLSERVER\MSSQL`.
 
 ### SQL profiler trace files
 
@@ -53,7 +53,7 @@ They usually have the file extension .trc.
 
 ## Exclusions for Managed Endpoints
 
-Exclude the following antivirus programs for managed endpoints.
+Exclude the following for managed endpoints.
 
 ### Request Run As Administrator Registry Key
 
@@ -65,11 +65,12 @@ This context menu is added under the following registry key which some antivirus
 
 ### Client Item Database
 
-This directory contains the Thycotic Agent client item database and should be excluded from antivirus to prevent corruption:
+These directories contain the Thycotic Agent client item database and should be excluded from antivirus to prevent corruption:
 
-`%ProgramData%\Arellia\ClientItems` and `%ProgramData%\Application Data\Arellia`
+* `%ProgramData%\Arellia\ClientItems`
+* `%ProgramData%\Application Data\Arellia`
 
-If required you can further limit this exclusion to all files with the .db and .db-* extensions under this location
+If required, you can further limit this exclusion to all files with the .db and .db-* extensions under this location.
 
 ### Privilege Manager Application Control Agent Service
 

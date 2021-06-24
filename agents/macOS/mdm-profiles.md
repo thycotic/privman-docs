@@ -12,14 +12,14 @@ It is recommended to use the System Extension version, as Apple has deprecated t
 
 ### I. System Extension Allow Payload
 
-Inside your MDM create a System Extension Allow profile based on the below information:
+Inside your MDM, create a System Extension Allow profile based on the below information:
 
 * Team Identifier: UJDHBB2D6Q
 * Allowed System Extensions: com.thycotic.acsd
 
 ### II. SYSEX Privacy Preferences Policy Control (PPPC) Full Disk Access Payload
 
-Inside your MDM create a PPPC profile based on below:
+Inside your MDM, create a PPPC profile based on below:
 
 * Identifier: com.thycotic.acsd
 * Identifier Type: Bundle ID
@@ -39,18 +39,18 @@ Refer to the bottom of the page: [macOS Approval Process](../../computer-groups/
 
 ## Kernel Extension (KEXT)
 
-Apple has deprecated the use of Kernel Extensions. The KEXT version is still available but macOS version dependant. Refer to [Software Downloads: macOS Endpoints](../../install/sw-downloads.md#macos_endpoints)
+Apple has deprecated the use of Kernel Extensions. The KEXT version is still available but macOS version dependent. Refer to [Software Downloads: macOS Endpoints](../../install/sw-downloads.md#macos_endpoints)
 
 ### I.  Kernel Extension Allow Payload
 
-Inside your MDM create a Kernel Extension Allow profile based on the below information:
+Inside your MDM, create a Kernel Extension Allow profile based on the below information:
 
 * Team ID: UJDHBB2D6Q
 * Kernel Extension Bundle ID: com.thycotic.ThycoticACS
 
 ### II. KEXT Privacy Preferences Policy Control (PPPC) Full Disk Access Payload
 
-Inside your MDM create a PPPC profile based on below:
+Inside your MDM, create a PPPC profile based on below:
 
 * Identifier: com.thycotic.ThycoticACS
 * Identifier Type: Bundle ID

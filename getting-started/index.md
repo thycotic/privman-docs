@@ -18,7 +18,7 @@ Refer to these topics to learn more about the initial installation and setup ste
 1. [Login](login.md)
 1. [Licenses](licenses.md)
 
->**Note**: If you are targeting macOS based endpoints refer to [Getting Started with macOS](../platforms/macOS/bp/cfg-profiles/index.md).
+>**Note**: If you are targeting macOS based endpoints, refer to [Getting Started with macOS](../platforms/macOS/bp/cfg-profiles/index.md).
 ## Rollout Recommendation
 
 Familiarize yourself with the [Least Privilege](../pm-intro/least-privilege.md) concept. Thycotic recommends a phased roll-out between the Application Control and Local Security, for example:

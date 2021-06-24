@@ -11,6 +11,8 @@ The following topics provide a guided path through the instance setup and subseq
 
   * [Setting the Server Address for Privilege Manager Agents](../../agents/all/agent-set-server-address.md), if the address provided during the agent installation requires updates.
 
+>**Note**: If you are targeting macOS based endpoints, refer to [Getting Started with macOS](../../platforms/macOS/bp/cfg-profiles/index.md).
+
 ## Cloud Specific vs. On-prem
 
 The new Privilege Manager Application Programming Interface is by default available on all cloud instances upgraded to 10.8 or newly created.

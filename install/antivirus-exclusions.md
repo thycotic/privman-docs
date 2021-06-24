@@ -7,10 +7,11 @@ For Privilege Manager users we recommend several antivirus exclusions to maintai
 
 ## Directories
 
-Exclude these two directories from your antivirus filters to ensure Privilege Manager processes will not be blocked (or for a more granular approach to these exclusions, see the Client Item Database and Privilege Manager Application Control Agent Services sections at the end of this article):
+Exclude these directories from your antivirus filters to ensure Privilege Manager processes will not be blocked (or for a more granular approach to these exclusions, see the Client Item Database and Privilege Manager Application Control Agent Services sections at the end of this article):
 
 ```
 %ProgramData%\Arellia\
+%ProgramData%\Application Data\Arellia
 %ProgramFiles%\Thycotic\
 ```
 
@@ -66,7 +67,7 @@ This context menu is added under the following registry key which some antivirus
 
 This directory contains the Thycotic Agent client item database and should be excluded from antivirus to prevent corruption:
 
-`%ProgramData%\Arellia\ClientItems`
+`%ProgramData%\Arellia\ClientItems` and `%ProgramData%\Application Data\Arellia`
 
 If required you can further limit this exclusion to all files with the .db and .db-* extensions under this location
 

@@ -1,8 +1,8 @@
-[title]: # (Configuration Profiles)
+[title]: # (Getting Started)
 [tags]: # (macOS, best practices)
 [priority]: # (1)
 
-# Configuration Profiles
+# Getting Started with macOS
 
 Refer to the following topics for prerequisites that allow for an environment-wide macOS deployment:
 

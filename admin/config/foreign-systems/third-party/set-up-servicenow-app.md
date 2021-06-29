@@ -20,6 +20,7 @@ In ServiceNow:
 
 In the Privilege Manager console:
 
+* Under __Admin | Configuration | Advanced__, set the __API Settings | API Enabled__ switch to yes.
 * An API Client User to use with the ServiceNow webhook configuration.
 * A Foreign Systems configuration for the ServiceNow webhook configuration. Refer to [ServiceNow Webhook Setup](set-up-servicenow-webhook.md).
 

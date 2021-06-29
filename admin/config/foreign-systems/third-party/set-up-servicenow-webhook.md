@@ -5,6 +5,8 @@
 
 Once you have your foreign system established in the Privilege Manager Console, you are ready to also enable Webhook configuration.
 
+>**Note**: Webhook configuration requires an enabled API setting under __Admin | Configuration | Advanced__. Set the __API Settings | API Enabled__ switch to yes.
+
 ## Configuration an API Credential
 
 1. Navigate to __Admin | Configuration | Credentials__.
@@ -52,5 +54,6 @@ The registration request body is visible in the ServiceNow instance on the Integ
 The supported __Activity Type__ must be registered before a request of a specific request type can be sent. Activity registration will return ActivityType Id(returned as __sys id__ on a POST).
 
 The Activity type supports two valid responses:
+
 * Approve
 * Deny

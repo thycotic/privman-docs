@@ -5,6 +5,11 @@
 
 This topic provides a chronological list of documentation changes. Minor content alterations are not tracked.
 
+## July 2021
+
+* Added topics:
+  * [11.1.1 Release Notes](11.1.1-hotfix.md)
+
 ## June 2021
 
 * Added topics:

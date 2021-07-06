@@ -16,7 +16,7 @@ This topic explains how to uninstall the Agent through command line. If you're t
 1. Run the following command:
 
    ```sh
-   msiexec.exe /uninstall <path to the msi installer>\ThycoticAgent_x64_11_1_1103.msi
+   msiexec.exe /uninstall <path to the msi installer>\ThycoticAgent_x64_11_1_1156.msi
    ```
 1. Select __Yes__ on the Windows Installer prompt.
 

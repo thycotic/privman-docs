@@ -9,7 +9,7 @@ This page provides links to Thycotic Privilege Manager product and agents softwa
 
 | Version | Product |
 | ----- | ----- |
-| 11.0.0 | [Combined Secret Server and Privilege Manager Installer](https://thycotic.force.com/support/s/download-onprem) - Authentication required! |
+| 11.1.1 | [Combined Secret Server and Privilege Manager Installer](https://thycotic.force.com/support/s/download-onprem) - Authentication required! |
 | | [Privilege Manager Application Files](https://thycotic.force.com/support/s/download-onprem) - Authentication required! |
 
 ## Agent Software
@@ -18,14 +18,14 @@ This page provides links to Thycotic Privilege Manager product and agents softwa
 
 | Agent Version | Product |
 | ----- | ----- |
-| 11.1.1142 | [Bundled Privilege Manager Agent Installer - Windows](https://tmsnuget.thycotic.com/software/Agents/ThycoticAgentsInstaller_x86_11_1_1142.exe) |
-| 11.1.1142 | [Core Thycotic Agent (x64)](https://tmsnuget.thycotic.com/software/Agents/ThycoticAgent_x64_11_1_1142.msi) |
-| 11.1.1142 | [Core Thycotic Agent (x86)](https://tmsnuget.thycotic.com/software/Agents/ThycoticAgent_x86_11_1_1142.msi) |
-| 11.1.1103 | [Application Control Agent (x64)](https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x64_11_1_1103.msi) [*1] |
-| 11.1.1103 | [Application Control Agent (x86)](https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x86_11_1_1103.msi) [*1] |
-| 11.1.1103 | [Local Security Solution Agent (x64)](https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x64_11_1_1103.msi) |
-| 11.1.1103 | [Local Security Solution Agent (x86)](https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x86_11_1_1103.msi) |
-| 11.1.1142 | [Bundled Privilege Manager Core and Directory Services Agent - Windows](https://tmsnuget.thycotic.com/software/Agents/ThycoticDirectoryServicesInstaller_x86_11_1_1142.exe) |
+| 11.1.1156 | [Bundled Privilege Manager Agent Installer - Windows](https://tmsnuget.thycotic.com/software/Agents/ThycoticAgentsInstaller_x86_11_1_1142.exe) |
+| 11.1.1156 | [Core Thycotic Agent (x64)](https://tmsnuget.thycotic.com/software/Agents/ThycoticAgent_x64_11_1_1142.msi) |
+| 11.1.1156 | [Core Thycotic Agent (x86)](https://tmsnuget.thycotic.com/software/Agents/ThycoticAgent_x86_11_1_1142.msi) |
+| 11.1.1157 | [Application Control Agent (x64)](https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x64_11_1_1103.msi) [*1] |
+| 11.1.1157 | [Application Control Agent (x86)](https://tmsnuget.thycotic.com/software/Agents/Thycotic_ApplicationControlAgent_x86_11_1_1103.msi) [*1] |
+| 11.1.1156 | [Local Security Solution Agent (x64)](https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x64_11_1_1103.msi) |
+| 11.1.1156 | [Local Security Solution Agent (x86)](https://tmsnuget.thycotic.com/software/Agents/Thycotic_LocalSecurityAgent_x86_11_1_1103.msi) |
+| 11.1.1156 | [Bundled Privilege Manager Core and Directory Services Agent - Windows](https://tmsnuget.thycotic.com/software/Agents/ThycoticDirectoryServicesInstaller_x86_11_1_1142.exe) |
 | 11.1.1054 | [Directory Services Agent (x64)](https://tmsnuget.thycotic.com/software/Agents/Thycotic_DirectoryServicesAgent_x64_11_1_1054.msi) |
 
 * [1]: Do not update to version 11, if endpoint runs Windows 10 version 1507.
@@ -58,4 +58,4 @@ This page provides links to Thycotic Privilege Manager product and agents softwa
 | 1.2.0.186 | | | 8.x | [Privilege Manager Linux Agent v1.2.0](https://tmsnuget.thycotic.com/software/NixAgents/pmagent_x86_64_v1.2.0.186_oraclelinux8.rpm) |
 | | | | | [Signature verification file](https://tmsnuget.thycotic.com/software/NixAgents/pmagent_x86_64_v1.2.0.186_oraclelinux8.rpm.sha256) |
 
-You can download the public Unix/Linux certificate [here](pmagent_x86_64_v1.2.0.186_oraclelinux8.rpm).
+You can download the public Unix/Linux certificate [here](https://tmsnuget.thycotic.com/software/NixAgents/cert_public.pem).

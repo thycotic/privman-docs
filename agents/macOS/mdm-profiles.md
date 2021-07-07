@@ -29,6 +29,8 @@ Inside your MDM, create a PPPC profile based on below:
 anchor apple generic and identifier "com.thycotic.acsd" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UJDHBB2D6Q)
 ```
 
+* Service and Key Value: SystemPolicyAllFiles: Allow
+
 ### III. (PPPC) Allow Notifications Payload
 
 Refer to: [Manage Privilege Manager Notifications on macOS](../../ui/alert/macOS-notify-mgtm.md)
@@ -59,3 +61,5 @@ Inside your MDM, create a PPPC profile based on below:
 ```text
 anchor apple generic and identifier "com.thycotic.ThycoticACS" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UJDHBB2D6Q)
 ```
+
+* Service and Key Value: SystemPolicyAllFiles: Allow

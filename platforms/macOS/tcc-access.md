@@ -17,6 +17,8 @@ macOS versions prior to Catalina do not experience this restriction.
 
 ## Workaround via MDM Solution
 
+>**Note**: Not required if [Using MDM Profiles for your Agent](../../agents/macOS/mdm-profiles.md) is utilized.
+
 If an MDM solution is in place, a TCC profile can be used to alleviate the problem. The below example can be used as a starting point. The example was specifically created for full disk access for a mobile configuration.
 
 Either create a TCC profile based on this example for your environment or copy and paste the contents into a file and edit to meet your requirements.
